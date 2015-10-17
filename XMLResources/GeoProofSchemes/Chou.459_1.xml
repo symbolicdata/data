@@ -1,0 +1,44 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/459_1 </Title>
+<prooftype> equational, constraints </prooftype>
+<vars>x1,x2,x3,x4,x5,x6,x7,x8,x9,x10</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[x1, x2]</Point>
+<Point id='$c_4' type='free'>Point[x3, x4]</Point>
+<Point id='$c_5' type='free'>Point[x9, x10]</Point>
+</Points>
+<Assignments>
+<Circle id='$c_6'>pc_circle[$c_3, $c_0]</Circle>
+<Point id='$c_7'>midpoint[$c_0, $c_1]</Point>
+<Point id='$c_8'>midpoint[$c_2, $c_1]</Point>
+<Point id='$c_9'>varpoint[$c_0, $c_4, x5]</Point>
+<Point id='$c_10'>varpoint[$c_1, $c_4, x6]</Point>
+<Point id='$c_11'>varpoint[$c_2, $c_1, x7]</Point>
+<Point id='$c_12'>varpoint[$c_0, $c_1, x8]</Point>
+<Line id='$c_21'>pp_line[$c_01, $c_0]</Line>
+<Line id='$c_22'>pp_line[$c_3, $c_0]</Line>
+<Line id='$c_24'>pp_line[$c_12, $c_2]</Line>
+<Line id='$c_25'>pp_line[$c_3, $c_2]</Line>
+</Assignments>
+<Properties>
+<prop>on_circle[$c_2, $cc]</prop>
+<prop>on_circle[$c_1, $cc]</prop>
+<prop>eq_angle[$c_0, $c_2, $c_4, $c_7, $c_2, $c_1]</prop>
+<prop>eq_angle[$c_1, $c_0, $c_4, $c_8, $c_0, $c_2]</prop>
+<prop>on_circle[$c_9, $cc]</prop>
+<prop>on_circle[$c_10, $cc]</prop>
+<prop>is_collinear[$c_5, $c_1, $c_9]</prop>
+<prop>is_collinear[$c_5, $c_0, $c_10]</prop>
+<prop>is_orthogonal[$c_21, $c_22]</prop>
+<prop>is_orthogonal[$c_24, $c_25]</prop>
+</Properties>
+<Conclusions>
+<prop>is_collinear[$c_4, $c_2, $c_5]</prop>
+<prop>is_collinear[$c_5, $c_12, $c_01]</prop>
+</Conclusions>
+</Construction>

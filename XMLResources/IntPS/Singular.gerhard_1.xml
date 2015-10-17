@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-04-20" createdBy="obachman">
+  <vars>w,t,x,y,z</vars>
+  <basis>
+    <poly>7*w^2*y+4*x^2*y+x*y^2+2*w*t*z</poly>
+    <poly>3*w^3*t*z+3*w^2*y*z^2+2*y*z^4</poly>
+    <poly>2*t^2*x^5*y^3+5*w^4*t^3*x^2*z</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Singular/gerhard_1</changed>
+  </ChangeLog>
+</INTPS>

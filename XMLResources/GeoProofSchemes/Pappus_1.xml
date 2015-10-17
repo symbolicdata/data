@@ -1,0 +1,33 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Pappus_1 </Title>
+<prooftype> linear </prooftype>
+<vars>x1,x2</vars>
+<parameters>u1,u2,u3,u4,u5,u6,u7,u8,u9,u0</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[u1, u2]</Point>
+<Point id='$c_1' type='free'>Point[u3, u4]</Point>
+<Point id='$c_2' type='free'>Point[x1, u5]</Point>
+<Point id='$c_3' type='free'>Point[u6, u7]</Point>
+<Point id='$c_4' type='free'>Point[u8, u9]</Point>
+<Point id='$c_5' type='free'>Point[u0, x2]</Point>
+</Points>
+<Assignments>
+<Line id='$c_8'>pp_line[$c_0, $c_4]</Line>
+<Line id='$c_9'>pp_line[$c_3, $c_1]</Line>
+<Point id='$c_10'>intersection_point[$c_8, $c_9]</Point>
+<Line id='$c_11'>pp_line[$c_0, $c_5]</Line>
+<Line id='$c_12'>pp_line[$c_3, $c_2]</Line>
+<Point id='$c_13'>intersection_point[$c_11, $c_12]</Point>
+<Line id='$c_14'>pp_line[$c_1, $c_5]</Line>
+<Line id='$c_15'>pp_line[$c_4, $c_2]</Line>
+<Point id='$c_16'>intersection_point[$c_14, $c_15]</Point>
+</Assignments>
+<Properties>
+<prop>is_collinear[$c_0, $c_1, $c_2]</prop>
+<prop>is_collinear[$c_3, $c_4, $c_5]</prop>
+</Properties>
+<Conclusions>
+<prop>is_collinear[$c_10, $c_13, $c_16]</prop>
+</Conclusions>
+</Construction>

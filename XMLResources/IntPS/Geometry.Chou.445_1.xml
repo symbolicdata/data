@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<INTPS createdAt="2000-03-22" createdBy="graebe">
+  <vars>x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,u1,u2,u3</vars>
+  <basis>
+    <poly>2*x9-u1</poly>
+    <poly>2*x9*u2+2*x10*u3-u2^2-u3^2</poly>
+    <poly>-x7*u3-x8*u1+x8*u2+u1*u3</poly>
+    <poly>-x5*u3-x6*u1+x6*u2+u1*u3</poly>
+    <poly>x4</poly>
+    <poly>-x2+x8</poly>
+    <poly>x1*u3-x2*u2-x5*u3+x6*u2</poly>
+    <poly>x1*u3+x2*u1-x2*u2-x3*u3-x4*u1+x4*u2</poly>
+    <poly>-x1*u1*u3-2*x2*u1^2+3*x2*u1*u2-x2*u2^2-x2*u3^2+u1^2*u3</poly>
+    <poly>x1*u1*u3-x2*u1*u2-x2*u2^2-x2*u3^2</poly>
+    <poly>-x5^2-x6^2+x7^2+x8^2+2*x5*x11-2*x7*x11+2*x6*x12-2*x8*x12</poly>
+    <poly>x3^2+x4^2-x5^2-x6^2-2*x3*x11+2*x5*x11-2*x4*x12+2*x6*x12</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Geometry/Chou_445_1</changed>
+  </ChangeLog>
+</INTPS>

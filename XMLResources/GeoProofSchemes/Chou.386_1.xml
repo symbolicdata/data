@@ -1,0 +1,24 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/386_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_4'>pedalpoint[$c_2, $c_3]</Point>
+<Line id='$c_5'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_6'>sym_point[$c_4, $c_5]</Point>
+<Point id='$c_7'>varpoint[$c_0, $c_6, u4]</Point>
+<Line id='$c_8'>pp_line[$c_6, $c_4]</Line>
+<Line id='$c_9'>altitude[$c_2, $c_1, $c_7]</Line>
+<Line id='$c_10'>median[$c_0, $c_1, $c_7]</Line>
+</Assignments>
+<Conclusions>
+<prop>is_concurrent[$c_8, $c_9, $c_10]</prop>
+</Conclusions>
+</Construction>

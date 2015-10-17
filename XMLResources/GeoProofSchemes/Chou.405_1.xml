@@ -1,0 +1,26 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/405_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_4'>pedalpoint[$c_2, $c_3]</Point>
+<Line id='$c_5'>pp_line[$c_2, $c_1]</Line>
+<Point id='$c_6'>pedalpoint[$c_0, $c_5]</Point>
+<Point id='$c_7'>orthocenter[$c_2, $c_0, $c_1]</Point>
+<Line id='$c_8'>pp_line[$c_2, $c_0]</Line>
+<Line id='$c_9'>pp_line[$c_4, $c_6]</Line>
+<Point id='$c_10'>intersection_point[$c_8, $c_9]</Point>
+<Line id='$c_11'>pp_line[$c_10, $c_1]</Line>
+<Point id='$c_12'>pedalpoint[$c_7, $c_11]</Point>
+</Assignments>
+<Conclusions>
+<prop>is_concyclic[$c_2, $c_0, $c_1, $c_12]</prop>
+</Conclusions>
+</Construction>

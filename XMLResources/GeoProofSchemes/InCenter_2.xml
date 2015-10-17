@@ -1,0 +1,22 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> InCenter_2 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u1, u2]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_4'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_5'>sym_line[$l1, $c_4]</Line>
+<Line id='$c_6'>pp_line[$c_1, $c_2]</Line>
+<Line id='$c_7'>sym_line[$l1, $c_6]</Line>
+<Point id='$c_8'>intersection_point[$l2, $l3]</Point>
+</Assignments>
+<Conclusions>
+<prop>on_bisector[$c_2, $c_0, $c_1, $c_8]</prop>
+</Conclusions>
+</Construction>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-03-26" createdBy="graebe">
+  <vars>u0,u1,u2,u3</vars>
+  <basis>
+    <poly>u0+2*u1+2*u2+2*u3-1</poly>
+    <poly>u1^2+2*u0*u2+2*u1*u3-u2</poly>
+    <poly>2*u0*u1+2*u1*u2+2*u2*u3-u1</poly>
+    <poly>u0^2+2*u1^2+2*u2^2+2*u3^2-u0</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Katsura_3</changed>
+  </ChangeLog>
+</INTPS>

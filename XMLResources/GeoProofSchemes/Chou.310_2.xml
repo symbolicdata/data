@@ -1,0 +1,30 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/310_2 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, 1]</Point>
+</Points>
+<Assignments>
+<Point id='$c_2'>circle_slider[$c_0, $c_1, u1]</Point>
+<Point id='$c_3'>circle_slider[$c_0, $c_1, u2]</Point>
+<Point id='$c_4'>circle_slider[$c_0, $c_1, u3]</Point>
+<Point id='$c_5'>circle_slider[$c_0, $c_1, u4]</Point>
+<Line id='$c_6'>pp_line[$c_3, $c_4]</Line>
+<Point id='$c_7'>pedalpoint[$c_5, $c_6]</Point>
+<Line id='$c_8'>pp_line[$c_1, $c_4]</Line>
+<Point id='$c_9'>pedalpoint[$c_5, $c_8]</Point>
+<Line id='$c_10'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_11'>pedalpoint[$c_5, $c_10]</Point>
+<Line id='$c_12'>pp_line[$c_2, $c_3]</Line>
+<Point id='$c_13'>pedalpoint[$c_5, $c_12]</Point>
+<Line id='$c_14'>pp_line[$c_7, $c_13]</Line>
+<Line id='$c_15'>pp_line[$c_11, $c_9]</Line>
+<Point id='$c_16'>intersection_point[$c_14, $c_15]</Point>
+</Assignments>
+<Conclusions>
+<prop>is_concyclic[$c_5, $c_13, $c_11, $c_16]</prop>
+</Conclusions>
+</Construction>

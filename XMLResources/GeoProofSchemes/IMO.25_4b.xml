@@ -1,0 +1,33 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> IMO/25_4b </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2</vars>
+<parameters>u1,u2</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[-1, 0]</Point>
+<Point id='$c_1' type='free'>Point[1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u1, u2]</Point>
+<Point id='$c_3' type='free'>Point[x1, x2]</Point>
+</Points>
+<Assignments>
+<Line id='$c_4'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_5'>midpoint[$c_0, $c_1]</Point>
+<Circle id='$c_6'>pc_circle[$c_5, $c_0]</Circle>
+<Line id='$c_7'>pp_line[$c_2, $c_3]</Line>
+<Point id='$c_8'>midpoint[$c_2, $c_3]</Point>
+<Circle id='$c_9'>pc_circle[$c_8, $c_2]</Circle>
+<Line id='$c_12'>pp_line[$c_1, $c_2]</Line>
+<Line id='$c_13'>pp_line[$c_0, $c_3]</Line>
+<Line id='$c_15'>pp_line[$c_1, $c_3]</Line>
+<Line id='$c_16'>pp_line[$c_0, $c_2]</Line>
+</Assignments>
+<Properties>
+<prop>is_cl_tangent[$k1, $l2]</prop>
+<prop>is_cl_tangent[$k2, $l1]</prop>
+</Properties>
+<Conclusions>
+<prop>is_parallel[$c_12, $c_13]</prop>
+<prop>is_parallel[$c_15, $c_16]</prop>
+</Conclusions>
+</Construction>

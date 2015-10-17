@@ -1,0 +1,28 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> IMO/26_5 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[-1, 0]</Point>
+<Point id='$c_1' type='free'>Point[1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>p_bisector[$c_0, $c_1]</Line>
+<Point id='$c_4'>line_slider[$c_3, u1]</Point>
+<Circle id='$c_5'>pc_circle[$c_4, $c_0]</Circle>
+<Line id='$c_6'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_7'>other_cl_point[$c_0, $c_5, $c_6]</Point>
+<Line id='$c_8'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_9'>other_cl_point[$c_1, $c_5, $c_8]</Point>
+<Circle id='$c_10'>p3_circle[$c_0, $c_2, $c_1]</Circle>
+<Circle id='$c_11'>p3_circle[$c_7, $c_2, $c_9]</Circle>
+<Point id='$c_12'>other_cc_point[$c_2, $c_10, $c_11]</Point>
+<Line id='$c_13'>pp_line[$c_4, $c_12]</Line>
+<Line id='$c_14'>pp_line[$c_12, $c_2]</Line>
+</Assignments>
+<Conclusions>
+<prop>is_orthogonal[$c_13, $c_14]</prop>
+</Conclusions>
+</Construction>

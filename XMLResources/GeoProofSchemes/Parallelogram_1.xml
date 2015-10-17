@@ -1,0 +1,29 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Parallelogram_1 </Title>
+<prooftype> linear </prooftype>
+<vars>x1,x2,x3,x4</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[x1, x2]</Point>
+<Point id='$c_4' type='free'>Point[x3, x4]</Point>
+</Points>
+<Assignments>
+<Line id='$c_5'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_6'>pp_line[$c_3, $c_2]</Line>
+<Line id='$c_8'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_9'>pp_line[$c_1, $c_3]</Line>
+</Assignments>
+<Properties>
+<prop>is_parallel[$c_5, $c_6]</prop>
+<prop>is_parallel[$c_8, $c_9]</prop>
+<prop>is_collinear[$c_0, $c_3, $c_4]</prop>
+<prop>is_collinear[$c_1, $c_2, $c_4]</prop>
+</Properties>
+<Conclusions>
+<prop>eq_dist[$c_0, $c_4, $c_3, $c_4]</prop>
+</Conclusions>
+</Construction>

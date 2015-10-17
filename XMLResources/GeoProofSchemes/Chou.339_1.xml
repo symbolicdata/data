@@ -1,0 +1,32 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/339_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>p_bisector[$c_0, $c_1]</Line>
+<Line id='$c_4'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_5'>intersection_point[$c_3, $c_4]</Point>
+<Line id='$c_6'>p_bisector[$c_0, $c_2]</Line>
+<Line id='$c_7'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_8'>intersection_point[$c_6, $c_7]</Point>
+<Point id='$c_9'>midpoint[$c_5, $c_8]</Point>
+<Circle id='$c_10'>pc_circle[$c_9, $c_1]</Circle>
+<Line id='$c_11'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_12'>other_cl_point[$c_1, $c_10, $c_11]</Point>
+<Circle id='$c_13'>pc_circle[$c_9, $c_2]</Circle>
+<Line id='$c_14'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_15'>other_cl_point[$c_2, $c_13, $c_14]</Point>
+<Line id='$c_16'>pp_line[$c_0, $c_9]</Line>
+<Line id='$c_17'>pp_line[$c_1, $c_15]</Line>
+<Line id='$c_18'>pp_line[$c_2, $c_12]</Line>
+</Assignments>
+<Conclusions>
+<prop>is_concurrent[$c_16, $c_17, $c_18]</prop>
+</Conclusions>
+</Construction>

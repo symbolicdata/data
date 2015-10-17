@@ -1,0 +1,20 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/179_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, u1]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>orthocenter[$c_0, $c_1, $c_2]</Point>
+<Circle id='$c_4'>p3_circle[$c_3, $c_1, $c_2]</Circle>
+<Line id='$c_5'>altitude[$c_3, $c_3, $c_2]</Line>
+<Point id='$c_6'>other_cl_point[$c_3, $c_4, $c_5]</Point>
+</Assignments>
+<Conclusions>
+<prop>eq_dist[$c_3, $c_6, $c_0, $c_1]</prop>
+</Conclusions>
+</Construction>

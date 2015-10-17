@@ -1,0 +1,41 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/353_2 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_4'>pedalpoint[$c_2, $c_3]</Point>
+<Line id='$c_5'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_6'>sym_point[$c_4, $c_5]</Point>
+<Line id='$c_7'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_8'>sym_point[$c_4, $c_7]</Point>
+<Line id='$c_9'>pp_line[$c_0, $c_6]</Line>
+<Line id='$c_10'>pp_line[$c_1, $c_8]</Line>
+<Point id='$c_11'>intersection_point[$c_9, $c_10]</Point>
+<Line id='$c_12'>altitude[$c_0, $c_2, $c_0]</Line>
+<Line id='$c_13'>pp_line[$c_11, $c_2]</Line>
+<Point id='$c_14'>intersection_point[$c_12, $c_13]</Point>
+<Line id='$c_15'>altitude[$c_1, $c_2, $c_1]</Line>
+<Line id='$c_16'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_17'>intersection_point[$c_15, $c_16]</Point>
+<Line id='$c_18'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_19'>pedalpoint[$c_14, $c_18]</Point>
+<Line id='$c_20'>pp_line[$c_11, $c_1]</Line>
+<Point id='$c_21'>pedalpoint[$c_17, $c_20]</Point>
+<Line id='$c_22'>pp_line[$c_19, $c_11]</Line>
+<Line id='$c_23'>pp_line[$c_21, $c_0]</Line>
+<Point id='$c_24'>intersection_point[$c_22, $c_23]</Point>
+<Point id='$c_25'>midpoint[$c_24, $c_11]</Point>
+<Point id='$c_26'>midpoint[$c_2, $c_25]</Point>
+<Line id='$c_27'>median[$c_11, $c_0, $c_1]</Line>
+</Assignments>
+<Conclusions>
+<prop>on_line[$c_26, $c_27]</prop>
+</Conclusions>
+</Construction>

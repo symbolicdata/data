@@ -1,0 +1,26 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/462_1 </Title>
+<prooftype> equational, constraints </prooftype>
+<vars>x1,x2,x3</vars>
+<parameters>u1,u2,u3,u4</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[x1, u4]</Point>
+<Point id='$c_4' type='free'>Point[x2, x3]</Point>
+</Points>
+<Assignments>
+<Line id='$c_8'>pp_line[$c_4, $c_3]</Line>
+<Line id='$c_9'>pp_line[$c_0, $c_1]</Line>
+</Assignments>
+<Properties>
+<prop>is_concyclic[$c_2, $c_0, $c_1, $c_3]</prop>
+<prop>eq_angle[$c_0, $c_2, $c_4, $c_3, $c_2, $c_1]</prop>
+<prop>is_concyclic[$c_2, $c_0, $c_1, $c_4]</prop>
+</Properties>
+<Conclusions>
+<prop>is_parallel[$c_8, $c_9]</prop>
+</Conclusions>
+</Construction>

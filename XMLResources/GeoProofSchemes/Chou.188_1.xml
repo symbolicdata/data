@@ -1,0 +1,25 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/188_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, u1]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>orthocenter[$c_0, $c_1, $c_2]</Point>
+<Line id='$c_4'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_5'>pedalpoint[$c_2, $c_4]</Point>
+<Line id='$c_6'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_7'>pedalpoint[$c_5, $c_6]</Point>
+<Line id='$c_8'>pp_line[$c_0, $c_3]</Line>
+<Point id='$c_9'>pedalpoint[$c_5, $c_8]</Point>
+<Line id='$c_10'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_11'>pedalpoint[$c_5, $c_10]</Point>
+</Assignments>
+<Conclusions>
+<prop>is_collinear[$c_7, $c_9, $c_11]</prop>
+</Conclusions>
+</Construction>

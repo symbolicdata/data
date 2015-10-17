@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<INTPS createdAt="2000-03-22" createdBy="graebe">
+  <vars>x1,x2,x3,u1,u2,u3</vars>
+  <basis>
+    <poly>-x2^2-x3^2+2*x3*u2+u1^2</poly>
+    <poly>x1^2-u2*u3+u3^2</poly>
+    <poly>2*x1^2-2*x1*x2+x3*u2-2*x3*u3-u2*u3+2*u3^2</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Geometry/Chou_132_1</changed>
+  </ChangeLog>
+</INTPS>

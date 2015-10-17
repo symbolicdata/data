@@ -1,0 +1,36 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/69_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4,u5</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, u1]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[u4, u5]</Point>
+</Points>
+<Assignments>
+<Point id='$c_4'>par_point[$c_0, $c_1, $c_2]</Point>
+<Line id='$c_5'>pp_line[$c_3, $c_1]</Line>
+<Line id='$c_6'>par_line[$c_4, $c_5]</Line>
+<Line id='$c_7'>pp_line[$c_3, $c_0]</Line>
+<Point id='$c_8'>intersection_point[$c_6, $c_7]</Point>
+<Line id='$c_9'>pp_line[$c_3, $c_0]</Line>
+<Line id='$c_10'>par_line[$c_2, $c_9]</Line>
+<Line id='$c_11'>pp_line[$c_3, $c_1]</Line>
+<Point id='$c_12'>intersection_point[$c_10, $c_11]</Point>
+<Line id='$c_13'>pp_line[$c_8, $c_4]</Line>
+<Line id='$c_14'>pp_line[$c_12, $c_2]</Line>
+<Point id='$c_15'>intersection_point[$c_13, $c_14]</Point>
+<Line id='$c_16'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_17'>pp_line[$c_12, $c_8]</Line>
+<Line id='$c_18'>pp_line[$c_3, $c_15]</Line>
+<Line id='$c_20'>pp_line[$c_1, $c_4]</Line>
+<Line id='$c_21'>pp_line[$c_12, $c_8]</Line>
+<Line id='$c_22'>pp_line[$c_3, $c_15]</Line>
+</Assignments>
+<Conclusions>
+<prop>is_concurrent[$c_16, $c_17, $c_18]</prop>
+<prop>is_concurrent[$c_20, $c_21, $c_22]</prop>
+</Conclusions>
+</Construction>

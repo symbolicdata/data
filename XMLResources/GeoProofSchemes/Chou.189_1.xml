@@ -1,0 +1,22 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/189_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, u1]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>circumcenter[$c_0, $c_1, $c_2]</Point>
+<Point id='$c_4'>orthocenter[$c_0, $c_1, $c_2]</Point>
+<Line id='$c_5'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_6'>pedalpoint[$c_3, $c_5]</Point>
+<Distance id='$c_7'>sqrdist[$c_0, $c_4]</Distance>
+<Distance id='$c_8'>sqrdist[$c_3, $c_6]</Distance>
+</Assignments>
+<Conclusions>
+<prop>is_equal[$c_7, 4*$c_8]</prop>
+</Conclusions>
+</Construction>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-09-22" createdBy="wenk">
+  <vars>x,y,z</vars>
+  <basis>
+    <poly>y^2+2*x-7*y+2*z+5</poly>
+    <poly>x^2+6*x+3*y+6*z-4</poly>
+    <poly>x^2+y^2+z^2-1</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/ZeroDim/example_4</changed>
+  </ChangeLog>
+</INTPS>

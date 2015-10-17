@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<GAlgebra createdAt="2003-07-03" createdBy="levandovsky">
+  <parameters>Q</parameters>
+  <vars>x,y,z,a,b,c,d</vars>
+  <commutators>
+    <commutator fst="x" snd="z">
+      <C>1/Q^2</C>
+      <D>1/Q*y</D>
+    </commutator>
+    <commutator fst="x" snd="y">
+      <C>Q^2</C>
+      <D>-Q*z</D>
+    </commutator>
+    <commutator fst="y" snd="z">
+      <C>Q^2</C>
+      <D>-Q*x</D>
+    </commutator>
+  </commutators>
+  <basis>
+    <ncpoly>(Q^4*x^2+y^2+Q^4*z^2+Q*(1-Q^4)*x*y*z)^7</ncpoly>
+  </basis>
+</GAlgebra>

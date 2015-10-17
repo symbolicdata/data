@@ -1,0 +1,22 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> PappusPoint_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4,u5,u6,u7,u8</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[u1, 0]</Point>
+<Point id='$c_1' type='free'>Point[u2, 0]</Point>
+<Point id='$c_2' type='free'>Point[u4, u5]</Point>
+<Point id='$c_3' type='free'>Point[u6, u7]</Point>
+</Points>
+<Assignments>
+<Point id='$c_4'>varpoint[$c_0, $c_1, u3]</Point>
+<Point id='$c_5'>varpoint[$c_2, $c_3, u8]</Point>
+<Line id='$c_6'>pappus_line[$c_0, $c_1, $c_4, $c_2, $c_3, $c_5]</Line>
+<Line id='$c_7'>pappus_line[$c_0, $c_1, $c_4, $c_3, $c_5, $c_2]</Line>
+<Line id='$c_8'>pappus_line[$c_0, $c_1, $c_4, $c_5, $c_2, $c_3]</Line>
+</Assignments>
+<Conclusions>
+<prop>is_concurrent[$c_6, $c_7, $c_8]</prop>
+</Conclusions>
+</Construction>

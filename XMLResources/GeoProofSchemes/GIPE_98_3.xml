@@ -1,0 +1,26 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Contests/GIPE_98_3 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, -1]</Point>
+<Point id='$c_1' type='free'>Point[0, 1]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>p_bisector[$c_0, $c_1]</Line>
+<Point id='$c_4'>line_slider[$c_3, u1]</Point>
+<Point id='$c_5'>midpoint[$c_0, $c_1]</Point>
+<Line id='$c_6'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_7'>par_line[$c_4, $c_6]</Line>
+<Line id='$c_8'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_9'>intersection_point[$c_7, $c_8]</Point>
+<Line id='$c_10'>pp_line[$c_2, $c_5]</Line>
+<Line id='$c_11'>pp_line[$c_1, $c_9]</Line>
+<Point id='$c_12'>intersection_point[$c_10, $c_11]</Point>
+</Assignments>
+<Conclusions>
+<prop>eq_angle[$c_0, $c_4, $c_2, $c_12, $c_4, $c_1]</prop>
+</Conclusions>
+</Construction>

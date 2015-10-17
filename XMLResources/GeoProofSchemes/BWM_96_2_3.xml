@@ -1,0 +1,31 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Contests/BWM_96_2_3 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4,u5</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u1, u2]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_4'>ortho_line[$c_0, $c_3]</Line>
+<Point id='$c_5'>line_slider[$c_4, u3]</Point>
+<Point id='$c_6'>par_point[$c_1, $c_0, $c_02]</Point>
+<Line id='$c_7'>pp_line[$c_1, $c_2]</Line>
+<Line id='$c_8'>ortho_line[$c_1, $c_7]</Line>
+<Point id='$c_9'>line_slider[$c_8, u4]</Point>
+<Point id='$c_10'>par_point[$c_2, $c_1, $c_12]</Point>
+<Line id='$c_11'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_12'>ortho_line[$c_2, $c_11]</Line>
+<Point id='$c_13'>line_slider[$c_12, u5]</Point>
+<Point id='$c_14'>par_point[$c_0, $c_2, $c_13]</Point>
+<Line id='$c_15'>p_bisector[$c_01, $c_02]</Line>
+<Line id='$c_16'>p_bisector[$c_11, $c_12]</Line>
+<Line id='$c_17'>p_bisector[$c_10, $c_13]</Line>
+</Assignments>
+<Conclusions>
+<prop>is_concurrent[$c_15, $c_16, $c_17]</prop>
+</Conclusions>
+</Construction>

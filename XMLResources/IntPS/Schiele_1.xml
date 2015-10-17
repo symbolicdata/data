@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-03-26" createdBy="graebe">
+  <vars>x,y,p</vars>
+  <basis>
+    <poly>x^2*y^4*p+x^2*y^4+2*x^2*y^2*p+6*x^2*y^2-4*x*y^3+y^4*p-y^4+x^2*p+x^2+4*x*y+2*y^2*p-6*y^2+p-1</poly>
+    <poly>x^8*y^3*p+x^8*y*p+4*x^6*y^3*p-8*x^6*y^3+8*x^5*y^4+4*x^6*y*p+8*x^6*y-48*x^5*y^2+6*x^4*y^3*p+48*x^4*y^3-8*x^3*y^4+8*x^5+6*x^4*y*p-48*x^4*y+48*x^3*y^2+4*x^2*y^3*p-8*x^2*y^3-8*x^3+4*x^2*y*p+8*x^2*y+y^3*p+y*p</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Schiele_1</changed>
+  </ChangeLog>
+</INTPS>

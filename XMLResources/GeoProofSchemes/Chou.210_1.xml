@@ -1,0 +1,43 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/210_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+</Points>
+<Assignments>
+<Point id='$c_2'>varpoint[$c_0, $c_1, u2]</Point>
+<Line id='$c_3'>altitude[$c_1, $c_0, $c_1]</Line>
+<Point id='$c_4'>line_slider[$c_3, u3]</Point>
+<Line id='$c_5'>altitude[$c_2, $c_0, $c_2]</Line>
+<Point id='$c_6'>line_slider[$c_5, u4]</Point>
+<Line id='$c_7'>altitude[$c_0, $c_0, $c_1]</Line>
+<Line id='$c_8'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_9'>par_line[$c_4, $c_8]</Line>
+<Point id='$c_10'>intersection_point[$c_7, $c_9]</Point>
+<Line id='$c_11'>pp_line[$c_10, $c_4]</Line>
+<Line id='$c_12'>pp_line[$c_2, $c_6]</Line>
+<Point id='$c_13'>intersection_point[$c_11, $c_12]</Point>
+<Line id='$c_14'>pp_line[$c_10, $c_0]</Line>
+<Line id='$c_15'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_16'>par_line[$c_6, $c_15]</Line>
+<Point id='$c_17'>intersection_point[$c_14, $c_16]</Point>
+<Line id='$c_18'>pp_line[$c_17, $c_6]</Line>
+<Line id='$c_19'>pp_line[$c_1, $c_4]</Line>
+<Point id='$c_20'>intersection_point[$c_18, $c_19]</Point>
+<Line id='$c_21'>pp_line[$c_10, $c_1]</Line>
+<Line id='$c_22'>pp_line[$c_17, $c_2]</Line>
+<Point id='$c_23'>intersection_point[$c_21, $c_22]</Point>
+<Point id='$c_24'>p9_center[$c_0, $c_4, $c_6]</Point>
+<Line id='$c_25'>pp_line[$c_10, $c_1]</Line>
+<Line id='$c_26'>pp_line[$c_2, $c_17]</Line>
+<Line id='$c_27'>pp_line[$c_20, $c_13]</Line>
+<Point id='$c_29'>midpoint[$c_0, $c_4]</Point>
+</Assignments>
+<Conclusions>
+<prop>is_concurrent[$c_25, $c_26, $c_27]</prop>
+<prop>eq_dist[$c_23, $c_24, $c_24, $c_29]</prop>
+</Conclusions>
+</Construction>

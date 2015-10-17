@@ -1,0 +1,36 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/476_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4,u5</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[u4, u5]</Point>
+</Points>
+<Assignments>
+<Line id='$c_4'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_5'>pedalpoint[$c_3, $c_4]</Point>
+<Line id='$c_6'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_7'>pedalpoint[$c_3, $c_6]</Point>
+<Line id='$c_8'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_9'>pedalpoint[$c_3, $c_8]</Point>
+<Circle id='$c_10'>p3_circle[$c_5, $c_7, $c_9]</Circle>
+<Line id='$c_11'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_12'>other_cl_point[$c_5, $c_10, $c_11]</Point>
+<Line id='$c_13'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_14'>other_cl_point[$c_7, $c_10, $c_13]</Point>
+<Line id='$c_15'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_16'>other_cl_point[$c_9, $c_10, $c_15]</Point>
+<Line id='$c_17'>altitude[$c_12, $c_1, $c_2]</Line>
+<Line id='$c_18'>altitude[$c_14, $c_0, $c_2]</Line>
+<Point id='$c_19'>intersection_point[$c_17, $c_18]</Point>
+<Line id='$c_20'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_21'>pp_line[$c_16, $c_19]</Line>
+</Assignments>
+<Conclusions>
+<prop>is_orthogonal[$c_20, $c_21]</prop>
+<prop>eq_angle[$c_1, $c_0, $c_3, $c_19, $c_0, $c_2]</prop>
+</Conclusions>
+</Construction>

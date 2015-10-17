@@ -1,0 +1,26 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/182_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_4'>pedalpoint[$c_1, $c_3]</Point>
+<Line id='$c_5'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_6'>pedalpoint[$c_0, $c_5]</Point>
+<Angle id='$c_7'>p3_angle[$c_2, $c_0, $c_1]</Angle>
+<Angle id='$c_8'>p3_angle[$c_2, $c_1, $c_0]</Angle>
+<Line id='$c_9'>pp_line[$c_4, $c_6]</Line>
+<Line id='$c_10'>pp_line[$c_0, $c_1]</Line>
+<Angle id='$c_11'>l2_angle[$c_9, $c_10]</Angle>
+<Angle id='$c_12'>angle_sum[$angle1, $angle2]</Angle>
+</Assignments>
+<Conclusions>
+<prop>is_equal[$c_11, $c_12]</prop>
+</Conclusions>
+</Construction>

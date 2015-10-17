@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<INTPS createdAt="2000-03-22" createdBy="graebe">
+  <vars>x1,x2,x3,x4,S,R,a,b,c</vars>
+  <basis>
+    <poly>-x2*c+2*S</poly>
+    <poly>x3^2+x4^2-R^2</poly>
+    <poly>x3^2+x4^2-R^2-2*x3*c+c^2</poly>
+    <poly>x1^2+x2^2-b^2</poly>
+    <poly>x1^2+x2^2-a^2-2*x1*c+c^2</poly>
+    <poly>x1^2+x2^2-2*x1*x3+x3^2-2*x2*x4+x4^2-R^2</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Geometry/Tri_area_1</changed>
+  </ChangeLog>
+</INTPS>

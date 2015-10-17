@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-03-26" createdBy="graebe">
+  <vars>u3,u4,a</vars>
+  <basis>
+    <poly>7*u4^4-20*a^2</poly>
+    <poly>2160*u3^4*a^2+1512*u3^4*a+315*u3^4-4000*a^2-2800*a-490</poly>
+    <poly>28800000*u3*u4^2*a^5+67200000*u4^3*a^5-10080000*u3^3*a^4-23520000*u3^2*u4*a^4+40320000*u3*u4^2*a^4+94080000*u4^3*a^4-14112000*u3^3*a^3-41395200*u3^2*u4*a^3+21168000*u3*u4^2*a^3+40924800*u4^3*a^3-7644000*u3^3*a^2-26726560*u3^2*u4*a^2+4939200*u3*u4^2*a^2+2634240*u4^3*a^2-1978032*u3^3*a-7727104*u3^2*u4*a+347508*u3*u4^2*a-2300844*u4^3*a-180075*u3^3-852355*u3^2*u4-432180*u4^3</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Rose_1</changed>
+  </ChangeLog>
+</INTPS>

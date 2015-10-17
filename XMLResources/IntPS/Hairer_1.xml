@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-03-26" createdBy="graebe">
+  <vars>c2,c3,b3,b2,b1,a21,a32,a31</vars>
+  <basis>
+    <poly>b3+b2+b1-1</poly>
+    <poly>c3-a32-a31</poly>
+    <poly>c2-a21</poly>
+    <poly>2*c3*b3+2*c2*b2-1</poly>
+    <poly>6*c2*b3*a32-1</poly>
+    <poly>3*c3^2*b3+3*c2^2*b2-1</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Hairer_1</changed>
+  </ChangeLog>
+</INTPS>

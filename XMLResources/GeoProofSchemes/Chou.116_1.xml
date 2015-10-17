@@ -1,0 +1,27 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/116_1 </Title>
+<prooftype> equational, constraints </prooftype>
+<vars>x1,x2,x3</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, u1]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>varpoint[$c_0, $c_1, x1]</Point>
+<Point id='$c_4'>varpoint[$c_0, $c_2, x2]</Point>
+<Point id='$c_5'>varpoint[$c_1, $c_2, x3]</Point>
+<Point id='$c_7'>midpoint[$c_1, $c_2]</Point>
+<Point id='$c_9'>midpoint[$c_1, $c_2]</Point>
+</Assignments>
+<Properties>
+<prop>on_bisector[$c_5, $c_1, $c_0, $c_2]</prop>
+<prop>is_concyclic[$c_7, $c_0, $c_5, $c_3]</prop>
+<prop>is_concyclic[$c_9, $c_0, $c_5, $c_4]</prop>
+</Properties>
+<Conclusions>
+<prop>eq_dist[$c_1, $c_3, $c_2, $c_4]</prop>
+</Conclusions>
+</Construction>

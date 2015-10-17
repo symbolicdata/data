@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<INTPS createdAt="2010-08-10" createdBy="graebe">
+  <vars>s,r,b,u,v,w,x,y,z</vars>
+  <basis>
+    <poly>s*u+b*v</poly> 
+    <poly>r*u+b*w</poly> 
+    <poly>r*v+s*w</poly> 
+    <poly>s*x+b*y</poly> 
+    <poly>r*x+b*z</poly> 
+    <poly>r*y+s*z</poly> 
+    <poly>v*x+u*y</poly> 
+    <poly>w*x+u*z</poly> 
+    <poly>w*y+v*z</poly> 
+  </basis>
+</INTPS>

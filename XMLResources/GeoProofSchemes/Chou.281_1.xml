@@ -1,0 +1,23 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/281_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Circle id='$c_3'>p3_circle[$c_0, $c_2, $c_1]</Circle>
+<Line id='$c_4'>altitude[$c_2, $c_0, $c_1]</Line>
+<Point id='$c_5'>other_cl_point[$c_2, $c_3, $c_4]</Point>
+<Point id='$c_6'>midpoint[$c_0, $c_2]</Point>
+<Line id='$c_7'>altitude[$c_6, $c_1, $c_5]</Line>
+<Line id='$c_8'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_9'>pp_line[$c_2, $c_5]</Line>
+</Assignments>
+<Conclusions>
+<prop>is_concurrent[$c_7, $c_8, $c_9]</prop>
+</Conclusions>
+</Construction>

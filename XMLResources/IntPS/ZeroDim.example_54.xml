@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-09-22" createdBy="wenk">
+  <vars>a,b,c,d,x,f</vars>
+  <basis>
+    <poly>a+b+c+d+x+f</poly>
+    <poly>a*b+b*c+c*d+d*x+a*f+x*f</poly>
+    <poly>a*b*c+b*c*d+c*d*x+a*b*f+a*x*f+d*x*f</poly>
+    <poly>a*b*c*d+b*c*d*x+a*b*c*f+a*b*x*f+a*d*x*f+c*d*x*f</poly>
+    <poly>a*b*c*d*x+a*b*c*d*f+a*b*c*x*f+a*b*d*x*f+a*c*d*x*f+b*c*d*x*f</poly>
+    <poly>a*b*c*d*x*f-1</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/ZeroDim/example_54</changed>
+  </ChangeLog>
+</INTPS>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-07-07" createdBy="obachman">
+  <vars>x,y,a,b,c,d,e,f,g,h,i,j</vars>
+  <basis>
+    <poly>x^2*h+2*x*y*i+3*y^2*j+x*b+2*y*c+e</poly>
+    <poly>3*x^2*g+2*x*y*h+y^2*i+2*x*a+y*b+d</poly>
+    <poly>x^3*g+x^2*y*h+x*y^2*i+y^3*j+x^2*a+x*y*b+y^2*c+x*d+y*e+f</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/DiscrC2</changed>
+  </ChangeLog>
+</INTPS>

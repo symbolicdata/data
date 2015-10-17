@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<INTPS createdAt="2000-03-22" createdBy="graebe">
+  <vars>x1,r1,r2,u1</vars>
+  <basis>
+    <poly>2*x1*u1-r1^2+r2^2-u1^2</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Geometry/Chou_401_2</changed>
+  </ChangeLog>
+</INTPS>

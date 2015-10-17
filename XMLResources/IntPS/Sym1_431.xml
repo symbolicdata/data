@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-03-26" createdBy="graebe">
+  <vars>x,y,z</vars>
+  <basis>
+    <poly>z^4+x^3+y-3</poly>
+    <poly>y^4+z^3+x-3</poly>
+    <poly>x^4+y^3+z-3</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Sym1_431</changed>
+  </ChangeLog>
+</INTPS>

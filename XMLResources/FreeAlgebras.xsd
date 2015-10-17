@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!--  XSchema $Id: FREEALGEBRA.xsd,v 1.0 2012/10/16 12:17:47 heinle Exp $  -->
+
+  <xs:include schemaLocation="Types.xsd"/>
+  <xs:include schemaLocation="Common.xsd"/>
+
+  <!-- subelement definition -->
+
+  <xs:element name="basis">
+    <xs:complexType>
+      <xs:sequence>
+	<xs:element maxOccurs="unbounded" name="ncpoly" type="NonCommutativePolynomial"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Root element definition -->
+
+  <xs:element name="FREEALGEBRA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="vars" type="VarList"/>
+        <xs:element minOccurs="0" name="parameters" type="VarList"/>
+        <xs:element minOccurs="0" name="uptoDeg" type="xs:unsignedInt"/>
+	<xs:element ref="basis"/>
+        <xs:group ref="RootTableEntries"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="recordAttributes"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

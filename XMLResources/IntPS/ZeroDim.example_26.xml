@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-09-22" createdBy="wenk">
+  <vars>x,y</vars>
+  <basis>
+    <poly>49*x^7*y+35*x*y^7+37*x*y^6+9*y^7+4*x^6+27*x^3*y^2+20*x*y^4+31*x^4+33*x^2*y+24*x^2+49*y+43</poly>
+    <poly>45*x^8+3*x^7+39*x^6+30*x^5+13*x^4+41*x^3+5*x^2+46*x+7</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/ZeroDim/example_26</changed>
+  </ChangeLog>
+</INTPS>

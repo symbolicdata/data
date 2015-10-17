@@ -1,0 +1,33 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/275_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2,x3</vars>
+<parameters>u1,u2,u3,u4</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[u4, x1]</Point>
+<Point id='$c_4' type='free'>Point[x2, x3]</Point>
+</Points>
+<Assignments>
+<Point id='$c_5'>circumcenter[$c_0, $c_1, $c_2]</Point>
+<Line id='$c_6'>pp_line[$c_0, $c_3]</Line>
+<Point id='$c_7'>sym_point[$c_5, $c_6]</Point>
+<Line id='$c_8'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_9'>sym_point[$c_5, $c_8]</Point>
+<Point id='$c_10'>midpoint[$c_0, $c_3]</Point>
+<Point id='$c_11'>midpoint[$c_1, $c_2]</Point>
+<Line id='$c_13'>altitude[$c_10, $c_1, $c_2]</Line>
+<Line id='$c_15'>altitude[$c_11, $c_0, $c_3]</Line>
+</Assignments>
+<Properties>
+<prop>is_concyclic[$c_0, $c_1, $c_2, $c_3]</prop>
+<prop>on_line[$c_4, $c_13]</prop>
+<prop>on_line[$c_4, $c_15]</prop>
+</Properties>
+<Conclusions>
+<prop>is_collinear[$c_7, $c_4, $c_9]</prop>
+</Conclusions>
+</Construction>

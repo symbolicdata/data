@@ -1,0 +1,23 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/187_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[u1, u2]</Point>
+<Point id='$c_1' type='free'>Point[0, 0]</Point>
+<Point id='$c_2' type='free'>Point[u3, 0]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_4'>pedalpoint[$c_0, $c_3]</Point>
+<Line id='$c_5'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_6'>pedalpoint[$c_4, $c_5]</Point>
+<Line id='$c_7'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_8'>pedalpoint[$c_4, $c_7]</Point>
+</Assignments>
+<Conclusions>
+<prop>is_concyclic[$c_1, $c_2, $c_6, $c_8]</prop>
+<prop>eq_angle[$c_4, $c_6, $c_1, $c_2, $c_8, $c_4]</prop>
+</Conclusions>
+</Construction>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<GAlgebra createdAt="2003-07-03" createdBy="levandovsky">
+  <vars>u,v,x,y,t,Dx,Dy,Dt</vars>
+  <commutators>
+    <commutator fst="y" snd="Dy">
+      <D>1</D>
+    </commutator>
+    <commutator fst="t" snd="Dt">
+      <D>1</D>
+    </commutator>
+    <commutator fst="x" snd="Dx">
+      <D>1</D>
+    </commutator>
+  </commutators>
+  <basis>
+    <ncpoly>t*u-x^4-y^5-x*y^4</ncpoly>
+    <ncpoly>4*x^3*v*Dt+y^4*v*Dt+Dx</ncpoly>
+    <ncpoly>5*y^4*v*Dt+4*x*y^3*v*Dt+Dy</ncpoly>
+  </basis>
+</GAlgebra>

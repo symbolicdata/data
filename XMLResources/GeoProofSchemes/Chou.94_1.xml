@@ -1,0 +1,29 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/94_1 </Title>
+<prooftype> equational, constraints </prooftype>
+<vars>x1,x2,x3,x4,x5</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[x1, u3]</Point>
+<Point id='$c_3' type='free'>Point[x3, x2]</Point>
+</Points>
+<Assignments>
+<Line id='$c_4'>altitude[$c_0, $c_0, $c_1]</Line>
+<Point id='$c_5'>line_slider[$c_4, u2]</Point>
+<Point id='$c_6'>varpoint[$c_2, $c_0, x4]</Point>
+<Point id='$c_7'>varpoint[$c_3, $c_0, x5]</Point>
+</Assignments>
+<Properties>
+<prop>eq_dist[$c_2, $c_5, $c_5, $c_0]</prop>
+<prop>is_collinear[$c_3, $c_1, $c_2]</prop>
+<prop>eq_dist[$c_3, $c_5, $c_5, $c_0]</prop>
+<prop>eq_angle[$c_0, $c_1, $c_6, $c_6, $c_1, $c_2]</prop>
+<prop>is_collinear[$c_7, $c_1, $c_6]</prop>
+</Properties>
+<Conclusions>
+<prop>eq_dist[$c_0, $c_6, $c_0, $c_7]</prop>
+</Conclusions>
+</Construction>

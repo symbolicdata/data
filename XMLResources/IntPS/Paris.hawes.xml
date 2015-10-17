@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-04-22" createdBy="jcf">
+  <vars>x,y1,z1,y2,z2,a,b,c</vars>
+  <basis>
+    <poly>y2^2+3*z2^2+b</poly>
+    <poly>y1^2+3*z1^2+b</poly>
+    <poly>20*y2^3+6*y2*a+2*z2+2*c</poly>
+    <poly>20*y1^3+6*y1*a+2*z1+2*c</poly>
+    <poly>5*y2^4+3*y2^2*a+2*y2*z2+2*y2*c+x</poly>
+    <poly>5*y1^4+3*y1^2*a+2*y1*z1+2*y1*c+x</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Paris/hawes</changed>
+  </ChangeLog>
+</INTPS>

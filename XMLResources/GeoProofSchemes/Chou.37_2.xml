@@ -1,0 +1,25 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/37_2 </Title>
+<prooftype> constructive </prooftype>
+<parameters>r,u1</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, r]</Point>
+</Points>
+<Assignments>
+<Point id='$c_2'>circle_slider[$c_0, $c_1, u1]</Point>
+<Circle id='$c_3'>pc_circle[$c_0, $c_1]</Circle>
+<Line id='$c_4'>pp_line[$c_1, $c_0]</Line>
+<Point id='$c_5'>other_cl_point[$c_1, $c_3, $c_4]</Point>
+<Line id='$c_6'>altitude[$c_1, $c_0, $c_1]</Line>
+<Line id='$c_7'>altitude[$c_2, $c_0, $c_2]</Line>
+<Point id='$c_8'>intersection_point[$c_6, $c_7]</Point>
+<Line id='$c_9'>pp_line[$c_5, $c_1]</Line>
+<Point id='$c_10'>pedalpoint[$c_2, $c_9]</Point>
+<Point id='$c_11'>midpoint[$c_2, $c_10]</Point>
+</Assignments>
+<Conclusions>
+<prop>is_collinear[$c_5, $c_8, $c_11]</prop>
+</Conclusions>
+</Construction>

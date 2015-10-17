@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-05-22" createdBy="graebe">
+  <vars>x0,x1,x2,x3,x4,x5,x6</vars>
+  <basis>
+    <poly>x0+2*x1+2*x2+2*x3+2*x4+2*x5+2*x6-1</poly>
+    <poly>2*x2*x3+2*x1*x4+2*x0*x5+2*x1*x6-x5</poly>
+    <poly>x2^2+2*x1*x3+2*x0*x4+2*x1*x5+2*x2*x6-x4</poly>
+    <poly>2*x1*x2+2*x0*x3+2*x1*x4+2*x2*x5+2*x3*x6-x3</poly>
+    <poly>x1^2+2*x0*x2+2*x1*x3+2*x2*x4+2*x3*x5+2*x4*x6-x2</poly>
+    <poly>2*x0*x1+2*x1*x2+2*x2*x3+2*x3*x4+2*x4*x5+2*x5*x6-x1</poly>
+    <poly>x0^2+2*x1^2+2*x2^2+2*x3^2+2*x4^2+2*x5^2+2*x6^2-x0</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Katsura_6</changed>
+  </ChangeLog>
+</INTPS>

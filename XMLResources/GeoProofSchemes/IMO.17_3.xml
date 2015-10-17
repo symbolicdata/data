@@ -1,0 +1,36 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> IMO/17_3 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u1, u2]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>rotate[$c_1, $c_0, 1/3]</Point>
+<Point id='$c_4'>rotate[$c_1, $c_3, -1/4]</Point>
+<Line id='$c_5'>pp_line[$c_1, $c_4]</Line>
+<Point id='$c_6'>rotate[$c_0, $c_1, -1/3]</Point>
+<Point id='$c_7'>rotate[$c_0, $c_6, 1/4]</Point>
+<Line id='$c_8'>pp_line[$c_0, $c_7]</Line>
+<Point id='$c_9'>intersection_point[$c_5, $c_8]</Point>
+<Point id='$c_10'>rotate[$c_1, $c_2, -1/4]</Point>
+<Line id='$c_11'>pp_line[$c_1, $c_10]</Line>
+<Point id='$c_12'>rotate[$c_2, $c_1, 1/6]</Point>
+<Line id='$c_13'>pp_line[$c_2, $c_12]</Line>
+<Point id='$c_14'>intersection_point[$c_11, $c_13]</Point>
+<Point id='$c_15'>rotate[$c_2, $c_0, -1/6]</Point>
+<Line id='$c_16'>pp_line[$c_2, $c_15]</Line>
+<Point id='$c_17'>rotate[$c_0, $c_2, 1/4]</Point>
+<Line id='$c_18'>pp_line[$c_0, $c_17]</Line>
+<Point id='$c_19'>intersection_point[$c_16, $c_18]</Point>
+<Line id='$c_20'>pp_line[$c_19, $c_9]</Line>
+<Line id='$c_21'>pp_line[$c_14, $c_9]</Line>
+</Assignments>
+<Conclusions>
+<prop>is_orthogonal[$c_20, $c_21]</prop>
+<prop>eq_dist[$c_19, $c_9, $c_9, $c_14]</prop>
+</Conclusions>
+</Construction>

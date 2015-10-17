@@ -1,0 +1,385 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+
+<http://symbolicdata.org/Data/GeoCode/> a owl:Ontology ;
+   cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+   cc:attributionURL <http://symbolicdata.org> ;
+   cc:attributionName "The SymbolicData Project";
+    rdfs:label "GeoCode Function Specifications" .
+
+sd:GeoCodeFunction a owl:Class ; rdfs:label "GeoCode Function" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/Point>
+    sd:call "Point[$a::Scalar,$b::Scalar]::Point" ;
+    sd:summary "Point constructor" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "Point" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/altitude>
+    sd:call "altitude[$A::Point,$B::Point,$C::Point]::Line" ;
+    sd:defaultDefinition "ortho_line[$A,pp_line[$B,$C]]" ;
+    sd:hasDescription "The altitude from A onto g(BC). " ;
+    sd:summary "altitude from A onto g(BC)" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "altitude" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/angle_sum>
+    sd:call "angle_sum[$a::Angle,$b::Angle]::Angle" ;
+    sd:summary "Returns a representation for the sum of the angles." ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "angle_sum" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/centroid>
+    sd:call "centroid[$A::Point,$B::Point,$C::Point]::Point" ;
+    sd:defaultDefinition "intersection_point[median[$A,$B,$C],median[$B,$C,$A]]" ;
+    sd:hasDescription "Centroid of the triangle ABC. " ;
+    sd:summary "centroid of the triangle" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "centroid" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/circle_center>
+    sd:call "circle_center[$c::Circle]::Point" ;
+    sd:hasDescription "The center of the circle c. " ;
+    sd:summary "center of the circle" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "circle_center" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/circle_slider>
+    sd:call "circle_slider[$M::Point,$A::Point,$u::Scalar]::Point" ;
+    sd:summary "Choose a point on the circle with center M and A on the perimeter." ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "circle_slider" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/circle_sqradius>
+    sd:call "circle_sqradius[$c::Circle]::Distance" ;
+    sd:hasDescription "The squared radius of the circle c. " ;
+    sd:summary "squared radius of a circle" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "circle_sqradius" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/circumcenter>
+    sd:call "circumcenter[$A::Point,$B::Point,$C::Point]::Point" ;
+    sd:defaultDefinition "intersection_point[p_bisector[$A,$B],p_bisector[$B,$C]]" ;
+    sd:hasDescription "The circumcenter of the triangle ABC. " ;
+    sd:summary "circumcenter of the triangle ABC" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "circumcenter" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/csym_point>
+    sd:call "csym_point[$P::Point,$Q::Point]::Point" ;
+    sd:defaultDefinition "varpoint[$Q,$P,-1]" ;
+    sd:hasDescription "The point symmetric to P wrt. Q as symmetry center. " ;
+    sd:summary "point symmetric to P wrt. Q as symmetry center" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "csym_point" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/eq_angle>
+    sd:call "eq_angle[$A::Point,$B::Point,$C::Point,$D::Point,$E::Point,$F::Point]::Boolean" ;
+    sd:summary "test for equal angle w(ABC) = w(DEF)" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "eq_angle" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/eq_dist>
+    sd:call "eq_dist[$A::Point,$B::Point,$C::Point,$D::Point]::Boolean" ;
+    sd:summary "test for equal distance d(AB) = d(CD)" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "eq_dist" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/fixedpoint>
+    sd:call "fixedpoint[$A::Point,$B::Point,$u::Scalar]::Point" ;
+    sd:defaultDefinition "varpoint[$A,$B,$u]" ;
+    sd:hasDescription "The point D=(1-u)*A+u*B on the line AB for a fixed value of u. " ;
+    sd:summary "fixed point on the line AB. u is a fixed value." ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "fixedpoint" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/intersection_point>
+    sd:call "intersection_point[$a::Line,$b::Line]::Point" ;
+    sd:hasDescription "The intersection point of the lines a,b. " ;
+    sd:summary "intersection point of two lines" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "intersection_point" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/is_cc_tangent>
+    sd:call "is_cc_tangent[$c1::Circle,$c2::Circle]::Boolean" ;
+    sd:defaultDefinition "is_cl_tangent[$c1,radical_axis[$c1,$c2]]" ;
+    sd:summary "test if two circles are tangent" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "is_cc_tangent" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/is_cl_tangent>
+    sd:call "is_cl_tangent[$c::Circle,$l::Line]::Boolean" ;
+    sd:summary "test if a line l is tangent to a circle c" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "is_cl_tangent" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/is_collinear>
+    sd:call "is_collinear[$A::Point,$B::Point,$C::Point]::Boolean" ;
+    sd:summary "test if three points are on a common line" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "is_collinear" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/is_concurrent>
+    sd:call "is_concurrent[$a::Line,$b::Line,$c::Line]::Boolean" ;
+    sd:summary "test if three lines pass through a common point" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "is_concurrent" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/is_concyclic>
+    sd:call "is_concyclic[$A::Point,$B::Point,$C::Point,$D::Point]::Boolean" ;
+    sd:defaultDefinition "on_circle[$D,p3_circle[$A,$B,$C]]" ;
+    sd:summary "test if four given points are on a common circle" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "is_concyclic" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/is_equal>
+    sd:call "is_equal[$A::Scalar,$B::Scalar]::Boolean" ;
+    sd:summary "test for equality of A and B" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "is_equal" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/is_orthogonal>
+    sd:call "is_orthogonal[$a::Line,$b::Line]::Boolean" ;
+    sd:summary "test if the two lines are orthogonal" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "is_orthogonal" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/is_parallel>
+    sd:call "is_parallel[$a::Line,$b::Line]::Boolean" ;
+    sd:hasDescription "Zero iff the lines a,b are parallel. " ;
+    sd:summary "test if two lines are parallel" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "is_parallel" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/l2_angle>
+    sd:call "l2_angle[$a::Line,$b::Line]::Angle" ;
+    sd:summary "Returns the angle between the lines a and b" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "l2_angle" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/line_slider>
+    sd:call "line_slider[$a::Line,$u::Scalar]::Point" ;
+    sd:hasDescription "Chooses a point on a using parameter u. " ;
+    sd:summary "Choose a point on a line" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "line_slider" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/median>
+    sd:call "median[$A::Point,$B::Point,$C::Point]::Line" ;
+    sd:defaultDefinition "pp_line[$A,midpoint[$B,$C]]" ;
+    sd:hasDescription "The median line from A to BC. " ;
+    sd:summary "median line from A to BC" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "median" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/midpoint>
+    sd:call "midpoint[$A::Point,$B::Point]::Point" ;
+    sd:defaultDefinition "fixedpoint[$A,$B,1/2]" ;
+    sd:hasDescription "The midpoint of AB. " ;
+    sd:summary "midpoint of AB" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "midpoint" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/on_bisector>
+    sd:call "on_bisector[$P::Point,$A::Point,$B::Point,$C::Point]::Boolean" ;
+    sd:defaultDefinition "eq_angle[$A,$B,$P,$P,$B,$C]" ;
+    sd:summary "Test if P is a point on the (inner or outer) bisector of the angle ABC" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "on_bisector" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/on_circle>
+    sd:call "on_circle[$P::Point,$c::Circle]::Boolean" ;
+    sd:summary "test if P is on the circle" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "on_circle" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/on_line>
+    sd:call "on_line[$P::Point,$a::Line]::Boolean" ;
+    sd:summary "test if P is on the line" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "on_line" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/ortho_line>
+    sd:call "ortho_line[$P::Point,$a::Line]::Line" ;
+    sd:hasDescription "The line through P orthogonal to the line a. " ;
+    sd:summary "line through P orthogonal to line a" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "ortho_line" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/orthocenter>
+    sd:call "orthocenter[$A::Point,$B::Point,$C::Point]::Point" ;
+    sd:defaultDefinition "intersection_point[altitude[$A,$B,$C],altitude[$B,$C,$A]]" ;
+    sd:hasDescription "Orthocenter of the triangle ABC. " ;
+    sd:summary "orthocenter of the triangle ABC" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "orthocenter" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/other_cc_point>
+    sd:call "other_cc_point[$P::Point,$c1::Circle,$c2::Circle]::Point" ;
+    sd:defaultDefinition "other_cl_point[$P,$c1,radical_axis[$c1,$c2]]" ;
+    sd:summary "Two circles intersect at P. Returns the second intersection point" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "other_cc_point" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/other_cl_point>
+    sd:call "other_cl_point[$P::Point,$c::Circle,$l::Line]::Point" ;
+    sd:summary "Line and circle intersect at P. Returns the second intersection point" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "other_cl_point" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/other_incenter>
+    sd:call "other_incenter[$M::Point,$A::Point,$B::Point]::Point" ;
+    sd:defaultDefinition "intersection_point[ortho_line[$A,pp_line[$M,$A]],ortho_line[$B,pp_line[$M,$B]]]" ;
+    sd:hasDescription "Let ABC be a triangle and M the incenter of ABC. Returns the excenter of ABC on the bisector CM. " ;
+    sd:summary "M ist the incenter of ABC. Returns the excenter of ABC on the bisector CM." ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "other_incenter" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/p3_angle>
+    sd:call "p3_angle[$A::Point,$B::Point,$C::Point]::Angle" ;
+    sd:defaultDefinition "l2_angle[pp_line[$B,$A],pp_line[$B,$C]]" ;
+    sd:hasDescription "Returns a representation for the angle between the lines BA and BC. " ;
+    sd:summary "Returns the angle between BA and BC" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "p3_angle" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/p3_circle>
+    sd:call "p3_circle[$A::Point,$B::Point,$C::Point]::Circle" ;
+    sd:defaultDefinition "pc_circle[intersection_point[p_bisector[$A,$B],p_bisector[$A,$C]],$A]" ;
+    sd:summary "circle through 3 given points" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "p3_circle" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/p9_center>
+    sd:call "p9_center[$A::Point,$B::Point,$C::Point]::Point" ;
+    sd:defaultDefinition "circle_center[p9_circle[$A,$B,$C]]" ;
+    sd:hasDescription "Center of the nine-point circle of the triangle ABC. " ;
+    sd:summary "center of the nine-point circle of the triangle ABC" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "p9_center" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/p9_circle>
+    sd:call "p9_circle[$A::Point,$B::Point,$C::Point]::Circle" ;
+    sd:defaultDefinition "p3_circle[midpoint[$A,$B],midpoint[$A,$C],midpoint[$B,$C]]" ;
+    sd:hasDescription "The nine-point circle (Feuerbach's circle) of the triangle ABC. " ;
+    sd:summary "nine-point circle of the triangle ABC" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "p9_circle" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/p_bisector>
+    sd:call "p_bisector[$B::Point,$C::Point]::Line" ;
+    sd:defaultDefinition "ortho_line[midpoint[$B,$C],pp_line[$B,$C]]" ;
+    sd:hasDescription "The perpendicular bisector of BC. " ;
+    sd:summary "perpendicular bisector of BC" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "p_bisector" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/pappus_line>
+    sd:call "pappus_line[$A::Point,$B::Point,$C::Point,$D::Point,$E::Point,$F::Point]::Line" ;
+    sd:defaultDefinition "pp_line[intersection_point[pp_line[$A,$E],pp_line[$B,$D]],intersection_point[pp_line[$A,$F],pp_line[$C,$D]]]" ;
+    sd:summary "Pappus line of a conic 6-tuple of points" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "pappus_line" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/par_line>
+    sd:call "par_line[$P::Point,$a::Line]::Line" ;
+    sd:hasDescription "The line through P parallel to line a. " ;
+    sd:summary "line through P parallel to line a" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "par_line" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/par_point>
+    sd:call "par_point[$A::Point,$B::Point,$C::Point]::Point" ;
+    sd:hasDescription "Point D that makes ABCD a parallelogram. " ;
+    sd:summary "Point D that makes ABCD a parallelogram" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "par_point" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/pc_circle>
+    sd:call "pc_circle[$M::Point,$A::Point]::Circle" ;
+    sd:hasDescription "The circle with given center M and circumfere point A. " ;
+    sd:summary "circle with center M and circumfere point A" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "pc_circle" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/pedalpoint>
+    sd:call "pedalpoint[$P::Point,$a::Line]::Point" ;
+    sd:defaultDefinition "intersection_point[ortho_line[$P,$a],$a]" ;
+    sd:hasDescription "The pedal point of the perpendicular from P onto a. " ;
+    sd:summary "pedal point of the perpendicular from P onto a" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "pedalpoint" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/pp_line>
+    sd:call "pp_line[$A::Point,$B::Point]::Line" ;
+    sd:hasDescription "The line through A and B. " ;
+    sd:summary "line through A and B" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "pp_line" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/radical_axis>
+    sd:call "radical_axis[$c1::Circle,$c2::Circle]::Line" ;
+    sd:summary "The radical axis of two circles." ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "radical_axis" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/rotate>
+    sd:call "rotate[$C::Point,$A::Point,$angle::Scalar]::Point" ;
+    sd:summary "Rotate point A (counterclockwise) around center C with angle angle*Pi." ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "rotate" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/sqrdist>
+    sd:call "sqrdist[$A::Point,$B::Point]::Distance" ;
+    sd:hasDescription "Squared distance between A and B. " ;
+    sd:summary "Squared distance between A and B" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "sqrdist" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/sqrdist_pl>
+    sd:call "sqrdist_pl[$A::Point,$l::Line]::Distance" ;
+    sd:defaultDefinition "sqrdist[$A,pedalpoint[$A,$l]]" ;
+    sd:hasDescription "Squared distance between point A and line l. " ;
+    sd:summary "Squared distance between point A and line l" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "sqrdist_pl" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/sym_line>
+    sd:call "sym_line[$a::Line,$l::Line]::Line" ;
+    sd:hasDescription "The line symmetric to a wrt. the line l. " ;
+    sd:summary "line symmetric to a wrt. the line l" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "sym_line" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/sym_point>
+    sd:call "sym_point[$P::Point,$l::Line]::Point" ;
+    sd:defaultDefinition "fixedpoint[$P,pedalpoint[$P,$l],2]" ;
+    sd:hasDescription "The point symmetric to P wrt. line l. " ;
+    sd:summary "point symmetric to P wrt. line l" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "sym_point" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/tangent_line>
+    sd:call "tangent_line[$P::Point,$c::Circle]::Line" ;
+    sd:summary "tangent line through a point P on the circle c." ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "tangent_line" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/triangle_area>
+    sd:call "triangle_area[$A::Point,$B::Point,$C::Point]::Scalar" ;
+    sd:defaultDefinition "1/2*is_collinear[$A,$B,$C]" ;
+    sd:hasDescription "Signed area of the directed triangle ABC. " ;
+    sd:summary "Signed area of the directed triangle ABC" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "triangle_area" .
+
+<http://symbolicdata.org/Data/GeoCodeFunction/varpoint>
+    sd:call "varpoint[$A::Point,$B::Point,$u::Scalar]::Point" ;
+    sd:hasDescription "The point D=(1-u)*A+u*B that slides on the line AB, with parameter u. " ;
+    sd:summary "variable point on the line AB. u is a parameter" ;
+    a sd:GeoCodeFunction ;
+    rdfs:label "varpoint" .
+

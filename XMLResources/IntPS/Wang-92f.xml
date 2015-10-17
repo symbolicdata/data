@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-03-26" createdBy="graebe">
+  <vars>x17,x16,x15,x14,x13,x12,x11,x10,x9,x8,x7,u6,u5,u4,u3,u2,u1</vars>
+  <basis>
+    <poly>4*x12-3*x10-u4</poly>
+    <poly>4*x13-3*x11-u5</poly>
+    <poly>4*x14-u6</poly>
+    <poly>2*x15-u1</poly>
+    <poly>2*x7*u1-u4*u1-u2*u1</poly>
+    <poly>2*x8*u3-u5*u3+2*x7*u2-u4*u2-2*x7*u1+u4*u1</poly>
+    <poly>-2*x10*u3+2*x11*u2-x11*u1+u3*u1</poly>
+    <poly>-x10*u3+x11*u2-2*x11*u1+u3*u1</poly>
+    <poly>2*x16*u3-u3^2+2*x15*u2-u2^2</poly>
+    <poly>2*x9*u6+2*x8*u5+2*x7*u4-2*x8*u3-2*x7*u2-u4*u1+u2*u1</poly>
+    <poly>2*x17*u6-u6^2+2*x16*u5-u5^2+2*x15*u4-u4^2</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Wang-92f</changed>
+  </ChangeLog>
+</INTPS>

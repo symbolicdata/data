@@ -1,0 +1,15 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Heron_1 </Title>
+<prooftype> equational, deduction </prooftype>
+<vars>x1,x2,a,b,c,area</vars>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[c, 0]</Point>
+<Point id='$c_2' type='free'>Point[x1, x2]</Point>
+</Points>
+<Assignments>
+<Distance id='$c_3'>sqrdist[$c_0, $c_2]</Distance>
+<Distance id='$c_4'>sqrdist[$c_1, $c_2]</Distance>
+</Assignments>
+</Construction>

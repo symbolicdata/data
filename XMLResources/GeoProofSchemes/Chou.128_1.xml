@@ -1,0 +1,31 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/128_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2,x3,x4</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[x1, x2]</Point>
+</Points>
+<Assignments>
+<Line id='$c_4'>pp_line[$c_1, $c_0]</Line>
+<Line id='$c_5'>ortho_line[$c_0, $c_4]</Line>
+<Point id='$c_6'>line_slider[$c_5, x3]</Point>
+<Point id='$c_7'>varpoint[$c_1, $c_3, x4]</Point>
+<Circle id='$c_8'>p3_circle[$c_0, $c_2, $c_7]</Circle>
+<Line id='$c_9'>pp_line[$c_1, $c_3]</Line>
+<Point id='$c_10'>other_cl_point[$c_7, $c_8, $c_9]</Point>
+</Assignments>
+<Properties>
+<prop>on_bisector[$c_2, $c_0, $c_1, $c_3]</prop>
+<prop>on_bisector[$c_2, $c_3, $c_0, $c_1]</prop>
+<prop>eq_dist[$c_6, $c_2, $c_6, $c_0]</prop>
+<prop>eq_dist[$c_7, $c_6, $c_6, $c_0]</prop>
+</Properties>
+<Conclusions>
+<prop>on_bisector[$c_3, $c_10, $c_2, $c_7]</prop>
+</Conclusions>
+</Construction>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-04-20" createdBy="obachman">
+  <vars>a,b,c,d,e</vars>
+  <basis>
+    <poly>d^5-e^5</poly>
+    <poly>c^5-d^5</poly>
+    <poly>b^5-c^5</poly>
+    <poly>a^4*b+b^4*c+c^4*d+d^4*e+a*e^4</poly>
+    <poly>a^5-b^5</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Symmetric_5</changed>
+  </ChangeLog>
+</INTPS>

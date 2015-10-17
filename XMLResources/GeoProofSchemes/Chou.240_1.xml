@@ -1,0 +1,23 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/240_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>r,u1,u2</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, r]</Point>
+</Points>
+<Assignments>
+<Point id='$c_2'>circle_slider[$c_0, $c_1, u1]</Point>
+<Point id='$c_3'>circle_slider[$c_0, $c_1, u2]</Point>
+<Circle id='$c_4'>pc_circle[$c_1, $c_0]</Circle>
+<Circle id='$c_5'>pc_circle[$c_2, $c_0]</Circle>
+<Circle id='$c_6'>pc_circle[$c_3, $c_0]</Circle>
+<Point id='$c_7'>other_cc_point[$c_0, $c_5, $cC]</Point>
+<Point id='$c_8'>other_cc_point[$c_0, $c_4, $cC]</Point>
+<Point id='$c_9'>other_cc_point[$c_0, $c_4, $cB]</Point>
+<Point id='$c_10'>orthocenter[$c_1, $c_2, $c_3]</Point>
+<Point id='$c_11'>circumcenter[$c_7, $c_8, $c_9]</Point>
+<Distance id='$c_12'>sqrdist[$c_10, $c_11]</Distance>
+</Assignments>
+</Construction>

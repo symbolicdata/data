@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<INTPS createdAt="2000-03-22" createdBy="graebe">
+  <vars>x1,x2,x3,x4,x5,x6,r,u1,u2,u3</vars>
+  <basis>
+    <poly>x3*u1*u2-x3+x4*u1+x4*u2-r*u1*u2-r</poly>
+    <poly>-x1+x2*u1-r</poly>
+    <poly>x1-x2*u3-x3+x4*u3</poly>
+    <poly>-x1*u2*u3+x1-x2*u2-x2*u3+r*u2*u3+r</poly>
+    <poly>x5^2+x6^2-r^2</poly>
+    <poly>-x3*x5+x5^2-x4*x6+x6^2</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Geometry/Chou_106_2</changed>
+  </ChangeLog>
+</INTPS>

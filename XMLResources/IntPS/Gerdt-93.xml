@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-03-26" createdBy="graebe">
+  <vars>l,s,z,y,x</vars>
+  <basis>
+    <poly>-l^2-4*l*s+l+y</poly>
+    <poly>-6*l*s^2+s+z</poly>
+    <poly>-l^2*s+x-1</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Gerdt-93</changed>
+  </ChangeLog>
+</INTPS>

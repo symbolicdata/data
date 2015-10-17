@@ -1,0 +1,34 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/270_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2,x3</vars>
+<parameters>u1,u2,u3,u4</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[u4, x1]</Point>
+<Point id='$c_4' type='free'>Point[x2, x3]</Point>
+</Points>
+<Assignments>
+<Point id='$c_5'>midpoint[$c_0, $c_1]</Point>
+<Point id='$c_6'>midpoint[$c_1, $c_2]</Point>
+<Point id='$c_7'>circumcenter[$c_0, $c_1, $c_2]</Point>
+<Line id='$c_9'>altitude[$c_5, $c_2, $c_3]</Line>
+<Line id='$c_11'>altitude[$c_6, $c_0, $c_3]</Line>
+<Distance id='$c_13'>sqrdist[$c_4, $c_0]</Distance>
+<Distance id='$c_14'>sqrdist[$c_4, $c_1]</Distance>
+<Distance id='$c_15'>sqrdist[$c_4, $c_2]</Distance>
+<Distance id='$c_16'>sqrdist[$c_4, $c_3]</Distance>
+<Distance id='$c_17'>sqrdist[$c_7, $c_1]</Distance>
+</Assignments>
+<Properties>
+<prop>is_concyclic[$c_0, $c_1, $c_2, $c_3]</prop>
+<prop>on_line[$c_4, $c_9]</prop>
+<prop>on_line[$c_4, $c_11]</prop>
+</Properties>
+<Conclusions>
+<prop>is_equal[$c_13+$c_14+$c_15+$c_16, 4*$c_17]</prop>
+</Conclusions>
+</Construction>

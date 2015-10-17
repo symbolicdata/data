@@ -1,0 +1,28 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/390_2 </Title>
+<prooftype> constructive </prooftype>
+<parameters>r,u1,u2,u3,u4</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, r]</Point>
+<Point id='$c_2' type='free'>Point[u1, u2]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>circle_slider[$c_0, $c_1, u3]</Point>
+<Point id='$c_4'>circle_slider[$c_0, $c_1, u4]</Point>
+<Circle id='$c_5'>pc_circle[$c_0, $c_1]</Circle>
+<Line id='$c_6'>pp_line[$c_3, $c_2]</Line>
+<Point id='$c_7'>other_cl_point[$c_3, $c_5, $c_6]</Point>
+<Circle id='$c_8'>pc_circle[$c_0, $c_1]</Circle>
+<Line id='$c_9'>pp_line[$c_4, $c_2]</Line>
+<Point id='$c_10'>other_cl_point[$c_4, $c_8, $c_9]</Point>
+<Distance id='$c_11'>sqrdist[$c_3, $c_2]</Distance>
+<Distance id='$c_12'>sqrdist[$c_7, $c_2]</Distance>
+<Distance id='$c_13'>sqrdist[$c_4, $c_2]</Distance>
+<Distance id='$c_14'>sqrdist[$c_10, $c_2]</Distance>
+</Assignments>
+<Conclusions>
+<prop>is_equal[$c_11*$c_12, $c_13*$c_14]</prop>
+</Conclusions>
+</Construction>

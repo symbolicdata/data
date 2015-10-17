@@ -1,0 +1,20 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Tri_area_1 </Title>
+<prooftype> equational, deduction </prooftype>
+<vars>x1,x2,x3,x4,s,r,rs,a,b,c</vars>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[c, 0]</Point>
+<Point id='$c_2' type='free'>Point[x1, x2]</Point>
+<Point id='$c_3' type='free'>Point[x3, x4]</Point>
+</Points>
+<Assignments>
+<Distance id='$c_4'>sqrdist[$c_0, $c_2]</Distance>
+<Distance id='$c_5'>sqrdist[$c_1, $c_2]</Distance>
+<Scalar id='$c_6'>triangle_area[$c_0, $c_1, $c_2]</Scalar>
+<Distance id='$c_7'>sqrdist[$c_0, $c_3]</Distance>
+<Distance id='$c_8'>sqrdist[$c_1, $c_3]</Distance>
+<Distance id='$c_9'>sqrdist[$c_2, $c_3]</Distance>
+</Assignments>
+</Construction>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/301_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1</vars>
+<parameters>u1,u2,u3,u4</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[x1, u4]</Point>
+</Points>
+<Assignments>
+<Point id='$c_4'>orthocenter[$c_0, $c_1, $c_2]</Point>
+<Line id='$c_5'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_6'>sym_point[$c_3, $c_5]</Point>
+<Line id='$c_7'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_8'>sym_point[$c_3, $c_7]</Point>
+</Assignments>
+<Properties>
+<prop>is_concyclic[$c_0, $c_1, $c_2, $c_3]</prop>
+</Properties>
+<Conclusions>
+<prop>is_collinear[$c_31, $c_8, $c_4]</prop>
+</Conclusions>
+</Construction>

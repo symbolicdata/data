@@ -1,0 +1,31 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> MacLane_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2,x3</vars>
+<parameters>u1,u2,u3,u4</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u1, x1]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>varpoint[$c_0, $c_1, u2]</Point>
+<Point id='$c_4'>varpoint[$c_1, $c_2, u3]</Point>
+<Point id='$c_5'>varpoint[$c_2, $c_3, u4]</Point>
+<Point id='$c_6'>varpoint[$c_0, $c_5, x2]</Point>
+<Point id='$c_7'>varpoint[$c_1, $c_6, x3]</Point>
+</Assignments>
+<Properties>
+<prop>is_collinear[$c_3, $c_4, $c_6]</prop>
+<prop>is_collinear[$c_4, $c_5, $c_7]</prop>
+<prop>is_collinear[$c_7, $c_0, $c_2]</prop>
+</Properties>
+<Conclusions>
+<prop>is_collinear[$c_0, $c_1, $c_2]</prop>
+<prop>is_collinear[$c_0, $c_1, $c_4]</prop>
+<prop>is_collinear[$c_0, $c_1, $c_5]</prop>
+<prop>is_collinear[$c_0, $c_1, $c_6]</prop>
+<prop>is_collinear[$c_0, $c_1, $c_7]</prop>
+</Conclusions>
+</Construction>

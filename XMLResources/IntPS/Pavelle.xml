@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-03-26" createdBy="graebe">
+  <vars>x,y,z,t,a,b,c,d</vars>
+  <basis>
+    <poly>x*t+y*t+z*t-d</poly>
+    <poly>x*z+y*z+z*t-c</poly>
+    <poly>x*y+y*z+y*t-b</poly>
+    <poly>x*y+x*z+x*t-a</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Pavelle</changed>
+  </ChangeLog>
+</INTPS>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/195_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>r,u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, r]</Point>
+</Points>
+<Assignments>
+<Point id='$c_2'>circle_slider[$c_0, $c_1, u1]</Point>
+<Point id='$c_3'>circle_slider[$c_0, $c_1, u2]</Point>
+<Point id='$c_4'>circle_slider[$c_0, $c_1, u3]</Point>
+<Point id='$c_5'>centroid[$c_1, $c_2, $c_3]</Point>
+<Point id='$c_6'>orthocenter[$c_1, $c_2, $c_3]</Point>
+<Circle id='$c_7'>p3_circle[$c_1, $c_2, $c_3]</Circle>
+<Line id='$c_8'>pp_line[$c_4, $c_0]</Line>
+<Point id='$c_9'>other_cl_point[$c_4, $c_7, $c_8]</Point>
+<Point id='$c_10'>midpoint[$c_9, $c_6]</Point>
+</Assignments>
+<Conclusions>
+<prop>is_collinear[$c_5, $c_10, $c_4]</prop>
+</Conclusions>
+</Construction>

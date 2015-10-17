@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-03-26" createdBy="graebe">
+  <vars>z,y,x,w</vars>
+  <basis>
+    <poly>z*w-x*w+y</poly>
+    <poly>z*y-2*x^2-x*w-1</poly>
+    <poly>z^2*w-z*x*w+z^2-z*x+x*w+3*x</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Wang-89</changed>
+  </ChangeLog>
+</INTPS>

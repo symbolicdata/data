@@ -1,0 +1,25 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/90_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4,u5</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, u1]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[u4, u5]</Point>
+</Points>
+<Assignments>
+<Circle id='$c_4'>p3_circle[$c_0, $c_1, $c_3]</Circle>
+<Line id='$c_5'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_6'>other_cl_point[$c_0, $c_4, $c_5]</Point>
+<Circle id='$c_7'>p3_circle[$c_0, $c_1, $c_2]</Circle>
+<Line id='$c_8'>pp_line[$c_1, $c_3]</Line>
+<Point id='$c_9'>other_cl_point[$c_1, $c_7, $c_8]</Point>
+<Line id='$c_10'>pp_line[$c_2, $c_9]</Line>
+<Line id='$c_11'>pp_line[$c_6, $c_3]</Line>
+</Assignments>
+<Conclusions>
+<prop>is_parallel[$c_10, $c_11]</prop>
+</Conclusions>
+</Construction>

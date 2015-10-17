@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-03-26" createdBy="graebe">
+  <vars>w,x,y,z</vars>
+  <basis>
+    <poly>w+x+y+z</poly>
+    <poly>w*x+x*y+w*z+y*z</poly>
+    <poly>w*x*y+w*x*z+w*y*z+x*y*z</poly>
+    <poly>w*x*y*z-1</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Cyclic_4</changed>
+  </ChangeLog>
+</INTPS>

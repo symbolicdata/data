@@ -1,0 +1,25 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/280_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>altitude[$c_2, $c_0, $c_1]</Line>
+<Point id='$c_4'>line_slider[$c_3, u4]</Point>
+<Point id='$c_5'>midpoint[$c_0, $c_2]</Point>
+<Point id='$c_6'>midpoint[$c_2, $c_1]</Point>
+<Point id='$c_7'>midpoint[$c_1, $c_4]</Point>
+<Point id='$c_8'>midpoint[$c_0, $c_4]</Point>
+<Line id='$c_9'>pp_line[$c_8, $c_6]</Line>
+<Line id='$c_10'>pp_line[$c_5, $c_7]</Line>
+<Point id='$c_11'>intersection_point[$c_9, $c_10]</Point>
+</Assignments>
+<Conclusions>
+<prop>eq_dist[$c_8, $c_11, $c_11, $c_7]</prop>
+</Conclusions>
+</Construction>

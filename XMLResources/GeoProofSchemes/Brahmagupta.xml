@@ -1,0 +1,23 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Brahmagupta </Title>
+<prooftype> equational, deduction </prooftype>
+<vars>x0,x1,x2,x3,x4</vars>
+<parameters>u1,u2,u3,u4</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[x1, x2]</Point>
+<Point id='$c_3' type='free'>Point[x3, x4]</Point>
+</Points>
+<Assignments>
+<Distance id='$c_5'>sqrdist[$c_1, $c_2]</Distance>
+<Distance id='$c_6'>sqrdist[$c_2, $c_3]</Distance>
+<Distance id='$c_7'>sqrdist[$c_0, $c_3]</Distance>
+<Scalar id='$c_8'>triangle_area[$c_0, $c_1, $c_2]</Scalar>
+<Scalar id='$c_9'>triangle_area[$c_0, $c_2, $c_3]</Scalar>
+</Assignments>
+<Properties>
+<prop>is_concyclic[$c_0, $c_1, $c_2, $c_3]</prop>
+</Properties>
+</Construction>

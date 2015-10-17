@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-03-26" createdBy="graebe">
+  <vars>s1,s2,s3,c1,c2,c3,d,a,b,c,l2,l3</vars>
+  <basis>
+    <poly>c2*l2+c3*l3-d</poly>
+    <poly>s2*l2+s3*l3-c</poly>
+    <poly>c1*d-b</poly>
+    <poly>s1*d+a</poly>
+    <poly>s3^2+c3^2-1</poly>
+    <poly>s2^2+c2^2-1</poly>
+    <poly>s1^2+c1^2-1</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Robot-Romin</changed>
+  </ChangeLog>
+</INTPS>

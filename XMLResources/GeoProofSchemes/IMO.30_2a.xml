@@ -1,0 +1,43 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> IMO/30_2a </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[u1, 0]</Point>
+<Point id='$c_1' type='free'>Point[u2, 0]</Point>
+<Point id='$c_2' type='free'>Point[0, u3]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_4'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_5'>sym_line[$c_0B, $c_4]</Line>
+<Line id='$c_6'>pp_line[$c_1, $c_2]</Line>
+<Line id='$c_7'>sym_line[$c_0B, $c_6]</Line>
+<Point id='$c_8'>intersection_point[$c_5, $c_7]</Point>
+<Circle id='$c_9'>p3_circle[$c_0, $c_1, $c_8]</Circle>
+<Line id='$c_10'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_11'>other_cl_point[$c_0, $c_9, $c_10]</Point>
+<Line id='$c_12'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_13'>other_cl_point[$c_1, $c_9, $c_12]</Point>
+<Line id='$c_14'>pp_line[$c_8, $c_2]</Line>
+<Point id='$c_15'>other_cl_point[$c_8, $c_9, $c_14]</Point>
+<Line id='$c_16'>pp_line[$c_0, $c_01]</Line>
+<Line id='$c_17'>ortho_line[$c_0, $c_16]</Line>
+<Line id='$c_18'>pp_line[$c_1, $c_11]</Line>
+<Line id='$c_19'>ortho_line[$c_1, $c_18]</Line>
+<Line id='$c_20'>pp_line[$c_8, $c_15]</Line>
+<Line id='$c_21'>ortho_line[$c_8, $c_20]</Line>
+<Point id='$c_22'>intersection_point[$b0, $c0]</Point>
+<Point id='$c_23'>intersection_point[$a0, $c0]</Point>
+<Point id='$c_24'>intersection_point[$a0, $b0]</Point>
+<Scalar id='$c_25'>triangle_area[$c_00, $c_23, $c_24]</Scalar>
+<Scalar id='$c_26'>triangle_area[$c_0, $c_15, $c_1]</Scalar>
+<Scalar id='$c_27'>triangle_area[$c_0, $c_1, $c_01]</Scalar>
+<Scalar id='$c_28'>triangle_area[$c_0, $c_11, $c_8]</Scalar>
+<Scalar id='$c_29'>triangle_area[$c_0, $c_8, $c_11]</Scalar>
+</Assignments>
+<Conclusions>
+<prop>is_equal[$a1, 2*$a2]</prop>
+</Conclusions>
+</Construction>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<FREEALGEBRA createdAt="2014-01-02" createdBy="levandov">
+  <vars>H,h,f,e</vars>
+  <uptoDeg>4</uptoDeg>
+  <basis>
+  <ncpoly>f*e-e*f+h*H</ncpoly>
+  <ncpoly>h*e-e*h-2*e*H</ncpoly>
+  <ncpoly>h*f-f*h+2*f*H</ncpoly>
+  <ncpoly>f*H-H*f</ncpoly>
+  <ncpoly>e*H-H*e</ncpoly>
+  <ncpoly>h*H-H*h</ncpoly>
+  </basis>
+  <Comment>Semiautomatrically generated; H is the homog variable</Comment>
+</FREEALGEBRA>

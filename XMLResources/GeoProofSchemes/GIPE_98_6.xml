@@ -1,0 +1,34 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Contests/GIPE_98_6 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[-1, 0]</Point>
+<Point id='$c_1' type='free'>Point[1, 0]</Point>
+</Points>
+<Assignments>
+<Point id='$c_2'>midpoint[$c_0, $c_1]</Point>
+<Line id='$c_3'>pp_line[$c_2, $c_0]</Line>
+<Line id='$c_4'>ortho_line[$c_0, $c_3]</Line>
+<Line id='$c_5'>pp_line[$c_2, $c_1]</Line>
+<Line id='$c_6'>ortho_line[$c_1, $c_5]</Line>
+<Circle id='$c_7'>pc_circle[$c_2, $c_0]</Circle>
+<Point id='$c_8'>circle_slider[$c_2, $c_0, u1]</Point>
+<Line id='$c_9'>pp_line[$c_2, $c_8]</Line>
+<Line id='$c_10'>ortho_line[$c_8, $c_9]</Line>
+<Point id='$c_11'>intersection_point[$b, $d]</Point>
+<Point id='$c_12'>intersection_point[$k, $d]</Point>
+<Line id='$c_13'>pp_line[$c_11, $c_1]</Line>
+<Line id='$c_14'>pp_line[$c_0, $c_12]</Line>
+<Point id='$c_15'>intersection_point[$c_13, $c_14]</Point>
+<Circle id='$c_16'>p3_circle[$c_11, $c_8, $c_1]</Circle>
+<Point id='$c_17'>other_cl_point[$c_11, $c_16, $b]</Point>
+<Line id='$c_18'>pp_line[$c_15, $c_8]</Line>
+<Line id='$c_19'>pp_line[$c_17, $c_1]</Line>
+<Point id='$c_20'>intersection_point[$c_18, $c_19]</Point>
+</Assignments>
+<Conclusions>
+<prop>on_circle[$c_20, $g]</prop>
+</Conclusions>
+</Construction>

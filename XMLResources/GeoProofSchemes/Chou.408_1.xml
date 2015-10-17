@@ -1,0 +1,29 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/408_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4,u5</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, u1]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[u4, u5]</Point>
+</Points>
+<Assignments>
+<Circle id='$c_4'>p3_circle[$c_0, $c_1, $c_2]</Circle>
+<Circle id='$c_5'>p3_circle[$c_0, $c_1, $c_3]</Circle>
+<Circle id='$c_6'>p3_circle[$c_0, $c_2, $c_3]</Circle>
+<Point id='$c_7'>circle_center[$c1]</Point>
+<Point id='$c_8'>circle_center[$c2]</Point>
+<Point id='$c_9'>circle_center[$c3]</Point>
+<Line id='$c_10'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_11'>other_cl_point[$c_0, $c_6, $c_10]</Point>
+<Line id='$c_12'>pp_line[$c_7, $c_8]</Line>
+<Point id='$c_13'>pedalpoint[$c_9, $c_12]</Point>
+<Distance id='$c_14'>sqrdist[$c_1, $c_11]</Distance>
+<Distance id='$c_15'>sqrdist[$c_9, $c_13]</Distance>
+</Assignments>
+<Conclusions>
+<prop>is_equal[$c_14, 4*$c_15]</prop>
+</Conclusions>
+</Construction>

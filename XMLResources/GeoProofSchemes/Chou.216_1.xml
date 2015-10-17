@@ -1,0 +1,19 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/216_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>p9_center[$c_0, $c_1, $c_2]</Point>
+<Point id='$c_4'>circumcenter[$c_0, $c_1, $c_2]</Point>
+<Line id='$c_5'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_6'>sym_point[$c_4, $c_5]</Point>
+<Point id='$c_7'>midpoint[$c_6, $c_2]</Point>
+<Distance id='$c_8'>sqrdist[$c_3, $c_7]</Distance>
+</Assignments>
+</Construction>

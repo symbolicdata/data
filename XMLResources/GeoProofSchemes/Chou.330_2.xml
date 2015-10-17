@@ -1,0 +1,35 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/330_2 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4,u5,u6,u7</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>varpoint[$c_0, $c_1, u4]</Point>
+<Point id='$c_4'>varpoint[$c_2, $c_1, u5]</Point>
+<Line id='$c_5'>pp_line[$c_3, $c_4]</Line>
+<Line id='$c_6'>pp_line[$c_2, $c_0]</Line>
+<Point id='$c_7'>intersection_point[$c_5, $c_6]</Point>
+<Point id='$c_8'>varpoint[$c_0, $c_1, u6]</Point>
+<Point id='$c_9'>varpoint[$c_2, $c_1, u7]</Point>
+<Line id='$c_10'>pp_line[$c_8, $c_9]</Line>
+<Line id='$c_11'>pp_line[$c_2, $c_0]</Line>
+<Point id='$c_12'>intersection_point[$c_10, $c_11]</Point>
+<Line id='$c_13'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_14'>pp_line[$c_4, $c_12]</Line>
+<Point id='$c_15'>intersection_point[$c_13, $c_14]</Point>
+<Line id='$c_16'>pp_line[$c_1, $c_2]</Line>
+<Line id='$c_17'>pp_line[$c_7, $c_8]</Line>
+<Point id='$c_18'>intersection_point[$c_16, $c_17]</Point>
+<Line id='$c_19'>pp_line[$c_2, $c_0]</Line>
+<Line id='$c_20'>pp_line[$c_3, $c_9]</Line>
+<Point id='$c_21'>intersection_point[$c_19, $c_20]</Point>
+</Assignments>
+<Conclusions>
+<prop>is_collinear[$c_15, $c_18, $c_21]</prop>
+</Conclusions>
+</Construction>

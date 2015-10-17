@@ -1,0 +1,28 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Desargue_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>a1,a2,b1,b2,c1,c2,d1,d2,u</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[a1, a2]</Point>
+<Point id='$c_1' type='free'>Point[b1, b2]</Point>
+<Point id='$c_2' type='free'>Point[c1, c2]</Point>
+<Point id='$c_3' type='free'>Point[d1, d2]</Point>
+</Points>
+<Assignments>
+<Line id='$c_4'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_5'>par_line[$c_3, $c_4]</Line>
+<Point id='$c_6'>line_slider[$c_5, u]</Point>
+<Line id='$c_7'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_8'>par_line[$c_3, $c_7]</Line>
+<Line id='$c_9'>pp_line[$c_1, $c_2]</Line>
+<Line id='$c_10'>par_line[$c_6, $c_9]</Line>
+<Point id='$c_11'>intersection_point[$c_8, $c_10]</Point>
+<Line id='$c_12'>pp_line[$c_0, $c_3]</Line>
+<Line id='$c_13'>pp_line[$c_1, $c_6]</Line>
+<Line id='$c_14'>pp_line[$c_2, $c_11]</Line>
+</Assignments>
+<Conclusions>
+<prop>is_concurrent[$c_12, $c_13, $c_14]</prop>
+</Conclusions>
+</Construction>

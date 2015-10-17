@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-03-26" createdBy="graebe">
+  <vars>x,y,z,t</vars>
+  <basis>
+    <poly>x^8-z</poly>
+    <poly>x^10-t</poly>
+    <poly>x^31-x^6-x-y</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/TD-89</changed>
+  </ChangeLog>
+</INTPS>

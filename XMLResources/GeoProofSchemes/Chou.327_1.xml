@@ -1,0 +1,27 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/327_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>midpoint[$c_1, $c_2]</Point>
+<Point id='$c_4'>midpoint[$c_0, $c_2]</Point>
+<Point id='$c_5'>midpoint[$c_0, $c_1]</Point>
+<Line id='$c_6'>pp_line[$c_0, $c_3]</Line>
+<Line id='$c_7'>pp_line[$c_4, $c_5]</Line>
+<Point id='$c_8'>intersection_point[$c_6, $c_7]</Point>
+<Line id='$c_9'>pp_line[$c_2, $c_8]</Line>
+<Line id='$c_10'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_11'>intersection_point[$c_9, $c_10]</Point>
+<Distance id='$c_12'>sqrdist[$c_0, $c_1]</Distance>
+<Distance id='$c_13'>sqrdist[$c_0, $c_11]</Distance>
+</Assignments>
+<Conclusions>
+<prop>is_equal[$c_12, 9*$c_13]</prop>
+</Conclusions>
+</Construction>

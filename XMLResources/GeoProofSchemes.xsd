@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:include schemaLocation="Types.xsd"/>
+  <xs:include schemaLocation="Common.xsd"/>
+
+  <!-- subelement definition -->
+
+  <xs:element name="Points">
+    <xs:complexType>
+      <xs:sequence>
+	<xs:element maxOccurs="unbounded" ref="Point"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Assignments">
+    <xs:complexType>
+      <xs:sequence>
+	<xs:choice maxOccurs="unbounded">
+	  <xs:element ref="Angle"/>
+	  <xs:element ref="Circle"/>
+	  <xs:element ref="Distance"/>
+	  <xs:element ref="Line"/>
+	  <xs:element ref="Point"/>
+	  <xs:element ref="Scalar"/>
+	</xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Properties">
+    <xs:complexType>
+      <xs:sequence>
+	<xs:element maxOccurs="unbounded" ref="prop"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Conclusions">
+    <xs:complexType>
+      <xs:sequence>
+	<xs:element maxOccurs="unbounded" ref="prop"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Point">
+    <xs:complexType>
+      <xs:simpleContent>
+	<xs:extension base="xs:string">
+	  <xs:attribute name="id" type="xs:string" use="required"/>
+	  <xs:attribute name="type" type="xs:string"/>
+	</xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element> 
+  
+  <xs:element name="Line">
+    <xs:complexType>
+      <xs:simpleContent>
+	<xs:extension base="xs:string">
+	  <xs:attribute name="id" type="xs:string" use="required"/>
+	</xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="Angle">
+    <xs:complexType>
+      <xs:simpleContent>
+	<xs:extension base="xs:string">
+	  <xs:attribute name="id" type="xs:string" use="required"/>
+	</xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="Circle">
+    <xs:complexType>
+      <xs:simpleContent>
+	<xs:extension base="xs:string">
+	  <xs:attribute name="id" type="xs:string" use="required"/>
+	</xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Distance">
+    <xs:complexType>
+      <xs:simpleContent>
+	<xs:extension base="xs:string">
+	  <xs:attribute name="id" type="xs:string" use="required"/>
+	</xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Scalar">
+    <xs:complexType>
+      <xs:simpleContent>
+	<xs:extension base="xs:string">
+	  <xs:attribute name="id" type="xs:string" use="required"/>
+	</xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="prop">
+    <xs:complexType>
+      <xs:simpleContent>
+	<xs:extension base="xs:string">
+	</xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element> 
+
+  <!-- Root element definition -->
+
+  <xs:element name="Construction">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Title" type="xs:string"/>
+        <xs:element name="prooftype" type="xs:string"/>
+        <xs:element minOccurs="0" name="vars" type="VarList"/>
+        <xs:element minOccurs="0" name="parameters" type="VarList"/>
+        <xs:element minOccurs="0" ref="Points"/>
+        <xs:element minOccurs="0" ref="Assignments"/>
+        <xs:element minOccurs="0" ref="Properties"/>
+        <xs:element minOccurs="0" ref="Conclusions"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<GAlgebra createdAt="2003-07-03" createdBy="levandovsky">
+  <vars>x,y,z</vars>
+  <commutators>
+    <commutator fst="x" snd="z">
+      <D>2x</D>
+    </commutator>
+    <commutator fst="x" snd="y">
+      <D>-z</D>
+    </commutator>
+    <commutator fst="y" snd="z">
+      <D>-2y</D>
+    </commutator>
+  </commutators>
+  <basis>
+    <ncpoly>x^8</ncpoly>
+    <ncpoly>y^8</ncpoly>
+    <ncpoly>z^8-84*z^6+1974*z^4-12916*z^2+11025</ncpoly>
+  </basis>
+</GAlgebra>

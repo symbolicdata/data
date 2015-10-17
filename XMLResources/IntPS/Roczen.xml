@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<INTPS createdAt="2010-05-11" createdBy="graebe">
+  <vars>a,b,c,d,e,f,g,h,k,o</vars>
+  <basis>
+    <poly>o+1</poly> 
+    <poly>k^4+k</poly> 
+    <poly>h*k</poly> 
+    <poly>h^4+h</poly> 
+    <poly>g*k</poly> 
+    <poly>g*h</poly> 
+    <poly>g^3+h^3+k^3+1</poly> 
+    <poly>f*k</poly> 
+    <poly>f^4+f</poly> 
+    <poly>e*h</poly> 
+    <poly>e*f</poly> 
+    <poly>f^3*h^3+e^3*k^3+e^3+f^3+h^3+k^3+1</poly> 
+    <poly>e^3*g+f^3*g+g</poly> 
+    <poly>e^4+e</poly> 
+    <poly>d*h^3+d*k^3+d</poly> 
+    <poly>d*g</poly> 
+    <poly>d*f</poly> 
+    <poly>d*e</poly> 
+    <poly>d^3+e^3+f^3+1</poly> 
+    <poly>e^2*g^2+d^2*h^2+c</poly> 
+    <poly>f^2*g^2+d^2*k^2+b</poly> 
+    <poly>f^2*h^2+e^2*k^2+a</poly>
+  </basis>
+</INTPS>

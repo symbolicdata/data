@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<INTPS createdAt="2000-03-22" createdBy="graebe">
+  <vars>x1,x2,u1,u2,u3</vars>
+  <basis>
+    <poly>-x1^2*u2-2*x1*x2*u3+x2^2*u2</poly>
+    <poly>x1^2*u2-2*x1*x2*u1+2*x1*x2*u3-x2^2*u2+2*x1*u1^2-2*x1*u1*u3+2*x2*u1*u2-u1^2*u2</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Geometry/InCenter_1</changed>
+  </ChangeLog>
+</INTPS>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/61_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4,u5,u6,u7</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, u1]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[u4, u5]</Point>
+</Points>
+<Assignments>
+<Line id='$c_4'>pp_line[$c_0, $c_3]</Line>
+<Line id='$c_5'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_6'>intersection_point[$c_4, $c_5]</Point>
+<Line id='$c_7'>pp_line[$c_1, $c_3]</Line>
+<Line id='$c_8'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_9'>intersection_point[$c_7, $c_8]</Point>
+<Line id='$c_10'>pp_line[$c_2, $c_3]</Line>
+<Line id='$c_11'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_12'>intersection_point[$c_10, $c_11]</Point>
+<Point id='$c_13'>varpoint[$c_9, $c_12, u6]</Point>
+<Point id='$c_14'>varpoint[$c_12, $c_6, u7]</Point>
+<Line id='$c_15'>pp_line[$c_13, $c_14]</Line>
+<Line id='$c_16'>pp_line[$c_6, $c_9]</Line>
+<Point id='$c_17'>intersection_point[$c_15, $c_16]</Point>
+<Line id='$c_18'>pp_line[$c_0, $c_13]</Line>
+<Line id='$c_19'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_20'>intersection_point[$c_18, $c_19]</Point>
+<Line id='$c_21'>pp_line[$c_1, $c_14]</Line>
+<Line id='$c_22'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_23'>intersection_point[$c_21, $c_22]</Point>
+<Line id='$c_24'>pp_line[$c_2, $c_17]</Line>
+<Line id='$c_25'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_26'>intersection_point[$c_24, $c_25]</Point>
+</Assignments>
+<Conclusions>
+<prop>is_collinear[$c_20, $c_23, $c_26]</prop>
+</Conclusions>
+</Construction>

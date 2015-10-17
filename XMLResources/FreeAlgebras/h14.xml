@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<FREEALGEBRA createdAt="2011-01-01" createdBy="heinle">
+  <vars>u,v,U,V</vars>
+  <uptoDeg>18</uptoDeg>
+  <basis>
+    <ncpoly>u*U-1</ncpoly>
+    <ncpoly>U*u-1</ncpoly>
+    <ncpoly>v*V-1</ncpoly>
+    <ncpoly>V*v-1</ncpoly>
+    <ncpoly>v*U*v*v*U*v-1</ncpoly>
+    <ncpoly>U*v*U*v*U*v-1</ncpoly>
+    <ncpoly>u*u*u*u*u*u*u*u*v*u*v*u*v*v*u*u*v*v-1</ncpoly>
+  </basis>
+  <Comment>havas14</Comment>
+  <ChangeLog>
+    <changed at="2012-12-05" by="graebe">fixed syntax</changed>
+  </ChangeLog>
+</FREEALGEBRA>

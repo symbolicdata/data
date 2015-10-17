@@ -1,0 +1,39 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/315_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>r,u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, r]</Point>
+</Points>
+<Assignments>
+<Point id='$c_2'>circle_slider[$c_0, $c_1, u1]</Point>
+<Point id='$c_3'>circle_slider[$c_0, $c_1, u2]</Point>
+<Point id='$c_4'>circle_slider[$c_0, $c_1, u3]</Point>
+<Point id='$c_5'>midpoint[$c_2, $c_1]</Point>
+<Circle id='$c_6'>pc_circle[$c_5, $c_1]</Circle>
+<Point id='$c_7'>midpoint[$c_3, $c_1]</Point>
+<Circle id='$c_8'>pc_circle[$c_7, $c_1]</Circle>
+<Point id='$c_9'>midpoint[$c_4, $c_1]</Point>
+<Circle id='$c_10'>pc_circle[$c_9, $c_1]</Circle>
+<Line id='$c_11'>pp_line[$c_1, $c_3]</Line>
+<Point id='$c_12'>other_cl_point[$c_1, $c_6, $c_11]</Point>
+<Line id='$c_13'>pp_line[$c_1, $c_4]</Line>
+<Point id='$c_14'>other_cl_point[$c_1, $c_6, $c_13]</Point>
+<Line id='$c_15'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_16'>other_cl_point[$c_1, $c_8, $c_15]</Point>
+<Line id='$c_17'>pp_line[$c_1, $c_4]</Line>
+<Point id='$c_18'>other_cl_point[$c_1, $c_8, $c_17]</Point>
+<Line id='$c_19'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_20'>other_cl_point[$c_1, $c_10, $c_19]</Point>
+<Line id='$c_21'>pp_line[$c_1, $c_3]</Line>
+<Point id='$c_22'>other_cl_point[$c_1, $c_10, $c_21]</Point>
+<Line id='$c_23'>pp_line[$c_12, $c_14]</Line>
+<Line id='$c_24'>pp_line[$c_16, $c_18]</Line>
+<Line id='$c_25'>pp_line[$c_20, $c_22]</Line>
+</Assignments>
+<Conclusions>
+<prop>is_concurrent[$c_23, $c_24, $c_25]</prop>
+</Conclusions>
+</Construction>

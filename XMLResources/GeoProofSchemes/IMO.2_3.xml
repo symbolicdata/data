@@ -1,0 +1,22 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> IMO/2_3 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[1, 0]</Point>
+</Points>
+<Assignments>
+<Line id='$c_2'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_3'>ortho_line[$c_0, $c_2]</Line>
+<Point id='$c_4'>line_slider[$c_3, u1]</Point>
+<Point id='$c_5'>fixedpoint[$c_1, $c_4, (m+1)/(2*m+1)]</Point>
+<Point id='$c_6'>fixedpoint[$c_1, $c_4, m/(2*m+1)]</Point>
+<Angle id='$c_7'>p3_angle[$c_5, $c_0, $c_6]</Angle>
+<Distance id='$c_8'>sqrdist[$c_1, $c_4]</Distance>
+</Assignments>
+<Conclusions>
+<prop>is_equal[$c_7, (2*m+1)/(m^2+m)*u1/$c_8]</prop>
+</Conclusions>
+</Construction>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-04-20" createdBy="obachman">
+  <vars>a,b,c,d,e,g,h</vars>
+  <basis>
+    <poly>-2*d*e-2*c*g-a*h-2*b*h</poly>
+    <poly>-d^2-2*c*e-a*g-2*b*g-h^2</poly>
+    <poly>-2*c*d-a*e-2*b*e-2*g*h</poly>
+    <poly>-c^2-a*d-2*b*d-g^2-2*e*h</poly>
+    <poly>-a*c-2*b*c-2*e*g-2*d*h</poly>
+    <poly>-a*b-b^2-e^2-2*d*g-2*c*h</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Singular/schwarz_6</changed>
+  </ChangeLog>
+</INTPS>

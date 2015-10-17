@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<GAlgebra createdAt="2003-07-03" createdBy="levandovsky">
+  <vars>x,y,z</vars>
+  <commutators>
+    <commutator fst="x" snd="z">
+      <D>2x</D>
+    </commutator>
+    <commutator fst="x" snd="y">
+      <D>-z</D>
+    </commutator>
+    <commutator fst="y" snd="z">
+      <D>-2y</D>
+    </commutator>
+  </commutators>
+  <basis>
+    <ncpoly>x^5</ncpoly>
+    <ncpoly>y^5</ncpoly>
+    <ncpoly>z^5-20*z^3+64*z</ncpoly>
+  </basis>
+</GAlgebra>

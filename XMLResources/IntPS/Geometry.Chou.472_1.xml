@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<INTPS createdAt="2000-03-22" createdBy="graebe">
+  <vars>x1,x2,u1,u2,u3,u4,u5</vars>
+  <basis>
+    <poly>x1*u3*u4-x1*u2*u5-x2*u2*u4-x2*u3*u5</poly>
+    <poly>x1*u1*u3-x1*u3*u4-x1*u1*u5+x1*u2*u5+x2*u1^2-x2*u1*u2-x2*u1*u4+x2*u2*u4+x2*u3*u5-u1^2*u3+u1*u3*u4+u1^2*u5-u1*u2*u5</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Geometry/Chou_472_1</changed>
+  </ChangeLog>
+</INTPS>

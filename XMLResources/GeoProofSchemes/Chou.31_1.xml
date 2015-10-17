@@ -1,0 +1,23 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/31_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4,u5,u6</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[u1, u2]</Point>
+<Point id='$c_1' type='free'>Point[u3, u4]</Point>
+<Point id='$c_2' type='free'>Point[u5, u6]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>orthocenter[$c_0, $c_1, $c_2]</Point>
+<Point id='$c_4'>circumcenter[$c_0, $c_1, $c_2]</Point>
+<Distance id='$c_5'>sqrdist[$c_4, $c_3]</Distance>
+<Distance id='$c_6'>sqrdist[$c_0, $c_1]</Distance>
+<Distance id='$c_7'>sqrdist[$c_1, $c_2]</Distance>
+<Distance id='$c_8'>sqrdist[$c_0, $c_2]</Distance>
+<Distance id='$c_9'>sqrdist[$c_0, $c_4]</Distance>
+</Assignments>
+<Conclusions>
+<prop>is_equal[$c_5+$c_6+$c_7+$c_8, 9*$c_9]</prop>
+</Conclusions>
+</Construction>

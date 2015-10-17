@@ -1,0 +1,37 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/201_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2,x3,x4,x5,x6</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[x1, x2]</Point>
+<Point id='$c_4' type='free'>Point[x3, x4]</Point>
+<Point id='$c_5' type='free'>Point[x5, x6]</Point>
+</Points>
+<Assignments>
+<Point id='$c_6'>circumcenter[$c_0, $c_1, $c_2]</Point>
+<Point id='$c_7'>orthocenter[$c_0, $c_1, $c_2]</Point>
+<Line id='$c_9'>pp_line[$c_0, $c_6]</Line>
+<Line id='$c_10'>pp_line[$c_5, $c_4]</Line>
+<Line id='$c_13'>pp_line[$c_1, $c_6]</Line>
+<Line id='$c_14'>pp_line[$c_3, $c_5]</Line>
+<Line id='$c_17'>pp_line[$c_2, $c_6]</Line>
+<Line id='$c_18'>pp_line[$c_3, $c_4]</Line>
+<Point id='$c_20'>circumcenter[$c_3, $c_4, $c_5]</Point>
+</Assignments>
+<Properties>
+<prop>is_collinear[$c_0, $c_5, $c_4]</prop>
+<prop>is_orthogonal[$c_9, $c_10]</prop>
+<prop>is_collinear[$c_1, $c_3, $c_5]</prop>
+<prop>is_orthogonal[$c_13, $c_14]</prop>
+<prop>is_collinear[$c_2, $c_3, $c_4]</prop>
+<prop>is_orthogonal[$c_17, $c_18]</prop>
+</Properties>
+<Conclusions>
+<prop>is_collinear[$c_6, $c_20, $c_7]</prop>
+</Conclusions>
+</Construction>

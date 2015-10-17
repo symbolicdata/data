@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<INTPS createdAt="2010-08-10" createdBy="graebe">
+  <vars>h,l,s,z,y,x</vars>
+  <basis>
+    <poly>h*l-l^2-4*l*s+h*y</poly>
+    <poly>h^2*s-6*l*s^3+h^2*z</poly>
+    <poly>x*h^2-l^2*s-h^3</poly>
+  </basis>  
+</INTPS>

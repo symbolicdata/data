@@ -1,0 +1,33 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/132_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2,x3</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[-u1, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[x1, u3]</Point>
+<Point id='$c_3' type='free'>Point[x2, x3]</Point>
+</Points>
+<Assignments>
+<Point id='$c_4'>midpoint[$c_0, $c_1]</Point>
+<Line id='$c_5'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_6'>ortho_line[$c_4, $c_5]</Line>
+<Point id='$c_7'>line_slider[$c_6, u2]</Point>
+<Point id='$c_8'>midpoint[$c_4, $c_7]</Point>
+<Line id='$c_11'>pp_line[$c_8, $c_2]</Line>
+<Line id='$c_12'>pp_line[$c_3, $c_2]</Line>
+<Distance id='$c_14'>sqrdist[$c_3, $c_2]</Distance>
+<Distance id='$c_15'>sqrdist[$c_0, $c_3]</Distance>
+<Distance id='$c_16'>sqrdist[$c_1, $c_3]</Distance>
+</Assignments>
+<Properties>
+<prop>eq_dist[$c_2, $c_8, $c_4, $c_8]</prop>
+<prop>eq_dist[$c_0, $c_7, $c_3, $c_7]</prop>
+<prop>is_orthogonal[$c_11, $c_12]</prop>
+</Properties>
+<Conclusions>
+<prop>is_equal[4*$c_14, $c_15+$c_16]</prop>
+</Conclusions>
+</Construction>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-09-22" createdBy="wenk">
+  <vars>x1,x2,x3</vars>
+  <basis>
+    <poly>-4*x1+x2+x3-3</poly>
+    <poly>5*x1^2+3*x2^2+4*x3^2+2*x1-1</poly>
+    <poly>5*x3^3+16*x1^2+3*x2^2-1</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/ZeroDim/example_13</changed>
+  </ChangeLog>
+</INTPS>

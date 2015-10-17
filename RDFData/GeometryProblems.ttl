@@ -1,0 +1,1572 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
+@prefix sdg: <http://symbolicdata.org/Data/GeometryProblem/> .
+@prefix sdgps: <http://symbolicdata.org/Data/GeoProofScheme/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+
+<http://symbolicdata.org/Data/GeometryProblems/>
+    a owl:Ontology ;
+   cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+   cc:attributionURL <http://symbolicdata.org> ;
+   cc:attributionName "The SymbolicData Project";
+    rdfs:label "SD Geometry Problems Formulations" .
+
+sd:GeoProblemFormulation a owl:Class ; 
+    rdfs:label "Geo Problem Formulation" .
+
+sdg:Arnon
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "Let $ABCD$ be a square and $P$ a point on the line parallel to $BD$ through $C$ such that $l(BD)=l(BP)$, where $l(BD)$ denotes the distance between $B$ and $D$. Let $Q$ be the intersection point of $BF$ and $CD$.\\par Show that $l(DP)=l(DQ)$." ;
+    a sd:GeoProblemFormulation .
+
+sdg:BWM_96_2_3
+    sd:createdAt "2002-08-13" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "Bundeswettbewerb Mathematik 1996, second round" ;
+    sd:theProblem "Rectangles $A A_2 B_1 B$, $B B_2 C_1 C$ and $C C_2 A_1 A$ are erected outwardly on the sides of a triangle $ABC$.\\par Show that the perpendicular bisectors of the segments $A_1 A_2$, $B_1 B_2$, $C_1 C_2$ are concurrent. " ;
+    a sd:GeoProblemFormulation .
+
+sdg:Biarc
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "Given two points $A$ and $C$ of two different circular arcs which have given tangent directions at $A$ and $C$ (intersecting at $D$), determine the locus of an  intermediate point $B$ at which the two circular arcs join together with a common tangent." ;
+    a sd:GeoProblemFormulation .
+
+sdg:Brahmagupta
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "Let $ABCD$ be a cyclic quadrilateral. Determine the signed area of the  oriented quadrilateral in terms of the four sides $u_1,\\ldots,u_4$." ;
+    a sd:GeoProblemFormulation ;
+    rdfs:comment "Chou.282 is another theorem named \\emph{Brahmagupta}.", "Wang_95a quotes two solutions: \\[\\sqrt{(s-u_1)(s-u_2)(s-u_3)(s-u_4)}\\] and \\[\\sqrt{s(s-u_1-u_3)(s-u_1-u_2)(s-u_1-u_4)}\\] " .
+
+sdg:Brocard
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "Theorem about the Brocard points: Let $\\Delta\\,ABC$ be a triangle. The circles $c_1$ through $A,B$ and tangent to $g(AC)$, $c_2$ through $B,C$ and tangent to $g(AB)$, and $c_3$ through $A,C$ and tangent to $g(BC)$ pass through a common point." ;
+    a sd:GeoProblemFormulation .
+
+sdg:Butterfly
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "The Butterfly Theorem : Let $A,B,C,D$ be four points on a circle with center $O$, $P$ the intersection point of $AC$ and $BD$ and $F$ resp. $G$ the intersection point of the line through $P$ perpendicular to $OP$ with $AB$ resp. $CD$. Then $P$ is the midpoint of $FG$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.100>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "On the hypotenuse $AB$ of a right triangle $ABC$ a square $ABFE$ is erected.  Let $P$ be the intersection of the diagonals $AF$ and $BE$ of $ABFE$.\\par Show that the angles $ACP$ and $PCB$ have the same size." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.101>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The circle with the altitude $AD$ of a triangle $ABC$ as a diameter meets $AB$ and $AC$ at $E$ and $F$, respectively.\\par Show that $B$, $C$, $E$, and $F$ are on the same circle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.103>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "A line parallel to the base of trapezoid $ABCD$ meets its two sides and two diagonals at $H$, $G$, $F$, $E$.\\par Show that $EF^2=GH^2$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.106>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $A$, $B$, $C$, $D$ be four points on circle $(O)$ and $E=g(CD)\\wedge g(AB)$. $CB$ meets the line passing through $E$ and parallel to $AD$ at $F$. $GF$ is tangent to circle $(O)$ at $G$.\\par Show that $FG^2=FE^2$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.115>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $k$ be a circle, $A$ the contact point of the tangent line from a point $B$ to $k$, $M$ the midpoint of $AB$ and $D$ a point on $k$. Let $C$ be the second intersection point of $DM$ with $k$, $E$ the second intersection point of $BD$ with $k$ and $F$ the second intersection point of $BC$ with $k$.\\par Show that $EF$ is parallel to $AB$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.116>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "In a triangle $ABC$, $M$ is the midpoint of $BC$; the bisector of the angle $BAC$ meets $BC$ at $D$. The circle passing through $A$, $D$, $M$ meets $AB$ and $AC$ at $E$ and $F$, respectively. Show that $BE^2=CF^2$.   " ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.121>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Two parallel lines $AE$, $BD$ through the vertices $A$,$B$ of the triangle $ABC$ meet a line through the vertex $C$ in the points $E$, $D$.\\par If the parallel through $E$ to $BC$ meets $AB$ in $F$, show that $DF$ is parallel to $AC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.128>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "A circle touching $AB$ at $B$ and passing through the incenter $I$ (or through one of the excenters) of the triangle $ABC$ meets $AC$ in $H$, $K$. Prove that $IC$ bisects the angle $HIK$.   " ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.131>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "$ABC$ is a triangle inscribed in a circle; $DE$ is the diameter bisecting $BC$ at $G$; from $E$ a perpendicular $EK$ is drawn to one of the sides, and the perpendicular from the vertex $A$ on $DE$ meets $DE$ in $H$.\\par If the parallel through $E$ to $BC$ meets $AB$ in $F$, show that $DF$ is parallel to $AC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.128>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "A circle touching $AB$ at $B$ and passing through the incenter $I$ (or through one of the excenters) of the triangle $ABC$ meets $AC$ in $H$, $K$.\\par Prove that $IC$ bisects the angle $HIK$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.131>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "$ABC$ is a triangle inscribed in a circle; $DE$ is the diameter bisecting $BC$ at $G$; from $E$ a perpendicular $EK$ is drawn to one of the sides, and the perpendicular from the vertex $A$ on $DE$ meets $DE$ in $H$.\\par Show that $EK$ touches the circle $GHK$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.132>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $M$ be the midpoint of chord $AB$ of a circle, center $O$; on $OM$ as diameter draw another circle, and at any point $T$ of this circle draw a tangent to it meeting the outer circle in $E$.\\par Prove that $AE^2+BE^2=4*ET^2$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.133>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "$M$,$N$ are points on the sides $AC$,$AB$ of a triangle $ABC$ and the lines $BM$, $CN$ intersect on the altitude $AD$.\\par Show that $AD$ is the bisector of the angle $MDN$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.134>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The lines $AL$, $BL$, $CL$ joining the vertices of a triangle $ABC$ to a point $L$ meet the respectively opposite sides in $D$, $E$, $F$. The parallels through $D$ to $BE$, $CF$ meet $AC$, $AB$ in $P$, $Q$, and the parallels through $D$ to $AC$, $AB$ meet $BE$, $CF$ in $R$, $S$.\\par Show that the four points $P$, $Q$, $R$, $S$ are collinear." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.137>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The angle between the circumdiameter and the altitude issued from the same vertex of a triangle is bisected by the bisector (external or internal) of the angle of the triangle at the vertex considered." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.138>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The internal and external bisectors of an angle pass through the ends of the circumdiameter which is perpendicular to the side opposite to the vertex considered." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.139>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $U$ and $V$ be the intersection points of the bisectors of the angle $BAC$ of a triangle $ABC$ with the side $BC$.\\par If the tangent line at $A$ to the circumcircle meets $BC$ in $T$, we have $TA^2=TU^2=TV^2$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.152>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The feet of the four perpendiculars dropped from a vertex of a triangle upon the four bisectors of the other two angles are collinear." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.153>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the feet of the perpendiculars dropped from two vertices of a triangle upon the internal (external) bisector of the third angle, and the midpoint of the side joining the first two vertices, determine an isosceles triangle whose equal sides are parallel to the sides of the given triangle which includes the bisector considered." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.156>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Two centers of tangent circles of a triangle are the ends of a diameter of a circle passing through the two vertices of the triangle which are not collinear with the centers considered." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.160>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that an external bisector of an angle of a triangle is parallel to the line joining the points where the circumcircle is met by the external (internal) bisectors of the other two angles of the triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.167>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $I_1,I_2,I_3,I_4$ be the four centers of the tangent circles, $O$ the circumcenter of the triangle $ABC$ and $R$ its circumradius.\\par Then $OI_1^2+OI_2^2+OI_3^2+OI_4^2=12*R^2$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.168>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $I_1,I_2,I_3,I_4$ be the four centers of the tangent circles, $O$ the circumcenter of the triangle $ABC$ and $R$ its circumradius.\\par Then $I_1I_2^2+I_1I_3^2+I_1I_4^2+I_2I_3^2+I_2I_4^2+I_3I_4^2=48*R^2$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.174>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The segment of the altitude extended between the orthocenter and the second point of intersection with the circumcircle is bisected by the corresponding side of the triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.175>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The radius of the circumcircle of the triangle formed by two vertices and the orthocenter of a given triangle is equal to that of the circumcircle of the given triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.179>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The perpendicular at the orthocenter $H$ to the altitude $HC$ of the triangle $ABC$ meets the circumcircle of $HBC$ in $P$.\\par Show that $ABPH$ is a parallelogram." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.180>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "A vertex of a triangle is the midpoint of the arc determined on its circumcircle by the two altitudes, produced, issued from the other two vertices." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.181>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "In a triangle $ABC$ the radius of the circumcircle passing through $A$ is perpendicular to the line through the altitude feets from $B$ and $C$. (orthic triangle)" ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.182>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The angle which a side of a triangle makes with the corresponding side of the orthic triangle is equal to the difference of the angles of the given triangle adjacent to the side considered." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.184>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "$O$ is the circumcenter and $H$ the orthocenter of a triangle $ABC$, and $AH$, $BH$, $CH$ meet the circumcircle in $D$, $E$, $F$.\\par Prove that parallels through $D$, $E$, $F$ to $OA$, $OB$, $OC$, respectively, meet in a point." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.186>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "$P$, $Q$ are the feet of the perpendiculars from the vertices $B$, $C$ of the triangle $ABC$ upon the sides $DF$, $DE$, respectively, of the orthic triangle $DEF$.\\par Show that $EQ$=$FP$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.187>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "$DP$, $DQ$ are the perpendiculars from the foot $D$ of the altitude $AD$ of the triangle $ABC$ upon the sides $AC$, $AB$.\\par Prove that the points $B$, $C$, $P$, $Q$ form a cyclic quadrilateral, and that angle $DBP=CQD$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.188>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The four projections of the foot of the altitude on a side of a triangle upon the other two sides and the other two altitudes are collinear." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.189>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The distance of a side of a triangle from the circumcenter is equal to half the distance of the opposite vertex from the orthocenter." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.195>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The line joining the centroid of a triangle to a point $P$ on the circumcircle bisects the line joining the diametric opposite of $P$ to the orthocenter." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.197>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $ABC$ be a triangle with orthocenter $H$, the center of the nine-point circle $N$, $E$ the midpoint of $CH$ and $M$ the midpoint of $AB$.\\par Then $N$ is the midpoint of $ME$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.198>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The radius of the nine-point circle is equal to half the circumradius of the triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.199>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The nine-point center lies on the Euler line, midway between the circumcenter and the orthocenter." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.201>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $EFG$ be the triangle with sides tangent to the circumcircle of $ABC$.\\par Its circumcenter lies on the Euler line of the given triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.202>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The circumcenter of a triangle lies on the Euler line of the triangle determined by the points of contact of the sides of the given triangle with its inscribed circle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.203>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The projections of the orthocenter of a triangle upon the two bisectors of an angle of the triangle lie on the line joining the midpoint of the side opposite the vertex considered to the nine-point center of the triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.207>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "$P$ is the symmetric of the vertex $A$ with respect to the opposite side $BC$.\\par Show that the distance between the orthocenter and $P$ is equal to four times the distance of the nine-point center from $BC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.210>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Through the vertices of a triangle $ABC$ are drawn three parallel lines, of arbitrary direction, and the perpendiculars to these line through the same vertices. Three rectangles are thus obtained of which the sides $BC$, $CA$, $AB$ are diagonals, respectively.\\par Prove that the three remaining diagonals of these rectangles meet in a point on the nine-point circle of $ABC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.216>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The nine-point center $N$ of a triangle $ABC$ is the midpoint of the line $CP$ where $P$ is the point symmetric to the circumcenter of $ABC$ with respect to $BC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.220>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "From the foot $U$ of the bisector $AU$ of the triangle $ABC$ a perpendicular $UQ$ is drawn to the circumradius $AO$ of $ABC$ meeting $AC$ in $P$.\\par Prove that $AP$ is equal to $AB$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.221>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the foot of the altitude to the base of a triangle and the projections of the ends of the base upon the circumdiameter passing through the opposite vertex of the triangle determine a circle having for center the midpoint of the base." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.224>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the parallels through the vertices $A$, $B$, $C$ of the triangle $ABC$ to the medians of this triangle issued from the vertices $B$, $C$, $A$ respectively, form a triangle whose area is three times the area of the given triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.230>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the point symmetric to the orthocenter of a triangle with respect to a vertex, and the point symmetric to that vertex with respect to the midpoint of the opposite side, are collinear with the circumcenter of the triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.231>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Through the midpoints of the sides of a triangle having its vertices on the altitudes of a given triangle, perpendiculars are dropped to the respective sides of the given triangle.\\par Show that the three perpendiculars are concurrent." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.238>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Through the midpoints of the sides of a triangle parallels are drawn to the external bisectors of the respectively opposite angles.\\par Show that the triangle thus formed has the same nine-point circle as the given triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.239>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the foot of the altitude of a triangle on a side, the midpoint of the segment of the circumdiameter between this side and the opposite vertex, and the nine-point center are collinear." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.240>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "$A$, $B$, $C$ are the centers of three equal circles $(A)$, $(B)$, $(C)$ having a point $L$ in common, and $D$, $E$, $F$ are the other points which the circles $(B)$ and $(C)$, $(C)$ and $(A)$, $(A)$ and $(B)$ have in common.\\par Show that the circle $DEF$ is equal to the given circles, and that the center of this circle coincides with the orthocenter of the triangle $ABC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.243>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "$O$, $H$ are the circumcenter and the orthocenter of the triangle $ABC$.\\par Show that the nine-point circles of the three triangles $OHA$, $OHB$, $OHC$ have two points in common." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.245>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the Euler lines of the three triangles cut off from a given triangle by the sides of its orthic triangle have a point in common, on the nine-point circle of the given triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.246>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the symmetrics of the foot of the altitude to the base of a triangle with respect to the other two sides lie on the side of the orthic triangle relative to the base." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.247>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the midpoint of an altitude of a triangle, the point of contact of the corresponding side with the excircle relative to that side, and the incenter of the triangle are collinear." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.249>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "$X$ is the symmetric, with respect to the internal bisector of the angle $A$, of the point of contact of the side $BC$ of the triangle $ABC$ and $D$ is the midpoint of $BC$.\\par Show that the line $DX$ and its two analogues $EY$, $FZ$ have a point in common. Is the proposition valid for an excircle?" ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.250>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "A line $AD$ through the vertex $A$ meets the circumcircle of the triangle $ABC$ in $D$, $U$, $V$ are the orthocenters of the triangle $ABD$, $ACD$, respectively.\\par Prove that $UV$ is equal and parallel to $BC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.253>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "A parallel to the median $AX$ of the triangle $ABC$ meets $BC$, $CA$, $AB$ in the points $H$, $N$, $D$.\\par Prove that the symmetrics of $H$ with respect to the midpoints of $NC$, $BD$ are symmetrical with respect to the vertex $A$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.255>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The perpendiculars $DP$, $DQ$ dropped from the foot $D$ of the altitude $AD$ of the triangle $ABC$ upon the sides $AB$, $AC$ meet the perpendiculars $BP$, $CQ$ erected to $BC$ at $B$, $C$ in the points $P$, $Q$ respectively.\\par Prove that the line $PQ$ passes through the orthocenter $H$ of $ABC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.256>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The altitudes $AHD$, $BHE$, $CHF$ of the triangle $ABC$ are produced beyond $D$, $E$, $F$ to the points $P$, $Q$, $R$ by the lengths $AH$, $BH$, $CH$, respectively. The parallels through $P$, $Q$, $R$ to the sides $BC$, $CA$, $AB$, form a triangle $XYZ$.\\par Show that $H$ is the centroid of the triangle $XYZ$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.257>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The point $H$, $O$ are the orthocenter and the circumcenter of the triangle $ABC$ and $P$, $Q$ are two points symmetrical with respect to the mediator of $BC$. The perpendicular from $P$ to $BC$ meets $BC$ in $R$ and $OQ$ in $S$. $M$ is the midpoint of $HP$.\\par Prove that (a) $MR$ is parallel to $AS$; (b) $2*MR=AS$; (c) the symmetric of $R$ with respect to the midpoint of $OM$ lies on $AQ$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.258>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The side $AB$ of a parallelogram $ABCD$ is produced to $E$ so that $BE=AD$. The perpendicular to $ABE$ at $E$ meets the perpendicular from $C$ to the diagonal $BD$ in $F$.\\par Show that $AF$ bisects the angle $A$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.260>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The lines joining the midpoints of the two pairs of opposite sides of a quadrilateral and the line joining the midpoints of the diagonals are concurrent and are bisected by their common point." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.261>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The four lines obtained by joining each vertex of a quadrilateral to the centroid of the triangle determined by the remaining three vertices are concurrent." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.263>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The sum of the squares of the diagonals of a quadrilateral is equal to twice the sum of the squares of the two lines joining the midpoints of the two pairs of opposite sides of the quadrilateral." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.265>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The perpendiculars from the midpoints of the sides of a cyclic quadrilateral to the respective opposite sides are concurrent." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.266>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The perpendicular from the midpoint of each diagonal upon the other diagonal also passes through the anticenter of a cyclic quadrilateral." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.267>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The four lines obtained by joining each vertex of a cyclic quadrilateral to the orthocenter formed by the remaining three vertices bisect each other." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.269>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The nine-point circles of the four triangles determined by the four vertices of a cyclic quadrilateral pass through the anticenter of the quadrilateral." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.270>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The sum of the squares of the distances of the anticenter of a cyclic quadrilateral from the four vertices is equal to the square of the circumdiameter of the quadrilateral." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.272>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "In the cyclic quadrilateral $ABCD$ the perpendicular to $AB$ at $A$ meets $CD$ in $P$, and the perpendicular to $CD$ at $C$ meets $AB$ in $Q$.\\par Show that the line $PQ$ is parallel to the diagonal $BD$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.273>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the perpendicular from the point of intersection of two opposite sides, produced, of a cyclic quadrilateral upon the line joining the midpoints of the two sides considered passess through the anticenter of the quadrilateral." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.274>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the anticenter of a cyclic quadrilateral is the orthocenter of the triangle having for vertices the midpoints of the diagonals and the point of intersection of those two lines." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.275>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the anticenter of a cyclic quadrilateral is collinear with the two symmetrics of the circumcenter of the quadrilateral with respect to a pair of opposite sides." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.279>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "In an orthodiagonal quadrilateral the two lines joining the midpoints of the pairs of opposite sides are equal." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.28>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "In a hexagon $ABCDEF$, $CF,AB,DE$ and $BE,CD,AF$ are concurrent.\\par Prove that $AD,EF,BC$ are also concurrent." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.280>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "In an orthodiagonal quadrilateral the midpoints of the sides lie on a circle having for center the centroid of the quadrilateral.   " ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.281>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "If an orthodiagonal quadrilateral is cyclic, the anticenter coincides with the point of intersection of its diagonals." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.282>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "In a quadrilateral which is both orthodiagonal and cyclic the perpendicular from the point of intersection of the diagonals to a side bisects the side opposite." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.283>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "In a cyclic orthodiagonal quadrilateral the projections of the point of intersection of the diagonals upon the four sides lie on the circle passing through the midpoints of the sides." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.284>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "In a cyclic orthodiagonal quadrilateral the distances of a side from the circumcenter of the quadrilateral is equal to half the opposite side." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.285>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "If a quadrilateral is both cyclic and orthodiagonal, the sum of the squares of two opposite sides is equal to the square of the circumdiameter of the quadrilateral." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.286>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the line joining the midpoints of the diagonals of a cyclic orthodiagonal quadrilateral is equal to the distance of the point of intersection of the diagonals from the circumcenter of the quadrilateral." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.287>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "If the diagonals of a cyclic quadrilateral $ABCD$ are orthogonal, and $E$ is the diametric opposite of $D$ on its circumcircle, show that $AE=CB$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.289>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "If three chords drawn through a point of a circle are taken for diameters of three circles, these circles intersect, in pairs, in three new points, which are collinear." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.29>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "In a triangle $ABC$, let $p$ and $q$ be the radii of two circles through $A$, touching side $BC$ at $B$ and $C$, respectively.\\par Then $p*q=R^2$ with $R$ the radius of the circumscribed circle of the triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.290>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "If three circles pass through the same point of the circumcircle of their centers, these circles intersect, in pairs, in three collinear points." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.291>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "If three circles having a point in common intersect in pairs in three collinear points, their common point is co-cyclic with their centers." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.292>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The perpendiculars from a point $D$ of the circumcircle $(O)$ of a triangle $ABC$ to the sides $BC$, $CA$, $AB$ meet $(O)$ again in the points $N$, $M$, $L$.\\par Show that the three lines $AN$, $BM$, $CL$ are parallel to the Simson line of $D$ for $ABC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.293>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The Simson line bisects the line joining its pole to the orthocenter of the triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.296>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The Simson line $D(ABC)$ meets $BC$ in $E$ and the altitude from $A$ in $K$.\\par Show that the line $DK$ is parallel to $EH$, where $H$ is the orthocenter of $ABC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.297>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $D$ be a point on the circumcircle of triangle $ABC$.\\par If line $DA$ is parallel to $BC$, show that the Simson line $D(ABC)$ is parallel to the circumradius $OA$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.300>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $N$ be the trace of the internal bisector of the triangle $ABC$ on the circumscribed circle $(O)$.\\par Show that the Simson line of $N$ is the external bisector of the medial triangle of $ABC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.301>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the symmetrics, with respect to the sides of a triangle, of a point on its circumcircle lie on a line passing through the orthocenter of the triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.302>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The perpendiculars through the points $P$, $Q$ to the Simson lines $Q(ABC)$, $P(ABC)$, respectively, intersect on the circumcircle of the triangle $ABC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.303>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The parallels through the points $P$, $Q$ to the Simson lines $Q(ABC)$, $P(ABC)$, respectively, intersect on the circumcircle of the triangle $ABC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.304>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The Simson lines of two diametrically opposite points are perpendicular at a point of the nine-point circle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.31>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $ABC$ be a triangle with circumcenter $O$ and orthocenter $H$.\\par Then $OH^2=9*R^2-AB^2-BC^2-AC^2$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.310>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The four Simson lines of a point of a circle for the four triangles determined by the vertices of a quadrilateral inscribed in that circle, admit the point considered for their Miquel point." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.311>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The four Simson lines of four points of a circle, each taken for the triangle formed by the remaining three points, are concurrent." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.312>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The orthocenters of the four triangles formed by four lines taken three at a time are collinear." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.313>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Two triangles are inscribed in the same circle and are symmetrical with respect to the center of that circle.\\par Show that the two Simson lines of any point of the circle for these triangles are rectangular." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.315>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The chords $PA$, $PB$, $PC$ of a given circle are the diameters of three circles $(PA)$, $(PB)$, $(PC)$. The circle $(PA)$ meets the lines $PB$, $PC$ in the points $D$, $G$, the circle $(PB)$ meets $PA$, $PC$ in $E$, $H$, the circle $(PC)$ meets $PA$, $PB$ in $F$, $I$.\\par Show that the three lines $DG$, $EH$, $FI$ are concurrent." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.317>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The circumradius $OP$ of the triangle $ABC$ meets the sides of the triangle in the points $G$, $H$, $I$.\\par Show that the projections $J$, $K$, $L$, of these points upon the lines $AP$, $BP$, $CP$ lie on the Simson line of $P$ for $ABC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.319>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "$H$, $O$, $G$, $I$ are the orthocenter, the centroid, the circumcenter, and the incenter of a triangle.\\par Show that $HI^2+2*OI^2=3*(IG^2+2*OG^2)$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.322>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "(A) The external bisectors of the angles of a triangle meet the opposite sides in three collinear points. (B) Two internal bisectors and the external bisector of the third angle meet the opposite sides in three collinear points." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.323>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The sides of the orthic triangle meet the sides of the given triangle in three collinear points." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.325>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The lines tangent to the circumcircle of a triangle at the vertices meet opposite sides in three collinear points (The Lemoine axis of the given triangle.)." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.327>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The median $AD$ of the triangle $ABC$ meets the side $EF$ of the medial triangle $DEF$ in $P$, and $CP$ meets $AB$ in $Q$. Show that $AB=3*AQ$.   " ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.329>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Prove that the triangle formed by the points of contact of the sides of a given triangle with the excircles corresponding to these sides is equivalent to the triangle formed by the points of contact of the sides of the triangle with the inscribed circle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.330>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The sides $BC$, $CA$, $AB$ of a triangle $ABC$ are met by two transversals $PQR$, $STU$ in the pairs of points $P$, $S$; $Q$, $T$; $R$, $U$.\\par Show that the intersection points of the lines $BC$, $QU$; $CA$, $RS$; $AB$, $PT$ are collinear." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.336>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The lines joining the vertices of a triangle to the points of contact of the opposite side with the inscribed circle are concurrent (the Gergonne Point)." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.337>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The lines joining the vertices of a triangle to the points of contact of the opposite sides with the excircles relative to those sides are concurrent (the Nagel Point)." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.338>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "A parallel to the side $BC$ of the triangle $ABC$ meets $AB$, $AC$ in $E$, $F$.\\par Prove that the lines $BF$, $CE$ meet on the median from $A$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.339>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "With a point $M$ of the side $BC$ of the triangle $ABC$ as center circles are drawn passing through $B$ and $C$, respectively, meeting $AB$, $AC$ again in $N$, $P$.\\par For what position of $M$ will the lines $AM$, $BP$, $CN$ be concurrent? (The midpoints of the traces on $BC$ of the mediators of $AB$, $AC$.)" ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.35>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $ABC$ be an equilateral triangle inscribed in a circle with center $O$, and let $P$ be any point on the circle.\\par Then the Simson line of $P$ (the line through the pedal points of the perpendiculars from $P$ onto the lines passing through pairs of vertices of the triangle) bisects the radius $OP$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.351>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Three parallel lines are cut by three parallel transversals in the points $A$, $B$, $C$; $D$, $E$, $F$; $G$, $H$, $I$.\\par Show that $HC$, $FG$, $AE$ are concurrent." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.353>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the line joining the incenter of the triangle $ABC$ to the midpoint of the segment joining A to the Nagel point of $ABC$ is bisected by the median issued from $A$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.354>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Through the vertices of a triangle $ABC$ lines are drawn intersecting in $O$ and meeting the opposite sides in $D$, $E$, $F$.\\par Prove that the lines joining $A$, $B$, $C$ to the midpoints of $EF$, $FD$, $DE$ are concurrent." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.37>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $PT$ and $PB$ be tangent to a circle in $T$ and $B$ respectively, $AB$ the diameter through $B$.\\par Then $AP$ bisects the perpendicular from $T$ to $AB$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.373>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The two lines joining the points of intersection of two orthogonal circles to a point on one of the circles meet the other circle in two diametrically opposite points." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.374>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that in a triangle $ABC$ the circles on $AH$ and $BC$ as diameters are orthogonal." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.376>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that if $AB$ is a diameter and $M$ any point of a circle, center $O$, the two circles $AMO$, $BMO$ are orthogonal." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.377>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that given two perpendicular diameters of two orthogonal circles, the lines joining an end of one of these diameters to the ends of the other pass through the points common to the two circles." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.381>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the perpendiculars dropped from the orthocenter of a triangle upon the lines joining the vertices to a given point meet the respectively opposite sides of the triangle in three collinear points.   " ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.382>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the perpendiculars from the vertices of a triangle to the lines joining the midpoints of the respectively opposite sides to the orthocenter of the triangle meet these sides in three points of a straight line perpendicular to the Euler line of the triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.383>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the perpendiculars to the internal bisectors of a triangle at the incenter meet the respective sides in three points lying on a line perpendicular to the line joining the incenter to the circumcenter of the triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.384>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "$D$, $E$, $F$ are the traces of a transversal on the sides $BC$, $CA$, $AB$ of a triangle $ABC$ whose orthocenter is $H$.\\par Prove that the perpendiculars from $A$, $B$, $C$ upon the lines $HD$, $HE$, $HF$, respectively, are concurrent in a point on the perpendicular from $H$ to $DEF$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.385>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Through the points of intersection of the tangents $DB$, $DC$ to the circumcircle $(O)$ of the triangle $ABC$ a parallel is drawn to the line touching $(O)$ at $A$.\\par If this parallel meets $AB$, $AC$ in $E$, $F$, show that $D$ bisects $EF$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.386>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that if a circle $(P)$ touches the sides $AB$, $AC$ of the triangle $ABC$ in $E$, $F$ the line $EF$, the perpendicular from the center $P$ to $BC$, and the median of $ABC$ issued from $A$ are concurrent." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.387>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The side $BC$ of the triangle $ABC$ touches the incircle $(I)$ in $X$ and the excircle $(J)$ relative to $BC$ in $Y$.\\par Show that the line $AY$ passes through the diametric opposite $Z$ of $X$ on $(I)$.\\par State a similar proposition about the diametric opposite of $Y$ on $(J)$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.388>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The side $BC$ of the triangle $ABC$ touches the incircle $(I)$ in $X$ and the excircle $(J)$ relative to $BC$ in $Y$. Let $U$ be the midpoint of $B$ and $C$.\\par Show that if the lines $UI$ meets the altitude $AD$ of $ABC$ in $P$, then $AP$ is equal to the inradius of $ABC$.\\par State and prove a similar proposition for the excircles." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.389>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The side $BC$ of the triangle $ABC$ touches the incircle $(I)$ in $X$ and the excircle $(J)$ relative to $BC$ in $Y$. The parallels to $AY$ through $B$, $C$ meet the bisectors $CI$, $BI$ in $L$, $M$.\\par Show that the line $LM$ is parallel to $BC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.390>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The product of the distances of a given point, from any two points which are collinear with the given point and lie on the circle, is a constant. This constant is called the power of the point with respect to the circle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.393>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The exscribed circle $(I)$ of a triangle $ABC$ meets the circumcircle $(O)$ of $ABC$ in $D$, and $ID$ meets $(O)$ in $E$.\\par Show that $IE$ is equal to the circumdiameter of $ABC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.395>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Two unequal circles are tangent internally at $A$. The tangent to the smaller circle at a point $B$ meets the larger circle in $C$, $D$.\\par Show that $AB$ bisects the angle $CAD$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.396>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The lines joining the vertices $A$, $B$, $C$ of a triangle $ABC$ to a point $S$ meet the respectively opposite sides in $L$, $M$, $N$, and the circle $(LMN)$ meets these sides again in $O$, $P$, $Q$.\\par Show that lines $AO$, $BP$, $CQ$ are concurrent." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.398>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "A circle orthogonal to two given circles has its center on the radical axis of the two circles." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.400>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The orthic axis of a triangle is the radical axis of the circumcircle and the nine-point circle of the triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.401>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "From a point on the radical axis of two circles secants are drawn for each of the circles.\\par Show that the four points determined on the two circles are cyclic." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.402>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that an altitude of a triangle is the radical axis of the two circles having for diameters the medians issued from the other two vertices." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.404>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the radical axis of the two circles having for diameters the diagonals $AC$, $BD$ of a trapezoid $ABCD$ passes through the point of intersection $E$ of the nonparallel sides $BC$, $AD$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.405>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the foot of the perpendicular from the orthocenter of a triangle upon the line joining a vertex to the point of intersection of the opposite side with the corresponding side of the orthic triangle lies on the circumcircle of the triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.408>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Three circles, centers $A$, $B$, $C$, have a point $D$ in common and intersect two-by-two in the points $P$, $Q$, $R$. The common chord $DR$ of the first two circles meet the third in $U$. Let $S$, $T$ be the analogous points on the other two circles.\\par Prove that the segments $PS$, $QT$, $RU$ are twice as long as the altitudes of the triangle $ABC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.410>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Given two circles $(A)$, $(B)$ intersecting in $E$, $F$.\\par Show that the chord $GH$ determined in $(A)$ by the lines $MEG$, $MFH$ joining $E$, $F$ to any point $M$ of $(B)$ is perpendicular to $MB$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.417>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The traces, on the circumcircle of a triangle, of a median and the corresponding symmedian determine a line parallel to the sides of the triangle opposite the vertex considered." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.418>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The symmedian issued from a vertex of a triangle passes through the point of intersection of the tangents to the circumcircle at the other two vertices of the triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.420>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "A symmedian of a triangle bisects any antiparallel to the side of the triangle relative to the symmedian considered." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.423>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "If from a point on the symmedian perpendiculars are drawn to the including sides of the triangle, the line joining the feet of these perpendiculars is perpendicular to the corresponding median of the triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.425>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "If the symmedian issued from the vertex $A$ of the triangle $ABC$ meets the circumcircle in $D$, and $P$, $R$, $Q$ are the projections of $D$ upon $BC$, $CA$, $AB$, show that $PQ=PR$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.426>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the parallel to the side $BC$ through the vertex $A$ of $ABC$, the perpendicular from the circumcenter $O$ upon the symmedian issued from $A$, and the perpendicular upon $AO$ from the point of intersection $T$ of the tangents to the circumcircle at $B$ and $C$ are three concurrent lines." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.428>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the three points of intersection of the symmedians of a triangle with the circumcircle determine a triangle having the same symmedians as the given triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.429>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The median and the symmedian of a triangle $ABC$ issued from $A$ meet the circumcircle in $P$, $Q$. Show that the Simson lines of $P$, $Q$ are respectively perpendicular to $AP$, $AQ$.   " ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.430>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The three symmedians of a triangle are concurrent (the Lemoine point or the symmedian point)." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.436>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The symmetrics, with respect to the Lemoine point, of the projections of this point upon a side of the triangle lies on the median of the triangle relative to the side considered." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.437>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The Lemoine point of a triangle is the point of intersection of the lines joining the midpoints of the sides of the triangle to the midpoints of the corresponding altitudes." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.439>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "$DEF$ is the orthic triangle of $ABC$.\\par Show that the symmedian points of the triangles $AEF$, $BFD$, $CDE$ lie on the medians of $ABC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.442>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "If through the vertices of a triangle perpendiculars are drawn to the medians of the triangle, show that the symmedian point of the triangle thus formed coincides with the centroid of the given triangle.   " ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.444>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The three parallels to the sides of a triangle through the Lemoine point determine on these sides six concyclic points (the first Lemoine circle)." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.445>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The center of the Lemoine circle of a triangle lies midway between the circumcenter and the Lemoine point of the triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.451>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the radical axis of the first Lemoine circle and the nine-point circle of a triangle passes through the points in which the Lemoine parallels meet the corresponding sides of the orthic triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.459>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The two lines joining two vertices of a triangle to the traces of their symmedians on the circumcircle meet at the trace of the third symmedian on the Lemoine axis of the triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.46>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $C$ and $F$ be any points on the respective sides $AE$ and $BD$ of a parallelogram $AEBD$. Let $M$ and $N$ denote the points of intersection of $CD$ and $FA$ and of $EF$ and $BC$. Let the line $MN$ meet $DA$ at $P$ and $EB$ at $Q$.\\par Then $AP^2=QB^2$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.460>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the mediators of the internal bisectors of the angles of a triangle meet the respective sides of the triangle in three collinear points." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.462>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The line joining the traces, on the circumcircle of a triangle, of two isogonal lines of an angle of the triangle is parallel to the side opposite the vertex considered." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.463>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The line joining the two projections of a given point upon the sides of an angle is perpendicular to the isogonal conjugate of the line joining the given point to the vertex of the angle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.465>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The four projections upon the two sides of an angle of two points on two isogonal conjugate lines are concyclic." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.468>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The isogonal conjugates of the three lines joining the vertices of a triangle to the points of intersection of the respectively opposite sides with a transversal meet these sides in three collinear points." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.469>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Show that the line joining a given point to the vertex of a given angle has for its isogonal line the mediator of the segment determined by the symmetrics of the given point with respect to the sides of the angle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.472>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The isogonal conjugates of the three lines joining a given point to the vertices of a given triangle are concurrent (the isogonal conjugate point)." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.473>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The perpendiculars dropped from the vertices of a triangle upon the corresponding sides of the pedal triangle of a given point are concurrent." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.475>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The six projections of two isogonal conjugate points upon the sides of a triangle are concyclic." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.476>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The circumcircle of the pedal triangle of a point for a given triangle cuts the sides of the given triangle again in the vertices of the pedal triangle of a second point, which point is the isogonal conjugate of the first point with respect to the given triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.477>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "If two points are isogonal with respect to a triangle, each is the center of the circle determined by the symmetrics of the other with respect to the sides of the triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.49>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Prove that the line joining the point of intersection of the extensions of the nonparallel sides of a trapezoid to the point of intersection of its diagonals bisects the base of the trapezoid." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.494>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The perpendiculars dropped upon the sides of a triangle from the projections of the opposite vertices upon a given line are concurrent (the orthopole of the given line)." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.60>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let three triangles $ABC$, $DEF$, $GHI$ be given such that lines $AB$, $DE$, $GH$ intersect in a point $P$, lines $AC$, $DF$, $GI$ intersect in a point $Q$, lines $BC$, $EF$, $HI$ intersect in a point $R$, and $P, Q, R$ are collinear. In view of Desargues' theorem, the lines in each of the triads $AD, BE, CF; AG, BH, CI; DG, EH, FI$ intersect in a point.\\par Prove that these three points are collinear." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.61>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $O$ be a point in the plane of a triangle $ABC$, and let $D, E ,F$ be the points of intersection of the lines $AO, BO, CO$ with the sides of the triangle opposite $A, B, C$.\\par Prove that if the points $G, H, I$ on the lines $EF, FD, DE$ are collinear, then the points of intersection of the lines $AG, BH, CI$ with the opposite sides of $\\delta\\,ABC$ are collinear." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.64>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $l$ be a line tangent to the circle with center $O$ inscribed in the triangle $ABC$, and let $M, N, P$ be the points of intersection of $l$ with the sides of that triangle. At the center $O$ of the circle erect perpendiculars to the lines $OM$, $ON$, $OP$.\\par Prove that their points of intersection with the corresponding sides of the triangle are collinear." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.69>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "The diagonals of a parallelogram and those of its inscribed parallelogram are concurrent." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.70>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "In a circle, the lines joining the midpoints of two arcs $AB$ and $AC$ meet lines $AB$ and $AC$ at $D$ and $E$.\\par Show that $AD^2=AE^2$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.71>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "From the midpoint $C$ of arc $AB$ of a circle, two secants are drawn meeting line $AB$ at $F, G$, and the circle at $D$ and $E$.\\par Show that $F, D, E$, and $G$ are on the same circle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.72>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $Q$, $S$, and $T$ be three collinear points and $(O,OP)$ be a circle. Circles $SPQ$ and $TPQ$ meet circle $(O,OP)$ again at points $M$ and $N$, respectively.\\par Show that $NT$ and $MS$ meet on the circle (O,OP)." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.73>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $A$ and $B$ be the intersections of two circles $O$ and $P$. Through $A$ a secant is drawn meeting the two circles at $C$ and $D$, respectively.\\par Show that angle $CBD$ is equal to the angle formed by lines $OC$ and $PD$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.74>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $ABC$ be a triangle.\\par Show that the six feet obtained by drawing perpendiculars through the foot of each altitude upon the other two sides are co-circle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.75>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $C$ be a point on a chord $AB$ of circle $O$. Let $D$ and $E$ be the intersections of the perpendicular of $OC$ through $C$ with the two tangents of the circle at $A$ and $B$, respectively.\\par Show that $CE^2=CD^2$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.78>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $(O),(P),(Q)$ be the three excircles of triangle $ABC$. Let $R$, $S$, and $T$ be the three points of contact of circle $(O)$ at the three sides $BC$, $CA$, and $AB$, respectively. For the circles $(P)$ and $(Q)$ we use the similar notations  $U$, $V$, and $W$; $X$, $Y$, and $Z$, respectively. Let $D=g(YX)\\wedge g(VW)$, $E=g(YX) \\wedge g(ST)$, and $F=g(SR) \\wedge g(VW)$.\\par Then $D$, $E$, and $F$ are on the corresponding altitudes of triangle $ABC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.82>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "In a triangle $ABC$, let $F$ be the midpoint of the side $BC$, $D$ and $E$ the feet of the altitudes on $AB$ and $BC$, respectively. $FG$ is perpendicular to $DE$ at $G$.\\par Show that $G$ is the midpoint of $DE$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.84>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "A line passing through the intersection $O$ of the diagonals of parallelogram $ABCD$ meets the four sides at $E, F, G, H$.\\par Show that $EF^2=GH^2$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.87>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Three equilateral triangles $BCD$, $CAE$, $BAF$ are erected on the three sides of triangle $ABC$.\\par Show that $CDEF$ is a parallelogram.  The theorem holds for equally oriented equilateral triangles." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.90>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Through the two common points $A$, $B$ of two circles $(O)$ and $(P)$ two lines are drawn meeting the circles at $C$ and $D$, $E$ and $F$, respectively.\\par Show that $CE$ is parallel to $DF$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.91>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $D$ be a point on the side $CB$ of a right triangle $ABC$ such that the circle $(O)$ with diameter $CD$ touches the hypotenuse $AB$ at $E$. Let $AC$ intersect $DE$ at $F$.\\par Show that $AF^2=AE^2$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.92>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "From the ends $D$ and $C$ of a diameter of circle $(O)$ perpendiculars are drawn to chord $AB$. Let $E$ and $F$ be the feet of the perpendiculars.\\par Show that $OE^2=OF^2$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.93>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $AD$ be the altitude on the hypotenuse $BC$ of the triangle $ABC$ with right angle at $A$. A circle passing through $C$ and $D$ meets $AC$ at $E$. $BE$ meets the circle at another point $F$.\\par Show that $AF$ is orthogonal to $BE$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.94>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Through $P$ a tangent $PE$ and a secant $PAB$ of circle $(O)$ are drawn. The bisector of angle $APE$ meets $AE$ and $BE$ at $C$ and $D$.\\par Show that $EC^2=ED^2$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.95>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $M$ be the midpoint of the arc AB of circle (O), D be the midpoint of $AB$. The perpendicular through $M$ is drawn to the tangent of the circle at $A$ meeting that tangent at $E$.\\par Show $ME^2=MD^2$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.96>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $E$ be the intersection of the two diagonals $AC$ and $BD$ of cyclic quadrilateral $ABCD$. Let $I$ be the center of circumcircle of $ABE$.\\par Show that $IE$ is orthogonal to $DC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.97>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $G$ be a point on the circle (O) with diameter $BC$, $A$ be the midpoint of the arc $BG$. $AD$ be orthogonal to $BC$, $E$ and $F$ be the points of intersection of $AD$, $BG$ and $AC$, $BG$.\\par Show that $AE^2=BE^2=EF^2$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/Chou.99>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Witte_M ;
+    sd:theProblem "Let $A$ and $B$ be the two common points of two circles $(O)$ and $(P)$. Through $A$ a line is drawn meeting the circles at $C$ and $D$ respectively. $G$ is the midpoint of $CD$. Line $BG$ intersects circles $(O)$ and $(P)$ at $E$ and $F$, respectively.\\par Show that $G$ is the midpoint of $F$ and $E$." ;
+    a sd:GeoProblemFormulation .
+
+sdg:CircumCenter
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "The intersection point of the midpoint perpendiculars is the center of the circumscribed circle." ;
+    a sd:GeoProblemFormulation .
+
+sdg:Desargue
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "The affine version of Desargue's theorem: If two triangles $\\Delta\\,ABC$ and $\\Delta\\,RST$ are in similarity position, i.e., $g(AB)\\,\\|g(RS),\\ g(BC)\\|g(ST)$ and $g(AC)\\|g(RT)$, then $g(AR), g(BS)$ and $g(CT)$ pass through a common point (or are parallel)." ;
+    a sd:GeoProblemFormulation ;
+    rdfs:comment "Chou_88a: Problem 346 considers the generalized Desargue" .
+
+sdg:EulerLine
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "Euler's line: The center $M$ of the circumscribed circle, the orthocenter $H$ and the barycenter $S$ are collinear and $S$ divides $MH$ with ratio 1:2." ;
+    a sd:GeoProblemFormulation .
+
+sdg:FermatPoint
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "A theorem about Napoleon triangles: Let $\\Delta\\,ABC$ be an arbitrary triangle and $P,Q$ and $R$ the third vertex of equilateral triangles erected externally on the sides $BC, AC$ and $AB$ of the triangle.\\par Then the lines $g(AP), g(BQ)$ and $g(CR)$ pass through a common point, the \\emph{Fermat point} of the triangle $\\Delta\\,ABC$." ;
+    a sd:GeoProblemFormulation .
+
+sdg:Feuerbach
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "Feuerbach's circle or nine-point circle: The midpoint $N$ of $MH$ is the center of a circle that passes through nine special points, the three pedal points of the altitudes, the midpoints of the sides of the triangle and the midpoints of the upper parts of the three altitudes." ;
+    a sd:GeoProblemFormulation .
+
+sdg:FeuerbachTangency
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "For an arbitrary triangle $\\Delta\\,ABC$ Feuerbach's circle (nine-point circle) is tangent to its 4 tangent circles." ;
+    a sd:GeoProblemFormulation .
+
+sdg:GIPE_98_3
+    sd:createdAt "2002-08-13" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "German IMO Preparation Examination 1998" ;
+    sd:theProblem "Let $ABCD$ be a trapezoid with base $AB$ satisfying $AC=BC$. Denote the midpoint of $AB$ by $H$. Consider a line $g$ through $H$. Denote further the intersection points of $g$ with $AD$, $BD$, resp. by $P$, $Q$.\\par Then the angles $ACP$ and $QCB$ are equal." ;
+    a sd:GeoProblemFormulation .
+
+sdg:GIPE_98_6
+    sd:createdAt "2002-08-13" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "German IMO Preparation Examination 1998" ;
+    sd:theProblem "Let $BK$ be the diameter of a circle $g$, and $D$ and arbitrary point on $g$. Denote the tangents through the points $B$, $K$, $D$ by $b$, $k$, $d$ resp. Denote further the intersection points of $d$ with $b$, $k$ by $A$, $F$, resp. Let $o$ be the circle passing through the three points $A$, $D$, $K$. Denote the intersection point of $AK$ and $BF$ by $E$. The second intersection point of $o$ with $b$ shall be denoted by $C$.\\par Show that $ED$ and $CK$ intersect on $g$." ;
+    a sd:GeoProblemFormulation .
+
+sdg:GeneralizedFermatPoint
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "A generalized theorem about Napoleon triangles: Let $\\Delta\\,ABC$ be an arbitrary triangle and $P,Q$ and $R$ the third vertex of isosceles triangles with equal base angles erected externally on the sides $BC, AC$ and $AB$ of the triangle.\\par Then the lines $g(AP), g(BQ)$ and $g(CR)$ pass through a common point." ;
+    a sd:GeoProblemFormulation .
+
+sdg:Heron
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "Derive Heron's formula  \\[S=\\sqrt{s(s-a)(s-b)(s-c)}\\] for the area of a triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/IMO.11_4>
+    sd:createdAt "2002-08-13" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "11. IMO, Problem 4" ;
+    sd:theProblem "$C$ is a point on the semicircle with diameter $AB$, between $A$ and $B$.  $D$ is the foot of the perpendicular from $C$ to $AB$. The circle $y_1$ is the in-circle of $ABC$, the circle $y_2$ touches $CD$, $DA$ and the semicircle, the circle $y_3$ touches $CD$, $DB$ and the semicircle.\\par Prove that $y_1$, $y_2$ and $y_3$ have another common tangent apart from $AB$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/IMO.12_1>
+    sd:createdAt "2002-08-13" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "12. IMO, Problem 1" ;
+    sd:theProblem "$M$ is any point on the side $AB$ of the triangle $ABC$. $r$, $r_1$, $r_2$ are the radii of the circles inscribed in $ABC$, $AMC$, $BMC$. $q$ is the radius of the circle on the opposite side of $AB$ to $C$, touching the three sides of $AB$ and the extensions of $CA$ and $CB$. Similarly, $q_1$ and $q_2$.\\par Prove that $r_1 r_2 q = r q_1 q_2$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/IMO.17_3>
+    sd:createdAt "2002-08-13" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "17. IMO, Problem 3" ;
+    sd:theProblem "Given any triangle $ABC$, construct external triangles $ABR$, $BCP$, $CAQ$ on the sides, so that angle $PBC = 45$, angle $PCB = 30$, angle $QAC = 45$, angle $QCA = 30$, angle $RAB = 15$, angle $RBA = 15$.\\par Prove that angle $QRP = 90$ and $|QR|=|RP|$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/IMO.1_5>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "1. IMO, Problem 5" ;
+    sd:theProblem "Let $M$ be a point on AB, $AMCD$ and $MBEF$ squares to the same side of $g(AB)$ and $N$ the intersection point of their circumscribed circles, different from $M$.\\par (i) Show that $g(AF)$ and $g(BC)$ intersect at $N$. (ii) Show that all lines $g(MN)$ for various $M$ meet at a common point." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/IMO.20_4>
+    sd:createdAt "2002-08-13" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "20. IMO, Problem 4" ;
+    sd:theProblem "In the triangle $ABC$, $AB = AC$, a circle is tangent internally to the circumcircle of the triangle and also to $AB$, $AC$ at $P$, $Q$ respectively.\\par Prove that the midpoint of $PQ$ is the center of the incircle of the triangle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/IMO.23_2>
+    sd:createdAt "2002-08-13" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "23. IMO, Problem 2" ;
+    sd:theProblem "A non-isosceles triangle $A_1 A_2 A_3$ has sides $a_1$, $a_2$, $a_3$ with $a_i$ opposite to $A_i$. $M_i$ is the midpoint of the side $a_i$ and $T_i$ is the point where the incircle touches side $a_i$.  Denote by $S_i$ the reflection of $T_i$ in the interior bisector of angle $A_i$.\\par Prove that the lines $M_1 S_1$, $M_2 S_2$ and $M_3 S_3$ are concurrent." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/IMO.23_5>
+    sd:createdAt "2002-08-13" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "23. IMO, Problem 5" ;
+    sd:theProblem "The diagonals $AC$ and $CE$ of the regular hexagon $ABCDEF$ are divided by inner points $M$ and $N$ respectively, so that: $AM/AC = CN/CE = r$.\\par Determine $r$ if $B$, $M$ and $N$ are collinear." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/IMO.24_2>
+    sd:createdAt "2002-08-13" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "24. IMO, Problem 2" ;
+    sd:theProblem "Let $A$ be one of the two distinct points of intersection of two unequal coplanar circles $c_1$ and $c_2$ with centers $O_1$ and $O_2$ respectively. One of the common tangents to the circles touches $c_1$ at $P_1$ and $c_2$ at $P_2$, while the other touches $c_1$ at $Q_1$ and $c_2$ at $Q_2$. Let $M_1$ be the midpoint of $P_1 Q_1$ and $M_2$ the midpoint of $P_2 Q_2$.\\par Prove that $\\angle O_1 A O_2 = \\angle M_1 A M_2$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/IMO.25_4>
+    sd:createdAt "2002-08-13" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "25. IMO, Problem 4" ;
+    sd:theProblem "Let $ABCD$ be a convex quadrilateral with the line $CD$ tangent to the circle on diameter $AB$.\\par Prove that the line $AB$ is tangent to the circle on diameter $CD$ if and only if $BC$ and $AD$ are parallel." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/IMO.26_5>
+    sd:createdAt "2002-08-13" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "26. IMO, Problem 5" ;
+    sd:theProblem "A circle with center $O$ passes through the vertices $A$ and $C$ of the triangle $ABC$ and intersects the segments $AB$ and $BC$ again at distinct points $K$ and $N$ respectively. The circumcircles of $ABC$ and $KBN$ intersect at exactly two distinct points $B$ and $M$.\\par Prove that angle $OMB$ is a right angle." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/IMO.28_2>
+    sd:createdAt "2002-08-13" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "28. IMO, Problem 2" ;
+    sd:theProblem "In an acute-angled triangle $ABC$ the interior bisector of angle $A$ meets $BC$ at $L$ and meets the circumcircle of $ABC$ again at $N$. From $L$ perpendiculars are drawn to $AB$ and $AC$, with feet $K$ and $M$ respectively.\\par Prove that the quadrilateral $AKNM$ and the triangle $ABC$ have equal areas." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/IMO.2_3>
+    sd:createdAt "2002-08-13" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "2. IMO, Problem 3" ;
+    sd:theProblem "In a given right triangle $ABC$, the hypotenuse $BC$, length $a$, is divided into $n$ equal parts with $n$ an odd integer. The central part subtends an angle $\\alpha$ at $A$. $h$ is the perpendicular distance from $A$ to $BC$.\\par Prove that $\\tan \\alpha_n = \\frac{4\\,n\\,h}{a\\,n^2 - a}$" ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/IMO.2_4>
+    sd:createdAt "2002-08-13" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "2. IMO, Problem 4" ;
+    sd:theProblem "Construct a triangle $ABC$ given the lengths of the altitudes from $A$ and $B$ and the length of the median from $A$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/IMO.30_2>
+    sd:createdAt "2002-08-13" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "30. IMO, Problem 2" ;
+    sd:theProblem "In an acute-angled triangle $ABC$, the internal bisector of angle $A$ meets the circumcircle again at $A_1$. Points $B_1$ and $C_1$ are defined similarly. Let $A_0$ be the point of intersection of the line $AA_1$ with the external bisectors of angles $B$ and $C$. Points $B_0$ and $C_0$ are defined similarly.\\par Prove that the area of the triangle $A_0 B_0 C_0$ is twice the area of the hexagon $A C_1 B A_1 C B_1$ and at least four times the area of the triangle $ABC$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/IMO.35_2>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "35. IMO, Problem 2" ;
+    sd:theProblem "$ABC$ is an isosceles triangle with $AB = AC$. Suppose that (i) $M$ is the midpoint of $BC$ and $O$ is the point on the line $AM$ such that $OB$ is perpendicular to $AB$; (ii) $Q$ is an arbitrary point on the segment $BC$ different from $B$ and $C$; (iii) $E$ lies on the line $AB$ and $F$ lies on the line $AC$ such that $E, Q$ and $F$ are distinct and collinear.\\par Prove that $OQ$ is perpendicular to $EF$ if and only if $QE = QF$." ;
+    a sd:GeoProblemFormulation ;
+    rdfs:comment "Aug 8 2002 graebe: Key corrected to 35_2, was 34_2" .
+
+<http://symbolicdata.org/Data/GeometryProblem/IMO.36_1>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "36. IMO, Problem 1" ;
+    sd:theProblem "Let $A,B,C,D$ be four distinct points on a line, in that order. The circles with diameters $AC$ and $BD$ intersect at the points $X$ and $Y$. The line $XY$ meets $BC$ at the point $Z$. Let $P$ be a point on the line $XY$ different from $Z$. The line $CP$ intersects the circle with diameter $AC$ at the points $C$ and $M$, and the line $BP$ intersects the circle with diameter $BD$ at the points $B$ and $N$.\\par Prove that the lines $AM, DN$ and $XY$ are concurrent." ;
+    a sd:GeoProblemFormulation ;
+    rdfs:comment "Aug 8 2002 graebe: Key corrected to 36_1, was 35_1" .
+
+<http://symbolicdata.org/Data/GeometryProblem/IMO.39_1>
+    sd:createdAt "2002-08-13" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "39. IMO, Problem 1" ;
+    sd:theProblem "In the convex quadrilateral $ABCD$, the diagonals $AC$ and $BD$ are perpendicular and the opposite sides $AB$ and $DC$ are not parallel. The point $P$, where the perpendicular bisectors of $AB$ and $DC$ meet, is inside $ABCD$.\\par Prove that $ABCD$ is cyclic if and only if the triangles $ABP$ and $CDP$ have equal areas." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/IMO.3_2>
+    sd:createdAt "2002-08-13" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "3. IMO, Problem 2" ;
+    sd:theProblem "Let $a$, $b$, $c$ be the sides of a triangle and $A$ its area. Prove that $a^2+b^2+c^2 \\ge 4 \\sqrt{3} A$. When do we have equality?" ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/IMO.4_6>
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "4. IMO, Problem 6" ;
+    sd:theProblem "$r$ is the radius of the circumscribed circle and $\\rho$ the radius of the inscribed circle.\\par Show that the distance $d$ between the centers of the inscribed and the circumscribed circles of a triangle $\\Delta\\,ABC$ satisfies $d^2=r^2-2r\\rho$." ;
+    a sd:GeoProblemFormulation .
+
+<http://symbolicdata.org/Data/GeometryProblem/IMO.7_5>
+    sd:createdAt "2002-08-13" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasOrigin "7. IMO, Problem 5" ;
+    sd:theProblem "The triangle $OAB$ has angle $O$ acute. $M$ is an arbitary point on $AB$. $P$ and $Q$ are the feet of the perpendiculars from $M$ to $OA$ and $OB$ respectively.\\par What is the locus of $H$, the orthocenter of the triangle $OPQ$ (the point where its altitudes meet)?\\par What is the locus if $M$ is allowed to vary of the interior of $OAB$?" ;
+    a sd:GeoProblemFormulation .
+
+sdg:InCenter
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "There are four common points on the three bisector pairs of a given triangle $\\Delta\\,ABC$.\\par Show that they are the centers of the four tangent circles of $\\Delta\\,ABC$." ;
+    a sd:GeoProblemFormulation .
+
+sdg:MacLane
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "If for 8 points $A,\\ldots,H$ the following triples are collinear $ABD$, $BCE$, $CDF$, $DEG$, $EFH$, $FGA$, $GHB$, $HAC$, then all eight points are collinear." ;
+    a sd:GeoProblemFormulation .
+
+sdg:Miquel
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "Miquels theorem: Let $\\Delta\\,ABC$ be a triangle. Fix arbitrary points $P,Q,R$ on the sides $AB, BC, AC$.\\par Then the three circles through each vertex and the chosen points on adjacent sides pass through a common point." ;
+    a sd:GeoProblemFormulation ;
+    rdfs:comment "Chou_88: Problem 308 considers another Point as \\emph{Miquel's}." .
+
+sdg:Morley
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "The neighbouring trisectors of the three triangles of any triangle intersect to form 27 triangles in all, of which 18 are equilateral." ;
+    a sd:GeoProblemFormulation .
+
+sdg:NapoleonTriangle
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "If equilateral triangles are erected externally (or internally) on the sides of any triangle, their centers form an equilateral triangle." ;
+    a sd:GeoProblemFormulation .
+
+sdg:Pappus
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "Theorem of Pappus: Let $A,B,C$ and $P,Q,R$ be two triples of collinear points.\\par Then the intersection points $g(AQ)\\wedge g(BP), g(AR)\\wedge g(CP)$ and $g(BR)\\wedge g(CQ)$ are collinear." ;
+    a sd:GeoProblemFormulation .
+
+sdg:PappusPoint
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "Let $A,B,C$ and $P,Q,R$ be two triples of collinear points. Then by the Theorem of Pappus the intersection points $g(AQ)\\wedge g(BP), g(AR)\\wedge g(CP)$ and $g(BR)\\wedge g(CQ)$ are collinear.  Permuting $P,Q,R$ we get six such \\emph{Pappus lines}.\\par Show that those corresponding to even resp. odd permutations are concurrent, respectively." ;
+    a sd:GeoProblemFormulation .
+
+sdg:Parallelogram
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "The intersection point of the diagonals of a parallelogram is the midpoint of each of the diagonals." ;
+    a sd:GeoProblemFormulation .
+
+sdg:PedalPointTriangle
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "The altitudes' pedal points theorem: Let $P,Q,R$ be the altitudes' pedal points in the triangle $\\Delta\\,ABC$.\\par Show that the altitude through $Q$ bisects $\\angle\\, PQR$." ;
+    a sd:GeoProblemFormulation .
+
+sdg:PedoeInequality
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "Let $ABC$ and $A'B'C'$ be two triangles in the same plane with side lengths $a,b,c$ resp. $a',b',c'$ and areas $S,S'$.\\par Then $a'^2(b^2+c^2-a^2)+b'^2(c^2+a^2-b^2)+c'^2(a^2+b^2-c^2) \\geq 16 S\\cdot S'$.\\par Moreover, the equality holds only for similar triangles." ;
+    a sd:GeoProblemFormulation .
+
+sdg:Simson
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "Simson's theorem: Let $P$ be a point on the circle circumscribed to the triangle $\\Delta\\,ABC$ and $X,Y,Z$ the pedal points of the perpendiculars from $P$ onto the lines passing through pairs of vertices of the triangle.\\par These points are collinear." ;
+    a sd:GeoProblemFormulation .
+
+sdg:SimsonInverse
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "The inverse of Simson's theorem: Let $P$ be a point such that the pedal points $X,Y,Z$ of the perpendiculars from $P$ onto the lines passing through pairs of vertices of the triangle $\\Delta\\,ABC$ are collinear. Then $P$ is a point on the circumscribed circle of $\\Delta\\,ABC$.   " ;
+    a sd:GeoProblemFormulation .
+
+sdg:TaylorCircle
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "Let $\\Delta\\,ABC$ be an arbitrary triangle. Consider the three altitude pedal points and the pedal points of the perpendiculars from these points onto the the opposite sides of the triangle.\\par Show that these 6 points are on a common circle, the \\emph{Taylor circle}." ;
+    a sd:GeoProblemFormulation .
+
+sdg:Thebault
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "The Th\\'ebault-Taylor theorem: Given a triangle $ABC$ and a point $D$ on $BC$, let $c_2$ be any Th\\'ebault circle with center $T$ tangent to the circumscribed circle $c_0$ of the triangle and the lines $AD$ and $BC$.\\par Then among the inscribed and escribed circles of the triangle there is just one $c_1$ with center $I$ such that $TI$ passes through the center of another Th\\'ebault circle $c_3$ tangent to $c_0$ and $AD, BC$." ;
+    a sd:GeoProblemFormulation .
+
+sdg:Tri_alt
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "The altitudes of $\\Delta\\,ABC$ pass through a common point, the \\emph{orthocenter}." ;
+    a sd:GeoProblemFormulation .
+
+sdg:Tri_area
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "$a,b,c$ are the lengths of the three sides of a triangle $\\Delta\\,ABC$ and $R$ is the radius of its circumcircle.\\par Show that the area $S$ of the triangle equals $S=\\frac{a\\,b\\,c}{4\\,R}$." ;
+    a sd:GeoProblemFormulation .
+
+sdg:Tri_median
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "The median lines of $\\Delta\\,ABC$ pass through a common point, the \\emph{centroid}." ;
+    a sd:GeoProblemFormulation .
+
+sdg:Tri_mp
+    sd:createdAt "1999-11-01" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:theProblem "The midpoint perpendiculars of $\\Delta\\,ABC$ pass through a common point, the \\emph{center of the circumcircle}." ;
+    a sd:GeoProblemFormulation .
+

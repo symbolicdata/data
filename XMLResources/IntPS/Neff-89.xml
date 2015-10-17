@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-03-26" createdBy="graebe">
+  <vars>z,y,x</vars>
+  <basis>
+    <poly>2*z*y+2*y^2+z*x+x^2-3*z-y-2*x</poly>
+    <poly>z^2-8*z*y-4*y^2+4*z*x+3*x^2-4*x+1</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Neff-89</changed>
+  </ChangeLog>
+</INTPS>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!--  XSchema $Id: Types.xsd,v 1.1 2010/12/29 11:28:31 graebe Exp $  -->
+
+  <!-- type definitions -->
+
+  <xs:simpleType name="Polynomial">
+    <!-- A polynomial in distributive form without whitespaces. -->
+    <xs:restriction base="xs:token">
+      <xs:pattern value="\S+"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="NonCommutativePolynomial">
+    <!-- A non commutative polynomial in distributive form without whitespaces. -->
+    <xs:restriction base="xs:token">
+      <xs:pattern value="\S+"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="VarList">
+    <!-- A comma separated list of variable names.-->
+    <xs:restriction base="xs:token">
+      <xs:pattern value="\w[\w_\d]*(,\w[\w_\d]*)*"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+
+  <xs:simpleType name="Row">
+    <!-- A comma separated list of integer numbers. -->
+    <xs:restriction base="xs:token">
+      <xs:pattern value="-?\d+(,-?\d+)*"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="IntegerMatrix">
+    <!-- A matrix of integer values. -->
+    <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="row" type="Row"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

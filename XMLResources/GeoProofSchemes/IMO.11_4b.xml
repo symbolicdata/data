@@ -1,0 +1,47 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> IMO/11_4b </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2,x3</vars>
+<parameters>u1</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[u1, 0]</Point>
+<Point id='$c_1' type='free'>Point[x1, 0]</Point>
+<Point id='$c_2' type='free'>Point[0, 1]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_4'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_5'>sym_line[$c_3, $c_4]</Line>
+<Line id='$c_6'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_7'>pp_line[$c_1, $c_2]</Line>
+<Line id='$c_8'>sym_line[$c_6, $c_7]</Line>
+<Point id='$c_9'>intersection_point[$c_5, $c_8]</Point>
+<Circle id='$c_10'>p3_circle[$c_0, $c_1, $c_9]</Circle>
+<Line id='$c_11'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_12'>pedalpoint[$c_2, $c_11]</Point>
+<Circle id='$c_13'>pc_circle[$c_2, $c_12]</Circle>
+<Line id='$c_14'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_15'>pedalpoint[$c_9, $c_14]</Point>
+<Point id='$c_16'>rotate[$c_15, $c_9, 1/4]</Point>
+<Point id='$c_17'>varpoint[$c_15, $c_16, x2]</Point>
+<Line id='$c_18'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_19'>pedalpoint[$c_17, $c_18]</Point>
+<Circle id='$c_20'>pc_circle[$c_17, $c_19]</Circle>
+<Point id='$c_21'>rotate[$c_15, $c_9, -1/4]</Point>
+<Point id='$c_22'>varpoint[$c_15, $c_21, x3]</Point>
+<Line id='$c_23'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_24'>pedalpoint[$c_22, $c_23]</Point>
+<Circle id='$c_25'>pc_circle[$c_22, $c_24]</Circle>
+<Line id='$c_26'>pp_line[$c_0, $c_9]</Line>
+<Line id='$c_27'>pp_line[$c_1, $c_9]</Line>
+</Assignments>
+<Properties>
+<prop>is_orthogonal[$c_26, $c_27]</prop>
+<prop>is_cc_tangent[$y2, $y0]</prop>
+<prop>is_cc_tangent[$y3, $y0]</prop>
+</Properties>
+<Conclusions>
+<prop>is_collinear[$c_2, $c_17, $c_22]</prop>
+</Conclusions>
+</Construction>

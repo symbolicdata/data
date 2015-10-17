@@ -1,0 +1,21 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/175_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, u1]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>orthocenter[$c_0, $c_1, $c_2]</Point>
+<Circle id='$c_4'>p3_circle[$c_0, $c_1, $c_2]</Circle>
+<Distance id='$c_5'>circle_sqradius[$c_4]</Distance>
+<Circle id='$c_6'>p3_circle[$c_0, $c_1, $c_3]</Circle>
+<Distance id='$c_7'>circle_sqradius[$c_6]</Distance>
+</Assignments>
+<Conclusions>
+<prop>is_equal[$c_5, $c_7]</prop>
+</Conclusions>
+</Construction>

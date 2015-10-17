@@ -1,0 +1,25 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/494_2 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4,u5,u6</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u1, u2]</Point>
+<Point id='$c_3' type='free'>Point[u3, u4]</Point>
+<Point id='$c_4' type='free'>Point[u5, u6]</Point>
+</Points>
+<Assignments>
+<Line id='$c_5'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_6'>pedalpoint[$c_2, $l]</Point>
+<Point id='$c_7'>pedalpoint[$c_3, $l]</Point>
+<Point id='$c_8'>pedalpoint[$c_4, $l]</Point>
+<Line id='$c_9'>altitude[$c_21, $c_3, $c_4]</Line>
+<Line id='$c_10'>altitude[$c_31, $c_2, $c_4]</Line>
+<Line id='$c_11'>altitude[$c_41, $c_2, $c_3]</Line>
+</Assignments>
+<Conclusions>
+<prop>is_concurrent[$c_9, $c_10, $c_11]</prop>
+</Conclusions>
+</Construction>

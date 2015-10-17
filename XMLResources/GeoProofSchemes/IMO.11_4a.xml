@@ -1,0 +1,45 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> IMO/11_4a </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2,x3,x4,x5,x6,x7</vars>
+<parameters>u1</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[-1, 0]</Point>
+<Point id='$c_1' type='free'>Point[1, 0]</Point>
+<Point id='$c_2' type='free'>Point[x7, u1]</Point>
+<Point id='$c_3' type='free'>Point[x1, x2]</Point>
+<Point id='$c_4' type='free'>Point[x3, x4]</Point>
+<Point id='$c_5' type='free'>Point[x5, x6]</Point>
+</Points>
+<Assignments>
+<Point id='$c_6'>midpoint[$c_0, $c_1]</Point>
+<Line id='$c_7'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_8'>pedalpoint[$c_2, $c_7]</Point>
+<Line id='$c_9'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_10'>pedalpoint[$c_3, $c_9]</Point>
+<Line id='$c_11'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_12'>pedalpoint[$c_4, $c_11]</Point>
+<Line id='$c_13'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_14'>pedalpoint[$c_5, $c_13]</Point>
+<Circle id='$c_15'>pc_circle[$c_6, $c_0]</Circle>
+<Line id='$c_16'>pp_line[$c_2, $c_8]</Line>
+<Circle id='$c_17'>pc_circle[$c_3, $c_10]</Circle>
+<Circle id='$c_18'>pc_circle[$c_4, $c_12]</Circle>
+<Circle id='$c_19'>pc_circle[$c_5, $c_14]</Circle>
+<Line id='$c_21'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_23'>pp_line[$c_1, $c_2]</Line>
+</Assignments>
+<Properties>
+<prop>on_circle[$c_2, $y0]</prop>
+<prop>is_cl_tangent[$y1, $c_21]</prop>
+<prop>is_cl_tangent[$y1, $c_23]</prop>
+<prop>is_cl_tangent[$y2, $c_2D]</prop>
+<prop>is_cc_tangent[$y2, $y0]</prop>
+<prop>is_cl_tangent[$y3, $c_2D]</prop>
+<prop>is_cc_tangent[$y3, $y0]</prop>
+</Properties>
+<Conclusions>
+<prop>is_collinear[$c_3, $c_4, $c_5]</prop>
+</Conclusions>
+</Construction>

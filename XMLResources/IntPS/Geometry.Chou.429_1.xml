@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<INTPS createdAt="2000-03-22" createdBy="graebe">
+  <vars>x1,x2,x3,x4,x5,x6,u1,u2,u3</vars>
+  <basis>
+    <poly>x5*u3-x6*u2</poly>
+    <poly>x3*u2+x4*u3-x5*u2-x6*u3</poly>
+    <poly>-2*x1*u3-x2*u1+2*x2*u2+u1*u3</poly>
+    <poly>x3^2*u3+x4^2*u3-x3*u1*u3+x4*u1*u2-x4*u2^2-x4*u3^2</poly>
+    <poly>-x1*x3*u1*u3+2*x1*x3*u2*u3+x2*x3*u1*u2-x2*x3*u2^2+x2*x3*u3^2+x1*x4*u1*u2-x1*x4*u2^2+x1*x4*u3^2+x2*x4*u1*u3-2*x2*x4*u2*u3-x1*u2^2*u3-x1*u3^3-x2*u1*u2^2+x2*u2^3-x2*u1*u3^2+x2*u2*u3^2-x3*u2^2*u3-x3*u3^3-x4*u1*u2^2+x4*u2^3-x4*u1*u3^2+x4*u2*u3^2+u1*u2^2*u3+u1*u3^3</poly>
+    <poly>x1^2*u3+x2^2*u3-x1*u1*u3+x2*u1*u2-x2*u2^2-x2*u3^2</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Geometry/Chou_429_1</changed>
+  </ChangeLog>
+</INTPS>

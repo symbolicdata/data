@@ -1,0 +1,23 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/75_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>r,u1,u2</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, r]</Point>
+</Points>
+<Assignments>
+<Point id='$c_2'>circle_slider[$c_0, $c_1, u1]</Point>
+<Point id='$c_3'>varpoint[$c_1, $c_2, u2]</Point>
+<Line id='$c_4'>altitude[$c_3, $c_0, $c_3]</Line>
+<Line id='$c_5'>altitude[$c_1, $c_0, $c_1]</Line>
+<Point id='$c_6'>intersection_point[$c_4, $c_5]</Point>
+<Line id='$c_7'>altitude[$c_3, $c_0, $c_3]</Line>
+<Line id='$c_8'>altitude[$c_2, $c_0, $c_2]</Line>
+<Point id='$c_9'>intersection_point[$c_7, $c_8]</Point>
+</Assignments>
+<Conclusions>
+<prop>eq_dist[$c_3, $c_9, $c_3, $c_6]</prop>
+</Conclusions>
+</Construction>

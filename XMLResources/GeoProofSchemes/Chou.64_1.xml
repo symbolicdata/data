@@ -1,0 +1,45 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/64_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2,x3,x4,x5,x6,x7</vars>
+<parameters>u1,u2,u3,u4</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[x1, x2]</Point>
+<Point id='$c_4' type='free'>Point[x3, u4]</Point>
+</Points>
+<Assignments>
+<Point id='$c_5'>varpoint[$c_0, $c_1, x4]</Point>
+<Point id='$c_6'>varpoint[$c_0, $c_1, x5]</Point>
+<Point id='$c_7'>varpoint[$c_0, $c_3, x6]</Point>
+<Point id='$c_8'>varpoint[$c_3, $c_1, x7]</Point>
+<Line id='$c_12'>pp_line[$c_2, $c_5]</Line>
+<Line id='$c_13'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_15'>pp_line[$c_6, $c_4]</Line>
+<Line id='$c_16'>pp_line[$c_4, $c_2]</Line>
+<Line id='$c_20'>altitude[$c_2, $c_2, $c_7]</Line>
+<Line id='$c_21'>pp_line[$c_0, $c_3]</Line>
+<Point id='$c_22'>intersection_point[$c_20, $c_21]</Point>
+<Line id='$c_23'>altitude[$c_2, $c_2, $c_8]</Line>
+<Line id='$c_24'>pp_line[$c_3, $c_1]</Line>
+<Point id='$c_25'>intersection_point[$c_23, $c_24]</Point>
+<Line id='$c_26'>altitude[$c_2, $c_2, $c_6]</Line>
+<Line id='$c_27'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_28'>intersection_point[$c_26, $c_27]</Point>
+</Assignments>
+<Properties>
+<prop>eq_angle[$c_0, $c_1, $c_2, $c_2, $c_1, $c_3]</prop>
+<prop>eq_angle[$c_1, $c_0, $c_2, $c_2, $c_0, $c_3]</prop>
+<prop>eq_dist[$c_4, $c_2, $c_2, $c_5]</prop>
+<prop>is_orthogonal[$c_12, $c_13]</prop>
+<prop>is_orthogonal[$c_15, $c_16]</prop>
+<prop>is_collinear[$c_8, $c_6, $c_4]</prop>
+<prop>is_collinear[$c_7, $c_6, $c_4]</prop>
+</Properties>
+<Conclusions>
+<prop>is_collinear[$c_22, $c_25, $c_28]</prop>
+</Conclusions>
+</Construction>

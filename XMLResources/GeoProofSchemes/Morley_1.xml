@@ -1,0 +1,45 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Morley_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2,x3,x4,x5,x6</vars>
+<parameters>u1,u2</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[x2, x1]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, 0]</Point>
+<Point id='$c_3' type='free'>Point[0, 1]</Point>
+<Point id='$c_4' type='free'>Point[x6, x5]</Point>
+<Point id='$c_5' type='free'>Point[x4, x3]</Point>
+</Points>
+<Assignments>
+<Angle id='$c_6'>p3_angle[$c_0, $c_2, $c_1]</Angle>
+<Angle id='$c_7'>p3_angle[$c_1, $c_2, $c_3]</Angle>
+<Angle id='$c_8'>angle_sum[$c_6, $c_7]</Angle>
+<Angle id='$c_9'>p3_angle[$c_1, $c_2, $c_3]</Angle>
+<Angle id='$c_10'>p3_angle[$c_1, $c_2, $c_3]</Angle>
+<Angle id='$c_11'>angle_sum[$c_9, $c_10]</Angle>
+<Angle id='$c_12'>p3_angle[$c_0, $c_1, $c_2]</Angle>
+<Angle id='$c_13'>p3_angle[$c_2, $c_1, $c_3]</Angle>
+<Angle id='$c_14'>angle_sum[$c_12, $c_13]</Angle>
+<Angle id='$c_15'>p3_angle[$c_2, $c_1, $c_3]</Angle>
+<Angle id='$c_16'>p3_angle[$c_2, $c_1, $c_3]</Angle>
+<Angle id='$c_17'>angle_sum[$c_15, $c_16]</Angle>
+<Angle id='$c_18'>p3_angle[$c_2, $c_0, $c_1]</Angle>
+<Angle id='$c_19'>p3_angle[$c_1, $c_0, $c_5]</Angle>
+<Angle id='$c_20'>angle_sum[$c_18, $c_19]</Angle>
+<Angle id='$c_21'>p3_angle[$c_1, $c_0, $c_5]</Angle>
+<Angle id='$c_22'>p3_angle[$c_1, $c_0, $c_5]</Angle>
+<Angle id='$c_23'>angle_sum[$c_21, $c_22]</Angle>
+<Angle id='$c_24'>p3_angle[$c_0, $c_1, $c_5]</Angle>
+<Angle id='$c_25'>p3_angle[$c_2, $c_1, $c_3]</Angle>
+<Angle id='$c_26'>p3_angle[$c_0, $c_2, $c_4]</Angle>
+<Angle id='$c_27'>p3_angle[$c_1, $c_2, $c_3]</Angle>
+<Angle id='$c_28'>p3_angle[$c_1, $c_0, $c_5]</Angle>
+<Angle id='$c_29'>p3_angle[$c_2, $c_0, $c_4]</Angle>
+</Assignments>
+<Conclusions>
+<prop>eq_dist[$c_3, $c_4, $c_3, $c_5]</prop>
+<prop>eq_dist[$c_3, $c_4, $c_4, $c_5]</prop>
+</Conclusions>
+</Construction>

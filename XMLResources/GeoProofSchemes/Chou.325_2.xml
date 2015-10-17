@@ -1,0 +1,29 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/325_2 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>circumcenter[$c_0, $c_1, $c_2]</Point>
+<Line id='$c_4'>pp_line[$c_3, $c_0]</Line>
+<Line id='$c_5'>ortho_line[$c_0, $c_4]</Line>
+<Line id='$c_6'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_7'>intersection_point[$c_5, $c_6]</Point>
+<Line id='$c_8'>pp_line[$c_3, $c_1]</Line>
+<Line id='$c_9'>ortho_line[$c_1, $c_8]</Line>
+<Line id='$c_10'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_11'>intersection_point[$c_9, $c_10]</Point>
+<Line id='$c_12'>pp_line[$c_3, $c_2]</Line>
+<Line id='$c_13'>ortho_line[$c_2, $c_12]</Line>
+<Line id='$c_14'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_15'>intersection_point[$c_13, $c_14]</Point>
+</Assignments>
+<Conclusions>
+<prop>is_collinear[$c_7, $c_11, $c_15]</prop>
+</Conclusions>
+</Construction>

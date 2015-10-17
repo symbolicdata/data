@@ -1,0 +1,28 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/72_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4,u5,u6</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[u4, u5]</Point>
+</Points>
+<Assignments>
+<Point id='$c_4'>varpoint[$c_2, $c_3, u6]</Point>
+<Circle id='$c_5'>p3_circle[$c_2, $c_1, $c_3]</Circle>
+<Circle id='$c_6'>pc_circle[$c_0, $c_1]</Circle>
+<Point id='$c_7'>other_cc_point[$c_1, $c_5, $c_6]</Point>
+<Circle id='$c_8'>p3_circle[$c_2, $c_1, $c_4]</Circle>
+<Circle id='$c_9'>pc_circle[$c_0, $c_1]</Circle>
+<Point id='$c_10'>other_cc_point[$c_1, $c_8, $c_9]</Point>
+<Line id='$c_11'>pp_line[$c_7, $c_3]</Line>
+<Line id='$c_12'>pp_line[$c_10, $c_4]</Line>
+<Point id='$c_13'>intersection_point[$c_11, $c_12]</Point>
+<Circle id='$c_14'>pc_circle[$c_0, $c_1]</Circle>
+</Assignments>
+<Conclusions>
+<prop>on_circle[$c_13, $c_14]</prop>
+</Conclusions>
+</Construction>

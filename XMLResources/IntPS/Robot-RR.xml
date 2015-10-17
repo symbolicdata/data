@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-03-26" createdBy="graebe">
+  <vars>sp,st,sf,cp,ct,cf,s2,s1,c2,c1,l1,l2,px,py,pz</vars>
+  <basis>
+    <poly>s2*l2+l1-pz</poly>
+    <poly>ct</poly>
+    <poly>c2*c1*l2-px</poly>
+    <poly>s1*c2*l2-py</poly>
+    <poly>s1^2+c1^2-1</poly>
+    <poly>s2^2+c2^2-1</poly>
+    <poly>-st*cf+s1</poly>
+    <poly>st*cp+s2</poly>
+    <poly>sf^2+cf^2-1</poly>
+    <poly>st^2+ct^2-1</poly>
+    <poly>-sp*st+c2</poly>
+    <poly>sp^2+cp^2-1</poly>
+    <poly>-cp*ct*cf+sp*sf+c2*c1</poly>
+    <poly>-sp*ct*cf+sf*cp-s2*c1</poly>
+    <poly>-sf*cp*ct-sp*cf+s1*c2</poly>
+    <poly>sp*sf*ct-cp*cf-s2*s1</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Robot-RR</changed>
+  </ChangeLog>
+</INTPS>

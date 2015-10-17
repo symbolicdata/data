@@ -1,0 +1,29 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Brocard_3 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u1, u2]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>altitude[$c_0, $c_0, $c_2]</Line>
+<Line id='$c_4'>p_bisector[$c_0, $c_1]</Line>
+<Point id='$c_5'>intersection_point[$c_3, $c_4]</Point>
+<Line id='$c_6'>altitude[$c_1, $c_1, $c_0]</Line>
+<Line id='$c_7'>p_bisector[$c_1, $c_2]</Line>
+<Point id='$c_8'>intersection_point[$c_6, $c_7]</Point>
+<Line id='$c_9'>altitude[$c_2, $c_2, $c_1]</Line>
+<Line id='$c_10'>p_bisector[$c_0, $c_2]</Line>
+<Point id='$c_11'>intersection_point[$c_9, $c_10]</Point>
+<Circle id='$c_12'>pc_circle[$c_5, $c_0]</Circle>
+<Circle id='$c_13'>pc_circle[$c_8, $c_1]</Circle>
+<Circle id='$c_14'>pc_circle[$c_11, $c_2]</Circle>
+<Point id='$c_15'>other_cc_point[$c_1, $c_12, $c2]</Point>
+</Assignments>
+<Conclusions>
+<prop>on_circle[$c_15, $c3]</prop>
+</Conclusions>
+</Construction>

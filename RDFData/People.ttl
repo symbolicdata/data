@@ -1,0 +1,3662 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://symbolicdata.org/Data/People/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sdt: <http://symbolicdata.org/Data/Tag/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix swrc: <http://swrc.ontoware.org/ontology#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix group: <http://symbolicdata.org/casn/Group/> .
+@prefix project: <http://symbolicdata.org/casn/Project/> .
+
+<> a owl:Ontology ;
+   rdfs:label "SD Person Data" ;
+   cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+   cc:attributionURL <http://symbolicdata.org> ;
+   cc:attributionName "The SymbolicData Project" .
+
+sdp:Abanades_MA a foaf:Person ;
+                foaf:name "Miguel A. Abanades" .
+
+sdp:Abbott_J a foaf:Person ;
+             foaf:name "John Abbott" ;
+             sd:affiliation "Universita of Genova" ;
+             sd:country <http://dbpedia.org/resource/Italy> .
+
+sdp:Abraham_E a foaf:Person ;
+              foaf:name "Erika Ábrahám" ;
+              sd:affiliation "RWTH Aachen University" ;
+              sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Acevedo_C a foaf:Person ;
+              foaf:name "Carmela Acevedo" .
+
+sdp:Adam_M a foaf:Person ;
+           foaf:name "Michael Adam" .
+
+sdp:Adams_M a foaf:Person ;
+            foaf:name "Mark Adams" .
+
+sdp:Agarwal_S a foaf:Person ;
+              foaf:name "Sameer Agarwal" ;
+              sd:affiliation "University of Washington, Seattle, USA" .
+
+sdp:Ahmed_W a foaf:Person ;
+            foaf:name "Waqar Ahmed" .
+
+sdp:Aizawa_A a foaf:Person ;
+             foaf:name "Akiko Aizawa" ;
+             sd:affiliation "NII, University of Tokyo" ;
+             sd:country <http://dbpedia.org/resource/Japan> .
+
+sdp:Akritas_A a foaf:Person ;
+              foaf:name "Alkiviadis Akritas" .
+
+sdp:Alama_J a foaf:Person ;
+            foaf:name "Jesse Alama" ;
+            foaf:homepage <http://centria.di.fct.unl.pt/~alama/> ;
+            sd:affiliation "Technical University of Vienna, Austria" ;
+            sd:country <http://dbpedia.org/resource/Austria> .
+
+sdp:Albano_G a foaf:Person ;
+             foaf:name "G. Albano" .
+
+sdp:Albrecht_M a foaf:Person ;
+               foaf:name "Martin Albrecht" .
+
+sdp:Ali_R a foaf:Person ;
+          foaf:name "Rashid Ali" .
+
+sdp:Alkalai_MAI a foaf:Person ;
+                foaf:name "Mohamed Ali Ibrahim Alkalai" .
+
+sdp:Allamigeon_X a foaf:Person ;
+                 foaf:name "Xavier Allamigeon" ;
+                 foaf:homepage <http://www.cmap.polytechnique.fr/~allamigeon/> .
+
+sdp:Almomen_R a foaf:Person ;
+              foaf:name "Randa Almomen" .
+
+sdp:Alps_B a foaf:Person ;
+           foaf:name "Bob Alps" .
+
+sdp:Altmann_K a foaf:Person ;
+              foaf:name "Klaus Altmann" ;
+              sd:affiliation "FU Berlin, Germany" .
+
+sdp:Alves_S a foaf:Person ;
+            foaf:name "Sandra Alves" ;
+            sd:affiliation "University of Porto, Portugal" .
+
+sdp:Amend_N a foaf:Person ;
+            foaf:name "Nils Amend" ;
+            sd:affiliation "Ruhr-Universität Bochum" .
+
+sdp:Amrhein_B a foaf:Person ;
+              foaf:name "Beatrice Amrhein" .
+
+sdp:Andreatta_F a foaf:Person ;
+                foaf:name "Fabrizio Andreatta" .
+
+sdp:Andres_D a foaf:Person ;
+             foaf:name "Daniel Andres" .
+
+sdp:Andres_E a foaf:Person ;
+             foaf:name "Eric Andres" .
+
+sdp:Anjewierden_A a foaf:Person ;
+                  foaf:name "Anjo Anjewierden" .
+
+sdp:Antoniou_I a foaf:Person ;
+               foaf:name "Ioannis Antoniou" .
+
+sdp:Apel_J a foaf:Person ;
+           foaf:name "Joachim Apel" .
+
+sdp:Aravantinos_V a foaf:Person ;
+                  foaf:name "Vincent Aravantinos" .
+
+sdp:AriasdeReynaDominguez_S a foaf:Person ;
+                            foaf:name "Sara Arias de Reyna Dominguez" ;
+                            sd:affiliation "University of Luxembourg" .
+
+sdp:Armando_A a foaf:Person ;
+              foaf:name "Alessandro Armando" ;
+              sd:affiliation "University of Genova, Italy" .
+
+sdp:Arndt_F a foaf:Person ;
+            foaf:name "Frauke Arndt" .
+
+sdp:Artal_E a foaf:Person ;
+            foaf:name "Enrique Artal" ;
+            sd:affiliation "Universidad de Zaragoza, Spain" .
+
+sdp:Arthan_R a foaf:Person ;
+             foaf:name "Rob Arthan" ;
+             sd:affiliation "Queen Mary University of London" ;
+             sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Asai_K a foaf:Person ;
+           foaf:name "Kenichi Asai" ;
+           sd:affiliation "Ochanomizu University, Japan" .
+
+sdp:Asperti_A a foaf:Person ;
+              foaf:name "Andrea Asperti" ;
+              foaf:homepage <http://www.cs.unibo.it/~asperti> .
+
+sdp:Aspinall_D a foaf:Person ;
+               foaf:name "David Aspinall" ;
+               sd:affiliation "Univerity of Edinburgh" ;
+               sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Autexier_S a foaf:Person ;
+               foaf:name "Serge Autexier" ;
+               sd:affiliation "DFKI, Bremen" ;
+               sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Baader_F a foaf:Person ;
+             foaf:name "Franz Baader" ;
+             sd:affiliation "TU Dresden" ;
+             sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Bachmann_O a foaf:Person ;
+               foaf:name "Olaf Bachmann" .
+
+sdp:Baechle_A a foaf:Person ;
+              foaf:name "Andreas Bächle" ;
+              sd:affiliation "Vrije Universiteit Brussel" .
+
+sdp:Baeta_N a foaf:Person ;
+            foaf:name "Nuno Baeta" .
+
+sdp:Bailey_DH a foaf:Person ;
+              foaf:name "David H. Bailey" .
+
+sdp:Baker_J a foaf:Person ;
+            foaf:name "Josef Baker" ;
+            foaf:homepage <http://www.cs.bham.ac.uk/~jbb> .
+
+sdp:Ballarin_C a foaf:Person ;
+               foaf:name "Clemens Ballarin" .
+
+sdp:Bancerek_G a foaf:Person ;
+               foaf:name "Grzegorz Bancerek" .
+
+sdp:Barakat_M a foaf:Person ;
+              foaf:name "Mohamed Barakat" ;
+              foaf:homepage <http://www.mathematik.uni-kl.de/~barakat/> ;
+              sd:affiliation "TU Kaiserslautern" .
+
+sdp:Barberousse_A a foaf:Person ;
+                  foaf:name "Anouk Barberousse" ;
+                  sd:affiliation "Université Lille 1" ;
+                  sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Barras_B a foaf:Person ;
+             foaf:name "Bruno Barras" .
+
+sdp:Bartholdi_L a foaf:Person ;
+                foaf:name "Laurent Bartholdi" .
+
+sdp:Bassem_C a foaf:Person ;
+             foaf:name "Christine Bassem" .
+
+sdp:Batterman_R a foaf:Person ;
+                foaf:name "Robert Batterman" ;
+                sd:affiliation "University of Pittsburgh" ;
+                sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Batyrev_V a foaf:Person ;
+              foaf:name "Victor Batyrev" ;
+              sd:affiliation "Universität Tübingen, Germany" .
+
+sdp:Baumeister_B a foaf:Person ;
+                 foaf:name "Barbara Baumeister" .
+
+sdp:Beaudin_M a foaf:Person ;
+              foaf:name "Michel Beaudin" .
+
+sdp:Bebiano_N a foaf:Person ;
+              foaf:name "Natalia Bebiano" ;
+              sd:affiliation "UC Coimbra, Portugal" ;
+              sd:country <http://dbpedia.org/resource/Portugal> .
+
+sdp:Beck_M a foaf:Person ;
+           foaf:name "Matthias Beck" ;
+           foaf:homepage <http://math.sfsu.edu/beck/> ;
+           sd:affiliation "San Francisco State University, USA" ;
+           sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Beeson_M a foaf:Person ;
+             foaf:name "Michael Beeson" ;
+             sd:affiliation "San Jose State University" ;
+             sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Behrends_R a foaf:Person ;
+               foaf:name "Reimer Behrends" ;
+               sd:affiliation "TU Kaiserslautern" .
+
+sdp:Benner_I a foaf:Person ;
+             foaf:name "Inga Benner" ;
+             sd:affiliation "Universität Stuttgart" .
+
+sdp:Bentley_P a foaf:Person ;
+              foaf:name "Peter Bentley" ;
+              sd:affiliation "University College London" ;
+              sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Benzmueller_C a foaf:Person ;
+                  foaf:name "Christoph Benzmüller" ;
+                  sd:affiliation "Articulate Software" ;
+                  sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Berg_CJ a foaf:Person ;
+            foaf:name "Chris J. Berg" .
+
+sdp:Berger_T a foaf:Person ;
+             foaf:name "Tobias Berger" .
+
+sdp:Berghammer_R a foaf:Person ;
+                 foaf:name "Rudolf Berghammer" .
+
+sdp:Berkovich_V a foaf:Person ;
+                foaf:name "Vladimir Berkovich" ;
+                sd:affiliation "Weizmann Institute, Rehovot, Israel" .
+
+sdp:Berth_M a foaf:Person ;
+            foaf:name "Matthias Berth" .
+
+sdp:Bertot_Y a foaf:Person ;
+             foaf:name "Yves Bertot" .
+
+sdp:Bestavros_A a foaf:Person ;
+                foaf:name "Azer Bestavros" .
+
+sdp:Bezem_M a foaf:Person ;
+            foaf:name "Marc Bezem" .
+
+sdp:Biere_A a foaf:Person ;
+            foaf:name "Armin Biere" ;
+            sd:affiliation "Johannes Kepler University, Austria" .
+
+sdp:Bigatti_AM a foaf:Person ;
+               foaf:name "Anna M. Bigatti" .
+
+sdp:Bini_D a foaf:Person ;
+           foaf:name "D. Bini" .
+
+sdp:Bjoerk_G a foaf:Person ;
+             foaf:name "G. Björck" .
+
+sdp:Bjorner_N a foaf:Person ;
+              foaf:name "Nikolaj Bjorner" ;
+              sd:affiliation "Microsoft" ;
+              sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Blanchette_JC a foaf:Person ;
+                  foaf:name "Jasmin Christian Blanchette" .
+
+sdp:Bley_W a foaf:Person ;
+           foaf:name "Werner Bley" ;
+           sd:affiliation "München" ;
+           sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Bloemer_J a foaf:Person ;
+              foaf:name "Johannes Bloemer" ;
+              sd:affiliation "University of Paderborn, Germany" ;
+              sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Boeckle_G a foaf:Person ;
+              foaf:name "Gebhard Böckle" ;
+              sd:affiliation "Universität Heidelberg" .
+
+sdp:Boege_W a foaf:Person ;
+            foaf:name "W. Boege" .
+
+sdp:Boehm_J a foaf:Person ;
+            foaf:name "Janko Böhm" ;
+            sd:affiliation "TU Kaiserslautern" ;
+            sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Boenisch_S a foaf:Person ;
+               foaf:name "Sebastian Bönisch" .
+
+sdp:Boerner_M a foaf:Person ;
+              foaf:name "Michel Börner" ;
+              sd:affiliation "Universität Ulm" .
+
+sdp:Bolikowski_L a foaf:Person ;
+                 foaf:name "Łukasz Bolikowski" ;
+                 sd:affiliation "ICM, University of Warsaw" ;
+                 sd:country <http://dbpedia.org/resource/Poland> .
+
+sdp:Bopp_C a foaf:Person ;
+           foaf:name "Christian Bopp" ;
+           sd:affiliation "Universität des Saarlandes" .
+
+sdp:Borwein_JM a foaf:Person ;
+               foaf:name "Jonathan M. Borwein" .
+
+sdp:Bosa_K a foaf:Person ;
+           foaf:name "Karoly Bosa" ;
+           sd:affiliation "Johannes Kepler University Linz, Austria" ;
+           sd:country <http://dbpedia.org/resource/Austria> .
+
+sdp:Botana_F a foaf:Person ;
+             foaf:name "Francisco Botana" ;
+             foaf:homepage <http://webs.uvigo.es/fbotana/> ;
+             sd:affiliation "University of Vigo at Pontevedra, Spain" ;
+             sd:country <http://dbpedia.org/resource/Spain> .
+
+sdp:Botta_N a foaf:Person ;
+            foaf:name "Nicola Botta" .
+
+sdp:Bouallegue_S a foaf:Person ;
+                 foaf:name "Seifeddine Bouallegue" .
+
+sdp:Bouche_T a foaf:Person ;
+             foaf:name "Thierry Bouche" ;
+             foaf:homepage <http://www-fourier.ujf-grenoble.fr/~bouche/> ;
+             sd:affiliation "Université Joseph Fourier, Grenoble" ;
+             sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Bouhoula_A a foaf:Person ;
+               foaf:name "Adel Bouhoula" ;
+               sd:affiliation "Carthage University, Tunisia" .
+
+sdp:Bourke_T a foaf:Person ;
+             foaf:name "Timothy Bourke" .
+
+sdp:Bouw_I a foaf:Person ;
+           foaf:name "Irene Bouw" ;
+           sd:affiliation "Universität Ulm" .
+
+sdp:Boy_M a foaf:Person ;
+          foaf:name "Maximilian Boy" .
+
+sdp:Bradford_R a foaf:Person ;
+               foaf:name "Russell Bradford" ;
+               foaf:homepage <http://people.bath.ac.uk/masrjb> ;
+               sd:affiliation "University of Bath" ;
+               sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Brady_E a foaf:Person ;
+            foaf:name "Edwin Brady" .
+
+sdp:Bratsas_C a foaf:Person ;
+              foaf:name "Charalampos Bratsas" ;
+              foaf:homepage <http://webscience.auth.gr/?q=content/bratsas-charalampos> .
+
+sdp:Braun_M a foaf:Person ;
+            foaf:name "Michael Braun" ;
+            sd:affiliation "Darmstadt" .
+
+sdp:Braun_O a foaf:Person ;
+            foaf:name "Oliver Braun" ;
+            sd:affiliation "RWTH Aachen" .
+
+sdp:Bremner_D a foaf:Person ;
+              foaf:name "David Bremner" ;
+              foaf:homepage <http://www.cs.unb.ca/profs/bremner/> ;
+              sd:affiliation "U New Brunswick, CA" .
+
+sdp:Brickenstein_M a foaf:Person ;
+                   foaf:name "Michael Brickenstein" .
+
+sdp:Bridge_J a foaf:Person ;
+             foaf:name "James Bridge" .
+
+sdp:Broue_M a foaf:Person ;
+            foaf:name "Michel Broué" ;
+            sd:affiliation "University Paris Diderot Paris 7, France" .
+
+sdp:Brown_R a foaf:Person ;
+            foaf:name "Ronnie Brown" ;
+            sd:affiliation "Bangor" .
+
+sdp:Bruns_W a foaf:Person ;
+            foaf:name "Winfried Bruns" ;
+            foaf:homepage <http://www.home.uni-osnabrueck.de/wbruns/> ;
+            sd:affiliation "Universität Osnabrück" .
+
+sdp:Buchberger_B a foaf:Person ;
+                 foaf:name "Bruno Buchberger" ;
+                 sd:affiliation "Johannes Kepler University, Austria" ;
+                 sd:country <http://dbpedia.org/resource/Austria> .
+
+sdp:Buchmann_J a foaf:Person ;
+               foaf:name "Johannes Buchmann" .
+
+sdp:Buergisser_P a foaf:Person ;
+                 foaf:name "Peter Bürgisser" ;
+                 sd:affiliation "TU Berlin, Germany" .
+
+sdp:Bundy_A a foaf:Person ;
+            foaf:name "Alan Bundy" .
+
+sdp:Burgeth_B a foaf:Person ;
+              foaf:name "B. Burgeth" .
+
+sdp:Bylinski_C a foaf:Person ;
+               foaf:name "Czeslaw Bylinski" ;
+               foaf:homepage <http://math.uwb.edu.pl/~bylinski/> .
+
+sdp:Byrne_E a foaf:Person ;
+            foaf:name "Eimear Byrne" ;
+            sd:affiliation "Dublin" .
+
+sdp:Cairns_P a foaf:Person ;
+             foaf:name "Paul Cairns" ;
+             sd:affiliation "University of York" ;
+             sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Calmet_J a foaf:Person ;
+             foaf:name "Jacques Calmet" .
+
+sdp:Caminata_A a foaf:Person ;
+               foaf:name "Alessio Caminata" ;
+               sd:affiliation "University of Osnabrück, Germany" .
+
+sdp:Caminati_MB a foaf:Person ;
+                foaf:name "Marco B. Caminati" ;
+                foaf:homepage <http://uniroma1.academia.edu/MarcoCaminati> ;
+                sd:affiliation "University of Birmingham, UK" .
+
+sdp:Canny_JF a foaf:Person ;
+             foaf:name "John F. Canny" .
+
+sdp:Caprotti_O a foaf:Person ;
+               foaf:name "Olga Caprotti" ;
+               sd:affiliation "Florida State University, USA" .
+
+sdp:Carette_J a foaf:Person ;
+              foaf:name "Jacques Carette" ;
+              foaf:homepage <http://www.cas.mcmaster.ca/~carette> .
+
+sdp:Carlson_JF a foaf:Person ;
+               foaf:name "Jon F. Carlson" ;
+               sd:affiliation "University of Georgia, Athens, GA, USA" ;
+               sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Carneiro_M a foaf:Person ;
+               foaf:name "Mario Carneiro" .
+
+sdp:Carter_N a foaf:Person ;
+             foaf:name "Nathan Carter" ;
+             foaf:homepage <http://web.bentley.edu/empl/c/ncarter> .
+
+sdp:Carvalho_F a foaf:Person ;
+               foaf:name "Francisco Carvalho" ;
+               sd:affiliation "IPT Coimbra, Portugal" ;
+               sd:country <http://dbpedia.org/resource/Portugal> .
+
+sdp:CarvalhoeSilva_J a foaf:Person ;
+                     foaf:name "Jaime Carvalho e Silva" .
+
+sdp:Cater_B a foaf:Person ;
+            foaf:name "Bruce Cater" .
+
+sdp:Centeleghe_T a foaf:Person ;
+                 foaf:name "Tommaso Centeleghe" ;
+                 sd:affiliation "Universität Heidelberg" .
+
+sdp:Cerna_D a foaf:Person ;
+            foaf:name "David Cerna" .
+
+sdp:Cervone_D a foaf:Person ;
+              foaf:name "Davide Cervone" .
+
+sdp:Chebukov_D a foaf:Person ;
+               foaf:name "Dmitry Chebukov" .
+
+sdp:Chen_C a foaf:Person ;
+           foaf:name "Changbo Chen" ;
+           sd:affiliation "Chinese Academy of Sciences, China" .
+
+sdp:Chen_X a foaf:Person ;
+           foaf:name "Xiaoyu Chen" ;
+           sd:affiliation "Beihang University, China" .
+
+sdp:Chiadjeu_ELGN a foaf:Person ;
+                  foaf:name "Etienne Le Grand Nana Chiadjeu" .
+
+sdp:Chlebikova_J a foaf:Person ;
+                 foaf:name "Janka Chlebíková" ;
+                 sd:affiliation "School of Computing, University of Portsmouth" ;
+                 sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Chou_SC a foaf:Person ;
+            foaf:name "S.-C. Chou" .
+
+sdp:Chrapary_H a foaf:Person ;
+               foaf:name "Hagen Chrapary" .
+
+sdp:Christensen_ND a foaf:Person ;
+                   foaf:name "Neil D. Christensen" .
+
+sdp:Ciobaca_S a foaf:Person ;
+              foaf:name "Stefan Ciobaca" ;
+              sd:affiliation "University A. I. Cuza, Romania" .
+
+sdp:Cioffi_F a foaf:Person ;
+             foaf:name "Francesca Cioffi" ;
+             foaf:homepage <https://www.docenti.unina.it/FRANCESCA.CIOFFI> .
+
+sdp:Claessen_K a foaf:Person ;
+               foaf:name "Koen Claessen" .
+
+sdp:Cohl_HS a foaf:Person ;
+            foaf:name "Howard S. Cohl" .
+
+sdp:Cohn_H a foaf:Person ;
+           foaf:name "H. Cohn" .
+
+sdp:Commelin_J a foaf:Person ;
+               foaf:name "Johan Commelin" .
+
+sdp:Conca_A a foaf:Person ;
+            foaf:name "Aldo Conca" ;
+            sd:affiliation "Universität Genua" .
+
+sdp:Constantinescu_A a foaf:Person ;
+                     foaf:name "Alexandru Constantinescu" ;
+                     sd:affiliation "FU Berlin, Germany" .
+
+sdp:Cordoba_SM a foaf:Person ;
+               foaf:name "Salvador Merino Córdoba" .
+
+sdp:Corless_R a foaf:Person ;
+              foaf:name "Robert Corless" ;
+              sd:affiliation "Western University, Ontario" ;
+              sd:country <http://dbpedia.org/resource/Canada> .
+
+sdp:Corneli_J a foaf:Person ;
+              foaf:name "Joseph Corneli" ;
+              foaf:homepage <http://metameso.org/~joe/> .
+
+sdp:Cox_D a foaf:Person ;
+          foaf:name "D. Cox" .
+
+sdp:Craven_D a foaf:Person ;
+             foaf:name "David Craven" ;
+             sd:affiliation "University of Birmingham" ;
+             sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:CruzFilipe_L a foaf:Person ;
+                 foaf:name "Luís Cruz-Filipe" .
+
+sdp:Cuntz_M a foaf:Person ;
+            foaf:name "Michael Cuntz" ;
+            sd:affiliation "Leibniz Universität Hannover" .
+
+sdp:Cuypers_H a foaf:Person ;
+              foaf:name "Hans Cuypers" .
+
+sdp:Czakon_M a foaf:Person ;
+             foaf:name "Michal Czakon" .
+
+sdp:Czapor_SR a foaf:Person ;
+              foaf:name "S.R. Czapor" .
+
+sdp:DAli_A a foaf:Person ;
+           foaf:name "Alessio D’Ali" ;
+           sd:affiliation "University of Genova, Italy" .
+
+sdp:DAndrea_C a foaf:Person ;
+              foaf:name "Carlos D'Andrea" ;
+              sd:affiliation "Universitat de Barcelona, Spain" .
+
+sdp:DanCohen_I a foaf:Person ;
+               foaf:name "Ishai Dan-Cohen" ;
+               sd:affiliation "Universität Duisburg-Essen" .
+
+sdp:Danoff_AA a foaf:Person ;
+              foaf:name "Alex A. Danoff" .
+
+sdp:Daum_M a foaf:Person ;
+           foaf:name "Matthias Daum" .
+
+sdp:Davenport_JH a foaf:Person ;
+                 foaf:name "James H. Davenport" ;
+                 foaf:homepage <http://people.bath.ac.uk/masjhd/> ;
+                 sd:affiliation "University of Bath" ;
+                 sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:David_C a foaf:Person ;
+            foaf:name "Catalin David" ;
+            foaf:homepage <http://kwarc.info/people/cdavid/> .
+
+sdp:DeNegri_E a foaf:Person ;
+              foaf:name "Emanuela De Negri" ;
+              sd:affiliation "University of Genova, Italy" .
+
+sdp:Decker_W a foaf:Person ;
+             foaf:name "Wolfram Decker" ;
+             sd:affiliation "TU Kaiserslautern" ;
+             sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Dengel_M a foaf:Person ;
+             foaf:name "Michael Dengel" ;
+             foaf:homepage <http://loge.math.uni-sb.de/~dengel> .
+
+sdp:Deppe_H a foaf:Person ;
+            foaf:name "Holger Deppe" ;
+            sd:affiliation "Universität Bielefeld" .
+
+sdp:Derenthal_U a foaf:Person ;
+                foaf:name "Ulrich Derenthal" ;
+                sd:affiliation "LMU München" .
+
+sdp:Dettweiler_M a foaf:Person ;
+                 foaf:name "Michael Dettweiler" .
+
+sdp:Diamond_F a foaf:Person ;
+              foaf:name "Fred Diamond" .
+
+sdp:Diem_C a foaf:Person ;
+           foaf:name "Claus Diem" .
+
+sdp:Diemer_C a foaf:Person ;
+             foaf:name "Clemens Diemer" .
+
+sdp:Dietrich_H a foaf:Person ;
+               foaf:name "Heiko Dietrich" ;
+               sd:affiliation "Melbourne" ;
+               sd:country <http://dbpedia.org/resource/Australia> .
+
+sdp:Dimitrov_M a foaf:Person ;
+               foaf:name "Mladen Dimitrov" .
+
+sdp:Dimou_A a foaf:Person ;
+            foaf:name "Anastasia Dimou" .
+
+sdp:Dingler_C a foaf:Person ;
+              foaf:name "Christian Dingler" .
+
+sdp:Distler_A a foaf:Person ;
+              foaf:name "Andreas Distler" ;
+              sd:affiliation "TU Braunschweig" .
+
+sdp:Do_C a foaf:Person ;
+         foaf:name "Chau Do" .
+
+sdp:Dodunekov_S a foaf:Person ;
+                foaf:name "Stefan Dodunekov" .
+
+sdp:Doerrie_JW a foaf:Person ;
+               foaf:name "Jan Wilken Doerrie" .
+
+sdp:Dotsenko_V a foaf:Person ;
+               foaf:name "Vladimir Dotsenko" ;
+               sd:affiliation "Dublin" .
+
+sdp:Dowek_G a foaf:Person ;
+            foaf:name "Gilles Dowek" .
+
+sdp:Dramnesc_I a foaf:Person ;
+               foaf:name "Isabela Dramnesc" ;
+               sd:affiliation "West University of Timisoara, Romania" .
+
+sdp:Dreyer_A a foaf:Person ;
+             foaf:name "Alexander Dreyer" .
+
+sdp:Duarte_AL a foaf:Person ;
+              foaf:name "António Leal Duarte" .
+
+sdp:Dudas_O a foaf:Person ;
+            foaf:name "Olivier Dudas" ;
+            sd:affiliation "University Paris Diderot Paris 7, France" .
+
+sdp:Duerrschnabel_K a foaf:Person ;
+                    foaf:name "Klaus Dürrschnabel" .
+
+sdp:Duhr_C a foaf:Person ;
+           foaf:name "Claude Duhr" .
+
+sdp:Dumas_JG a foaf:Person ;
+             foaf:name "Jean-Guillaume Dumas" ;
+             sd:affiliation "Grenoble Université" ;
+             sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Dumitru_MA a foaf:Person ;
+               foaf:name "Mircea Alexandru Dumitru" .
+
+sdp:Dunchev_C a foaf:Person ;
+              foaf:name "Cvetan Dunchev" .
+
+sdp:Duval_D a foaf:Person ;
+            foaf:name "Dominique Duval" .
+
+sdp:Dvirnas_A a foaf:Person ;
+              foaf:name "Albertas Dvirnas" ;
+              sd:affiliation "Kaunas University" .
+
+sdp:Echenim_M a foaf:Person ;
+              foaf:name "Mnacho Echenim" ;
+              sd:affiliation "University of Grenoble" ;
+              sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Eder_C a foaf:Person ;
+           foaf:name "Christian Eder" ;
+           sd:affiliation "TU Kaiserslautern" .
+
+sdp:Edixhoven_B a foaf:Person ;
+                foaf:name "Bas Edixhoven" .
+
+sdp:Edneral_V a foaf:Person ;
+              foaf:name "Victor Edneral" .
+
+sdp:Eick_B a foaf:Person ;
+           foaf:name "Bettina Eick" ;
+           sd:affiliation "TU Braunschweig" ;
+           sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Eisenbud_D a foaf:Person ;
+               foaf:name "David Eisenbud" .
+
+sdp:Ekici_B a foaf:Person ;
+            foaf:name "Burak Ekici" .
+
+sdp:Ellis_G a foaf:Person ;
+            foaf:name "Graham Ellis" ;
+            sd:affiliation "Galway" ;
+            sd:country <http://dbpedia.org/resource/Ireland> .
+
+sdp:Elvenich_HM a foaf:Person ;
+                foaf:name "Hans-Michael Elvenich" .
+
+sdp:Emiris_IZ a foaf:Person ;
+              foaf:name "Ioannis Z. Emiris" .
+
+sdp:Enge_A a foaf:Person ;
+           foaf:name "Andreas Enge" .
+
+sdp:England_M a foaf:Person ;
+              foaf:name "Matthew England" ;
+              sd:affiliation "Coventry University, UK" ;
+              sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Engstroem_A a foaf:Person ;
+                foaf:name "Alexander Engström" ;
+                sd:affiliation "Helsinki" .
+
+sdp:Erascu_M a foaf:Person ;
+             foaf:name "Madalina Erascu" ;
+             sd:affiliation "West University of Timisoara, Romania" .
+
+sdp:Escobar_S a foaf:Person ;
+              foaf:name "Santiago Escobar" ;
+              sd:affiliation "Technical University of Valencia" ;
+              sd:country <http://dbpedia.org/resource/Spain> .
+
+sdp:Evans_I a foaf:Person ;
+            foaf:name "Ieuan Evans" .
+
+sdp:Farkas_G a foaf:Person ;
+             foaf:name "Gavril Farkas" ;
+             sd:affiliation "HU Berlin, Germany" .
+
+sdp:Farmer_WM a foaf:Person ;
+              foaf:name "William M. Farmer" ;
+              foaf:homepage <http://imps.mcmaster.ca/wmfarmer/> .
+
+sdp:Faugere_JC a foaf:Person ;
+               foaf:name "Jean-Charles Faugére" ;
+               foaf:homepage <http://www-calfor.lip6.fr/~jcf> .
+
+sdp:Fernandez_M a foaf:Person ;
+                foaf:name "Maribel Fernandez" ;
+                sd:affiliation "King's College London" ;
+                sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Feulner_T a foaf:Person ;
+              foaf:name "Thomas Feulner" .
+
+sdp:Fieker_C a foaf:Person ;
+             foaf:name "Claus Fieker" ;
+             sd:affiliation "TU Kaiserslautern" .
+
+sdp:Fillion_N a foaf:Person ;
+              foaf:name "Nicolas Fillion" ;
+              sd:affiliation "Simon Fraser University" ;
+              sd:country <http://dbpedia.org/resource/Canada> .
+
+sdp:Fiorenza_D a foaf:Person ;
+               foaf:name "Domenico Fiorenza" ;
+               sd:affiliation "Rome" .
+
+sdp:Fish_A a foaf:Person ;
+           foaf:name "Andrew Fish" .
+
+sdp:Fleuriot_J a foaf:Person ;
+               foaf:name "Jacques Fleuriot" ;
+               sd:affiliation "University of Edinburgh, UK" .
+
+sdp:Florido_M a foaf:Person ;
+              foaf:name "Mario Florido" ;
+              sd:affiliation "University of Porto, Portugal" .
+
+sdp:Floystad_G a foaf:Person ;
+               foaf:name "Gunnar Fløystad" ;
+               sd:affiliation "University of Bergen, Norway" .
+
+sdp:Fong_P a foaf:Person ;
+           foaf:name "Paul Fong" ;
+           sd:affiliation "University of Illinois at Chicago, USA" .
+
+sdp:Formanek_D a foaf:Person ;
+               foaf:name "David Formánek" .
+
+sdp:Fortuny_JM a foaf:Person ;
+               foaf:name "Josep Maria Fortuny" .
+
+sdp:Franke_J a foaf:Person ;
+             foaf:name "Jens Franke" ;
+             sd:affiliation "Uni Bonn" ;
+             sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Frei_C a foaf:Person ;
+           foaf:name "Christopher Frei" .
+
+sdp:Freitas_N a foaf:Person ;
+              foaf:name "Nuno Freitas" ;
+              sd:affiliation "Universität Bayreuth" .
+
+sdp:Frincu_M a foaf:Person ;
+             foaf:name "Marc Frincu" ;
+             sd:affiliation "University of Southern California, US" ;
+             sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Froeberg_G a foaf:Person ;
+               foaf:name "G. Fröberg" .
+
+sdp:Fronville_A a foaf:Person ;
+                foaf:name "Alexandra Fronville" .
+
+sdp:FruehbisKrueger_A a foaf:Person ;
+                      foaf:name "Anne Frühbis-Krüger" ;
+                      sd:affiliation "Leibniz Universität Hannover" .
+
+sdp:Fujiki_NM a foaf:Person ;
+              foaf:name "N. M. Fujiki" .
+
+sdp:Fujise_T a foaf:Person ;
+             foaf:name "T. Fujise" .
+
+sdp:Fukuda_S a foaf:Person ;
+             foaf:name "S. Fukuda" .
+
+sdp:Gagnon_M a foaf:Person ;
+             foaf:name "Michel Gagnon" .
+
+sdp:Galambos_L a foaf:Person ;
+               foaf:name "Leo Galamboš" ;
+               sd:affiliation "Czech Technical University, Prague" ;
+               sd:country <http://dbpedia.org/resource/Czech_Republic> .
+
+sdp:GalanGarcia_JL a foaf:Person ;
+                   foaf:name "José Luis Galán García" .
+
+sdp:Galligo_A a foaf:Person ;
+              foaf:name "André Galligo" .
+
+sdp:Ganzha_V a foaf:Person ;
+             foaf:name "Victor Ganzha" .
+
+sdp:Gao_XS a foaf:Person ;
+           foaf:name "Xiao-Shan Gao" ;
+           sd:affiliation "Chinese Academy of Sciences" ;
+           sd:country <http://dbpedia.org/resource/China> .
+
+sdp:GarciaSanchez_PA a foaf:Person ;
+                     foaf:name "P. A. Garcia-Sanchez" ;
+                     sd:affiliation "Granada" ;
+                     sd:country <http://dbpedia.org/resource/Spain> .
+
+sdp:Garrigue_J a foaf:Person ;
+               foaf:name "Jacques Garrigue" ;
+               sd:affiliation "Nagoya University, Japan" .
+
+sdp:Gaspar_J a foaf:Person ;
+             foaf:name "Jamie Gaspar" .
+
+sdp:Gatermann_K a foaf:Person ;
+                foaf:name "Karin Gatermann" .
+
+sdp:Gathmann_A a foaf:Person ;
+               foaf:name "Andreas Gathmann" .
+
+sdp:Gaubert_S a foaf:Person ;
+              foaf:name "Stéphane Gaubert" ;
+              foaf:homepage <http://www.cmap.polytechnique.fr/~gaubert/> .
+
+sdp:Gauthier_T a foaf:Person ;
+               foaf:name "Thibault Gauthier" .
+
+sdp:Gebauer_R a foaf:Person ;
+              foaf:name "Rüdiger Gebauer" .
+
+sdp:Geck_M a foaf:Person ;
+           foaf:name "Meinolf Geck" ;
+           sd:affiliation "Universität Stuttgart" .
+
+sdp:Geddes_KO a foaf:Person ;
+              foaf:name "Keith O. Geddes" .
+
+sdp:Gerdt_VP a foaf:Person ;
+             foaf:name "Vladimir P. Gerdt" ;
+             sd:affiliation "Joint Institute for Nuclear Research" ;
+             sd:country <http://dbpedia.org/resource/Russia> .
+
+sdp:Geuvers_H a foaf:Person ;
+              foaf:name "Herman Geuvers" ;
+              foaf:homepage <http://www.cs.ru.nl/~herman> ;
+              sd:affiliation "Radboud University Nijmegen" ;
+              sd:country <http://dbpedia.org/resource/Netherlands> .
+
+sdp:Giesbrecht_M a foaf:Person ;
+                 foaf:name "Mark Giesbrecht" ;
+                 sd:affiliation "University of Waterloo" ;
+                 sd:country <http://dbpedia.org/resource/Canada> .
+
+sdp:Giese_M a foaf:Person ;
+            foaf:name "Martin Giese" ;
+            sd:affiliation "University of Oslo, Norway" .
+
+sdp:Ginev_D a foaf:Person ;
+            foaf:name "Deyan Ginev" ;
+            foaf:homepage <http://www.kwarc.info/people/dginev> ;
+            sd:affiliation "Authorea New York, USA" .
+
+sdp:Giorgi_P a foaf:Person ;
+             foaf:name "Pascal Giorgi" ;
+             sd:affiliation "Université de Montpellier 2" ;
+             sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Giovini_A a foaf:Person ;
+              foaf:name "A. Giovini" .
+
+sdp:Gloor_O a foaf:Person ;
+            foaf:name "Oliver Gloor" .
+
+sdp:Goedicke_M a foaf:Person ;
+               foaf:name "Michael Gödicke" .
+
+sdp:Goepfert_F a foaf:Person ;
+               foaf:name "Florian Göpfert" ;
+               sd:affiliation "TU Darmstadt, Germany" ;
+               sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Goertz_U a foaf:Person ;
+             foaf:name "Ulrich Görtz" .
+
+sdp:GonzalezVega_L a foaf:Person ;
+                   foaf:name "Laureano Gonzalez-Vega" .
+
+sdp:Grabmeier_J a foaf:Person ;
+                foaf:name "Johannes Grabmeier" .
+
+sdp:Grabowski_A a foaf:Person ;
+                foaf:name "Adam Grabowski" ;
+                sd:affiliation "University of Bialystok, Poland" .
+
+sdp:Graebe_HG a foaf:Person ;
+              foaf:name "Hans-Gert Gräbe" ;
+              foaf:homepage <http://bis.informatik.uni-leipzig.de/HansGertGraebe> ;
+              sd:affiliation "Universität Leipzig" .
+
+sdp:Gransden_T a foaf:Person ;
+               foaf:name "Thomas Gransden" .
+
+sdp:Grayson_DR a foaf:Person ;
+               foaf:name "Daniel R. Grayson" .
+
+sdp:Greefrath_G a foaf:Person ;
+                foaf:name "Gilbert Greefrath" .
+
+sdp:Green_DJ a foaf:Person ;
+             foaf:name "David J. Green" ;
+             sd:affiliation "Friedrich-Schiller-University Jena" ;
+             sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Grelak_F a foaf:Person ;
+             foaf:name "Felix Grelak" ;
+             sd:affiliation "Universität Duisburg-Essen" .
+
+sdp:Greuel_GM a foaf:Person ;
+              foaf:name "Gert-Martin Greuel" ;
+              sd:affiliation "TU Kaiserslautern" .
+
+sdp:Greve_C a foaf:Person ;
+            foaf:name "Christian Greve" .
+
+sdp:Grigoriev_D a foaf:Person ;
+                foaf:name "Dima Grigoriev" ;
+                sd:affiliation "MPI Bonn" .
+
+sdp:Groetschel_M a foaf:Person ;
+                 foaf:name "Martin Grötschel" .
+
+sdp:Grov_G a foaf:Person ;
+           foaf:name "Gudmund Grov" ;
+           foaf:homepage <http://homepages.inf.ed.ac.uk/ggrov> ;
+           sd:affiliation "Heriot Watt University" ;
+           sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Grueninger_M a foaf:Person ;
+                 foaf:name "Michael Grüninger" .
+
+sdp:Gubeladze_J a foaf:Person ;
+                foaf:name "J. Gubeladze" .
+
+sdp:Guidi_F a foaf:Person ;
+            foaf:name "Ferruccio Guidi" .
+
+sdp:Gunzburger_M a foaf:Person ;
+                 foaf:name "Max Gunzburger" ;
+                 sd:affiliation "Florida State University" ;
+                 sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Gurfinkel_A a foaf:Person ;
+                foaf:name "Arie Gurfinkel" ;
+                sd:affiliation "Carnegie Mellon University" ;
+                sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Guseva_A a foaf:Person ;
+             foaf:name "Ana Guseva" .
+
+sdp:Gutierrez_J a foaf:Person ;
+                foaf:name "Jaime Gutierrez" .
+
+sdp:Gutsche_S a foaf:Person ;
+              foaf:name "Sebastian Gutsche" ;
+              sd:affiliation "TU Kaiserslautern" .
+
+sdp:Haase_C a foaf:Person ;
+            foaf:name "Christian Haase" .
+
+sdp:Hackl_K a foaf:Person ;
+            foaf:name "Klaus Hackl" .
+
+sdp:Hahn_J a foaf:Person ;
+           foaf:name "Johannes Hahn" .
+
+sdp:Hahn_M a foaf:Person ;
+           foaf:name "Michael Hahn" ;
+           sd:affiliation "Universität des Saarlandes" .
+
+sdp:Hahn_T a foaf:Person ;
+           foaf:name "Thomas Hahn" .
+
+sdp:Hales_T a foaf:Person ;
+            foaf:name "Thomas Hales" ;
+            sd:affiliation "University of Pittsburgh" ;
+            sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Hamdi_MS a foaf:Person ;
+             foaf:name "Mohamed Salah Hamdi" .
+
+sdp:Hantzschmann_Karl a foaf:Person ;
+                      foaf:name "Karl Hantzschmann" .
+
+sdp:Haralambous_Y a foaf:Person ;
+                  foaf:name "Yannis Haralambous" ;
+                  foaf:homepage <http://omega.enstb.org/yannis/> ;
+                  sd:affiliation "Inst Mines-Télécom - Télécom Bretagne" ;
+                  sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Harlander_R a foaf:Person ;
+                foaf:name "R. Harlander" .
+
+sdp:Harrison_J a foaf:Person ;
+               foaf:name "John Harrison" ;
+               sd:affiliation "Intel, USA" .
+
+sdp:Hart_WB a foaf:Person ;
+            foaf:name "William B. Hart" ;
+            sd:affiliation "TU Kaiserslautern" .
+
+sdp:Hartl_A a foaf:Person ;
+            foaf:name "Alexander Hartl" .
+
+sdp:Hartmann_J a foaf:Person ;
+               foaf:name "Julia Hartman" .
+
+sdp:Hasan_O a foaf:Person ;
+            foaf:name "Osman Hasan" .
+
+sdp:Hasek_R a foaf:Person ;
+            foaf:name "Roman Hašek" ;
+            sd:affiliation "University of South Bohemia, Czech Republic" ;
+            sd:country <http://dbpedia.org/resource/Czech_Republic> .
+
+sdp:Haslbeck_M a foaf:Person ;
+               foaf:name "Maximilian Haslbeck" .
+
+sdp:Hatlapatka_R a foaf:Person ;
+                 foaf:name "Radim Hatlapatka" ;
+                 foaf:homepage <http://www.fi.muni.cz/~xhatlap/> .
+
+sdp:Hauernstein_J a foaf:Person ;
+                  foaf:name "Jonathan Hauernstein" ;
+                  sd:affiliation "Notre Dame University, USA" ;
+                  sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Hausen_J a foaf:Person ;
+             foaf:name "Jürgen Hausen" ;
+             sd:affiliation "Universität Tübingen" .
+
+sdp:Hawes_W a foaf:Person ;
+            foaf:name "W. Hawes" .
+
+sdp:Hearn_AC a foaf:Person ;
+             foaf:name "Anthony C. Hearn" .
+
+sdp:Hedin_D a foaf:Person ;
+            foaf:name "Daniel Hedin" ;
+            sd:affiliation "Mylardalen University" ;
+            sd:country <http://dbpedia.org/resource/Sweden> .
+
+sdp:Heeren_B a foaf:Person ;
+             foaf:name "Bastiaan Heeren" .
+
+sdp:Heinle_A a foaf:Person ;
+             foaf:name "Albert Heinle" ;
+             foaf:homepage <https://cs.uwaterloo.ca/~aheinle/> .
+
+sdp:Heinrich_ED a foaf:Person ;
+                foaf:name "Elkedagmar Heinrich" .
+
+sdp:Helleseth_T a foaf:Person ;
+                foaf:name "Tor Helleseth" ;
+                sd:affiliation "Bergen" .
+
+sdp:Hellstroem_L a foaf:Person ;
+                 foaf:name "Lars Hellström" .
+
+sdp:Hemmecke_Ralf a foaf:Person ;
+                  foaf:name "Ralf Hemmecke" ;
+                  foaf:homepage <https://portal.risc.jku.at/Members/hemmecke> .
+
+sdp:Hemmecke_Raymond a foaf:Person ;
+                     foaf:name "Raymond Hemmecke" .
+
+sdp:Henk_M a foaf:Person ;
+           foaf:name "M. Henk" .
+
+sdp:Henke_E a foaf:Person ;
+            foaf:name "Ellen Henke" ;
+            sd:affiliation "Aberdeen" ;
+            sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Henn_HW a foaf:Person ;
+            foaf:name "Hans-Wolfgang Henn" .
+
+sdp:Henrion_D a foaf:Person ;
+              foaf:name "Didier Henrion" ;
+              sd:affiliation "University of Toulouse, France" .
+
+sdp:Heras_J a foaf:Person ;
+            foaf:name "Jónathan Heras Vicente" ;
+            foaf:homepage <http://www.unirioja.es/cu/joheras> ;
+            sd:affiliation "University of La Rioja, Spain" ;
+            sd:country <http://dbpedia.org/resource/Spain> .
+
+sdp:Herbelin_H a foaf:Person ;
+               foaf:name "Hugo Herbelin" .
+
+sdp:Herding_D a foaf:Person ;
+              foaf:name "Daniel Herding" ;
+              foaf:homepage <http://elearn.rwth-aachen.de/herding> .
+
+sdp:Hermans_F a foaf:Person ;
+              foaf:name "Felienne Hermans" ;
+              sd:affiliation "Delft University of Technology, Netherlands" .
+
+sdp:Herzig_F a foaf:Person ;
+             foaf:name "Florian Herzig" .
+
+sdp:Herzog_J a foaf:Person ;
+             foaf:name "Jürgen Herzog" ;
+             sd:affiliation "University of Duisburg-Essen, Germany" .
+
+sdp:Hess_F a foaf:Person ;
+           foaf:name "Florian Heß" ;
+           foaf:homepage <http://www.staff.uni-oldenburg.de/florian.hess/> ;
+           sd:affiliation "Universität Oldenburg" ;
+           sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Hetzl_S a foaf:Person ;
+            foaf:name "Stefan Hetzl" ;
+            foaf:homepage <http://www.logic.at/people/hetzl/> .
+
+sdp:Hibi_T a foaf:Person ;
+           foaf:name "Takayuki Hibi" ;
+           sd:affiliation "Osaka University, Japan" .
+
+sdp:Himstedt_F a foaf:Person ;
+               foaf:name "Frank Himstedt" ;
+               sd:affiliation "München" ;
+               sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Hinkis_A a foaf:Person ;
+             foaf:name "Arie Hinkis" .
+
+sdp:Hiss_G a foaf:Person ;
+           foaf:name "Gerhard Hiß" .
+
+sdp:Hoffkamp_A a foaf:Person ;
+               foaf:name "Andrea Hoffkamp" ;
+               sd:affiliation "TU Berlin" ;
+               sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Hofmann_T a foaf:Person ;
+              foaf:name "Tommy Hofmann" ;
+              sd:affiliation "TU Kaiserslautern" .
+
+sdp:Hoge_T a foaf:Person ;
+           foaf:name "Torsten Hoge" ;
+           sd:affiliation "Ruhr-Universität Bochum" .
+
+sdp:Hohenwarter_M a foaf:Person ;
+                  foaf:name "Markus Hohenwarter" .
+
+sdp:Hong_H a foaf:Person ;
+           foaf:name "Hoon Hong" ;
+           sd:affiliation "North Carolina State University, USA" .
+
+sdp:Honold_T a foaf:Person ;
+             foaf:name "Thomas Honold" ;
+             sd:affiliation "Hangzhou" .
+
+sdp:Hooper_J a foaf:Person ;
+             foaf:name "Jeff Hooper" .
+
+sdp:Horn_M a foaf:Person ;
+           foaf:name "Max Horn" ;
+           sd:affiliation "Justus-Liebig-Universität Gießen" ;
+           sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Horn_P a foaf:Person ;
+           foaf:name "Peter Horn" .
+
+sdp:Horozal_F a foaf:Person ;
+              foaf:name "Fulya Horozal" ;
+              foaf:homepage <http://kwarc.info/fhorozal/> .
+
+sdp:Hu_R a foaf:Person ;
+         foaf:name "Rui Hu" .
+
+sdp:Huang_Z a foaf:Person ;
+            foaf:name "Zongyan Huang" .
+
+sdp:Hubery_A a foaf:Person ;
+             foaf:name "Andrew Hubery" .
+
+sdp:Huesca_LDCG a foaf:Person ;
+                foaf:name "Lourdes Del Carmen González Huesca" .
+
+sdp:Huettemann_T a foaf:Person ;
+                 foaf:name "Thomas Hüttemann" ;
+                 sd:affiliation "Belfast" .
+
+sdp:Huh_J a foaf:Person ;
+          foaf:name "June Huh" ;
+          sd:affiliation "Princeton University, USA" .
+
+sdp:Hui_CY a foaf:Person ;
+           foaf:name "Chun Yin Hui" .
+
+sdp:Hulpke_A a foaf:Person ;
+             foaf:name "Alexander Hulpke" ;
+             sd:affiliation "Fort Collins, USA" ;
+             sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Hupel_L a foaf:Person ;
+            foaf:name "Lars Hupel" .
+
+sdp:Husert_D a foaf:Person ;
+             foaf:name "David Husert" ;
+             sd:affiliation "Universität Paderborn" .
+
+sdp:Hutter_D a foaf:Person ;
+             foaf:name "Dieter Hutter" .
+
+sdp:Iacob_A a foaf:Person ;
+            foaf:name "Alin Iacob" .
+
+sdp:Iancu_M a foaf:Person ;
+            foaf:name "Mihnea Iancu" .
+
+sdp:Ichim_B a foaf:Person ;
+            foaf:name "B. Ichim" .
+
+sdp:Ida_T a foaf:Person ;
+          foaf:name "Tetsuo Ida" ;
+          sd:affiliation "University of Tsukuba, Japan" ;
+          sd:country <http://dbpedia.org/resource/Japan> .
+
+sdp:Iliopoulous_C a foaf:Person ;
+                  foaf:name "Costas Iliopoulous" ;
+                  sd:affiliation "Kings College, London" ;
+                  sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Inawashiro_N a foaf:Person ;
+                 foaf:name "N. Inawashiro" .
+
+sdp:Inui_N a foaf:Person ;
+           foaf:name "Nobuo Inui" .
+
+sdp:Ion_P a foaf:Person ;
+          foaf:name "Patrick Ion" ;
+          foaf:homepage <http://www-personal.umich.edu/~pion> ;
+          sd:affiliation "Univ. of Michigan, AMS and Math Reviews, USA" ;
+          sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Ionescu_C a foaf:Person ;
+              foaf:name "Cezar Ionescu" ;
+              foaf:homepage <http://www.pik-potsdam.de/members/ionescu> ;
+              sd:affiliation "Potsdam Institute" ;
+              sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Istrate_G a foaf:Person ;
+              foaf:name "Gabriel Istrate" ;
+              sd:affiliation "Research Institute e-Austria Timisoara, Romania" ;
+              sd:country <http://dbpedia.org/resource/Romania> .
+
+sdp:Izaak_A a foaf:Person ;
+            foaf:name "Alexandr Izaak" .
+
+sdp:Jamnik_M a foaf:Person ;
+             foaf:name "Mateja Jamnik" ;
+             sd:affiliation "University of Cambridge" ;
+             sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Janicic_P a foaf:Person ;
+              foaf:name "Predrag Janičić" ;
+              foaf:homepage <http://www.matf.bg.ac.rs/~janicic> ;
+              sd:affiliation "University of Belgrade" ;
+              sd:country <http://dbpedia.org/resource/Serbia> .
+
+sdp:Jebelean_T a foaf:Person ;
+               foaf:name "Tudor Jebelean" ;
+               sd:affiliation "Johannes Kepler University, Austria" ;
+               sd:country <http://dbpedia.org/resource/Austria> .
+
+sdp:Jedwab_J a foaf:Person ;
+             foaf:name "Jonathan Jedwab" ;
+             sd:affiliation "Vancouver" .
+
+sdp:Jeffrey_D a foaf:Person ;
+              foaf:name "David Jeffrey" .
+
+sdp:Jenkins_N a foaf:Person ;
+              foaf:name "Nathan Jenkins" .
+
+sdp:Jensen_A a foaf:Person ;
+             foaf:name "Anders Jensen" .
+
+sdp:Jeuring_J a foaf:Person ;
+              foaf:name "Johan Jeuring" ;
+              sd:affiliation "Open Universiteit Nederland Utrecht" ;
+              sd:country <http://dbpedia.org/resource/Netherlands> .
+
+sdp:Jipsen_P a foaf:Person ;
+             foaf:name "Peter Jipsen" ;
+             sd:affiliation "Chapman University" ;
+             sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Johanning_S a foaf:Person ;
+                foaf:name "Simon Johanning" ;
+                sd:affiliation "Universität Leipzig" .
+
+sdp:Johansson_M a foaf:Person ;
+                foaf:name "Moa Johansson" .
+
+sdp:Joswig_M a foaf:Person ;
+             foaf:name "Michael Joswig" ;
+             sd:affiliation "TU Berlin, Germany" .
+
+sdp:Jovanovic_D a foaf:Person ;
+                foaf:name "Dejan Jovanović" ;
+                sd:affiliation "SRI" ;
+                sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Jucovschi_C a foaf:Person ;
+                foaf:name "Constantin Jucovschi" .
+
+sdp:JuhnkeKubitzke_M a foaf:Person ;
+                     foaf:name "Martina Juhnke-Kubitzke" ;
+                     sd:affiliation "University of Osnabrück, Germany" .
+
+sdp:Kadeshvili_T a foaf:Person ;
+                 foaf:name "Tornike Kadeshvili" ;
+                 sd:affiliation "Tbilisi" .
+
+sdp:Kahl_F a foaf:Person ;
+           foaf:name "Fredrik Kahl" ;
+           sd:affiliation "Lund University, Sweden" .
+
+sdp:Kahle_R a foaf:Person ;
+            foaf:name "Reinhard Kahle" .
+
+sdp:Kahle_T a foaf:Person ;
+            foaf:name "Thomas Kahle" ;
+            sd:affiliation "University of Magdeburg, Germany" .
+
+sdp:Kahn_K a foaf:Person ;
+           foaf:name "Konstantin Kahn" .
+
+sdp:Kai_H a foaf:Person ;
+          foaf:name "Hiroshi Kai" .
+
+sdp:Kako_F a foaf:Person ;
+           foaf:name "Fujio Kako" .
+
+sdp:Kaliszyk_C a foaf:Person ;
+               foaf:name "Cezary Kaliszyk" ;
+               foaf:homepage <http://cl-informatik.uibk.ac.at/users/cek/> ;
+               sd:affiliation "University of Innsbruck, Austria" ;
+               sd:country <http://dbpedia.org/resource/Austria> .
+
+sdp:Kalkbrener_M a foaf:Person ;
+                 foaf:name "Michael Kalkbrener" .
+
+sdp:Kaltofen_E a foaf:Person ;
+               foaf:name "Erich Kaltofen" ;
+               sd:affiliation "North Carolina State University" ;
+               sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Kamali_S a foaf:Person ;
+             foaf:name "Shahab Kamali" ;
+             foaf:homepage <http://cs.uwaterloo.ca/~skamali> .
+
+sdp:Kamareddine_F a foaf:Person ;
+                  foaf:name "Fairouz Kamareddine" ;
+                  sd:affiliation "Heriot-Watt University, Scotland" ;
+                  sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Kameyama_Y a foaf:Person ;
+               foaf:name "Yukiyoshi Kameyama" ;
+               sd:affiliation "University of Tsukuba, Japan" .
+
+sdp:Kamp_ET a foaf:Person ;
+            foaf:name "Ellen T. Kamp" .
+
+sdp:Kang_S a foaf:Person ;
+           foaf:name "Sohee Kang" .
+
+sdp:Kastner_L a foaf:Person ;
+              foaf:name "Lars Kastner" ;
+              sd:affiliation "FU Berlin" .
+
+sdp:Katsura_W a foaf:Person ;
+              foaf:name "W. Katsura" .
+
+sdp:Katthaen_L a foaf:Person ;
+               foaf:name "Lukas Katthän" ;
+               sd:affiliation "Universität Osnabrück" .
+
+sdp:Kauers_M a foaf:Person ;
+             foaf:name "Manuel Kauers" ;
+             sd:affiliation "Johannes Kepler University, Linz" ;
+             sd:country <http://dbpedia.org/resource/Austria> .
+
+sdp:Keicher_S a foaf:Person ;
+              foaf:name "Simon Keicher" ;
+              sd:affiliation "Universität Tübingen" .
+
+sdp:Keil_S a foaf:Person ;
+           foaf:name "S. Keil" .
+
+sdp:Kemper_G a foaf:Person ;
+             foaf:name "Gregor Kemper" ;
+             sd:affiliation "München" ;
+             sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Kerber_A a foaf:Person ;
+             foaf:name "Adalbert Kerber" ;
+             sd:affiliation "Uni Bayreuth, Germany" .
+
+sdp:Kerber_M a foaf:Person ;
+             foaf:name "Manfred Kerber" ;
+             foaf:homepage <http://www.cs.bham.ac.uk/~mmk> ;
+             sd:affiliation "University of Birmingham" ;
+             sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Kern_F a foaf:Person ;
+           foaf:name "F. Kern" .
+
+sdp:Kerner_D a foaf:Person ;
+             foaf:name "Dmitry Kerner" ;
+             sd:affiliation "Ben Gurion University of Negev, Israel" .
+
+sdp:Kessar_R a foaf:Person ;
+             foaf:name "Radha Kessar" ;
+             sd:affiliation "City University London, UK" .
+
+sdp:Kfoury_A a foaf:Person ;
+             foaf:name "Assaf Kfoury" .
+
+sdp:KhanAfshar_S a foaf:Person ;
+                 foaf:name "Sanaz Khan-Afshar" .
+
+sdp:Khan_MT a foaf:Person ;
+            foaf:name "Muhammad Taimoor Khan" ;
+            foaf:homepage <http://www.risc.jku.at/home/mtkhan/> .
+
+sdp:Khutornoy_NV a foaf:Person ;
+                 foaf:name "N.V. Khutornoy" .
+
+sdp:Kiermaier_M a foaf:Person ;
+                foaf:name "Michael Kiermaier" ;
+                sd:affiliation "Uni Bayreuth, Germany" .
+
+sdp:Kimmerle_W a foaf:Person ;
+               foaf:name "Wolfgang Kimmerle" ;
+               sd:affiliation "Universität Stuttgart" .
+
+sdp:King_S a foaf:Person ;
+           foaf:name "Simon King" ;
+           sd:affiliation "Friedrich-Schiller-Universität Jena" ;
+           sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Kinyon_M a foaf:Person ;
+             foaf:name "Michael Kinyon" .
+
+sdp:Kirschmer_M a foaf:Person ;
+                foaf:name "Markus Kirschmer" ;
+                sd:affiliation "RWTH Aachen" ;
+                sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Klaus_U a foaf:Person ;
+            foaf:name "Uwe Klaus" .
+
+sdp:Klein_A a foaf:Person ;
+            foaf:name "A. Klein" .
+
+sdp:Klein_G a foaf:Person ;
+            foaf:name "Gerwin Klein" .
+
+sdp:Kleinjung_T a foaf:Person ;
+                foaf:name "Thorsten Kleinjung" .
+
+sdp:Klinge_S a foaf:Person ;
+             foaf:name "Sandra Klinge" .
+
+sdp:Kloosterman_RN a foaf:Person ;
+                   foaf:name "Remke N. Kloosterman" .
+
+sdp:Klueners_J a foaf:Person ;
+               foaf:name "Jürgen Klüners" ;
+               sd:affiliation "Universität Paderborn" ;
+               sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Knechtel_H a foaf:Person ;
+               foaf:name "Heiko Knechtel" .
+
+sdp:Knoop_J a foaf:Person ;
+            foaf:name "Jens Knoop" ;
+            sd:affiliation "Technical University of Vienna, Austria" .
+
+sdp:Knopper_JW a foaf:Person ;
+               foaf:name "Jan Willem Knopper" .
+
+sdp:Kobayashi_H a foaf:Person ;
+                foaf:name "H. Kobayashi" .
+
+sdp:Koenig_S a foaf:Person ;
+             foaf:name "Steffen König" ;
+             sd:affiliation "Universität Stuttgart" .
+
+sdp:Koepf_W a foaf:Person ;
+            foaf:name "Wolfram Koepf" .
+
+sdp:Koeppe_M a foaf:Person ;
+             foaf:name "M. Köppe" .
+
+sdp:Koerner_H a foaf:Person ;
+              foaf:name "H. Körner" .
+
+sdp:Kofler_K a foaf:Person ;
+             foaf:name "Kevin Kofler" ;
+             foaf:homepage <http://www.tigen.org/kevin.kofler/> .
+
+sdp:Kohlhase_A a foaf:Person ;
+               foaf:name "Andrea Kohlhase" ;
+               foaf:homepage <http://kwarc.info/ako/> ;
+               sd:affiliation "University of Applied Sciences Neu-Ulm, Germany" ;
+               sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Kohlhase_L a foaf:Person ;
+               foaf:name "Lukas Kohlhase" .
+
+sdp:Kohlhase_M a foaf:Person ;
+               foaf:name "Michael Kohlhase" ;
+               foaf:homepage <http://kwarc.info/kohlhase/> ;
+               sd:affiliation "Jacobs University Bremen, Germany" ;
+               sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Kohnert_A a foaf:Person ;
+              foaf:name "Axel Kohnert" .
+
+sdp:Kokubu_M a foaf:Person ;
+             foaf:name "Masatoshi Kokubu" .
+
+sdp:Kolanski_R a foaf:Person ;
+               foaf:name "Rafal Kolanski" .
+
+sdp:Komendantskaya_E a foaf:Person ;
+                     foaf:name "Ekaterina Komendantskaya" ;
+                     foaf:homepage <http://www.computing.dundee.ac.uk/staff/katya/> .
+
+sdp:Konev_B a foaf:Person ;
+            foaf:name "Boris Konev" ;
+            sd:affiliation "University of Liverpool, England" .
+
+sdp:Koornwinder_T a foaf:Person ;
+                  foaf:name "Tom Koornwinder" .
+
+sdp:Kornilowicz_A a foaf:Person ;
+                  foaf:name "Artur Kornilowicz" ;
+                  foaf:homepage <http://math.uwb.edu.pl/~arturk/> ;
+                  sd:affiliation "University of Bialystok, Poland" .
+
+sdp:Kortenkamp_U a foaf:Person ;
+                 foaf:name "Ulrich Kortenkamp" .
+
+sdp:Kotelnikov_E a foaf:Person ;
+                 foaf:name "Evgenii Kotelnikov" .
+
+sdp:Kotsireas_IS a foaf:Person ;
+                 foaf:name "Ilias S. Kotsireas" ;
+                 sd:affiliation "Wilfrid Laurier University, Canada" ;
+                 sd:country <http://dbpedia.org/resource/Canada> .
+
+sdp:Kovacs_L a foaf:Person ;
+             foaf:name "Laura Kovács" ;
+             sd:affiliation "Chalmers University of Technology, Sweden" ;
+             sd:country <http://dbpedia.org/resource/Sweden> .
+
+sdp:Krause_H a foaf:Person ;
+             foaf:name "Henning Krause" .
+
+sdp:Krautzberger_P a foaf:Person ;
+                   foaf:name "Peter Krautzberger" .
+
+sdp:Kredel_H a foaf:Person ;
+             foaf:name "Heinz Kredel" .
+
+sdp:Krejcir_V a foaf:Person ;
+              foaf:name "Vlastimil Krejčíř" ;
+              foaf:homepage <https://www.muni.cz/people/4189?lang=en> .
+
+sdp:Kreps_DM a foaf:Person ;
+             foaf:name "David M. Kreps" .
+
+sdp:Kreuzer_M a foaf:Person ;
+              foaf:name "Martin Kreuzer" .
+
+sdp:Krider_ES a foaf:Person ;
+              foaf:name "Elizabeth S. Krider" .
+
+sdp:Kristianto_GY a foaf:Person ;
+                  foaf:name "Giovanni Yoko Kristianto" .
+
+sdp:Kuechlin_W a foaf:Person ;
+               foaf:name "Wolfgang Küchlin" .
+
+sdp:Kuelshammer_B a foaf:Person ;
+                  foaf:name "Burkhard Külshammer" ;
+                  sd:affiliation "Friedrich-Schiller-Universität Jena" .
+
+sdp:Kuperberg_K a foaf:Person ;
+                foaf:name "Krystyna Kuperberg" ;
+                sd:affiliation "Auburn University, USA" .
+
+sdp:Kuska_JP a foaf:Person ;
+             foaf:name "Jens-Peer Kuska" .
+
+sdp:Kusper_G a foaf:Person ;
+             foaf:name "Gabor Kusper" ;
+             sd:affiliation "Eszterhazy Karoly College, Hungary" .
+
+sdp:Kutsia_T a foaf:Person ;
+             foaf:name "Temur Kutsia" ;
+             sd:affiliation "Johannes Kepler University Linz, Austria" ;
+             sd:country <http://dbpedia.org/resource/Austria> .
+
+sdp:Kutz_O a foaf:Person ;
+           foaf:name "Oliver Kutz" ;
+           foaf:homepage <http://www.informatik.uni-bremen.de/~okutz/> .
+
+sdp:Kutzler_B a foaf:Person ;
+              foaf:name "Bernhard Kutzler" .
+
+sdp:Kyureghyan_G a foaf:Person ;
+                 foaf:name "Gohar Kyureghyan" .
+
+sdp:Lal_S a foaf:Person ;
+          foaf:name "Sourabh Lal" .
+
+sdp:Lan_KW a foaf:Person ;
+           foaf:name "K.W. Lan" .
+
+sdp:LangeHegermann_M a foaf:Person ;
+                     foaf:name "Markus Lange-Hegermann" ;
+                     sd:affiliation "RWTH Aachen" .
+
+sdp:Lange_C a foaf:Person ;
+            foaf:name "Christoph Lange" ;
+            foaf:homepage <http://cs.bham.ac.uk/~langec>, <http://kwarc.info/clange/> ;
+            sd:affiliation "University of Bonn" ;
+            sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Lapets_A a foaf:Person ;
+             foaf:name "Andrei Lapets" .
+
+sdp:Lason_M a foaf:Person ;
+            foaf:name "Michal Lason" ;
+            sd:affiliation "Polish Academy of Sciences, Poland" .
+
+sdp:Laue_R a foaf:Person ;
+           foaf:name "Reinhard Laue" ;
+           sd:affiliation "Uni Bayreuth, Germany" .
+
+sdp:Lazard_D a foaf:Person ;
+             foaf:name "Daniel Lazard" .
+
+sdp:Le_DV a foaf:Person ;
+          foaf:name "Dinh Van Le" ;
+          sd:affiliation "University of Osnabrück, Germany" .
+
+sdp:Lecerf_G a foaf:Person ;
+             foaf:name "Grégoire Lecerf" ;
+             sd:affiliation "CNRS" ;
+             sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Leitao_R a foaf:Person ;
+             foaf:name "Roxanne Leitão" .
+
+sdp:Leitsch_A a foaf:Person ;
+              foaf:name "Alexander Leitsch" .
+
+sdp:Lempken_W a foaf:Person ;
+              foaf:name "Wolfgang Lempken" .
+
+sdp:Leprevost_F a foaf:Person ;
+                foaf:name "Franck Leprévost" .
+
+sdp:Letichevsky_A a foaf:Person ;
+                  foaf:name "Alexander Letichevsky" ;
+                  sd:affiliation "Cybernetics National Academy of Sciences, Ukraine" .
+
+sdp:Letychevskyi_O a foaf:Person ;
+                   foaf:name "Oleksandr Letychevskyi" ;
+                   sd:affiliation "Glushkov Institute of Cybernetics, Ukraine" .
+
+sdp:Levandovskyy_V a foaf:Person ;
+                   foaf:name "Viktor Levandovskyy" ;
+                   foaf:homepage <http://www.math.rwth-aachen.de/~Viktor.Levandovskyy> ;
+                   sd:affiliation "RWTH Aachen" ;
+                   sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Levy_J a foaf:Person ;
+           foaf:name "Jordi Levy" ;
+           sd:affiliation "IIIA CSIC Barcelona" ;
+           sd:country <http://dbpedia.org/resource/Spain> .
+
+sdp:Lewis_R a foaf:Person ;
+            foaf:name "Robert Lewis" .
+
+sdp:Li_H a foaf:Person ;
+         foaf:name "Hongbo Li" ;
+         sd:affiliation "Chinese Academy of Sciences, Beijing" ;
+         sd:country <http://dbpedia.org/resource/China> .
+
+sdp:Li_W a foaf:Person ;
+         foaf:name "Wei Li" ;
+         sd:affiliation "Beihang University, China" .
+
+sdp:Li_Z a foaf:Person ;
+         foaf:name "Ziming Li" ;
+         sd:affiliation "Chinese Academy of Sciences" ;
+         sd:country <http://dbpedia.org/resource/China> .
+
+sdp:Libal_T a foaf:Person ;
+            foaf:name "Tomer Libal" .
+
+sdp:Libbrecht_P a foaf:Person ;
+                foaf:name "Paul Libbrecht" ;
+                foaf:homepage <http://www.hoplahup.net/paul/about_me.html>, <http://www.hoplahup.net/paul/> ;
+                sd:affiliation "Weingarten University of Education, Germany" ;
+                sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Liedtke_C a foaf:Person ;
+              foaf:name "Christian Liedtke" .
+
+sdp:Link_F a foaf:Person ;
+           foaf:name "Frauke Link" .
+
+sdp:Linton_S a foaf:Person ;
+             foaf:name "Steve Linton" ;
+             sd:affiliation "University of St Andrews" ;
+             sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Lisitsa_A a foaf:Person ;
+              foaf:name "Alexei Lisitsa" .
+
+sdp:Liska_M a foaf:Person ;
+            foaf:name "Martin Líška" .
+
+sdp:Liska_R a foaf:Person ;
+            foaf:name "Richard Liska" .
+
+sdp:Little_J a foaf:Person ;
+             foaf:name "J. Little" .
+
+sdp:Lorenz_B a foaf:Person ;
+             foaf:name "Benjamin Lorenz" ;
+             sd:affiliation "TU Berlin" .
+
+sdp:Loughran_D a foaf:Person ;
+               foaf:name "Daniel Loughran" ;
+               sd:affiliation "Hannover, Germany" .
+
+sdp:Lucanu_D a foaf:Person ;
+             foaf:name "Dorel Lucanu" ;
+             sd:affiliation "University A. I. Cuza, Romania" .
+
+sdp:Luebeck_F a foaf:Person ;
+              foaf:name "Frank Lübeck" .
+
+sdp:Lueth_C a foaf:Person ;
+            foaf:name "Christoph Lüth" ;
+            foaf:homepage <http://www.informatik.uni-bremen.de/~cxl> ;
+            sd:affiliation "DFKI and University of Bremen" ;
+            sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Luislampe_S a foaf:Person ;
+                foaf:name "Stefan Luislampe" .
+
+sdp:Luo_J a foaf:Person ;
+          foaf:name "Jie Luo" ;
+          sd:affiliation "Beihang University, China" .
+
+sdp:Lux_K a foaf:Person ;
+          foaf:name "Klaus Lux" .
+
+sdp:Lynch_C a foaf:Person ;
+            foaf:name "Christopher Lynch" ;
+            sd:affiliation "Clarkson University" ;
+            sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Maas_L a foaf:Person ;
+           foaf:name "Lukas Maas" .
+
+sdp:Macchia_A a foaf:Person ;
+              foaf:name "Antonio Macchia" ;
+              sd:affiliation "University of Marburg, Germany" .
+
+sdp:Maclean_E a foaf:Person ;
+              foaf:name "Ewen Maclean" ;
+              sd:affiliation "University of Edinburgh" ;
+              sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Magaard_K a foaf:Person ;
+              foaf:name "Kay Magaard" ;
+              sd:affiliation "University of Birmingham, UK" .
+
+sdp:Maggesi_M a foaf:Person ;
+              foaf:name "Marco Maggesi" .
+
+sdp:Magron_V a foaf:Person ;
+             foaf:name "Victor Magron" ;
+             foaf:homepage <http://www.lix.polytechnique.fr/~magron/> .
+
+sdp:Mahboubi_A a foaf:Person ;
+               foaf:name "Assia Mahboubi" ;
+               foaf:homepage <http://www.lix.polytechnique.fr/~assia/> ;
+               sd:affiliation "Inria, France" ;
+               sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Maletzky_A a foaf:Person ;
+               foaf:name "Alexander Maletzky" ;
+               sd:affiliation "Johannes Kepler University, Austria" .
+
+sdp:Malle_G a foaf:Person ;
+            foaf:name "Gunter Malle" ;
+            sd:affiliation "TU Kaiserslautern, Germany" ;
+            sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Mamane_L a foaf:Person ;
+             foaf:name "Lionel Mamane" ;
+             foaf:homepage <http://www.mamane.lu/> .
+
+sdp:Mance_F a foaf:Person ;
+            foaf:name "Felix Mance" .
+
+sdp:Manocha_D a foaf:Person ;
+              foaf:name "Dinesh Manocha" .
+
+sdp:Margolis_L a foaf:Person ;
+               foaf:name "Leo Margolis" ;
+               sd:affiliation "Universität Stuttgart" .
+
+sdp:Maric_F a foaf:Person ;
+            foaf:name "Filip Maric" ;
+            foaf:homepage <http://www.matf.bg.ac.rs/~filip> ;
+            sd:affiliation "University of Belgrade, Serbia" ;
+            sd:country <http://dbpedia.org/resource/Serbia> .
+
+sdp:Maric_M a foaf:Person ;
+            foaf:name "Milena Marić" .
+
+sdp:Marin_M a foaf:Person ;
+            foaf:name "Mircea Marin" ;
+            sd:affiliation "West University of Timisoara, Romania" ;
+            sd:country <http://dbpedia.org/resource/Romania> .
+
+sdp:Marinkovic_V a foaf:Person ;
+                 foaf:name "Vesna Marinkovic" ;
+                 foaf:homepage <http://www.matf.bg.ac.rs/~vesnap> .
+
+sdp:Markl_M a foaf:Person ;
+            foaf:name "Martin Markl" ;
+            sd:affiliation "Prague" .
+
+sdp:Marks_F a foaf:Person ;
+            foaf:name "Frederik Marks" ;
+            sd:affiliation "Universität Stuttgart" .
+
+sdp:Markwig_H a foaf:Person ;
+              foaf:name "Hannah Markwig" .
+
+sdp:Markwig_T a foaf:Person ;
+              foaf:name "Thomas Markwig" ;
+              sd:affiliation "TU Kaiserslautern, Germany" .
+
+sdp:Marques_D a foaf:Person ;
+              foaf:name "Daniel Marques" .
+
+sdp:Martin_A a foaf:Person ;
+             foaf:name "A. Martin" .
+
+sdp:Martin_U a foaf:Person ;
+             foaf:name "Ursula Martin" ;
+             foaf:homepage <http://www.eecs.qmul.ac.uk/~uhmm/> ;
+             sd:affiliation "Queen Mary University of London" ;
+             sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:MartinezMoro_E a foaf:Person ;
+                   foaf:name "Edgar Martinez-Moro" .
+
+sdp:MartinezdelCastillo_J a foaf:Person ;
+                          foaf:name "Javier Martínez del Castillo" .
+
+sdp:Maruster_S a foaf:Person ;
+               foaf:name "Stefan Maruster" ;
+               sd:affiliation "West University of Timisoara, Romania" ;
+               sd:country <http://dbpedia.org/resource/Romania> .
+
+sdp:Mata_G a foaf:Person ;
+           foaf:name "Gadea Mata" .
+
+sdp:Matichuk_D a foaf:Person ;
+               foaf:name "Daniel Matichuk" .
+
+sdp:Matt_AD a foaf:Person ;
+            foaf:name "Andreas D. Matt" .
+
+sdp:Matuszewski_R a foaf:Person ;
+                  foaf:name "Roman Matuszewski" .
+
+sdp:Matzat_BH a foaf:Person ;
+              foaf:name "B. Heinrich Matzat" .
+
+sdp:Mayr_EW a foaf:Person ;
+            foaf:name "Ernst W. Mayr" .
+
+sdp:Mazalov_V a foaf:Person ;
+              foaf:name "Vadim Mazalov" ;
+              foaf:homepage <http://www.csd.uwo.ca/~vmazalov> .
+
+sdp:Mazza_N a foaf:Person ;
+            foaf:name "Nadia Mazza" ;
+            sd:affiliation "Lancaster" ;
+            sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:McBride_C a foaf:Person ;
+              foaf:name "Conor McBride" ;
+              foaf:homepage <http://strictlypositive.org/> .
+
+sdp:McClain_MA a foaf:Person ;
+               foaf:name "Marjorie A. McClain" .
+
+sdp:McKelvey_RD a foaf:Person ;
+                foaf:name "Richard D. McKelvey" .
+
+sdp:McLennan_A a foaf:Person ;
+               foaf:name "Andrew McLennan" .
+
+sdp:Melenk_H a foaf:Person ;
+             foaf:name "Herbert Melenk" .
+
+sdp:Meseguer_J a foaf:Person ;
+               foaf:name "Jose Meseguer" ;
+               sd:affiliation "University of Illinois at Urbana-Champaign" ;
+               sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Meshveliani_S a foaf:Person ;
+                  foaf:name "Sergei Meshveliani" .
+
+sdp:Metelitsyn_P a foaf:Person ;
+                 foaf:name "Pavel Metelitsyn" ;
+                 sd:affiliation "Johannes Gutenberg Universität Mainz" .
+
+sdp:Meyer_J a foaf:Person ;
+            foaf:name "Jörg Meyer" .
+
+sdp:Michalek_M a foaf:Person ;
+               foaf:name "Mateusz Michalek" ;
+               sd:affiliation "Polish Academy of Sciences, Poland" .
+
+sdp:Michel_J a foaf:Person ;
+             foaf:name "Jean Michel" ;
+             sd:affiliation "Mathématiques Jussieu" .
+
+sdp:MihaljevicBrandt_H a foaf:Person ;
+                       foaf:name "Helena Mihaljevic-Brandt" ;
+                       sd:affiliation "Zentralblatt MATH, Berlin" ;
+                       sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Miller_B a foaf:Person ;
+             foaf:name "Bruce Miller" .
+
+sdp:Miller_BR a foaf:Person ;
+              foaf:name "Bruce R. Miller" ;
+              foaf:homepage <http://math.nist.gov/~BMiller/> ;
+              sd:affiliation "NIST, Gaithersburg, Maryland" ;
+              sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Minamide_Y a foaf:Person ;
+               foaf:name "Yasuhiko Minamide" ;
+               sd:affiliation "Tokyo Institute of Technology, Japan" .
+
+sdp:Minea_M a foaf:Person ;
+            foaf:name "Marius Minea" ;
+            sd:affiliation "Politehnica University of Timisoara, Romania" .
+
+sdp:Minimair_M a foaf:Person ;
+               foaf:name "Manfred Minimair" .
+
+sdp:Minzlaff_M a foaf:Person ;
+               foaf:name "Moritz Minzlaff" .
+
+sdp:Misurina_O a foaf:Person ;
+               foaf:name "Olga Misurina" .
+
+sdp:Misutka_J a foaf:Person ;
+              foaf:name "Jozef Mišutka" .
+
+sdp:Mizoguchi_Y a foaf:Person ;
+                foaf:name "Yoshihiro Mizoguchi" ;
+                sd:affiliation "Kyushu University, Japan" .
+
+sdp:Moede_T a foaf:Person ;
+            foaf:name "Tobias Moede" ;
+            sd:affiliation "TU Braunschweig" .
+
+sdp:Moehlmann_G a foaf:Person ;
+                foaf:name "Gerrit Möhlmann" .
+
+sdp:Moeller_HM a foaf:Person ;
+               foaf:name "H. Michael Möller" .
+
+sdp:Mohammadi_F a foaf:Person ;
+                foaf:name "Fatemeh Mohammadi" ;
+                sd:affiliation "Universität Osnabrück" .
+
+sdp:Mohammed_AS a foaf:Person ;
+                foaf:name "Azeem S. Mohammed" .
+
+sdp:Moir_R a foaf:Person ;
+           foaf:name "Robert Moir" ;
+           sd:affiliation "Western University, Ontario" ;
+           sd:country <http://dbpedia.org/resource/Canada> .
+
+sdp:Moldenhauer_W a foaf:Person ;
+                  foaf:name "Wolfgang Moldenhauer" .
+
+sdp:Moll_V a foaf:Person ;
+           foaf:name "Victor Moll" .
+
+sdp:Monks_K a foaf:Person ;
+            foaf:name "Ken Monks" ;
+            foaf:homepage <http://mathweb.scranton.edu/monks/> .
+
+sdp:Moore_R a foaf:Person ;
+            foaf:name "Ross Moore" ;
+            foaf:homepage <http://www.maths.mq.edu.au/staff/ross.html> .
+
+sdp:Mora_T a foaf:Person ;
+           foaf:name "Teo Mora" .
+
+sdp:Moral_J a foaf:Person ;
+            foaf:name "Juan Moral" .
+
+sdp:Morawska_B a foaf:Person ;
+               foaf:name "Barbara Morawska" ;
+               sd:affiliation "TU Dresden" ;
+               sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:MorenoMaza_M a foaf:Person ;
+                 foaf:name "Marc Moreno Maza" ;
+                 sd:affiliation "University of Western Ontario" ;
+                 sd:country <http://dbpedia.org/resource/Canada> .
+
+sdp:Morgan_A a foaf:Person ;
+             foaf:name "Alexander Morgan" .
+
+sdp:Morton_J a foaf:Person ;
+             foaf:name "J. Morton" .
+
+sdp:Mossakowski_T a foaf:Person ;
+                  foaf:name "Till Mossakowski" ;
+                  foaf:homepage <http://www.dfki.de/sks/till> .
+
+sdp:Mourrain_B a foaf:Person ;
+               foaf:name "B. Mourrain" .
+
+sdp:Mueller_D a foaf:Person ;
+              foaf:name "Dennis Müller" .
+
+sdp:Mueller_F a foaf:Person ;
+              foaf:name "Fabian Müller" .
+
+sdp:Mueller_JH a foaf:Person ;
+               foaf:name "Jan Hendrik Müller" .
+
+sdp:Mueller_JM a foaf:Person ;
+               foaf:name "Jürgen Müller" ;
+               sd:affiliation "Friedrich-Schiller-Universität Jena" .
+
+sdp:Mueller_JS a foaf:Person ;
+               foaf:name "Jan Steffen Müller" ;
+               sd:affiliation "Carl von Ossietzky Universität Oldenburg, Germany" ;
+               sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Mueller_P a foaf:Person ;
+              foaf:name "Peter Müller" .
+
+sdp:Mueller_W a foaf:Person ;
+              foaf:name "Wolfgang Müller" .
+
+sdp:Murai_S a foaf:Person ;
+            foaf:name "Satoshi Murai" ;
+            sd:affiliation "Osaka University, Japan" .
+
+sdp:Murao_H a foaf:Person ;
+            foaf:name "H. Murao" .
+
+sdp:Murata_T a foaf:Person ;
+             foaf:name "Tsuyoshi Murata" .
+
+sdp:Murillo_A a foaf:Person ;
+              foaf:name "Aniceto Murillo" ;
+              sd:affiliation "Málaga" .
+
+sdp:MurrayRust_D a foaf:Person ;
+                 foaf:name "Dave Murray-Rust" ;
+                 foaf:homepage <http://www.mo-seph.com> .
+
+sdp:MurrayRust_P a foaf:Person ;
+                 foaf:name "Peter Murray-Rust" ;
+                 foaf:homepage <http://www.ch.cam.ac.uk/staff/pm.html> .
+
+sdp:Nagel_U a foaf:Person ;
+            foaf:name "Uwe Nagel" ;
+            sd:affiliation "University of Kentucky, Lexington, USA" .
+
+sdp:Nakasho_K a foaf:Person ;
+              foaf:name "Kazuhisa Nakasho" .
+
+sdp:Narboux_J a foaf:Person ;
+              foaf:name "Julien Narboux" ;
+              sd:affiliation "University of Strasbourg, France" ;
+              sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Nareike_A a foaf:Person ;
+              foaf:name "Andreas Nareike" .
+
+sdp:Narendran_P a foaf:Person ;
+                foaf:name "Paliath Narendran" ;
+                sd:affiliation "University at Albany—SUNY" ;
+                sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Naumowicz_A a foaf:Person ;
+                foaf:name "Adam Naumowicz" ;
+                sd:affiliation "University of Bialystok, Poland" ;
+                sd:country <http://dbpedia.org/resource/Poland> .
+
+sdp:Nebe_G a foaf:Person ;
+           foaf:name "Gabriele Nebe" ;
+           sd:affiliation "RWTH Aachen" .
+
+sdp:Negru_V a foaf:Person ;
+            foaf:name "Viorel Negru" ;
+            sd:affiliation "West University of Timisoara, Romania" ;
+            sd:country <http://dbpedia.org/resource/Romania> .
+
+sdp:Neumaier_A a foaf:Person ;
+               foaf:name "Arnold Neumaier" ;
+               foaf:homepage <http://www.univie.ac.at/~neum> .
+
+sdp:Neun_W a foaf:Person ;
+           foaf:name "Winfried Neun" ;
+           sd:affiliation "Zuse Institute Berlin, Germany" ;
+           sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Neuper_W a foaf:Person ;
+             foaf:name "Walther Neuper" ;
+             foaf:homepage <http://www.ist.tugraz.at/neuper/> ;
+             sd:affiliation "Graz University of Technology, Austria" ;
+             sd:country <http://dbpedia.org/resource/Austria> .
+
+sdp:Neveln_B a foaf:Person ;
+             foaf:name "Bob Neveln" .
+
+sdp:Nghiem_MQ a foaf:Person ;
+              foaf:name "Minh-Quoc Nghiem" .
+
+sdp:Nicaud_JF a foaf:Person ;
+              foaf:name "Jean-François Nicaud" .
+
+sdp:Niesi_G a foaf:Person ;
+            foaf:name "G. Niesi" .
+
+sdp:Nikolic_M a foaf:Person ;
+              foaf:name "Mladen Nikolic" .
+
+sdp:Nipkow_T a foaf:Person ;
+             foaf:name "Tobias Nipkow" .
+
+sdp:Noda_M a foaf:Person ;
+           foaf:name "Matu-Tarow Noda" .
+
+sdp:Noonburg_VW a foaf:Person ;
+                foaf:name "V. W. Noonburg" .
+
+sdp:OBrien_E a foaf:Person ;
+             foaf:name "Eamonn O'Brien" ;
+             sd:affiliation "Auckland" ;
+             sd:country <http://dbpedia.org/resource/Australia> .
+
+sdp:OConnor_R a foaf:Person ;
+              foaf:name "Russell O'Connor" .
+
+sdp:OShea_D a foaf:Person ;
+            foaf:name "D. O'Shea" .
+
+sdp:Obua_S a foaf:Person ;
+           foaf:name "Steven Obua" .
+
+sdp:Ogita_T a foaf:Person ;
+            foaf:name "Takeshi Ogita" ;
+            sd:affiliation "Tokyo Woman's Christian University" ;
+            sd:country <http://dbpedia.org/resource/Japan> .
+
+sdp:Ohsugi_H a foaf:Person ;
+             foaf:name "H. Ohsugi" .
+
+sdp:Oldenburg_R a foaf:Person ;
+                foaf:name "Reinhard Oldenburg" .
+
+sdp:Oprea_S a foaf:Person ;
+            foaf:name "Silviu Oprea" .
+
+sdp:Orakwue_A a foaf:Person ;
+              foaf:name "Awelemdy Orakwue" .
+
+sdp:Orecchia_F a foaf:Person ;
+               foaf:name "Ferruccio Orecchia" .
+
+sdp:Ortega_A a foaf:Person ;
+             foaf:name "Angela Ortega" ;
+             sd:affiliation "HU Berlin, Germany" .
+
+sdp:Otagiri_K a foaf:Person ;
+              foaf:name "Kenichi Otagiri" .
+
+sdp:Otop_J a foaf:Person ;
+           foaf:name "Jan Otop" ;
+           sd:affiliation "IST" ;
+           sd:country <http://dbpedia.org/resource/Austria> .
+
+sdp:Ounis_I a foaf:Person ;
+            foaf:name "Iadh Ounis" ;
+            sd:affiliation "University of Glasgow" ;
+            sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Paditz_L a foaf:Person ;
+             foaf:name "Ludwig Paditz" .
+
+sdp:Paffenholz_A a foaf:Person ;
+                 foaf:name "Andreas Paffenholz" ;
+                 foaf:homepage <http://www.mathematik.tu-darmstadt.de/~paffenholz/> ;
+                 sd:affiliation "TU Darmstadt" .
+
+sdp:Pagel_R a foaf:Person ;
+            foaf:name "Robert Pagel" .
+
+sdp:Pajdla_T a foaf:Person ;
+             foaf:name "Tomas Pajdla" ;
+             sd:affiliation "Czech Technical University, Prague, Czech Republic" .
+
+sdp:Pak_I a foaf:Person ;
+          foaf:name "Igor Pak" ;
+          sd:affiliation "University of California, Los Angeles, USA" ;
+          sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Pak_K a foaf:Person ;
+          foaf:name "Karol Pąk" .
+
+sdp:Panario_D a foaf:Person ;
+              foaf:name "Daniel Panario" ;
+              sd:affiliation "Carleton" .
+
+sdp:Parrilo_P a foaf:Person ;
+              foaf:name "Pablo Parrilo" ;
+              sd:affiliation "Massachusetts Institute of Technology, Cambridge, USA" .
+
+sdp:Passmore_G a foaf:Person ;
+               foaf:name "Grant Passmore" ;
+               foaf:homepage <http://www.cl.cam.ac.uk/~gp351/> ;
+               sd:affiliation "University of Cambridge, England" ;
+               sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Paule_P a foaf:Person ;
+            foaf:name "Peter Paule" ;
+            sd:affiliation "Johannes Kepler University Linz, Austria" .
+
+sdp:Paulson_L a foaf:Person ;
+              foaf:name "Lawrence C. Paulson" ;
+              foaf:homepage <http://www.cl.cam.ac.uk/~lp15/> ;
+              sd:affiliation "University of Cambridge, England" .
+
+sdp:Pauwels_E a foaf:Person ;
+              foaf:name "Eric Pauwels" .
+
+sdp:Pavcevic_MO a foaf:Person ;
+                foaf:name "Mario Osvin Pavcevic" ;
+                sd:affiliation "Uni Bayreuth, Germany" .
+
+sdp:Pease_A a foaf:Person ;
+            foaf:name "Alison Pease" .
+
+sdp:Pech_P a foaf:Person ;
+           foaf:name "Pavel Pech" ;
+           sd:affiliation "University of South Bohemia, Czech Republic" .
+
+sdp:Peeters_K a foaf:Person ;
+              foaf:name "Kasper Peeters" .
+
+sdp:Peltier_N a foaf:Person ;
+              foaf:name "Nicolas Peltier" .
+
+sdp:Pentrel_N a foaf:Person ;
+              foaf:name "Naomi Pentrel" .
+
+sdp:Pepe_A a foaf:Person ;
+           foaf:name "Alberto Pepe" .
+
+sdp:Perdue_C a foaf:Person ;
+             foaf:name "Crispin Perdue" .
+
+sdp:Pernet_C a foaf:Person ;
+             foaf:name "Clément Pernet" ;
+             sd:affiliation "Grenoble Université" ;
+             sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Peschanenko_V a foaf:Person ;
+                  foaf:name "Vladimir Peschanenko" ;
+                  sd:affiliation "Kherson State University, Russia" .
+
+sdp:Petcu_D a foaf:Person ;
+            foaf:name "Dana Petcu" ;
+            sd:affiliation "West University of Timisoara, Romania" ;
+            sd:country <http://dbpedia.org/resource/Romania> .
+
+sdp:Petrovic_D a foaf:Person ;
+               foaf:name "Danijela Petrovic" .
+
+sdp:Petrovski_A a foaf:Person ;
+                foaf:name "Andrei Petrovski" ;
+                sd:affiliation "Robert Gordon University, UK" ;
+                sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Pfeiffer_G a foaf:Person ;
+               foaf:name "Götz Pfeiffer" ;
+               sd:affiliation "Galway" .
+
+sdp:Pfister_G a foaf:Person ;
+              foaf:name "Gerhard Pfister" .
+
+sdp:Philippe_RR a foaf:Person ;
+                foaf:name "Richard R. Philippe" .
+
+sdp:Picard_G a foaf:Person ;
+             foaf:name "Gilles Picard" .
+
+sdp:Pieropan_M a foaf:Person ;
+               foaf:name "Marta Pieropan" ;
+               sd:affiliation "LMU München" .
+
+sdp:Pilarczyk_P a foaf:Person ;
+                foaf:name "Pawel Pilarczyk" ;
+                sd:affiliation "IST Austria" .
+
+sdp:Pineau_K a foaf:Person ;
+             foaf:name "Kathleen Pineau" .
+
+sdp:Pinkernell_G a foaf:Person ;
+                 foaf:name "Guido Pinkernell" .
+
+sdp:Piskac_R a foaf:Person ;
+             foaf:name "Ruzica Piskac" ;
+             sd:affiliation "Yale University" ;
+             sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Pitman_J a foaf:Person ;
+             foaf:name "Jim Pitman" .
+
+sdp:Plesken_W a foaf:Person ;
+              foaf:name "Wilhelm Plesken" .
+
+sdp:Pletsch_B a foaf:Person ;
+              foaf:name "Bill Pletsch" .
+
+sdp:Pohst_M a foaf:Person ;
+            foaf:name "Michael Pohst" .
+
+sdp:Pollanen_M a foaf:Person ;
+               foaf:name "Marco Pollanen" ;
+               sd:affiliation "Trent University, Canada" .
+
+sdp:Pollefeys_M a foaf:Person ;
+                foaf:name "Marc Pollefeys" ;
+                sd:affiliation "ETH Zurich, Switzerland" .
+
+sdp:Pop_D a foaf:Person ;
+          foaf:name "Daniel Pop" ;
+          sd:affiliation "West University of Timisoara, Romania" ;
+          sd:country <http://dbpedia.org/resource/Romania> .
+
+sdp:Posur_S a foaf:Person ;
+            foaf:name "Sebastian Posur" ;
+            sd:affiliation "RWTH Aachen" .
+
+sdp:Pott_A a foaf:Person ;
+           foaf:name "Alexander Pott" ;
+           sd:affiliation "Magdeburg" .
+
+sdp:Poza_M a foaf:Person ;
+           foaf:name "María Poza" .
+
+sdp:Prank_R a foaf:Person ;
+            foaf:name "Rein Prank" .
+
+sdp:Prodescu_CC a foaf:Person ;
+                foaf:name "Corneliu-Claudiu Prodescu" .
+
+sdp:Pupyrev_Y a foaf:Person ;
+              foaf:name "Yury Pupyrev" .
+
+sdp:Quadrat_A a foaf:Person ;
+              foaf:name "Alban Quadrat" ;
+              sd:affiliation "Inria Saclay" .
+
+sdp:Quaresma_P a foaf:Person ;
+               foaf:name "Pedro Quaresma" ;
+               foaf:homepage <http://www.mat.uc.pt/~pedro> ;
+               sd:affiliation "University of Coimbra, Portugal" ;
+               sd:country <http://dbpedia.org/resource/Portugal> .
+
+sdp:Quebbemann_HG a foaf:Person ;
+                  foaf:name "Heinz-Georg Quebbemann" .
+
+sdp:Rabe_F a foaf:Person ;
+           foaf:name "Florian Rabe" ;
+           foaf:homepage <http://kwarc.info/frabe/> ;
+           sd:affiliation "Jacobs University Bremen" ;
+           sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Raggi_D a foaf:Person ;
+            foaf:name "Daniel Raggi" .
+
+sdp:Rahli_V a foaf:Person ;
+            foaf:name "Vincent Rahli" .
+
+sdp:Rahm_A a foaf:Person ;
+           foaf:name "Alexander Rahm" ;
+           sd:affiliation "Galway" .
+
+sdp:Rakosnik_J a foaf:Person ;
+               foaf:name "Jiří Rákosník" ;
+               sd:affiliation "Institute of Mathematics AS CR" ;
+               sd:country <http://dbpedia.org/resource/Czech_Republic> .
+
+sdp:Raman_R a foaf:Person ;
+            foaf:name "Rajeev Raman" .
+
+sdp:Ramella_I a foaf:Person ;
+              foaf:name "Isabella Ramella" .
+
+sdp:Ratschan_S a foaf:Person ;
+               foaf:name "Stefan Ratschan" ;
+               sd:affiliation "Czech Academy of Sciences, Prague" ;
+               sd:country </http://dbpedia.org/resource/Czech_Republic> .
+
+sdp:Real_P a foaf:Person ;
+           foaf:name "Pedro Real" ;
+           sd:affiliation "Seville" .
+
+sdp:Rebholz_S a foaf:Person ;
+              foaf:name "Sandra Rebholz" .
+
+sdp:Recio_T a foaf:Person ;
+            foaf:name "Tomas Recio" ;
+            sd:affiliation "U Santander, Spain" ;
+            sd:country <http://dbpedia.org/resource/Spain> .
+
+sdp:RegisGianas_Y a foaf:Person ;
+                  foaf:name "Yann Régis-Gianas" .
+
+sdp:Reinhardt_H a foaf:Person ;
+                foaf:name "Heiner Reinhardt" .
+
+sdp:Reiter_T a foaf:Person ;
+             foaf:name "Thomas Reiter" .
+
+sdp:Renault_G a foaf:Person ;
+              foaf:name "Guénaël Renault" ;
+              sd:affiliation "Université Pierre et Marie Curie" ;
+              sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Reynaud_JC a foaf:Person ;
+               foaf:name "Jean-Claude Reynaud" .
+
+sdp:Ricciotti_W a foaf:Person ;
+                foaf:name "Wilmer Ricciotti" .
+
+sdp:Richard_PR a foaf:Person ;
+               foaf:name "Philippe R. Richard" .
+
+sdp:Richard_T a foaf:Person ;
+              foaf:name "Thomas Richard" .
+
+sdp:Riener_M a foaf:Person ;
+             foaf:name "Martin Riener" .
+
+sdp:Ring_M a foaf:Person ;
+           foaf:name "Martin Ring" .
+
+sdp:Ringeissen_C a foaf:Person ;
+                 foaf:name "Christophe Ringeissen" ;
+                 sd:affiliation "LORIA-INRIA Lorraine" ;
+                 sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Rioboo_R a foaf:Person ;
+             foaf:name "Renaud Rioboo" ;
+             sd:affiliation "ENSIIE, France" .
+
+sdp:Ritscher_S a foaf:Person ;
+               foaf:name "Stefan Ritscher" .
+
+sdp:RoanesLozano_E a foaf:Person ;
+                   foaf:name "Eugenio Roanes-Lozano" .
+
+sdp:Roast_C a foaf:Person ;
+            foaf:name "Chris Roast" .
+
+sdp:Robbiano_L a foaf:Person ;
+               foaf:name "Lorenzo Robbiano" .
+
+sdp:Robertz_D a foaf:Person ;
+              foaf:name "Daniel Robertz" .
+
+sdp:Robinson_G a foaf:Person ;
+               foaf:name "Geoffrey Robinson" ;
+               sd:affiliation "University of Aberdeen, UK" .
+
+sdp:Robinson_S a foaf:Person ;
+               foaf:name "Sara Robinson" .
+
+sdp:Robu_J a foaf:Person ;
+           foaf:name "Judit Robu" ;
+           sd:affiliation "Babes-Bolyai University, Romania" .
+
+sdp:Roche_DS a foaf:Person ;
+             foaf:name "Daniel S. Roche " ;
+             sd:affiliation "U.S. Naval Academy" ;
+             sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:RodriguezCielos_P a foaf:Person ;
+                      foaf:name "Pedro Rodríguez Cielos" .
+
+sdp:Roehrle_G a foaf:Person ;
+              foaf:name "Gerhard Röhrle" ;
+              sd:affiliation "Ruhr-Universität Bochum" .
+
+sdp:Roemer_T a foaf:Person ;
+             foaf:name "Tim Römer" ;
+             sd:affiliation "Universität Osnabrück" .
+
+sdp:Romero_A a foaf:Person ;
+             foaf:name "Ana Romero" ;
+             sd:affiliation "La Rioja" .
+
+sdp:RoneyDougal_CM a foaf:Person ;
+                   foaf:name "Colva M. Roney-Dougal" ;
+                   sd:affiliation "University of St Andrews" ;
+                   sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Roozemund_D a foaf:Person ;
+                foaf:name "Dan Roozemund" .
+
+sdp:Rosen_D a foaf:Person ;
+            foaf:name "Dan Rosén" .
+
+sdp:Rosenberger_G a foaf:Person ;
+                  foaf:name "Gerhard Rosenberger" .
+
+sdp:Rosenkranz_M a foaf:Person ;
+                 foaf:name "Markus Rosenkranz" ;
+                 sd:affiliation "University of Kent" ;
+                 sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Rossmann_T a foaf:Person ;
+               foaf:name "Tobias Rossmann" ;
+               sd:affiliation "Universität Bielefeld" .
+
+sdp:Rote_G a foaf:Person ;
+           foaf:name "Gunter Rote" ;
+           sd:affiliation "Free University Berlin" ;
+           sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Rouillier_F a foaf:Person ;
+                foaf:name "Fabrice Rouillier" .
+
+sdp:Rowat_C a foaf:Person ;
+            foaf:name "Colin Rowat" .
+
+sdp:Roy_N a foaf:Person ;
+          foaf:name "Nicolas Roy" .
+
+sdp:Rubio_J a foaf:Person ;
+            foaf:name "Julio Rubio" ;
+            sd:affiliation "La Rioja" .
+
+sdp:Ruci_E a foaf:Person ;
+           foaf:name "Ervin Ruci" .
+
+sdp:Ruddy_D a foaf:Person ;
+            foaf:name "David Ruddy" ;
+            sd:affiliation "Cornell University" ;
+            sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Rudolph_E a foaf:Person ;
+              foaf:name "Eva Rudolph" .
+
+sdp:Rueck_HG a foaf:Person ;
+             foaf:name "Hans-Georg Rück" .
+
+sdp:Rueth_J a foaf:Person ;
+            foaf:name "Julian Rüth" ;
+            sd:affiliation "Universität Ulm" .
+
+sdp:Rukhaia_M a foaf:Person ;
+              foaf:name "Mikheil Rukhaia" .
+
+sdp:Rump_SM a foaf:Person ;
+            foaf:name "Siegfried M. Rump" ;
+            sd:affiliation "Hamburg University of Technology" ;
+            sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Rusinowitch_M a foaf:Person ;
+                  foaf:name "Michael Rusinowitch" ;
+                  sd:affiliation "LORIA - INRIA Nancy, France" .
+
+sdp:Rusu_V a foaf:Person ;
+           foaf:name "Vlad Rusu" ;
+           sd:affiliation "INRIA, France" .
+
+sdp:Ruzicka_M a foaf:Person ;
+              foaf:name "Michal Růžička" ;
+              foaf:homepage <https://mir.fi.muni.cz>, <http://www.fi.muni.cz/~xruzick7/> .
+
+sdp:SacerdotiCoen_C a foaf:Person ;
+                    foaf:name "Claudio Sacerdoti Coen" ;
+                    sd:affiliation "University of Bologna" ;
+                    sd:country <http://dbpedia.org/resource/Italy> .
+
+sdp:SaeediMadani_S a foaf:Person ;
+                   foaf:name "Sara Saeedi Madani" ;
+                   sd:affiliation "University of Osnabrück, Germany" .
+
+sdp:Saenz_R a foaf:Person ;
+            foaf:name "Rubén Sáenz" .
+
+sdp:SafeyElDin_M a foaf:Person ;
+                 foaf:name "Mohab Safey El Din" ;
+                 sd:affiliation "Universite Pierre et Marie Curie, Paris, France" ;
+                 sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Sagraloff_M a foaf:Person ;
+                foaf:name "Michael Sagraloff" ;
+                sd:affiliation "Max-Planck Institute, Saarbruecken" ;
+                sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Saludes_J a foaf:Person ;
+              foaf:name "Jordi Saludes" .
+
+sdp:Sambale_B a foaf:Person ;
+              foaf:name "Benjamin Sambale" .
+
+sdp:Sands_D a foaf:Person ;
+            foaf:name "Dave Sands" ;
+            sd:affiliation "Chalmers University of Technology" ;
+            sd:country <http://dbpedia.org/resource/Sweden> .
+
+sdp:Santos_V a foaf:Person ;
+             foaf:name "Vanda Santos" ;
+             sd:affiliation "CISUC, Portugal" ;
+             sd:country <http://dbpedia.org/resource/Portugal> .
+
+sdp:SanzSerna_J a foaf:Person ;
+                foaf:name "Jesús Sanz-Serna" ;
+                sd:affiliation "Universidad Carlos III de Madrid" ;
+                sd:country <http://dbpedia.org/resource/Spain> .
+
+sdp:Saroui_BS a foaf:Person ;
+              foaf:name "Behrang S. Saroui" .
+
+sdp:Sasaki_S a foaf:Person ;
+             foaf:name "Shu Sasaki" .
+
+sdp:Sasaki_T a foaf:Person ;
+             foaf:name "Tateaki Sasaki" ;
+             sd:affiliation "University of Tsukuba, Japan" .
+
+sdp:Sato_Y a foaf:Person ;
+           foaf:name "Yosuke Sato" .
+
+sdp:Saunders_B a foaf:Person ;
+               foaf:name "Bonita Saunders" .
+
+sdp:Saunders_BV a foaf:Person ;
+                foaf:name "Bonita V. Saunders" .
+
+sdp:Saunders_D a foaf:Person ;
+               foaf:name "David Saunders" ;
+               sd:affiliation "University of Delaware" ;
+               sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Schaeffer_G a foaf:Person ;
+                foaf:name "George Schaeffer" .
+
+sdp:Schaper_R a foaf:Person ;
+              foaf:name "Ralf Schaper" .
+
+sdp:Schefter_J a foaf:Person ;
+               foaf:name "Jürgen Schefter" .
+
+sdp:Schenzel_P a foaf:Person ;
+               foaf:name "Peter Schenzel" ;
+               sd:affiliation "Leipzig" ;
+               sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Schicho_J a foaf:Person ;
+              foaf:name "Josef Schicho" ;
+              sd:affiliation "RICAM, Linz, Austria" .
+
+sdp:Schila_H a foaf:Person ;
+             foaf:name "Harald Schila" .
+
+sdp:Schindelar_K a foaf:Person ;
+                 foaf:name "Kristina Schindelar" .
+
+sdp:Schindler_S a foaf:Person ;
+                foaf:name "Sigram Schindler" .
+
+sdp:SchmidtSchauss_M a foaf:Person ;
+                     foaf:name "Manfred Schmidt-Schauss" ;
+                     sd:affiliation "Goethe-University Frankfurt" ;
+                     sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Schmidt_R a foaf:Person ;
+              foaf:name "Reinhard Schmidt" .
+
+sdp:SchneiderKamp_P a foaf:Person ;
+                    foaf:name "Peter Schneider-Kamp" .
+
+sdp:Schneider_C a foaf:Person ;
+                foaf:name "Carsten Schneider" ;
+                sd:affiliation "RISC" ;
+                sd:country <http://dbpedia.org/resource/Austria> .
+
+sdp:Schneider_K a foaf:Person ;
+                foaf:name "Kerstin Schneider" .
+
+sdp:Schnuerer_O a foaf:Person ;
+                foaf:name "Oliver Schnürer" .
+
+sdp:Schoeneberg_U a foaf:Person ;
+                  foaf:name "Ulf Schöneberg" .
+
+sdp:Schoenemann_H a foaf:Person ;
+                  foaf:name "Hans Schönemann" ;
+                  foaf:homepage <http://www.mathematik.uni-kl.de/~hannes> .
+
+sdp:Schoennenbeck_S a foaf:Person ;
+                    foaf:name "Sebastian Schoennenbeck" ;
+                    sd:affiliation "RWTH Aachen" .
+
+sdp:Schost_E a foaf:Person ;
+             foaf:name "Éric Schost" ;
+             sd:affiliation "University of Western Ontario" ;
+             sd:country <http://dbpedia.org/resource/Canada> .
+
+sdp:Schrans_S a foaf:Person ;
+              foaf:name "S. Schrans" .
+
+sdp:Schreiner_W a foaf:Person ;
+                foaf:name "Wolfgang Schreiner" ;
+                foaf:homepage <http://www.risc.jku.at/people/schreine/> ;
+                sd:affiliation "Johannes Kepler University, Austria" ;
+                sd:country <http://dbpedia.org/resource/Austria> .
+
+sdp:Schreyer_F a foaf:Person ;
+               foaf:name "Frank-Olaf Schreyer" .
+
+sdp:Schreyer_FO a foaf:Person ;
+                foaf:name "Frank-Olaf Schreyer" ;
+                sd:affiliation "Universität des Saarlandes, Germany" .
+
+sdp:Schubotz_M a foaf:Person ;
+               foaf:name "Moritz Schubotz" .
+
+sdp:Schuermann_U a foaf:Person ;
+                 foaf:name "Uwe Schürmann" .
+
+sdp:Schulze_M a foaf:Person ;
+              foaf:name "Mathias Schulze" .
+
+sdp:Schwardmann_U a foaf:Person ;
+                  foaf:name "Ulrich Schwardmann" .
+
+sdp:Schwinning_N a foaf:Person ;
+                 foaf:name "Nils Schwinning" .
+
+sdp:Schypula_M a foaf:Person ;
+               foaf:name "Melanie Schypula" .
+
+sdp:Scott_P a foaf:Person ;
+            foaf:name "Phil Scott" .
+
+sdp:Seddiki_O a foaf:Person ;
+              foaf:name "Ons Seddiki" .
+
+sdp:Segundo_W a foaf:Person ;
+              foaf:name "Washington Segundo" .
+
+sdp:Seidl_M a foaf:Person ;
+            foaf:name "Martina Seidl" ;
+            sd:affiliation "Johannes Kepler University, Austria" .
+
+sdp:Seiler_W a foaf:Person ;
+             foaf:name "Werner M. Seiler" ;
+             sd:affiliation "Uni Kassel, Germany" ;
+             sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Selsam_D a foaf:Person ;
+             foaf:name "Daniel Selsam" .
+
+sdp:Sendra_JR a foaf:Person ;
+              foaf:name "J. Rafael Sendra" ;
+              sd:affiliation "University of Alcalá" ;
+              sd:country <http://dbpedia.org/resource/Spain> .
+
+sdp:Senguen_H a foaf:Person ;
+              foaf:name "Haluk Sengün" .
+
+sdp:Senk_DG a foaf:Person ;
+            foaf:name "Dieter G. Senk" .
+
+sdp:Sergeraert_F a foaf:Person ;
+                 foaf:name "Francis Sergeraert" ;
+                 sd:affiliation "Grenoble" .
+
+sdp:Sexton_AP a foaf:Person ;
+              foaf:name "Alan P. Sexton" ;
+              foaf:homepage <http://www.cs.bham.ac.uk/~aps> ;
+              sd:affiliation "University of Birmingham" ;
+              sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Shalile_A a foaf:Person ;
+              foaf:name "Armin Shalile" ;
+              sd:affiliation "Universität Stuttgart" .
+
+sdp:Sharma_V a foaf:Person ;
+             foaf:name "Vikram Sharma" ;
+             sd:affiliation "Institute of Math Sciences, Chennai" ;
+             sd:country <http://dbpedia.org/resource/India> .
+
+sdp:Shaska_T a foaf:Person ;
+             foaf:name "Tanush Shaska" .
+
+sdp:Sheard_T a foaf:Person ;
+             foaf:name "Tim Sheard" ;
+             sd:affiliation "Portland State University" ;
+             sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Shidama_Y a foaf:Person ;
+              foaf:name "Yasunari Shidama" .
+
+sdp:Shin_SW a foaf:Person ;
+            foaf:name "Sug Woo Shin" .
+
+sdp:Shustin_E a foaf:Person ;
+              foaf:name "Eugenii Shustin" .
+
+sdp:Siddique_U a foaf:Person ;
+               foaf:name "Umair Siddique" .
+
+sdp:Sieg_R a foaf:Person ;
+           foaf:name "Richard Sieg" ;
+           sd:affiliation "Universität Osnabrück" .
+
+sdp:Silva_R a foaf:Person ;
+            foaf:name "Raniere Silva" .
+
+sdp:Skowyra_R a foaf:Person ;
+              foaf:name "Richard Skowyra" .
+
+sdp:Smallbone_N a foaf:Person ;
+                foaf:name "Nicholas Smallbone" .
+
+sdp:Smeenk_C a foaf:Person ;
+             foaf:name "Chris Smeenk" ;
+             sd:affiliation "Western University, Ontario" ;
+             sd:country <http://dbpedia.org/resource/Canada> .
+
+sdp:Smirnova_E a foaf:Person ;
+               foaf:name "Elena Smirnova" ;
+               sd:affiliation "Texas Instruments Inc. Education Technology, USA" ;
+               sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Soeger_C a foaf:Person ;
+             foaf:name "Christof Söger" ;
+             sd:affiliation "Universität Osnabrück" .
+
+sdp:SofronieStokkermans_V a foaf:Person ;
+                          foaf:name "Viorica Sofronie-Stokkermans" ;
+                          sd:affiliation "University of Koblenz, Germany" .
+
+sdp:Sojka_P a foaf:Person ;
+            foaf:name "Petr Sojka" ;
+            foaf:homepage <http://www.fi.muni.cz/usr/sojka> ;
+            sd:affiliation "Masaryk University, Brno" ;
+            sd:country <http://dbpedia.org/resource/Czech_Republic> .
+
+sdp:Solberg_O a foaf:Person ;
+              foaf:name "Øyvind Solberg" ;
+              foaf:homepage <http://www.math.ntnu.no/~oyvinso/> ;
+              sd:affiliation "NTNU Trondheim" ;
+              sd:country <http://dbpedia.org/resource/Norway> .
+
+sdp:Solomon_J a foaf:Person ;
+              foaf:name "Jake Solomon" ;
+              sd:affiliation "Hebrew University, Jerusalem, Israel" .
+
+sdp:Solotar_A a foaf:Person ;
+              foaf:name "Andrea Solotar" ;
+              sd:affiliation "Universidad de Buenos Aires, Argentina" .
+
+sdp:Soloviev_S a foaf:Person ;
+               foaf:name "Sergei Soloviev" ;
+               sd:affiliation "IRIT" ;
+               sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Sommese_A a foaf:Person ;
+              foaf:name "Andrew Sommese" ;
+              sd:affiliation "Notre Dame University" ;
+              sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Sorgatz_A a foaf:Person ;
+              foaf:name "Andreas Sorgatz" .
+
+sdp:Sorge_V a foaf:Person ;
+            foaf:name "Volker Sorge" ;
+            foaf:homepage <http://www.cs.bham.ac.uk/~vxs/index.html> ;
+            sd:affiliation "University of Birmingham" ;
+            sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Sperber_W a foaf:Person ;
+              foaf:name "Wolfram Sperber" ;
+              sd:affiliation "Zentralblatt MATH, Germany" .
+
+sdp:Spiridonova_M a foaf:Person ;
+                  foaf:name "Margarita Spiridonova" .
+
+sdp:Spreckels_U a foaf:Person ;
+                foaf:name "Ute Spreckels" ;
+                sd:affiliation "Carl von Ossietzky Universität Oldenburg" .
+
+sdp:Sprenger_T a foaf:Person ;
+               foaf:name "Torsten Sprenger" .
+
+sdp:Srinivasan_B a foaf:Person ;
+                 foaf:name "Bhama Srinivasan" ;
+                 sd:affiliation "University of Illinois at Chicago, USA" .
+
+sdp:Stan_F a foaf:Person ;
+           foaf:name "Flavia Stan" .
+
+sdp:Stasheff_J a foaf:Person ;
+               foaf:name "Jim Stasheff" ;
+               sd:affiliation "North Carolina" .
+
+sdp:Stauch_C a foaf:Person ;
+             foaf:name "C. Stauch" .
+
+sdp:Staudenmaier_HM a foaf:Person ;
+                    foaf:name "H.-M. Staudenmaier" .
+
+sdp:Steen_A a foaf:Person ;
+            foaf:name "Alexander Steen" .
+
+sdp:Steidel_S a foaf:Person ;
+              foaf:name "Stefan Steidel" ;
+              foaf:homepage <http://www.mathematik.uni-kl.de/~steidel> .
+
+sdp:Stein_A a foaf:Person ;
+            foaf:name "Andreas Stein" ;
+            sd:affiliation "Carl von Ossietzky Universität Oldenburg" .
+
+sdp:Steinberg_S a foaf:Person ;
+                foaf:name "Stanly Steinberg" .
+
+sdp:Steinhauser_M a foaf:Person ;
+                  foaf:name "Matthias Steinhauser" .
+
+sdp:Stillman_ME a foaf:Person ;
+                foaf:name "Michael E. Stillman" .
+
+sdp:Stojanovic_S a foaf:Person ;
+                 foaf:name "Sana Stojanovic" .
+
+sdp:Stoll_M a foaf:Person ;
+            foaf:name "Michael Stoll" ;
+            sd:affiliation "Universität Bayreuth" .
+
+sdp:Strehl_V a foaf:Person ;
+             foaf:name "Volker Strehl" .
+
+sdp:Striewe_M a foaf:Person ;
+              foaf:name "Michael Striewe" .
+
+sdp:Studzinski_G a foaf:Person ;
+                 foaf:name "Grischa Studzinski" .
+
+sdp:Stump_C a foaf:Person ;
+            foaf:name "Christian Stump" ;
+            sd:affiliation "FU Berlin" .
+
+sdp:Sturm_T a foaf:Person ;
+            foaf:name "Thomas Sturm" ;
+            sd:affiliation "Max Planck Institute for Informatics, Saarbruecken" ;
+            sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Sturmfels_B a foaf:Person ;
+                foaf:name "Bernd Sturmfels" ;
+                sd:affiliation "University of California, Berkeley, USA" .
+
+sdp:Su_K a foaf:Person ;
+         foaf:name "Kaile Su" ;
+         sd:affiliation "Griffith University, Australia" .
+
+sdp:Sullivant_S a foaf:Person ;
+                foaf:name "S. Sullivant" .
+
+sdp:Sutcliffe_G a foaf:Person ;
+                foaf:name "Geoff Sutcliffe" ;
+                sd:affiliation "University of Miami" ;
+                sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Symonds_P a foaf:Person ;
+              foaf:name "Peter Symonds" ;
+              sd:affiliation "Manchester" ;
+              sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Szanto_A a foaf:Person ;
+             foaf:name "Agnes Szanto" ;
+             sd:affiliation "North Carolina State University" ;
+             sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Szczepanski_A a foaf:Person ;
+                  foaf:name "Andrzej Szczepański" ;
+                  sd:affiliation "University of Gdańsk, Poland" .
+
+sdp:Szymczak_D a foaf:Person ;
+               foaf:name "Daniel Szymczak" .
+
+sdp:Tahar_S a foaf:Person ;
+            foaf:name "Sofiène Tahar" .
+
+sdp:Takacs_S a foaf:Person ;
+             foaf:name "Stefan Takacs" ;
+             sd:affiliation "Johannes Kepler University Linz, Austria" ;
+             sd:country <http://dbpedia.org/resource/Austria> .
+
+sdp:Takayama_N a foaf:Person ;
+               foaf:name "Nobuki Takayama" ;
+               sd:affiliation "Kobe University" ;
+               sd:country <http://dbpedia.org/resource/Japan> .
+
+sdp:Tankink_C a foaf:Person ;
+              foaf:name "Carst Tankink" ;
+              foaf:homepage <http://cs.ru.nl/~carst> .
+
+sdp:Tanturri_F a foaf:Person ;
+               foaf:name "Fabio Tanturri" ;
+               sd:affiliation "Universität des Saarlandes" .
+
+sdp:Tarau_P a foaf:Person ;
+            foaf:name "Paul Tarau" .
+
+sdp:Tassi_E a foaf:Person ;
+            foaf:name "Enrico Tassi" ;
+            sd:affiliation "INRIA" ;
+            sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Temkin_M a foaf:Person ;
+             foaf:name "Michael Temkin" ;
+             sd:affiliation "Hebrew University, Jerusalem, Israel" .
+
+sdp:Tentukov_M a foaf:Person ;
+               foaf:name "M. Tentukov" .
+
+sdp:Tews_H a foaf:Person ;
+           foaf:name "Hendrik Tews" ;
+           sd:affiliation "TU Dresden" ;
+           sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Thaller_B a foaf:Person ;
+              foaf:name "Bernd Thaller" .
+
+sdp:Theobald_T a foaf:Person ;
+               foaf:name "Thorsten Theobald" .
+
+sdp:Thiel_U a foaf:Person ;
+            foaf:name "Ulrich Thiel" ;
+            sd:affiliation "Universität Stuttgart" .
+
+sdp:Thomas_RR a foaf:Person ;
+              foaf:name "Rekha R. Thomas" ;
+              sd:affiliation "University of Washington, Seattle, USA" .
+
+sdp:Tilouine_J a foaf:Person ;
+               foaf:name "Jacques Tilouine" .
+
+sdp:Toader_A a foaf:Person ;
+             foaf:name "Alexandru Toader" .
+
+sdp:Todd_P a foaf:Person ;
+           foaf:name "Phil Todd" .
+
+sdp:Toman_S a foaf:Person ;
+            foaf:name "Stefan Toman" ;
+            sd:affiliation "TU München" .
+
+sdp:Tompa_F a foaf:Person ;
+            foaf:name "Frank Tompa" ;
+            foaf:homepage <http://cs.uwaterloo.ca/~fwtompa> ;
+            sd:affiliation "University of Waterloo" ;
+            sd:country <http://dbpedia.org/resource/Canada> .
+
+sdp:Tonisson_E a foaf:Person ;
+               foaf:name "Eno Tonisson" .
+
+sdp:Tonks_A a foaf:Person ;
+            foaf:name "Andy Tonks" ;
+            sd:affiliation "London Met" .
+
+sdp:Topic_G a foaf:Person ;
+            foaf:name "Goran Topić" .
+
+sdp:Topping_P a foaf:Person ;
+              foaf:name "Paul Topping" ;
+              sd:affiliation "Design Science Inc." ;
+              sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Torrao_D a foaf:Person ;
+             foaf:name "Denise Torrão" .
+
+sdp:Tran_Q a foaf:Person ;
+           foaf:name "Quoc-Nam Tran" .
+
+sdp:Traverso_C a foaf:Person ;
+               foaf:name "Carlo Traverso" .
+
+sdp:Treinen_R a foaf:Person ;
+              foaf:name "Ralf Treinen" ;
+              sd:affiliation "PPS Université Paris Diderot" ;
+              sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Troost_W a foaf:Person ;
+             foaf:name "W. Troost" .
+
+sdp:Trott_M a foaf:Person ;
+            foaf:name "Michael Trott" ;
+            foaf:homepage <http://www.mathematicaguidebooks.org/aboutauthor.shtml> .
+
+sdp:Tscheulin_F a foaf:Person ;
+                foaf:name "Felix Tscheulin" .
+
+sdp:Tyomkin_I a foaf:Person ;
+              foaf:name "Ilya Tyomkin" ;
+              sd:affiliation "Hebrew University, Jerusalem, Israel" .
+
+sdp:Ufe_JT a foaf:Person ;
+           foaf:name "Jana Trgalova Ufe" ;
+           sd:affiliation "Universite Claude Bernard Lyon 1, France" .
+
+sdp:Ullah_E a foaf:Person ;
+            foaf:name "Ehsan Ullah" .
+
+sdp:Urban_J a foaf:Person ;
+            foaf:name "Josef Urban" ;
+            foaf:homepage <http://cs.ru.nl/~urban/> ;
+            sd:affiliation "Radboud University Nijmegen, The Netherlands" ;
+            sd:country <http://dbpedia.org/resource/Netherlands> .
+
+sdp:Uzunkol_O a foaf:Person ;
+              foaf:name "Osmanbey Uzunkol" .
+
+sdp:Varbanova_E a foaf:Person ;
+                foaf:name "Elena Varbanova" .
+
+sdp:Varbaro_M a foaf:Person ;
+              foaf:name "Matteo Varbaro" ;
+              sd:affiliation "Università di Genova, Italy" ;
+              sd:country <http://dbpedia.org/resource/Italy> .
+
+sdp:Vasiliev_N a foaf:Person ;
+               foaf:name "Nikolay Vasiliev" .
+
+sdp:Vehling_R a foaf:Person ;
+              foaf:name "Reimund Vehling" .
+
+sdp:Venegas_GA a foaf:Person ;
+               foaf:name "Gabriel Aguilera Venegas" .
+
+sdp:Ventura_D a foaf:Person ;
+              foaf:name "Daniel Ventura" .
+
+sdp:Vercauteren_F a foaf:Person ;
+                  foaf:name "Frederik Vercauteren" .
+
+sdp:Vermaseren_JAM a foaf:Person ;
+                   foaf:name "J. A. M. Vermaseren" .
+
+sdp:Verschelde_J a foaf:Person ;
+                 foaf:name "Jan Verschelde" ;
+                 sd:affiliation "University of Illinois at Chicago" ;
+                 sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Vidal_R a foaf:Person ;
+            foaf:name "Rene Vidal" ;
+            sd:affiliation "Johns Hopkins University, Baltimore, USA" .
+
+sdp:Villard_G a foaf:Person ;
+              foaf:name "Gilles Villard" ;
+              sd:affiliation "CNRS" ;
+              sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Villaret_M a foaf:Person ;
+               foaf:name "Mateu Villaret" ;
+               sd:affiliation "Universitat de Girona" ;
+               sd:country <http://dbpedia.org/resource/Spain> .
+
+sdp:Viudez_C a foaf:Person ;
+             foaf:name "Christophe Viudez" .
+
+sdp:Vo_TT a foaf:Person ;
+          foaf:name "Thanh Tung Vo" .
+
+sdp:Vokrinek_L a foaf:Person ;
+               foaf:name "Lukáš Vokřínek" ;
+               sd:affiliation "Brno" .
+
+sdp:Voll_C a foaf:Person ;
+           foaf:name "Christopher Voll" ;
+           sd:affiliation "Universität Bielefeld" .
+
+sdp:Voronkov_A a foaf:Person ;
+               foaf:name "Andrei Voronkov" ;
+               sd:affiliation "The University of Manchester" ;
+               sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Vuckovic_B a foaf:Person ;
+               foaf:name "Bojan Vuckovic" .
+
+sdp:Vukobratovic_D a foaf:Person ;
+                   foaf:name "Dejan Vukobratovic" ;
+                   sd:affiliation "Novi Sad" .
+
+sdp:Vyskocil_J a foaf:Person ;
+               foaf:name "Jiri Vyskocil" .
+
+sdp:Walkinshaw_N a foaf:Person ;
+                 foaf:name "Neil Walkinshaw" .
+
+sdp:Wallack_A a foaf:Person ;
+              foaf:name "A. Wallack" .
+
+sdp:Wang_D a foaf:Person ;
+           foaf:name "Dongming Wang" ;
+           sd:affiliation "Beihang University, China and CNRS, France" .
+
+sdp:Wang_F a foaf:Person ;
+           foaf:name "Frédéric Wang" .
+
+sdp:Wassermann_A a foaf:Person ;
+                 foaf:name "Alfred Wassermann" ;
+                 sd:affiliation "Uni Bayreuth, Germany" .
+
+sdp:Watt_S a foaf:Person ;
+           foaf:name "Stephen Watt" ;
+           foaf:homepage <http://www.csd.uwo.ca/~watt/>, <http://www.csd.uwo.ca/~watt> ;
+           sd:affiliation "University of Western Ontario, Waterloo, Canada" ;
+           sd:country <http://dbpedia.org/resource/Canada> .
+
+sdp:Weber_A a foaf:Person ;
+            foaf:name "Andreas Weber" .
+
+sdp:Weber_C a foaf:Person ;
+            foaf:name "Christian Weber" .
+
+sdp:Wegner_B a foaf:Person ;
+             foaf:name "Bernd Wegner" .
+
+sdp:Weismantel_R a foaf:Person ;
+                 foaf:name "R. Weismantel" .
+
+sdp:Weispfenning_V a foaf:Person ;
+                   foaf:name "Volker Weispfenning" .
+
+sdp:Weisstein_E a foaf:Person ;
+                foaf:name "Eric Weisstein" .
+
+sdp:Welker_V a foaf:Person ;
+             foaf:name "Volkmar Welker" ;
+             sd:affiliation "University of Marburg, Germany" .
+
+sdp:Weller_D a foaf:Person ;
+             foaf:name "Daniel Weller" .
+
+sdp:Weng_A a foaf:Person ;
+           foaf:name "Annegret Weng" .
+
+sdp:Wenk_M a foaf:Person ;
+           foaf:name "Moritz Wenk" ;
+           foaf:homepage <http://www.mathematik.uni-kl.de/~wenk> .
+
+sdp:Wenzel_K a foaf:Person ;
+             foaf:name "Ken Wenzel" .
+
+sdp:Wenzel_M a foaf:Person ;
+             foaf:name "Makarius Wenzel" ;
+             foaf:homepage <http://www.lri.fr/~wenzel/> ;
+             sd:affiliation "Université Paris-Sud 11" ;
+             sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Werner_B a foaf:Person ;
+             foaf:name "Benjamin Werner" ;
+             foaf:homepage <http://www.lix.polytechnique.fr/~werner/> .
+
+sdp:Werner_W a foaf:Person ;
+             foaf:name "Wilhelm Werner" .
+
+sdp:Wessler_M a foaf:Person ;
+              foaf:name "Markus Wessler" .
+
+sdp:Wester_M a foaf:Person ;
+             foaf:name "Michael Wester" .
+
+sdp:Wewers_S a foaf:Person ;
+             foaf:name "Stefan Wewers" ;
+             sd:affiliation "Universität Ulm" .
+
+sdp:Whiteside_I a foaf:Person ;
+                foaf:name "Iain Whiteside" ;
+                foaf:homepage <http://homepages.inf.ed.ac.uk/s0569509> ;
+                sd:affiliation "University of Newcastle" ;
+                sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Wichmann_T a foaf:Person ;
+               foaf:name "Torsten Wichmann" .
+
+sdp:Wicke_G a foaf:Person ;
+            foaf:name "Gabriel Wicke" .
+
+sdp:Wiedijk_F a foaf:Person ;
+              foaf:name "Freek Wiedijk" ;
+              sd:affiliation "Radboud University Nijmegen, The Netherlands" ;
+              sd:country <http://dbpedia.org/resource/Netherlands> .
+
+sdp:Wienand_O a foaf:Person ;
+              foaf:name "Oliver Wienand" .
+
+sdp:Wiese_G a foaf:Person ;
+            foaf:name "Gabor Wiese" .
+
+sdp:Wiesing_T a foaf:Person ;
+              foaf:name "Tom Wiesing" .
+
+sdp:Williams_JC a foaf:Person ;
+                foaf:name "Janelle C. Williams" .
+
+sdp:Wilson_D a foaf:Person ;
+             foaf:name "David Wilson" ;
+             foaf:homepage <http://www.cs.bath.ac.uk/~djw42> .
+
+sdp:Wilson_M a foaf:Person ;
+             foaf:name "Mark Wilson" ;
+             sd:affiliation "University of Pittsburgh" ;
+             sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Wilson_R a foaf:Person ;
+             foaf:name "Robert Wilson" ;
+             sd:affiliation "Queen Mary and University of London, UK" .
+
+sdp:Windsteiger_W a foaf:Person ;
+                  foaf:name "Wolfgang Windsteiger" ;
+                  foaf:homepage <http://www.risc.jku.at/people/wwindste> ;
+                  sd:affiliation "Johannes Kepler University and RISC Linz, Austria" ;
+                  sd:country <http://dbpedia.org/resource/Austria> .
+
+sdp:Winkler_F a foaf:Person ;
+              foaf:name "Franz Winkler" .
+
+sdp:Wintenberger_JP a foaf:Person ;
+                    foaf:name "Jean-Pierre Wintenberger" .
+
+sdp:Wisniewski_M a foaf:Person ;
+                 foaf:name "Max Wisniewski" .
+
+sdp:Witte_M a foaf:Person ;
+            foaf:name "Malte Witte" .
+
+sdp:Wolff_B a foaf:Person ;
+            foaf:name "Burkhart Wolff" ;
+            foaf:homepage <http://www.lri.fr/~wolff> ;
+            sd:affiliation "Université Paris-Sud 11, France" ;
+            sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Wolfram_S a foaf:Person ;
+              foaf:name "Stephen Wolfram" .
+
+sdp:Wolska_M a foaf:Person ;
+             foaf:name "Magdalena Wolska" .
+
+sdp:Woltran_S a foaf:Person ;
+              foaf:name "Stefan Woltran" ;
+              sd:affiliation "Viena University of Technology" ;
+              sd:country <http://dbpedia.org/resource/Austria> .
+
+sdp:WoltzenlogelPaleo_B a foaf:Person ;
+                        foaf:name "Bruno Woltzenlogel Paleo" .
+
+sdp:Wosch_EAT a foaf:Person ;
+              foaf:name "Erwin A.T. Wosch" .
+
+sdp:Wu_WT a foaf:Person ;
+          foaf:name "W.-T. Wu" .
+
+sdp:Xiu_XQ a foaf:Person ;
+           foaf:name "Xingqiang Xiu" .
+
+sdp:Yamamoto_O a foaf:Person ;
+               foaf:name "Ou Yamamoto" .
+
+sdp:Yap_C a foaf:Person ;
+          foaf:name "Chee Yap" ;
+          sd:affiliation "Courant Institute, New York University, USA" ;
+          sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Yokoyama_K a foaf:Person ;
+               foaf:name "Kazuhiro Yokoyama" ;
+               sd:affiliation "Rikkyo University, Japan" ;
+               sd:country <http://dbpedia.org/resource/Japan> .
+
+sdp:Yoo_H a foaf:Person ;
+          foaf:name "Hwajong Yoo" .
+
+sdp:Youssef_A a foaf:Person ;
+              foaf:name "Abdou Youssef" .
+
+sdp:Zaharie_D a foaf:Person ;
+              foaf:name "Daniela Zaharie" ;
+              sd:affiliation " West University of Timisoara, Romania" ;
+              sd:country <http://dbpedia.org/resource/Romania> .
+
+sdp:Zalesski_A a foaf:Person ;
+               foaf:name "Alex Zalesski" ;
+               sd:affiliation "Minsk, Belarus" .
+
+sdp:Zanibbi_R a foaf:Person ;
+              foaf:name "Richard Zanibbi" ;
+              sd:affiliation "Rochester Institute of Technology" ;
+              sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Zerz_E a foaf:Person ;
+           foaf:name "Eva Zerz" ;
+           sd:affiliation "RWTH Aachen, Germany" ;
+           sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Zhan_N a foaf:Person ;
+           foaf:name "Naijun Zhan" ;
+           sd:affiliation "Chinese Academy of Sciences, China" .
+
+sdp:Zhang_Q a foaf:Person ;
+            foaf:name "Qun Zhang" .
+
+sdp:Zharkov_AYu a foaf:Person ;
+                foaf:name "A.Yu. Zharkov" .
+
+sdp:Zhi_Lihong a foaf:Person ;
+               foaf:name "Lihong Zhi" ;
+               sd:affiliation "Chinese Academy of Sciences" ;
+               sd:country <http://dbpedia.org/resource/China> .
+
+sdp:Zhizhchenko_A a foaf:Person ;
+                  foaf:name "Alexey Zhizhchenko" .
+
+sdp:Zhupa_E a foaf:Person ;
+            foaf:name "Eustrat Zhupa" .
+
+sdp:Ziegler_K a foaf:Person ;
+              foaf:name "Konstantin Ziegler" ;
+              sd:affiliation "Uni Bonn" ;
+              sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Zimmermann_T a foaf:Person ;
+                 foaf:name "Théo Zimmermann" .
+
+sdp:Zivkovic_M a foaf:Person ;
+               foaf:name "Miodrag Zivkovic" ;
+               foaf:homepage <http://www.matf.bg.ac.rs/~ezivkovm> .
+
+sdp:Zou_CY a foaf:Person ;
+           foaf:name "Cherry Y. Zou" .
+
+sdp:Zumbraegel_J a foaf:Person ;
+                 foaf:name "Jens Zumbrägel" .
+
+sdp:deBeule_J a foaf:Person ;
+              foaf:name "Jan de Beule" ;
+              sd:affiliation "Ghent" .
+
+sdp:deGraaf_W a foaf:Person ;
+              foaf:name "Willem de Graaf" ;
+              sd:affiliation "Trento, Italy" ;
+              sd:country <http://dbpedia.org/resource/Italy> .
+
+sdp:deJong_T a foaf:Person ;
+             foaf:name "Ton de Jong" .
+
+sdp:deMoura_FLC a foaf:Person ;
+                foaf:name "Flavio L. C. de Moura" .
+
+sdp:deMoura_L a foaf:Person ;
+              foaf:name "Leonardo de Moura" ;
+              foaf:homepage <http://research.microsoft.com/~leonardo> .
+
+sdp:deWolff_T a foaf:Person ;
+              foaf:name "Timo de Wolff" ;
+              sd:affiliation "Universität des Saarlandes" .
+
+sdp:dosReis_G a foaf:Person ;
+              foaf:name "Gabriel dos Reis" ;
+              foaf:homepage <http://parasol.tamu.edu/~gdr/> .
+
+sdp:vanGelder_I a foaf:Person ;
+                foaf:name "Inneke van Gelder" ;
+                sd:affiliation "Vrije Universiteit Brussel" .
+
+sdp:vanHoeij_M a foaf:Person ;
+               foaf:name "Mark van Hoeij" ;
+               sd:affiliation "Florida State University, USA" ;
+               sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:vanLeeuwen_M a foaf:Person ;
+                 foaf:name "Marc van Leeuwen" ;
+                 sd:affiliation "Université de Poitiers" .
+
+sdp:vanStraten_D a foaf:Person ;
+                 foaf:name "Duco van Straten" .
+
+sdp:vandeSompel_H a foaf:Person ;
+                  foaf:name "Herbert Van de Sompel" .
+
+sdp:vonzurGathen_J a foaf:Person ;
+                   foaf:name "Joachim von zur Gathen" .

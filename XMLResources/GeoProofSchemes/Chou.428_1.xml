@@ -1,0 +1,35 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/428_1 </Title>
+<prooftype> equational, constraints </prooftype>
+<vars>x1,x2,x3,x4,x5,x6,x7,x8</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[x1, x2]</Point>
+<Point id='$c_4' type='free'>Point[x3, x4]</Point>
+<Point id='$c_5' type='free'>Point[x5, x6]</Point>
+<Point id='$c_6' type='free'>Point[x7, x8]</Point>
+</Points>
+<Assignments>
+<Point id='$c_7'>midpoint[$c_0, $c_1]</Point>
+<Point id='$c_8'>midpoint[$c_2, $c_1]</Point>
+<Point id='$c_9'>midpoint[$c_2, $c_0]</Point>
+<Point id='$c_10'>midpoint[$c_01, $c_11]</Point>
+</Assignments>
+<Properties>
+<prop>eq_angle[$c_0, $c_2, $c_3, $c_7, $c_2, $c_1]</prop>
+<prop>eq_angle[$c_2, $c_0, $c_3, $c_8, $c_0, $c_1]</prop>
+<prop>is_concyclic[$c_2, $c_0, $c_1, $c_21]</prop>
+<prop>is_collinear[$c_21, $c_3, $c_2]</prop>
+<prop>is_concyclic[$c_2, $c_0, $c_1, $c_01]</prop>
+<prop>is_collinear[$c_01, $c_3, $c_0]</prop>
+<prop>is_concyclic[$c_2, $c_0, $c_1, $c_11]</prop>
+<prop>is_collinear[$c_11, $c_3, $c_1]</prop>
+</Properties>
+<Conclusions>
+<prop>eq_angle[$c_11, $c_4, $c_10, $c_3, $c_4, $c_01]</prop>
+</Conclusions>
+</Construction>

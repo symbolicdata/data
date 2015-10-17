@@ -1,0 +1,25 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/338_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>varpoint[$c_0, $c_1, u4]</Point>
+<Line id='$c_4'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_5'>pp_line[$c_1, $c_2]</Line>
+<Line id='$c_6'>par_line[$c_3, $c_5]</Line>
+<Point id='$c_7'>intersection_point[$c_4, $c_6]</Point>
+<Line id='$c_8'>pp_line[$c_1, $c_7]</Line>
+<Line id='$c_9'>pp_line[$c_2, $c_3]</Line>
+<Point id='$c_10'>intersection_point[$c_8, $c_9]</Point>
+<Line id='$c_11'>median[$c_0, $c_1, $c_2]</Line>
+</Assignments>
+<Conclusions>
+<prop>on_line[$c_10, $c_11]</prop>
+</Conclusions>
+</Construction>

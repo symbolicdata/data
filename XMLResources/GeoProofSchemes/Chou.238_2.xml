@@ -1,0 +1,38 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/238_2 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, u1]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[x1, x2]</Point>
+</Points>
+<Assignments>
+<Point id='$c_4'>p9_center[$c_0, $c_1, $c_2]</Point>
+<Point id='$c_5'>midpoint[$c_1, $c_2]</Point>
+<Point id='$c_6'>midpoint[$c_0, $c_2]</Point>
+<Point id='$c_7'>midpoint[$c_0, $c_1]</Point>
+<Line id='$c_8'>altitude[$c_7, $c_2, $c_3]</Line>
+<Line id='$c_9'>altitude[$c_6, $c_1, $c_3]</Line>
+<Point id='$c_10'>intersection_point[$c_8, $c_9]</Point>
+<Line id='$c_11'>altitude[$c_5, $c_0, $c_3]</Line>
+<Line id='$c_12'>pp_line[$c_10, $c_7]</Line>
+<Point id='$c_13'>intersection_point[$c_11, $c_12]</Point>
+<Line id='$c_14'>pp_line[$c_13, $c_5]</Line>
+<Line id='$c_15'>pp_line[$c_10, $c_6]</Line>
+<Point id='$c_16'>intersection_point[$c_14, $c_15]</Point>
+<Point id='$c_17'>midpoint[$c_16, $c_13]</Point>
+<Point id='$c_18'>midpoint[$c_10, $c_13]</Point>
+</Assignments>
+<Properties>
+<prop>on_bisector[$c_3, $c_1, $c_0, $c_2]</prop>
+<prop>on_bisector[$c_3, $c_0, $c_1, $c_2]</prop>
+</Properties>
+<Conclusions>
+<prop>eq_dist[$c_4, $c_5, $c_4, $c_17]</prop>
+<prop>eq_dist[$c_4, $c_5, $c_4, $c_18]</prop>
+</Conclusions>
+</Construction>

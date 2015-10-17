@@ -1,0 +1,21 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/95_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, u1]</Point>
+</Points>
+<Assignments>
+<Line id='$c_2'>p_bisector[$c_0, $c_1]</Line>
+<Point id='$c_3'>line_slider[$c_2, u2]</Point>
+<Point id='$c_4'>midpoint[$c_0, $c_1]</Point>
+<Point id='$c_5'>circumcenter[$c_0, $c_1, $c_3]</Point>
+<Line id='$c_6'>altitude[$c_0, $c_0, $c_5]</Line>
+<Point id='$c_7'>pedalpoint[$c_3, $c_6]</Point>
+</Assignments>
+<Conclusions>
+<prop>eq_dist[$c_3, $c_7, $c_3, $c_4]</prop>
+</Conclusions>
+</Construction>

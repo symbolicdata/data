@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-03-26" createdBy="graebe">
+  <vars>r,t,x,y,z</vars>
+  <basis>
+    <poly>-r*t+x</poly>
+    <poly>-r^2+z</poly>
+    <poly>-r*t^2+y</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Buchberger-87</changed>
+  </ChangeLog>
+</INTPS>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-03-26" createdBy="graebe">
+  <vars>t,u,x,y,z</vars>
+  <basis>
+    <poly>t^2+x^2-2*t*y+y^2-2*x*z+z^2-1</poly>
+    <poly>-z^3+t^2</poly>
+    <poly>3*u*z^2-1</poly>
+    <poly>-3*t*z^3+3*y*z^3+2*t*x-2*t*z</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Vermeer_2</changed>
+  </ChangeLog>
+</INTPS>

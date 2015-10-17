@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-09-22" createdBy="wenk">
+  <vars>t1,t2,t3</vars>
+  <basis>
+    <poly>4*t2^2*t3^2+2*t2^2+5*t2*t3+3*t3^2+1</poly>
+    <poly>4*t1^2*t3^2+3*t1^2+5*t1*t3+2*t3^2+1</poly>
+    <poly>4*t1^2*t2^2+2*t1^2+5*t1*t2+3*t2^2+1</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/ZeroDim/example_20</changed>
+  </ChangeLog>
+</INTPS>

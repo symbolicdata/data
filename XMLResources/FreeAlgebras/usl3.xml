@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<FREEALGEBRA createdAt="2014-01-02" createdBy="levandov">
+  <vars>H2,H1,y3,y2,y1,x3,x2,x1</vars>
+  <uptoDeg>4</uptoDeg>
+  <basis>
+		<ncpoly>x2*x1-x1*x2-x3</ncpoly>
+		<ncpoly>x3*x1-x1*x3</ncpoly>
+		<ncpoly>y1*x1-x1*y1+H1</ncpoly>
+		<ncpoly>y2*x1-x1*y2</ncpoly>
+		<ncpoly>y3*x1-x1*y3+y2</ncpoly>
+		<ncpoly>H1*x1-x1*H1-2*x1</ncpoly>
+		<ncpoly>H2*x1-x1*H2+x1</ncpoly>
+		<ncpoly>x3*x2-x2*x3</ncpoly>
+		<ncpoly>y1*x2-x2*y1</ncpoly>
+		<ncpoly>y2*x2-x2*y2+H2</ncpoly>
+		<ncpoly>y3*x2-x2*y3-y1</ncpoly>
+		<ncpoly>H1*x2-x2*H1+x2</ncpoly>
+		<ncpoly>H2*x2-x2*H2-2*x2</ncpoly>
+		<ncpoly>y1*x3-x3*y1+x2</ncpoly>
+		<ncpoly>y2*x3-x3*y2-x1</ncpoly>
+		<ncpoly>y3*x3-x3*y3+H1+H2</ncpoly>
+		<ncpoly>H1*x3-x3*H1-x3</ncpoly>
+		<ncpoly>H2*x3-x3*H2-x3</ncpoly>
+		<ncpoly>y2*y1-y1*y2+y3</ncpoly>
+		<ncpoly>y3*y1-y1*y3</ncpoly>
+		<ncpoly>H1*y1-y1*H1+2*y1</ncpoly>
+		<ncpoly>H2*y1-y1*H2-y1</ncpoly>
+		<ncpoly>y3*y2-y2*y3</ncpoly>
+		<ncpoly>H1*y2-y2*H1-y2</ncpoly>
+		<ncpoly>H2*y2-y2*H2+2*y2</ncpoly>
+		<ncpoly>H1*y3-y3*H1+y3</ncpoly>
+		<ncpoly>H2*y3-y3*H2+y3</ncpoly>
+		<ncpoly>H2*H1-H1*H2</ncpoly>
+  </basis>
+  <Comment>Semiautomatrically generated</Comment>
+</FREEALGEBRA>

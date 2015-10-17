@@ -1,0 +1,38 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> IMO/43_2 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2</vars>
+<parameters>u1</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[-1, 0]</Point>
+<Point id='$c_1' type='free'>Point[1, 0]</Point>
+</Points>
+<Assignments>
+<Point id='$c_2'>midpoint[$c_0, $c_1]</Point>
+<Circle id='$c_3'>pc_circle[$c_2, $c_0]</Circle>
+<Point id='$c_4'>circle_slider[$c_2, $c_0, u1]</Point>
+<Point id='$c_5'>circle_slider[$c_2, $c_0, x1]</Point>
+<Point id='$c_6'>circle_slider[$c_2, $c_0, x2]</Point>
+<Line id='$c_7'>pp_line[$c_2, $c_4]</Line>
+<Point id='$c_8'>sym_point[$c_0, $c_7]</Point>
+<Line id='$c_9'>pp_line[$c_8, $c_1]</Line>
+<Line id='$c_10'>pp_line[$c_8, $c_4]</Line>
+<Line id='$c_11'>par_line[$c_2, $c_10]</Line>
+<Point id='$c_12'>intersection_point[$c_9, $c_11]</Point>
+<Line id='$c_13'>p_bisector[$c_2, $c_8]</Line>
+<Point id='$c_14'>pedalpoint[$c_12, $m]</Point>
+<Line id='$c_15'>pp_line[$c_1, $c_5]</Line>
+<Point id='$c_16'>pedalpoint[$c_12, $c_15]</Point>
+<Line id='$c_17'>pp_line[$c_1, $c_6]</Line>
+<Point id='$c_18'>pedalpoint[$c_12, $c_17]</Point>
+</Assignments>
+<Properties>
+<prop>on_line[$c_5, $m]</prop>
+<prop>on_line[$c_6, $m]</prop>
+</Properties>
+<Conclusions>
+<prop>eq_dist[$c_12, $c_14, $c_12, $c_16]</prop>
+<prop>eq_dist[$c_12, $c_14, $c_12, $c_18]</prop>
+</Conclusions>
+</Construction>

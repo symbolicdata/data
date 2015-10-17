@@ -1,0 +1,49 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/337_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2,x3,x4,x5,x6,x7,x8</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[x1, x2]</Point>
+</Points>
+<Assignments>
+<Point id='$c_4'>varpoint[$c_2, $c_3, x3]</Point>
+<Point id='$c_5'>varpoint[$c_2, $c_0, x4]</Point>
+<Point id='$c_6'>varpoint[$c_2, $c_1, x5]</Point>
+<Point id='$c_7'>varpoint[$c_0, $c_1, x6]</Point>
+<Point id='$c_8'>varpoint[$c_3, $c_1, x7]</Point>
+<Point id='$c_9'>varpoint[$c_3, $c_0, x8]</Point>
+<Line id='$c_12'>pp_line[$c_2, $c_0]</Line>
+<Line id='$c_13'>pp_line[$c_2a, $c_0]</Line>
+<Line id='$c_15'>pp_line[$c_2, $c_3]</Line>
+<Line id='$c_16'>pp_line[$c_2b, $c_3]</Line>
+<Line id='$c_18'>pp_line[$c_2, $c_3]</Line>
+<Line id='$c_19'>pp_line[$c_2c, $c_3]</Line>
+<Line id='$c_21'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_22'>pp_line[$c_7, $c_2a]</Line>
+<Line id='$c_24'>pp_line[$c_3, $c_1]</Line>
+<Line id='$c_25'>pp_line[$c_8, $c_2b]</Line>
+<Line id='$c_27'>pp_line[$c_3, $c_0]</Line>
+<Line id='$c_28'>pp_line[$c_9, $c_2c]</Line>
+<Line id='$c_30'>pp_line[$c_3, $c_7]</Line>
+<Line id='$c_31'>pp_line[$c_0, $c_8]</Line>
+<Line id='$c_32'>pp_line[$c_1, $c_9]</Line>
+</Assignments>
+<Properties>
+<prop>on_bisector[$c_2, $c_3, $c_0, $c_1]</prop>
+<prop>on_bisector[$c_2, $c_1, $c_3, $c_0]</prop>
+<prop>is_orthogonal[$c_12, $c_13]</prop>
+<prop>is_orthogonal[$c_15, $c_16]</prop>
+<prop>is_orthogonal[$c_18, $c_19]</prop>
+<prop>is_orthogonal[$c_21, $c_22]</prop>
+<prop>is_orthogonal[$c_24, $c_25]</prop>
+<prop>is_orthogonal[$c_27, $c_28]</prop>
+</Properties>
+<Conclusions>
+<prop>is_concurrent[$c_30, $c_31, $c_32]</prop>
+</Conclusions>
+</Construction>

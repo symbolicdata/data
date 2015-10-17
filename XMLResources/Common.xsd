@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!--  XSchema $Id: Common.xsd,v 1.3 2010/08/22 15:41:47 graebe Exp $ -->
+
+  <!-- the elements common to all XMLResource descriptions. They 
+       are similar to those in Root.xsd but less mandatory -->
+
+  <xs:element name="changed">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:token">
+          <xs:attribute name="at" type="xs:date"/>
+          <xs:attribute name="by" type="xs:QName"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="ChangeLog">
+    <xs:complexType>
+      <xs:sequence>
+	<xs:element ref="changed" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+ <xs:attributeGroup name="recordAttributes">
+  <!-- (common) recommended attributes, not required. Note that there 
+  	is no id since the Resource url is the file name  -->
+    <xs:attribute name="createdAt" type="xs:date"/>
+    <xs:attribute name="createdBy" type="xs:QName"/>
+  </xs:attributeGroup>
+
+  <xs:group name="RootTableEntries">
+    <xs:sequence>
+      <xs:element name="Comment" type="xs:string" minOccurs="0"/>
+      <!-- Arbitrary comment about record. Deprecated, use the corresponding
+           RDF entry. -->
+      <xs:element ref="ChangeLog" minOccurs="0"/>
+      <!-- ChangeLog Anchor to collect changelog entries of the given
+	   record in reverse chronological order -->
+    </xs:sequence>
+  </xs:group>
+
+</xs:schema>

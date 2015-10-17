@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-09-22" createdBy="wenk">
+  <vars>x,y,z,w</vars>
+  <basis>
+    <poly>-3*w^2+x+3*y+2*z+13</poly>
+    <poly>-11*z^2+x+3*z+7*w-9</poly>
+    <poly>4*y^2+4*x+3*z+2*w+4</poly>
+    <poly>5*x^2+6*x+3*y+6*z+2*w+3</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/ZeroDim/example_24</changed>
+  </ChangeLog>
+</INTPS>

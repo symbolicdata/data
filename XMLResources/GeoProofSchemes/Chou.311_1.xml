@@ -1,0 +1,48 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/311_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2,x3,x4,x5,x6,x7</vars>
+<parameters>u2,u3,u4</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[x1, u4]</Point>
+</Points>
+<Assignments>
+<Point id='$c_4'>varpoint[$c_0, $c_1, x2]</Point>
+<Point id='$c_5'>varpoint[$c_0, $c_2, x3]</Point>
+<Point id='$c_6'>varpoint[$c_0, $c_3, x4]</Point>
+<Point id='$c_7'>varpoint[$c_0, $c_2, x5]</Point>
+<Point id='$c_8'>varpoint[$c_0, $c_1, x6]</Point>
+<Point id='$c_9'>varpoint[$c_0, $c_3, x7]</Point>
+<Line id='$c_11'>pp_line[$c_4, $c_3]</Line>
+<Line id='$c_12'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_14'>pp_line[$c_5, $c_3]</Line>
+<Line id='$c_15'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_17'>pp_line[$c_6, $c_1]</Line>
+<Line id='$c_18'>pp_line[$c_0, $c_3]</Line>
+<Line id='$c_20'>pp_line[$c_7, $c_1]</Line>
+<Line id='$c_21'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_23'>pp_line[$c_8, $c_2]</Line>
+<Line id='$c_24'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_26'>pp_line[$c_9, $c_2]</Line>
+<Line id='$c_27'>pp_line[$c_0, $c_3]</Line>
+<Line id='$c_29'>pp_line[$c_4, $c_5]</Line>
+<Line id='$c_30'>pp_line[$c_6, $c_7]</Line>
+<Line id='$c_31'>pp_line[$c_8, $c_9]</Line>
+</Assignments>
+<Properties>
+<prop>is_concyclic[$c_0, $c_1, $c_2, $c_3]</prop>
+<prop>is_orthogonal[$c_11, $c_12]</prop>
+<prop>is_orthogonal[$c_14, $c_15]</prop>
+<prop>is_orthogonal[$c_17, $c_18]</prop>
+<prop>is_orthogonal[$c_20, $c_21]</prop>
+<prop>is_orthogonal[$c_23, $c_24]</prop>
+<prop>is_orthogonal[$c_26, $c_27]</prop>
+</Properties>
+<Conclusions>
+<prop>is_concurrent[$c_29, $c_30, $c_31]</prop>
+</Conclusions>
+</Construction>

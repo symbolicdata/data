@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!--  XSchema $Id: PolynomialSystem.xsd,v 1.2 2010/12/29 11:27:18 graebe Exp $  -->
+
+  <xs:include schemaLocation="Common.xsd"/>
+  <xs:include schemaLocation="Types.xsd"/>
+
+  <!-- type definition are now in Types.xsd -->
+
+  <!-- subelement definition -->
+
+  <xs:element name="basis">
+    <xs:complexType>
+      <xs:sequence>
+	<xs:element maxOccurs="unbounded" name="poly" type="Polynomial"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Root element definition -->
+
+  <xs:element name="INTPS">
+<!-- Integer Polynomial Systems -->
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="vars" type="VarList"/>
+        <xs:element ref="basis"/>
+        <xs:group ref="RootTableEntries"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="recordAttributes"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="ModPS">
+<!-- Modular Polynomial Systems -->
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="basedomain" type="xs:token"/>
+        <xs:element name="vars" type="VarList"/>
+        <xs:element ref="basis"/>
+        <xs:group ref="RootTableEntries"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="recordAttributes"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

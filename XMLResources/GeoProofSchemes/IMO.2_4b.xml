@@ -1,0 +1,20 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> IMO/2_4b </Title>
+<prooftype> construction, deduction </prooftype>
+<vars>x1,x2,x3</vars>
+<parameters>sa0,ha0,hb0</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[-x1, 0]</Point>
+<Point id='$c_1' type='free'>Point[x1, 0]</Point>
+<Point id='$c_2' type='free'>Point[x2, x3]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>pp_line[$c_0, $c_1]</Line>
+<Distance id='$c_4'>sqrdist_pl[$c_2, $c_3]</Distance>
+<Line id='$c_5'>pp_line[$c_2, $c_1]</Line>
+<Distance id='$c_6'>sqrdist_pl[$c_0, $c_5]</Distance>
+<Point id='$c_7'>midpoint[$c_0, $c_1]</Point>
+<Distance id='$c_8'>sqrdist[$c_2, $c_7]</Distance>
+</Assignments>
+</Construction>

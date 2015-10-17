@@ -1,0 +1,41 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/319_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2,x3,x4,x5,x6,x7,x8</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[x1, x2]</Point>
+<Point id='$c_4' type='free'>Point[x3, x4]</Point>
+<Point id='$c_5' type='free'>Point[x5, x6]</Point>
+<Point id='$c_6' type='free'>Point[x7, x8]</Point>
+</Points>
+<Assignments>
+<Line id='$c_7'>pp_line[$c_3, $c_0]</Line>
+<Line id='$c_8'>pp_line[$c_1, $c_2]</Line>
+<Line id='$c_10'>pp_line[$c_3, $c_1]</Line>
+<Line id='$c_11'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_15'>midpoint[$c_1, $c_2]</Point>
+<Point id='$c_17'>midpoint[$c_0, $c_2]</Point>
+<Distance id='$c_21'>sqrdist[$c_3, $c_6]</Distance>
+<Distance id='$c_22'>sqrdist[$c_4, $c_6]</Distance>
+<Distance id='$c_23'>sqrdist[$c_5, $c_6]</Distance>
+<Distance id='$c_24'>sqrdist[$c_4, $c_5]</Distance>
+</Assignments>
+<Properties>
+<prop>is_orthogonal[$c_7, $c_8]</prop>
+<prop>is_orthogonal[$c_10, $c_11]</prop>
+<prop>eq_dist[$c_0, $c_4, $c_1, $c_4]</prop>
+<prop>eq_dist[$c_0, $c_4, $c_2, $c_4]</prop>
+<prop>is_collinear[$c_0, $c_5, $c_15]</prop>
+<prop>is_collinear[$c_1, $c_5, $c_17]</prop>
+<prop>on_bisector[$c_6, $c_2, $c_0, $c_1]</prop>
+<prop>on_bisector[$c_6, $c_2, $c_0, $c_1]</prop>
+</Properties>
+<Conclusions>
+<prop>is_equal[$c_21+2*$c_22, 3*($c_23+2*$c_24)]</prop>
+</Conclusions>
+</Construction>

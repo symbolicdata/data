@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-03-26" createdBy="graebe">
+  <vars>x4,x3,x2,x1,a,b,c,d</vars>
+  <basis>
+    <poly>x4+b-d</poly>
+    <poly>x4+x3+x2+x1-a-c-d</poly>
+    <poly>x4*x3+x3*x2+x4*x1+x3*x1-a*c-a*d-c*d</poly>
+    <poly>x4*x3*x1-a*c*d</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Raksanyi</changed>
+  </ChangeLog>
+</INTPS>

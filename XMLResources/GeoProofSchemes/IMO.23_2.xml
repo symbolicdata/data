@@ -1,0 +1,41 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> IMO/23_2 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[u1, 0]</Point>
+<Point id='$c_1' type='free'>Point[u2, 0]</Point>
+<Point id='$c_2' type='free'>Point[0, 1]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_4'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_5'>sym_line[$c_3, $c_4]</Line>
+<Line id='$c_6'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_7'>pp_line[$c_1, $c_2]</Line>
+<Line id='$c_8'>sym_line[$c_6, $c_7]</Line>
+<Point id='$c_9'>intersection_point[$c_5, $c_8]</Point>
+<Point id='$c_10'>midpoint[$c_1, $c_9]</Point>
+<Point id='$c_11'>midpoint[$c_0, $c_9]</Point>
+<Point id='$c_12'>midpoint[$c_0, $c_1]</Point>
+<Line id='$c_13'>pp_line[$c_1, $c_9]</Line>
+<Point id='$c_14'>pedalpoint[$c_2, $c_13]</Point>
+<Line id='$c_15'>pp_line[$c_0, $c_9]</Line>
+<Point id='$c_16'>pedalpoint[$c_2, $c_15]</Point>
+<Line id='$c_17'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_18'>pedalpoint[$c_2, $c_17]</Point>
+<Line id='$c_19'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_20'>sym_point[$c_14, $c_19]</Point>
+<Line id='$c_21'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_22'>sym_point[$c_16, $c_21]</Point>
+<Line id='$c_23'>pp_line[$c_9, $c_2]</Line>
+<Point id='$c_24'>sym_point[$c_18, $c_23]</Point>
+<Line id='$c_25'>pp_line[$c_10, $c_20]</Line>
+<Line id='$c_26'>pp_line[$c_11, $c_22]</Line>
+<Line id='$c_27'>pp_line[$c_12, $c_24]</Line>
+</Assignments>
+<Conclusions>
+<prop>is_concurrent[$c_25, $c_26, $c_27]</prop>
+</Conclusions>
+</Construction>

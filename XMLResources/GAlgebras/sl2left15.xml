@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<GAlgebra createdAt="2003-07-03" createdBy="levandovsky">
+  <vars>x,y,z</vars>
+  <commutators>
+    <commutator fst="x" snd="z">
+      <D>2*x</D>
+    </commutator>
+    <commutator fst="x" snd="y">
+      <D>-z</D>
+    </commutator>
+    <commutator fst="y" snd="z">
+      <D>-2*y</D>
+    </commutator>
+  </commutators>
+  <basis>
+    <ncpoly>x^16</ncpoly>
+    <ncpoly>y^16</ncpoly>
+    <ncpoly>z^16-680*z^14+179452*z^12-23434840*z^10+1601489318*z^8-55742803480*z^6+886165820604*z^4-4940831601000*z^2+4108830350625</ncpoly>
+  </basis>
+</GAlgebra>

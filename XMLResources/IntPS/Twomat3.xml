@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-04-20" createdBy="obachman">
+  <vars>a,b,c,d,e,f,g,h,i,A,B,C,D,E,F,G,H,I</vars>
+  <basis>
+    <poly>d*C-c*D-f*E+e*F-i*F+f*I</poly>
+    <poly>-d*B-g*C+b*D+c*G</poly>
+    <poly>d*B-b*D-h*F+f*H</poly>
+    <poly>g*A+h*D-a*G+i*G-d*H-g*I</poly>
+    <poly>d*A-a*D+e*D-d*E-g*F+f*G</poly>
+    <poly>-c*A-f*B+a*C-i*C+b*F+c*I</poly>
+    <poly>-b*A+a*B-e*B-h*C+b*E+c*H</poly>
+    <poly>-g*h*C*I+g*B+h*E+h*F-b*G-c*G-e*H-f*H+i*H</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Twomat3</changed>
+  </ChangeLog>
+</INTPS>

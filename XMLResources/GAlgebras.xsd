@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!--  XSchema $Id: PolynomialSystem.xsd,v 1.2 2010/12/29 11:27:18 graebe Exp $  -->
+
+  <xs:include schemaLocation="Common.xsd"/>
+  <xs:include schemaLocation="Types.xsd"/>
+
+  <!-- type definition are now in Types.xsd -->
+
+  <xs:complexType name="Commutator">
+    <!-- A commutator in the form snd*fst = C*fst*snd + D -->
+    <xs:sequence>
+        <xs:element name="C" type="NonCommutativePolynomial" minOccurs="0"/>
+        <xs:element name="D" type="NonCommutativePolynomial" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="fst" use="required">
+        <xs:simpleType>
+        <xs:restriction base="xs:token">
+            <xs:pattern value="[A-Za-z][A-Za-z0-9]?"/>
+        </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="snd" use="required">
+        <xs:simpleType>
+        <xs:restriction base="xs:token">
+            <xs:pattern value="[A-Za-z][A-Za-z0-9]?"/>
+        </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+  <!-- Root element definition -->
+
+  <xs:element name="GAlgebra">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="parameters" type="VarList" minOccurs="0"/>
+        <xs:element name="vars" type="VarList"/>
+        <xs:element name="commutators">
+            <xs:complexType>
+                <xs:sequence>        
+                    <xs:element name="commutator" type="Commutator" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+        <xs:element name="basis">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="ncpoly" type="NonCommutativePolynomial" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attributeGroup ref="recordAttributes"/>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

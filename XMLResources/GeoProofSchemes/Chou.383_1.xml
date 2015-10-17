@@ -1,0 +1,40 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/383_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2,x3,x4,x5,x6,x7</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[x1, x2]</Point>
+<Point id='$c_4' type='free'>Point[x3, x4]</Point>
+</Points>
+<Assignments>
+<Point id='$c_5'>varpoint[$c_0, $c_1, x5]</Point>
+<Point id='$c_6'>varpoint[$c_3, $c_1, x6]</Point>
+<Point id='$c_7'>varpoint[$c_3, $c_0, x7]</Point>
+<Line id='$c_12'>pp_line[$c_5, $c_2]</Line>
+<Line id='$c_13'>pp_line[$c_3, $c_2]</Line>
+<Line id='$c_15'>pp_line[$c_6, $c_2]</Line>
+<Line id='$c_16'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_18'>pp_line[$c_7, $c_2]</Line>
+<Line id='$c_19'>pp_line[$c_1, $c_2]</Line>
+<Line id='$c_22'>pp_line[$c_4, $c_2]</Line>
+<Line id='$c_23'>pp_line[$c_5, $c_7]</Line>
+</Assignments>
+<Properties>
+<prop>on_bisector[$c_2, $c_3, $c_0, $c_1]</prop>
+<prop>on_bisector[$c_2, $c_0, $c_1, $c_3]</prop>
+<prop>eq_dist[$c_3, $c_4, $c_0, $c_4]</prop>
+<prop>eq_dist[$c_3, $c_4, $c_1, $c_4]</prop>
+<prop>is_orthogonal[$c_12, $c_13]</prop>
+<prop>is_orthogonal[$c_15, $c_16]</prop>
+<prop>is_orthogonal[$c_18, $c_19]</prop>
+</Properties>
+<Conclusions>
+<prop>is_collinear[$c_5, $c_6, $c_7]</prop>
+<prop>is_orthogonal[$c_22, $c_23]</prop>
+</Conclusions>
+</Construction>

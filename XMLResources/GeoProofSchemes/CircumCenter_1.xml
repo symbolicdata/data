@@ -1,0 +1,20 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> CircumCenter_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>a1,a2,b1,b2,c1,c2</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[a1, a2]</Point>
+<Point id='$c_1' type='free'>Point[b1, b2]</Point>
+<Point id='$c_2' type='free'>Point[c1, c2]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>p_bisector[$c_0, $c_1]</Line>
+<Line id='$c_4'>p_bisector[$c_1, $c_2]</Line>
+<Point id='$c_5'>intersection_point[$c_3, $c_4]</Point>
+</Assignments>
+<Conclusions>
+<prop>eq_dist[$c_5, $c_0, $c_5, $c_1]</prop>
+<prop>eq_dist[$c_5, $c_0, $c_5, $c_2]</prop>
+</Conclusions>
+</Construction>

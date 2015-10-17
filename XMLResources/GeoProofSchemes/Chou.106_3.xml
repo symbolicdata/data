@@ -1,0 +1,32 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/106_3 </Title>
+<prooftype> equational </prooftype>
+<vars>x1</vars>
+<parameters>u2,u3,u4</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Circle id='$c_3'>p3_circle[$c_0, $c_1, $c_2]</Circle>
+<Point id='$c_4'>circle_center[$c0]</Point>
+<Point id='$c_5'>circle_slider[$c_4, $c_0, u4]</Point>
+<Line id='$c_6'>pp_line[$c_1, $c_0]</Line>
+<Line id='$c_7'>pp_line[$c_2, $c_5]</Line>
+<Point id='$c_8'>intersection_point[$c_6, $c_7]</Point>
+<Line id='$c_9'>pp_line[$c_0, $c_5]</Line>
+<Line id='$c_10'>par_line[$c_8, $c_9]</Line>
+<Line id='$c_11'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_12'>intersection_point[$c_10, $c_11]</Point>
+<Point id='$c_13'>circle_slider[$c_4, $c_0, x1]</Point>
+<Line id='$c_14'>pp_line[$c_12, $c_13]</Line>
+</Assignments>
+<Properties>
+<prop>is_cl_tangent[$c0, $c_14]</prop>
+</Properties>
+<Conclusions>
+<prop>eq_dist[$c_8, $c_12, $c_12, $c_13]</prop>
+</Conclusions>
+</Construction>

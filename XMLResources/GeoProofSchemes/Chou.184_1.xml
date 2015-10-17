@@ -1,0 +1,32 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/184_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, u1]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Circle id='$c_3'>p3_circle[$c_0, $c_1, $c_2]</Circle>
+<Line id='$c_4'>altitude[$c_0, $c_1, $c_2]</Line>
+<Point id='$c_5'>other_cl_point[$c_0, $c_3, $c_4]</Point>
+<Circle id='$c_6'>p3_circle[$c_0, $c_1, $c_2]</Circle>
+<Line id='$c_7'>altitude[$c_1, $c_0, $c_2]</Line>
+<Point id='$c_8'>other_cl_point[$c_1, $c_6, $c_7]</Point>
+<Circle id='$c_9'>p3_circle[$c_0, $c_1, $c_2]</Circle>
+<Line id='$c_10'>altitude[$c_2, $c_0, $c_1]</Line>
+<Point id='$c_11'>other_cl_point[$c_2, $c_9, $c_10]</Point>
+<Point id='$c_12'>circumcenter[$c_0, $c_1, $c_2]</Point>
+<Line id='$c_13'>pp_line[$c_0, $c_12]</Line>
+<Line id='$c_14'>par_line[$c_5, $c_13]</Line>
+<Line id='$c_15'>pp_line[$c_1, $c_12]</Line>
+<Line id='$c_16'>par_line[$c_8, $c_15]</Line>
+<Line id='$c_17'>pp_line[$c_2, $c_12]</Line>
+<Line id='$c_18'>par_line[$c_11, $c_17]</Line>
+</Assignments>
+<Conclusions>
+<prop>is_concurrent[$c_14, $c_16, $c_18]</prop>
+</Conclusions>
+</Construction>

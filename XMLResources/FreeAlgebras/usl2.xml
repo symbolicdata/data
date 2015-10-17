@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<FREEALGEBRA createdAt="2014-01-02" createdBy="levandov">
+  <vars>h,f,e</vars>
+  <uptoDeg>4</uptoDeg>
+  <basis>
+  <ncpoly>f*e-e*f+h</ncpoly>
+  <ncpoly>h*e-e*h-2*e</ncpoly>
+  <ncpoly>h*f-f*h+2*f</ncpoly>
+  </basis>
+  <Comment>Semiautomatrically generated</Comment>
+</FREEALGEBRA>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/220_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>circumcenter[$c_0, $c_1, $c_2]</Point>
+<Point id='$c_4'>varpoint[$c_1, $c_2, x1]</Point>
+<Point id='$c_5'>varpoint[$c_0, $c_2, x2]</Point>
+<Line id='$c_7'>pp_line[$c_0, $c_3]</Line>
+<Line id='$c_8'>pp_line[$c_5, $c_4]</Line>
+</Assignments>
+<Properties>
+<prop>on_bisector[$c_4, $c_1, $c_0, $c_2]</prop>
+<prop>is_orthogonal[$c_7, $c_8]</prop>
+</Properties>
+<Conclusions>
+<prop>eq_dist[$c_0, $c_1, $c_0, $c_5]</prop>
+</Conclusions>
+</Construction>

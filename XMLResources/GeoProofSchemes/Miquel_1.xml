@@ -1,0 +1,23 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Miquel_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>c1,c2,u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[1, 0]</Point>
+<Point id='$c_2' type='free'>Point[c1, c2]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>varpoint[$c_0, $c_1, u1]</Point>
+<Point id='$c_4'>varpoint[$c_1, $c_2, u2]</Point>
+<Point id='$c_5'>varpoint[$c_0, $c_2, u3]</Point>
+<Circle id='$c_6'>p3_circle[$c_0, $c_3, $c_5]</Circle>
+<Circle id='$c_7'>p3_circle[$c_1, $c_3, $c_4]</Circle>
+<Point id='$c_8'>other_cc_point[$c_3, $c_6, $c_7]</Point>
+<Circle id='$c_9'>p3_circle[$c_2, $c_4, $c_5]</Circle>
+</Assignments>
+<Conclusions>
+<prop>on_circle[$c_8, $c_9]</prop>
+</Conclusions>
+</Construction>

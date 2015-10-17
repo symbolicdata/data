@@ -1,0 +1,35 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Butterfly_3 </Title>
+<prooftype> equational, constraints </prooftype>
+<vars>x1,x2,x3,x4,x5,x6,x7,x8,x9</vars>
+<parameters>u1,u2,u3,u4</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u4, 0]</Point>
+<Point id='$c_2' type='free'>Point[u1, x1]</Point>
+<Point id='$c_3' type='free'>Point[u2, x2]</Point>
+<Point id='$c_4' type='free'>Point[u3, x3]</Point>
+<Point id='$c_5' type='free'>Point[x4, x5]</Point>
+<Point id='$c_6' type='free'>Point[x6, x7]</Point>
+<Point id='$c_7' type='free'>Point[x8, x9]</Point>
+</Points>
+<Assignments>
+<Circle id='$c_8'>pc_circle[$c_0, $c_1]</Circle>
+<Line id='$c_17'>pp_line[$c_6, $c_7]</Line>
+<Line id='$c_18'>pp_line[$c_0, $c_5]</Line>
+<Point id='$c_20'>midpoint[$c_6, $c_7]</Point>
+<Distance id='$c_21'>sqrdist[$c_5, $c_20]</Distance>
+</Assignments>
+<Properties>
+<prop>on_circle[$c_2, $c0]</prop>
+<prop>on_circle[$c_3, $c0]</prop>
+<prop>on_circle[$c_4, $c0]</prop>
+<prop>is_collinear[$c_2, $c_4, $c_5]</prop>
+<prop>is_collinear[$c_1, $c_3, $c_5]</prop>
+<prop>is_collinear[$c_6, $c_7, $c_5]</prop>
+<prop>is_collinear[$c_1, $c_4, $c_6]</prop>
+<prop>is_collinear[$c_2, $c_3, $c_7]</prop>
+<prop>is_orthogonal[$c_17, $c_18]</prop>
+</Properties>
+</Construction>

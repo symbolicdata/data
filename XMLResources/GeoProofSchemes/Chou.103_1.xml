@@ -1,0 +1,28 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/103_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4,u5,u6,u7,u8</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[u1, u2]</Point>
+<Point id='$c_1' type='free'>Point[u3, u4]</Point>
+<Point id='$c_2' type='free'>Point[u5, u6]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>pp_line[$c_1, $c_0]</Line>
+<Line id='$c_4'>par_line[$c_2, $c_3]</Line>
+<Point id='$c_5'>line_slider[$c_4, u7]</Point>
+<Point id='$c_6'>varpoint[$c_0, $c_5, u8]</Point>
+<Line id='$c_7'>pp_line[$c_1, $c_0]</Line>
+<Line id='$c_8'>par_line[$c_6, $c_7]</Line>
+<Line id='$c_9'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_10'>intersection_point[$l, $c_9]</Point>
+<Line id='$c_11'>pp_line[$c_1, $c_5]</Line>
+<Point id='$c_12'>intersection_point[$l, $c_11]</Point>
+<Line id='$c_13'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_14'>intersection_point[$l, $c_13]</Point>
+</Assignments>
+<Conclusions>
+<prop>eq_dist[$c_14, $c_12, $c_10, $c_6]</prop>
+</Conclusions>
+</Construction>

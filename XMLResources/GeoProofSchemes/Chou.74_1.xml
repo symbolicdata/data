@@ -1,0 +1,30 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/74_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, u1]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_4'>pedalpoint[$c_0, $c_3]</Point>
+<Line id='$c_5'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_6'>pedalpoint[$c_1, $c_5]</Point>
+<Line id='$c_7'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_8'>pedalpoint[$c_2, $c_7]</Point>
+<Line id='$c_9'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_10'>pedalpoint[$c_4, $c_9]</Point>
+<Line id='$c_11'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_12'>pedalpoint[$c_6, $c_11]</Point>
+<Line id='$c_13'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_14'>pedalpoint[$c_8, $c_13]</Point>
+<Line id='$c_15'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_16'>pedalpoint[$c_8, $c_15]</Point>
+</Assignments>
+<Conclusions>
+<prop>is_concyclic[$c_10, $c_12, $c_14, $c_16]</prop>
+</Conclusions>
+</Construction>

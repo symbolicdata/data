@@ -1,0 +1,39 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/168_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, u1]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[x1, x2]</Point>
+</Points>
+<Assignments>
+<Point id='$c_4'>circumcenter[$c_0, $c_1, $c_2]</Point>
+<Line id='$c_5'>altitude[$c_1, $c_1, $c_3]</Line>
+<Line id='$c_6'>pp_line[$c_0, $c_3]</Line>
+<Point id='$c_7'>intersection_point[$c_5, $c_6]</Point>
+<Line id='$c_8'>altitude[$c_2, $c_2, $c_3]</Line>
+<Line id='$c_9'>pp_line[$c_1, $c_3]</Line>
+<Point id='$c_10'>intersection_point[$c_8, $c_9]</Point>
+<Line id='$c_11'>altitude[$c_0, $c_0, $c_3]</Line>
+<Line id='$c_12'>pp_line[$c_2, $c_3]</Line>
+<Point id='$c_13'>intersection_point[$c_11, $c_12]</Point>
+<Distance id='$c_16'>sqrdist[$c_4, $c_0]</Distance>
+<Distance id='$c_17'>sqrdist[$c_3, $c_7]</Distance>
+<Distance id='$c_18'>sqrdist[$c_3, $c_10]</Distance>
+<Distance id='$c_19'>sqrdist[$c_3, $c_13]</Distance>
+<Distance id='$c_20'>sqrdist[$c_7, $c_10]</Distance>
+<Distance id='$c_21'>sqrdist[$c_7, $c_13]</Distance>
+<Distance id='$c_22'>sqrdist[$c_10, $c_13]</Distance>
+</Assignments>
+<Properties>
+<prop>on_bisector[$c_3, $c_1, $c_0, $c_2]</prop>
+<prop>on_bisector[$c_3, $c_0, $c_1, $c_2]</prop>
+</Properties>
+<Conclusions>
+<prop>is_equal[48*$c_16, $c_17+$c_18+$c_19+$c_20+$c_21+$c_22]</prop>
+</Conclusions>
+</Construction>

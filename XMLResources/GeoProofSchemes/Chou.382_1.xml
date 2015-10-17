@@ -1,0 +1,33 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/382_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>circumcenter[$c_0, $c_1, $c_2]</Point>
+<Point id='$c_4'>orthocenter[$c_0, $c_1, $c_2]</Point>
+<Point id='$c_5'>midpoint[$c_1, $c_2]</Point>
+<Point id='$c_6'>midpoint[$c_0, $c_2]</Point>
+<Point id='$c_7'>midpoint[$c_0, $c_1]</Point>
+<Line id='$c_8'>pp_line[$c_1, $c_2]</Line>
+<Line id='$c_9'>altitude[$c_0, $c_4, $c_01]</Line>
+<Point id='$c_10'>intersection_point[$c_8, $c_9]</Point>
+<Line id='$c_11'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_12'>altitude[$c_1, $c_4, $c_11]</Line>
+<Point id='$c_13'>intersection_point[$c_11, $c_12]</Point>
+<Line id='$c_14'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_15'>altitude[$c_2, $c_4, $c_21]</Line>
+<Point id='$c_16'>intersection_point[$c_14, $c_15]</Point>
+<Line id='$c_18'>pp_line[$c_3, $c_4]</Line>
+<Line id='$c_19'>pp_line[$c_02, $c_12]</Line>
+</Assignments>
+<Conclusions>
+<prop>is_collinear[$c_02, $c_13, $c_16]</prop>
+<prop>is_orthogonal[$c_18, $c_19]</prop>
+</Conclusions>
+</Construction>

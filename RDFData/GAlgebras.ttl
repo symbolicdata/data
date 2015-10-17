@@ -1,0 +1,57 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+
+sd:GAlgebra a owl:Class ; rdfs:label "G-Algebra" .
+
+<http://symbolicdata.org/Data/GAlgebras/>
+    a owl:Ontology ;
+   cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+   cc:attributionURL <http://symbolicdata.org> ;
+   cc:attributionName "The SymbolicData Project";
+    rdfs:label "SD G-Algebra Systems Data" .
+
+<http://symbolicdata.org/Data/GAlgebra/algdep_qso3> a sd:GAlgebra ;
+    sd:createdAt "2003-07-03" ;
+    sd:createdBy sdp:Levandovskyy_V;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GAlgebras/algdep_qso3.xml> ;
+    rdfs:comment "Parametric example" .
+
+<http://symbolicdata.org/Data/GAlgebra/sl2left15> a sd:GAlgebra ;
+    sd:createdAt "2003-07-03" ;
+    sd:createdBy sdp:Levandovskyy_V;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GAlgebras/sl2left15.xml> .
+
+<http://symbolicdata.org/Data/GAlgebra/sl2left7> a sd:GAlgebra ;
+    sd:createdAt "2003-07-03" ;
+    sd:createdBy sdp:Levandovskyy_V;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GAlgebras/sl2left7.xml> .
+
+<http://symbolicdata.org/Data/GAlgebra/ucha2> a sd:GAlgebra ;
+    sd:createdAt "2003-07-03" ;
+    sd:createdBy sdp:Levandovskyy_V;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GAlgebras/ucha2.xml> .
+
+<http://symbolicdata.org/Data/GAlgebra/sl2left10> a sd:GAlgebra ;
+    sd:createdAt "2003-07-03" ;
+    sd:createdBy sdp:Levandovskyy_V;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GAlgebras/sl2left10.xml> .
+
+<http://symbolicdata.org/Data/GAlgebra/sl2left4> a sd:GAlgebra ;
+    sd:createdAt "2003-07-03" ;
+    sd:createdBy sdp:Levandovskyy_V;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GAlgebras/sl2left4.xml> .
+
+<http://symbolicdata.org/Data/GAlgebra/twostd_g2> a sd:GAlgebra ;
+    sd:createdAt "2003-07-03" ;
+    sd:createdBy sdp:Levandovskyy_V;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GAlgebras/twostd_g2.xml> .
+
+<http://symbolicdata.org/Data/GAlgebra/ucha4> a sd:GAlgebra ;
+    sd:createdAt "2003-07-03" ;
+    sd:createdBy sdp:Levandovskyy_V;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GAlgebras/ucha4.xml> .

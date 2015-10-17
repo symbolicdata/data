@@ -1,0 +1,36 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/139_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2,x3,x4,x5,x6</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, u1]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[x1, x2]</Point>
+<Point id='$c_4' type='free'>Point[x3, x4]</Point>
+<Point id='$c_5' type='free'>Point[x5, x6]</Point>
+</Points>
+<Assignments>
+<Line id='$c_6'>pp_line[$c_1, $c_2]</Line>
+<Line id='$c_8'>pp_line[$c_1, $c_2]</Line>
+<Line id='$c_11'>pp_line[$c_0, $c_3]</Line>
+<Line id='$c_12'>pp_line[$c_0, $c_4]</Line>
+<Circle id='$c_14'>p3_circle[$c_0, $c_1, $c_2]</Circle>
+<Line id='$c_15'>pp_line[$c_0, $c_5]</Line>
+<Line id='$c_17'>pp_line[$c_1, $c_2]</Line>
+</Assignments>
+<Properties>
+<prop>on_line[$c_3, $c_6]</prop>
+<prop>on_line[$c_4, $c_8]</prop>
+<prop>on_bisector[$c_3, $c_1, $c_0, $c_2]</prop>
+<prop>is_orthogonal[$c_11, $c_12]</prop>
+<prop>is_cl_tangent[$c_14, $c_15]</prop>
+<prop>on_line[$c_5, $c_17]</prop>
+</Properties>
+<Conclusions>
+<prop>eq_dist[$c_5, $c_0, $c_5, $c_3]</prop>
+<prop>eq_dist[$c_5, $c_0, $c_5, $c_4]</prop>
+</Conclusions>
+</Construction>

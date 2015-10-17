@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<INTPS createdAt="2010-05-11" createdBy="graebe">
+  <vars>bb,b,dd,d,ff,f</vars>
+  <basis>
+    <poly>2+b*bb-bb*d-b*dd+d*dd-2*ff</poly>
+    <poly>2*bb+b*bb-bb*d-2*dd+b*dd-d*dd-2*b*ff+2*d*ff</poly>
+    <poly>1-2*b+b^2-2*d-2*b*d+d^2+f</poly>
+    <poly>-1+b^3*bb^2</poly>
+    <poly>-1+d^3*dd^2</poly>
+    <poly>-1+f^3*ff^2</poly>
+  </basis>
+</INTPS>

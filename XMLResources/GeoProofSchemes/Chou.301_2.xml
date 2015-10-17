@@ -1,0 +1,40 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/301_2 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2,x3,x4,x5,x6,x7</vars>
+<parameters>u1,u2,u3,u4</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[x1, u4]</Point>
+<Point id='$c_4' type='free'>Point[x2, x3]</Point>
+<Point id='$c_5' type='free'>Point[x4, x5]</Point>
+<Point id='$c_6' type='free'>Point[x6, x7]</Point>
+</Points>
+<Assignments>
+<Line id='$c_8'>pp_line[$c_0, $c_4]</Line>
+<Line id='$c_9'>pp_line[$c_1, $c_2]</Line>
+<Line id='$c_11'>pp_line[$c_1, $c_4]</Line>
+<Line id='$c_12'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_14'>pp_line[$c_3, $c_31]</Line>
+<Line id='$c_15'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_17'>midpoint[$c_3, $c_31]</Point>
+<Line id='$c_19'>pp_line[$c_3, $c_32]</Line>
+<Line id='$c_20'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_22'>midpoint[$c_3, $c_32]</Point>
+</Assignments>
+<Properties>
+<prop>is_concyclic[$c_0, $c_1, $c_2, $c_3]</prop>
+<prop>is_orthogonal[$c_8, $c_9]</prop>
+<prop>is_orthogonal[$c_11, $c_12]</prop>
+<prop>is_orthogonal[$c_14, $c_15]</prop>
+<prop>is_collinear[$c_0, $c_1, $c_17]</prop>
+<prop>is_orthogonal[$c_19, $c_20]</prop>
+<prop>is_collinear[$c_0, $c_2, $c_22]</prop>
+</Properties>
+<Conclusions>
+<prop>is_collinear[$c_31, $c_6, $c_4]</prop>
+</Conclusions>
+</Construction>

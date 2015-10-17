@@ -1,0 +1,25 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/263_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4,u5</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[u4, u5]</Point>
+</Points>
+<Assignments>
+<Point id='$c_4'>midpoint[$c_0, $c_1]</Point>
+<Point id='$c_5'>midpoint[$c_1, $c_2]</Point>
+<Point id='$c_6'>midpoint[$c_2, $c_3]</Point>
+<Point id='$c_7'>midpoint[$c_0, $c_3]</Point>
+<Distance id='$c_8'>sqrdist[$c_0, $c_2]</Distance>
+<Distance id='$c_9'>sqrdist[$c_1, $c_3]</Distance>
+<Distance id='$c_10'>sqrdist[$c_5, $c_7]</Distance>
+<Distance id='$c_11'>sqrdist[$c_4, $c_6]</Distance>
+</Assignments>
+<Conclusions>
+<prop>is_equal[$c_8+$c_9, 2*($c_10+$c_11)]</prop>
+</Conclusions>
+</Construction>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/291_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u2,u3,u4</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u3, u4]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>varpoint[$c_0, $c_1, u2]</Point>
+<Point id='$c_4'>circumcenter[$c_1, $c_3, $c_2]</Point>
+<Point id='$c_5'>circumcenter[$c_0, $c_3, $c_2]</Point>
+<Point id='$c_6'>circumcenter[$c_0, $c_1, $c_2]</Point>
+</Assignments>
+<Conclusions>
+<prop>is_concyclic[$c_4, $c_5, $c_6, $c_2]</prop>
+</Conclusions>
+</Construction>

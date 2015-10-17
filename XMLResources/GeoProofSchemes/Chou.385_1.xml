@@ -1,0 +1,25 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/385_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>circumcenter[$c_2, $c_0, $c_1]</Point>
+<Line id='$c_4'>altitude[$c_0, $c_0, $c_3]</Line>
+<Line id='$c_5'>altitude[$c_1, $c_1, $c_3]</Line>
+<Point id='$c_6'>intersection_point[$c_4, $c_5]</Point>
+<Line id='$c_7'>pp_line[$c_2, $c_1]</Line>
+<Line id='$c_8'>altitude[$c_6, $c_2, $c_3]</Line>
+<Point id='$c_9'>intersection_point[$c_7, $c_8]</Point>
+<Line id='$c_10'>pp_line[$c_2, $c_0]</Line>
+<Line id='$c_11'>altitude[$c_6, $c_2, $c_3]</Line>
+<Point id='$c_12'>intersection_point[$c_10, $c_11]</Point>
+<Point id='$c_13'>midpoint[$c_9, $c_12]</Point>
+<Distance id='$c_14'>sqrdist[$c_6, $c_13]</Distance>
+</Assignments>
+</Construction>

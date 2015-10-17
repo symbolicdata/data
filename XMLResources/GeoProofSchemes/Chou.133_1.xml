@@ -1,0 +1,25 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/133_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, u1]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_4'>pedalpoint[$c_0, $c_3]</Point>
+<Point id='$c_5'>varpoint[$c_0, $c_4, u4]</Point>
+<Line id='$c_6'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_7'>pp_line[$c_2, $c_5]</Line>
+<Point id='$c_8'>intersection_point[$c_6, $c_7]</Point>
+<Line id='$c_9'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_10'>pp_line[$c_1, $c_5]</Line>
+<Point id='$c_11'>intersection_point[$c_9, $c_10]</Point>
+</Assignments>
+<Conclusions>
+<prop>on_bisector[$c_0, $c_8, $c_4, $c_11]</prop>
+</Conclusions>
+</Construction>

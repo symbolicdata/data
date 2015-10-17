@@ -1,0 +1,23 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> IMO/39_1 </Title>
+<prooftype> equational, real </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[-1, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[0, u2]</Point>
+<Point id='$c_3' type='free'>Point[0, u3]</Point>
+</Points>
+<Assignments>
+<Line id='$c_4'>p_bisector[$c_0, $c_2]</Line>
+<Line id='$c_5'>p_bisector[$c_3, $c_1]</Line>
+<Point id='$c_6'>intersection_point[$c_4, $c_5]</Point>
+<Scalar id='$c_8'>triangle_area[$c_0, $c_2, $c_6]</Scalar>
+<Scalar id='$c_9'>triangle_area[$c_1, $c_3, $c_6]</Scalar>
+</Assignments>
+<Conclusions>
+<prop>is_concyclic[$c_0, $c_2, $c_1, $c_3]</prop>
+<prop>is_equal[$c_8, $c_9]</prop>
+</Conclusions>
+</Construction>

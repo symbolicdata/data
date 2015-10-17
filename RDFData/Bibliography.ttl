@@ -1,0 +1,644 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://symbolicdata.org/Data/Bibliography/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix sdb: <http://symbolicdata.org/Data/BIB/> .
+
+sdb:Albano_00a a sd:Reference ;
+               sd:createdAt "2001-03-16" ;
+               sd:createdBy sdp:Cioffi_F ;
+               dct:abstract "We present an algorithm for computing a minimal set of generators for the ideal of a rational parametric projective curve in polynomial time. The method exploits the availability of polynomial algorithms for the computation of minimal generators of an ideal of points and is alternative to the existing Gröbner bases techniques for the implicitization of curves. The termination criterion is based on the Castelnuovo-Mumford regularity of a curve. The described computation yields also the Hilbert function and, hence, the Hilbert polynomial and the Poincaré series of the curves. Moreover, it can be applied to unions of rational curves. We have compared the implementation of our algorithm with the Hilbert driven elimination algorithm included in CoCoA 3.6 and Singular 1.2, obtaining, in general, significant improvements in timings. " ;
+               dct:creator sdp:Albano_G, sdp:Cioffi_F, sdp:Orecchia_F, sdp:Ramella_I ;
+               dct:title "Minimally generating ideals of rational parametric curves in polynomial time" ;
+               dct:issued "2000"^^dct:W3CDTF ;
+               sd:lastModified "2004-09-16" ;
+               sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0980.14033&format=complete> ;
+               sd:hasCSentry <http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.24.4199> .
+
+sdb:Amrhein_96a a sd:Reference ;
+                rdfs:comment "DISCO 1996, LNCS" ;
+                sd:createdAt "2013-09-15" ;
+                sd:createdBy sdp:Graebe_HG ;
+                dct:creator sdp:Amrhein_B, sdp:Gloor_O, sdp:Kuechlin_W ;
+                dct:title "Walking Faster" ;
+                dct:issued "1996"^^dct:W3CDTF ;
+                sd:lastModified "2013-09-15" .
+
+sdb:Bachmann_00a a sd:Reference ;
+                 sd:createdAt "2000-01-27" ;
+                 sd:createdBy sdp:Graebe_HG ;
+                 dct:creator sdp:Bachmann_O, sdp:Graebe_HG ;
+                 dct:title "The SymbolicData Project: Towards an Electronic Repository of Tools and Data for Benchmarks of Computer Algebra Software" ;
+                 dct:issued "2000"^^dct:W3CDTF ;
+                 sd:lastModified "2004-08-27" ;
+                 sd:hasCSentry <http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.204.7144> .
+
+sdb:Bachmann_98a a sd:Reference ;
+                 sd:createdAt "1999-04-20" ;
+                 sd:createdBy sdp:Bachmann_O ;
+                 dct:abstract "Monomial representations and operations for Gröbner bases computations are investigated from an implementation point of view. The technique of vectorized monomial operations is introduced and it is shown how it expedites computations of Gröbner bases. Furthermore, a rank-based monomial representation and comparison technique is examined and it is concluded that this technique does not yield an additional speedup over vectorized comparisons. Extensive benchmark tests with the Computer Algebra System Singular are used to evaluate these concepts." ;
+                 dct:creator sdp:Bachmann_O, sdp:Schoenemann_H ;
+                 dct:title "Monomial operations for computations of Gröbner bases; Proc. ISSAC-98, Rostock, Germany" ;
+                 dct:issued "1998"^^dct:W3CDTF ;
+                 sd:lastModified "2004-09-16" .
+
+sdb:Bini_96a a sd:Reference ;
+             rdfs:comment "http://www-sop.inria.fr/saga/POL/ (2013)" ;
+             sd:createdAt "2013-09-15" ;
+             sd:createdBy sdp:Graebe_HG ;
+             dct:creator sdp:Bini_D, sdp:Mourrain_B ;
+             dct:title "Polynomial test suite. Frisco project (LTR 21.024)" ;
+             dct:issued "1996"^^dct:W3CDTF ;
+             sd:lastModified "2013-09-15" .
+
+sdb:Bjoerck_91a a sd:Reference ;
+                sd:createdAt "1999-04-20" ;
+                sd:createdBy sdp:Bachmann_O ;
+                dct:abstract "Cyclic n roots were considered for the first time " ;
+                dct:creator sdp:Bjoerk_G, sdp:Froeberg_G ;
+                dct:title "A Faster Way to Count the Solution of Inhomogeneous Systems of Algebraic Equations, with Applications to Cyclic $n$-Roots" ;
+                dct:issued "1991"^^dct:W3CDTF ;
+                sd:lastModified "2004-08-28" .
+
+sdb:Boege_86a a sd:Reference ;
+              sd:createdAt "1999-04-08" ;
+              sd:createdBy sdp:Graebe_HG ;
+              dct:abstract "Discussion of heuristics for Groebner basis computations and variable orderings on several examples. " ;
+              dct:creator sdp:Boege_W, sdp:Gebauer_R, sdp:Kredel_H ;
+              dct:title "Some examples for solving systems of algebraic equations by calculating Gröbner bases" ;
+              dct:issued "1986"^^dct:W3CDTF ;
+              sd:lastModified "2004-08-28" ;
+              sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0602.65032&format=complete> ;
+              sd:hasGBBentry <http://www.risc.jku.at/Groebner-Bases-Bibliography/details.php?details_id=252> .
+
+sdb:Bruns_07a a sd:Reference ;
+              rdfs:comment "[B] Experiment. Math. 16 (2007), 359-365" ;
+              dct:creator sdp:Bruns_W ;
+              dct:title "On the integral Carathéodory property" ;
+              dct:issued "2007"^^dct:W3CDTF ;
+              sd:lastModified "2014-06-08" .
+
+sdb:Bruns_09a a sd:Reference ;
+              rdfs:comment "[BG] Springer Monographs in Mathematics (2009)" ;
+              dct:creator sdp:Bruns_W, sdp:Gubeladze_J ;
+              dct:title "Polytopes, rings, and K-theory" ;
+              dct:issued "2009"^^dct:W3CDTF ;
+              sd:lastModified "2014-06-08" .
+
+sdb:Bruns_11a a sd:Reference ;
+              rdfs:comment "[BHIKS] Exp. Math. 20 (2011), 25-33" ;
+              dct:creator sdp:Hemmecke_Raymond, sdp:Bruns_W, sdp:Soeger_C, sdp:Ichim_B, sdp:Koeppe_M ;
+              dct:title "Challenging computations of Hilbert bases of cones associated with algebraic statistics" ;
+              dct:issued "2011"^^dct:W3CDTF ;
+              sd:lastModified "2014-06-08" .
+
+sdb:Bruns_13a a sd:Reference ;
+              rdfs:comment "[BIS] arXiv:1206.1916v1" ;
+              dct:creator sdp:Bruns_W, sdp:Soeger_C, sdp:Ichim_B ;
+              dct:title "The power of  pyramid decompositions in Normaliz" ;
+              dct:issued "2013"^^dct:W3CDTF ;
+              sd:lastModified "2014-06-08" .
+
+sdb:Bruns_99a a sd:Reference ;
+              rdfs:comment "[BG0] In Commutative algebra, algebraic geometry, and computational methods, D. Eisenbud, Ed., Springer Singapore, 1999, pp. 201-214" ;
+              dct:creator sdp:Bruns_W, sdp:Gubeladze_J ;
+              dct:title "Rectangular simplicial semigroups" ;
+              dct:issued "1999"^^dct:W3CDTF ;
+              sd:lastModified "2014-06-08" .
+
+sdb:Bruns_99b a sd:Reference ;
+              rdfs:comment "[BG1] J. Algebra 218 (1999), 715-737" ;
+              dct:creator sdp:Bruns_W, sdp:Gubeladze_J ;
+              dct:title "Polytopal linear groups" ;
+              dct:issued "1999"^^dct:W3CDTF ;
+              sd:lastModified "2014-06-08" .
+
+sdb:Bruns_99c a sd:Reference ;
+              rdfs:comment "[BG2] J. Reine Angew. Math. 510 (1999), 151-178" ;
+              dct:creator sdp:Bruns_W, sdp:Gubeladze_J ;
+              dct:title "Normality and covering properties of affine semigroups" ;
+              dct:issued "1999"^^dct:W3CDTF ;
+              sd:lastModified "2014-06-08" .
+
+sdb:Bruns_99d a sd:Reference ;
+              rdfs:comment "[BGHMW] J. Reine Angew. Math. 510 (1999), 179-185" ;
+              dct:creator sdp:Bruns_W, sdp:Gubeladze_J, sdp:Henk_M, sdp:Martin_A, sdp:Weismantel_R ;
+              dct:title "A counterexample to an integer analogue of Carathéodory's theorem" ;
+              dct:issued "1999"^^dct:W3CDTF ;
+              sd:lastModified "2014-06-08" .
+
+sdb:Buchberger_87a a sd:Reference ;
+                   sd:createdAt "1999-04-01" ;
+                   sd:createdBy sdp:Graebe_HG ;
+                   dct:abstract "Survey paper on Bucherger's algorithm and several applications, e.g., Robot kinematics, Solving polynomial systems of equations or finding implicit equations for a surface " ;
+                   dct:creator sdp:Buchberger_B ;
+                   dct:title "Applications of Gröbner bases in non-linear computational geometry; Mathematical aspects in scientific software" ;
+                   dct:issued "1987"^^dct:W3CDTF ;
+                   sd:lastModified "2004-08-27" .
+
+sdb:Canny_93a a sd:Reference ;
+              sd:createdAt "1999-09-21" ;
+              sd:createdBy sdp:Wenk_M ;
+              dct:creator sdp:Canny_JF, sdp:Manocha_D ;
+              dct:title "MultiPolynomial Resultant Algorithms" ;
+              dct:issued "1993"^^dct:W3CDTF ;
+              sd:lastModified "2004-08-28" ;
+              sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0778.13023&format=complete> ;
+              sd:hasGBBentry <http://www.risc.jku.at/Groebner-Bases-Bibliography/details.php?details_id=465> ;
+              sd:hasCSentry <http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.38.1735> .
+
+sdb:Chou_84a a sd:Reference ;
+             sd:createdAt "1999-04-08" ;
+             sd:createdBy sdp:Graebe_HG ;
+             dct:abstract "A paper on mechanized geometry theorem proving. " ;
+             dct:creator sdp:Chou_SC ;
+             dct:title "Proving elementary geometry theorems using Wu's algorithm; " ;
+             dct:issued "1984"^^dct:W3CDTF ;
+             sd:lastModified "2004-09-16" ;
+             sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0578.68079&format=complete> .
+
+sdb:Chou_88a a sd:Reference ;
+             sd:createdAt "1999-11-01" ;
+             sd:createdBy sdp:Graebe_HG ;
+             dct:abstract "Contains 512 examples of geometry theorems that were automatically proved by the author with his geometry theorem prover. " ;
+             dct:creator sdp:Chou_SC ;
+             dct:title "Mechanical geometry theorem proving" ;
+             dct:issued "1988"^^dct:W3CDTF ;
+             sd:lastModified "2004-08-27" ;
+             sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0661.14037&format=complete> .
+
+sdb:Cioffi_00a a sd:Reference ;
+               sd:createdAt "2001-03-16" ;
+               sd:createdBy sdp:Cioffi_F ;
+               dct:abstract "Several improvements to the computation of the minimal free resolution of finite modules have been made also recently, and some of them concerning ideals of polynomials are Hilbert driven or depend on the knowledge of the regularity of the ideal. Here I show that some of the calculations usually made to determine the minimal free resolution of a homogeneous polynomial ideal $I$ are still redundant, provided that we know a set of minimal homogeneous generators, the regularity, and the Hilbert function of $I$. More precisely, I show that the construction of some syzygies can be avoided. As result, the known methods for the computation of a minimal free resolution are improved. The underlying idea of this work can be also used to predict if certain points in generic position on general rational curves satisfy the minimal resolution conjecture. " ;
+               dct:creator sdp:Cioffi_F ;
+               dct:title "Remarks on the Computation of Minimal Finite Free Resolutions" ;
+               dct:issued "2000"^^dct:W3CDTF ;
+               sd:lastModified "2004-08-27" ;
+               sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:1094.13517&format=complete> .
+
+sdb:Cohn_82a a sd:Reference ;
+             sd:createdAt "1999-04-23" ;
+             sd:createdBy sdp:Faugere_JC ;
+             dct:creator sdp:Cohn_H ;
+             dct:title "An explicit modular equation in two variables and Hilbert's Twelfth problem" ;
+             dct:issued "1982"^^dct:W3CDTF ;
+             sd:lastModified "2004-08-28" ;
+             sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0491.12009&format=complete> .
+
+sdb:Cohn_88a a sd:Reference ;
+             sd:createdAt "1999-04-23" ;
+             sd:createdBy sdp:Faugere_JC ;
+             dct:creator sdp:Cohn_H ;
+             dct:title "An explit modular equation in two variables for Q[sqrt(3)]" ;
+             dct:issued "1988"^^dct:W3CDTF ;
+             sd:lastModified "2004-08-28" .
+
+sdb:Cox_97a a sd:Reference ;
+            sd:createdAt "1999-09-21" ;
+            sd:createdBy sdp:Wenk_M ;
+            dct:creator sdp:Cox_D, sdp:Little_J, sdp:OShea_D ;
+            dct:title "Using Algebraic Geometry" ;
+            dct:issued "1997"^^dct:W3CDTF ;
+            sd:lastModified "2004-08-27" ;
+            sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:1079.13017&format=complete>, <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0920.13026&format=complete> .
+
+sdb:Czapor_86a a sd:Reference ;
+               sd:createdAt "1999-04-01" ;
+               sd:createdBy sdp:Graebe_HG ;
+               dct:abstract "Discussion of Groebner heuristics on several examples " ;
+               dct:creator sdp:Czapor_SR, sdp:Geddes_KO ;
+               dct:title "On implementing Buchberger's algorithm for Gröbner bases; Proc. SYMSAC'86" ;
+               dct:issued "1986"^^dct:W3CDTF ;
+               sd:lastModified "2004-08-27" ;
+               sd:hasGBBentry <http://www.risc.jku.at/Groebner-Bases-Bibliography/details.php?details_id=272> .
+
+sdb:Czapor_87a a sd:Reference ;
+               sd:createdAt "1999-04-01" ;
+               sd:createdBy sdp:Graebe_HG ;
+               dct:abstract "Groebner basis computations under different heuristics. Remark that tail reduction for lex Groebner bases may be prohibitive. Some remarks on the Groebner factorizer. " ;
+               dct:creator sdp:Czapor_SR ;
+               dct:title "Solving algebraic equations via Buchberger's algorithm; Proc. EUROCAL'87" ;
+               dct:issued "1987"^^dct:W3CDTF ;
+               sd:lastModified "2004-08-27" ;
+               sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:1209.13002&format=complete> ;
+               sd:hasGBBentry <http://www.risc.jku.at/Groebner-Bases-Bibliography/details.php?details_id=972> .
+
+sdb:Czapor_89a a sd:Reference ;
+               sd:createdAt "1999-04-01" ;
+               sd:createdBy sdp:Graebe_HG ;
+               dct:abstract "Description of the Groebner factorizer with constraints and the author's implementation in Maple. " ;
+               dct:creator sdp:Czapor_SR ;
+               dct:title "Solving algebraic equations: Combining Buchberger's algorithm with multivariate factorization" ;
+               dct:issued "1989"^^dct:W3CDTF ;
+               sd:lastModified "2004-08-28" ;
+               sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0668.68033&format=complete> ;
+               sd:hasGBBentry <http://www.risc.jku.at/Groebner-Bases-Bibliography/details.php?details_id=621> .
+
+sdb:Czapor_91a a sd:Reference ;
+               sd:createdAt "1999-04-01" ;
+               sd:createdBy sdp:Graebe_HG ;
+               dct:abstract "Discussion of several lex. Groebner heuristics. Normal selection is usually bad. Better pair selection strategies order S-polynomials either by their degree or by their expected degree. " ;
+               dct:creator sdp:Czapor_SR ;
+               dct:title "A heuristic selection strategy for lexicographic Gröbner bases; Proc. ISSAC'91" ;
+               dct:issued "1991"^^dct:W3CDTF ;
+               sd:lastModified "2004-08-27" ;
+               sd:hasGBBentry <http://www.risc.jku.at/Groebner-Bases-Bibliography/details.php?details_id=276> .
+
+sdb:Decker_98a a sd:Reference ;
+               rdfs:comment "In: Algorithmic Algebra and Number Theory, Springer, 187-220 (1998)" ;
+               sd:createdAt "2013-09-15" ;
+               sd:createdBy sdp:Graebe_HG ;
+               dct:creator sdp:Decker_W, sdp:Greuel_GM, sdp:Pfister_G ;
+               dct:title "Primary Decomposition: Algorithms and Comparisons" ;
+               dct:issued "1998"^^dct:W3CDTF ;
+               sd:lastModified "2013-09-15" .
+
+sdb:Eisenbud_96a a sd:Reference ;
+                 rdfs:comment "Duke Mathematical Journal 84 (1), 1-45 (1996)" ;
+                 sd:createdAt "2013-09-15" ;
+                 sd:createdBy sdp:Graebe_HG ;
+                 dct:creator sdp:Eisenbud_D, sdp:Sturmfels_B ;
+                 dct:title "Binomial ideals" ;
+                 dct:issued "1996"^^dct:W3CDTF ;
+                 sd:lastModified "2013-09-15" .
+
+sdb:Emiris_98a a sd:Reference ;
+               sd:createdAt "1999-09-21" ;
+               sd:createdBy sdp:Wenk_M ;
+               dct:creator sdp:Emiris_IZ, sdp:Manocha_D, sdp:Wallack_A ;
+               dct:title "MARS: A Maple/Matlab/C Resultant-Based Solver" ;
+               dct:issued "1998"^^dct:W3CDTF ;
+               sd:lastModified "2004-08-28" ;
+               sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0924.65045&format=complete> ;
+               sd:hasCSentry <http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.42.2684> .
+
+sdb:Galligo_89a a sd:Reference ;
+                sd:createdAt "1999-04-23" ;
+                sd:createdBy sdp:Faugere_JC ;
+                dct:creator sdp:Galligo_A, sdp:Traverso_C ;
+                dct:title "Practical Determination of the dimension of an algebraic variety" ;
+                dct:issued "1989"^^dct:W3CDTF ;
+                sd:lastModified "2004-08-28" ;
+                sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0685.14001&format=complete> .
+
+sdb:Gatermann_90a a sd:Reference ;
+                  rdfs:comment "Proceedings of ISSAC-90, pp 112-119, ACM New York, 1990." ;
+                  sd:createdAt "2013-09-13" ;
+                  sd:createdBy sdp:Graebe_HG ;
+                  dct:creator sdp:Gatermann_K ;
+                  dct:title "Symbolic solution of polynomial equation systems with symmetry" ;
+                  dct:issued "1990"^^dct:W3CDTF ;
+                  sd:lastModified "2013-09-13" .
+
+sdb:Gerdt_90a a sd:Reference ;
+              sd:createdAt "1999-04-01" ;
+              sd:createdBy sdp:Graebe_HG ;
+              dct:abstract "Solves polynomial systems coming from integrability conditions of evolutionary diff. equations of KdV type. " ;
+              dct:creator sdp:Gerdt_VP, sdp:Zharkov_AYu ;
+              dct:title "Computer classification of integrable coupled KdV-like systems" ;
+              dct:issued "1990"^^dct:W3CDTF ;
+              sd:lastModified "2004-08-28" ;
+              sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0704.68062&format=complete> .
+
+sdb:Gerdt_91a a sd:Reference ;
+              sd:createdAt "1999-04-01" ;
+              sd:createdBy sdp:Graebe_HG ;
+              dct:abstract "Solve polynomial systems coming from symmetry analysis of diff. eq. " ;
+              dct:creator sdp:Gerdt_VP, sdp:Khutornoy_NV, sdp:Zharkov_AYu ;
+              dct:title "Solving algebraic systems which arize as necessary integrability conditions for polynomial nonlinear evolution equations; Computer algebra in physical research" ;
+              dct:issued "1991"^^dct:W3CDTF ;
+              sd:lastModified "2004-08-27" .
+
+sdb:Gerdt_92a a sd:Reference ;
+              sd:createdAt "1999-04-01" ;
+              sd:createdBy sdp:Graebe_HG ;
+              dct:abstract "Description of the authors' Reduce package ASYS, that solves polynomial systems via Groebner methods and homogeneity analysis. Homogeneity analysis detects torus actions on the system to reduce the number of variables. Applies these techniques to solve polynomial equations coming from diff. equations. Comparison with AlPi and Felix. " ;
+              dct:creator sdp:Gerdt_VP, sdp:Khutornoy_NV, sdp:Zharkov_AYu ;
+              dct:title "Gröbner basis technique, homogeneity, and solving polynomial equations" ;
+              dct:issued "1992"^^dct:W3CDTF ;
+              sd:lastModified "2004-08-27" ;
+              sd:hasGBBentry <http://www.risc.jku.at/Groebner-Bases-Bibliography/details.php?details_id=1018> .
+
+sdb:Gerdt_93a a sd:Reference ;
+              sd:createdAt "1999-04-01" ;
+              sd:createdBy sdp:Graebe_HG ;
+              dct:abstract "Description of the ASYS package, version 2, and 18 more or less simple examples from the literature for test and comparison purposes. Contains only run time comparisons. " ;
+              dct:creator sdp:Gerdt_VP, sdp:Khutornoy_NV, sdp:Zharkov_AYu ;
+              dct:title "ASYS 2: A new version of the computer algebra package ASYS" ;
+              dct:issued "1993"^^dct:W3CDTF ;
+              sd:lastModified "2004-08-27" .
+
+sdb:Giovini_91a a sd:Reference ;
+                sd:createdAt "1999-04-01" ;
+                sd:createdBy sdp:Graebe_HG ;
+                dct:abstract "Discussion of different Groebner strategies by means of examples. Original description of the famous sugar strategy. " ;
+                dct:creator sdp:Giovini_A, sdp:Mora_T, sdp:Niesi_G, sdp:Robbiano_L, sdp:Traverso_C ;
+                dct:title "&quot;One sugar cube, please&quot; or Selection strategies in the Buchberger algorithm; Proc. ISSAC'91" ;
+                dct:issued "1991"^^dct:W3CDTF ;
+                sd:lastModified "2004-08-27" ;
+                sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0933.68161&format=complete> ;
+                sd:hasGBBentry <http://www.risc.jku.at/Groebner-Bases-Bibliography/details.php?details_id=1157> ;
+                sd:hasCSentry <http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.7.1065> .
+
+sdb:Graebe_99a a sd:Reference ;
+               sd:createdAt "2005-02-17" ;
+               sd:createdBy sdp:Graebe_HG ;
+               dct:abstract "A report on some experiences with the general purpose Computer Algebra Systems (CAS) Axiom, Macsyma, Maple, Mathematica, MuPAD, and Reduce solving systems of polynomial equations and the way they present their solutions. This snapshot (taken in the spring 1996) of the current power of the different systems in a special area concentrates both on CPU-times and the quality of the output. " ;
+               dct:creator sdp:Graebe_HG ;
+               dct:title "About the Polynomial System Solve Facility of Axiom, Macsyma, Maple, Mathematica, MuPAD, and Reduce; Computer Algebra Systems: A Practical Guide" ;
+               dct:issued "1999"^^dct:W3CDTF ;
+               sd:lastModified "2005-02-17" .
+
+sdb:Hemmecke_08a a sd:Reference ;
+                 rdfs:comment "[HMSSW] Comb. Probab. Comput. 17 (2008), 239-257" ;
+                 dct:creator sdp:Hemmecke_Raymond, sdp:Sturmfels_B, sdp:Morton_J, sdp:Wienand_O ;
+                 dct:title "Three counterexamples on semigraphoids" ;
+                 dct:issued "2008"^^dct:W3CDTF ;
+                 sd:lastModified "2014-06-08" .
+
+sdb:Kahn_93a a sd:Reference ;
+             sd:createdAt "1999-04-20" ;
+             sd:createdBy sdp:Bachmann_O ;
+             dct:abstract "Out of work of Gerhard Pfister and KK " ;
+             dct:creator sdp:Kahn_K ;
+             dct:title "private communications" ;
+             dct:issued "1993"^^dct:W3CDTF ;
+             sd:lastModified "2004-08-27" .
+
+sdb:Kalkbrener_93a a sd:Reference ;
+                   sd:createdAt "1999-04-01" ;
+                   sd:createdBy sdp:Graebe_HG ;
+                   dct:abstract """Solves polynomial systems computing regular chains, i.e.. such triangular systems $(f_1,...,f_k)$ where $lc(f_i)(a_1,...,a_j)
+eq 0$ on all zeroes $(a_1,...,a_j)\\in Z(f_1,...f_{i-1})$.  Employs a mixture between pseudo division and the D5 technique. """ ;
+                   dct:creator sdp:Kalkbrener_M ;
+                   dct:title "A generalized Euclidean algorithm for computing triangular representations of algebraic varieties" ;
+                   dct:issued "1993"^^dct:W3CDTF ;
+                   sd:lastModified "2004-08-28" ;
+                   sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0783.14039&format=complete> ;
+                   sd:hasGBBentry <http://www.risc.jku.at/Groebner-Bases-Bibliography/details.php?details_id=816> .
+
+sdb:Katsura_87a a sd:Reference ;
+                sd:createdAt "1999-04-20" ;
+                sd:createdBy sdp:Bachmann_O ;
+                dct:abstract "Origin of Katsura examples" ;
+                dct:creator sdp:Fujiki_NM, sdp:Fukuda_S, sdp:Gebauer_R, sdp:Inawashiro_N, sdp:Katsura_W ;
+                dct:title "Cell Biophysics" ;
+                dct:issued "1987"^^dct:W3CDTF ;
+                sd:lastModified "2004-08-28" .
+
+sdb:Kreps_82a a sd:Reference ;
+              rdfs:comment "Econometrica, Volume 50, Number 4, pages 863-894, 1982." ;
+              sd:createdAt "2013-09-13" ;
+              sd:createdBy sdp:Graebe_HG ;
+              dct:creator sdp:Kreps_DM, sdp:Wilson_R ;
+              dct:title "Sequential Equibria" ;
+              dct:issued "1982"^^dct:W3CDTF ;
+              sd:lastModified "2013-09-13" .
+
+sdb:McKelvey_97a a sd:Reference ;
+                 rdfs:comment "Journal of Economic Theory, Volume 72, pages 411-425, 1997" ;
+                 sd:createdAt "2013-09-13" ;
+                 sd:createdBy sdp:Graebe_HG ;
+                 dct:creator sdp:McLennan_A, sdp:McKelvey_RD ;
+                 dct:title "The maximal number of regular totally mixed Nash equilibria" ;
+                 dct:issued "1997"^^dct:W3CDTF ;
+                 sd:lastModified "2013-09-13" .
+
+sdb:McLennan_97a a sd:Reference ;
+                 rdfs:comment "Journal of Economic Theory, Volume 72, pages 408-410, 1997" ;
+                 sd:createdAt "2013-09-13" ;
+                 sd:createdBy sdp:Graebe_HG ;
+                 dct:creator sdp:McLennan_A ;
+                 dct:title "The maximal generic number of pure Nash equilibria" ;
+                 dct:issued "1997"^^dct:W3CDTF ;
+                 sd:lastModified "2013-09-13" .
+
+sdb:Melenk_89a a sd:Reference ;
+               sd:createdAt "2013-09-13" ;
+               sd:createdBy sdp:Graebe_HG ;
+               dct:creator sdp:Melenk_H, sdp:Moeller_HM, sdp:Neun_W ;
+               dct:title "Symbolic Solution of Large Stationary Chemical Kinetics Problems" ;
+               dct:issued "1989"^^dct:W3CDTF ;
+               sd:lastModified "2013-09-13" .
+
+sdb:Morgan_87a a sd:Reference ;
+               rdfs:comment "Prentice-Hall, Englewood Cliffs, New Jersey, 1987" ;
+               sd:createdAt "2013-09-13" ;
+               sd:createdBy sdp:Graebe_HG ;
+               dct:creator sdp:Morgan_A ;
+               dct:title "Solving polynomial systems using continuation for engineering and scientific problems" ;
+               dct:issued "1987"^^dct:W3CDTF ;
+               sd:lastModified "2013-09-13" .
+
+sdb:Murao_93a a sd:Reference ;
+              sd:createdAt "1999-09-21" ;
+              sd:createdBy sdp:Wenk_M ;
+              dct:creator sdp:Fujise_T, sdp:Kobayashi_H, sdp:Murao_H ;
+              dct:title "On Factorizing the Symbolic U-resultant - Application of the ddet operator" ;
+              dct:issued "1993"^^dct:W3CDTF ;
+              sd:lastModified "2004-08-28" ;
+              sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0796.12003&format=complete> ;
+              sd:hasGBBentry <http://www.risc.jku.at/Groebner-Bases-Bibliography/details.php?details_id=815> .
+
+sdb:Noonburg_88a a sd:Reference ;
+                 rdfs:comment "SIAM J. Appl. Math (1988)" ;
+                 sd:createdAt "2013-09-13" ;
+                 sd:createdBy sdp:Graebe_HG ;
+                 dct:creator sdp:Noonburg_VW ;
+                 dct:title "A neural network modeled by an adaptive Lotka-Volterra system" ;
+                 dct:issued "1988"^^dct:W3CDTF ;
+                 sd:lastModified "2013-09-13" .
+
+sdb:Ohsugi_06a a sd:Reference ;
+               rdfs:comment "[OH] In: Commutative Algebra and Combinatorics. Ramanujan Mathematical Society Lecture Note Series 4 (2006), 87-111" ;
+               dct:creator sdp:Ohsugi_H, sdp:Hibi_T ;
+               dct:title "Toric ideals arising from contingency tables" ;
+               dct:issued "2006"^^dct:W3CDTF ;
+               sd:lastModified "2014-06-08" .
+
+sdb:Ohsugi_10a a sd:Reference ;
+               rdfs:comment "[O] Discrete Math. 310 (2010), 1160-1166" ;
+               dct:creator sdp:Ohsugi_H ;
+               dct:title "Normality of cut polytopes is a minor closed property" ;
+               dct:issued "2010"^^dct:W3CDTF ;
+               sd:lastModified "2015-03-13" .
+
+sdb:Pfister_07a a sd:Reference ;
+                rdfs:comment "Analele Stiintifice ale Universitatii Ovidius, Mathematical Series XV (1), 129--137 (2007)" ;
+                sd:createdAt "2013-09-15" ;
+                sd:createdBy sdp:Graebe_HG ;
+                dct:creator sdp:Pfister_G ;
+                dct:title "On Modular Computation of Standard bases" ;
+                dct:issued "2007"^^dct:W3CDTF ;
+                sd:lastModified "2013-09-15" .
+
+sdb:Schrans_90a a sd:Reference ;
+                rdfs:comment "Nuclear Phys. B, Vol. 345, No. 2#C3, 1990, pp. 584#C606." ;
+                sd:createdAt "2013-09-13" ;
+                sd:createdBy sdp:Graebe_HG ;
+                dct:creator sdp:Schrans_S, sdp:Troost_W ;
+                dct:title "Generalized Virasoro Constructions for SU(3)" ;
+                dct:issued "1990"^^dct:W3CDTF ;
+                sd:lastModified "2013-09-13" .
+
+sdb:Soeger_14a a sd:Reference ;
+               rdfs:comment "[S] Dissertation thesis (2014), urn:nbn:de:gbv:700-2014042212422" ;
+               dct:creator sdp:Soeger_C ;
+               dct:title "Parallel Algorithms for Rational Cones and Affine Monoids" ;
+               dct:issued "2014"^^dct:W3CDTF ;
+               sd:lastModified "2015-03-13" .
+
+sdb:Sturmfels_08a a sd:Reference ;
+                  rdfs:comment "[SS] Mich. Math. J. 57 (2008), 689-709" ;
+                  dct:creator sdp:Sturmfels_B, sdp:Sullivant_S ;
+                  dct:title "Toric geometry of cuts and splits" ;
+                  dct:issued "2008"^^dct:W3CDTF ;
+                  sd:lastModified "2014-06-08" .
+
+sdb:Sturmfels_12a a sd:Reference ;
+                  rdfs:comment "[SW] J. Algebra 361 (2012), 264-286" ;
+                  dct:creator sdp:Sturmfels_B, sdp:Welker_V ;
+                  dct:title "Commutative Algebra of Statistical Ranking" ;
+                  dct:issued "2012"^^dct:W3CDTF ;
+                  sd:lastModified "2014-06-08" .
+
+sdb:Sturmfels_98a a sd:Reference ;
+                  sd:createdAt "1999-09-21" ;
+                  sd:createdBy sdp:Wenk_M ;
+                  dct:creator sdp:Sturmfels_B ;
+                  dct:title "Introduction to Resultants" ;
+                  dct:issued "1998"^^dct:W3CDTF ;
+                  sd:lastModified "2004-08-28" ;
+                  sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0916.13008&format=complete> .
+
+sdb:Wang_92a a sd:Reference ;
+             sd:createdAt "1999-04-01" ;
+             sd:createdBy sdp:Graebe_HG ;
+             dct:abstract "Comparison of different methods for polynomial systems decomposition. The focus is on characteristic sets with (algebraic) factorization, that yields an irreducible decomposition.  Ideal bases of these components may be reconstructed via ideal quotient computations.  Run time comparisons on 20 examples. " ;
+             dct:creator sdp:Wang_D ;
+             dct:title "Irreducible decomposition of algebraic varieties via characteristic sets and Gröbner bases" ;
+             dct:issued "1992"^^dct:W3CDTF ;
+             sd:lastModified "2004-08-28" ;
+             sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0776.14014&format=complete> ;
+             sd:hasGBBentry <http://www.risc.jku.at/Groebner-Bases-Bibliography/details.php?details_id=513> .
+
+sdb:Wang_92b a sd:Reference ;
+             sd:createdAt "1999-04-01" ;
+             sd:createdBy sdp:Graebe_HG ;
+             dct:abstract "Description of a parallel version of procedures implemented in the author's Maple package charseries based on disk remote connected Maple sessions on a workstation cluster.  Reports a speedup of 5..10 for 12 processors. " ;
+             dct:creator sdp:Wang_D ;
+             dct:title "On the parallelization of characteristic-set-based algorithms; Parallel Computation" ;
+             dct:issued "1992"^^dct:W3CDTF ;
+             sd:lastModified "2004-08-27" .
+
+sdb:Wang_92c a sd:Reference ;
+             sd:createdAt "1999-04-01" ;
+             sd:createdBy sdp:Graebe_HG ;
+             dct:abstract "Discusses several strategies to speed up the computation of characteristic series using weakened versions of basic sets: top reduced, full reduced, quasi-basic sets. Best results are reproted with weak basic sets. " ;
+             dct:creator sdp:Wang_D ;
+             dct:title "A strategy for speeding-up the computation of characteristic sets; Math. foundation of computer science" ;
+             dct:issued "1992"^^dct:W3CDTF ;
+             sd:lastModified "2004-08-27" .
+
+sdb:Wang_93a a sd:Reference ;
+             sd:createdAt "1999-04-01" ;
+             sd:createdBy sdp:Graebe_HG ;
+             dct:abstract "Fundamental paper on solving polynomial systems via triangular sets based on Wu's method and its generalizations.  The basic version uses pseudo division and leading coefficients as constraints. The second version factors polynomials also over the base domain. Both versions may produce empty components that are hard to detect. The projection method decomposes constraints to avoid such emtpy components.  The last version uses factorization over algebraic extension fields to produce the irreducible components of the system. " ;
+             dct:creator sdp:Wang_D ;
+             dct:title "An elimination method for polynomial systems" ;
+             dct:issued "1993"^^dct:W3CDTF ;
+             sd:lastModified "2004-08-28" ;
+             sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0803.13016&format=complete> ;
+             sd:hasGBBentry <http://www.risc.jku.at/Groebner-Bases-Bibliography/details.php?details_id=820> .
+
+sdb:Wang_95a a sd:Reference ;
+             sd:createdAt "1999-04-01" ;
+             sd:createdBy sdp:Graebe_HG ;
+             dct:abstract "Overview on Wang's decomposition methods based on pseudo division. Considers examples from geometry theorem proving, finding implicit equations for curves and surface, computing singular loci, computing prime decompositions, robot kinematics. " ;
+             dct:creator sdp:Wang_D ;
+             dct:title "Reasoning about geometric problems using an elimination method; Automated practical reasoning" ;
+             dct:issued "1995"^^dct:W3CDTF ;
+             sd:lastModified "2004-08-27" ;
+             sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0855.68086&format=complete> .
+
+sdb:Wang_95b a sd:Reference ;
+             sd:createdAt "1999-04-01" ;
+             sd:createdBy sdp:Graebe_HG ;
+             dct:abstract "Introduction to characteristic series and a detailed description of the implementation of the author's Maple package charseries: weak basic sets, modified pseudo remainder, dividing out constraint factors, variable order heuristics, examples and benchmarks. " ;
+             dct:creator sdp:Wang_D ;
+             dct:title "An implementation of the characteristic set method in Maple; Automated practical reasoning" ;
+             dct:issued "1995"^^dct:W3CDTF ;
+             sd:lastModified "2004-08-27" ;
+             sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0837.68110&format=complete> .
+
+sdb:Wang_95c a sd:Reference ;
+             sd:createdAt "1999-04-01" ;
+             sd:createdBy sdp:Graebe_HG ;
+             dct:abstract "Application of triangular series to geometry theorem proving: Steiner's point, Morley's theorem, Thebault's theorem. Description of the projection method that avoids empty branches in the decomposition, and decomposition into irreducible components by algebraic factorization.  Overview on experimental heuristics. " ;
+             dct:creator sdp:Wang_D ;
+             dct:title "Elimination procedures for mechanical theorem proving in geometry" ;
+             dct:issued "1995"^^dct:W3CDTF ;
+             sd:lastModified "2004-08-28" ;
+             sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0855.68090&format=complete> .
+
+sdb:Wang_96a a sd:Reference ;
+             sd:createdAt "1999-04-01" ;
+             sd:createdBy sdp:Graebe_HG ;
+             dct:abstract "Short description of the procedures charser and triser as they are implemented in Wang's Maple package charseries, and their modified versions.  Run time comparisons with 50 examples. " ;
+             dct:creator sdp:Wang_D ;
+             dct:title "Solving polynomial equations: characteristic sets and triangular systems" ;
+             dct:issued "1996"^^dct:W3CDTF ;
+             sd:lastModified "2004-08-28" .
+
+sdb:Wang_98a a sd:Reference ;
+             sd:createdAt "1999-04-01" ;
+             sd:createdBy sdp:Graebe_HG ;
+             dct:abstract "Considers characteristic series computations that use subresultant PRS. " ;
+             dct:creator sdp:Wang_D ;
+             dct:title "Decomposing polynomial systems into simple systems" ;
+             dct:issued "1998"^^dct:W3CDTF ;
+             sd:lastModified "2004-08-28" ;
+             sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0913.12008&format=complete> ;
+             sd:hasGBBentry <http://www.risc.jku.at/Groebner-Bases-Bibliography/details.php?details_id=896> .
+
+sdb:Wichmann_97a a sd:Reference ;
+                 sd:createdAt "1999-09-21" ;
+                 sd:createdBy sdp:Wenk_M ;
+                 dct:creator sdp:Wichmann_T ;
+                 dct:title "Der FGLM-Algorithmus: verallgemeinert und implementiert in Singular" ;
+                 dct:issued "1997"^^dct:W3CDTF ;
+                 sd:lastModified "2004-09-16" .
+
+sdb:Wu_84a a sd:Reference ;
+           sd:createdAt "1999-08-21" ;
+           sd:createdBy sdp:Graebe_HG ;
+           dct:creator sdp:Wu_WT ;
+           dct:title "Some recent advances in mechanical theorem proving of geometry" ;
+           dct:issued "1984"^^dct:W3CDTF ;
+           sd:lastModified "2004-09-16" ;
+           sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0578.68077&format=complete> .
+
+sdb:Wu_84b a sd:Reference ;
+           sd:createdAt "1999-08-21" ;
+           sd:createdBy sdp:Graebe_HG ;
+           dct:creator sdp:Wu_WT ;
+           dct:title "On the decision problem and the mechanization of theorem-proving in elementary geometry" ;
+           dct:issued "1984"^^dct:W3CDTF ;
+           sd:lastModified "2004-09-16" ;
+           sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0578.68078&format=complete>, <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0376.68057&format=complete> .
+
+<> a owl:Ontology ;
+   rdfs:label "SD Bibliographical Data" ;
+   rdfs:comment "Bibliography of the Symbolic Data Collection" .
+
+sd:Reference a owl:Class ;
+             rdfs:label "Reference to a Publication" .

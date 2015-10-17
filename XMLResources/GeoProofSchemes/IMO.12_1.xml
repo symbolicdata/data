@@ -1,0 +1,40 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> IMO/12_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, u1]</Point>
+<Point id='$c_2' type='free'>Point[u2, 0]</Point>
+<Point id='$c_3' type='free'>Point[u3, u4]</Point>
+</Points>
+<Assignments>
+<Line id='$c_4'>pp_line[$c_3, $c_0]</Line>
+<Line id='$c_5'>pp_line[$c_0, $c_02]</Line>
+<Line id='$c_6'>sym_line[$c_4, $c_5]</Line>
+<Line id='$c_7'>pp_line[$c_3, $c_0]</Line>
+<Line id='$c_8'>pp_line[$c_3, $c_02]</Line>
+<Line id='$c_9'>sym_line[$c_7, $c_8]</Line>
+<Line id='$c_10'>pp_line[$c_3, $c_0]</Line>
+<Line id='$c_11'>pp_line[$c_3, $c_03]</Line>
+<Line id='$c_12'>sym_line[$c_10, $c_11]</Line>
+<Point id='$c_13'>intersection_point[$gAB, $gAC]</Point>
+<Point id='$c_14'>intersection_point[$gAB, $gBC]</Point>
+<Line id='$c_15'>pp_line[$c_13, $c_02]</Line>
+<Line id='$c_16'>pp_line[$c_14, $c_03]</Line>
+<Point id='$c_17'>intersection_point[$c_15, $c_16]</Point>
+<Point id='$c_18'>other_incenter[$c_01, $c_13, $c_14]</Point>
+<Point id='$c_19'>other_incenter[$c_02, $c_13, $c_0]</Point>
+<Point id='$c_20'>other_incenter[$c_03, $c_0, $c_14]</Point>
+<Distance id='$c_21'>sqrdist_pl[$c_02, $gAB]</Distance>
+<Distance id='$c_22'>sqrdist_pl[$c_03, $gAB]</Distance>
+<Distance id='$c_23'>sqrdist_pl[$c_18, $gAB]</Distance>
+<Distance id='$c_24'>sqrdist_pl[$c_19, $gAB]</Distance>
+<Distance id='$c_25'>sqrdist_pl[$c_20, $gAB]</Distance>
+<Distance id='$c_26'>sqrdist_pl[$c_01, $gAB]</Distance>
+</Assignments>
+<Conclusions>
+<prop>is_equal[$c_21*$c_22*$c_23, $c_24*$c_25*$c_26]</prop>
+</Conclusions>
+</Construction>

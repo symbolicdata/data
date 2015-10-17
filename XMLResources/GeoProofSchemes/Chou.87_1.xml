@@ -1,0 +1,30 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/87_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2,x3,x4,x5,x6</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, u1]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[x1, x2]</Point>
+<Point id='$c_4' type='free'>Point[x3, x4]</Point>
+<Point id='$c_5' type='free'>Point[x5, x6]</Point>
+</Points>
+<Assignments>
+<Line id='$c_12'>pp_line[$c_2, $c_3]</Line>
+<Line id='$c_13'>pp_line[$c_4, $c_5]</Line>
+</Assignments>
+<Properties>
+<prop>eq_dist[$c_5, $c_0, $c_0, $c_1]</prop>
+<prop>eq_dist[$c_5, $c_0, $c_5, $c_1]</prop>
+<prop>eq_angle[$c_1, $c_0, $c_5, $c_3, $c_1, $c_2]</prop>
+<prop>eq_dist[$c_3, $c_1, $c_3, $c_2]</prop>
+<prop>eq_angle[$c_1, $c_0, $c_5, $c_2, $c_0, $c_4]</prop>
+<prop>eq_dist[$c_4, $c_0, $c_4, $c_2]</prop>
+</Properties>
+<Conclusions>
+<prop>is_parallel[$c_12, $c_13]</prop>
+</Conclusions>
+</Construction>

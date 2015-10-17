@@ -1,0 +1,33 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Feuerbach_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>altitude[$c_0, $c_1, $c_2]</Line>
+<Line id='$c_4'>altitude[$c_1, $c_2, $c_0]</Line>
+<Point id='$c_5'>intersection_point[$c_3, $c_4]</Point>
+<Line id='$c_6'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_7'>pp_line[$c_5, $c_2]</Line>
+<Point id='$c_8'>intersection_point[$c_6, $c_7]</Point>
+<Line id='$c_9'>p_bisector[$c_0, $c_1]</Line>
+<Line id='$c_10'>p_bisector[$c_1, $c_2]</Line>
+<Point id='$c_11'>intersection_point[$c_9, $c_10]</Point>
+<Point id='$c_12'>midpoint[$c_11, $c_5]</Point>
+<Point id='$c_13'>midpoint[$c_0, $c_1]</Point>
+<Point id='$c_14'>midpoint[$c_1, $c_2]</Point>
+<Point id='$c_16'>midpoint[$c_0, $c_1]</Point>
+<Point id='$c_17'>midpoint[$c_5, $c_2]</Point>
+<Point id='$c_19'>midpoint[$c_0, $c_1]</Point>
+</Assignments>
+<Conclusions>
+<prop>eq_dist[$c_12, $c_13, $c_12, $c_14]</prop>
+<prop>eq_dist[$c_12, $c_16, $c_12, $c_17]</prop>
+<prop>eq_dist[$c_12, $c_19, $c_12, $c_8]</prop>
+</Conclusions>
+</Construction>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> IMO/7_5 </Title>
+<prooftype> constructive, deduction </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[u1, 0]</Point>
+<Point id='$c_1' type='free'>Point[u2, 0]</Point>
+<Point id='$c_2' type='free'>Point[0, 1]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>varpoint[$c_0, $c_1, u3]</Point>
+<Line id='$c_4'>pp_line[$c_2, $c_0]</Line>
+<Point id='$c_5'>pedalpoint[$c_3, $c_4]</Point>
+<Line id='$c_6'>pp_line[$c_2, $c_1]</Line>
+<Point id='$c_7'>pedalpoint[$c_3, $c_6]</Point>
+<Point id='$c_8'>orthocenter[$c_2, $c_5, $c_7]</Point>
+<Line id='$c_9'>pp_line[$c_2, $c_0]</Line>
+<Point id='$c_10'>pedalpoint[$c_1, $c_9]</Point>
+<Line id='$c_11'>pp_line[$c_2, $c_1]</Line>
+<Point id='$c_12'>pedalpoint[$c_0, $c_11]</Point>
+</Assignments>
+<Conclusions>
+<prop>is_collinear[$c_8, $c_10, $c_12]</prop>
+</Conclusions>
+</Construction>

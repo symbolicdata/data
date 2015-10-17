@@ -1,0 +1,25 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/469_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3,u4,u5</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[u4, u5]</Point>
+</Points>
+<Assignments>
+<Line id='$c_4'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_5'>sym_point[$c_3, $c_4]</Point>
+<Line id='$c_6'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_7'>sym_point[$c_3, $c_6]</Point>
+<Angle id='$c_8'>p3_angle[$c_1, $c_0, $c_3]</Angle>
+<Line id='$c_9'>p_bisector[$c_31, $c_32]</Line>
+<Line id='$c_10'>pp_line[$c_0, $c_2]</Line>
+<Angle id='$c_11'>l2_angle[$c_9, $c_10]</Angle>
+</Assignments>
+<Conclusions>
+<prop>is_equal[$c_8, $c_11]</prop>
+</Conclusions>
+</Construction>

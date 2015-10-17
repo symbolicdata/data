@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-03-26" createdBy="graebe">
+  <vars>x,y,z</vars>
+  <basis>
+    <poly>5*x^2+8*x*y+9*y^2+4*x*z-6*y*z-z^2+8*x+2*y-7*z+5</poly>
+    <poly>8*x^2-2*x*y+3*y^2-6*x*z-7*y*z+10*z^2+3*x+10*y-8*z-4</poly>
+    <poly>10*x^2-2*x*y+9*y^2+6*x*z-y*z-2*z^2-6*x-4*y+5*z-9</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Czapor-86a</changed>
+  </ChangeLog>
+</INTPS>

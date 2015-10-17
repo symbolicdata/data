@@ -1,0 +1,31 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> PedalPointTriangle_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2,x3,x4</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[u1, 0]</Point>
+<Point id='$c_1' type='free'>Point[u2, 0]</Point>
+<Point id='$c_2' type='free'>Point[0, u3]</Point>
+<Point id='$c_3' type='free'>Point[x1, x2]</Point>
+<Point id='$c_4' type='free'>Point[x3, x4]</Point>
+</Points>
+<Assignments>
+<Line id='$c_5'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_6'>pedalpoint[$c_2, $c_5]</Point>
+<Line id='$c_7'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_8'>pp_line[$c_1, $c_3]</Line>
+<Line id='$c_11'>pp_line[$c_1, $c_2]</Line>
+<Line id='$c_12'>pp_line[$c_0, $c_4]</Line>
+</Assignments>
+<Properties>
+<prop>is_orthogonal[$c_7, $c_8]</prop>
+<prop>is_collinear[$c_0, $c_2, $c_3]</prop>
+<prop>is_orthogonal[$c_11, $c_12]</prop>
+<prop>is_collinear[$c_1, $c_2, $c_4]</prop>
+</Properties>
+<Conclusions>
+<prop>eq_angle[$c_4, $c_6, $c_2, $c_2, $c_6, $c_3]</prop>
+</Conclusions>
+</Construction>

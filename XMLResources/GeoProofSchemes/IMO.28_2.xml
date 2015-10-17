@@ -1,0 +1,29 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> IMO/28_2 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[-1, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, 0]</Point>
+</Points>
+<Assignments>
+<Circle id='$c_2'>pc_circle[$c_1, $c_0]</Circle>
+<Point id='$c_3'>circle_slider[$c_1, $c_0, u1]</Point>
+<Line id='$c_4'>pp_line[$c_0, $c_3]</Line>
+<Point id='$c_5'>circle_slider[$c_1, $c_0, u2]</Point>
+<Line id='$c_6'>pp_line[$c_0, $c_5]</Line>
+<Line id='$c_7'>sym_line[$c_0B, $c_0N]</Line>
+<Point id='$c_8'>other_cl_point[$c_0, $c_2, $c_0C]</Point>
+<Line id='$c_9'>pp_line[$c_5, $c_8]</Line>
+<Point id='$c_10'>intersection_point[$c_0N, $c_9]</Point>
+<Point id='$c_11'>pedalpoint[$c_10, $c_0B]</Point>
+<Point id='$c_12'>pedalpoint[$c_10, $c_0C]</Point>
+<Scalar id='$c_13'>triangle_area[$c_0, $c_5, $c_8]</Scalar>
+<Scalar id='$c_14'>triangle_area[$c_0, $c_11, $c_3]</Scalar>
+<Scalar id='$c_15'>triangle_area[$c_0, $c_3, $c_12]</Scalar>
+</Assignments>
+<Conclusions>
+<prop>is_equal[$c_13, $c_14+$c_15]</prop>
+</Conclusions>
+</Construction>

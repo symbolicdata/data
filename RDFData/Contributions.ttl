@@ -1,0 +1,78 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://symbolicdata.org/Data/Contributions/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
+@prefix sdt: <http://symbolicdata.org/Data/Tag/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+
+<> a owl:Ontology ;
+   rdfs:label "SD Contributions Reference" ;
+   cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+   cc:attributionURL <http://symbolicdata.org> ;
+   cc:attributionName "The SymbolicData Project" .
+
+sd:Contributor a owl:Class ;
+               rdfs:label "Contributor" .
+
+sdp:Bachmann_O a sd:Contributor ;
+               rdfs:comment "Active within SD during 1998-2001" ;
+               foaf:nick "obachman" ;
+               sd:hasContributed "Version 1: basic Perl tools, Design of Data and Records, Polynomial Systems, Html template design, Compute environment, Bibliography, Benchmark runs" .
+
+sdp:Brickenstein_M a sd:Contributor ;
+                   foaf:nick "mbrickenstein" ;
+                   sd:hasContributed "Version 2: IntPS satlib examples" .
+
+sdp:Cioffi_F a sd:Contributor ;
+             foaf:nick "cioffi" ;
+             sd:hasContributed "Version 1: IntPS/Curves" .
+
+sdp:Dengel_M a sd:Contributor ;
+             foaf:nick "mdengel" ;
+             sd:hasContributed "Version 1: Html presentation, frames and JavaScript" .
+
+sdp:Faugere_JC a sd:Contributor ;
+               foaf:nick "jcf" ;
+               sd:hasContributed "Version 1: Polynomial Systems" .
+
+sdp:Graebe_HG a sd:Contributor ;
+              rdfs:comment "Active within SD since 1998" ;
+              foaf:nick "graebe" ;
+              sd:hasContributed "Version 2: Redesign", "Version 3: Redesign, Bibliography, GeoProofSchemes, Git Repo, Wiki", "Version 1: basic Perl tools, References, Polynomial Systems, GeoProofSchemes" .
+
+sdp:Heinle_A a sd:Contributor ;
+             rdfs:comment "Active within SD since 2012" ;
+             sd:hasContributed "Version 3: FreeAlgebra, SDEval" .
+
+sdp:Hemmecke_Ralf a sd:Contributor ;
+                  rdfs:comment "Active within SD since 2002" ;
+                  sd:hasContributed "Version 3: Git usage", "Version 1: PolynomialSystems" .
+
+sdp:Hemmecke_Raymond a sd:Contributor ;
+                     sd:hasContributed "Version 1: TestSets" .
+
+sdp:Levandovskyy_V a sd:Contributor ;
+                   rdfs:comment "Active within SD since 2004" ;
+                   foaf:nick "levandovsky" ;
+                   sd:hasContributed "Data: GAlgebra, FreeAlgebra" .
+
+sdp:Schoenemann_H a sd:Contributor ;
+                  rdfs:comment "Active within SD during 1999-2004" ;
+                  foaf:nick "hannes" ;
+                  sd:hasContributed "Version 1: Perl tool Compute, Adaption of GNU time" .
+
+sdp:Steidel_S a sd:Contributor ;
+              sd:hasContributed "Version 2: Some IntPS examples" .
+
+sdp:Wenk_M a sd:Contributor ;
+           foaf:nick "wenk" ;
+           sd:hasContributed "Version 2: Some IntPS examples" .
+
+sdp:Witte_M a sd:Contributor ;
+            rdfs:comment "Active within SD during 2000-2002" ;
+            sd:hasContributed "Version 1: Chou's Geo Examples" .

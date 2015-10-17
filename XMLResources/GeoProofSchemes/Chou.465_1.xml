@@ -1,0 +1,38 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/465_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2,x3,x4,x5</vars>
+<parameters>u1,u2,u3,u4,u5,u6</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[u4, u5]</Point>
+<Point id='$c_4' type='free'>Point[x1, u6]</Point>
+</Points>
+<Assignments>
+<Point id='$c_5'>varpoint[$c_0, $c_2, x2]</Point>
+<Point id='$c_6'>varpoint[$c_0, $c_1, x3]</Point>
+<Point id='$c_7'>varpoint[$c_0, $c_1, x4]</Point>
+<Point id='$c_8'>varpoint[$c_0, $c_2, x5]</Point>
+<Line id='$c_10'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_11'>pp_line[$c_5, $c_3]</Line>
+<Line id='$c_13'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_14'>pp_line[$c_8, $c_4]</Line>
+<Line id='$c_16'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_17'>pp_line[$c_6, $c_3]</Line>
+<Line id='$c_19'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_20'>pp_line[$c_7, $c_4]</Line>
+</Assignments>
+<Properties>
+<prop>eq_angle[$c_1, $c_0, $c_3, $c_4, $c_0, $c_2]</prop>
+<prop>is_orthogonal[$c_10, $c_11]</prop>
+<prop>is_orthogonal[$c_13, $c_14]</prop>
+<prop>is_orthogonal[$c_16, $c_17]</prop>
+<prop>is_orthogonal[$c_19, $c_20]</prop>
+</Properties>
+<Conclusions>
+<prop>is_concyclic[$c_5, $c_6, $c_7, $c_8]</prop>
+</Conclusions>
+</Construction>

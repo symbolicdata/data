@@ -1,0 +1,24 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/71_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>r,u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, r]</Point>
+</Points>
+<Assignments>
+<Point id='$c_2'>circle_slider[$c_0, $c_1, u1]</Point>
+<Point id='$c_3'>circle_slider[$c_0, $c_1, u2]</Point>
+<Point id='$c_4'>circle_slider[$c_0, $c_1, u3]</Point>
+<Line id='$c_5'>altitude[$c_1, $c_2, $c_0]</Line>
+<Line id='$c_6'>pp_line[$c_3, $c_2]</Line>
+<Point id='$c_7'>intersection_point[$c_5, $c_6]</Point>
+<Line id='$c_8'>altitude[$c_1, $c_2, $c_0]</Line>
+<Line id='$c_9'>pp_line[$c_4, $c_2]</Line>
+<Point id='$c_10'>intersection_point[$c_8, $c_9]</Point>
+</Assignments>
+<Conclusions>
+<prop>is_concyclic[$c_3, $c_4, $c_7, $c_10]</prop>
+</Conclusions>
+</Construction>

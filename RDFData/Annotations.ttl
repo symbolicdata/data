@@ -1,0 +1,687 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://symbolicdata.org/Data/Annotations/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix sdb: <http://symbolicdata.org/Data/BIB/> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Amrhein_96a> a sd:Annotation ;
+                                                          rdfs:label "BIB.Amrhein_96a" ;
+                                                          sd:relatesTo sdb:Amrhein_96a, <http://symbolicdata.org/Data/Ideal/Amrhein> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Bachmann_98a> a sd:Annotation ;
+                                                           rdfs:label "BIB.Bachmann_98a" ;
+                                                           rdfs:comment "The paper [Bachmann_98a] is the primary source for the following examples:<br/>Singular.ecyclic_5<br/>Singular.ecyclic_6<br/>Singular.ecyclic_7<br/>Singular.gerhard_1<br/>Singular.gerhard_2<br/>Singular.gerhard_3<br/>Singular.rcyclic_8<br/>Singular.rcyclic_9<br/>Singular.rcyclic_10<br/>Singular.rcyclic_11<br/>Singular.rcyclic_12<br/>Singular.rcyclic_13<br/>Singular.rcyclic_14<br/>Singular.rcyclic_15<br/>Singular.rcyclic_16<br/>Singular.rcyclic_17<br/>Singular.rcyclic_18<br/>Singular.rcyclic_19<br/>Singular.schwarz_6<br/>Singular.schwarz_7<br/>Singular.schwarz_8<br/>Singular.schwarz_9<br/>Singular.schwarz_10<br/>Singular.schwarz_11<br/>Singular.ecyclic_5.Homog<br/>Singular.ecyclic_6.Homog<br/>Singular.ecyclic_7.Homog<br/>Singular.schwarz_7.Homog<br/>Singular.schwarz_8.Homog<br/>Singular.schwarz_9.Homog<br/>Singular.schwarz_10.Homog<br/>Singular.schwarz_11.Homog<br/>The paper further discusses the following examples:><br/>Singular.alex_1<br/>Singular.alex_2<br/>Singular.alex_3<br/>" ;
+                                                           sd:relatesTo sdb:Bachmann_98a, <http://symbolicdata.org/Data/Ideal/Singular.alex_1>, <http://symbolicdata.org/Data/Ideal/Singular.alex_2>, <http://symbolicdata.org/Data/Ideal/Singular.alex_3>, <http://symbolicdata.org/Data/Ideal/Singular.ecyclic_5>, <http://symbolicdata.org/Data/Ideal/Singular.ecyclic_5.Homog>, <http://symbolicdata.org/Data/Ideal/Singular.ecyclic_6>, <http://symbolicdata.org/Data/Ideal/Singular.ecyclic_6.Homog>, <http://symbolicdata.org/Data/Ideal/Singular.ecyclic_7>, <http://symbolicdata.org/Data/Ideal/Singular.ecyclic_7.Homog>, <http://symbolicdata.org/Data/Ideal/Singular.gerhard_1>, <http://symbolicdata.org/Data/Ideal/Singular.gerhard_2>, <http://symbolicdata.org/Data/Ideal/Singular.gerhard_3>, <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_10>, <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_11>, <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_12>, <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_13>, <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_14>, <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_15>, <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_16>, <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_17>, <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_18>, <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_19>, <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_8>, <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_9>, <http://symbolicdata.org/Data/Ideal/Singular.schwarz_10>, <http://symbolicdata.org/Data/Ideal/Singular.schwarz_10.Homog>, <http://symbolicdata.org/Data/Ideal/Singular.schwarz_11>, <http://symbolicdata.org/Data/Ideal/Singular.schwarz_11.Homog>, <http://symbolicdata.org/Data/Ideal/Singular.schwarz_6>, <http://symbolicdata.org/Data/Ideal/Singular.schwarz_7>, <http://symbolicdata.org/Data/Ideal/Singular.schwarz_7.Homog>, <http://symbolicdata.org/Data/Ideal/Singular.schwarz_8>, <http://symbolicdata.org/Data/Ideal/Singular.schwarz_8.Homog>, <http://symbolicdata.org/Data/Ideal/Singular.schwarz_9>, <http://symbolicdata.org/Data/Ideal/Singular.schwarz_9.Homog> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Bjoerck_91a> a sd:Annotation ;
+                                                          sd:relatesTo sdb:Bjoerck_91a, <http://symbolicdata.org/Data/Ideal/Bjoerk_8>, <http://symbolicdata.org/Data/Ideal/Cyclic_6>, <http://symbolicdata.org/Data/Ideal/Cyclic_7>, <http://symbolicdata.org/Data/Ideal/Cyclic_8> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Boege_86a> a sd:Annotation ;
+                                                        rdfs:label "BIB.Boege_86a" ;
+                                                        rdfs:comment "The paper [Boege_86a] contains a discussion of heuristics for Groebner basis computations and variable orderings on several examples.<br/><br/>It discusses the following examples: <br/>Hairer_1 as Hairer 1<br/>Hairer_2 as Hairer 2<br/>Hairer_2_1 as Hairer 2<br/>Katsura_3 as Katsura<br/>Katsura_4 as Katsura<br/>Katsura_5 as Katsura<br/>Gerdt-85 as Gerdt<br/>Gonnet-83 as Gonnet<br/>Butcher as Butcher<br/>Raksanyi as Raksanyi<br/>Rose as Rose<br/>Trinks as Trinks<br/>Trinks_1 as Small Trinks." ;
+                                                        sd:relatesTo sdb:Boege_86a, <http://symbolicdata.org/Data/Ideal/Butcher>, <http://symbolicdata.org/Data/Ideal/Gerdt-85>, <http://symbolicdata.org/Data/Ideal/Gonnet-83>, <http://symbolicdata.org/Data/Ideal/Hairer_1>, <http://symbolicdata.org/Data/Ideal/Hairer_2>, <http://symbolicdata.org/Data/Ideal/Hairer_2_1>, <http://symbolicdata.org/Data/Ideal/Katsura_3>, <http://symbolicdata.org/Data/Ideal/Katsura_4>, <http://symbolicdata.org/Data/Ideal/Katsura_5>, <http://symbolicdata.org/Data/Ideal/Raksanyi>, <http://symbolicdata.org/Data/Ideal/Rose>, <http://symbolicdata.org/Data/Ideal/Trinks>, <http://symbolicdata.org/Data/Ideal/Trinks_1> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Buchberger_87a> a sd:Annotation ;
+                                                             rdfs:label "BIB.Buchberger_87a" ;
+                                                             rdfs:comment "The paper [Buchberger_87a] is a survey paper on Bucherger's algorithm and several applications, e.g., Robot kinematics, solving polynomial systems of equations or finding implicit equations for a surface.<br/><br/>It discusses the following examples: <br/>Robot-RR in ch. 3<br/>Ellipsoid_2 in ch. 4<br/>Ellipsoid_4 in ch. 4<br/>Buchberger-87 in ch. 5<br/>FourCircles in ch. 7" ;
+                                                             sd:relatesTo sdb:Buchberger_87a, <http://symbolicdata.org/Data/Ideal/Buchberger-87>, <http://symbolicdata.org/Data/Ideal/Ellipsoid_2>, <http://symbolicdata.org/Data/Ideal/Ellipsoid_4>, <http://symbolicdata.org/Data/Ideal/FourCircles>, <http://symbolicdata.org/Data/Ideal/Robot-RR> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Canny_93a> a sd:Annotation ;
+                                                        rdfs:label "BIB.Canny_93a" ;
+                                                        rdfs:comment "The paper [Canny_93a] is the primary source for the example ZeroDim.example_5" ;
+                                                        sd:relatesTo sdb:Canny_93a, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_5> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Chou_84a> a sd:Annotation ;
+                                                       sd:relatesTo <http://symbolicdata.org/Data/GeoProofScheme/Simson_5>, <http://symbolicdata.org/Data/GeoProofScheme/Butterfly_1>, <http://symbolicdata.org/Data/GeoProofScheme/Butterfly_3>, <http://symbolicdata.org/Data/GeoProofScheme/Simson_3>, <http://symbolicdata.org/Data/GeoProofScheme/PappusPoint_1>, <http://symbolicdata.org/Data/GeoProofScheme/Pappus_1>, <http://symbolicdata.org/Data/GeoProofScheme/Parallelogram_1>, <http://symbolicdata.org/Data/GeoProofScheme/PedalPointTriangle_1>, <http://symbolicdata.org/Data/GeoProofScheme/Simson_4>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.115_2>, <http://symbolicdata.org/Data/GeoProofScheme/SimsonInverse_1>, <http://symbolicdata.org/Data/GeoProofScheme/Tri_area_1>, sdb:Chou_84a, <http://symbolicdata.org/Data/GeometryProblem/SimsonInverse>, <http://symbolicdata.org/Data/GeometryProblem/Arnon>, <http://symbolicdata.org/Data/GeometryProblem/Butterfly>, <http://symbolicdata.org/Data/GeometryProblem/Chou.115>, <http://symbolicdata.org/Data/GeometryProblem/Pappus>, <http://symbolicdata.org/Data/GeometryProblem/PappusPoint>, <http://symbolicdata.org/Data/GeometryProblem/Parallelogram>, <http://symbolicdata.org/Data/GeometryProblem/PedalPointTriangle>, <http://symbolicdata.org/Data/GeometryProblem/Simson>, <http://symbolicdata.org/Data/GeometryProblem/Tri_area> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Chou_88a> a sd:Annotation ;
+                                                       sd:relatesTo <http://symbolicdata.org/Data/GeoProofScheme/Chou.272_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.274_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.279_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.280_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.281_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.283_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.284_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.290_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.297_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.301_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.310_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.319_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.327_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.330_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.337_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.351_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.353_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.385_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.389_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.400_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.401_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.404_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.417_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.210_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.216_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.220_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.221_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.231_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.240_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.247_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.249_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.249_3>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.255_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.257_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.266_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.339_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.37_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.389_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.396_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.398_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.420_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.425_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.426_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.429_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.451_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.459_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.460_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.460_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.60_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.64_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.71_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.73_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.78_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.353_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.35_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.383_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.386_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.387_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.387_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.390_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.393_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.395_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.420_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.423_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.428_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.437_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.439_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.462_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.469_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.473_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.475_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.476_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.477_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.49_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.69_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.82_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.84_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.87_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.92_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.95_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.97_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.115_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.270_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.401_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.405_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.408_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.418_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.430_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.436_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.442_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.444_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.445_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.465_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.46_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.472_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.61_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.249_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.267_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.275_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.286_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.289_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.291_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.296_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.29_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.300_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.302_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.381_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.384_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.388_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.463_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.75_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.90_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.93_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.246_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.250_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.253_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.260_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.265_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.265_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.266_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.274_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.282_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.285_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.287_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.28_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.292_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.293_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.296_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.301_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.304_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.311_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.317_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.322_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.330_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.337_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.373_1>, sdb:Chou_88a, <http://symbolicdata.org/Data/GeoProofScheme/Chou.100_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.106_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.115_3>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.116_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.134_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.153_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.156_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.167_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.168_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.179_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.180_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.182_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.184_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.186_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.187_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.207_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.230_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.243_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.258_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.261_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.269_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.273_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.402_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.410_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.70_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.72_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.74_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.94_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.106_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.115_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.131_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.133_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.160_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.168_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.174_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.175_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.195_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.197_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.199_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.201_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.202_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.203_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.263_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.303_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.310_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.312_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.313_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.315_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.31_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.325_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.329_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.336_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.338_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.354_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.374_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.376_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.377_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.382_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.390_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.393_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.395_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.468_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.91_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.94_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.96_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.99_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.101_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.103_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.121_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.128_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.132_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.137_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.138_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.139_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.152_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.160_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.181_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.188_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.189_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.198_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.224_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.238_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.238_2>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.239_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.245_1>, <http://symbolicdata.org/Data/GeoProofScheme/Chou.494_2> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Cohn_82a> a sd:Annotation ;
+                                                       rdfs:label "BIB.Cohn_82a" ;
+                                                       rdfs:comment "The paper [BIB/Cohn_82a] is the primary source for the examples Cohn_2 and PoSSo.cohn3 and discusses also their homogenized variants." ;
+                                                       sd:relatesTo sdb:Cohn_82a, <http://symbolicdata.org/Data/Ideal/Cohn_2.Homog>, <http://symbolicdata.org/Data/Ideal/Cohn_2>, <http://symbolicdata.org/Data/Ideal/PoSSo.cohn3>, <http://symbolicdata.org/Data/Ideal/PoSSo.cohn3.Homog> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Cohn_88a> a sd:Annotation ;
+                                                       rdfs:label "BIB.Cohn_88a" ;
+                                                       rdfs:comment "The paper [Cohn_88a] discusses the examples Cohn_2 and PoSSo.cohn3" ;
+                                                       sd:relatesTo sdb:Cohn_88a, <http://symbolicdata.org/Data/Ideal/Cohn_2>, <http://symbolicdata.org/Data/Ideal/PoSSo.cohn3> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Cox_97a> a sd:Annotation ;
+                                                      rdfs:label "BIB.Cox_97a" ;
+                                                      rdfs:comment "The paper [Cox_97a] is the primary source for the examples ZeroDim.example_1" ;
+                                                      sd:relatesTo sdb:Cox_97a, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_1> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Czapor_86a> a sd:Annotation ;
+                                                         rdfs:label "BIB.Czapor_86a" ;
+                                                         rdfs:comment "The paper [Czapor_86a] discusses Groebner heuristics on several examples. It contains the following examples: <br/>Trinks as Problem 1<br/>Czapor-86a as Problem 2<br/>Katsura_5 as Problem 4<br/>Fee_3 as Problem 5 <br/>Fee_1 as Problem 5(a)<br/>Fee_2 as Problem 5(b)<br/>Czapor-86b as Problem 7<br/>Czapor-86c as Problem 9" ;
+                                                         sd:relatesTo sdb:Czapor_86a, <http://symbolicdata.org/Data/Ideal/Czapor-86a>, <http://symbolicdata.org/Data/Ideal/Czapor-86b>, <http://symbolicdata.org/Data/Ideal/Czapor-86c>, <http://symbolicdata.org/Data/Ideal/Fee_1>, <http://symbolicdata.org/Data/Ideal/Fee_2>, <http://symbolicdata.org/Data/Ideal/Fee_2.Flat>, <http://symbolicdata.org/Data/Ideal/Katsura_5>, <http://symbolicdata.org/Data/Ideal/Trinks> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Czapor_87a> a sd:Annotation ;
+                                                         rdfs:label "BIB.Czapor_87a" ;
+                                                         rdfs:comment "The paper [Czapor_87a] discusses Groebner basis computations under different heuristics. Remark that tail reduction for lex Groebner bases may be prohibitive. Some remarks on the Groebner factorizer. <br/>It contains the following examples:<br/><br/>Butcher as Problem 2<br/>Fee_3 as Problem 3<br/>Czapor-87 as Problem 4<br/>Czapor-87_1 as Problem 4a<br/>Czapor-87_2 as Problem 4b<br/>Trinks as Problem 5<br/>Katsura_5 as Problem 6<br/>Rose as Problem 7" ;
+                                                         sd:relatesTo sdb:Czapor_87a, <http://symbolicdata.org/Data/Ideal/Butcher>, <http://symbolicdata.org/Data/Ideal/Czapor-87_1>, <http://symbolicdata.org/Data/Ideal/Czapor-87_2>, <http://symbolicdata.org/Data/Ideal/Fee_1>, <http://symbolicdata.org/Data/Ideal/Fee_2.Flat>, <http://symbolicdata.org/Data/Ideal/Katsura_5>, <http://symbolicdata.org/Data/Ideal/Rose>, <http://symbolicdata.org/Data/Ideal/Trinks>, <http://symbolicdata.org/Data/Ideal/Czapor-87> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Czapor_89a> a sd:Annotation ;
+                                                         rdfs:label "BIB.Czapor_89a" ;
+                                                         rdfs:comment "The paper [Czapor_89a] discusses the following examples:<br/><br/>Trinks as Problem 1<br/>Katsura_5 as Problem 2<br/>Rose as Problem 3" ;
+                                                         sd:relatesTo sdb:Czapor_89a, <http://symbolicdata.org/Data/Ideal/Katsura_5>, <http://symbolicdata.org/Data/Ideal/Rose>, <http://symbolicdata.org/Data/Ideal/Trinks> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Czapor_91a> a sd:Annotation ;
+                                                         rdfs:label "BIB.Czapor_91a" ;
+                                                         rdfs:comment "The paper [Czapor_91a] discusses several lex. Groebner heuristics. Normal selection is usually bad. Better pair selection strategies order S-polynomials either by their degree or by their expected degree. <br/>It discusses the following examples:<br/><br/>Trinks as Problem 1<br/>Katsura_5 as Problem 2<br/>Czapor-87_2 as Problem 3<br/>Butcher as Problem 5<br/>Hairer_2 as Problem 6<br/>Hairer_2_1 as Problem 6<br/>Cyclic_5 as Problem 7<br/>Cyclic_7_1 as Problem 8<br/>Caprasse as Problem 9<br/>Fee_3 as Problem 10<br/>Katsura_6 as Problem 11<br/>Cyclic_5_1 as Problem 13<br/>Cyclic_6 as Problem 14." ;
+                                                         sd:relatesTo sdb:Czapor_91a, <http://symbolicdata.org/Data/Ideal/Butcher>, <http://symbolicdata.org/Data/Ideal/Caprasse>, <http://symbolicdata.org/Data/Ideal/Czapor-87_2>, <http://symbolicdata.org/Data/Ideal/Fee_1>, <http://symbolicdata.org/Data/Ideal/Fee_2.Flat>, <http://symbolicdata.org/Data/Ideal/Hairer_2>, <http://symbolicdata.org/Data/Ideal/Hairer_2_1>, <http://symbolicdata.org/Data/Ideal/Katsura_5>, <http://symbolicdata.org/Data/Ideal/Katsura_6>, <http://symbolicdata.org/Data/Ideal/Trinks>, <http://symbolicdata.org/Data/Ideal/Cyclic_5>, <http://symbolicdata.org/Data/Ideal/Cyclic_5_1>, <http://symbolicdata.org/Data/Ideal/Cyclic_6>, <http://symbolicdata.org/Data/Ideal/Cyclic_7_1> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Decker_98a> a sd:Annotation ;
+                                                         rdfs:label "BIB.Decker_98a" ;
+                                                         sd:relatesTo sdb:Decker_98a, <http://symbolicdata.org/Data/Ideal/Roczen>, <http://symbolicdata.org/Data/Ideal/Becker-Niermann> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Eisenbud_96a> a sd:Annotation ;
+                                                           rdfs:label "BIB.Eisenbud_96a" ;
+                                                           sd:relatesTo sdb:Eisenbud_96a, <http://symbolicdata.org/Data/Ideal/Steidel_6> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Emiris_98a> a sd:Annotation ;
+                                                         rdfs:label "BIB.Emiris_98a" ;
+                                                         rdfs:comment "The paper [Emiris_98a] is the primary source for the following examples:<br/><br/>ZeroDim.example_24<br/>ZeroDim.example_3<br/>ZeroDim.example_4<br/>" ;
+                                                         sd:relatesTo sdb:Emiris_98a, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_24>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_3>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_4> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Galligo_89a> a sd:Annotation ;
+                                                          rdfs:label "BIB.Galligo_89a" ;
+                                                          rdfs:comment "The paper [Galligo_89a] discusses the following examples:<br/><br/>Cohn_2<br/>PoSSo.cohn3" ;
+                                                          sd:relatesTo sdb:Galligo_89a, <http://symbolicdata.org/Data/Ideal/Cohn_2>, <http://symbolicdata.org/Data/Ideal/PoSSo.cohn3> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Gerdt_90a> a sd:Annotation ;
+                                                        rdfs:label "BIB.Gerdt_90a" ;
+                                                        rdfs:comment "The paper [Gerdt_90a] considers polynomial systems coming from integrability conditions of evolutionary diff. equations of KdV type. It discusses Gerdt-90 as System (6)" ;
+                                                        sd:relatesTo sdb:Gerdt_90a, <http://symbolicdata.org/Data/Ideal/Gerdt-90> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Gerdt_91a> a sd:Annotation ;
+                                                        rdfs:label "BIB.Gerdt_91a" ;
+                                                        rdfs:comment "The paper [Gerdt_91a] considers polynomial systems coming from symmetry analysis of diff. eq.  It discusses the following examples: <br/>Gerdt-85 as (4)<br/>Gerdt-91a as (6)<br/>Gerdt-91b as (8)" ;
+                                                        sd:relatesTo sdb:Gerdt_91a, <http://symbolicdata.org/Data/Ideal/Gerdt-85>, <http://symbolicdata.org/Data/Ideal/Gerdt-91a>, <http://symbolicdata.org/Data/Ideal/Gerdt-91b> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Gerdt_92a> a sd:Annotation ;
+                                                        rdfs:label "BIB.Gerdt_92a" ;
+                                                        rdfs:comment "The paper [Gerdt_92a] contains a description of the authors' Reduce package ASYS, that solves polynomial systems via Groebner methods and homogeneity analysis.  Homogeneity analysis detects torus actions on the system to reduce the number of variables. Applies these techniques to solve polynomial equations coming from diff. equations.<br/>Comparison with AlPi and Felix. It discusses the following examples:<br/><br/>Gerdt-85 as example 1<br/>Gerdt-91b as example 2<br/>Gerdt-90 as example 3<br/>Cyclic_5 as example 4<br/>Cyclic_5_1 as example 5" ;
+                                                        sd:relatesTo <http://symbolicdata.org/Data/System/AlPi>, <http://symbolicdata.org/Data/System/ASYS>, sdb:Gerdt_92a, <http://symbolicdata.org/Data/System/Felix>, <http://symbolicdata.org/Data/Ideal/Gerdt-85>, <http://symbolicdata.org/Data/Ideal/Gerdt-90>, <http://symbolicdata.org/Data/Ideal/Gerdt-91b>, <http://symbolicdata.org/Data/Ideal/Cyclic_5>, <http://symbolicdata.org/Data/Ideal/Cyclic_5_1> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Gerdt_93a> a sd:Annotation ;
+                                                        rdfs:label "BIB.Gerdt_93a" ;
+                                                        rdfs:comment "The paper [Gerdt_93a] contains a description of the ASYS package, version 2, and 18 more or less simple examples from the literature for test and comparison purposes.  Contains only run time comparisons. It discusses the following examples: <br/>Gerdt-85 as example 1<br/>Gerdt-91a as example 2<br/>Gerdt-91b as example 3<br/>Gerdt-90 as example 4<br/>Cyclic_5 as example 5<br/>Cyclic_5_1 as example 6<br/>Cyclic_7_1 as example 7<br/>Katsura_4 as example 8<br/>Katsura_5 as example 9<br/>Katsura_6 as example 10<br/>Trinks as example 11<br/>Sym1_321 as example 12<br/>Gerdt-93 as example 13<br/>Caprasse as example 14<br/>Hairer_1 as example 15<br/>Czapor-91 as example 17<br/>" ;
+                                                        sd:relatesTo sdb:Gerdt_93a, <http://symbolicdata.org/Data/System/ASYS>, <http://symbolicdata.org/Data/Ideal/Caprasse>, <http://symbolicdata.org/Data/Ideal/Czapor-91>, <http://symbolicdata.org/Data/Ideal/Gerdt-85>, <http://symbolicdata.org/Data/Ideal/Gerdt-90>, <http://symbolicdata.org/Data/Ideal/Gerdt-91a>, <http://symbolicdata.org/Data/Ideal/Gerdt-91b>, <http://symbolicdata.org/Data/Ideal/Gerdt-93>, <http://symbolicdata.org/Data/Ideal/Hairer_1>, <http://symbolicdata.org/Data/Ideal/Katsura_4>, <http://symbolicdata.org/Data/Ideal/Katsura_5>, <http://symbolicdata.org/Data/Ideal/Katsura_6>, <http://symbolicdata.org/Data/Ideal/Sym1_321>, <http://symbolicdata.org/Data/Ideal/Trinks>, <http://symbolicdata.org/Data/Ideal/Cyclic_5>, <http://symbolicdata.org/Data/Ideal/Cyclic_5_1>, <http://symbolicdata.org/Data/Ideal/Cyclic_7_1> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Giovini_91a> a sd:Annotation ;
+                                                          rdfs:label "BIB.Giovini_91a" ;
+                                                          rdfs:comment "The paper [Giovini_91a] discusses different Groebner strategies by means of examples.  Original description of the famous sugar strategy. It contains the following examples: <br/>Gerdt-85 as 3.1.<br/>Cyclic_5 as 3.2.<br/>Cyclic_7_1 as 3.3.<br/>Katsura_5 as 3.5." ;
+                                                          sd:relatesTo sdb:Giovini_91a, <http://symbolicdata.org/Data/Ideal/Gerdt-85>, <http://symbolicdata.org/Data/Ideal/Katsura_5>, <http://symbolicdata.org/Data/Ideal/Cyclic_5>, <http://symbolicdata.org/Data/Ideal/Cyclic_7_1> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Graebe_99a> a sd:Annotation ;
+                                                         rdfs:label "BIB.Graebe_99a" ;
+                                                         rdfs:comment "The paper [Graebe_99a] gives a report on some experiences with the general purpose Computer Algebra Systems (CAS) Axiom, Macsyma, Maple, Mathematica, MuPAD, and Reduce solving systems of polynomial equations and the way they present their solutions. This snapshot (taken in the spring 1996) of the current power of the different systems in a special area concentrates both on CPU-times and the quality of the output.  It discusses the following examples: <br/>Sym1_211 as Example 1<br/>Katsura_3 as Example 3<br/>Katsura_4 as Example 7<br/>Sym1_311 as Example 4<br/>Sym1_321 as Example 6<br/>Cyclic_5 as Example 5<br/>Cyclic_4a as Example 8<br/>Raksanyi as Example 9<br/>Robot-Romin as Example 10<br/>Krider as Example Kri<br/>Gerdt-85 as Example G1<br/>Gerdt-91b as Example G6<br/>Gerdt-90 as Example G7<br/>Gonnet-83_1 as Example Go" ;
+                                                         sd:relatesTo sdb:Graebe_99a, <http://symbolicdata.org/Data/Ideal/Krider>, <http://symbolicdata.org/Data/Ideal/Gerdt-85>, <http://symbolicdata.org/Data/Ideal/Gerdt-90>, <http://symbolicdata.org/Data/Ideal/Gerdt-91b>, <http://symbolicdata.org/Data/Ideal/Gonnet-83_1>, <http://symbolicdata.org/Data/Ideal/Katsura_3>, <http://symbolicdata.org/Data/Ideal/Katsura_4>, <http://symbolicdata.org/Data/Ideal/Raksanyi>, <http://symbolicdata.org/Data/Ideal/Sym1_211>, <http://symbolicdata.org/Data/Ideal/Sym1_311>, <http://symbolicdata.org/Data/Ideal/Sym1_321>, <http://symbolicdata.org/Data/Ideal/Cyclic_4>, <http://symbolicdata.org/Data/Ideal/Cyclic_5>, <http://symbolicdata.org/Data/Ideal/Robot-Romin>, <http://symbolicdata.org/Data/Ideal/Cyclic_4a> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Kahn_93a> a sd:Annotation ;
+                                                       rdfs:label "BIB.Kahn_93a" ;
+                                                       rdfs:comment "The paper [Kahn_93a] grew out of work of Gerhard Pfister and Kahn. It is the primary source of the following examples: <br/>Symmetric_5<br/>Symmetric_6" ;
+                                                       sd:relatesTo sdb:Kahn_93a, <http://symbolicdata.org/Data/Ideal/Symmetric_5>, <http://symbolicdata.org/Data/Ideal/Symmetric_6> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Kalkbrener_93a> a sd:Annotation ;
+                                                             rdfs:label "BIB.Kalkbrener_93a" ;
+                                                             rdfs:comment "The paper [Kalkbrener_93a] discusses solving polynomial systems by computing regular chains, i.e. such triangular systems $(f_1,...,f_k)$ where $lc(f_i)(a_1,...,a_j)!= 0$ on all zeroes (a_1,...,a_j) are in Z(f_1,...f_{i-1}).  Employs a mixture between pseudo division and the D5 technique. <br/>It discusses the following examples: <br/>Cyclic_4 as 3.1.<br/>Trinks as (1)<br/>Katsura_5 as (2)<br/>Rose as (3)<br/>Czapor-86a as (4)<br/>Fee_1 as (5a)<br/>Fee_2 as (5b)<br/>Fee_3 as (5c)<br/>Czapor-86b as (6)<br/>Czapor-86c_1 as (7a)<br/>Czapor-86c_2 as (7b)<br/>Czapor-86c as (7c)<br/>" ;
+                                                             sd:relatesTo sdb:Kalkbrener_93a, <http://symbolicdata.org/Data/Ideal/Czapor-86a>, <http://symbolicdata.org/Data/Ideal/Czapor-86b>, <http://symbolicdata.org/Data/Ideal/Czapor-86c>, <http://symbolicdata.org/Data/Ideal/Czapor-86c_1>, <http://symbolicdata.org/Data/Ideal/Fee_1>, <http://symbolicdata.org/Data/Ideal/Fee_2>, <http://symbolicdata.org/Data/Ideal/Fee_2.Flat>, <http://symbolicdata.org/Data/Ideal/Katsura_5>, <http://symbolicdata.org/Data/Ideal/Rose>, <http://symbolicdata.org/Data/Ideal/Trinks>, <http://symbolicdata.org/Data/Ideal/Cyclic_4>, <http://symbolicdata.org/Data/Ideal/Czapor-86c_2> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Katsura_87a> a sd:Annotation ;
+                                                          rdfs:label "BIB.Katsura_87a" ;
+                                                          rdfs:comment "The paper [Katsura_87a] is the primary source of the Katsura examples." ;
+                                                          sd:relatesTo sdb:Katsura_87a, <http://symbolicdata.org/Data/Ideal/Katsura_3>, <http://symbolicdata.org/Data/Ideal/Katsura_4>, <http://symbolicdata.org/Data/Ideal/Katsura_5>, <http://symbolicdata.org/Data/Ideal/Katsura_6>, <http://symbolicdata.org/Data/Ideal/Katsura_7>, <http://symbolicdata.org/Data/Ideal/Katsura_8>, <http://symbolicdata.org/Data/Annotation/Katsura> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Murao_93a> a sd:Annotation ;
+                                                        rdfs:label "BIB.Murao_93a" ;
+                                                        rdfs:comment "The paper [Murao_93a] is the primary source for the following examples:<br/>ZeroDim.example_11<br/>ZeroDim.example_16" ;
+                                                        sd:relatesTo sdb:Murao_93a, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_11>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_16> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Pfister_07a> a sd:Annotation ;
+                                                          rdfs:label "BIB.Pfister_07a" ;
+                                                          sd:relatesTo sdb:Pfister_07a, <http://symbolicdata.org/Data/Ideal/Steidel_1> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Sturmfels_98a> a sd:Annotation ;
+                                                            rdfs:label "BIB.Sturmfels_98a" ;
+                                                            rdfs:comment "The paper [Sturmfels_98a] is the primary source for the example ZeroDim.example_8" ;
+                                                            sd:relatesTo sdb:Sturmfels_98a, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_8> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Wang_92a> a sd:Annotation ;
+                                                       rdfs:label "BIB.Wang_92a" ;
+                                                       rdfs:comment "The paper [Wang_92a] gives a comparison of different methods for polynomial systems decomposition.  The focus is on characteristic sets with (algebraic) factorization, that yields an irreducible decomposition. Ideal bases of these components may be reconstructed via ideal quotient computations.  Run time comparisons on 20 examples. <br/>It discusses the following examples: <br/>Neff-89 as Example 2<br/>Wang-89 as Example 3<br/>Wang-92a as Example 4<br/>FourCircles as Example 5<br/>Discriminant_4 as Example 6<br/>Bronstein-86 as Example 7<br/>Robot-RR as Example 8<br/>Wang-92c as Example 9<br/>Discriminant_5 as Example 10<br/>Geometry.Brahmagupta as Example 11<br/>Butcher as Example 12<br/>Wang-92e as Example 13<br/>Wang-92f as Example 14<br/>Hairer_2 as Example 15<br/>Wu-90 as Problem 16" ;
+                                                       sd:relatesTo sdb:Wang_92a, <http://symbolicdata.org/Data/Ideal/Butcher>, <http://symbolicdata.org/Data/Ideal/Discriminant_5>, <http://symbolicdata.org/Data/Ideal/Discriminant_4>, <http://symbolicdata.org/Data/Ideal/Hairer_2>, <http://symbolicdata.org/Data/Ideal/Bronstein-86>, <http://symbolicdata.org/Data/Ideal/FourCircles>, <http://symbolicdata.org/Data/Ideal/Geometry.Brahmagupta>, <http://symbolicdata.org/Data/Ideal/Neff-89>, <http://symbolicdata.org/Data/Ideal/Robot-RR>, <http://symbolicdata.org/Data/Ideal/Wang-89>, <http://symbolicdata.org/Data/Ideal/Wang-92a>, <http://symbolicdata.org/Data/Ideal/Wang-92c>, <http://symbolicdata.org/Data/Ideal/Wang-92e>, <http://symbolicdata.org/Data/Ideal/Wang-92f>, <http://symbolicdata.org/Data/Ideal/Wu-90> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Wang_92b> a sd:Annotation ;
+                                                       rdfs:label "BIB.Wang_92b" ;
+                                                       rdfs:comment "The paper [Wang_92b] dscribes a parallel version of procedures implemented in the author's Maple package charseries based on disk remote connected Maple sessions on a workstation cluster.  Reports a speedup of 5..10 for 12 processors. <br/>It discusses the following examples: <br/>Gerdt-85 as Problem 3<br/>Katsura_5 as Problem 4<br/>Wu-90 as Problem 6<br/>Butcher as Problem 7<br/>Hairer_2 as Problem 8" ;
+                                                       sd:relatesTo sdb:Wang_92b, <http://symbolicdata.org/Data/Ideal/Butcher>, <http://symbolicdata.org/Data/Ideal/Gerdt-85>, <http://symbolicdata.org/Data/Ideal/Hairer_2>, <http://symbolicdata.org/Data/Ideal/Katsura_5>, <http://symbolicdata.org/Data/Ideal/Wu-90> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Wang_92c> a sd:Annotation ;
+                                                       rdfs:label "BIB.Wang_92c" ;
+                                                       rdfs:comment "The paper [Wang_92c] discusses several strategies to speed up the computation of characteristic series using weakened versions of basic sets: top reduced, full reduced, quasi-basic sets. Best results are reported with weak basic sets. Examples: <br/>Wu-90 as Problem 3<br/>Fee_2 as Example 17<br/>TD-89 as Problem 29<br/>Vermeer as Example 47<br/>Discriminant_5 as Problem 50" ;
+                                                       sd:relatesTo sdb:Wang_92c, <http://symbolicdata.org/Data/Ideal/Discriminant_5>, <http://symbolicdata.org/Data/Ideal/Fee_2>, <http://symbolicdata.org/Data/Ideal/TD-89>, <http://symbolicdata.org/Data/Ideal/Vermeer>, <http://symbolicdata.org/Data/Ideal/Wu-90> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Wang_93a> a sd:Annotation ;
+                                                       rdfs:label "BIB.Wang_93a" ;
+                                                       rdfs:comment "The paper [Wang_93a] discusses the following examples:<br/>Wu-90 as Problem 3<br/>Fee_2 as Example 17<br/>TD-89 as Example 29<br/>Vermeer as Example 47<br/>" ;
+                                                       sd:relatesTo sdb:Wang_93a, <http://symbolicdata.org/Data/Ideal/Fee_2>, <http://symbolicdata.org/Data/Ideal/TD-89>, <http://symbolicdata.org/Data/Ideal/Vermeer>, <http://symbolicdata.org/Data/Ideal/Wu-90> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Wang_95a> a sd:Annotation ;
+                                                       rdfs:label "BIB.Wang_95a" ;
+                                                       rdfs:comment "The paper [Wang_95a] gives an overview on Wang's decomposition methods based on pseudo division.  Considers examples from geometry theorem proving, finding implicit equations for curves and surface, computing singular loci, computing prime decompositions, robot kinematics. <br/>It discusses the following examples: <br/>Buchberger-87 as 6.3. Ex. A<br/>Vermeer as 6.3. Ex. B<br/>Wang-91_1 as 7.3. Ex. A<br/>Discriminant_4 as 7.3. Ex. C<br/>Neff-89 as 8.3. Ex. A<br/>Butcher as 8.3. Ex. B<br/>Robot-RR as 9.3. Ex. A<br/>FourCircles as 7.3. Ex. B" ;
+                                                       sd:relatesTo sdb:Wang_95a, <http://symbolicdata.org/Data/GeometryProblem/Arnon>, <http://symbolicdata.org/Data/GeometryProblem/Biarc>, <http://symbolicdata.org/Data/GeometryProblem/Morley>, <http://symbolicdata.org/Data/GeometryProblem/PedoeInequality>, <http://symbolicdata.org/Data/GeometryProblem/Brahmagupta>, <http://symbolicdata.org/Data/GeometryProblem/Heron>, <http://symbolicdata.org/Data/Ideal/Butcher>, <http://symbolicdata.org/Data/Ideal/Buchberger-87>, <http://symbolicdata.org/Data/Ideal/Discriminant_4>, <http://symbolicdata.org/Data/Ideal/Vermeer>, <http://symbolicdata.org/Data/Ideal/FourCircles>, <http://symbolicdata.org/Data/Ideal/Neff-89>, <http://symbolicdata.org/Data/Ideal/Robot-RR>, <http://symbolicdata.org/Data/Ideal/Wang-91_1>, <http://symbolicdata.org/Data/GeoProofScheme/Brahmagupta>, <http://symbolicdata.org/Data/GeoProofScheme/Heron_1>, <http://symbolicdata.org/Data/GeoProofScheme/Morley_1>, <http://symbolicdata.org/Data/GeoProofScheme/Arnon>, <http://symbolicdata.org/Data/GeoProofScheme/Biarc> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Wang_95b> a sd:Annotation ;
+                                                       rdfs:label "BIB.Wang_95b" ;
+                                                       rdfs:comment "The paper [Wang_95b] gives an introduction to characteristic series and a detailed description of the implementation of the author's Maple package charseries: weak basic sets, modified pseudo remainder, dividing out constraint factors, variable order heuristics, examples and benchmarks. <br/>It discusses the following examples: <br/>Wang-89 as Problem 1<br/>Butcher as Problem 2<br/>Wang-92e as Problem 3<br/>Bronstein-86 as Problem 4" ;
+                                                       sd:relatesTo sdb:Wang_95b, <http://symbolicdata.org/Data/Ideal/Butcher>, <http://symbolicdata.org/Data/Ideal/Bronstein-86>, <http://symbolicdata.org/Data/Ideal/Wang-89>, <http://symbolicdata.org/Data/Ideal/Wang-92e> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Wang_95c> a sd:Annotation ;
+                                                       sd:relatesTo sdb:Wang_95c, <http://symbolicdata.org/Data/GeometryProblem/FermatPoint>, <http://symbolicdata.org/Data/GeometryProblem/Morley>, <http://symbolicdata.org/Data/GeometryProblem/Thebault> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Wang_96a> a sd:Annotation ;
+                                                       rdfs:label "BIB.Wang_96a" ;
+                                                       rdfs:comment "The paper [Wang_96a] gives a short description of the procedures charser and triser as they are implemented in Wang's Maple package charseries, and their modified versions. It contains run time comparisons with 50 examples. <br/>It discusses the following examples: <br/>Wu-90 as Example 3<br/>Robot-RR as Example 5<br/>Ellipsoid_2 as Example 6<br/>Ellipsoid_4 as Example 7<br/>Buchberger-87 as Example 8<br/>FourCircles as Example 9<br/>Czapor-86a as Example 15<br/>Fee_1 as Example 16<br/>Fee_2 as Example 17<br/>Czapor-86b as Example 18<br/>Czapor-86c as Example 19<br/>TD-89 as Example 29<br/>Hairer_1 as Example 32<br/>Hairer_2 as Example 33<br/>Butcher as Example 35<br/>Katsura_3 as Example 37<br/>Katsura_4 as Example 38<br/>Katsura_5 as Example 39<br/>Katsura_6 as Example 40<br/>Gerdt-85 as Example 41<br/>Raksanyi as Example 42<br/>Rose as Example 43<br/>Gonnet-83 as Example 44<br/>Trinks as Example 45<br/>Trinks_1 as Example 46<br/>Vermeer as Example 47<br/>Wang-92a as Example 48<br/>Discriminant_4 as Example 49<br/>Discriminant_5 as Example 50" ;
+                                                       sd:relatesTo sdb:Wang_96a, <http://symbolicdata.org/Data/Ideal/Butcher>, <http://symbolicdata.org/Data/Ideal/Czapor-86a>, <http://symbolicdata.org/Data/Ideal/Czapor-86b>, <http://symbolicdata.org/Data/Ideal/Czapor-86c>, <http://symbolicdata.org/Data/Ideal/Discriminant_5>, <http://symbolicdata.org/Data/Ideal/Buchberger-87>, <http://symbolicdata.org/Data/Ideal/Discriminant_4>, <http://symbolicdata.org/Data/Ideal/Ellipsoid_2>, <http://symbolicdata.org/Data/Ideal/Ellipsoid_4>, <http://symbolicdata.org/Data/Ideal/Fee_1>, <http://symbolicdata.org/Data/Ideal/Fee_2>, <http://symbolicdata.org/Data/Ideal/Gerdt-85>, <http://symbolicdata.org/Data/Ideal/Gonnet-83>, <http://symbolicdata.org/Data/Ideal/Hairer_1>, <http://symbolicdata.org/Data/Ideal/Hairer_2>, <http://symbolicdata.org/Data/Ideal/Katsura_3>, <http://symbolicdata.org/Data/Ideal/Katsura_4>, <http://symbolicdata.org/Data/Ideal/Katsura_5>, <http://symbolicdata.org/Data/Ideal/Katsura_6>, <http://symbolicdata.org/Data/Ideal/Raksanyi>, <http://symbolicdata.org/Data/Ideal/Rose>, <http://symbolicdata.org/Data/Ideal/TD-89>, <http://symbolicdata.org/Data/Ideal/Trinks>, <http://symbolicdata.org/Data/Ideal/Trinks_1>, <http://symbolicdata.org/Data/Ideal/Vermeer>, <http://symbolicdata.org/Data/Ideal/FourCircles>, <http://symbolicdata.org/Data/Ideal/Robot-RR>, <http://symbolicdata.org/Data/Ideal/Wang-92a>, <http://symbolicdata.org/Data/Ideal/Wu-90> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Wang_98a> a sd:Annotation ;
+                                                       rdfs:label "BIB.Wang_98a" ;
+                                                       rdfs:comment "The paper [Wang_98a] considers characteristic series computations that use subresultant PRS. <br/>It discusses the following examples: <br/>Bronstein-86 as Example 2<br/>Noonburg-89 as Example 3<br/>Vermeer_1 as Example 4" ;
+                                                       sd:relatesTo sdb:Wang_98a, <http://symbolicdata.org/Data/Ideal/Noonburg-89>, <http://symbolicdata.org/Data/Ideal/Vermeer_1>, <http://symbolicdata.org/Data/Ideal/Bronstein-86> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Wichmann_97a> a sd:Annotation ;
+                                                           rdfs:label "BIB.Wichmann_97a" ;
+                                                           rdfs:comment "The paper [Wichmann_97a] is the primary source for the following examples:<br/>ZeroDim.example_26<br/>ZeroDim.example_27<br/>ZeroDim.example_28<br/>ZeroDim.example_29<br/>ZeroDim.example_30<br/>ZeroDim.example_31<br/>ZeroDim.example_33<br/>ZeroDim.example_51<br/>ZeroDim.example_54<br/>ZeroDim.example_57<br/>ZeroDim.example_58<br/>ZeroDim.example_59<br/>ZeroDim.example_60<br/>ZeroDim.example_61<br/>ZeroDim.example_62" ;
+                                                           sd:relatesTo sdb:Wichmann_97a, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_26>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_27>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_28>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_29>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_30>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_31>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_33>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_51>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_54>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_57>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_58>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_59>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_60>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_61>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_62> .
+
+<http://symbolicdata.org/Data/Annotation/BIB.Wu_84b> a sd:Annotation ;
+                                                     sd:relatesTo sdb:Wu_84b, <http://symbolicdata.org/Data/GeometryProblem/FeuerbachTangency>, <http://symbolicdata.org/Data/GeometryProblem/Simson> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.curve10_20> a sd:Annotation ;
+                                                            rdfs:label "Curves.curve10_20" ;
+                                                            rdfs:comment "A representation of a generic smooth curve of degree 20 in $P^{10}$. It has been generated by the function rand() of the language C.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                            sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.curve10_20.Generators>, <http://symbolicdata.org/Data/Ideal/Curves.curve10_20> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.curve10_30> a sd:Annotation ;
+                                                            rdfs:label "Curves.curve10_30" ;
+                                                            rdfs:comment "A representation of a generic smooth curve of degree 30 in $P^{10}$. It has been generated by the functio rand() of the language C.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                            sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.curve10_30.Generators>, <http://symbolicdata.org/Data/Ideal/Curves.curve10_30> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.curve15_20> a sd:Annotation ;
+                                                            rdfs:label "Curves.curve15_20" ;
+                                                            rdfs:comment "A representation of a generic smooth curve of degree 20 in $P^{15}. It has been generated by the function rand() of the language C.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                            sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.curve15_20.Generators>, <http://symbolicdata.org/Data/Ideal/Curves.curve15_20> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.curve15_30> a sd:Annotation ;
+                                                            rdfs:label "Curves.curve15_30" ;
+                                                            rdfs:comment "A representation of a generic smooth curve of degree 30 in $P^{15}. It has been generated by the function rand() of the language C.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                            sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.curve15_30.Generators>, <http://symbolicdata.org/Data/Ideal/Curves.curve15_30> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.curve3_20> a sd:Annotation ;
+                                                           rdfs:label "Curves.curve3_20" ;
+                                                           rdfs:comment "A representation of a generic smooth curve of degree 20 in $P^3$. It has been generated by the function rand() of the language C.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                           sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.curve3_20.Generators>, <http://symbolicdata.org/Data/Ideal/Curves.curve3_20> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.curve3_30> a sd:Annotation ;
+                                                           rdfs:label "Curves.curve3_30" ;
+                                                           rdfs:comment "A representation of a generic smooth curve of degree 30 in $P^3$. It has been generated by the function rand() of the language C.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                           sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.curve3_30>, <http://symbolicdata.org/Data/Ideal/Curves.curve3_30.Generators> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.curve4_20> a sd:Annotation ;
+                                                           rdfs:label "Curves.curve4_20" ;
+                                                           rdfs:comment "A representation of a generic smooth curve of degree 20 in $P^4$. It has been generated by the function rand() of the language C.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                           sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.curve4_20>, <http://symbolicdata.org/Data/Ideal/Curves.curve4_20.Generators> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.curve4_30> a sd:Annotation ;
+                                                           rdfs:label "Curves.curve4_30" ;
+                                                           rdfs:comment "A representation of a generic smooth curve of degree 30 in $P^4$. It has been generated by the function rand() of the language C.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                           sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.curve4_30>, <http://symbolicdata.org/Data/Ideal/Curves.curve4_30.Generators> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.curve5_20> a sd:Annotation ;
+                                                           rdfs:label "Curves.curve5_20" ;
+                                                           rdfs:comment "A representation of a generic smooth curve of degree 20 in $P^5$. It has been generated by the function rand() of the language C.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                           sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.curve5_20>, <http://symbolicdata.org/Data/Ideal/Curves.curve5_20.Generators> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.curve5_30> a sd:Annotation ;
+                                                           rdfs:label "Curves.curve5_30" ;
+                                                           rdfs:comment "A representation of a generic smooth curve of degree 30 in $P^5$. It has been generated by the function rand() of the language C.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                           sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.curve5_30>, <http://symbolicdata.org/Data/Ideal/Curves.curve5_30.Generators> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.curve6_20> a sd:Annotation ;
+                                                           rdfs:label "Curves.curve6_20" ;
+                                                           rdfs:comment "A representation of a generic smooth curve of degree 20 in $P^6$. It has been generated by the function rand() of the language C.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                           sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.curve6_20>, <http://symbolicdata.org/Data/Ideal/Curves.curve6_20.Generators> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.curve6_30> a sd:Annotation ;
+                                                           rdfs:label "Curves.curve6_30" ;
+                                                           rdfs:comment "A representation of a generic smooth curve of degree 30 in $P^6$. It has been generated by the function rand() of the language C.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                           sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.curve6_30>, <http://symbolicdata.org/Data/Ideal/Curves.curve6_30.Generators> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.curve7_20> a sd:Annotation ;
+                                                           rdfs:label "Curves.curve7_20" ;
+                                                           rdfs:comment "A representation of a generic smooth curve of degree 20 in $P^7$. It has been generated by the function rand() of the language C.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                           sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.curve7_20>, <http://symbolicdata.org/Data/Ideal/Curves.curve7_20.Generators> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.curve7_30> a sd:Annotation ;
+                                                           rdfs:label "Curves.curve7_30" ;
+                                                           rdfs:comment "A representation of a generic smooth curve of degree 30 in $P^7$. It has been generated by the function rand() of the language C.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                           sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.curve7_30>, <http://symbolicdata.org/Data/Ideal/Curves.curve7_30.Generators> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.curve8_20> a sd:Annotation ;
+                                                           rdfs:label "Curves.curve8_20" ;
+                                                           rdfs:comment "A representation of a generic smooth curve of degree 20 in $P^8$. It has been generated by the function rand() of the language C.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                           sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.curve8_20>, <http://symbolicdata.org/Data/Ideal/Curves.curve8_20.Generators> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.curve8_30> a sd:Annotation ;
+                                                           rdfs:label "Curves.curve8_30" ;
+                                                           rdfs:comment "A representation of a generic smooth curve of degree 30 in $P^8$. It has been generated by the function rand() of the language C.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                           sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.curve8_30>, <http://symbolicdata.org/Data/Ideal/Curves.curve8_30.Generators> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.curve9_20> a sd:Annotation ;
+                                                           rdfs:label "Curves.curve9_20" ;
+                                                           rdfs:comment "A representation of a generic smooth curve of degree 20 in $P^9$. It is generated by the function rand() of the language C.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                           sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.curve9_20>, <http://symbolicdata.org/Data/Ideal/Curves.curve9_20.Generators> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.curve9_30> a sd:Annotation ;
+                                                           rdfs:label "Curves.curve9_30" ;
+                                                           rdfs:comment "A representation of a generic smooth curve of degree 30 in $P^9$.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                           sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.curve9_30>, <http://symbolicdata.org/Data/Ideal/Curves.curve9_30.Generators> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.scurve7_18> a sd:Annotation ;
+                                                            rdfs:label "Curves.scurve7_18" ;
+                                                            rdfs:comment "A representation of a singular rational curve of degree 18 in $P^7$.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                            sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.scurve7_18.Generators>, <http://symbolicdata.org/Data/Ideal/Curves.scurve7_18> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.scurve7_20> a sd:Annotation ;
+                                                            rdfs:label "Curves.scurve7_20" ;
+                                                            rdfs:comment "A representation of a singular rational curve of degree 20 in $P^7$.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                            sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.scurve7_20.Generators>, <http://symbolicdata.org/Data/Ideal/Curves.scurve7_20> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.scurve7_22> a sd:Annotation ;
+                                                            rdfs:label "Curves.scurve7_22" ;
+                                                            rdfs:comment "A representation of a singular rational curve of degree 22 in $P^7$.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                            sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.scurve7_22.Generators>, <http://symbolicdata.org/Data/Ideal/Curves.scurve7_22> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.scurve7_24> a sd:Annotation ;
+                                                            rdfs:label "Curves.scurve7_24" ;
+                                                            rdfs:comment "A representation of a singular rational curve of degree 24 in $P^7$.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                            sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.scurve7_24>, <http://symbolicdata.org/Data/Ideal/Curves.scurve7_24.Generators> .
+
+<http://symbolicdata.org/Data/Annotation/Curves.scurve7_26> a sd:Annotation ;
+                                                            rdfs:label "Curves.scurve7_26" ;
+                                                            rdfs:comment "A representation of a singular rational curve of degree 26 in $P^7$.\\par The given polynomials generate the implicit representation over GF(31991)." ;
+                                                            sd:relatesTo <http://symbolicdata.org/Data/Ideal/Curves.scurve7_26>, <http://symbolicdata.org/Data/Ideal/Curves.scurve7_26.Generators> .
+
+<http://symbolicdata.org/Data/Annotation/Cyclic> a sd:Annotation ;
+                                                 rdfs:comment "This is the famous family of systems with $C_n$ symmetry first considered by Arnborg, Björk, and Fröberg. For a survey see the paper by Backelin/Fröberg in the proceedings of ISSAC'91.", "It can be generated by the following Maple code: cyclic:=proc(n) local i,j,k,polys,vars; vars:=[seq(x.i,i=1..n)]; polys:=[mul(x.i,i=1..n)-1, seq(add(mul(x.((k mod n)+1), k=j..(j+i)), j=0..(n-1)), i=0..n-2)]; end; ", "The paper [Bjoerck_91a] considers cyclic $n$ roots for the first time." ;
+                                                 sd:relatesTo sdb:Bjoerck_91a, <http://symbolicdata.org/Data/Ideal/Cyclic_8.Homog>, <http://symbolicdata.org/Data/Ideal/Cyclic_9.Homog>, <http://symbolicdata.org/Data/Ideal/Cyclic_9>, <http://symbolicdata.org/Data/Ideal/Cyclic_4>, <http://symbolicdata.org/Data/Ideal/Cyclic_4.Homog>, <http://symbolicdata.org/Data/Ideal/Cyclic_5>, <http://symbolicdata.org/Data/Ideal/Cyclic_5.Homog>, <http://symbolicdata.org/Data/Ideal/Cyclic_5_1>, <http://symbolicdata.org/Data/Ideal/Cyclic_5_1.Homog>, <http://symbolicdata.org/Data/Ideal/Cyclic_6>, <http://symbolicdata.org/Data/Ideal/Cyclic_6.Homog>, <http://symbolicdata.org/Data/Ideal/Cyclic_7>, <http://symbolicdata.org/Data/Ideal/Cyclic_7.Homog>, <http://symbolicdata.org/Data/Ideal/Cyclic_7_1>, <http://symbolicdata.org/Data/Ideal/Cyclic_7_1.Homog>, <http://symbolicdata.org/Data/Ideal/Cyclic_8> ;
+                                                 sd:hasKeywords "discrete symmetries" .
+
+<http://symbolicdata.org/Data/Annotation/DiscrC2> a sd:Annotation ;
+                                                  rdfs:label "DiscrC2" ;
+                                                  rdfs:comment """Discriminant of general curve of degree 2
+Generated by Singular with:
+poly G = a*x^2+b*x*y+c*y^2+d*x+e*y+f+g*x^3+h*x^2*y+i*x*y^2+j*y^3;
+ideal J = diff(G,x),diff(G,y);
+ideal I = J,G;""" ;
+                                                  sd:relatesTo <http://symbolicdata.org/Data/Ideal/DiscrC2> .
+
+<http://symbolicdata.org/Data/Annotation/Discriminant> a sd:Annotation ;
+                                                       rdfs:label "Discriminant" ;
+                                                       rdfs:comment """
+It can be generated by the following Reduce code:
+ p:=x^n + for i:=0:(n-1) sum mkid(a,i)*x^i;
+ d:=resultant(p,df(p,x),x);
+ polys:=d . for i:=0:(n-1) collect df(d,mkid(a,i));
+ vars:=for i:=0:(n-1) collect mkid(a,i);
+""", "Origin: Find the singular locus of the discriminant of a generic (univariate) monic polynomial $p(x)$ of degree $n$. The discriminant determines polynomials with mutliple zeroes and can be computetd as the resultant $d$ of $p$ and its derivative with respect to $x$. The singular locus consists of those parameter values where $d$ and its partial derivatives vanish." ;
+                                                       sd:relatesTo <http://symbolicdata.org/Data/Ideal/Discriminant_5>, <http://symbolicdata.org/Data/Ideal/Discriminant_4> ;
+                                                       sd:hasKeywords "singular locus" .
+
+<http://symbolicdata.org/Data/Annotation/Ellipsoid> a sd:Annotation ;
+                                                    rdfs:label "Ellipsoid" ;
+                                                    rdfs:comment "First discussed in [Buchberger_87a]", "In the general equations $[(x/a)^k+(y/b)^k+(z/c)^k-1, a^k*(x-ma)+k*x^(k-1)*l, b^k*(y-mb)+k*y^(k-1)*l,c^k*(z-mc)+k*z^(k-1)*l]$ $k$ is the super ellipsoid's exponent and $(x,y,z)$ the point on the super ellipsoid closest to $M$.", "Task: Compute the distance of the point $M=(ma,mb,mc)$ from a super ellipsoid with half axes $a,b,c$ with the Lagrange multiplier method." ;
+                                                    sd:relatesTo <http://symbolicdata.org/Data/Ideal/Ellipsoid_-2>, <http://symbolicdata.org/Data/Ideal/Ellipsoid_2>, <http://symbolicdata.org/Data/Ideal/Ellipsoid_4> ;
+                                                    sd:hasKeywords "geometry problem" .
+
+<http://symbolicdata.org/Data/Annotation/FourCircles> a sd:Annotation ;
+                                                      rdfs:label "FourCircles" ;
+                                                      rdfs:comment "First discussed in [Buchberger_87a]", """
+It can be generated by the following Maple code:
+ p:=(x^2+y^2-1)*((x-1)^2+y^2-1)*((x+1)^2+y^2-1)*(x^2+(y-1)^2-1);
+ polys:=map(expand,[p,diff(p,x),diff(p,y)]);
+""", "Compute the intersection points of four unit circles with centers at $(0,0), (1,0), (-1,0)$ and $(0,1)$ as the singular locus of the product of their defining equations. Note that the origin has multiplicity greater than 1." ;
+                                                      sd:relatesTo <http://symbolicdata.org/Data/Ideal/FourCircles>, <http://symbolicdata.org/Data/Ideal/FourCircles_1> ;
+                                                      sd:hasKeywords "singular locus", "geometry problem" .
+
+<http://symbolicdata.org/Data/Annotation/Frisco> a sd:Annotation ;
+                                                 rdfs:label "The Frisco Test Suite" ;
+                                                 rdfs:comment "A framework for integrated Symbolic/Numeric Computation: FRISCO (ESPRIT/LTR 21.024)" ;
+                                                 sd:relatesTo <http://symbolicdata.org/Data/Ideal/Cassou_1>, <http://symbolicdata.org/Data/Ideal/FourBodyProblem>, <http://symbolicdata.org/Data/Ideal/Reimer_5>, sdb:Bini_96a .
+
+<http://symbolicdata.org/Data/Annotation/Gerdt-KdV> a sd:Annotation ;
+                                                    rdfs:label "Gerdt-KdV" ;
+                                                    rdfs:comment "Polynomial systems that arize as integrability conditions of coupled KdV-like systems." ;
+                                                    sd:relatesTo <http://symbolicdata.org/Data/Ideal/Gerdt-85>, <http://symbolicdata.org/Data/Ideal/Gerdt-90>, <http://symbolicdata.org/Data/Ideal/Gerdt-91a>, <http://symbolicdata.org/Data/Ideal/Gerdt-91b> ;
+                                                    sd:hasKeywords "differential equations", "integrability conditions" .
+
+<http://symbolicdata.org/Data/Annotation/IdealOfCurves> a sd:Annotation ;
+                                                        rdfs:label "IdealOfCurves" ;
+                                                        rdfs:comment "Task: Compute the first linear syzygies for the ideal $I(C)$ of a curve $C$ in $P^r$ of degree $d$ given parametrically as $C=[(p_0(u,v), ... , p_r(u,v)) : u,v in K]$ with $r+1$ homogeneous polynomials $p_i(u,v)$ of degree $d$, after the computation of minimal generators of $I(C)$." ;
+                                                        sd:relatesTo sdp:Cioffi_F, <http://symbolicdata.org/Data/Ideal/Curves.curve15_20>, <http://symbolicdata.org/Data/Ideal/Curves.curve3_30>, <http://symbolicdata.org/Data/Ideal/Curves.curve4_20>, <http://symbolicdata.org/Data/Ideal/Curves.scurve7_24>, <http://symbolicdata.org/Data/Ideal/Curves.scurve7_26>, <http://symbolicdata.org/Data/Ideal/Curves.curve3_20>, <http://symbolicdata.org/Data/Ideal/Curves.scurve7_22>, <http://symbolicdata.org/Data/Ideal/Curves.curve10_20>, <http://symbolicdata.org/Data/Ideal/Curves.curve10_30>, <http://symbolicdata.org/Data/Ideal/Curves.curve15_30>, <http://symbolicdata.org/Data/Ideal/Curves.curve4_30>, <http://symbolicdata.org/Data/Ideal/Curves.curve5_20>, <http://symbolicdata.org/Data/Ideal/Curves.curve5_30>, <http://symbolicdata.org/Data/Ideal/Curves.curve6_20>, <http://symbolicdata.org/Data/Ideal/Curves.curve6_30>, <http://symbolicdata.org/Data/Ideal/Curves.curve7_20>, <http://symbolicdata.org/Data/Ideal/Curves.curve7_30>, <http://symbolicdata.org/Data/Ideal/Curves.curve8_20>, <http://symbolicdata.org/Data/Ideal/Curves.curve8_30>, <http://symbolicdata.org/Data/Ideal/Curves.curve9_20>, <http://symbolicdata.org/Data/Ideal/Curves.curve9_30>, <http://symbolicdata.org/Data/Ideal/Curves.scurve7_18>, <http://symbolicdata.org/Data/Ideal/Curves.scurve7_20> ;
+                                                        sd:hasKeywords "elimination problem", "first linear syzygies", "curves" .
+
+<http://symbolicdata.org/Data/Annotation/Katsura> a sd:Annotation ;
+                                                  rdfs:comment "Problem origin: [Katsura_87a]", "Task: find the real roots 0 &lt;= xi &lt;= 1" ;
+                                                  sd:relatesTo sdb:Katsura_87a, <http://symbolicdata.org/Data/Ideal/Katsura_8.Homog>, <http://symbolicdata.org/Data/Ideal/Katsura_3>, <http://symbolicdata.org/Data/Ideal/Katsura_3.Homog>, <http://symbolicdata.org/Data/Ideal/Katsura_4>, <http://symbolicdata.org/Data/Ideal/Katsura_4.Homog>, <http://symbolicdata.org/Data/Ideal/Katsura_5>, <http://symbolicdata.org/Data/Ideal/Katsura_5.Homog>, <http://symbolicdata.org/Data/Ideal/Katsura_6>, <http://symbolicdata.org/Data/Ideal/Katsura_6.Homog>, <http://symbolicdata.org/Data/Ideal/Katsura_7>, <http://symbolicdata.org/Data/Ideal/Katsura_7.Homog>, <http://symbolicdata.org/Data/Ideal/Katsura_8>, <http://symbolicdata.org/Data/Ideal/PoSSo.rkat10>, <http://symbolicdata.org/Data/Ideal/PoSSo.rkat11>, <http://symbolicdata.org/Data/Ideal/PoSSo.rkat12>, <http://symbolicdata.org/Data/Ideal/PoSSo.rkat13>, <http://symbolicdata.org/Data/Ideal/PoSSo.rkat9> .
+
+<http://symbolicdata.org/Data/Annotation/Krider> a sd:Annotation ;
+                                                 rdfs:label "Krider" ;
+                                                 rdfs:comment "supplied by Elizabeth S. Krider on 1996-06-01 to news:math.symbolic" ;
+                                                 sd:relatesTo sdp:Krider_ES, <http://symbolicdata.org/Data/Ideal/Krider> .
+
+<http://symbolicdata.org/Data/Annotation/Paris.berth> a sd:Annotation ;
+                                                      rdfs:label "Paris.berth" ;
+                                                      rdfs:comment """Communicated by Matthias Berth, 1999-01-21: 
+
+ I have a lot of elimination problems, tried Singular on one of them -- 10
+ days computing time, 500 MB memory and no result so far.
+ 
+ The problems are of the form
+ 
+ p_1^n_1 A + p_2^n_2 = 0
+ p_3^n_3 B + p_4^n_4 = 0 etc.
+ 
+ where the p_i are polynomials in x_1,...,x_n and one wants to eliminate
+ the x_i to get a relation between A, B etc. (I just thought you might be
+ interested in challenging problems, solving  problems of the above class
+ would have some effect on solving ordinary differential equations).""" ;
+                                                      sd:relatesTo sdp:Berth_M, <http://symbolicdata.org/Data/Ideal/Paris.berth> .
+
+<http://symbolicdata.org/Data/Annotation/Paris.fronville> a sd:Annotation ;
+                                                          rdfs:label "Paris.fronville" ;
+                                                          rdfs:comment "Background: XVI Hilbert Problem", "Submitted by Alexandra Fronville (Universite Paris 6)", "Task: Find all the solutions" ;
+                                                          sd:relatesTo sdp:Fronville_A, <http://symbolicdata.org/Data/Ideal/Paris.fronville> .
+
+<http://symbolicdata.org/Data/Annotation/Paris.hawes> a sd:Annotation ;
+                                                      rdfs:label "Paris.hawes3" ;
+                                                      rdfs:comment "Task: eliminate x,y1,z1,y2,z2 from the polynomials ignoring the trivial solutions of y1=y2 and z1=z2.", "added in the list by D. Lazard", "Submitted by W. Hawes" ;
+                                                      sd:relatesTo sdp:Hawes_W, sdp:Lazard_D, <http://symbolicdata.org/Data/Ideal/Paris.hawes>, <http://symbolicdata.org/Data/Ideal/Paris.hawes3> .
+
+<http://symbolicdata.org/Data/Annotation/Paris.ilias13> a sd:Annotation ;
+                                                        rdfs:label "Paris.ilias13" ;
+                                                        rdfs:comment "N-Body Problem, equations see D. Lazard and I. Kotsireas", "Task: Compute the real roots of the system" ;
+                                                        sd:relatesTo <http://symbolicdata.org/Data/Ideal/Paris.ilias13> .
+
+<http://symbolicdata.org/Data/Annotation/PoSSo> a sd:Annotation ;
+                                                rdfs:label "The PoSSo Test Suite" ;
+                                                rdfs:comment "The PoSSo Test Suite of Polynomial Systems Solving Challanges was collected during the EU supported PoSSo Project. It is the primary source for the following examples:<br/>ZeroDim.example_40<br/>ZeroDim.example_41<br/>ZeroDim.example_42<br/>ZeroDim.example_43<br/>ZeroDim.example_45<br/>ZeroDim.example_46" ;
+                                                sd:relatesTo <http://symbolicdata.org/Data/Ideal/ZeroDim.example_40>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_41>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_42>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_43>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_45>, <http://symbolicdata.org/Data/Ideal/ZeroDim.example_46>, sdb:Bini_96a .
+
+<http://symbolicdata.org/Data/Annotation/PoSSo.cohn3> a sd:Annotation ;
+                                                      rdfs:label "PoSSo.cohn3" ;
+                                                      rdfs:comment "NOTE from I. Verschelde: From the 213 solution paths, 110 converged to finite solutions. There are eight highly singular solutons with zero components that are probably not isolated.", "cohn3 in the PoSSo test suite", "Modular equations for special algebraic number fields" ;
+                                                      sd:relatesTo <http://symbolicdata.org/Data/Ideal/PoSSo.cohn3> .
+
+<http://symbolicdata.org/Data/Annotation/Robot-Fabrice24> a sd:Annotation ;
+                                                          rdfs:comment "Origin: Innocenti + Rouillier + Lazard + Faugere", "Tasks: Compute the number of real roots, Compute approximated solutions of real roots" ;
+                                                          sd:relatesTo <http://symbolicdata.org/Data/Ideal/Robot-Fabrice24> .
+
+<http://symbolicdata.org/Data/Annotation/Robot-RR> a sd:Annotation ;
+                                                   rdfs:label "Robot-RR" ;
+                                                   rdfs:comment "Origin: Inverse robot kinematics of an RR 'toy robot' in [Wang_95a]" ;
+                                                   sd:relatesTo sdb:Wang_95a, <http://symbolicdata.org/Data/Ideal/Robot-RR> .
+
+<http://symbolicdata.org/Data/Annotation/Robot-Romin> a sd:Annotation ;
+                                                      rdfs:label "Robot-Romin" ;
+                                                      rdfs:comment "The ROMIN robot described in [Gonzalez-Lopez, Recio, 1993]" ;
+                                                      sd:relatesTo <http://symbolicdata.org/Data/Ideal/Robot-Romin> .
+
+<http://symbolicdata.org/Data/Annotation/Robot-jcf26> a sd:Annotation ;
+                                                      rdfs:comment "Origin: Innocenti + Rouillier + Lazard + Faugere", "Tasks: Compute the number of real roots, Compute approximated solutions of real roots" ;
+                                                      sd:relatesTo <http://symbolicdata.org/Data/Ideal/Robot-jcf26> .
+
+<http://symbolicdata.org/Data/Annotation/Rose> a sd:Annotation ;
+                                               rdfs:label "Rose" ;
+                                               rdfs:comment "The original example was published in [Boege_86a]" ;
+                                               sd:relatesTo <http://symbolicdata.org/Data/Ideal/Rose>, <http://symbolicdata.org/Data/Ideal/Rose_1> .
+
+<http://symbolicdata.org/Data/Annotation/Schiele> a sd:Annotation ;
+                                                  rdfs:label "Schiele" ;
+                                                  rdfs:comment "Task: Find solutions for the angles sin=s_i, cos=c_i, i=1,2 depending on p." ;
+                                                  sd:relatesTo <http://symbolicdata.org/Data/Ideal/Schiele>, <http://symbolicdata.org/Data/Ideal/Schiele_1>, <http://symbolicdata.org/Data/Ideal/Schiele_1_1> .
+
+<http://symbolicdata.org/Data/Annotation/SignalTheory> a sd:Annotation ;
+                                                       rdfs:label "Examples from Filter Bank Design" ;
+                                                       rdfs:comment "This system is patented by CCETT (French Telecom) and Univ. Rennes", "Task: Find all the complex solutions of modulus 1", "Joint work of JC Faugere, F. Moreau de Saint Martin and F. Rouillier" ;
+                                                       sd:relatesTo sdp:Rouillier_F, sdp:Faugere_JC, <http://symbolicdata.org/Data/Ideal/SignalTheory.f633>, <http://symbolicdata.org/Data/Ideal/SignalTheory.f744>, <http://symbolicdata.org/Data/Ideal/SignalTheory.f855>, <http://symbolicdata.org/Data/Ideal/SignalTheory.f966> .
+
+<http://symbolicdata.org/Data/Annotation/Sym1> a sd:Annotation ;
+                                               rdfs:label "Sym1" ;
+                                               rdfs:comment "A family of systems generated by $[x^m + y^n + z^p - 3, x^p + y^m + z^n - 3, x^n + y^p + z^m - 3]$ with symmetry group $C_3$ and common zero $(1,1,1)$ with $m\\gt n\\ge p\\ge 1$.\\par The ideal generated by these polynomials has dimension 0 and multiplicity $m^3$, since the polynomials form a deglex. Groebner basis." ;
+                                               sd:relatesTo <http://symbolicdata.org/Data/Ideal/Sym1_211>, <http://symbolicdata.org/Data/Ideal/Sym1_311>, <http://symbolicdata.org/Data/Ideal/Sym1_321>, <http://symbolicdata.org/Data/Ideal/Sym1_411>, <http://symbolicdata.org/Data/Ideal/Sym1_431> ;
+                                               sd:hasKeywords "discrete symmetries" .
+
+<http://symbolicdata.org/Data/Annotation/Sym2> a sd:Annotation ;
+                                               rdfs:label "Sym2" ;
+                                               rdfs:comment "A family of systems generated by $[x^n + y*z - 2, y^n + z*x - 2, z^n + x*y - 2]$ with symmetry group $C_3$ and common zero $(1,1,1)$ with $n\\gt 2$.\\par The ideal generated by these polynomials has dimension 0 and multiplicity $n^3$, since the polynomials form a deglex. Groebner basis." ;
+                                               sd:relatesTo <http://symbolicdata.org/Data/Ideal/Sym2_3> ;
+                                               sd:hasKeywords "discrete symmetries" .
+
+<http://symbolicdata.org/Data/Annotation/Sym3> a sd:Annotation ;
+                                               rdfs:label "Sym3" ;
+                                               rdfs:comment "A family of systems generated by $[x+y*z^n-2, y+z*x^n-2, z+x*y^n-2]$ with symmetry group $C_3$ and common zero $(1,1,1)$ with $n\\geq 2$.\\par The ideal generated by these polynomials seems always to have dimension 0. No obvoius formula for the multiplicity is known." ;
+                                               sd:relatesTo <http://symbolicdata.org/Data/Ideal/Sym3_2>, <http://symbolicdata.org/Data/Ideal/Sym3_3>, <http://symbolicdata.org/Data/Ideal/Sym3_4>, <http://symbolicdata.org/Data/Ideal/Sym3_5> ;
+                                               sd:hasKeywords "discrete symmetries" .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.A443> a sd:Annotation ;
+                                                       rdfs:label "TestSets.A443" ;
+                                                       rdfs:comment "A missing case in the Ohsugi-Hibi classification of normal monoids derived from contingency tables (4x4x3). Example from the Normaliz Challenges." ;
+                                                       sd:relatesTo <http://symbolicdata.org/Data/TestSet/A443>, sdb:Bruns_11a, sdb:Ohsugi_06a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.A543> a sd:Annotation ;
+                                                       rdfs:label "TestSet.A543" ;
+                                                       rdfs:comment "A missing case in the Ohsugi-Hibi classification of normal monoids derived from contingency tables (5x4x3). Example from the Normaliz Challenges." ;
+                                                       sd:relatesTo <http://symbolicdata.org/Data/TestSet/A543>, sdb:Bruns_11a, sdb:Ohsugi_06a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.A553> a sd:Annotation ;
+                                                       rdfs:label "TestSet.A553" ;
+                                                       rdfs:comment "A missing case in the Ohsugi-Hibi classification of normal monoids derived from contingency tables (5x5x3). Example from the Normaliz Challenges." ;
+                                                       sd:relatesTo <http://symbolicdata.org/Data/TestSet/A553>, sdb:Bruns_11a, sdb:Ohsugi_06a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.A643> a sd:Annotation ;
+                                                       rdfs:label "TestSet.A643" ;
+                                                       rdfs:comment "The first nonnormal case (6x4x3) derived from the Ohsugi-Hibi classification of normal monoids derived from contingency tables. Example from the Normaliz Challenges." ;
+                                                       sd:relatesTo <http://symbolicdata.org/Data/TestSet/A643>, sdb:Bruns_11a, sdb:Ohsugi_06a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.Condorcet> a sd:Annotation ;
+                                                            rdfs:label "TestSet.Condorcet" ;
+                                                            rdfs:comment "Model of combinatorial voting theory: the Condorcet paradox. Example from the Normaliz Challenges." ;
+                                                            sd:relatesTo <http://symbolicdata.org/Data/TestSet/Condorcet>, sdb:Bruns_13a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.ICPnonUHC> a sd:Annotation ;
+                                                            rdfs:label "TestSet.ICPnonUHC" ;
+                                                            rdfs:comment "An example of a lattice polytope satisfying ICP, but without unimodular cover. Example from the Normaliz Challenges." ;
+                                                            sd:relatesTo <http://symbolicdata.org/Data/TestSet/ICPnonUHC>, sdb:Bruns_07a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.NonMormal3polytop> a sd:Annotation ;
+                                                                    rdfs:label "TestSet.NonMormal3polytop" ;
+                                                                    rdfs:comment "A nonnormal rectangular simplex of dimension 3. Example from the Normaliz Challenges." ;
+                                                                    sd:relatesTo <http://symbolicdata.org/Data/TestSet/NonNormal3polytope>, sdb:Bruns_99a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.VeryampleNonNormal> a sd:Annotation ;
+                                                                     rdfs:label "TestSet.VeryampleNonNormal" ;
+                                                                     rdfs:comment "An example of a non-normal very ample lattice polytope. Example from the Normaliz Challenges." ;
+                                                                     sd:relatesTo <http://symbolicdata.org/Data/TestSet/VeryampleNonNormal>, sdb:Bruns_09a, sdb:Bruns_99b, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.bo5> a sd:Annotation ;
+                                                      rdfs:label "TestSet.bo5" ;
+                                                      rdfs:comment "The ascending model of statistical ranking for <i>n = 5</i>. Example from the Normaliz Challenges." ;
+                                                      sd:relatesTo <http://symbolicdata.org/Data/TestSet/bo5>, sdb:Sturmfels_12a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.dim3tight> a sd:Annotation ;
+                                                            rdfs:label "TestSet.dim3tight" ;
+                                                            rdfs:comment "A 3-dimensional tight cone [BG, Section 2.D]. Example from the Normaliz Challenges." ;
+                                                            sd:relatesTo <http://symbolicdata.org/Data/TestSet/dim3tight>, sdb:Bruns_09a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph10_001_k5free> a sd:Annotation ;
+                                                                     rdfs:label "TestSet.graph10_001_k5free" ;
+                                                                     rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs. Example from the Normaliz Challenges." ;
+                                                                     sd:relatesTo sdb:Ohsugi_10a, sdb:Soeger_14a, <http://symbolicdata.org/Data/TestSet/graph10_001_k5free>, sdb:Bruns_11a, sdb:Sturmfels_08a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph10_002_k5free> a sd:Annotation ;
+                                                                     rdfs:label "TestSet.graph10_002_k5free" ;
+                                                                     rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs. Example from the Normaliz Challenges." ;
+                                                                     sd:relatesTo sdb:Ohsugi_10a, sdb:Soeger_14a, <http://symbolicdata.org/Data/TestSet/graph10_002_k5free>, sdb:Bruns_11a, sdb:Sturmfels_08a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph10_003_k5free> a sd:Annotation ;
+                                                                     rdfs:label "TestSet.graph10_003_k5free" ;
+                                                                     rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs. Example from the Normaliz Challenges." ;
+                                                                     sd:relatesTo sdb:Ohsugi_10a, sdb:Soeger_14a, <http://symbolicdata.org/Data/TestSet/graph10_003_k5free>, sdb:Bruns_11a, sdb:Sturmfels_08a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph10_004_k5free> a sd:Annotation ;
+                                                                     rdfs:label "TestSet.graph10_004_k5free" ;
+                                                                     rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs. Example from the Normaliz Challenges." ;
+                                                                     sd:relatesTo sdb:Ohsugi_10a, sdb:Soeger_14a, <http://symbolicdata.org/Data/TestSet/graph10_004_k5free>, sdb:Bruns_11a, sdb:Sturmfels_08a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph10_005_k5free> a sd:Annotation ;
+                                                                     rdfs:label "TestSet.graph10_005_k5free" ;
+                                                                     rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs. Example from the Normaliz Challenges." ;
+                                                                     sd:relatesTo sdb:Ohsugi_10a, sdb:Soeger_14a, <http://symbolicdata.org/Data/TestSet/graph10_005_k5free>, sdb:Bruns_11a, sdb:Sturmfels_08a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph10_006_k5free> a sd:Annotation ;
+                                                                     rdfs:label "TestSet.graph10_006_k5free" ;
+                                                                     rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs. Example from the Normaliz Challenges." ;
+                                                                     sd:relatesTo sdb:Ohsugi_10a, sdb:Soeger_14a, <http://symbolicdata.org/Data/TestSet/graph10_006_k5free>, sdb:Bruns_11a, sdb:Sturmfels_08a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph10_007_k5free> a sd:Annotation ;
+                                                                     rdfs:label "TestSet.graph10_007_k5free" ;
+                                                                     rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs. Example from the Normaliz Challenges." ;
+                                                                     sd:relatesTo sdb:Ohsugi_10a, sdb:Soeger_14a, <http://symbolicdata.org/Data/TestSet/graph10_007_k5free>, sdb:Bruns_11a, sdb:Sturmfels_08a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph10_008_k5free> a sd:Annotation ;
+                                                                     rdfs:label "TestSet.graph10_008_k5free" ;
+                                                                     rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs. Example from the Normaliz Challenges." ;
+                                                                     sd:relatesTo sdb:Ohsugi_10a, sdb:Soeger_14a, <http://symbolicdata.org/Data/TestSet/graph10_008_k5free>, sdb:Bruns_11a, sdb:Sturmfels_08a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph10_009_k5free> a sd:Annotation ;
+                                                                     rdfs:label "TestSet.graph10_009_k5free" ;
+                                                                     rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs. Example from the Normaliz Challenges." ;
+                                                                     sd:relatesTo sdb:Ohsugi_10a, sdb:Soeger_14a, <http://symbolicdata.org/Data/TestSet/graph10_009_k5free>, sdb:Bruns_11a, sdb:Sturmfels_08a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph10_012_k5free> a sd:Annotation ;
+                                                                     rdfs:label "TestSet.graph10_012_k5free" ;
+                                                                     rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs. Example from the Normaliz Challenges." ;
+                                                                     sd:relatesTo sdb:Ohsugi_10a, sdb:Soeger_14a, <http://symbolicdata.org/Data/TestSet/graph10_012_k5free>, sdb:Bruns_11a, sdb:Sturmfels_08a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph6_001_k5free> a sd:Annotation ;
+                                                                    rdfs:label "TestSet.graph6_001_k5free" ;
+                                                                    rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs. Example from the Normaliz Challenges." ;
+                                                                    sd:relatesTo sdb:Ohsugi_10a, sdb:Soeger_14a, <http://symbolicdata.org/Data/TestSet/graph6_001_k5free>, sdb:Bruns_11a, sdb:Sturmfels_08a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph7_001_k5free> a sd:Annotation ;
+                                                                    rdfs:label "TestSet.graph7_001_k5free" ;
+                                                                    rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs. Example from the Normaliz Challenges." ;
+                                                                    sd:relatesTo sdb:Ohsugi_10a, sdb:Soeger_14a, <http://symbolicdata.org/Data/TestSet/graph7_001_k5free>, sdb:Bruns_11a, sdb:Sturmfels_08a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph8_001_k5free> a sd:Annotation ;
+                                                                    rdfs:label "TestSet.graph8_001_k5free" ;
+                                                                    rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs. Example from the Normaliz Challenges." ;
+                                                                    sd:relatesTo sdb:Ohsugi_10a, sdb:Soeger_14a, <http://symbolicdata.org/Data/TestSet/graph8_001_k5free>, sdb:Bruns_11a, sdb:Sturmfels_08a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph8_002_k5free> a sd:Annotation ;
+                                                                    rdfs:label "TestSet.graph8_002_k5free" ;
+                                                                    rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs. Example from the Normaliz Challenges." ;
+                                                                    sd:relatesTo sdb:Ohsugi_10a, sdb:Soeger_14a, <http://symbolicdata.org/Data/TestSet/graph8_002_k5free>, sdb:Bruns_11a, sdb:Sturmfels_08a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph9_001_k5free> a sd:Annotation ;
+                                                                    rdfs:label "TestSet.graph9_001_k5free" ;
+                                                                    rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs. Example from the Normaliz Challenges." ;
+                                                                    sd:relatesTo sdb:Ohsugi_10a, sdb:Soeger_14a, <http://symbolicdata.org/Data/TestSet/graph9_001_k5free>, sdb:Bruns_11a, sdb:Sturmfels_08a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph9_002_k5free> a sd:Annotation ;
+                                                                    rdfs:label "TestSet.graph9_002_k5free" ;
+                                                                    rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs. Example from the Normaliz Challenges." ;
+                                                                    sd:relatesTo sdb:Ohsugi_10a, sdb:Soeger_14a, <http://symbolicdata.org/Data/TestSet/graph9_002_k5free>, sdb:Bruns_11a, sdb:Sturmfels_08a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph9_003_k5free> a sd:Annotation ;
+                                                                    rdfs:label "TestSet.graph9_003_k5free" ;
+                                                                    rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs. Example from the Normaliz Challenges." ;
+                                                                    sd:relatesTo sdb:Ohsugi_10a, sdb:Soeger_14a, <http://symbolicdata.org/Data/TestSet/graph9_003_k5free>, sdb:Bruns_11a, sdb:Sturmfels_08a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph9_004_k5free> a sd:Annotation ;
+                                                                    rdfs:label "TestSet.graph9_004_k5free" ;
+                                                                    rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs. Example from the Normaliz Challenges." ;
+                                                                    sd:relatesTo sdb:Ohsugi_10a, sdb:Soeger_14a, <http://symbolicdata.org/Data/TestSet/graph9_004_k5free>, sdb:Bruns_11a, sdb:Sturmfels_08a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.lo6> a sd:Annotation ;
+                                                      rdfs:label "TestSet.lo6" ;
+                                                      rdfs:comment "The inversion model of statistical ranking for <i>n = 6</i>. Example from the Normaliz Challenges." ;
+                                                      sd:relatesTo <http://symbolicdata.org/Data/TestSet/lo6>, sdb:Sturmfels_12a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.nonICP> a sd:Annotation ;
+                                                         rdfs:label "TestSet.nonICP" ;
+                                                         rdfs:comment "An example of a normal lattice polytope that has no unimodular cover. Example from the Normaliz Challenges." ;
+                                                         sd:relatesTo <http://symbolicdata.org/Data/TestSet/nonICP>, sdb:Bruns_09a, sdb:Bruns_99c, sdb:Bruns_99d, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.pluralityCondorcetEff> a sd:Annotation ;
+                                                                        rdfs:label "TestSet.pluralityCondorcetEff" ;
+                                                                        rdfs:comment "Model of combinatorial voting theory: the Condorcet efficiency of plurality voting. Example from the Normaliz Challenges." ;
+                                                                        sd:relatesTo <http://symbolicdata.org/Data/TestSet/pluralityCondorcetEff>, sdb:Bruns_13a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.pluralityVsCutoff> a sd:Annotation ;
+                                                                    rdfs:label "TestSet.pluralityVsCutoff" ;
+                                                                    rdfs:comment "Model of combinatorial voting theory: the plurality voting vs. cutoff for 4 candidates. Example from the Normaliz Challenges." ;
+                                                                    sd:relatesTo <http://symbolicdata.org/Data/TestSet/pluralityVsCutoff>, sdb:Bruns_13a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.semigraphoid5> a sd:Annotation ;
+                                                                rdfs:label "TestSet.semigraphoid5" ;
+                                                                rdfs:comment "The semi-graphoid for <i>N = 5</i>. Example from the Normaliz Challenges." ;
+                                                                sd:relatesTo <http://symbolicdata.org/Data/TestSet/semigraphoid5>, sdb:Bruns_11a, sdb:Hemmecke_08a, <http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> .
+
+<http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> a sd:Annotation ;
+                                                                      rdfs:label "Challenges from the Normaliz homepage" ;
+                                                                      rdfs:comment "A list of 10 challenges from the Normaliz homepage" ;
+                                                                      sd:hasURL <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallenge.html> ;
+                                                                      sd:relatesTo sdb:Ohsugi_10a, sdb:Soeger_14a, <http://symbolicdata.org/Data/TestSet/A443>, <http://symbolicdata.org/Data/TestSet/A543>, <http://symbolicdata.org/Data/TestSet/A553>, <http://symbolicdata.org/Data/TestSet/A643>, <http://symbolicdata.org/Data/TestSet/Condorcet>, <http://symbolicdata.org/Data/TestSet/ICPnonUHC>, <http://symbolicdata.org/Data/TestSet/NonNormal3polytope>, <http://symbolicdata.org/Data/TestSet/VeryampleNonNormal>, <http://symbolicdata.org/Data/TestSet/bo5>, <http://symbolicdata.org/Data/TestSet/dim3tight>, <http://symbolicdata.org/Data/TestSet/graph8_001_k5free>, <http://symbolicdata.org/Data/TestSet/lo6>, <http://symbolicdata.org/Data/TestSet/pluralityCondorcetEff>, <http://symbolicdata.org/Data/TestSet/pluralityVsCutoff>, <http://symbolicdata.org/Data/TestSet/semigraphoid5>, <http://symbolicdata.org/Data/TestSet/graph6_001_k5free>, <http://symbolicdata.org/Data/TestSet/graph7_001_k5free>, <http://symbolicdata.org/Data/TestSet/graph8_002_k5free>, <http://symbolicdata.org/Data/TestSet/graph9_001_k5free>, <http://symbolicdata.org/Data/TestSet/graph9_002_k5free>, <http://symbolicdata.org/Data/TestSet/graph9_003_k5free>, <http://symbolicdata.org/Data/TestSet/graph9_004_k5free>, <http://symbolicdata.org/Data/TestSet/graph10_001_k5free>, <http://symbolicdata.org/Data/TestSet/graph10_002_k5free>, <http://symbolicdata.org/Data/TestSet/graph10_003_k5free>, <http://symbolicdata.org/Data/TestSet/graph10_004_k5free>, <http://symbolicdata.org/Data/TestSet/graph10_005_k5free>, <http://symbolicdata.org/Data/TestSet/graph10_006_k5free>, <http://symbolicdata.org/Data/TestSet/graph10_007_k5free>, <http://symbolicdata.org/Data/TestSet/graph10_008_k5free>, <http://symbolicdata.org/Data/TestSet/graph10_009_k5free>, <http://symbolicdata.org/Data/TestSet/graph10_012_k5free>, <http://symbolicdata.org/Data/TestSet/nonICP>, sdb:Bruns_07a, sdb:Bruns_09a, sdb:Bruns_99a, sdb:Bruns_99b, sdb:Bruns_99c, sdb:Bruns_99d, sdb:Bruns_11a, sdb:Bruns_13a, sdb:Hemmecke_08a, sdb:Ohsugi_06a, sdb:Sturmfels_12a, sdb:Sturmfels_08a .
+
+<http://symbolicdata.org/Data/Annotation/Verschelde.chemkin> a sd:Annotation ;
+                                                             rdfs:comment "Converted by JC Faugere", "In the original file some coeffs are floats c1 = 5.656854249492381 c2 = 0.888888888888889 c3 = 2.828427124746190", "a stationary chemical kinetics problem" ;
+                                                             sd:relatesTo sdb:Melenk_89a, <http://symbolicdata.org/Data/Ideal/Verschelde.chemkin> .
+
+<http://symbolicdata.org/Data/Annotation/Verschelde.eco> a sd:Annotation ;
+                                                         rdfs:comment "A 6-dimensional economics root count problem", "See BIB/Morgan_87a p. 148" ;
+                                                         sd:relatesTo sdb:Morgan_87a, <http://symbolicdata.org/Data/Ideal/Verschelde.eco6>, <http://symbolicdata.org/Data/Ideal/Verschelde.eco7> .
+
+<http://symbolicdata.org/Data/Annotation/Verschelde.gametwo> a sd:Annotation ;
+                                                             rdfs:comment "A totally mixed Nash equilibria for 5 players with two pure strategies", "The index set I = { 1, 2, .., n } identifies people invited to attend a party. The economical relevance is for instance a group of fishermen who have to exploit a certain site. The mathematical problem is then to decide the probabilities of attendance or frequency of participation, the variables are probabilities p1, p2, .., pn, all in [0, 1]" ;
+                                                             sd:relatesTo <http://symbolicdata.org/Data/Ideal/Verschelde.gametwo5>, <http://symbolicdata.org/Data/Ideal/Verschelde.gametwo6>, <http://symbolicdata.org/Data/Ideal/Verschelde.gametwo7>, sdb:McLennan_97a, sdb:McKelvey_97a, sdb:Kreps_82a .
+
+<http://symbolicdata.org/Data/Annotation/Verschelde.noon> a sd:Annotation ;
+                                                          rdfs:comment "A neural network modeled by an adaptive Lotka-Volterra system for different $n$.  The coefficients have been chosen so that full permutation symmetry was obtained. The parameter c = 1.1." ;
+                                                          sd:relatesTo sdb:Gatermann_90a, sdb:Noonburg_88a, <http://symbolicdata.org/Data/Ideal/Verschelde.noon3>, <http://symbolicdata.org/Data/Ideal/Verschelde.noon4>, <http://symbolicdata.org/Data/Ideal/Verschelde.noon5>, <http://symbolicdata.org/Data/Ideal/Verschelde.noon6>, <http://symbolicdata.org/Data/Ideal/Verschelde.noon7>, <http://symbolicdata.org/Data/Ideal/Verschelde.noon8>, <http://symbolicdata.org/Data/Ideal/Verschelde.noon9> .
+
+<http://symbolicdata.org/Data/Annotation/Verschelde.redeco> a sd:Annotation ;
+                                                            rdfs:comment "An n-dimensional economics problem with u.n=1/x.n for different n" ;
+                                                            sd:relatesTo sdb:Morgan_87a, <http://symbolicdata.org/Data/Ideal/Verschelde.redeco7>, <http://symbolicdata.org/Data/Ideal/Verschelde.redeco8> .
+
+<http://symbolicdata.org/Data/Annotation/Verschelde.virasoro> a sd:Annotation ;
+                                                              rdfs:comment "the construction of Virasoro algebras" ;
+                                                              sd:relatesTo sdb:Schrans_90a, <http://symbolicdata.org/Data/Ideal/Verschelde.virasoro> .
+
+<> a owl:Ontology ;
+   rdfs:label "SD Annotations" .
+
+sd:Annotation a owl:Class ;
+              rdfs:label "Annotation" .

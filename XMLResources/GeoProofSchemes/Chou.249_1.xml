@@ -1,0 +1,40 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/249_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, u1]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[x2, x1]</Point>
+</Points>
+<Assignments>
+<Point id='$c_4'>midpoint[$c_0, $c_1]</Point>
+<Point id='$c_5'>midpoint[$c_3, $c_1]</Point>
+<Point id='$c_6'>midpoint[$c_3, $c_0]</Point>
+<Line id='$c_7'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_8'>pedalpoint[$c_2, $c_7]</Point>
+<Line id='$c_9'>pp_line[$c_3, $c_1]</Line>
+<Point id='$c_10'>pedalpoint[$c_2, $c_9]</Point>
+<Line id='$c_11'>pp_line[$c_3, $c_0]</Line>
+<Point id='$c_12'>pedalpoint[$c_2, $c_11]</Point>
+<Line id='$c_13'>pp_line[$c_3, $c_2]</Line>
+<Point id='$c_14'>sym_point[$c_8, $c_13]</Point>
+<Line id='$c_15'>pp_line[$c_0, $c_2]</Line>
+<Point id='$c_16'>sym_point[$c_10, $c_15]</Point>
+<Line id='$c_17'>pp_line[$c_1, $c_2]</Line>
+<Point id='$c_18'>sym_point[$c_12, $c_17]</Point>
+<Line id='$c_21'>pp_line[$c_4, $c_14]</Line>
+<Line id='$c_22'>pp_line[$c_5, $c_16]</Line>
+<Line id='$c_23'>pp_line[$c_6, $c_18]</Line>
+</Assignments>
+<Properties>
+<prop>on_bisector[$c_2, $c_3, $c_0, $c_1]</prop>
+<prop>on_bisector[$c_2, $c_3, $c_1, $c_0]</prop>
+</Properties>
+<Conclusions>
+<prop>is_concurrent[$c_21, $c_22, $c_23]</prop>
+</Conclusions>
+</Construction>

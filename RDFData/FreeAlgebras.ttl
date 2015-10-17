@@ -1,0 +1,680 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+
+sd:FreeAlgebra a owl:Class ; rdfs:label "Free Algebra" .
+
+<http://symbolicdata.org/Data/FreeAlgebras/>
+    a owl:Ontology ;
+   cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+   cc:attributionURL <http://symbolicdata.org> ;
+   cc:attributionName "The SymbolicData Project";
+    rdfs:label "SD Free Algebra Systems Data" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/2tri_4var10deg> a sd:FreeAlgebra ;
+    sd:createdAt "2010" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "x1,x2,x3,x4" ;
+    sd:uptoDegree "10" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/2tri_4var10deg.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/2tri_4var7deg> a sd:FreeAlgebra ;
+    sd:createdAt "2010" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "x1,x2,x3,x4" ;
+    sd:uptoDegree "7" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/2tri_4var7deg.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/4nilp5s-d8> a sd:FreeAlgebra ;
+    sd:createdAt "2010" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:uptoDegree "8" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/4nilp5s-d8.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/braid3-11> a sd:FreeAlgebra ;
+    sd:createdAt "2010" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "x,y,z" ;
+    sd:uptoDegree "11" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/braid3-11.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/braid4-11> a sd:FreeAlgebra ;
+    sd:createdAt "2010" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "x,y,z" ;
+    sd:uptoDegree "11" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/braid4-11.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/c_4_1_7a> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "x4,x3,x2,x1" ;
+    sd:uptoDegree "7" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/c_4_1_7a.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/c_4_1_7_W> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "x4,x3,x2,x1" ;
+    sd:uptoDegree "7" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/c_4_1_7_W.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/c_4_1_7> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "x4,x3,x2,x1" ;
+    sd:uptoDegree "7" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/c_4_1_7.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/C_4_1_7_X> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "x4,x3,x2,x1" ;
+    sd:uptoDegree "5" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/C_4_1_7_X.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/c_4_1_7_Y> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "x4,x3,x2,x1" ;
+    sd:uptoDegree "7" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/c_4_1_7_Y.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/c_4_1_7_Z> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "x4,x3,x2,x1" ;
+    sd:uptoDegree "7" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/c_4_1_7_Z.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h10> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "16" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h10.xml> ;
+    rdfs:comment "havas10" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h11> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "16" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h11.xml> ;
+    rdfs:comment "havas11" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h12> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h12.xml> ;
+    rdfs:comment "havas12" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h13> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "17" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h13.xml> ;
+    rdfs:comment "havas13" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h14> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h14.xml> ;
+    rdfs:comment "havas14" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h15> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h15.xml> ;
+    rdfs:comment "havas15" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h16> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h16.xml> ;
+    rdfs:comment "havas16" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h17> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h17.xml> ;
+    rdfs:comment "havas17" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h18> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h18.xml> ;
+    rdfs:comment "havas18" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h19> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h19.xml> ;
+    rdfs:comment "havas19" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h1> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "14" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h1.xml> ;
+    rdfs:comment "havas1" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h20> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h20.xml> ;
+    rdfs:comment "havas20" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h21> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h21.xml> ;
+    rdfs:comment "havas21" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h22> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h22.xml> ;
+    rdfs:comment "havas22" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h23> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h23.xml> ;
+    rdfs:comment "havas23" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h24> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h24.xml> ;
+    rdfs:comment "havas24" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h25> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h25.xml> ;
+    rdfs:comment "havas25" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h26> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h26.xml> ;
+    rdfs:comment "havas26" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h27> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h27.xml> ;
+    rdfs:comment "havas27" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h28> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h28.xml> ;
+    rdfs:comment "havas28" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h29> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h29.xml> ;
+    rdfs:comment "havas29" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h2> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "15" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h2.xml> ;
+    rdfs:comment "havas2" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h30> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h30.xml> ;
+    rdfs:comment "havas30" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h31> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h31.xml> ;
+    rdfs:comment "havas31" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h32> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h32.xml> ;
+    rdfs:comment "havas32" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h33> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h33.xml> ;
+    rdfs:comment "havas33" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h34> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h34.xml> ;
+    rdfs:comment "havas34" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h35> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h35.xml> ;
+    rdfs:comment "havas35" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h36> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h36.xml> ;
+    rdfs:comment "havas36" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h37> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h37.xml> ;
+    rdfs:comment "havas37" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h38> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h38.xml> ;
+    rdfs:comment "havas38" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h39> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h39.xml> ;
+    rdfs:comment "havas39" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h3> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "16" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h3.xml> ;
+    rdfs:comment "havas3" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h40> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h40.xml> ;
+    rdfs:comment "havas40" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h41> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h41.xml> ;
+    rdfs:comment "havas41" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h42> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h42.xml> ;
+    rdfs:comment "havas42" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h43> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h43.xml> ;
+    rdfs:comment "havas43" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h44> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h44.xml> ;
+    rdfs:comment "havas44" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h45> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h45.xml> ;
+    rdfs:comment "havas45" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h46> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h46.xml> ;
+    rdfs:comment "havas46" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h47> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h47.xml> ;
+    rdfs:comment "havas47" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h48> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "18" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h48.xml> ;
+    rdfs:comment "havas48" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h4> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "16" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h4.xml> ;
+    rdfs:comment "havas4" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h5> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "16" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h5.xml> ;
+    rdfs:comment "havas5" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h6> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "16" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h6.xml> ;
+    rdfs:comment "havas6" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h7> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "16" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h7.xml> ;
+    rdfs:comment "havas7" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h8> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "16" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h8.xml> ;
+    rdfs:comment "havas8" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/h9> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "u,v,U,V" ;
+    sd:uptoDegree "16" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/h9.xml> ;
+    rdfs:comment "havas9" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/holt_G23134h> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "a,b,x,y,h" ;
+    sd:uptoDegree "26" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/holt_G23134h.xml> ;
+    rdfs:comment "x,y are inverses to a,b" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/holt_G3562h> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "a,b,x,y,h" ;
+    sd:uptoDegree "20" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/holt_G3562h.xml> ;
+    rdfs:comment "x,y are inverses to a,b" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/holt_G3813h> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "a,b,c,x,y,z,h" ;
+    sd:uptoDegree "20" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/holt_G3813h.xml> ;
+    rdfs:comment "x,y,z are inverses to a,b,c" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/lascala_bsbh_d10> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "x_1,x_2,x_3,x_4,x_5" ;
+    sd:uptoDegree "10" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/lascala_bsbh_d10.xml>  .
+
+<http://symbolicdata.org/Data/FreeAlgebra/lascala_bsbh_d9> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "x_1,x_2,x_3,x_4,x_5" ;
+    sd:uptoDegree "9" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/lascala_bsbh_d9.xml>  .
+
+<http://symbolicdata.org/Data/FreeAlgebra/lascala_neuh_d10> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
+    sd:uptoDegree "10" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/lascala_neuh_d10.xml>  .
+
+<http://symbolicdata.org/Data/FreeAlgebra/lp1-10> a sd:FreeAlgebra ;
+    sd:createdAt "2010" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "x,y,z" ;
+    sd:uptoDegree "10" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/lp1-10.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/ls3nilp-d10> a sd:FreeAlgebra ;
+    sd:createdAt "2010" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "x,y,z,t" ;
+    sd:uptoDegree "10" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/ls3nilp-d10.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/ls3nilp-d6> a sd:FreeAlgebra ;
+    sd:createdAt "2010" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "x,y,z,t" ;
+    sd:uptoDegree "6" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/ls3nilp-d6.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/lv2d10> a sd:FreeAlgebra ;
+    sd:createdAt "2010" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "x,y,z" ;
+    sd:uptoDegree "10" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/lv2d10.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/malle_G12h> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "x,y,z,h" ;
+    sd:hasParameters "a1,a2" ;
+    sd:uptoDegree "15" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/malle_G12h.xml> ;
+    rdfs:comment "x,y are inverses to a1,a2" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/plain-braid3-6> a sd:FreeAlgebra ;
+    sd:createdAt "2010" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "x_1,y_1,z_1,x_2,y_2,z_2,x_3,y_3,z_3,x_4,y_4,z_4,x_5,y_5,z_5,x_6,y_6,z_6" ;
+    sd:uptoDegree "6" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/plain-braid3-6.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/serf-g2-d8> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "f1,f2,e1,e2,h1,h2" ;
+    sd:uptoDegree "8" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/serf-g2-d8.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/serre-e6-d10> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "f1,f2,f3,f4,f5,f6" ;
+    sd:uptoDegree "10" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/serre-e6-d10.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/serre-e6-d13> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "f1,f2,f3,f4,f5,f6" ;
+    sd:uptoDegree "13" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/serre-e6-d13.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/serre-e6-d15> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "f1,f2,f3,f4,f5,f6" ;
+    sd:uptoDegree "15" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/serre-e6-d15.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/serre-eha112-d10> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "f1,f2,f3" ;
+    sd:uptoDegree "10" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/serre-eha112-d10.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/serre-eha112-d12> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "f1,f2,f3" ;
+    sd:uptoDegree "12" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/serre-eha112-d12.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/serre-eha112-d13> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "f1,f2,f3" ;
+    sd:uptoDegree "13" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/serre-eha112-d13.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/serre-f4-d10> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "f1,f2,f3,f4" ;
+    sd:uptoDegree "10" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/serre-f4-d10.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/serre-f4-d15> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "f1,f2,f3,f4" ;
+    sd:uptoDegree "15" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/serre-f4-d15.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/serre-full-d8> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "f1,f2,h1,h2,e1,e2" ;
+    sd:uptoDegree "8" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/serre-full-d8.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/serre-ha11-d10> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "f1,f2,f3" ;
+    sd:uptoDegree "10" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/serre-ha11-d10.xml> ;
+    rdfs:comment "First Text" .
+
+<http://symbolicdata.org/Data/FreeAlgebra/serre-ha11-d15> a sd:FreeAlgebra ;
+    sd:createdAt "2011" ;
+    sd:createdBy sdp:Heinle_A;
+    sd:hasVariables "f1,f2,f3" ;
+    sd:uptoDegree "15" ;
+    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/FreeAlgebras/serre-ha11-d15.xml> ;
+    rdfs:comment "First Text" .
+
+

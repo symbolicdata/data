@@ -1,0 +1,60 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/329_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[x1, x2]</Point>
+</Points>
+<Assignments>
+<Point id='$c_4'>varpoint[$c_3, $c_2, x3]</Point>
+<Point id='$c_5'>varpoint[$c_3, $c_0, x4]</Point>
+<Point id='$c_6'>varpoint[$c_3, $c_1, x5]</Point>
+<Point id='$c_7'>varpoint[$c_0, $c_1, x6]</Point>
+<Point id='$c_8'>varpoint[$c_2, $c_1, x7]</Point>
+<Point id='$c_9'>varpoint[$c_2, $c_0, x8]</Point>
+<Point id='$c_10'>varpoint[$c_0, $c_1, x9]</Point>
+<Point id='$c_11'>varpoint[$c_2, $c_1, x10]</Point>
+<Point id='$c_12'>varpoint[$c_2, $c_1, x11]</Point>
+<Line id='$c_15'>pp_line[$c_3, $c_0]</Line>
+<Line id='$c_16'>pp_line[$c_3a, $c_0]</Line>
+<Line id='$c_18'>pp_line[$c_3, $c_1]</Line>
+<Line id='$c_19'>pp_line[$c_3b, $c_1]</Line>
+<Line id='$c_21'>pp_line[$c_3, $c_0]</Line>
+<Line id='$c_22'>pp_line[$c_3c, $c_0]</Line>
+<Line id='$c_24'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_25'>pp_line[$c_7, $c_3]</Line>
+<Line id='$c_27'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_28'>pp_line[$c_10, $c_3a]</Line>
+<Line id='$c_30'>pp_line[$c_2, $c_1]</Line>
+<Line id='$c_31'>pp_line[$c_8, $c_3]</Line>
+<Line id='$c_33'>pp_line[$c_2, $c_1]</Line>
+<Line id='$c_34'>pp_line[$c_11, $c_3b]</Line>
+<Line id='$c_36'>pp_line[$c_2, $c_0]</Line>
+<Line id='$c_37'>pp_line[$c_9, $c_3]</Line>
+<Line id='$c_39'>pp_line[$c_2, $c_0]</Line>
+<Line id='$c_40'>pp_line[$c_12, $c_3c]</Line>
+<Scalar id='$c_42'>triangle_area[$c_7, $c_8, $c_9]</Scalar>
+<Scalar id='$c_43'>triangle_area[$c_10, $c_11, $c_12]</Scalar>
+</Assignments>
+<Properties>
+<prop>on_bisector[$c_3, $c_2, $c_0, $c_1]</prop>
+<prop>on_bisector[$c_3, $c_1, $c_2, $c_0]</prop>
+<prop>is_orthogonal[$c_15, $c_16]</prop>
+<prop>is_orthogonal[$c_18, $c_19]</prop>
+<prop>is_orthogonal[$c_21, $c_22]</prop>
+<prop>is_orthogonal[$c_24, $c_25]</prop>
+<prop>is_orthogonal[$c_27, $c_28]</prop>
+<prop>is_orthogonal[$c_30, $c_31]</prop>
+<prop>is_orthogonal[$c_33, $c_34]</prop>
+<prop>is_orthogonal[$c_36, $c_37]</prop>
+<prop>is_orthogonal[$c_39, $c_40]</prop>
+</Properties>
+<Conclusions>
+<prop>is_equal[$c_42, $c_43]</prop>
+</Conclusions>
+</Construction>

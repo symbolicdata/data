@@ -1,0 +1,48 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/329_2 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>pp_line[$c_0, $c_1]</Line>
+<Line id='$c_4'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_5'>sym_line[$l, $c_4]</Line>
+<Line id='$c_6'>pp_line[$c_1, $c_2]</Line>
+<Line id='$c_7'>sym_line[$l, $c_6]</Line>
+<Point id='$c_8'>intersection_point[$c_5, $c_7]</Point>
+<Line id='$c_9'>pp_line[$c_2, $c_8]</Line>
+<Line id='$c_10'>pp_line[$c_2, $c_0]</Line>
+<Line id='$c_11'>ortho_line[$c_0, $c_10]</Line>
+<Point id='$c_12'>intersection_point[$c_9, $c_11]</Point>
+<Line id='$c_13'>pp_line[$c_2, $c_0]</Line>
+<Line id='$c_14'>pp_line[$c_2, $c_1]</Line>
+<Line id='$c_15'>ortho_line[$c_1, $c_14]</Line>
+<Point id='$c_16'>intersection_point[$c_13, $c_15]</Point>
+<Line id='$c_17'>pp_line[$c_2, $c_1]</Line>
+<Line id='$c_18'>pp_line[$c_2, $c_0]</Line>
+<Line id='$c_19'>ortho_line[$c_0, $c_18]</Line>
+<Point id='$c_20'>intersection_point[$c_17, $c_19]</Point>
+<Line id='$c_21'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_22'>pedalpoint[$c_2, $c_21]</Point>
+<Line id='$c_23'>pp_line[$c_8, $c_1]</Line>
+<Point id='$c_24'>pedalpoint[$c_2, $c_23]</Point>
+<Line id='$c_25'>pp_line[$c_8, $c_0]</Line>
+<Point id='$c_26'>pedalpoint[$c_2, $c_25]</Point>
+<Line id='$c_27'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_28'>pedalpoint[$c_12, $c_27]</Point>
+<Line id='$c_29'>pp_line[$c_8, $c_1]</Line>
+<Point id='$c_30'>pedalpoint[$c_16, $c_29]</Point>
+<Line id='$c_31'>pp_line[$c_8, $c_0]</Line>
+<Point id='$c_32'>pedalpoint[$c_2c, $c_31]</Point>
+<Scalar id='$c_33'>triangle_area[$c_22, $c_24, $c_26]</Scalar>
+<Scalar id='$c_34'>triangle_area[$c_22a, $c_30, $c_26c]</Scalar>
+</Assignments>
+<Conclusions>
+<prop>is_equal[$c_33, $c_34]</prop>
+</Conclusions>
+</Construction>

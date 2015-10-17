@@ -1,0 +1,27 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/224_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Line id='$c_3'>median[$c_1, $c_0, $c_2]</Line>
+<Line id='$c_4'>par_line[$c_0, $c_3]</Line>
+<Line id='$c_5'>median[$c_2, $c_0, $c_1]</Line>
+<Line id='$c_6'>par_line[$c_1, $c_5]</Line>
+<Line id='$c_7'>median[$c_0, $c_1, $c_2]</Line>
+<Line id='$c_8'>par_line[$c_2, $c_7]</Line>
+<Point id='$c_9'>intersection_point[$m, $n]</Point>
+<Point id='$c_10'>intersection_point[$l, $n]</Point>
+<Point id='$c_11'>intersection_point[$l, $m]</Point>
+<Scalar id='$c_12'>triangle_area[$c_0, $c_1, $c_2]</Scalar>
+<Scalar id='$c_13'>triangle_area[$c_9, $c_10, $c_11]</Scalar>
+</Assignments>
+<Conclusions>
+<prop>is_equal[3*$c_12, $c_13]</prop>
+</Conclusions>
+</Construction>

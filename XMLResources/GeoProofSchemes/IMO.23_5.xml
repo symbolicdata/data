@@ -1,0 +1,17 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> IMO/23_5 </Title>
+<prooftype> deduction </prooftype>
+<vars>r</vars>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[1, 0]</Point>
+</Points>
+<Assignments>
+<Point id='$c_2'>rotate[$c_0, $c_1, 1/3]</Point>
+<Point id='$c_3'>rotate[$c_0, $c_1, 2/3]</Point>
+<Point id='$c_4'>rotate[$c_0, $c_1, 4/3]</Point>
+<Point id='$c_5'>varpoint[$c_1, $c_3, 1-r]</Point>
+<Point id='$c_6'>varpoint[$c_3, $c_4, 1-r]</Point>
+</Assignments>
+</Construction>

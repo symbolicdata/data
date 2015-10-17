@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<INTPS createdAt="1999-03-26" createdBy="graebe">
+  <vars>x,y,z,a,b,c,g,h,k</vars>
+  <basis>
+    <poly>y^2+x*z*b+h</poly>
+    <poly>x*y*c+z^2+k</poly>
+    <poly>x^2+y*z*a+g</poly>
+  </basis>
+  <ChangeLog>
+    <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Czapor-86c_1</changed>
+  </ChangeLog>
+</INTPS>

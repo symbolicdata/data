@@ -1,0 +1,34 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/115_2 </Title>
+<prooftype> equational, constraints </prooftype>
+<vars>x1,x2,x3,x4,x5,x6,x7,x8</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u1, u2]</Point>
+<Point id='$c_3' type='free'>Point[u3, x2]</Point>
+<Point id='$c_4' type='free'>Point[x3, x4]</Point>
+<Point id='$c_5' type='free'>Point[x5, x6]</Point>
+<Point id='$c_6' type='free'>Point[x7, x8]</Point>
+</Points>
+<Assignments>
+<Point id='$c_7'>midpoint[$c_1, $c_2]</Point>
+<Circle id='$c_8'>pc_circle[$c_0, $c_1]</Circle>
+<Line id='$c_16'>pp_line[$c_1, $c_2]</Line>
+<Line id='$c_17'>pp_line[$c_5, $c_6]</Line>
+</Assignments>
+<Properties>
+<prop>on_circle[$c_4, $k]</prop>
+<prop>on_circle[$c_3, $k]</prop>
+<prop>on_circle[$c_5, $k]</prop>
+<prop>on_circle[$c_6, $k]</prop>
+<prop>is_collinear[$c_7, $c_4, $c_3]</prop>
+<prop>is_collinear[$c_2, $c_3, $c_5]</prop>
+<prop>is_collinear[$c_2, $c_4, $c_6]</prop>
+</Properties>
+<Conclusions>
+<prop>is_parallel[$c_16, $c_17]</prop>
+</Conclusions>
+</Construction>

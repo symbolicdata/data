@@ -1,0 +1,37 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/78_1 </Title>
+<prooftype> equational </prooftype>
+<vars>x1,x2</vars>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[0, u1]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+<Point id='$c_3' type='free'>Point[x1, x2]</Point>
+</Points>
+<Assignments>
+<Line id='$c_4'>pp_line[$c_3, $c_0]</Line>
+<Point id='$c_5'>pedalpoint[$c_2, $c_4]</Point>
+<Line id='$c_6'>pp_line[$c_3, $c_1]</Line>
+<Point id='$c_7'>pedalpoint[$c_2, $c_6]</Point>
+<Line id='$c_8'>pp_line[$c_0, $c_2]</Line>
+<Line id='$c_9'>altitude[$c_3, $c_2, $c_3]</Line>
+<Point id='$c_10'>intersection_point[$c_8, $c_9]</Point>
+<Line id='$c_11'>pp_line[$c_0, $c_1]</Line>
+<Point id='$c_12'>pedalpoint[$c_10, $c_11]</Point>
+<Line id='$c_13'>pp_line[$c_3, $c_1]</Line>
+<Point id='$c_14'>pedalpoint[$c_10, $c_13]</Point>
+<Line id='$c_15'>pp_line[$c_5, $c_7]</Line>
+<Line id='$c_16'>pp_line[$c_12, $c_14]</Line>
+<Point id='$c_17'>intersection_point[$c_15, $c_16]</Point>
+<Line id='$c_20'>altitude[$c_0, $c_3, $c_1]</Line>
+</Assignments>
+<Properties>
+<prop>eq_angle[$c_0, $c_1, $c_2, $c_2, $c_1, $c_3]</prop>
+<prop>eq_angle[$c_1, $c_0, $c_2, $c_2, $c_0, $c_3]</prop>
+</Properties>
+<Conclusions>
+<prop>on_line[$c_17, $c_20]</prop>
+</Conclusions>
+</Construction>

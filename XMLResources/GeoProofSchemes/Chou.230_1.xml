@@ -1,0 +1,25 @@
+<?xml version="1.0"?> 
+<Construction>
+<Title> Chou/230_1 </Title>
+<prooftype> constructive </prooftype>
+<parameters>u1,u2,u3</parameters>
+<Points>
+<Point id='$c_0' type='free'>Point[0, 0]</Point>
+<Point id='$c_1' type='free'>Point[u1, 0]</Point>
+<Point id='$c_2' type='free'>Point[u2, u3]</Point>
+</Points>
+<Assignments>
+<Point id='$c_3'>orthocenter[$c_0, $c_1, $c_2]</Point>
+<Point id='$c_4'>circumcenter[$c_0, $c_1, $c_2]</Point>
+<Point id='$c_5'>midpoint[$c_2, $c_1]</Point>
+<Circle id='$c_6'>pc_circle[$c_0, $c_3]</Circle>
+<Line id='$c_7'>pp_line[$c_3, $c_0]</Line>
+<Point id='$c_8'>other_cl_point[$c_3, $c_6, $c_7]</Point>
+<Circle id='$c_9'>pc_circle[$c_5, $c_0]</Circle>
+<Line id='$c_10'>pp_line[$c_0, $c_5]</Line>
+<Point id='$c_11'>other_cl_point[$c_0, $c_9, $c_10]</Point>
+</Assignments>
+<Conclusions>
+<prop>is_collinear[$c_4, $c_8, $c_11]</prop>
+</Conclusions>
+</Construction>
