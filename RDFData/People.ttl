@@ -35,6 +35,10 @@ sdp:Abraham_E a foaf:Person ;
               sd:affiliation "RWTH Aachen University" ;
               sd:country <http://dbpedia.org/resource/Germany> .
 
+sdp:Abramov_S a foaf:Person ;
+              foaf:name "Sergei Abramov" ;
+              sd:affiliation "Russian Academy of Sciences, Russia" .
+
 sdp:Acevedo_C a foaf:Person ;
               foaf:name "Carmela Acevedo" .
 
@@ -199,6 +203,10 @@ sdp:Barberousse_A a foaf:Person ;
                   sd:affiliation "Université Lille 1" ;
                   sd:country <http://dbpedia.org/resource/France> .
 
+sdp:Barkatou_M a foaf:Person ;
+               foaf:name "Moulay Barkatou" ;
+               sd:affiliation "Université de Limoges, France" .
+
 sdp:Barras_B a foaf:Person ;
              foaf:name "Bruno Barras" .
 
@@ -349,6 +357,10 @@ sdp:Bosa_K a foaf:Person ;
            sd:affiliation "Johannes Kepler University Linz, Austria" ;
            sd:country <http://dbpedia.org/resource/Austria> .
 
+sdp:Bostan_A a foaf:Person ;
+             foaf:name "Alin Bostan" ;
+             sd:affiliation "INRIA, France" .
+
 sdp:Botana_F a foaf:Person ;
              foaf:name "Francisco Botana" ;
              foaf:homepage <http://webs.uvigo.es/fbotana/> ;
@@ -478,7 +490,8 @@ sdp:Caprotti_O a foaf:Person ;
 
 sdp:Carette_J a foaf:Person ;
               foaf:name "Jacques Carette" ;
-              foaf:homepage <http://www.cas.mcmaster.ca/~carette> .
+              foaf:homepage <http://www.cas.mcmaster.ca/~carette> ;
+              sd:affiliation "McMaster University, Canada" .
 
 sdp:Carlson_JF a foaf:Person ;
                foaf:name "Jon F. Carlson" ;
@@ -518,6 +531,10 @@ sdp:Chebukov_D a foaf:Person ;
 
 sdp:Chen_C a foaf:Person ;
            foaf:name "Changbo Chen" ;
+           sd:affiliation "Chinese Academy of Sciences, China" .
+
+sdp:Chen_S a foaf:Person ;
+           foaf:name "Shaoshi Chen" ;
            sd:affiliation "Chinese Academy of Sciences, China" .
 
 sdp:Chen_X a foaf:Person ;
@@ -811,6 +828,10 @@ sdp:Faugere_JC a foaf:Person ;
                foaf:name "Jean-Charles Faugére" ;
                foaf:homepage <http://www-calfor.lip6.fr/~jcf> .
 
+sdp:Feng_R a foaf:Person ;
+           foaf:name "Ruyong Feng" ;
+           sd:affiliation "Chinese Academy of Sciences, China" .
+
 sdp:Fernandez_M a foaf:Person ;
                 foaf:name "Maribel Fernandez" ;
                 sd:affiliation "King's College London" ;
@@ -902,7 +923,8 @@ sdp:Galambos_L a foaf:Person ;
                sd:country <http://dbpedia.org/resource/Czech_Republic> .
 
 sdp:GalanGarcia_JL a foaf:Person ;
-                   foaf:name "José Luis Galán García" .
+                   foaf:name "José Luis Galán García" ;
+                   sd:affiliation "Universidad de Malaga, Spain" .
 
 sdp:Galligo_A a foaf:Person ;
               foaf:name "André Galligo" .
@@ -1144,6 +1166,10 @@ sdp:Hatlapatka_R a foaf:Person ;
                  foaf:name "Radim Hatlapatka" ;
                  foaf:homepage <http://www.fi.muni.cz/~xhatlap/> .
 
+sdp:Hauenstein_J a foaf:Person ;
+                 foaf:name "Jonathan Hauenstein" ;
+                 sd:affiliation "University of Notre Dame, USA" .
+
 sdp:Hauernstein_J a foaf:Person ;
                   foaf:name "Jonathan Hauernstein" ;
                   sd:affiliation "Notre Dame University, USA" ;
@@ -1169,7 +1195,8 @@ sdp:Heeren_B a foaf:Person ;
 
 sdp:Heinle_A a foaf:Person ;
              foaf:name "Albert Heinle" ;
-             foaf:homepage <https://cs.uwaterloo.ca/~aheinle/> .
+             foaf:homepage <https://cs.uwaterloo.ca/~aheinle/> ;
+             sd:affiliation "University of Waterloo, Canada" .
 
 sdp:Heinrich_ED a foaf:Person ;
                 foaf:name "Elkedagmar Heinrich" .
@@ -1493,6 +1520,10 @@ sdp:Kamp_ET a foaf:Person ;
 sdp:Kang_S a foaf:Person ;
            foaf:name "Sohee Kang" .
 
+sdp:Kapur_D a foaf:Person ;
+            foaf:name "Deepak Kapur" ;
+            sd:affiliation "University of New Mexico, USA" .
+
 sdp:Kastner_L a foaf:Person ;
               foaf:name "Lars Kastner" ;
               sd:affiliation "FU Berlin" .
@@ -1743,6 +1774,10 @@ sdp:Kutzler_B a foaf:Person ;
 sdp:Kyureghyan_G a foaf:Person ;
                  foaf:name "Gohar Kyureghyan" .
 
+sdp:Labahn_G a foaf:Person ;
+             foaf:name "George Labahn" ;
+             sd:affiliation "University of Waterloo, Canada" .
+
 sdp:Lal_S a foaf:Person ;
           foaf:name "Sourabh Lal" .
 
@@ -1781,6 +1816,10 @@ sdp:Lecerf_G a foaf:Person ;
              foaf:name "Grégoire Lecerf" ;
              sd:affiliation "CNRS" ;
              sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Lee_WS a foaf:Person ;
+           foaf:name "Wen-Shin Lee" ;
+           sd:affiliation "University of Antwerp, Belgium" .
 
 sdp:Leitao_R a foaf:Person ;
              foaf:name "Roxanne Leitão" .
@@ -2022,7 +2061,8 @@ sdp:Matzat_BH a foaf:Person ;
               foaf:name "B. Heinrich Matzat" .
 
 sdp:Mayr_EW a foaf:Person ;
-            foaf:name "Ernst W. Mayr" .
+            foaf:name "Ernst W. Mayr" ;
+            sd:affiliation "Technische Universität München, Germany" .
 
 sdp:Mazalov_V a foaf:Person ;
               foaf:name "Vadim Mazalov" ;
@@ -2036,6 +2076,10 @@ sdp:Mazza_N a foaf:Person ;
 sdp:McBride_C a foaf:Person ;
               foaf:name "Conor McBride" ;
               foaf:homepage <http://strictlypositive.org/> .
+
+sdp:McCallum_S a foaf:Person ;
+               foaf:name "Scott McCallum" ;
+               sd:affiliation "Macquarie University, Australia" .
 
 sdp:McClain_MA a foaf:Person ;
                foaf:name "Marjorie A. McClain" .
@@ -2138,6 +2182,10 @@ sdp:Moldenhauer_W a foaf:Person ;
 sdp:Moll_V a foaf:Person ;
            foaf:name "Victor Moll" .
 
+sdp:Monagan_M a foaf:Person ;
+              foaf:name "Michael Monagan" ;
+              sd:affiliation "Simon Fraser University, Canada" .
+
 sdp:Monks_K a foaf:Person ;
             foaf:name "Ken Monks" ;
             foaf:homepage <http://mathweb.scranton.edu/monks/> .
@@ -2147,7 +2195,8 @@ sdp:Moore_R a foaf:Person ;
             foaf:homepage <http://www.maths.mq.edu.au/staff/ross.html> .
 
 sdp:Mora_T a foaf:Person ;
-           foaf:name "Teo Mora" .
+           foaf:name "Teo Mora" ;
+           sd:affiliation "Università di Genova, Italy" .
 
 sdp:Moral_J a foaf:Person ;
             foaf:name "Juan Moral" .
@@ -2370,7 +2419,7 @@ sdp:Pak_K a foaf:Person ;
 
 sdp:Panario_D a foaf:Person ;
               foaf:name "Daniel Panario" ;
-              sd:affiliation "Carleton" .
+              sd:affiliation "Carleton", "Carleton University, Canada" .
 
 sdp:Parrilo_P a foaf:Person ;
               foaf:name "Pablo Parrilo" ;
@@ -2398,6 +2447,10 @@ sdp:Pavcevic_MO a foaf:Person ;
                 foaf:name "Mario Osvin Pavcevic" ;
                 sd:affiliation "Uni Bayreuth, Germany" .
 
+sdp:Pearce_R a foaf:Person ;
+             foaf:name "Roman Pearce" ;
+             sd:affiliation "Simon Fraser University, Canada" .
+
 sdp:Pease_A a foaf:Person ;
             foaf:name "Alison Pease" .
 
@@ -2424,6 +2477,10 @@ sdp:Pernet_C a foaf:Person ;
              foaf:name "Clément Pernet" ;
              sd:affiliation "Grenoble Université" ;
              sd:country <http://dbpedia.org/resource/France> .
+
+sdp:Perret_L a foaf:Person ;
+             foaf:name "Ludovic Perret" ;
+             sd:affiliation "Université Pierre et Marie Curie, France" .
 
 sdp:Peschanenko_V a foaf:Person ;
                   foaf:name "Vladimir Peschanenko" ;
@@ -2621,7 +2678,8 @@ sdp:Ritscher_S a foaf:Person ;
                foaf:name "Stefan Ritscher" .
 
 sdp:RoanesLozano_E a foaf:Person ;
-                   foaf:name "Eugenio Roanes-Lozano" .
+                   foaf:name "Eugenio Roanes-Lozano" ;
+                   sd:affiliation "Universidad Complutense de Madrid, Spain" .
 
 sdp:Roast_C a foaf:Person ;
             foaf:name "Chris Roast" .
@@ -3495,7 +3553,8 @@ sdp:Windsteiger_W a foaf:Person ;
                   sd:country <http://dbpedia.org/resource/Austria> .
 
 sdp:Winkler_F a foaf:Person ;
-              foaf:name "Franz Winkler" .
+              foaf:name "Franz Winkler" ;
+              sd:affiliation "Johannes Kepler University, Austria" .
 
 sdp:Wintenberger_JP a foaf:Person ;
                     foaf:name "Jean-Pierre Wintenberger" .
@@ -3598,6 +3657,10 @@ sdp:Ziegler_K a foaf:Person ;
               foaf:name "Konstantin Ziegler" ;
               sd:affiliation "Uni Bonn" ;
               sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Zima_E a foaf:Person ;
+           foaf:name "Eugene Zima" ;
+           sd:affiliation "Wilfrid Laurier University, Canada" .
 
 sdp:Zimmermann_T a foaf:Person ;
                  foaf:name "Théo Zimmermann" .
