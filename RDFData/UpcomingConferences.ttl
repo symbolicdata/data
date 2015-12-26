@@ -1,6 +1,6 @@
 # Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
 
-@base <http://symbolicdata.org/casn/UpcomingConferences/> .
+@base <http://symbolicdata.org/Data/UpcomingConferences/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -20,7 +20,7 @@ sd:UpcomingConference a owl:Class ;
                       rdfs:subClassOf ical:Vevent ;
                       dcterms:subject <http://dbpedia.org/resource/Event> .
 
-<http://symbolicdata.org/casn/Conference/ACA-16> a sd:UpcomingConference ;
+<http://symbolicdata.org/Data/Conference/ACA-16> a sd:UpcomingConference ;
                                                  rdfs:label "ACA 2016 - 22th Conference on Applications of Computer Algebra" ;
                                                  sd:hasProgramChair sdp:RoanesLozano_E, sdp:Steinberg_S, sdp:Wester_M, sdp:Regensburger_G, sdp:Neun_W ;
                                                  sd:hasGeneralChair sdp:Koepf_W, sdp:Seiler_W ;
@@ -30,7 +30,7 @@ sd:UpcomingConference a owl:Class ;
                                                  ical:description "The ACA conferences are organized as a series of Special Sessions. All interested researchers can propose a Special Session by sending an e-mail to the Program Chairs (mailto:aca2016chairs@mathematik.uni-kassel.de) by March 31st, 2016. The Scientific Committee (i.e. the ACA Working Group) will then decide on the acceptance of the proposed session. Accepted sessions will be immediately announced on the conference web site." ;
                                                  ical:url <http://www.mathematik.uni-kassel.de/ACA2016/> .
 
-<http://symbolicdata.org/casn/Conference/AEC-2016> a sd:UpcomingConference ;
+<http://symbolicdata.org/Data/Conference/AEC-2016> a sd:UpcomingConference ;
                                                    rdfs:label "3rd summer school \"Algorithmic and Enumerative Combinatorics\"" ;
                                                    sd:invitedSpeakers sdp:Romik_D, sdp:Shallit_J, sdp:Bostan_A ;
                                                    ical:dtstart "2016-08-01"^^xsd:date ;
@@ -40,7 +40,7 @@ sd:UpcomingConference a owl:Class ;
                                                    ical:description "The goal of this summer school is to put forward the interplay between the fields of Enumerative Combinatorics, Analytic Combinatorics, and Algorithmics. This is a very active research area, which, aside from the three fields fueling each other mutually, receives as well constant impetus from outside, by its interaction with algebra, probability, statistical physics, and computer science. The summer school is jointly organized with the algebra group at the Johannes Kepler University and the combinatorics groups at the University of Vienna and the Vienna University of Technology." ;
                                                    ical:url <https://www.risc.jku.at/conferences/aec2016/> .
 
-<http://symbolicdata.org/casn/Conference/AITP-2016> a sd:UpcomingConference ;
+<http://symbolicdata.org/Data/Conference/AITP-2016> a sd:UpcomingConference ;
                                                     rdfs:label "AITP 2016 - 1st Conference on Artificial Intelligence and Theorem Proving" ;
                                                     sd:hasConferenceRegistration <https://easychair.org/conferences/?conf=aitp2016> ;
                                                     sd:invitedSpeakers sdp:Veroff_R, sdp:Schulz_S, sdp:Arai_N, sdp:Matsuzaki_T, sdp:Holden_S, sdp:Szegedy_C, sdp:Ginev_D, sdp:Hales_T, sdp:Vyskocil_J ;
@@ -53,7 +53,7 @@ sd:UpcomingConference a owl:Class ;
                                                     ical:description "Large-scale semantic processing and strong computer assistance of mathematics and science is our inevitable future. New combinations of AI and reasoning methods and tools deployed over large mathematical and scientific corpora will be instrumental to this task.  The AITP conference is the forum for discussing how to get there as soon as possible, and the force driving the progress towards that.  <br/> There will be three focused sessions on AI for ATP, ITP and mathematics, a (tutorial) session on modern AI and big-data methods, and several sessions with contributed talks. The focused sessions will be based on invited talks and discussion oriented." ;
                                                     ical:url <http://aitp-conference.org> .
 
-<http://symbolicdata.org/casn/Conference/ATG-2016> a sd:UpcomingConference ;
+<http://symbolicdata.org/Data/Conference/ATG-2016> a sd:UpcomingConference ;
                                                    rdfs:label "German Israeli Workshop on Algebraic and Tropical Geometry" ;
                                                    sd:hasOrganizers sdp:Markwig_T ;
                                                    sd:invitedSpeakers sdp:Farkas_G, sdp:Tyomkin_I, sdp:Temkin_M, sdp:Solomon_J, sdp:Schreyer_FO, sdp:Batyrev_V, sdp:Berkovich_V, sdp:Kerner_D, sdp:Altmann_K ;
@@ -63,7 +63,7 @@ sd:UpcomingConference a owl:Class ;
                                                    ical:description "The workshop is part of the IMAGINARY Israel Project of the MFO.  <br/> On the occasion of the 50 year long diplomatic relations between Germany and Israel, the project IMAGINARY Israel by the Mathematisches Forschungsinstitut Oberwolfach (MFO) was launched. It receives funding from the Federal Ministry of Education and Research (BMBF) and is organized within the Research in Germany campaign of the BMBF, with the aim of strengthening the traditionally very good mathematical research collaborations between the two countries. " ;
                                                    ical:url <http://homepage.ruhr-uni-bochum.de/arkadius.kalka/workshopJan2016> .
 
-<http://symbolicdata.org/casn/Conference/CASC-2016> a sd:UpcomingConference ;
+<http://symbolicdata.org/Data/Conference/CASC-2016> a sd:UpcomingConference ;
                                                     rdfs:label "CASC-2016 - 18th International Workshop in Computer Algebra in Scientific Computing" ;
                                                     sd:hasProgramChair sdp:Koepf_W ;
                                                     ical:dtstart "2016-09-19"^^xsd:date ;
@@ -73,7 +73,7 @@ sd:UpcomingConference a owl:Class ;
                                                     ical:description "The methods of Scientific Computing play an important role in the natural sciences and engineering. Significance and impact of computer algebra methods and computer algebra systems for scientific computing has increased considerably over the last decades. <br/> The ongoing development of computer algebra systems, including their integration and adaptation to modern software environments, puts them to the forefront in scientific computing and enables the practical solution of many complex applied problems in the domains of natural sciences and engineering. <br/> The topics addressed in the workshop cover all the basic areas of scientific computing as they benefit from the application of computer algebra methods and software. " ;
                                                     ical:url <http://www.casc.cs.uni-bonn.de/2016/> .
 
-<http://symbolicdata.org/casn/Conference/CICM-16> a sd:UpcomingConference ;
+<http://symbolicdata.org/Data/Conference/CICM-16> a sd:UpcomingConference ;
                                                   rdfs:label "CICM 2016 - Conferences on Intelligent Computer Mathematics" ;
                                                   sd:hasProgramChair sdp:deMoura_L, sdp:Autexier_S, sdp:Kohlhase_M, sdp:Tompa_F, sdp:Johansson_M, sdp:Miller_BR ;
                                                   sd:hasAbstractsDeadline "2016-02-28"^^xsd:date ;
@@ -84,14 +84,14 @@ sd:UpcomingConference a owl:Class ;
                                                   ical:description "Digital and  computational solutions are becoming  the prevalent means for the generation, communication, processing, storage and curation of mathematical  information.  Separate  communities  have  developed  to investigate  and build  computer based  systems for  computer algebra, automated deduction, and mathematical publishing as well as novel user interfaces. While all of these systems excel in their own right, their integration  can   lead  to   synergies  offering   significant  added value.  The  Conference  on Intelligent  Computer  Mathematics  (CICM) offers a  venue for discussing  and developing solutions to  the great challenges posed by the integration of these diverse areas." ;
                                                   ical:url <http://www.cicm-conference.org/2016> .
 
-<http://symbolicdata.org/casn/Conference/DMVGAMM-2016> a sd:UpcomingConference ;
+<http://symbolicdata.org/Data/Conference/DMVGAMM-2016> a sd:UpcomingConference ;
                                                        rdfs:label "Gemeinsame Jahrestagung von DMV und GAMM" ;
                                                        ical:dtstart "2016-03-07"^^xsd:date ;
                                                        ical:dtend "2016-03-11"^^xsd:date ;
                                                        ical:location "Braunschweig, Germany" ;
                                                        ical:description "Gemeinsame Jahrestagung von DMV und GAMM" .
 
-<http://symbolicdata.org/casn/Conference/EACA-15> a sd:UpcomingConference ;
+<http://symbolicdata.org/Data/Conference/EACA-15> a sd:UpcomingConference ;
                                                   rdfs:label "III EACA International School on Computer Algebra and its Applications" ;
                                                   ical:dtstart "2016-01-18"^^xsd:date ;
                                                   ical:dtend "2016-01-21"^^xsd:date ;
@@ -100,7 +100,7 @@ sd:UpcomingConference a owl:Class ;
                                                   ical:contact sdp:Recio_T ;
                                                   ical:url <https://www.imus.us.es/EACASCHOOL16/> .
 
-<http://symbolicdata.org/casn/Conference/EACA-2016> a sd:UpcomingConference ;
+<http://symbolicdata.org/Data/Conference/EACA-2016> a sd:UpcomingConference ;
                                                     rdfs:label "EACA-2016: Meeting on Computer Algebra and Applications" ;
                                                     sd:invitedSpeakers sdp:Barakat_M, sdp:DAndrea_C, sdp:Artal_E, sdp:Solotar_A, sdp:Paulson_L ;
                                                     sd:hasProgramCommittee sdp:GonzalezVega_L, sdp:Recio_T, sdp:Sendra_JR, sdp:Alonso_ME, sdp:Bermejo_I, sdp:Casanellas_M, sdp:Castro_FJ, sdp:Elias_J, sdp:Gimenez_P, sdp:GomezTorrecillas_J, sdp:Ladra_M, sdp:Montes_A, sdp:Rubio_J, sdp:DAndrea_C ;
@@ -111,7 +111,7 @@ sd:UpcomingConference a owl:Class ;
                                                     ical:description "The “Encuentros de Álgebra Computacional y Aplicaciones, EACA“ (Meetings on Computer Algebra and Applications) are organized by the Spanish “Red Temática de Cálculo Simbólico, Álgebra Computacional y Aplicaciones“ to provide a meeting frame for researchers in the fields of Computer Algebra and Symbolic Computation, and for those who use these techniques in their research." ;
                                                     ical:url <http://www.unirioja.es/dptos/dmc/EACA2016/> .
 
-<http://symbolicdata.org/casn/Conference/ESCO-2016> a sd:UpcomingConference ;
+<http://symbolicdata.org/Data/Conference/ESCO-2016> a sd:UpcomingConference ;
                                                     rdfs:label "5th European Seminar on Computing - Smart Applications of Scientific Computing Minisymposium" ;
                                                     sd:hasOrganizers sdp:RoanesLozano_E, sdp:GalanGarcia_JL ;
                                                     ical:dtstart "2016-06-05"^^xsd:date ;
@@ -120,7 +120,7 @@ sd:UpcomingConference a owl:Class ;
                                                     ical:description "Nowadays there is a wide variety of mathematical software available: computer algebra systems, technical computing languages, automated deduction systems,... This minisymposium is devoted to practical real-world applications of this software in fields like: transportation engineering, electrical engineering, medicine, knowledge based systems,... (this is not an exhaustive list). The focus will be on advanced and smart applications with a nontrivial mathematical background." ;
                                                     ical:url <http://www.esco2016.femhub.com/> .
 
-<http://symbolicdata.org/casn/Conference/ISSAC-2016> a sd:UpcomingConference ;
+<http://symbolicdata.org/Data/Conference/ISSAC-2016> a sd:UpcomingConference ;
                                                      rdfs:label "ISSAC 2016 - International Symposium on Symbolic and Algebraic Computation" ;
                                                      sd:hasOrganizers sdp:Heinle_A, sdp:Barkatou_M, sdp:Pearce_R, sdp:Chen_S, sdp:Rosenkranz_M, sdp:Carette_J, sdp:Kotsireas_IS ;
                                                      sd:hasProgramChair sdp:Gao_XS ;
@@ -135,7 +135,7 @@ sd:UpcomingConference a owl:Class ;
                                                      ical:description "The International Symposium on Symbolic and Algebraic Computation (ISSAC) is the premier conference for research in symbolic computation and computer algebra. ISSAC 2016 will be the 41th meeting in the series, which started in 1966 and has been held annually since 1981. The conference presents a range of invited speakers, tutorials, poster sessions, software demonstrations and vendor exhibits with a center-piece of contributed research papers. " ;
                                                      ical:url <http://www.issac-conference.org/2016> .
 
-<http://symbolicdata.org/casn/Conference/SCSS-2016> a sd:UpcomingConference ;
+<http://symbolicdata.org/Data/Conference/SCSS-2016> a sd:UpcomingConference ;
                                                     rdfs:label "The 7th International Symposium on Symbolic Computation in Software Science" ;
                                                     sd:hasHonoraryChair sdp:Buchberger_B ;
                                                     sd:hasProgramChair sdp:Davenport_JH ;
