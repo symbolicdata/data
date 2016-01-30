@@ -61,6 +61,9 @@ sdp:Levandovskyy_V a sd:Contributor ;
                    foaf:nick "levandovsky" ;
                    sd:hasContributed "Data: GAlgebra, FreeAlgebra" .
 
+sdp:Roemer_T a sd:Contributor ;
+             sd:hasContributed "Version 3: TestSets, revision of TestSets format" .
+
 sdp:Schoenemann_H a sd:Contributor ;
                   rdfs:comment "Active within SD during 1999-2004" ;
                   foaf:nick "hannes" ;

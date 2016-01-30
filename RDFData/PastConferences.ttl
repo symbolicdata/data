@@ -1,14 +1,14 @@
 # Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
 
 @base <http://symbolicdata.org/Data/PastConferences/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
 @prefix sdp: <http://symbolicdata.org/Data/Person/> .
-@prefix cc: <http://creativecommons.org/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix cc: <http://creativecommons.org/ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
 <http://symbolicdata.org/Data/Conference/ACA-15> a sd:Event ;
@@ -23,176 +23,176 @@
 
 <http://symbolicdata.org/Data/Conference/ACA-1995> a sd:Event ;
                                                    rdfs:label "IMACS-ACA'95" ;
-                                                   sd:hasOrganizers sdp:Steinberg_S, sdp:Wester_M ;
                                                    ical:dtstart "1995-05-16"^^xsd:date ;
                                                    ical:dtend "1995-05-19"^^xsd:date ;
                                                    ical:location "University of New Mexico, Albuquerque, New Mexico" ;
-                                                   ical:url <http://math.unm.edu/~aca/ACA/1995.html>, <http://math.unm.edu/~aca/ACA/1995/Proceedings/MainPage.html> .
+                                                   ical:url <http://math.unm.edu/~aca/ACA/1995.html>, <http://math.unm.edu/~aca/ACA/1995/Proceedings/MainPage.html> ;
+                                                   sd:hasOrganizers sdp:Steinberg_S, sdp:Wester_M .
 
 <http://symbolicdata.org/Data/Conference/ACA-1996> a sd:Event ;
                                                    rdfs:label "IMACS-ACA'96" ;
-                                                   sd:hasOrganizers sdp:Hong_H, sdp:Steinberg_S, sdp:Buchberger_B ;
                                                    ical:dtstart "1996-07-17"^^xsd:date ;
                                                    ical:dtend "1996-07-20"^^xsd:date ;
                                                    ical:location "RISC-Linz, Hagenberg, Austria" ;
-                                                   ical:url <http://math.unm.edu/~aca/ACA/1996/imacs.html> .
+                                                   ical:url <http://math.unm.edu/~aca/ACA/1996/imacs.html> ;
+                                                   sd:hasOrganizers sdp:Buchberger_B, sdp:Hong_H, sdp:Steinberg_S .
 
 <http://symbolicdata.org/Data/Conference/ACA-1997> a sd:Event ;
                                                    rdfs:label "IMACS-ACA'97" ;
-                                                   sd:hasOrganizers sdp:Calmet_J, sdp:Wester_M, sdp:Gerdt_VP ;
                                                    ical:dtstart "1997-07-24"^^xsd:date ;
                                                    ical:dtend "1997-07-26"^^xsd:date ;
                                                    ical:location "Wailea, Maui, Hawaii, USA" ;
-                                                   ical:url <http://math.unm.edu/~aca/ACA/1997.html>, <http://math.unm.edu/~aca/ACA/1997/Proceedings/MainPage.html> .
+                                                   ical:url <http://math.unm.edu/~aca/ACA/1997.html>, <http://math.unm.edu/~aca/ACA/1997/Proceedings/MainPage.html> ;
+                                                   sd:hasOrganizers sdp:Gerdt_VP, sdp:Calmet_J, sdp:Wester_M .
 
 <http://symbolicdata.org/Data/Conference/ACA-1998> a sd:Event ;
                                                    rdfs:label "ACA'98" ;
-                                                   sd:hasOrganizers sdp:Edneral_V, sdp:Liska_R, sdp:Kuechlin_W ;
                                                    ical:dtstart "1998-08-09"^^xsd:date ;
                                                    ical:dtend "1998-08-11"^^xsd:date ;
                                                    ical:location "Prague, Czech Republic" ;
-                                                   ical:url <http://math.unm.edu/~aca/ACA/1998/index.html>, <http://math.unm.edu/~aca/ACA/1998/proceedings.html> .
+                                                   ical:url <http://math.unm.edu/~aca/ACA/1998/index.html>, <http://math.unm.edu/~aca/ACA/1998/proceedings.html> ;
+                                                   sd:hasOrganizers sdp:Kuechlin_W, sdp:Edneral_V, sdp:Liska_R .
 
 <http://symbolicdata.org/Data/Conference/ACA-1999> a sd:Event ;
                                                    rdfs:label "ACA'99" ;
-                                                   sd:hasOrganizers sdp:Edneral_V, sdp:Liska_R, sdp:RoanesLozano_E, sdp:GonzalezVega_L, sdp:Gutierrez_J ;
                                                    ical:dtstart "1999-06-24"^^xsd:date ;
                                                    ical:dtend "1999-06-27"^^xsd:date ;
                                                    ical:location "El Escorial, Spain" ;
-                                                   ical:url <http://math.unm.edu/~aca/ACA/1999.html>, <http://math.unm.edu/~aca/ACA/1999/Proceedings/MainPage.html> .
+                                                   ical:url <http://math.unm.edu/~aca/ACA/1999.html>, <http://math.unm.edu/~aca/ACA/1999/Proceedings/MainPage.html> ;
+                                                   sd:hasOrganizers sdp:GonzalezVega_L, sdp:Gutierrez_J, sdp:Edneral_V, sdp:Liska_R, sdp:RoanesLozano_E .
 
 <http://symbolicdata.org/Data/Conference/ACA-2000> a sd:Event ;
                                                    rdfs:label "ACA 2000" ;
-                                                   sd:hasOrganizers sdp:Edneral_V, sdp:Liska_R, sdp:Vasiliev_N, sdp:Wester_M ;
                                                    ical:dtstart "2000-06-25"^^xsd:date ;
                                                    ical:dtend "2000-06-28"^^xsd:date ;
                                                    ical:location "Steklov Institute of Mathematics, Saint Petersburg, Russia" ;
-                                                   ical:url <http://math.unm.edu/~aca/ACA/2000/index.html>, <http://math.unm.edu/~aca/ACA/2000/Proceedings/MainPage.html> .
+                                                   ical:url <http://math.unm.edu/~aca/ACA/2000/index.html>, <http://math.unm.edu/~aca/ACA/2000/Proceedings/MainPage.html> ;
+                                                   sd:hasOrganizers sdp:Edneral_V, sdp:Liska_R, sdp:Vasiliev_N, sdp:Wester_M .
 
 <http://symbolicdata.org/Data/Conference/ACA-2001> a sd:Event ;
                                                    rdfs:label "ACA 2001" ;
-                                                   sd:hasOrganizers sdp:Pletsch_B, sdp:Steinberg_S ;
                                                    ical:dtstart "2001-05-31"^^xsd:date ;
                                                    ical:dtend "2001-06-03"^^xsd:date ;
                                                    ical:location "Technical Vocational Institute, Albuquerque, New Mexico, USA" ;
-                                                   ical:url <http://math.unm.edu/~aca/ACA/2001/2001.html>, <http://math.unm.edu/~aca/ACA/2001/Proceedings/MainPage.html> .
+                                                   ical:url <http://math.unm.edu/~aca/ACA/2001/2001.html>, <http://math.unm.edu/~aca/ACA/2001/Proceedings/MainPage.html> ;
+                                                   sd:hasOrganizers sdp:Pletsch_B, sdp:Steinberg_S .
 
 <http://symbolicdata.org/Data/Conference/ACA-2002> a sd:Event ;
                                                    rdfs:label "ACA 2002" ;
-                                                   sd:hasOrganizers sdp:Akritas_A, sdp:Edneral_V, sdp:RoanesLozano_E, sdp:Kotsireas_IS ;
                                                    ical:dtstart "2002-06-25"^^xsd:date ;
                                                    ical:dtend "2002-06-28"^^xsd:date ;
                                                    ical:location "the University of Thessaly, Volos, Greece" ;
-                                                   ical:url <http://math.unm.edu/~aca/ACA/2002/aca2002.html> .
+                                                   ical:url <http://math.unm.edu/~aca/ACA/2002/aca2002.html> ;
+                                                   sd:hasOrganizers sdp:Kotsireas_IS, sdp:Akritas_A, sdp:Edneral_V, sdp:RoanesLozano_E .
 
 <http://symbolicdata.org/Data/Conference/ACA-2003> a sd:Event ;
                                                    rdfs:label "ACA 2003" ;
-                                                   sd:hasOrganizers sdp:Hong_H, sdp:Kaltofen_E, sdp:Szanto_A, sdp:Giesbrecht_M ;
                                                    ical:dtstart "2003-07-28"^^xsd:date ;
                                                    ical:dtend "2003-07-31"^^xsd:date ;
                                                    ical:location "North Carolina State University, Raleigh, North Carolina, USA" ;
-                                                   ical:url <http://math.unm.edu/~aca/ACA/2003/2003.html> .
+                                                   ical:url <http://math.unm.edu/~aca/ACA/2003/2003.html> ;
+                                                   sd:hasOrganizers sdp:Szanto_A, sdp:Giesbrecht_M, sdp:Hong_H, sdp:Kaltofen_E .
 
 <http://symbolicdata.org/Data/Conference/ACA-2004> a sd:Event ;
                                                    rdfs:label "ACA 2004" ;
-                                                   sd:hasOrganizers sdp:Tran_Q, sdp:Gerdt_VP ;
                                                    ical:dtstart "2004-07-21"^^xsd:date ;
                                                    ical:dtend "2004-07-23"^^xsd:date ;
                                                    ical:location "Beaumont, Texas" ;
-                                                   ical:url <http://buchberger.cs.lamar.edu/ACA2004/> .
+                                                   ical:url <http://buchberger.cs.lamar.edu/ACA2004/> ;
+                                                   sd:hasOrganizers sdp:Gerdt_VP, sdp:Tran_Q .
 
 <http://symbolicdata.org/Data/Conference/ACA-2005> a sd:Event ;
                                                    rdfs:label "ACA 2005" ;
-                                                   sd:hasOrganizers sdp:Noda_M, sdp:Kako_F ;
                                                    ical:dtstart "2005-07-31"^^xsd:date ;
                                                    ical:dtend "2005-08-03"^^xsd:date ;
                                                    ical:location "Nara Women's University, Nara, Japan" ;
-                                                   ical:url <http://www.jssac.org/Conference/ACA/> .
+                                                   ical:url <http://www.jssac.org/Conference/ACA/> ;
+                                                   sd:hasOrganizers sdp:Kako_F, sdp:Noda_M .
 
 <http://symbolicdata.org/Data/Conference/ACA-2006> a sd:Event ;
                                                    rdfs:label "ACA 2006" ;
-                                                   sd:hasOrganizers sdp:Edneral_V, sdp:Liska_R, sdp:Spiridonova_M, sdp:Wester_M, sdp:Gerdt_VP ;
                                                    ical:dtstart "2006-06-26"^^xsd:date ;
                                                    ical:dtend "2006-06-29"^^xsd:date ;
                                                    ical:location "International Home of Scientists, Varna, Bulgaria" ;
-                                                   ical:url <http://www.math.bas.bg/artint/mspirid/ACA2006/> .
+                                                   ical:url <http://www.math.bas.bg/artint/mspirid/ACA2006/> ;
+                                                   sd:hasOrganizers sdp:Gerdt_VP, sdp:Edneral_V, sdp:Liska_R, sdp:Spiridonova_M, sdp:Wester_M .
 
 <http://symbolicdata.org/Data/Conference/ACA-2007> a sd:Event ;
                                                    rdfs:label "ACA 2007" ;
-                                                   sd:hasOrganizers sdp:Shaska_T ;
                                                    ical:dtstart "2007-07-19"^^xsd:date ;
                                                    ical:dtend "2007-07-22"^^xsd:date ;
                                                    ical:location "Oakland University, Rochester, Michigan, USA" ;
-                                                   ical:url <http://www2.oakland.edu/aca/index.cfm> .
+                                                   ical:url <http://www2.oakland.edu/aca/index.cfm> ;
+                                                   sd:hasOrganizers sdp:Shaska_T .
 
 <http://symbolicdata.org/Data/Conference/ACA-2008> a sd:Event ;
                                                    rdfs:label "ACA 2008" ;
-                                                   sd:hasOrganizers sdp:Buchberger_B, sdp:Gerdt_VP, sdp:Windsteiger_W ;
                                                    ical:dtstart "2008-07-27"^^xsd:date ;
                                                    ical:dtend "2008-07-30"^^xsd:date ;
                                                    ical:location "RISC-Linz, Hagenberg, Austria" ;
-                                                   ical:url <http://www.risc.uni-linz.ac.at/conferences/aca2008/> .
+                                                   ical:url <http://www.risc.uni-linz.ac.at/conferences/aca2008/> ;
+                                                   sd:hasOrganizers sdp:Buchberger_B, sdp:Gerdt_VP, sdp:Windsteiger_W .
 
 <http://symbolicdata.org/Data/Conference/ACA-2009> a sd:Event ;
                                                    rdfs:label "ACA 2009" ;
-                                                   sd:hasOrganizers sdp:Beaudin_M, sdp:Picard_G, sdp:Pineau_K, sdp:Wester_M ;
                                                    ical:dtstart "2009-06-25"^^xsd:date ;
                                                    ical:dtend "2009-06-28"^^xsd:date ;
                                                    ical:location "École de technologie supérieure (ÉTS), Montréal, Québec, Canada" ;
-                                                   ical:url <http://aca2009.etsmtl.ca/> .
+                                                   ical:url <http://aca2009.etsmtl.ca/> ;
+                                                   sd:hasOrganizers sdp:Beaudin_M, sdp:Picard_G, sdp:Pineau_K, sdp:Wester_M .
 
 <http://symbolicdata.org/Data/Conference/ACA-2010> a sd:Event ;
                                                    rdfs:label "ACA 2010" ;
-                                                   sd:hasOrganizers sdp:Calmet_J, sdp:Shaska_T, sdp:Wester_M, sdp:Ruci_E, sdp:Zhupa_E ;
                                                    ical:dtstart "2010-06-24"^^xsd:date ;
                                                    ical:dtend "2010-06-27"^^xsd:date ;
                                                    ical:location "University of Vlora, Vlora, Albania" ;
-                                                   ical:url <http://aca2010.info/index.php/aca2010/aca2010>, <http://aca.aulonapress.com/index.php/aca2010/aca2010> .
+                                                   ical:url <http://aca2010.info/index.php/aca2010/aca2010>, <http://aca.aulonapress.com/index.php/aca2010/aca2010> ;
+                                                   sd:hasOrganizers sdp:Ruci_E, sdp:Zhupa_E, sdp:Calmet_J, sdp:Shaska_T, sdp:Wester_M .
 
 <http://symbolicdata.org/Data/Conference/ACA-2011> a sd:Event ;
                                                    rdfs:label "ACA 2011" ;
-                                                   sd:hasOrganizers sdp:Steinberg_S, sdp:Tran_Q ;
                                                    ical:dtstart "2011-06-27"^^xsd:date ;
                                                    ical:dtend "2011-06-30"^^xsd:date ;
                                                    ical:location "Houston, Texas, USA" ;
-                                                   ical:url <http://buchberger.cs.lamar.edu/ACA2011/> .
+                                                   ical:url <http://buchberger.cs.lamar.edu/ACA2011/> ;
+                                                   sd:hasOrganizers sdp:Steinberg_S, sdp:Tran_Q .
 
 <http://symbolicdata.org/Data/Conference/ACA-2012> a sd:Event ;
                                                    rdfs:label "ACA 2012" ;
-                                                   sd:hasOrganizers sdp:Edneral_V, sdp:Spiridonova_M, sdp:Vasiliev_N, sdp:Dodunekov_S, sdp:Watt_S ;
                                                    ical:dtstart "2012-06-25"^^xsd:date ;
                                                    ical:dtend "2012-06-28"^^xsd:date ;
                                                    ical:location "Sofia, Bulgaria" ;
-                                                   ical:url <http://www.math.bas.bg/ACA2012/> .
+                                                   ical:url <http://www.math.bas.bg/ACA2012/> ;
+                                                   sd:hasOrganizers sdp:Dodunekov_S, sdp:Watt_S, sdp:Edneral_V, sdp:Spiridonova_M, sdp:Vasiliev_N .
 
 <http://symbolicdata.org/Data/Conference/ACA-2013> a sd:Event ;
                                                    rdfs:label "ACA 2013" ;
-                                                   sd:hasOrganizers sdp:Venegas_GA, sdp:Picard_G, sdp:MartinezdelCastillo_J, sdp:Cordoba_SM, sdp:RodriguezCielos_P, sdp:GalanGarcia_JL ;
                                                    ical:dtstart "2013-07-03"^^xsd:date ;
                                                    ical:dtend "2013-07-06"^^xsd:date ;
                                                    ical:location "Málaga, Spain" ;
-                                                   ical:url <http://www.aca2013.uma.es/> .
+                                                   ical:url <http://www.aca2013.uma.es/> ;
+                                                   sd:hasOrganizers sdp:Cordoba_SM, sdp:MartinezdelCastillo_J, sdp:RodriguezCielos_P, sdp:GalanGarcia_JL, sdp:Venegas_GA, sdp:Picard_G .
 
 <http://symbolicdata.org/Data/Conference/ACA-2014> a sd:Event ;
                                                    rdfs:label "ACA 2014" ;
-                                                   sd:hasOrganizers sdp:Kotsireas_I, sdp:Shaska_T, sdp:Lewis_R ;
-                                                   sd:hasCARReport "CAR 55 (Okt. 2014), p. 36" ;
                                                    ical:dtstart "2014-07-09"^^xsd:date ;
                                                    ical:dtend "2014-07-12"^^xsd:date ;
                                                    ical:location "Fordham University, New York" ;
                                                    ical:description "This is the twentieth in a series of annual international meetings devoted to promoting the applications and development of Computer Algebra and Symbolic Computation. Topics include computer algebra and symbolic computation in engineering, the sciences, medicine, pure and applied mathematics, education, communication and computer science." ;
                                                    ical:organizer "Applications of Computer Algebra Working Group" ;
-                                                   ical:url <http://faculty.fordham.edu/rlewis/aca2014/> .
+                                                   ical:url <http://faculty.fordham.edu/rlewis/aca2014/> ;
+                                                   sd:hasOrganizers sdp:Lewis_R, sdp:Kotsireas_I, sdp:Shaska_T ;
+                                                   sd:hasCARReport "CAR 55 (Okt. 2014), p. 36" .
 
 <http://symbolicdata.org/Data/Conference/ACMES-15> a sd:Event ;
                                                    rdfs:label "ACMES 2015 - Conference on Algorithms and Complexity in Mathematics, Epistemology and Science" ;
-                                                   sd:invitedSpeakers sdp:Gunzburger_M, sdp:SanzSerna_J, sdp:Batterman_R, sdp:Wilson_M, sdp:Martin_U ;
-                                                   sd:hasProgramCommittee sdp:Corless_R, sdp:Fillion_N, sdp:Smeenk_C, sdp:Moir_R ;
                                                    ical:dtstart "2015-05-06"^^xsd:date ;
                                                    ical:dtend "2015-05-08"^^xsd:date ;
                                                    ical:location "London, Ontario, Canada" ;
                                                    ical:description "ACMES is a multidisciplinary conference that focuses on a combination of the science of reliability and uncertainty quantification with conceptual and foundational issues concerning reliability, stability and complexity in the application of scientific theories to real phenomena. The conference integrates longer talks from six leading computational scientists and philosophers of science with shorter research contributions from others, including graduate students, in computational science and epistemology of science." ;
-                                                   ical:url <http://acmes.org> .
+                                                   ical:url <http://acmes.org> ;
+                                                   sd:invitedSpeakers sdp:Gunzburger_M, sdp:SanzSerna_J, sdp:Batterman_R, sdp:Wilson_M, sdp:Martin_U ;
+                                                   sd:hasProgramCommittee sdp:Corless_R, sdp:Fillion_N, sdp:Smeenk_C, sdp:Moir_R .
 
 <http://symbolicdata.org/Data/Conference/ADG-14> a sd:Event ;
                                                  rdfs:label "10th International Workshop on Automated Deduction in Geometry" ;
@@ -212,12 +212,12 @@
 
 <http://symbolicdata.org/Data/Conference/AEC-2015> a sd:Event ;
                                                    rdfs:label "2nd summer school \"Algorithmic and Enumerative Combinatorics\"" ;
-                                                   sd:invitedSpeakers sdp:Beck_M, sdp:Pak_I, sdp:vanHoeij_M ;
                                                    ical:dtstart "2015-07-27"^^xsd:date ;
                                                    ical:dtend "2015-07-31"^^xsd:date ;
                                                    ical:location "RISC, J. Kepler University Linz, Austria" ;
                                                    ical:description "Within the framework of the SFB \"Algorithmic and Enumerative Combinatorics\", the summer school AEC 2015 will be held at the Research Institute for Symbolic Computation (Johannes Kepler University Linz) in Hagenberg. It is jointly organized with the combinatorics groups at the University of Vienna and the Vienna University of Technology.<br/>The goal of this summer school is to put forward the interplay between the fields of Enumerative Combinatorics, Analytic Combinatorics, and Algorithmics. This is a very active research area, which, aside from the three fields fueling each other mutually, receives as well constant impetus from outside, by its interaction with algebra, probability, statistical physics, and computer science." ;
-                                                   ical:url <https://www.risc.jku.at/conferences/aec2015> .
+                                                   ical:url <https://www.risc.jku.at/conferences/aec2015> ;
+                                                   sd:invitedSpeakers sdp:Beck_M, sdp:Pak_I, sdp:vanHoeij_M .
 
 <http://symbolicdata.org/Data/Conference/AISC-14> a sd:Event ;
                                                   rdfs:label "12th International Conference on Artificial Intelligence and Symbolic Computation (AISC 2014)" ;
@@ -229,22 +229,22 @@
 
 <http://symbolicdata.org/Data/Conference/ALCOMA-15> a sd:Event ;
                                                     rdfs:label "ALCOMA15 - Algebraic combinatorics and applications" ;
-                                                    sd:invitedSpeakers sdp:Nebe_G, sdp:Braun_M, sdp:Byrne_E, sdp:deBeule_J, sdp:Helleseth_T, sdp:Honold_T, sdp:Jedwab_J, sdp:Panario_D, sdp:Pott_A, sdp:Vukobratovic_D ;
                                                     ical:dtstart "2015-03-15"^^xsd:date ;
                                                     ical:dtend "2015-03-20"^^xsd:date ;
                                                     ical:location "Kloster Banz close to Bamberg, Germany" ;
                                                     ical:description "ALCOMA15 is a meeting of COST Action IC1104 [http://www.network-coding.eu/]. The intention is to bring together representatives of research groups that work in particular in the field of constructive theory of designs and codes, or on closely related topics.  A special focus is on q-analogues of designs and random network coding.  This conference is dedicated to the memory of our friend and colleague Axel Kohnert.  The proceedings of the conference will be published as a dedicated volume of the journal \"Advances in Mathematics of Communications\"" ;
-                                                    ical:contact sdp:Wassermann_A, sdp:Kerber_A, sdp:Laue_R, sdp:Kiermaier_M, sdp:Pavcevic_MO ;
-                                                    ical:url <http://alcoma15.uni-bayreuth.de/> .
+                                                    ical:contact sdp:Laue_R, sdp:Kerber_A, sdp:Wassermann_A, sdp:Kiermaier_M, sdp:Pavcevic_MO ;
+                                                    ical:url <http://alcoma15.uni-bayreuth.de/> ;
+                                                    sd:invitedSpeakers sdp:Nebe_G, sdp:Braun_M, sdp:Byrne_E, sdp:deBeule_J, sdp:Helleseth_T, sdp:Honold_T, sdp:Jedwab_J, sdp:Panario_D, sdp:Pott_A, sdp:Vukobratovic_D .
 
 <http://symbolicdata.org/Data/Conference/ANTDG-2015> a sd:Event ;
                                                      rdfs:label "Analytic Number Theory and Diophantine Geometry" ;
-                                                     sd:hasOrganizers sdp:Derenthal_U, sdp:Frei_C, sdp:Loughran_D ;
                                                      ical:dtstart "2015-09-07"^^xsd:date ;
                                                      ical:dtend "2015-09-11"^^xsd:date ;
                                                      ical:location "Hannover, Germany" ;
                                                      ical:description "The workshop will cover topics including rational points and height functions, together with interactions with analytic number theory, model theory and diophantine geometry. <br/> There will be a mini-course by E. Peyre on the principle of Batyrev and Manin, and a mini-course by M. Widmer on weakly admissible lattices, Diophantine approximation and counting." ;
-                                                     ical:url <http://www.iazd.uni-hannover.de/diophantine> .
+                                                     ical:url <http://www.iazd.uni-hannover.de/diophantine> ;
+                                                     sd:hasOrganizers sdp:Frei_C, sdp:Derenthal_U, sdp:Loughran_D .
 
 <http://symbolicdata.org/Data/Conference/ANTS-XI> a sd:Event ;
                                                   rdfs:label "Eleventh Algorithmic Number Theory Symposium ANTS-XI" ;
@@ -256,40 +256,50 @@
 
 <http://symbolicdata.org/Data/Conference/ATG-2015> a sd:Event ;
                                                    rdfs:label "Summer School on Algebraic and Tropical Geometry" ;
-                                                   sd:hasOrganizers sdp:Markwig_T ;
-                                                   sd:invitedSpeakers sdp:Gathmann_A, sdp:Shustin_E, sdp:Joswig_M ;
                                                    ical:dtstart "2015-09-07"^^xsd:date ;
                                                    ical:dtend "2015-09-11"^^xsd:date ;
                                                    ical:location "University of Kaiserslautern" ;
                                                    ical:description "There will be mini courses by Andreas Gathmann (Algebraic and Tropical Moduli Spaces of Curves), Michael Joswig (Tropical Combinatorics, Tropical Linear Programming) and Eugenii Shustin (Real Enumerative Geometry). <br/>The summer school is part of the IMAGINARY Israel Project of the MFO, and financial support for participants from Germany and Israel will (at least partially) be available." ;
-                                                   ical:url <http://www.mathematik.uni-kl.de/~keilen/Conferences/ATG2015> .
+                                                   ical:url <http://www.mathematik.uni-kl.de/~keilen/Conferences/ATG2015> ;
+                                                   sd:invitedSpeakers sdp:Joswig_M, sdp:Gathmann_A, sdp:Shustin_E ;
+                                                   sd:hasOrganizers sdp:Markwig_T .
+
+<http://symbolicdata.org/Data/Conference/ATG-2016> a sd:Event ;
+                                                   rdfs:label "German Israeli Workshop on Algebraic and Tropical Geometry" ;
+                                                   ical:dtstart "2016-01-11"^^xsd:date ;
+                                                   ical:dtend "2016-01-15"^^xsd:date ;
+                                                   ical:location "Bar-Ilan University, Ramat Gan, Israel" ;
+                                                   ical:description "The workshop is part of the IMAGINARY Israel Project of the MFO.  <br/> On the occasion of the 50 year long diplomatic relations between Germany and Israel, the project IMAGINARY Israel by the Mathematisches Forschungsinstitut Oberwolfach (MFO) was launched. It receives funding from the Federal Ministry of Education and Research (BMBF) and is organized within the Research in Germany campaign of the BMBF, with the aim of strengthening the traditionally very good mathematical research collaborations between the two countries. " ;
+                                                   ical:url <http://homepage.ruhr-uni-bochum.de/arkadius.kalka/workshopJan2016> ;
+                                                   sd:invitedSpeakers sdp:Farkas_G, sdp:Tyomkin_I, sdp:Temkin_M, sdp:Solomon_J, sdp:Schreyer_FO, sdp:Batyrev_V, sdp:Berkovich_V, sdp:Kerner_D, sdp:Altmann_K ;
+                                                   sd:hasOrganizers sdp:Markwig_T .
 
 <http://symbolicdata.org/Data/Conference/ATMW-14> a sd:Event ;
                                                   rdfs:label "1. ATMW Computational Algebraic Geomety" ;
-                                                  sd:hasCARReport "CAR 54 (Mrz. 2014), p. 22" ;
                                                   ical:dtstart "2014-02-09"^^xsd:date ;
                                                   ical:dtend "2014-02-13"^^xsd:date ;
                                                   ical:location "Indian Institute of Space Science and Technology, Trivandrum, India" ;
-                                                  ical:url <http://www.atmschools.org/2014/atmw/cag> .
+                                                  ical:url <http://www.atmschools.org/2014/atmw/cag> ;
+                                                  sd:hasCARReport "CAR 54 (Mrz. 2014), p. 22" .
 
 <http://symbolicdata.org/Data/Conference/AlgorithmsRepresentations-2015> a sd:Event ;
                                                                          rdfs:label "Algorithms and Representations" ;
-                                                                         sd:hasOrganizers sdp:Geck_M, sdp:Luebeck_F, sdp:Lux_K ;
-                                                                         sd:invitedSpeakers sdp:Malle_G, sdp:Wilson_R, sdp:Broue_M, sdp:Dudas_O, sdp:Fong_P, sdp:Kessar_R, sdp:Magaard_K, sdp:Robinson_G, sdp:Srinivasan_B, sdp:Szczepanski_A, sdp:Zalesski_A, sdp:Carlson_JF ;
                                                                          ical:dtstart "2015-07-27"^^xsd:date ;
                                                                          ical:dtend "2015-07-31"^^xsd:date ;
                                                                          ical:location "RWTH Aachen, Germany" ;
                                                                          ical:description "Colloquium on Algorithms and Representations celebrating the 60-th birthday of Gerhard Hiß" ;
-                                                                         ical:url <http://www.math.rwth-aachen.de/Hiss60/> .
+                                                                         ical:url <http://www.math.rwth-aachen.de/Hiss60/> ;
+                                                                         sd:invitedSpeakers sdp:Wilson_R, sdp:Malle_G, sdp:Carlson_JF, sdp:Broue_M, sdp:Dudas_O, sdp:Fong_P, sdp:Kessar_R, sdp:Magaard_K, sdp:Robinson_G, sdp:Srinivasan_B, sdp:Szczepanski_A, sdp:Zalesski_A ;
+                                                                         sd:hasOrganizers sdp:Geck_M, sdp:Lux_K, sdp:Luebeck_F .
 
 <http://symbolicdata.org/Data/Conference/BadBoll-2014> a sd:Event ;
                                                        rdfs:label "BadBoll-2014: Annual conference of the DFG priority project SPP 1489" ;
-                                                       sd:hasCARReport "CAR 54 (Mrz. 2014), p. 22" ;
                                                        ical:dtstart "2014-03-03"^^xsd:date ;
                                                        ical:dtend "2014-03-07"^^xsd:date ;
                                                        ical:location "Bad Boll, Germany" ;
                                                        ical:description "Annual conference of the DFG priority project SPP 1489" ;
-                                                       ical:url <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014> .
+                                                       ical:url <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014> ;
+                                                       sd:hasCARReport "CAR 54 (Mrz. 2014), p. 22" .
 
 <http://symbolicdata.org/Data/Conference/CAFG.1000> a sd:Event ;
                                                     rdfs:label "ÖMG-Kongress und Jahrestagung der DMV" ;
@@ -299,11 +309,11 @@
 
 <http://symbolicdata.org/Data/Conference/CAFG.1001> a sd:Event ;
                                                     rdfs:label "CASC 2013" ;
-                                                    sd:hasCARReport "CAR 53 (Okt. 2013), p. 31" ;
                                                     ical:dtstart "2013-09-09"^^xsd:date ;
                                                     ical:dtend "2013-09-13"^^xsd:date ;
                                                     ical:location "Berlin" ;
-                                                    ical:url <http://www14.in.tum.de/CASC2013> .
+                                                    ical:url <http://www14.in.tum.de/CASC2013> ;
+                                                    sd:hasCARReport "CAR 53 (Okt. 2013), p. 31" .
 
 <http://symbolicdata.org/Data/Conference/CAFG.1002> a sd:Event ;
                                                     rdfs:label "SymbolicData Arbeitstreffen und Workshop" ;
@@ -547,30 +557,30 @@
 
 <http://symbolicdata.org/Data/Conference/CAPP-2015> a sd:Event ;
                                                     rdfs:label "CAPP - Computer Algebra and Particle Physics" ;
-                                                    sd:hasCARReport "CAR 57 (Okt. 2015), p. 29" ;
                                                     ical:dtstart "2015-03-23"^^xsd:date ;
                                                     ical:dtend "2015-03-27"^^xsd:date ;
                                                     ical:location "DESY, Hamburg, Germany" ;
-                                                    ical:url <http://indico.desy.de/conferenceDisplay.py?confId=10282> .
+                                                    ical:url <http://indico.desy.de/conferenceDisplay.py?confId=10282> ;
+                                                    sd:hasCARReport "CAR 57 (Okt. 2015), p. 29" .
 
 <http://symbolicdata.org/Data/Conference/CASC-15> a sd:Event ;
                                                   rdfs:label "CASC 2015 - 17th International Workshop in Computer Algebra in Scientific Computing" ;
-                                                  sd:hasCARReport "CAR 57 (Okt. 2015), p. 31" ;
                                                   ical:dtstart "2015-09-14"^^xsd:date ;
                                                   ical:dtend "2015-09-18"^^xsd:date ;
                                                   ical:location "Aachen, Germany" ;
                                                   ical:description "The topics addressed in the workshop cover all the basic areas of scientific computing as they benefit from the application of computer algebra methods and software: <ul <li> exact and approximate computation</li> <li> numerical simulation using computer algebra systems</li> <li>parallel symbolic-numeric computation</li> <li>symbolic-numeric methods for differential, differential-algebraic and difference equations</li> <li>symbolic-numeric methods for polynomial equations and inequalities</li> <li>algorithms and complexity in computer algebra</li> <li>automated reasoning in algebra and geometry</li> <li>algebraic methods in geometric modeling</li> <li>application of computer algebra to natural sciences and engineering</li> <li>problem-solving environments</li> <li>internet accessible symbolic and numeric computation</li> </ul>" ;
                                                   ical:url <http://www.casc.cs.uni-bonn.de> ;
+                                                  sd:hasCARReport "CAR 57 (Okt. 2015), p. 31" ;
                                                   dcterms:source <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2014-November/000006.html> .
 
 <http://symbolicdata.org/Data/Conference/CASC-2014> a sd:Event ;
                                                     rdfs:label "The 16th International Workshop on Computer Algebra in Scientific Computing" ;
-                                                    sd:hasCARReport "CAR 56 (Mrz. 2015), p. 26" ;
                                                     ical:dtstart "2014-09-08"^^xsd:date ;
                                                     ical:dtend "2014-09-12"^^xsd:date ;
                                                     ical:location "Warsaw, Poland" ;
                                                     ical:description "The methods of Scientific Computing play an important role in the natural sciences and engineering. Significance and impact of computer algebra methods and computer algebra systems for scientific computing has increased considerably over the last decade. <br/> Nowadays, computer algebra systems such as CoCoA, Macaulay, Magma, Maple, Mathematica, Maxima, Reduce, Singular and others enable their users to exploit their powerful facilities in symbolic manipulation, numerical computation and visualization. <br/> The ongoing development of computer algebra systems, including their integration and adaptation to modern software environments, puts them to the forefront in scientific computing and enables the practical solution of many complex applied problems in the domains of natural sciences and engineering.<br/> The topics addressed in the workshop cover all the basic areas of scientific computing as they benefit from the application of computer algebra methods and software. " ;
-                                                    ical:url <http://www14.in.tum.de/CASC2014> .
+                                                    ical:url <http://www14.in.tum.de/CASC2014> ;
+                                                    sd:hasCARReport "CAR 56 (Mrz. 2015), p. 26" .
 
 <http://symbolicdata.org/Data/Conference/CCA-14> a sd:Event ;
                                                  rdfs:label "CCA'14: Workshop on Compact Computer Algebra" ;
@@ -582,13 +592,13 @@
 
 <http://symbolicdata.org/Data/Conference/CEMCARF-2015> a sd:Event ;
                                                        rdfs:label "Combinatorial and Experimental Methods in Commutative Algebra and Related Fields" ;
-                                                       sd:hasOrganizers sdp:Bruns_W, sdp:Conca_A, sdp:Sieg_R, sdp:Caminata_A, sdp:Herzog_J, sdp:Roemer_T ;
-                                                       sd:invitedSpeakers sdp:Katthaen_L, sdp:Hibi_T, sdp:Welker_V, sdp:Varbaro_M, sdp:Caminata_A, sdp:Constantinescu_A, sdp:DAli_A, sdp:DeNegri_E, sdp:Floystad_G, sdp:Huh_J, sdp:JuhnkeKubitzke_M, sdp:Kahle_T, sdp:Lason_M, sdp:Macchia_A, sdp:Michalek_M, sdp:Murai_S, sdp:Nagel_U, sdp:SaeediMadani_S ;
                                                        ical:dtstart "2015-10-07"^^xsd:date ;
                                                        ical:dtend "2015-10-10"^^xsd:date ;
                                                        ical:location "Osnabrück, Germany" ;
                                                        ical:description "Workshop within the DFG SPP “Experimental methods in algebra, geometry  and number theory“ and the DFG Graduiertenkolleg Kombinatorische Methoden in der Geometrie” at Osnabrück." ;
-                                                       ical:url <https://www.algebraworkshop.uni-osnabrueck.de/> .
+                                                       ical:url <https://www.algebraworkshop.uni-osnabrueck.de/> ;
+                                                       sd:invitedSpeakers sdp:Katthaen_L, sdp:Caminata_A, sdp:Constantinescu_A, sdp:DAli_A, sdp:DeNegri_E, sdp:Floystad_G, sdp:Huh_J, sdp:JuhnkeKubitzke_M, sdp:Kahle_T, sdp:Lason_M, sdp:Macchia_A, sdp:Michalek_M, sdp:Murai_S, sdp:Nagel_U, sdp:SaeediMadani_S, sdp:Varbaro_M, sdp:Hibi_T, sdp:Welker_V ;
+                                                       sd:hasOrganizers sdp:Bruns_W, sdp:Conca_A, sdp:Sieg_R, sdp:Herzog_J, sdp:Caminata_A, sdp:Roemer_T .
 
 <http://symbolicdata.org/Data/Conference/CICM-12> a sd:Event ;
                                                   rdfs:label "CICM 2012 - Conferences on Intelligent Computer Mathematics" ;
@@ -616,13 +626,13 @@
 
 <http://symbolicdata.org/Data/Conference/CICM-2015> a sd:Event ;
                                                     rdfs:label "CICM 2015 - Conference on Intelligent Computer Mathematics" ;
-                                                    sd:hasOrganizers sdp:Autexier_S, sdp:Kaliszyk_C, sdp:Rabe_F, sdp:Sorge_V, sdp:Carette_J, sdp:Kerber_M, sdp:Miller_BR, sdp:Youssef_A ;
                                                     ical:dtstart "2015-07-13"^^xsd:date ;
                                                     ical:dtend "2015-07-17"^^xsd:date ;
                                                     ical:location "Washington DC, USA" ;
                                                     ical:description "Digital and computational solutions are becoming the prevalent means for the generation, communication, processing, storage and curation of mathematical information. Separate communities have developed to investigate and build computer based systems for computer algebra, automated deduction, and mathematical publishing as well as novel user interfaces. While all of these systems excel in their own right, their integration can lead to synergies offering significant added value. The Conference on Intelligent Computer Mathematics (CICM) offers a venue for discussing and developing solutions  to the great challenges posed by the integration of these diverse areas. The principal tracks of the conference will be <ul> <li> Calculemus (Symbolic Computation and Mechanised Reasoning) <br/> Chair: Jacques Carette </li> <li> DML (Digital Mathematical Libraries) <br/> Chair: Volker Sorge </li> <li> MKM (Mathematical Knowledge Management) <br/> Chair: Cezary Kaliszyk </li> <li> Systems and Data <br/> Chair: Florian Rabe</li> </ul>" ;
                                                     ical:contact sdp:Autexier_S ;
-                                                    ical:url <http://cicm-conference.org/2015/cicm.php> .
+                                                    ical:url <http://cicm-conference.org/2015/cicm.php> ;
+                                                    sd:hasOrganizers sdp:Carette_J, sdp:Kerber_M, sdp:Miller_BR, sdp:Youssef_A, sdp:Autexier_S, sdp:Kaliszyk_C, sdp:Rabe_F, sdp:Sorge_V .
 
 <http://symbolicdata.org/Data/Conference/CoCoA-2015> a sd:Event ;
                                                      rdfs:label "Combinatorics and Computer Algebra (CoCoA15)" ;
@@ -634,14 +644,14 @@
 
 <http://symbolicdata.org/Data/Conference/CoGrAl-15> a sd:Event ;
                                                     rdfs:label "CoGrAl2015 - Computations in Groups and Algebras" ;
-                                                    sd:invitedSpeakers sdp:Green_DJ, sdp:Eick_B, sdp:Horn_M, sdp:Kemper_G, sdp:Levandovskyy_V, sdp:Craven_D, sdp:Dietrich_H, sdp:Ellis_G, sdp:Henke_E, sdp:Himstedt_F, sdp:Mazza_N, sdp:OBrien_E, sdp:Pfeiffer_G, sdp:Symonds_P, sdp:Carlson_JF ;
-                                                    sd:hasCARReport "CAR 56 (Mrz. 2015), p. 28" ;
                                                     ical:dtstart "2015-02-16"^^xsd:date ;
                                                     ical:dtend "2015-02-19"^^xsd:date ;
                                                     ical:location "Friedrich Schiller University Jena, Germany" ;
                                                     ical:description "The aim of the workshop is to shed some light on various recent aspects of finite group theory, with a particular view towards algorithms and computations." ;
                                                     ical:contact sdp:King_S, sdp:Mueller_JM, sdp:Sambale_B ;
-                                                    ical:url <http://cogral2015.uni-jena.de/> .
+                                                    ical:url <http://cogral2015.uni-jena.de/> ;
+                                                    sd:invitedSpeakers sdp:Eick_B, sdp:Kemper_G, sdp:Levandovskyy_V, sdp:Horn_M, sdp:Carlson_JF, sdp:Craven_D, sdp:Dietrich_H, sdp:Ellis_G, sdp:Henke_E, sdp:Himstedt_F, sdp:Mazza_N, sdp:OBrien_E, sdp:Pfeiffer_G, sdp:Symonds_P, sdp:Green_DJ ;
+                                                    sd:hasCARReport "CAR 56 (Mrz. 2015), p. 28" .
 
 <http://symbolicdata.org/Data/Conference/DIMACS-14> a sd:Event ;
                                                     rdfs:label "DIMACS Conference on Challenges of Identifying Integer Sequences" ;
@@ -660,12 +670,12 @@
 
 <http://symbolicdata.org/Data/Conference/DMV-2015> a sd:Event ;
                                                    rdfs:label "Jahrestagung der DMV" ;
-                                                   sd:hasCARReport "CAR 57 (Okt. 2015), p. 33" ;
                                                    ical:dtstart "2015-09-21"^^xsd:date ;
                                                    ical:dtend "2015-09-25"^^xsd:date ;
                                                    ical:location "Hamburg, Germany" ;
                                                    ical:description "The 2015 annual meeting of the Deutschen Mathematiker-Vereinigung (DMV) will be hosted by the Department of Mathematics of the University of Hamburg. The organisers collaborate with the Dansk Matematisk Forening during the composition of the scientific programme; Danish-German research collaboration in mathematics is one of the special themes of this meeting. " ;
-                                                   ical:url <http://www.math.uni-hamburg.de/DMV2015/> .
+                                                   ical:url <http://www.math.uni-hamburg.de/DMV2015/> ;
+                                                   sd:hasCARReport "CAR 57 (Okt. 2015), p. 33" .
 
 <http://symbolicdata.org/Data/Conference/Dibb2014> a sd:Event ;
                                                    rdfs:label "Workshop in tropical topics and related areas" ;
@@ -674,6 +684,15 @@
                                                    ical:location "Uni Saarbruecken, Germany" ;
                                                    ical:description "Workshop in tropical topics and related areas. Speakers include Andreas Gross, Milena Hering, Michael Joswig and Ilia Zharkov." ;
                                                    ical:url <http://www.math.uni-sb.de/wiki/doku.php?id=ag-seite:ag-markwig:conferences:dibb> .
+
+<http://symbolicdata.org/Data/Conference/EACA-15> a sd:Event ;
+                                                  rdfs:label "III EACA International School on Computer Algebra and its Applications" ;
+                                                  ical:dtstart "2016-01-18"^^xsd:date ;
+                                                  ical:dtend "2016-01-21"^^xsd:date ;
+                                                  ical:location "Seville, Spain" ;
+                                                  ical:description "The Third EACA International School on Computer Algebra and its Applications will take place at the Faculty of Mathematics and IMUS (University Institute of Mathematics Research) of the University of Seville (Spain) on January 18th-21th, 2016. <br/> It is an activity of the Spanish network Red-EACA, Red Temática de Cálculo Simbólico, Álgebra Computacional y Aplicaciones, partially supported by the Ministry of Economy and Competitiveness, under the Acciones de Dinamización \"Redes de Excelencia\" MTM2014-56142-REDT.<br/> This School intends to provide an opportunity for young researchers (namely, Master and PhD students and Postdocs) in Computer Algebra and Symbolic Computation or in its Applications from all over the world, to learn from three internationally recognized lecturers, about recent developments on the area. The School also welcomes experienced researchers interested in these topics.<br/> The School will consist on three courses (lectures and tutorials) by experts plus short contributed talks and poster presentations by young researchers. Submissions will be supervised by the School's Scientific Committee.<br/> There will be grants partially covering local expenses for young researchers. Candidates will be selected under the supervision of the School's Scientific Committee." ;
+                                                  ical:url <https://www.imus.us.es/EACASCHOOL16/> ;
+                                                  sd:hasOrganizers sdp:Recio_T .
 
 <http://symbolicdata.org/Data/Conference/ECCAD-2014> a sd:Event ;
                                                      rdfs:label "East Coast Computer Algebra Day ECCAD 2014" ;
@@ -692,93 +711,93 @@
 
 <http://symbolicdata.org/Data/Conference/EMCA-2015> a sd:Event ;
                                                     rdfs:label "Workhshop on Experimental Methods in Computational Algebra" ;
-                                                    sd:invitedSpeakers sdp:Bley_W, sdp:Abbott_J, sdp:Boehm_J, sdp:Decker_W, sdp:Kemper_G, sdp:King_S, sdp:Kirschmer_M, sdp:Klueners_J, sdp:Malle_G, sdp:Seiler_W, sdp:Zerz_E, sdp:Ellis_G, sdp:deGraaf_W, sdp:Goepfert_F, sdp:Hulpke_A ;
-                                                    sd:hasCARReport "CAR 57 (Okt. 2015), p. 29" ;
                                                     ical:dtstart "2015-05-26"^^xsd:date ;
                                                     ical:dtend "2015-05-29"^^xsd:date ;
                                                     ical:location "Leibniz University Hannover, Germany" ;
                                                     ical:description "This workshop is located on the boundary between group theory, ring theory, number theory and algebraic geometry within the framework of computational algebra. Its aim is to bring together researchers from all these areas and to facilitate discussions among them." ;
                                                     ical:contact sdp:Eick_B, sdp:Fieker_C, sdp:FruehbisKrueger_A ;
-                                                    ical:url <http://www.icm.tu-bs.de/ag_algebra/Workshop-NTH-II/index.php> .
+                                                    ical:url <http://www.icm.tu-bs.de/ag_algebra/Workshop-NTH-II/index.php> ;
+                                                    sd:invitedSpeakers sdp:Kemper_G, sdp:Klueners_J, sdp:Malle_G, sdp:Zerz_E, sdp:Seiler_W, sdp:Decker_W, sdp:Boehm_J, sdp:King_S, sdp:Kirschmer_M, sdp:Bley_W, sdp:Abbott_J, sdp:Ellis_G, sdp:deGraaf_W, sdp:Goepfert_F, sdp:Hulpke_A ;
+                                                    sd:hasCARReport "CAR 57 (Okt. 2015), p. 29" .
 
 <http://symbolicdata.org/Data/Conference/FSMC-2015> a sd:Event ;
                                                     rdfs:label "Workshop Frontiers in Serre's Modularity Conjecture: Torsion and Low Weights" ;
-                                                    sd:hasOrganizers sdp:Dimitrov_M, sdp:Senguen_H, sdp:Yoo_H, sdp:Wiese_G ;
-                                                    sd:invitedSpeakers sdp:Andreatta_F, sdp:Berger_T, sdp:Diamond_F, sdp:Edixhoven_B, sdp:Herzig_F, sdp:Lan_KW, sdp:Sasaki_S, sdp:Schaeffer_G, sdp:Shin_SW, sdp:Tilouine_J, sdp:Wintenberger_JP ;
                                                     ical:dtstart "2015-06-15"^^xsd:date ;
                                                     ical:dtend "2015-06-19"^^xsd:date ;
                                                     ical:location "University of Luxembourg, Campus Kirchberg" ;
                                                     ical:description "This workshop aims to create a synergistic environment by bringing together experts with various backgrounds, including specialists on explicit computations, in order to push the frontier on two intriguing aspects of generalisations of Serre's modularity conjectures, namely, <ul><li> refinements to capture number theoretically significant properties not evident from Betti cohomology (for instance, singling out the case of mod p Galois representations unramified at p), and</li><li> exploring number theoretic properties of torsion classes in the cohomology of arithmetic groups yielding real Riemannian manifolds with no complex structure, such as Bianchi groups. </li></ul>" ;
-                                                    ical:url <http://math.uni.lu/~wiese/serre.html> .
+                                                    ical:url <http://math.uni.lu/~wiese/serre.html> ;
+                                                    sd:invitedSpeakers sdp:Andreatta_F, sdp:Berger_T, sdp:Diamond_F, sdp:Edixhoven_B, sdp:Herzig_F, sdp:Lan_KW, sdp:Sasaki_S, sdp:Schaeffer_G, sdp:Shin_SW, sdp:Tilouine_J, sdp:Wintenberger_JP ;
+                                                    sd:hasOrganizers sdp:Wiese_G, sdp:Dimitrov_M, sdp:Senguen_H, sdp:Yoo_H .
 
 <http://symbolicdata.org/Data/Conference/GAPDays-14> a sd:Event ;
                                                      rdfs:label "GAP Days 2014" ;
-                                                     sd:hasCARReport "CAR 55 (Okt. 2014), p. 37" ;
                                                      ical:dtstart "2014-08-25"^^xsd:date ;
                                                      ical:dtend "2014-08-29"^^xsd:date ;
                                                      ical:location "RWTH Aachen, Germany" ;
                                                      ical:contact sdp:Barakat_M, sdp:Horn_M, sdp:Luebeck_F ;
-                                                     ical:url <http://gapdays2014.coxeter.de/> .
+                                                     ical:url <http://gapdays2014.coxeter.de/> ;
+                                                     sd:hasCARReport "CAR 55 (Okt. 2014), p. 37" .
 
 <http://symbolicdata.org/Data/Conference/GAV-2015> a sd:Event ;
                                                    rdfs:label "Geometry of algebraic varieties" ;
-                                                   sd:hasOrganizers sdp:Farkas_G, sdp:Ortega_A ;
                                                    ical:dtstart "2015-10-06"^^xsd:date ;
                                                    ical:dtend "2015-10-09"^^xsd:date ;
                                                    ical:location "Humboldt Univ. Berlin" ;
                                                    ical:description "A conference on the occasion of Alessandro Verra's 65th birthday." ;
-                                                   ical:url <http://www2.mathematik.hu-berlin.de/~alggeo-webadmin/events/sandro/conference.php> .
+                                                   ical:url <http://www2.mathematik.hu-berlin.de/~alggeo-webadmin/events/sandro/conference.php> ;
+                                                   sd:hasOrganizers sdp:Farkas_G, sdp:Ortega_A .
 
 <http://symbolicdata.org/Data/Conference/GapDays-2015> a sd:Event ;
                                                        rdfs:label "3rd GAP Days 2015" ;
-                                                       sd:hasOrganizers sdp:Solberg_O, sdp:Barakat_M, sdp:Horn_M ;
                                                        ical:dtstart "2015-09-14"^^xsd:date ;
                                                        ical:dtend "2015-09-23"^^xsd:date ;
                                                        ical:location "NTNU Trondheim, Norway" ;
                                                        ical:description "The first week of the 3rd GAP Days is a school on representation theory of algebras and homological algebra in GAP. The talks will provide a general introduction to programming in GAP and an introduction to parallel programming in GAP, and introductions to the GAP-packages homalg/CAP (homological algebra and category theory in GAP) and QPA (Quivers and Path Algebras). <br/> The school will be followed by a coding sprint to mutally integrate the GAP-packages homalg/CAP and QPA. It will end on Wednesday the 23rd at 13:00." ;
-                                                       ical:url <http://gapdays.coxeter.de/gapdays2015-fall/> .
+                                                       ical:url <http://gapdays.coxeter.de/gapdays2015-fall/> ;
+                                                       sd:hasOrganizers sdp:Barakat_M, sdp:Horn_M, sdp:Solberg_O .
 
 <http://symbolicdata.org/Data/Conference/HARG-2015> a sd:Event ;
                                                     rdfs:label "Hyperplane Arrangements and Reflection Groups" ;
-                                                    sd:hasOrganizers sdp:Cuntz_M, sdp:Hoge_T, sdp:Roehrle_G ;
-                                                    sd:hasCARReport "CAR 57 (Okt. 2015), p. 31" ;
                                                     ical:dtstart "2015-08-10"^^xsd:date ;
                                                     ical:dtend "2015-08-12"^^xsd:date ;
                                                     ical:location "Hannover, Germany" ;
                                                     ical:description " The intention of this workshop is to provide a forum on new developments in the theory of hyperplane and reflection arrangements. The contributions by international leading experts will concentrate on geometric, combinatorial, and computational aspects." ;
-                                                    ical:url <http://www.iazd.uni-hannover.de/arr2015.html> .
+                                                    ical:url <http://www.iazd.uni-hannover.de/arr2015.html> ;
+                                                    sd:hasOrganizers sdp:Cuntz_M, sdp:Hoge_T, sdp:Roehrle_G ;
+                                                    sd:hasCARReport "CAR 57 (Okt. 2015), p. 31" .
 
 <http://symbolicdata.org/Data/Conference/HPT-14> a sd:Event ;
                                                  rdfs:label "Seventh de Brún Workshop on Homological Perturbation Theory" ;
-                                                 sd:invitedSpeakers sdp:Heras_J, sdp:Brown_R, sdp:Dotsenko_V, sdp:Engstroem_A, sdp:Fiorenza_D, sdp:Huettemann_T, sdp:Kadeshvili_T, sdp:Markl_M, sdp:Murillo_A, sdp:Pilarczyk_P, sdp:Quadrat_A, sdp:Rahm_A, sdp:Romero_A, sdp:Sergeraert_F, sdp:Stasheff_J, sdp:Tonks_A, sdp:Vokrinek_L ;
                                                  ical:dtstart "2014-12-01"^^xsd:date ;
                                                  ical:dtend "2014-12-05"^^xsd:date ;
                                                  ical:location "NUI Galway, Ireland" ;
                                                  ical:description "The workshop aims to bring together those interested in homological perturbation theory, its applications, and related topics in geometry, topology and computer science." ;
-                                                 ical:contact sdp:Barakat_M, sdp:Ellis_G, sdp:Real_P, sdp:Rubio_J ;
-                                                 ical:url <http://hamilton.nuigalway.ie/HPT/> .
+                                                 ical:contact sdp:Barakat_M, sdp:Real_P, sdp:Ellis_G, sdp:Rubio_J ;
+                                                 ical:url <http://hamilton.nuigalway.ie/HPT/> ;
+                                                 sd:invitedSpeakers sdp:Brown_R, sdp:Dotsenko_V, sdp:Engstroem_A, sdp:Fiorenza_D, sdp:Huettemann_T, sdp:Kadeshvili_T, sdp:Markl_M, sdp:Murillo_A, sdp:Pilarczyk_P, sdp:Quadrat_A, sdp:Rahm_A, sdp:Sergeraert_F, sdp:Stasheff_J, sdp:Tonks_A, sdp:Vokrinek_L, sdp:Romero_A, sdp:Heras_J .
 
 <http://symbolicdata.org/Data/Conference/ISSAC-14> a sd:Event ;
                                                    rdfs:label "ISSAC 2014" ;
-                                                   sd:hasCARReport "CAR 55 (Okt. 2014), p. 36" ;
                                                    ical:dtstart "2014-07-23"^^xsd:date ;
                                                    ical:dtend "2014-07-25"^^xsd:date ;
                                                    ical:location "Kobe University, Japan" ;
                                                    ical:description "The International Symposium on Symbolic and Algebraic Computation is the premier conference for research in symbolic computation and computer algebra. ISSAC 2014 is the 39th meeting in the series. The conference traditionally presents a range of invited speakers, tutorials, poster sessions and software demonstrations with a centre-piece of contributed research papers. <br/> ISSAC 2014 is affiliated with \"Kobe Computing Week 2014\", an event of Academic Exchange Weeks, Graduate School of Human Development and Environment, Kobe University.  <br/> ISSAC 2014 is one of satellite conferences of ICM 2014 (International Congress of Mathematicians), Korea." ;
                                                    ical:organizer "ACM" ;
-                                                   ical:url <http://www.issac-conference.org/2014> .
+                                                   ical:url <http://www.issac-conference.org/2014> ;
+                                                   sd:hasCARReport "CAR 55 (Okt. 2014), p. 36" .
 
 <http://symbolicdata.org/Data/Conference/ISSAC-2015> a sd:Event ;
                                                      rdfs:label "ISSAC 2015" ;
-                                                     sd:hasOrganizers sdp:SafeyElDin_M, sdp:Davenport_JH, sdp:England_M, sdp:Yokoyama_K, sdp:Linton_S, sdp:Bradford_R ;
-                                                     sd:invitedSpeakers sdp:Abraham_Erika, sdp:Schost_Eric, sdp:Zhi_Lihong ;
-                                                     sd:hasProgramCommittee sdp:Abbott_J, sdp:Gerdt_VP, sdp:Levandovskyy_V, sdp:Watt_S, sdp:Gao_XS, sdp:Lecerf_G, sdp:Li_Z, sdp:Renault_G, sdp:RoneyDougal_CM, sdp:Rosenkranz_M, sdp:Rump_SM, sdp:Saunders_D, sdp:Sendra_JR, sdp:Sturm_T, sdp:Szanto_A, sdp:Takayama_N, sdp:Verschelde_J, sdp:Yokoyama_K, sdp:MorenoMaza_M, sdp:Schneider_C ;
-                                                     sd:hasCARReport "CAR 57 (Okt. 2015), p. 29" ;
                                                      ical:dtstart "2015-07-06"^^xsd:date ;
                                                      ical:dtend "2015-07-09"^^xsd:date ;
                                                      ical:location "Bath, England" ;
                                                      ical:description "The International Symposium on Symbolic and Algebraic Computation (ISSAC) is the premier conference for research in symbolic computation and computer algebra. ISSAC 2015 will be the 40th meeting in the series, which started in 1966 and has been held annually since 1981. The conference presents a range of invited speakers, tutorials, poster sessions, software demonstrations and vendor exhibits with a center-piece of contributed research papers. " ;
-                                                     ical:url <http://www.issac-symposium.org/2015> .
+                                                     ical:url <http://www.issac-symposium.org/2015> ;
+                                                     sd:invitedSpeakers sdp:Abraham_Erika, sdp:Schost_Eric, sdp:Zhi_Lihong ;
+                                                     sd:hasProgramCommittee sdp:MorenoMaza_M, sdp:Gerdt_VP, sdp:Levandovskyy_V, sdp:Verschelde_J, sdp:Takayama_N, sdp:Szanto_A, sdp:Sturm_T, sdp:Sendra_JR, sdp:Saunders_D, sdp:Rump_SM, sdp:Rosenkranz_M, sdp:RoneyDougal_CM, sdp:Renault_G, sdp:Li_Z, sdp:Lecerf_G, sdp:Gao_XS, sdp:Yokoyama_K, sdp:Abbott_J, sdp:Watt_S, sdp:Schneider_C ;
+                                                     sd:hasOrganizers sdp:Bradford_R, sdp:Linton_S, sdp:Yokoyama_K, sdp:Davenport_JH, sdp:SafeyElDin_M, sdp:England_M ;
+                                                     sd:hasCARReport "CAR 57 (Okt. 2015), p. 29" .
 
 <http://symbolicdata.org/Data/Conference/KLNT-14> a sd:Event ;
                                                   rdfs:label "Number Theory in Kaiserslautern 2014: Number Theory meets Geometry" ;
@@ -792,13 +811,13 @@
 <http://symbolicdata.org/Data/Conference/MACIS-2015> a sd:Event ;
                                                      rdfs:label "MACIS 2015 - 6th International Conference on Mathematical Aspects of Computer and Information Sciences" ;
                                                      rdfs:comment "The Special Sessions proposals will be evaluated by the Scientific Committee (i.e. the ACA working group) as they come. <br/> Early submissions are strongly encouraged, since early acceptance and publication of the sessions are a big help for people to plan on attending the session/meeting." ;
-                                                     sd:invitedSpeakers sdp:Li_H, sdp:Ratschan_S, sdp:Rote_G, sdp:Sommese_A ;
-                                                     sd:hasProgramCommittee sdp:SafeyElDin_M, sdp:Sagraloff_M, sdp:Sturm_T, sdp:Bloemer_J, sdp:Hauernstein_J, sdp:Giesbrecht_M, sdp:Iliopoulous_C, sdp:Ogita_T, sdp:Sharma_V ;
                                                      ical:dtstart "2015-11-11"^^xsd:date ;
                                                      ical:dtend "2015-11-13"^^xsd:date ;
                                                      ical:location "Zuse Institute Berlin, Germany" ;
                                                      ical:description "MACIS is a series of biennial conferences focusing on research in mathematical and computational aspects of computing and information science.<br/> It is broadly concerned with algorithmic issues arising from the rich interplay across the Numerical/Algebraic/Geometric/Topological axes. These issues often in scientific and engineering computation where we need experimental studies to validate or complement the theory.  MACIS is interested in outstanding and emerging problems in all these areas. <br/> MACIS 2015 aims to span two conference cultures, that of computer science and of mathematics:  mathematical conferences allow informal presentations in order to allow rapid dissemination of ideas and feedback from the community.  Computer science conferences expect close to final papers to appear in conference proceedings." ;
-                                                     ical:url <http://macis2015.zib.de/> .
+                                                     ical:url <http://macis2015.zib.de/> ;
+                                                     sd:invitedSpeakers sdp:Li_H, sdp:Ratschan_S, sdp:Rote_G, sdp:Sommese_A ;
+                                                     sd:hasProgramCommittee sdp:Sturm_T, sdp:Sagraloff_M, sdp:SafeyElDin_M, sdp:Bloemer_J, sdp:Hauernstein_J, sdp:Giesbrecht_M, sdp:Iliopoulous_C, sdp:Ogita_T, sdp:Sharma_V .
 
 <http://symbolicdata.org/Data/Conference/MAP-2014> a sd:Event ;
                                                    rdfs:label "MAP-2014: Mathematics, Algorithms and Proofs" ;
@@ -834,13 +853,13 @@
 
 <http://symbolicdata.org/Data/Conference/NormalizWorkshop-15> a sd:Event ;
                                                               rdfs:label "Normaliz workshop" ;
-                                                              sd:hasParticipants sdp:Schenzel_P, sdp:GarciaSanchez_PA, sdp:Abbott_J, sdp:Bruns_W, sdp:Horn_M, sdp:Lorenz_B, sdp:Sieg_R, sdp:Soeger_C, sdp:Roemer_T ;
                                                               ical:dtstart "2015-05-15"^^xsd:date ;
                                                               ical:dtend "2015-05-16"^^xsd:date ;
                                                               ical:location "Institute of Mathematics, Albrechtstr. 28a, Osnabrück, Germany" ;
                                                               ical:description "We have considered organizing a Normaliz workshop in May at Osnabrück. We will start on Friday, May 15 at 09:30 and end Saturday, May 16 at 16:00. Potential topics: <ul><li>Tutorial</li><li>The mathematics and algorithms of Normaliz</li><li>Interesting applications</li><li>Interfaces (GUI, file input, access from other systems via libnormaliz)</li><li>Desired new functions</li><li>Changes in Normaliz 3.0 (publication planned for the end of June)</li></ul>" ;
                                                               ical:contact sdp:Bruns_W ;
-                                                              ical:url <http://www.home.uni-osnabrueck.de/wbruns/> .
+                                                              ical:url <http://www.home.uni-osnabrueck.de/wbruns/> ;
+                                                              sd:hasParticipants sdp:Bruns_W, sdp:Horn_M, sdp:Lorenz_B, sdp:Sieg_R, sdp:Soeger_C, sdp:Abbott_J, sdp:Schenzel_P, sdp:GarciaSanchez_PA, sdp:Roemer_T .
 
 <http://symbolicdata.org/Data/Conference/OpenMath-14> a sd:Event ;
                                                       rdfs:label "OpenMath Workshop 2014" ;
@@ -860,34 +879,34 @@
 
 <http://symbolicdata.org/Data/Conference/PAS-2015> a sd:Event ;
                                                    rdfs:label "Fourth International Seminar on Program Verification, Automated Debugging and Symbolic Computation" ;
-                                                   sd:hasHonoraryChair sdp:Li_W ;
-                                                   sd:hasSteeringCommittee sdp:Knoop_J, sdp:Letichevsky_A, sdp:Hong_H, sdp:Jebelean_T, sdp:Wang_D, sdp:Li_W ;
-                                                   sd:hasProgramChair sdp:Jebelean_T, sdp:Wang_D ;
-                                                   sd:hasProgramCommittee sdp:Knoop_J, sdp:Alves_S, sdp:Armando_A, sdp:Ciobaca_S, sdp:Dramnesc_I, sdp:Erascu_M, sdp:Florido_M, sdp:Giese_M, sdp:Konev_B, sdp:Kusper_G, sdp:Letychevskyi_O, sdp:Lucanu_D, sdp:Maletzky_A, sdp:Minea_M, sdp:Peschanenko_V, sdp:Robu_J, sdp:Rusinowitch_M, sdp:Rusu_V, sdp:Seidl_M, sdp:SofronieStokkermans_V, sdp:Su_K, sdp:Zhan_N, sdp:Kovacs_L, sdp:Marin_M, sdp:Passmore_G, sdp:Biere_A, sdp:Chen_X, sdp:Kamareddine_F, sdp:Luo_J, sdp:Schreiner_W, sdp:Windsteiger_W ;
                                                    ical:dtstart "2015-10-21"^^xsd:date ;
                                                    ical:dtend "2015-10-23"^^xsd:date ;
                                                    ical:location "Beijing, China" ;
                                                    ical:description "PAS 2015 will provide a forum for researchers and software developers actively involved or interested in developing, using, and applying methods and software tools of symbolic computation for program verification and automated debugging to exchange ideas and views, to review the state of the art and discuss prospects, to present research results and experiments,  and to build up contacts for future cooperation. The scientific program of the seminar will feature invited talks and contributed presentations. <br/> The previous seminars PAS 2012 and PAS 2013 were held in Beijing, China, and PAS 2014 was part of the Federated Logic Conference (FLoC) and the Vienna Summer of Logic." ;
-                                                   ical:url <http://pas2015.cc4cm.org/> .
+                                                   sd:hasProgramChair sdp:Wang_D, sdp:Jebelean_T ;
+                                                   ical:url <http://pas2015.cc4cm.org/> ;
+                                                   sd:hasProgramCommittee sdp:Biere_A, sdp:Kamareddine_F, sdp:Marin_M, sdp:Alves_S, sdp:Armando_A, sdp:Ciobaca_S, sdp:Dramnesc_I, sdp:Erascu_M, sdp:Florido_M, sdp:Giese_M, sdp:Knoop_J, sdp:Konev_B, sdp:Kusper_G, sdp:Letychevskyi_O, sdp:Lucanu_D, sdp:Maletzky_A, sdp:Minea_M, sdp:Peschanenko_V, sdp:Robu_J, sdp:Rusinowitch_M, sdp:Rusu_V, sdp:Seidl_M, sdp:SofronieStokkermans_V, sdp:Su_K, sdp:Zhan_N, sdp:Chen_X, sdp:Luo_J, sdp:Schreiner_W, sdp:Windsteiger_W, sdp:Kovacs_L, sdp:Passmore_G ;
+                                                   sd:hasHonoraryChair sdp:Li_W ;
+                                                   sd:hasSteeringCommittee sdp:Wang_D, sdp:Jebelean_T, sdp:Knoop_J, sdp:Letichevsky_A, sdp:Li_W, sdp:Hong_H .
 
 <http://symbolicdata.org/Data/Conference/PASCO-2015> a sd:Event ;
                                                      rdfs:label "PASCO 2015: 7th International Workshop on Parallel Symbolic Computation" ;
-                                                     sd:hasOrganizers sdp:Davenport_JH, sdp:Pernet_C, sdp:Kaltofen_EL, sdp:Villard_G, sdp:Giorgi_P, sdp:Roche_DS, sdp:Bradford_R, sdp:Dumas_JG ;
                                                      ical:dtstart "2015-07-10"^^xsd:date ;
                                                      ical:dtend "2015-07-12"^^xsd:date ;
                                                      ical:location "Bath, England" ;
                                                      ical:description "PASCO is a series of workshops dedicated to the promotion and advancement of parallel algorithms and software in all areas of symbolic mathematical computation. " ;
-                                                     ical:url <http://pasco2015.imag.fr/> .
+                                                     ical:url <http://pasco2015.imag.fr/> ;
+                                                     sd:hasOrganizers sdp:Bradford_R, sdp:Dumas_JG, sdp:Pernet_C, sdp:Kaltofen_EL, sdp:Villard_G, sdp:Giorgi_P, sdp:Roche_DS, sdp:Davenport_JH .
 
 <http://symbolicdata.org/Data/Conference/Polymake-12.14> a sd:Event ;
                                                          rdfs:label "Polymake workshop at TU Berlin" ;
-                                                         sd:invitedSpeakers sdp:Beck_M, sdp:Bremner_D ;
-                                                         sd:hasCARReport "CAR 56 (Mrz. 2015), p. 27" ;
                                                          ical:dtstart "2014-12-05"^^xsd:date ;
                                                          ical:location "TU Berlin, Germany" ;
                                                          ical:description "A workshop for users of polymake and friends of polyhedral geometry in general. The format will be slightly different this time, as we are featuring two plenary lectures by Matthias Beck (SFSU) and David Bremner (U Brunswick). In addition we will provide a number of tutorials on various aspects of polymake.  This includes our regular help desk where you can discuss your individual ideas, suggestions, questions, complaints." ;
                                                          ical:contact sdp:Joswig_M ;
-                                                         ical:url <http://www.polymake.org/doku.php/workshop1214> .
+                                                         ical:url <http://www.polymake.org/doku.php/workshop1214> ;
+                                                         sd:invitedSpeakers sdp:Beck_M, sdp:Bremner_D ;
+                                                         sd:hasCARReport "CAR 56 (Mrz. 2015), p. 27" .
 
 <http://symbolicdata.org/Data/Conference/SIAMAG-2015> a sd:Event ;
                                                       rdfs:label "SIAM Conference on Applied Algebraic Geometry (SIAM AG:15)" ;
@@ -907,15 +926,15 @@
 
 <http://symbolicdata.org/Data/Conference/SPP-15> a sd:Event ;
                                                  rdfs:label "Jahrestagung des SPP 1489" ;
-                                                 sd:hasOrganizers sdp:Bruns_W, sdp:Decker_W, sdp:Fieker_C, sdp:Sieg_R ;
-                                                 sd:invitedSpeakers sdp:Mueller_JS, sdp:Linton_S, sdp:Varbaro_M ;
-                                                 sd:hasCARReport "CAR 57 (Okt. 2015), p. 33" ;
                                                  ical:dtstart "2015-09-28"^^xsd:date ;
                                                  ical:dtend "2015-10-02"^^xsd:date ;
                                                  ical:location "Uni Osnabrück, Germany" ;
                                                  ical:description "Annual Meeting 2015 of the German SPP 1489 Priority Program" ;
                                                  ical:contact sdp:Decker_W ;
-                                                 ical:url <http://www.spptagung.uni-osnabrueck.de> .
+                                                 ical:url <http://www.spptagung.uni-osnabrueck.de> ;
+                                                 sd:invitedSpeakers sdp:Linton_S, sdp:Mueller_JS, sdp:Varbaro_M ;
+                                                 sd:hasOrganizers sdp:Fieker_C, sdp:Decker_W, sdp:Bruns_W, sdp:Sieg_R ;
+                                                 sd:hasCARReport "CAR 57 (Okt. 2015), p. 33" .
 
 <http://symbolicdata.org/Data/Conference/SPPEvent-1001> a sd:Event ;
                                                         rdfs:label "Software Workshop: Geometry and Combinatorics I" ;
@@ -1038,11 +1057,11 @@
 
 <http://symbolicdata.org/Data/Conference/SPPEvent-1022> a sd:Event ;
                                                         rdfs:label "Workshop 'Questions, Algorithms, and Computations in Abstract Group Theory'" ;
-                                                        sd:hasCARReport "CAR 53 (Okt. 2013), p. 29" ;
                                                         ical:dtstart "2013-05-21"^^xsd:date ;
                                                         ical:dtend "2013-05-24"^^xsd:date ;
                                                         ical:location "TU Braunschweig, Germany" ;
-                                                        ical:url <http://www.icm.tu-bs.de/~beick/conf/qac.html> .
+                                                        ical:url <http://www.icm.tu-bs.de/~beick/conf/qac.html> ;
+                                                        sd:hasCARReport "CAR 53 (Okt. 2013), p. 29" .
 
 <http://symbolicdata.org/Data/Conference/SPPEvent-1023> a sd:Event ;
                                                         rdfs:label "Algebraic Curves and Cryptography" ;
@@ -1053,11 +1072,11 @@
 
 <http://symbolicdata.org/Data/Conference/SPPEvent-1024> a sd:Event ;
                                                         rdfs:label "Summer School in Algorithmic Mathematics" ;
-                                                        sd:hasCARReport "CAR 53 (Okt. 2013), p. 31" ;
                                                         ical:dtstart "2013-09-02"^^xsd:date ;
                                                         ical:dtend "2013-09-06"^^xsd:date ;
                                                         ical:location "Universit&auml;t Hamburg" ;
-                                                        ical:url <http://www.computeralgebra.de/s2am-2013/> .
+                                                        ical:url <http://www.computeralgebra.de/s2am-2013/> ;
+                                                        sd:hasCARReport "CAR 53 (Okt. 2013), p. 31" .
 
 <http://symbolicdata.org/Data/Conference/SPPEvent-1028> a sd:Event ;
                                                         rdfs:label "Workshop on Diagram Algebras" ;
@@ -1075,14 +1094,14 @@
 
 <http://symbolicdata.org/Data/Conference/SYNASC-2015> a sd:Event ;
                                                       rdfs:label "SYNASC 2015: 17th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing" ;
-                                                      sd:hasOrganizers sdp:Markwig_T ;
-                                                      sd:invitedSpeakers sdp:Bentley_P, sdp:Kauers_M, sdp:Ida_T, sdp:Piskac_R, sdp:Sands_D, sdp:Voronkov_A, sdp:Woltran_S, sdp:Hedin_D, sdp:Gurfinkel_A, sdp:Watt_S ;
-                                                      sd:hasProgramCommittee sdp:Ida_T, sdp:Maruster_S, sdp:Jebelean_T, sdp:Negru_V, sdp:Petcu_D, sdp:Zaharie_D, sdp:Takacs_S, sdp:Bjorner_N, sdp:Petrovski_A, sdp:Frincu_M, sdp:Bosa_K, sdp:Istrate_G, sdp:Pop_D, sdp:Buchberger_B, sdp:Davenport_JH, sdp:Watt_S, sdp:Kovacs_L, sdp:Marin_M ;
                                                       ical:dtstart "2015-09-21"^^xsd:date ;
                                                       ical:dtend "2015-09-24"^^xsd:date ;
                                                       ical:location "Timisoara, Romania" ;
                                                       ical:description "SYNASC aims to stimulate the interaction between the two scientific communities of symbolic and numeric computing and to exhibit interesting applications of the areas both in theory and in practice. The choice of the topic is motivated by the belief of the organizers that the dialogue between the two communities is very necessary for accelerating the progress in making the computer a truly intelligent aid for mathematicians and engineers. " ;
-                                                      ical:url <http://synasc.ro/2015> .
+                                                      ical:url <http://synasc.ro/2015> ;
+                                                      sd:invitedSpeakers sdp:Watt_S, sdp:Bentley_P, sdp:Kauers_M, sdp:Ida_T, sdp:Piskac_R, sdp:Sands_D, sdp:Voronkov_A, sdp:Woltran_S, sdp:Hedin_D, sdp:Gurfinkel_A ;
+                                                      sd:hasProgramCommittee sdp:Buchberger_B, sdp:Watt_S, sdp:Davenport_JH, sdp:Marin_M, sdp:Maruster_S, sdp:Jebelean_T, sdp:Negru_V, sdp:Petcu_D, sdp:Zaharie_D, sdp:Takacs_S, sdp:Bjorner_N, sdp:Petrovski_A, sdp:Frincu_M, sdp:Bosa_K, sdp:Istrate_G, sdp:Pop_D, sdp:Ida_T, sdp:Kovacs_L ;
+                                                      sd:hasOrganizers sdp:Markwig_T .
 
 <http://symbolicdata.org/Data/Conference/TAS-2015> a sd:Event ;
                                                    rdfs:label "Theory and applications of syzygies" ;
@@ -1090,7 +1109,7 @@
                                                    ical:dtend "2015-07-03"^^xsd:date ;
                                                    ical:location "Saarbruecken, Germany" ;
                                                    ical:description "we would like to announce this conference on the occassion of Frank-Olaf Schreyer's birthday." ;
-                                                   ical:contact sdp:Bopp_C, sdp:Hahn_M, sdp:Markwig_H, sdp:Tanturri_F ;
+                                                   ical:contact sdp:Markwig_H, sdp:Bopp_C, sdp:Hahn_M, sdp:Tanturri_F ;
                                                    ical:url <http://www.math.uni-sb.de/ag-schreyer/conference/> .
 
 <http://symbolicdata.org/Data/Conference/WGR-14> a sd:Event ;
@@ -1099,7 +1118,7 @@
                                                  ical:dtend "2014-11-21"^^xsd:date ;
                                                  ical:location "University of Luxembourg" ;
                                                  ical:description "The themes of the workshop include Galois representations modulo prime powers, big Galois image, l-independence of Galois representations, applications to the inverse Galois problem" ;
-                                                 ical:contact sdp:Wiese_G, sdp:Hui_CY, sdp:AriasdeReynaDominguez_S ;
+                                                 ical:contact sdp:Hui_CY, sdp:Wiese_G, sdp:AriasdeReynaDominguez_S ;
                                                  ical:url <http://math.uni.lu/~hui/gal.html> .
 
 <> a owl:Ontology ;

@@ -8,13 +8,7 @@
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
 @prefix sdp: <http://symbolicdata.org/Data/Person/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix sdt: <http://symbolicdata.org/Data/Tag/> .
 @prefix cc: <http://creativecommons.org/ns#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix swrc: <http://swrc.ontoware.org/ontology#> .
-@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
-@prefix group: <http://symbolicdata.org/casn/Group/> .
-@prefix project: <http://symbolicdata.org/casn/Project/> .
 
 <> a owl:Ontology ;
    rdfs:label "SD Person Data" ;

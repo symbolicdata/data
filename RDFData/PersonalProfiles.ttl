@@ -1,49 +1,116 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix cc: <http://creativecommons.org/ns#> .
-@prefix sd:	<http://symbolicdata.org/Data/Model#> .
-@prefix sdp:	<http://symbolicdata.org/Data/Person/> .
-@prefix cafg:	<http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
 
+<http://symbolicdata.org/Data/PersonalProfiles/>
+    cc:attributionName "The SymbolicData Project" ;
+    cc:attributionURL <http://symbolicdata.org> ;
+    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    a owl:Ontology ;
+    rdfs:label "SD Personal Profile Links" .
 
-<http://symbolicdata.org/Data/PersonalProfiles/> a owl:Ontology ;
-   rdfs:label "SD Personal Profile Links" ;
-   cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-   cc:attributionURL <http://symbolicdata.org> ;
-   cc:attributionName "The SymbolicData Project" .
+sdp:Cuntz_M
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/MichaelCuntz.rdf> .
 
-sdp:Cuntz_M	sd:hasPersonalProfile	cafg:MichaelCuntz .
-sdp:Eick_B	sd:hasPersonalProfile	cafg:BettinaEick .
-sdp:Fieker_C	sd:hasPersonalProfile	cafg:ClausFieker .
-sdp:FruehbisKrueger_A	sd:hasPersonalProfile	cafg:AnneFruehbisKrueger .
-sdp:Grabmeier_J	sd:hasPersonalProfile	cafg:JohannesGrabmeier .
-sdp:Graebe_HG	sd:hasPersonalProfile	cafg:HansGertGraebe .
-sdp:Greefrath_G	sd:hasPersonalProfile	cafg:GilbertGreefrath .
-sdp:Hackl_K	sd:hasPersonalProfile	cafg:KlausHackl .
-sdp:Hahn_T	sd:hasPersonalProfile	cafg:ThomasHahn .
-sdp:Hantzschmann_Karl	sd:hasPersonalProfile	cafg:KarlHantzschmann .
-sdp:Heinrich_ED	sd:hasPersonalProfile	cafg:ElkedagmarHeinrich .
-sdp:Henn_HW	sd:hasPersonalProfile	cafg:HansWolfgangHenn .
-sdp:Hess_F	sd:hasPersonalProfile	cafg:FlorianHess .
-sdp:Hiss_G	sd:hasPersonalProfile	cafg:GerhardHiss .
-sdp:Kemper_G	sd:hasPersonalProfile	cafg:GregorKemper .
-sdp:Klinge_S	sd:hasPersonalProfile	cafg:SandraKlinge .
-sdp:Klueners_J	sd:hasPersonalProfile	cafg:JuergenKlueners .
-sdp:Knechtel_H	sd:hasPersonalProfile	cafg:HeikoKnechtel .
-sdp:Koepf_W	sd:hasPersonalProfile	cafg:WolframKoepf .
-sdp:Kortenkamp_U	sd:hasPersonalProfile	cafg:UlrichKortenkamp .
-sdp:Kreuzer_M	sd:hasPersonalProfile	cafg:MartinKreuzer .
-sdp:Kyureghyan_G	sd:hasPersonalProfile	cafg:GoharKyureghyan .
-sdp:Laue_R	sd:hasPersonalProfile	cafg:ReinhardLaue .
-sdp:Malle_G	sd:hasPersonalProfile	cafg:GunterMalle .
-sdp:Matzat_BH	sd:hasPersonalProfile	cafg:HeinrichMatzat .
-sdp:Mayr_EW	sd:hasPersonalProfile	cafg:ErnstMayr .
-sdp:Meyer_J	sd:hasPersonalProfile	cafg:JoergMeyer .
-sdp:Moeller_HM	sd:hasPersonalProfile	cafg:MichaelMoeller .
-sdp:Mueller_JH	sd:hasPersonalProfile	cafg:JanHendrikMueller .
-sdp:Schwardmann_U	sd:hasPersonalProfile	cafg:UlrichSchwardmann .
-sdp:Sorgatz_A	sd:hasPersonalProfile	cafg:AndreasSorgatz .
-sdp:Werner_W	sd:hasPersonalProfile	cafg:WilhelmWerner .
-sdp:Wessler_M	sd:hasPersonalProfile	cafg:MarkusWessler .
-sdp:Zerz_E	sd:hasPersonalProfile	cafg:EvaZerz .
+sdp:Eick_B
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/BettinaEick.rdf> .
+
+sdp:Fieker_C
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/ClausFieker.rdf> .
+
+sdp:FruehbisKrueger_A
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/AnneFruehbisKrueger.rdf> .
+
+sdp:Grabmeier_J
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/JohannesGrabmeier.rdf> .
+
+sdp:Graebe_HG
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/HansGertGraebe.rdf> .
+
+sdp:Greefrath_G
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/GilbertGreefrath.rdf> .
+
+sdp:Hackl_K
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/KlausHackl.rdf> .
+
+sdp:Hahn_T
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/ThomasHahn.rdf> .
+
+sdp:Hantzschmann_Karl
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/KarlHantzschmann.rdf> .
+
+sdp:Heinrich_ED
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/ElkedagmarHeinrich.rdf> .
+
+sdp:Henn_HW
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/HansWolfgangHenn.rdf> .
+
+sdp:Hess_F
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/FlorianHess.rdf> .
+
+sdp:Hiss_G
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/GerhardHiss.rdf> .
+
+sdp:Kemper_G
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/GregorKemper.rdf> .
+
+sdp:Klinge_S
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/SandraKlinge.rdf> .
+
+sdp:Klueners_J
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/JuergenKlueners.rdf> .
+
+sdp:Knechtel_H
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/HeikoKnechtel.rdf> .
+
+sdp:Koepf_W
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/WolframKoepf.rdf> .
+
+sdp:Kortenkamp_U
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/UlrichKortenkamp.rdf> .
+
+sdp:Kreuzer_M
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/MartinKreuzer.rdf> .
+
+sdp:Kyureghyan_G
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/GoharKyureghyan.rdf> .
+
+sdp:Laue_R
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/ReinhardLaue.rdf> .
+
+sdp:Malle_G
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/GunterMalle.rdf> .
+
+sdp:Matzat_BH
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/HeinrichMatzat.rdf> .
+
+sdp:Mayr_EW
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/ErnstMayr.rdf> .
+
+sdp:Meyer_J
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/JoergMeyer.rdf> .
+
+sdp:Moeller_HM
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/MichaelMoeller.rdf> .
+
+sdp:Mueller_JH
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/JanHendrikMueller.rdf> .
+
+sdp:Schwardmann_U
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/UlrichSchwardmann.rdf> .
+
+sdp:Sorgatz_A
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/AndreasSorgatz.rdf> .
+
+sdp:Werner_W
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/WilhelmWerner.rdf> .
+
+sdp:Wessler_M
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/MarkusWessler.rdf> .
+
+sdp:Zerz_E
+    sd:hasPersonalProfile <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles/EvaZerz.rdf> .
+
