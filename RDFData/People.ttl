@@ -188,6 +188,9 @@ sdp:Baker_J a foaf:Person ;
             foaf:name "Josef Baker" ;
             foaf:homepage <http://www.cs.bham.ac.uk/~jbb> .
 
+sdp:Balakrishnan_J a foaf:Person ;
+                   foaf:name "Jennifer Balakrishnan" .
+
 sdp:Ballarin_C a foaf:Person ;
                foaf:name "Clemens Ballarin" .
 
@@ -586,6 +589,10 @@ sdp:Cioffi_F a foaf:Person ;
 sdp:Claessen_K a foaf:Person ;
                foaf:name "Koen Claessen" .
 
+sdp:Cohen_H a foaf:Person ;
+            foaf:name "Henri Cohen" ;
+            sd:affiliation "Université de Bordeaux, France" .
+
 sdp:Cohl_HS a foaf:Person ;
             foaf:name "Howard S. Cohl" .
 
@@ -798,6 +805,9 @@ sdp:Eick_B a foaf:Person ;
 
 sdp:Eisenbud_D a foaf:Person ;
                foaf:name "David Eisenbud" .
+
+sdp:Eisentraeger_K a foaf:Person ;
+                   foaf:name "Kirsten Eisentraeger" .
 
 sdp:Ekici_B a foaf:Person ;
             foaf:name "Burak Ekici" .
@@ -1197,6 +1207,9 @@ sdp:Hartl_A a foaf:Person ;
 sdp:Hartmann_J a foaf:Person ;
                foaf:name "Julia Hartman" .
 
+sdp:Harvey_D a foaf:Person ;
+             foaf:name "David Harvey" .
+
 sdp:Hasan_O a foaf:Person ;
             foaf:name "Osman Hasan" .
 
@@ -1318,6 +1331,10 @@ sdp:Hetzl_S a foaf:Person ;
             foaf:name "Stefan Hetzl" ;
             foaf:homepage <http://www.logic.at/people/hetzl/> .
 
+sdp:Hiary_G a foaf:Person ;
+            foaf:name "Ghaith Hiary" ;
+            sd:affiliation "Ohio State University, USA" .
+
 sdp:Hibi_T a foaf:Person ;
            foaf:name "Takayuki Hibi" ;
            sd:affiliation "Osaka University, Japan" .
@@ -1332,6 +1349,10 @@ sdp:Hinkis_A a foaf:Person ;
 
 sdp:Hiss_G a foaf:Person ;
            foaf:name "Gerhard Hiß" .
+
+sdp:Ho_W a foaf:Person ;
+         foaf:name "Wei Ho" ;
+         sd:affiliation "University of Michigan, USA" .
 
 sdp:Hoffkamp_A a foaf:Person ;
                foaf:name "Andrea Hoffkamp" ;
@@ -1352,6 +1373,9 @@ sdp:Hohenwarter_M a foaf:Person ;
 sdp:Holden_S a foaf:Person ;
              foaf:name "Sean Holden" ;
              sd:affiliation "University of Cambridge, UK" .
+
+sdp:Holt_D a foaf:Person ;
+           foaf:name "Derek Holt" .
 
 sdp:Hong_H a foaf:Person ;
            foaf:name "Hoon Hong" ;
@@ -1645,6 +1669,9 @@ sdp:Khan_MT a foaf:Person ;
             foaf:name "Muhammad Taimoor Khan" ;
             foaf:homepage <http://www.risc.jku.at/home/mtkhan/> .
 
+sdp:KhuriMakdisi_K a foaf:Person ;
+                   foaf:name "Kamal Khuri-Makdisi" .
+
 sdp:Khutornoy_NV a foaf:Person ;
                  foaf:name "N.V. Khutornoy" .
 
@@ -1725,6 +1752,9 @@ sdp:Koerner_H a foaf:Person ;
 sdp:Kofler_K a foaf:Person ;
              foaf:name "Kevin Kofler" ;
              foaf:homepage <http://www.tigen.org/kevin.kofler/> .
+
+sdp:Kohel_D a foaf:Person ;
+            foaf:name "David Kohel" .
 
 sdp:Kohlhase_A a foaf:Person ;
                foaf:name "Andrea Kohlhase" ;
@@ -2557,6 +2587,10 @@ sdp:Pech_P a foaf:Person ;
 sdp:Peeters_K a foaf:Person ;
               foaf:name "Kasper Peeters" .
 
+sdp:Peikert_C a foaf:Person ;
+              foaf:name "Chris Peikert" ;
+              sd:affiliation "University of Michigan, USA" .
+
 sdp:Peltier_N a foaf:Person ;
               foaf:name "Nicolas Peltier" .
 
@@ -2646,6 +2680,9 @@ sdp:Pollanen_M a foaf:Person ;
 sdp:Pollefeys_M a foaf:Person ;
                 foaf:name "Marc Pollefeys" ;
                 sd:affiliation "ETH Zurich, Switzerland" .
+
+sdp:Pomerance_C a foaf:Person ;
+                foaf:name "Carl Pomerance" .
 
 sdp:Pop_D a foaf:Person ;
           foaf:name "Daniel Pop" ;
@@ -3263,6 +3300,9 @@ sdp:Staudenmaier_HM a foaf:Person ;
 sdp:Steen_A a foaf:Person ;
             foaf:name "Alexander Steen" .
 
+sdp:Stehle_D a foaf:Person ;
+             foaf:name "Damien Stehlé" .
+
 sdp:Steidel_S a foaf:Person ;
               foaf:name "Stefan Steidel" ;
               foaf:homepage <http://www.mathematik.uni-kl.de/~steidel> .
@@ -3431,6 +3471,9 @@ sdp:Topping_P a foaf:Person ;
               sd:affiliation "Design Science Inc." ;
               sd:country <http://dbpedia.org/resource/United_States> .
 
+sdp:Tornaria_G a foaf:Person ;
+               foaf:name "Gonzalo Tornaría" .
+
 sdp:Torrao_D a foaf:Person ;
              foaf:name "Denise Torrão" .
 
@@ -3521,11 +3564,18 @@ sdp:Villaret_M a foaf:Person ;
                sd:affiliation "Universitat de Girona" ;
                sd:country <http://dbpedia.org/resource/Spain> .
 
+sdp:Viray_B a foaf:Person ;
+            foaf:name "Bianca Viray" ;
+            sd:affiliation "University of Washington, USA" .
+
 sdp:Viudez_C a foaf:Person ;
              foaf:name "Christophe Viudez" .
 
 sdp:Vo_TT a foaf:Person ;
           foaf:name "Thanh Tung Vo" .
+
+sdp:Voight_J a foaf:Person ;
+             foaf:name "John Voight" .
 
 sdp:Vokrinek_L a foaf:Person ;
                foaf:name "Lukáš Vokřínek" ;

@@ -45,6 +45,17 @@
                                                     sd:hasAbstractsDeadline "2015-12-12" ;
                                                     sd:hasProgramCommittee sdp:Urban_J, sdp:Sutcliffe_G, sdp:Cramer_M, sdp:Heskes_T, sdp:Holden_S, sdp:Kumar_R, sdp:Lafferty_J, sdp:Schulz_S, sdp:Paulson_L, sdp:Hales_T, sdp:Kaliszyk_C .
 
+<http://symbolicdata.org/Data/Conference/ANTS-2016> a sd:UpcomingConference ;
+                                                    rdfs:label "12th Algorithmic Number Theory Symposium" ;
+                                                    ical:dtstart "2016-08-29"^^xsd:date ;
+                                                    ical:dtend "2016-09-02"^^xsd:date ;
+                                                    ical:location "University Kaiserslautern, Germany" ;
+                                                    sd:hasPaperDeadline "2016-02-22"^^xsd:date ;
+                                                    ical:description "Since their inception in 1994, the bi-annual ANTS meetings have become the premier international forum for the presentation of new research in computational number theory. They are devoted to algorithmic aspects of number theory, including elementary number theory, algebraic number theory, analytic number theory, geometry of numbers, algebraic geometry, finite fields, and cryptography. " ;
+                                                    ical:url <http://www.mathematik.uni-kl.de/~thofmann/ants/> ;
+                                                    sd:invitedSpeakers sdp:Cohen_H, sdp:Hiary_G, sdp:Ho_W, sdp:Viray_B, sdp:Peikert_C ;
+                                                    sd:hasProgramCommittee sdp:Fieker_C, sdp:Hess_F, sdp:Hofmann_T, sdp:Wiese_G, sdp:Hart_W, sdp:Balakrishnan_J, sdp:Eisentraeger_K, sdp:Harvey_D, sdp:Holt_D, sdp:KhuriMakdisi_K, sdp:Kohel_D, sdp:Pomerance_C, sdp:Stehle_D, sdp:Tornaria_G, sdp:Voight_J .
+
 <http://symbolicdata.org/Data/Conference/CADCS-2016> a sd:UpcomingConference ;
                                                      rdfs:label "Research Workshop on Algebraic Representations in Computer-Aided Design for Complex Shapes" ;
                                                      ical:dtstart "2016-04-25"^^xsd:date ;
