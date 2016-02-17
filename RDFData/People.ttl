@@ -362,7 +362,8 @@ sdp:Bopp_C a foaf:Person ;
            sd:affiliation "Universität des Saarlandes" .
 
 sdp:Borwein_JM a foaf:Person ;
-               foaf:name "Jonathan M. Borwein" .
+               foaf:name "Jonathan M. Borwein" ;
+               sd:affiliation "University of Newcastle, USA" .
 
 sdp:Bosa_K a foaf:Person ;
            foaf:name "Karoly Bosa" ;
@@ -440,6 +441,10 @@ sdp:Bridge_J a foaf:Person ;
 sdp:Broue_M a foaf:Person ;
             foaf:name "Michel Broué" ;
             sd:affiliation "University Paris Diderot Paris 7, France" .
+
+sdp:Brown_J a foaf:Person ;
+            foaf:name "Jim Brown" ;
+            sd:affiliation "University of Toronto, Canada" .
 
 sdp:Brown_R a foaf:Person ;
             foaf:name "Ronnie Brown" ;
@@ -1504,7 +1509,8 @@ sdp:Jedwab_J a foaf:Person ;
              sd:affiliation "Vancouver" .
 
 sdp:Jeffrey_D a foaf:Person ;
-              foaf:name "David Jeffrey" .
+              foaf:name "David Jeffrey" ;
+              sd:affiliation "Western University, Ontario, Canada" .
 
 sdp:Jenkins_N a foaf:Person ;
               foaf:name "Nathan Jenkins" .
@@ -1605,6 +1611,10 @@ sdp:Kang_S a foaf:Person ;
 sdp:Kapur_D a foaf:Person ;
             foaf:name "Deepak Kapur" ;
             sd:affiliation "University of New Mexico, USA" .
+
+sdp:Kari_L a foaf:Person ;
+           foaf:name "Lila Kari" ;
+           sd:affiliation "University of Waterloo, Canada" .
 
 sdp:Kastner_L a foaf:Person ;
               foaf:name "Lars Kastner" ;
@@ -3206,6 +3216,10 @@ sdp:Silva_R a foaf:Person ;
 sdp:Skowyra_R a foaf:Person ;
               foaf:name "Richard Skowyra" .
 
+sdp:Sloane_N a foaf:Person ;
+             foaf:name "Neil Sloane" ;
+             sd:affiliation "Rutgers University, USA" .
+
 sdp:Smallbone_N a foaf:Person ;
                 foaf:name "Nicholas Smallbone" .
 
@@ -3327,6 +3341,10 @@ sdp:Stojanovic_S a foaf:Person ;
 sdp:Stoll_M a foaf:Person ;
             foaf:name "Michael Stoll" ;
             sd:affiliation "Universität Bayreuth" .
+
+sdp:Stoutemeyer_D a foaf:Person ;
+                  foaf:name "David Stoutemeyer" ;
+                  sd:affiliation "University of Hawaii, USA" .
 
 sdp:Strehl_V a foaf:Person ;
              foaf:name "Volker Strehl" .

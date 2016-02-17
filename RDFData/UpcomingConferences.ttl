@@ -21,6 +21,17 @@
                                                  sd:hasGeneralChair sdp:Koepf_W, sdp:Seiler_W ;
                                                  ical:url <http://www.mathematik.uni-kassel.de/ACA2016/> .
 
+<http://symbolicdata.org/Data/Conference/ACMES-16> a sd:UpcomingConference ;
+                                                   rdfs:label "ACMES-16: Computationally Assisted Mathematical Discovery and Experimental Mathematics" ;
+                                                   ical:dtstart "2016-05-12"^^xsd:date ;
+                                                   ical:dtend "2016-05-15"^^xsd:date ;
+                                                   ical:location "Western University, London, Ontario, Canada" ;
+                                                   ical:description "Computational Discovery, also called Experimental Mathematics, is the use of symbolic and numerical computation to discover patterns, to identify particular numbers and sequences, and to gather evidence in support of specific mathematical assertions that may themselves arise by computational means. In recent decades, computer-assisted mathematical discovery has profoundly transformed the strategies used to expand mathematical knowledge. In addition to symbolic and numerical computation, a new trend that shows tremendous potential is the use of novel visualization techniques. The current situation was well summarized by a recent ICMI study: \"The latest developments in computer and video technology have provided a multiplicity of computational and symbolic tools that have rejuvenated mathematics and mathematics education. Two important examples of this revitalization are experimental mathematics and visual theorems.\" " ;
+                                                   ical:url <https://acmes.org/> ;
+                                                   sd:invitedSpeakers sdp:Borwein_JM, sdp:Sloane_N, sdp:Stoutemeyer_D, sdp:Kari_L, sdp:Brown_J ;
+                                                   sd:hasAbstractsDeadline "2016-03-08"^^xsd:date ;
+                                                   sd:hasProgramCommittee sdp:Corless_R, sdp:Fillion_N, sdp:Smeenk_C, sdp:Borwein_JM, sdp:Kotsireas_IS, sdp:Jeffrey_D .
+
 <http://symbolicdata.org/Data/Conference/AEC-2016> a sd:UpcomingConference ;
                                                    rdfs:label "3rd summer school \"Algorithmic and Enumerative Combinatorics\"" ;
                                                    ical:dtstart "2016-08-01"^^xsd:date ;
@@ -97,7 +108,7 @@
                                                     ical:dtstart "2016-06-22"^^xsd:date ;
                                                     ical:dtend "2016-06-24"^^xsd:date ;
                                                     ical:location "Universidad de La Rioja, Logroño, Spain" ;
-                                                    sd:hasPaperDeadline "2016-02-22"^^xsd:date ;
+                                                    sd:hasPaperDeadline "2016-02-29"^^xsd:date ;
                                                     ical:description "The “Encuentros de Álgebra Computacional y Aplicaciones, EACA“ (Meetings on Computer Algebra and Applications) are organized by the Spanish “Red Temática de Cálculo Simbólico, Álgebra Computacional y Aplicaciones“ to provide a meeting frame for researchers in the fields of Computer Algebra and Symbolic Computation, and for those who use these techniques in their research." ;
                                                     sd:hasEarlyRegistrationDeadline "2016-05-23"^^xsd:date ;
                                                     ical:url <http://www.unirioja.es/dptos/dmc/EACA2016/> ;
