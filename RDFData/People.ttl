@@ -792,7 +792,8 @@ sdp:Elvenich_HM a foaf:Person ;
                 foaf:name "Hans-Michael Elvenich" .
 
 sdp:Emiris_IZ a foaf:Person ;
-              foaf:name "Ioannis Z. Emiris" .
+              foaf:name "Ioannis Z. Emiris" ;
+              sd:affiliation "University of Athens, Greece" .
 
 sdp:Enge_A a foaf:Person ;
            foaf:name "Andreas Enge" .
@@ -3529,7 +3530,8 @@ sdp:Wienand_O a foaf:Person ;
               foaf:name "Oliver Wienand" .
 
 sdp:Wiese_G a foaf:Person ;
-            foaf:name "Gabor Wiese" .
+            foaf:name "Gabor Wiese" ;
+            sd:affiliation "University of Luxembourg, Luxembourg" .
 
 sdp:Wiesing_T a foaf:Person ;
               foaf:name "Tom Wiesing" .
