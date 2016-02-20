@@ -898,6 +898,16 @@
                                                      ical:url <http://pasco2015.imag.fr/> ;
                                                      sd:hasOrganizers sdp:Bradford_R, sdp:Dumas_JG, sdp:Pernet_C, sdp:Kaltofen_EL, sdp:Villard_G, sdp:Giorgi_P, sdp:Roche_DS, sdp:Davenport_JH .
 
+<http://symbolicdata.org/Data/Conference/PC-15> a sd:Event ;
+                                                rdfs:label "7th polymake conference" ;
+                                                ical:dtstart "2016-01-29"^^xsd:date ;
+                                                ical:dtend "2016-01-29"^^xsd:date ;
+                                                ical:location "TU Berlin, Germany" ;
+                                                ical:description "A workshop for users of polymake and friends of polyhedral geometry in general. <br/> We are happy to announce the plenary lecture by Janko Böhm (TU Kaiserslautern) on \"Computing GIT-Fans with Symmetry\". <br/> In addition we will provide demos and tutorials on various aspects of the brand new version 3.0 of polymake (which will appear within the next two weeks, i.e., before the workshop).  This includes our regular help desk where you can discuss your individual ideas/suggestions/questions/complaints." ;
+                                                ical:url <https://polymake.org/doku.php/workshop0116> ;
+                                                sd:invitedSpeakers sdp:Boehm_J ;
+                                                sd:hasOrganizers sdp:Joswig_M .
+
 <http://symbolicdata.org/Data/Conference/Polymake-12.14> a sd:Event ;
                                                          rdfs:label "Polymake workshop at TU Berlin" ;
                                                          ical:dtstart "2014-12-05"^^xsd:date ;

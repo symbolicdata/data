@@ -139,6 +139,16 @@
                                                      sd:hasProgramCommittee sdp:Mayr_EW, sdp:Bradford_R, sdp:Mora_T, sdp:Gao_XS, sdp:Yokoyama_K, sdp:Dumas_JC, sdp:Feng_XS, sdp:Sagraloff_M, sdp:Winkler_F, sdp:Bostan_A, sdp:Hauenstein_J, sdp:Kapur_D, sdp:Labahn_G, sdp:Lee_WS, sdp:McCallum_S, sdp:Monagan_M, sdp:Perret_L, sdp:DAndrea_C, sdp:Panario_D, sdp:Hong_H ;
                                                      sd:hasOrganizers sdp:Carette_J, sdp:Heinle_A, sdp:Rosenkranz_M, sdp:Barkatou_M, sdp:Pearce_R, sdp:Chen_S, sdp:Kotsireas_IS .
 
+<http://symbolicdata.org/Data/Conference/OpenMath-16> a sd:UpcomingConference ;
+                                                      rdfs:label "27th OpenMath Workshop" ;
+                                                      ical:dtstart "2016-07-25"^^xsd:date ;
+                                                      ical:dtend "2016-07-25"^^xsd:date ;
+                                                      ical:location "Bialystok, Poland" ;
+                                                      sd:hasPaperDeadline "2016-06-07"^^xsd:date ;
+                                                      ical:description "Co-located with CICM 2016. OpenMath is a language for exchanging mathematical formulae across applications (such as computer algebra systems).  From 2010 its importance has increased in that OpenMath Content Dictionaries were adopted as a foundation of the MathML 3 W3C recommendation (http://www.w3.org/TR/MathML), the standard for mathematical formulae on the Web.  <br/> Topics we expect to see at the workshop include <ul> <li> Case Studies of Software using or processing OpenMath</li><li> Feature Requests (Standard Enhancement Proposals) and Discussions for going beyond OpenMath 2</li><li> Further convergence of OpenMath and MathML 3</li><li> Reasoning with OpenMath</li><li> OpenMath on the Semantic Web</li><li> New OpenMath Content Dictionaries.</li></ul>Contributions can be either full research papers, Standard Enhancement Proposals, Case Study reports, or a description of new Content Dictionaries, particularly ones that are suggested for formal adoption by the OpenMath Society." ;
+                                                      ical:url <http://cicm-conference.org/2016/cicm.php?event=openmath> ;
+                                                      sd:hasOrganizers sdp:Davenport_JH, sdp:Kohlhase_M, sdp:Knopper_JW .
+
 <http://symbolicdata.org/Data/Conference/SCSS-2016> a sd:UpcomingConference ;
                                                     rdfs:label "The 7th International Symposium on Symbolic Computation in Software Science" ;
                                                     ical:dtstart "2016-03-28"^^xsd:date ;
