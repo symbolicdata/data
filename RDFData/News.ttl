@@ -25,7 +25,7 @@
                                                dcterms:abstract "Announces Normaliz 2.11 and NmzIntegrate 1.2, a significant extension of Normaliz 2.10.1 with new features and several improvements in the algorithms. " ;
                                                dcterms:publisher sdp:Bruns_W ;
                                                sioc:link <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2014-November/000004.html>, <http://www.fachgruppe-computeralgebra.de/2014-04-30> ;
-                                               sioc:links_to <http://www.math.uos.de/normaliz> .
+                                               sioc:links_to <https://www.normaliz.uni-osnabrueck.de/> .
 
 <http://symbolicdata.org/Data/Post/2014-05-06> a sioc:BlogPost ;
                                                dcterms:created "2014-05-06"^^xsd:date ;
@@ -34,7 +34,7 @@
                                                dcterms:abstract "We announce polymake 2.13, available from our web site as polymake-2.13-1.tar.bz2 tar-ball. " ;
                                                dcterms:publisher sdp:Joswig_M ;
                                                sioc:link <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2014-November/000005.html> ;
-                                               sioc:links_to <http://wiki.polymake.org/lib/exe/fetch.php/download/polymake-2.13-1.tar.bz2>, <http://wiki.polymake.org/doku.php/news/release_2_13> .
+                                               sioc:links_to <http://wiki.polymake.org/doku.php/news/release_2_13> .
 
 <http://symbolicdata.org/Data/Post/2015-10-09> a sioc:BlogPost ;
                                                dcterms:created "2015-10-09"^^xsd:date ;
