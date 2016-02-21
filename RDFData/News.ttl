@@ -18,28 +18,10 @@
    cc:attributionURL <http://symbolicdata.org> ;
    cc:attributionName "The SymbolicData Project" .
 
-<http://symbolicdata.org/Data/Post/2014-04-30> a sioc:BlogPost ;
-                                               dcterms:created "2014-04-30"^^xsd:date ;
-                                               rdfs:label "Normaliz 2.11 released" ;
-                                               dcterms:subject <http://symbolicdata.org/Data/System/Normaliz> ;
-                                               dcterms:abstract "Announces Normaliz 2.11 and NmzIntegrate 1.2, a significant extension of Normaliz 2.10.1 with new features and several improvements in the algorithms. " ;
-                                               dcterms:publisher sdp:Bruns_W ;
-                                               sioc:link <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2014-November/000004.html>, <http://www.fachgruppe-computeralgebra.de/2014-04-30> ;
-                                               sioc:links_to <https://www.normaliz.uni-osnabrueck.de/> .
-
-<http://symbolicdata.org/Data/Post/2014-05-06> a sioc:BlogPost ;
-                                               dcterms:created "2014-05-06"^^xsd:date ;
-                                               rdfs:label "Polymake 2.13 released" ;
-                                               dcterms:subject <http://symbolicdata.org/Data/System/polymake> ;
-                                               dcterms:abstract "We announce polymake 2.13, available from our web site as polymake-2.13-1.tar.bz2 tar-ball. " ;
-                                               dcterms:publisher sdp:Joswig_M ;
-                                               sioc:link <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2014-November/000005.html> ;
-                                               sioc:links_to <http://wiki.polymake.org/doku.php/news/release_2_13> .
-
 <http://symbolicdata.org/Data/Post/2015-10-09> a sioc:BlogPost ;
                                                dcterms:created "2015-10-09"^^xsd:date ;
                                                rdfs:label "ACM Communications in Computer Algebra Issue 193" ;
-                                               dcterms:abstract "We are pleased to announce that Issue 193 of ACM Communications in Computer Algebra (CCA) is now available electronically.  Please find the the table of contents attached, while the full issue is available online at: http://www.sigsam.org/cca/." ;
+                                               dcterms:abstract "We are pleased to announce that Issue 193 of ACM Communications in Computer Algebra (CCA) is now available electronically. " ;
                                                dcterms:publisher sdp:England_M ;
                                                sioc:link <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2016-February/000012.html> ;
                                                sioc:links_to <http://www.sigsam.org/cca/> .
@@ -47,7 +29,7 @@
 <http://symbolicdata.org/Data/Post/2015-11-30> a sioc:BlogPost ;
                                                dcterms:created "2015-12-03"^^xsd:date ;
                                                rdfs:label "13 open PhD positions  within the European Network ARCADES" ;
-                                               dcterms:abstract "We are pleased to announce 13 open PhD positions within the European Network ARCADES: Algebraic Representations in Computer-Aided Design for complEx Shapes. <br/> ARCADES is a Marie Sklodowska-Curie Innovative Training Network in the framework of Horizon 2020, starting on January 1st, 2016, and lasts for 4 years. It includes 8 sites offering 13 PhD's, 5 industrial partners, and is coordinated by ATHENA Research & Innovation Center, Greece." ;
+                                               dcterms:abstract "We are pleased to announce 13 open PhD positions within the European Network ARCADES: Algebraic Representations in Computer-Aided Design for complEx Shapes. ARCADES is a Marie Sklodowska-Curie Innovative Training Network in the framework of Horizon 2020, starting on January 1st, 2016, and lasts for 4 years. It includes 8 sites offering 13 PhD's, 5 industrial partners, and is coordinated by ATHENA Research & Innovation Center, Greece." ;
                                                dcterms:publisher sdp:Emiris_IZ ;
                                                sioc:link <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2016-February/000013.html> ;
                                                sioc:links_to <http://arcades-network.eu/> .
@@ -62,7 +44,7 @@
 <http://symbolicdata.org/Data/Post/2016-01-09> a sioc:BlogPost ;
                                                dcterms:created "2016-01-09"^^xsd:date ;
                                                rdfs:label "ACM Communications in Computer Algebra Issue 194" ;
-                                               dcterms:abstract "We are pleased to announce that Issue 194 of ACM Communications in Computer Algebra (CCA) is now available electronically.  Please find the the table of contents attached, while the full issue is available online at: http://www.sigsam.org/cca/." ;
+                                               dcterms:abstract "We are pleased to announce that Issue 194 of ACM Communications in Computer Algebra (CCA) is now available electronically. " ;
                                                dcterms:publisher sdp:England_M ;
                                                sioc:link <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2016-February/000014.html> ;
                                                sioc:links_to <http://www.sigsam.org/cca/> .
