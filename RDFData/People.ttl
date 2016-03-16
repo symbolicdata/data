@@ -124,6 +124,10 @@ sdp:Arai_N a foaf:Person ;
 sdp:Aravantinos_V a foaf:Person ;
                   foaf:name "Vincent Aravantinos" .
 
+sdp:Arias_J a foaf:Person ;
+            foaf:name "Joaquin Arias " ;
+            sd:affiliation "IMDEA Software Institute, Spain" .
+
 sdp:AriasdeReynaDominguez_S a foaf:Person ;
                             foaf:name "Sara Arias de Reyna Dominguez" ;
                             sd:affiliation "University of Luxembourg" .
@@ -182,6 +186,10 @@ sdp:Baker_J a foaf:Person ;
 
 sdp:Balakrishnan_J a foaf:Person ;
                    foaf:name "Jennifer Balakrishnan" .
+
+sdp:Balduccini_M a foaf:Person ;
+                 foaf:name "Marcello Balduccini" ;
+                 sd:affiliation "Drexel University, USA" .
 
 sdp:Ballarin_C a foaf:Person ;
                foaf:name "Clemens Ballarin" .
@@ -491,6 +499,10 @@ sdp:Carlson_JF a foaf:Person ;
 sdp:Carneiro_M a foaf:Person ;
                foaf:name "Mario Carneiro" .
 
+sdp:Carro_M a foaf:Person ;
+            foaf:name "Manuel Carro" ;
+            sd:affiliation "UPM and IMDEA Software Institute, Spain" .
+
 sdp:Carter_N a foaf:Person ;
              foaf:name "Nathan Carter" ;
              foaf:homepage <http://web.bentley.edu/empl/c/ncarter> .
@@ -655,6 +667,10 @@ sdp:DeNegri_E a foaf:Person ;
               foaf:name "Emanuela De Negri" ;
               sd:affiliation "University of Genova, Italy" .
 
+sdp:DeVos_M a foaf:Person ;
+            foaf:name "Marina De Vos" ;
+            sd:affiliation "University of Bath, UK" .
+
 sdp:Decker_W a foaf:Person ;
              foaf:name "Wolfram Decker" ;
              sd:affiliation "TU Kaiserslautern, Germany" .
@@ -708,6 +724,10 @@ sdp:Dodunekov_S a foaf:Person ;
 
 sdp:Doerrie_JW a foaf:Person ;
                foaf:name "Jan Wilken Doerrie" .
+
+sdp:Dongarra_J a foaf:Person ;
+               foaf:name "Jack Dongarra" ;
+               sd:affiliation "University of Tennessee, USA" .
 
 sdp:Dotsenko_V a foaf:Person ;
                foaf:name "Vladimir Dotsenko" ;
@@ -870,6 +890,10 @@ sdp:Florido_M a foaf:Person ;
 sdp:Floystad_G a foaf:Person ;
                foaf:name "Gunnar Fløystad" ;
                sd:affiliation "University of Bergen, Norway" .
+
+sdp:Fodor_P a foaf:Person ;
+            foaf:name "Paul Fodor" ;
+            sd:affiliation "Stony Brook University, USA" .
 
 sdp:Fong_P a foaf:Person ;
            foaf:name "Paul Fong" ;
@@ -1605,9 +1629,17 @@ sdp:Kiermaier_M a foaf:Person ;
                 foaf:name "Michael Kiermaier" ;
                 sd:affiliation "Uni Bayreuth, Germany" .
 
+sdp:Kifer_M a foaf:Person ;
+            foaf:name "Michael Kifer" ;
+            sd:affiliation "Stony Brook University, USA" .
+
 sdp:Kimmerle_W a foaf:Person ;
                foaf:name "Wolfgang Kimmerle" ;
                sd:affiliation "Universität Stuttgart" .
+
+sdp:King_A a foaf:Person ;
+           foaf:name "Andy King " ;
+           sd:affiliation "University of Kent, UK" .
 
 sdp:King_S a foaf:Person ;
            foaf:name "Simon King" ;
@@ -2511,6 +2543,10 @@ sdp:Pfeiffer_G a foaf:Person ;
                foaf:name "Götz Pfeiffer" ;
                sd:affiliation "Galway" .
 
+sdp:Pfetsch_M a foaf:Person ;
+              foaf:name "Marc Pfetsch" ;
+              sd:affiliation "TU Darmstadt, Germany" .
+
 sdp:Pfister_G a foaf:Person ;
               foaf:name "Gerhard Pfister" .
 
@@ -2820,6 +2856,10 @@ sdp:SaeediMadani_S a foaf:Person ;
                    foaf:name "Sara Saeedi Madani" ;
                    sd:affiliation "University of Osnabrück, Germany" .
 
+sdp:Saeedloei_N a foaf:Person ;
+                foaf:name "Neda Saeedloei" ;
+                sd:affiliation "University of Minnesota Duluth, USA" .
+
 sdp:Saenz_R a foaf:Person ;
             foaf:name "Rubén Sáenz" .
 
@@ -2951,6 +2991,10 @@ sdp:Schreyer_FO a foaf:Person ;
 
 sdp:Schubotz_M a foaf:Person ;
                foaf:name "Moritz Schubotz" .
+
+sdp:Schueller_P a foaf:Person ;
+                foaf:name "Peter Schueller" ;
+                sd:affiliation "Marmara University, Turkey" .
 
 sdp:Schuermann_U a foaf:Person ;
                  foaf:name "Uwe Schürmann" ;
@@ -3406,6 +3450,10 @@ sdp:Viudez_C a foaf:Person ;
 sdp:Vo_TT a foaf:Person ;
           foaf:name "Thanh Tung Vo" .
 
+sdp:Voevodsky_V a foaf:Person ;
+                foaf:name "Vladimir Voevodsky" ;
+                sd:affiliation "IAS Princeton, USA" .
+
 sdp:Voight_J a foaf:Person ;
              foaf:name "John Voight" .
 
@@ -3645,6 +3693,10 @@ sdp:Zhi_Lihong a foaf:Person ;
 
 sdp:Zhizhchenko_A a foaf:Person ;
                   foaf:name "Alexey Zhizhchenko" .
+
+sdp:Zhou_NF a foaf:Person ;
+            foaf:name "Neng-Fa Zhou " ;
+            sd:affiliation "City University of New York, USA" .
 
 sdp:Zhupa_E a foaf:Person ;
             foaf:name "Eustrat Zhupa" .
