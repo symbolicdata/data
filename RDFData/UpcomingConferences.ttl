@@ -90,11 +90,11 @@
                                                   ical:dtstart "2016-07-25"^^xsd:date ;
                                                   ical:dtend "2016-07-29"^^xsd:date ;
                                                   ical:location "University of Bialystok, Poland" ;
-                                                  sd:hasPaperDeadline "2016-03-06"^^xsd:date ;
+                                                  sd:hasPaperDeadline "2016-03-16"^^xsd:date ;
                                                   ical:description "Digital and  computational solutions are becoming  the prevalent means for the generation, communication, processing, storage and curation of mathematical  information.  Separate  communities  have  developed  to investigate  and build  computer based  systems for  computer algebra, automated deduction, and mathematical publishing as well as novel user interfaces. While all of these systems excel in their own right, their integration  can   lead  to   synergies  offering   significant  added value.  The  Conference  on Intelligent  Computer  Mathematics  (CICM) offers a  venue for discussing  and developing solutions to  the great challenges posed by the integration of these diverse areas." ;
                                                   sd:hasProgramChair sdp:Johansson_M, sdp:Miller_BR, sdp:deMoura_L, sdp:Autexier_S, sdp:Kohlhase_M, sdp:Tompa_F ;
                                                   ical:url <http://www.cicm-conference.org/2016> ;
-                                                  sd:hasAbstractsDeadline "2016-02-28"^^xsd:date .
+                                                  sd:hasAbstractsDeadline "2016-03-09"^^xsd:date .
 
 <http://symbolicdata.org/Data/Conference/DMVGAMM-2016> a sd:UpcomingConference ;
                                                        rdfs:label "Gemeinsame Jahrestagung von DMV und GAMM" ;
@@ -124,6 +124,32 @@
                                                     ical:url <http://www.esco2016.femhub.com/> ;
                                                     sd:hasOrganizers sdp:GalanGarcia_JL, sdp:RoanesLozano_E .
 
+<http://symbolicdata.org/Data/Conference/ICLP-2016> a sd:UpcomingConference ;
+                                                    rdfs:label "ICLP - 32nd International Conference on Logic Programming" ;
+                                                    ical:dtstart "2016-10-17"^^xsd:date ;
+                                                    ical:dtend "2016-10-21"^^xsd:date ;
+                                                    ical:location "New York City, USA" ;
+                                                    sd:hasPaperDeadline "2016-04-29" ;
+                                                    ical:description "Since the first conference held in Marseilles in 1982, ICLP has been the premier international conference for presenting research  in  logic  programming. Contributions  are sought in all areas of logic programming ... In  addition  to  the  presentations of accepted papers, the technical program will include invited talks, advanced tutorials, the doctoral  consortium,  and several workshops." ;
+                                                    sd:hasProgramChair sdp:Carro_M, sdp:King_A ;
+                                                    sd:hasGeneralChair sdp:Kifer_M, sdp:Zhou_NF ;
+                                                    ical:url <http://software.imdea.org/Conferences/ICLP2016/> ;
+                                                    sd:hasAbstractsDeadline "2016-04-22" ;
+                                                    sd:hasOrganizers sdp:Balduccini_M, sdp:Schueller_P, sdp:DeVos_M, sdp:Saeedloei_N, sdp:Fodor_P, sdp:Arias_J .
+
+<http://symbolicdata.org/Data/Conference/ICMS-2016> a sd:UpcomingConference ;
+                                                    rdfs:label "ICMS - The 5th International Congress on Mathematical Software" ;
+                                                    ical:dtstart "2016-07-11"^^xsd:date ;
+                                                    ical:dtend "2016-07-14"^^xsd:date ;
+                                                    ical:location "Berlin, Germany" ;
+                                                    sd:hasPaperDeadline "2016-04-21" ;
+                                                    ical:description "The ICMS is a satellite conference of the 7th European Congress of Mathematics, July 18-22, 2016, TU Berlin, http://www.7ecm.de/ <br/> The meeting will provide researchers like yourself a forum for sharing challenges, achievements and progress in mathematical software research, design, development and use. <br/> We welcome work on any aspect of mathematical software in any area of mathematics, science and engineering, and applications. Please look for an appropriate session at http://icms2016.zib.de/sessions.html." ;
+                                                    sd:hasProgramChair sdp:Paule_P, sdp:Sommese_A ;
+                                                    sd:hasGeneralChair sdp:Greuel_GM ;
+                                                    ical:url <http://icms2016.zib.de> ;
+                                                    sd:invitedSpeakers sdp:Decker_W, sdp:Watt_S, sdp:Dongarra_J, sdp:Voevodsky_V ;
+                                                    sd:hasAbstractsDeadline "2016-03-31" .
+
 <http://symbolicdata.org/Data/Conference/ISSAC-2016> a sd:UpcomingConference ;
                                                      rdfs:label "ISSAC 2016 - International Symposium on Symbolic and Algebraic Computation" ;
                                                      ical:dtstart "2016-07-20"^^xsd:date ;
@@ -139,6 +165,15 @@
                                                      sd:hasProgramCommittee sdp:Mayr_EW, sdp:Bradford_R, sdp:Mora_T, sdp:Gao_XS, sdp:Yokoyama_K, sdp:Dumas_JC, sdp:Feng_XS, sdp:Sagraloff_M, sdp:Winkler_F, sdp:Bostan_A, sdp:Hauenstein_J, sdp:Kapur_D, sdp:Labahn_G, sdp:Lee_WS, sdp:McCallum_S, sdp:Monagan_M, sdp:Perret_L, sdp:DAndrea_C, sdp:Panario_D, sdp:Hong_H ;
                                                      sd:hasOrganizers sdp:Carette_J, sdp:Heinle_A, sdp:Rosenkranz_M, sdp:Barkatou_M, sdp:Pearce_R, sdp:Chen_S, sdp:Kotsireas_IS .
 
+<http://symbolicdata.org/Data/Conference/Normaliz-2016> a sd:UpcomingConference ;
+                                                        rdfs:label "Normaliz workshop" ;
+                                                        ical:dtstart "2016-05-06"^^xsd:date ;
+                                                        ical:dtend "2016-05-07"^^xsd:date ;
+                                                        ical:location "Osnabrück, Germany" ;
+                                                        ical:description "As in 2015, we will have a Normaliz workshop at Osnabrück this year. Rough schedule: talks on May 6, discussion and development on May 7. Please register via https://www.normaliz.uni-osnabrueck.de/normaliz-workshop-2016/" ;
+                                                        ical:url <https://www.normaliz.uni-osnabrueck.de/normaliz-workshop-2016/> ;
+                                                        sd:hasOrganizers sdp:Bruns_W .
+
 <http://symbolicdata.org/Data/Conference/OpenMath-16> a sd:UpcomingConference ;
                                                       rdfs:label "27th OpenMath Workshop" ;
                                                       ical:dtstart "2016-07-25"^^xsd:date ;
@@ -148,6 +183,17 @@
                                                       ical:description "Co-located with CICM 2016. OpenMath is a language for exchanging mathematical formulae across applications (such as computer algebra systems).  From 2010 its importance has increased in that OpenMath Content Dictionaries were adopted as a foundation of the MathML 3 W3C recommendation (http://www.w3.org/TR/MathML), the standard for mathematical formulae on the Web.  <br/> Topics we expect to see at the workshop include <ul> <li> Case Studies of Software using or processing OpenMath</li><li> Feature Requests (Standard Enhancement Proposals) and Discussions for going beyond OpenMath 2</li><li> Further convergence of OpenMath and MathML 3</li><li> Reasoning with OpenMath</li><li> OpenMath on the Semantic Web</li><li> New OpenMath Content Dictionaries.</li></ul>Contributions can be either full research papers, Standard Enhancement Proposals, Case Study reports, or a description of new Content Dictionaries, particularly ones that are suggested for formal adoption by the OpenMath Society." ;
                                                       ical:url <http://cicm-conference.org/2016/cicm.php?event=openmath> ;
                                                       sd:hasOrganizers sdp:Davenport_JH, sdp:Kohlhase_M, sdp:Knopper_JW .
+
+<http://symbolicdata.org/Data/Conference/PMGO-2016> a sd:UpcomingConference ;
+                                                    rdfs:label "Session on Polyhedral Methods in Geometry and Optimization at ICMS" ;
+                                                    ical:dtstart "2016-07-11"^^xsd:date ;
+                                                    ical:dtend "2016-07-14"^^xsd:date ;
+                                                    ical:location "Berlin, Germany" ;
+                                                    sd:hasPaperDeadline "2016-04-21" ;
+                                                    ical:description "Polyhedra occur in many contexts in geometry and optimization. For example, convex polyhedra occur in optimization as the feasible regions of linear programs.  Moreover, integer linear programming is the same as linear programming over the convex hull of the lattice points in a polyhedron. In algebraic geometry and its applications, piecewise-linear shapes occur in the guise of polyhedral fans. Examples include secondary and Gröbner fans. This session wants to bring together people working on algorithms and software dealing with any of the above.<br/> The Session is part of the 5th International Congress on Mathematical Software" ;
+                                                    ical:url <http://icms2016.zib.de> ;
+                                                    sd:hasAbstractsDeadline "2016-03-31" ;
+                                                    sd:hasOrganizers sdp:Joswig_M, sdp:Pfetsch_M .
 
 <http://symbolicdata.org/Data/Conference/SCSS-2016> a sd:UpcomingConference ;
                                                     rdfs:label "The 7th International Symposium on Symbolic Computation in Software Science" ;
@@ -164,6 +210,17 @@
                                                     sd:hasAbstractsDeadline "2015-11-13"^^xsd:date ;
                                                     sd:hasProgramCommittee sdp:Chen_C, sdp:Narboux_J, sdp:Wang_D, sdp:Yokoyama_K, sdp:Asai_K, sdp:Bouhoula_A, sdp:Garrigue_J, sdp:Kameyama_Y, sdp:Minamide_Y, sdp:Mizoguchi_Y, sdp:Rioboo_R, sdp:Watt_S, sdp:Kohlhase_M, sdp:Kutsia_T, sdp:England_M, sdp:Kaliszyk_C, sdp:Mahboubi_A, sdp:Sasaki_T ;
                                                     sd:hasHonoraryChair sdp:Buchberger_B .
+
+<http://symbolicdata.org/Data/Conference/SMRA-2016> a sd:UpcomingConference ;
+                                                    rdfs:label "Session on Software for Mathematical Reasoning and Applications at ICMS" ;
+                                                    ical:dtstart "2016-07-11"^^xsd:date ;
+                                                    ical:dtend "2016-07-14"^^xsd:date ;
+                                                    ical:location "Berlin, Germany" ;
+                                                    sd:hasPaperDeadline "2016-04-21" ;
+                                                    ical:description "In addition to traditional software for numerics and symbolics (in algebra, analysis, combinatorics, etc.), more and more software for automated reasoning based on sophisticated general and special reasoning techniques with nice user interfaces enriches the possibilities of working mathematicians, computer scientists and engineers. <br/> The Session is part of the 5th International Congress on Mathematical Software" ;
+                                                    ical:url <http://www.risc.jku.at/conferences/icms2016/> ;
+                                                    sd:hasAbstractsDeadline "2016-03-31" ;
+                                                    sd:hasOrganizers sdp:Buchberger_B, sdp:Kutsia_T, sdp:Jebelean_T, sdp:Windsteiger_W .
 
 sd:UpcomingConference a owl:Class ;
                       rdfs:label "Upcoming Conference Event" ;

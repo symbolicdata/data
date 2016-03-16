@@ -1,238 +1,107 @@
 # Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
 
-@base <http://symbolicdata.org/Data/UpcomingConferences/> .
+@base <http://symbolicdata.org/Data/Systems/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
 @prefix sdp: <http://symbolicdata.org/Data/Person/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
-<http://symbolicdata.org/Data/Conference/ACA-16> a sd:UpcomingConference ;
-                                                 rdfs:label "ACA 2016 - 22th Conference on Applications of Computer Algebra" ;
-                                                 ical:dtstart "2016-08-01"^^xsd:date ;
-                                                 ical:dtend "2016-08-04"^^xsd:date ;
-                                                 ical:location "Kassel, Germany" ;
-                                                 ical:description "The ACA conferences are organized as a series of Special Sessions. All interested researchers can propose a Special Session by sending an e-mail to the Program Chairs (mailto:aca2016chairs@mathematik.uni-kassel.de) by March 31st, 2016. The Scientific Committee (i.e. the ACA Working Group) will then decide on the acceptance of the proposed session. Accepted sessions will be immediately announced on the conference web site." ;
-                                                 sd:hasProgramChair sdp:Neun_W, sdp:Regensburger_G, sdp:RoanesLozano_E, sdp:Steinberg_S, sdp:Wester_M ;
-                                                 sd:hasGeneralChair sdp:Koepf_W, sdp:Seiler_W ;
-                                                 ical:url <http://www.mathematik.uni-kassel.de/ACA2016/> .
+sd:CAS a owl:Class ;
+       rdfs:label "CA System" .
 
-<http://symbolicdata.org/Data/Conference/ACMES-16> a sd:UpcomingConference ;
-                                                   rdfs:label "ACMES-16: Computationally Assisted Mathematical Discovery and Experimental Mathematics" ;
-                                                   ical:dtstart "2016-05-12"^^xsd:date ;
-                                                   ical:dtend "2016-05-15"^^xsd:date ;
-                                                   ical:location "Western University, London, Ontario, Canada" ;
-                                                   ical:description "Computational Discovery, also called Experimental Mathematics, is the use of symbolic and numerical computation to discover patterns, to identify particular numbers and sequences, and to gather evidence in support of specific mathematical assertions that may themselves arise by computational means. In recent decades, computer-assisted mathematical discovery has profoundly transformed the strategies used to expand mathematical knowledge. In addition to symbolic and numerical computation, a new trend that shows tremendous potential is the use of novel visualization techniques. The current situation was well summarized by a recent ICMI study: \"The latest developments in computer and video technology have provided a multiplicity of computational and symbolic tools that have rejuvenated mathematics and mathematics education. Two important examples of this revitalization are experimental mathematics and visual theorems.\" " ;
-                                                   ical:url <https://acmes.org/> ;
-                                                   sd:invitedSpeakers sdp:Borwein_JM, sdp:Sloane_N, sdp:Stoutemeyer_D, sdp:Kari_L, sdp:Brown_J ;
-                                                   sd:hasAbstractsDeadline "2016-03-08"^^xsd:date ;
-                                                   sd:hasProgramCommittee sdp:Corless_R, sdp:Fillion_N, sdp:Smeenk_C, sdp:Borwein_JM, sdp:Kotsireas_IS, sdp:Jeffrey_D .
+<http://symbolicdata.org/Data/System/ASYS> a sd:CAS ;
+                                           rdfs:label "Reduce package ASYS" ;
+                                           rdfs:comment "no idea about the status of the project" ;
+                                           dcterms:creator sdp:Gerdt_VP, sdp:Khutornoy_NV, sdp:Zharkov_AYu ;
+                                           dcterms:description "A package for the CAS Reduce to explore different algorithmic aspects of Groebner and involutive bases" ;
+                                           sd:lastUpdate "2013-09-14" ;
+                                           sd:relatesTo <http://symbolicdata.org/Data/System/Reduce> .
 
-<http://symbolicdata.org/Data/Conference/AEC-2016> a sd:UpcomingConference ;
-                                                   rdfs:label "3rd summer school \"Algorithmic and Enumerative Combinatorics\"" ;
-                                                   ical:dtstart "2016-08-01"^^xsd:date ;
-                                                   ical:dtend "2016-08-05"^^xsd:date ;
-                                                   ical:location "RISC, J. Kepler University Linz, Austria" ;
-                                                   sd:hasPaperDeadline "2016-06-01" ;
-                                                   ical:description "The goal of this summer school is to put forward the interplay between the fields of Enumerative Combinatorics, Analytic Combinatorics, and Algorithmics. This is a very active research area, which, aside from the three fields fueling each other mutually, receives as well constant impetus from outside, by its interaction with algebra, probability, statistical physics, and computer science. The summer school is jointly organized with the algebra group at the Johannes Kepler University and the combinatorics groups at the University of Vienna and the Vienna University of Technology." ;
-                                                   sd:hasRegistrationDeadline "2016-06-10" ;
-                                                   ical:url <https://www.risc.jku.at/conferences/aec2016/> ;
-                                                   sd:invitedSpeakers sdp:Bostan_A, sdp:Romik_D, sdp:Shallit_J .
+<http://symbolicdata.org/Data/System/AlPi> a sd:CAS ;
+                                           rdfs:label "AlPI" ;
+                                           owl:sameAs <http://www.swmath.org/software/34> .
 
-<http://symbolicdata.org/Data/Conference/AITP-2016> a sd:UpcomingConference ;
-                                                    rdfs:label "AITP 2016 - 1st Conference on Artificial Intelligence and Theorem Proving" ;
-                                                    ical:dtstart "2016-04-03"^^xsd:date ;
-                                                    ical:dtend "2016-04-06"^^xsd:date ;
-                                                    ical:location "Obergurgl, Austria" ;
-                                                    sd:hasPaperDeadline "2016-02-01" ;
-                                                    ical:description "Large-scale semantic processing and strong computer assistance of mathematics and science is our inevitable future. New combinations of AI and reasoning methods and tools deployed over large mathematical and scientific corpora will be instrumental to this task.  The AITP conference is the forum for discussing how to get there as soon as possible, and the force driving the progress towards that.  <br/> There will be three focused sessions on AI for ATP, ITP and mathematics, a (tutorial) session on modern AI and big-data methods, and several sessions with contributed talks. The focused sessions will be based on invited talks and discussion oriented." ;
-                                                    ical:url <http://aitp-conference.org> ;
-                                                    sd:invitedSpeakers sdp:Vyskocil_J, sdp:Arai_N, sdp:Holden_S, sdp:Matsuzaki_T, sdp:Schulz_S, sdp:Szegedy_C, sdp:Veroff_R, sdp:Ginev_D, sdp:Hales_T ;
-                                                    sd:hasConferenceRegistration <https://easychair.org/conferences/?conf=aitp2016> ;
-                                                    sd:hasAbstractsDeadline "2015-12-12" ;
-                                                    sd:hasProgramCommittee sdp:Urban_J, sdp:Sutcliffe_G, sdp:Cramer_M, sdp:Heskes_T, sdp:Holden_S, sdp:Kumar_R, sdp:Lafferty_J, sdp:Schulz_S, sdp:Paulson_L, sdp:Hales_T, sdp:Kaliszyk_C .
+<http://symbolicdata.org/Data/System/Axiom> a sd:CAS ;
+                                            rdfs:label "CAS Axiom" ;
+                                            owl:sameAs <http://www.swmath.org/software/63> .
 
-<http://symbolicdata.org/Data/Conference/ANTS-2016> a sd:UpcomingConference ;
-                                                    rdfs:label "12th Algorithmic Number Theory Symposium" ;
-                                                    ical:dtstart "2016-08-29"^^xsd:date ;
-                                                    ical:dtend "2016-09-02"^^xsd:date ;
-                                                    ical:location "University Kaiserslautern, Germany" ;
-                                                    sd:hasPaperDeadline "2016-02-22"^^xsd:date ;
-                                                    ical:description "Since their inception in 1994, the bi-annual ANTS meetings have become the premier international forum for the presentation of new research in computational number theory. They are devoted to algorithmic aspects of number theory, including elementary number theory, algebraic number theory, analytic number theory, geometry of numbers, algebraic geometry, finite fields, and cryptography. " ;
-                                                    ical:url <http://www.mathematik.uni-kl.de/~thofmann/ants/> ;
-                                                    sd:invitedSpeakers sdp:Cohen_H, sdp:Hiary_G, sdp:Ho_W, sdp:Viray_B, sdp:Peikert_C ;
-                                                    sd:hasProgramCommittee sdp:Fieker_C, sdp:Hess_F, sdp:Hofmann_T, sdp:Wiese_G, sdp:Hart_W, sdp:Balakrishnan_J, sdp:Eisentraeger_K, sdp:Harvey_D, sdp:Holt_D, sdp:KhuriMakdisi_K, sdp:Kohel_D, sdp:Pomerance_C, sdp:Stehle_D, sdp:Tornaria_G, sdp:Voight_J .
+<http://symbolicdata.org/Data/System/CoCoa> a sd:CAS ;
+                                            rdfs:label "CAS CoCoa" ;
+                                            owl:sameAs <http://www.swmath.org/software/143> .
 
-<http://symbolicdata.org/Data/Conference/CADCS-2016> a sd:UpcomingConference ;
-                                                     rdfs:label "Research Workshop on Algebraic Representations in Computer-Aided Design for Complex Shapes" ;
-                                                     ical:dtstart "2016-04-25"^^xsd:date ;
-                                                     ical:dtend "2016-04-27"^^xsd:date ;
-                                                     ical:location "Technische Universität Wien, Austria" ;
-                                                     ical:description "Kickoff Workshop of European Network ARCADES, and also a Recruitment event for the Network's 13 PhD positions. MSc students or recent graduates are encouraged to participate and may request funding. ARCADES is a Marie Sklodowska-Curie Innovative Training Network, that started on January 1st, 2016, lasting for 4 years. It includes 8 sites and 5 industrial partners. It offers a comprehensive training program at the crossroads of mathematics, computer-aided design, and software development." ;
-                                                     ical:url <http://arcades-network.eu/index.php/event/arcades-kickoff-event/> .
+<http://symbolicdata.org/Data/System/Felix> a sd:CAS ;
+                                            rdfs:label "CAS Felix" ;
+                                            rdfs:comment "no more under development" ;
+                                            owl:sameAs <http://www.swmath.org/software/1048> .
 
-<http://symbolicdata.org/Data/Conference/CASC-2016> a sd:UpcomingConference ;
-                                                    rdfs:label "CASC-2016 - 18th International Workshop in Computer Algebra in Scientific Computing" ;
-                                                    ical:dtstart "2016-09-19"^^xsd:date ;
-                                                    ical:dtend "2016-09-23"^^xsd:date ;
-                                                    ical:location "Bucharest, Romania" ;
-                                                    sd:hasPaperDeadline "2016-04-17" ;
-                                                    ical:description "The methods of Scientific Computing play an important role in the natural sciences and engineering. Significance and impact of computer algebra methods and computer algebra systems for scientific computing has increased considerably over the last decades. <br/> The ongoing development of computer algebra systems, including their integration and adaptation to modern software environments, puts them to the forefront in scientific computing and enables the practical solution of many complex applied problems in the domains of natural sciences and engineering. <br/> The topics addressed in the workshop cover all the basic areas of scientific computing as they benefit from the application of computer algebra methods and software. " ;
-                                                    sd:hasProgramChair sdp:Koepf_W ;
-                                                    ical:url <http://www.casc.cs.uni-bonn.de/2016/> .
+<http://symbolicdata.org/Data/System/FriCAS> a sd:CAS ;
+                                             rdfs:label "FriCAS" ;
+                                             owl:sameAs <http://www.swmath.org/software/5860> .
 
-<http://symbolicdata.org/Data/Conference/CICM-16> a sd:UpcomingConference ;
-                                                  rdfs:label "CICM 2016 - Conferences on Intelligent Computer Mathematics" ;
-                                                  ical:dtstart "2016-07-25"^^xsd:date ;
-                                                  ical:dtend "2016-07-29"^^xsd:date ;
-                                                  ical:location "University of Bialystok, Poland" ;
-                                                  sd:hasPaperDeadline "2016-03-16"^^xsd:date ;
-                                                  ical:description "Digital and  computational solutions are becoming  the prevalent means for the generation, communication, processing, storage and curation of mathematical  information.  Separate  communities  have  developed  to investigate  and build  computer based  systems for  computer algebra, automated deduction, and mathematical publishing as well as novel user interfaces. While all of these systems excel in their own right, their integration  can   lead  to   synergies  offering   significant  added value.  The  Conference  on Intelligent  Computer  Mathematics  (CICM) offers a  venue for discussing  and developing solutions to  the great challenges posed by the integration of these diverse areas." ;
-                                                  sd:hasProgramChair sdp:Johansson_M, sdp:Miller_BR, sdp:deMoura_L, sdp:Autexier_S, sdp:Kohlhase_M, sdp:Tompa_F ;
-                                                  ical:url <http://www.cicm-conference.org/2016> ;
-                                                  sd:hasAbstractsDeadline "2016-03-09"^^xsd:date .
+<http://symbolicdata.org/Data/System/GB> a sd:CAS ;
+                                         rdfs:label "CAS GB" ;
+                                         owl:sameAs <http://www.swmath.org/software/324> .
 
-<http://symbolicdata.org/Data/Conference/DMVGAMM-2016> a sd:UpcomingConference ;
-                                                       rdfs:label "Gemeinsame Jahrestagung von DMV und GAMM" ;
-                                                       ical:dtstart "2016-03-07"^^xsd:date ;
-                                                       ical:dtend "2016-03-11"^^xsd:date ;
-                                                       ical:location "Braunschweig, Germany" ;
-                                                       ical:description "Gemeinsame Jahrestagung von DMV und GAMM" .
+<http://symbolicdata.org/Data/System/Macaulay2> a sd:CAS ;
+                                                rdfs:label "CAS Macaulay 2" ;
+                                                owl:sameAs <http://www.swmath.org/software/537> .
 
-<http://symbolicdata.org/Data/Conference/EACA-2016> a sd:UpcomingConference ;
-                                                    rdfs:label "EACA-2016: Meeting on Computer Algebra and Applications" ;
-                                                    ical:dtstart "2016-06-22"^^xsd:date ;
-                                                    ical:dtend "2016-06-24"^^xsd:date ;
-                                                    ical:location "Universidad de La Rioja, Logroño, Spain" ;
-                                                    sd:hasPaperDeadline "2016-02-29"^^xsd:date ;
-                                                    ical:description "The “Encuentros de Álgebra Computacional y Aplicaciones, EACA“ (Meetings on Computer Algebra and Applications) are organized by the Spanish “Red Temática de Cálculo Simbólico, Álgebra Computacional y Aplicaciones“ to provide a meeting frame for researchers in the fields of Computer Algebra and Symbolic Computation, and for those who use these techniques in their research." ;
-                                                    sd:hasEarlyRegistrationDeadline "2016-05-23"^^xsd:date ;
-                                                    ical:url <http://www.unirioja.es/dptos/dmc/EACA2016/> ;
-                                                    sd:invitedSpeakers sdp:Barakat_M, sdp:DAndrea_C, sdp:Artal_E, sdp:Solotar_A, sdp:Paulson_L ;
-                                                    sd:hasProgramCommittee sdp:Recio_T, sdp:Sendra_JR, sdp:GonzalezVega_L, sdp:DAndrea_C, sdp:Alonso_ME, sdp:Bermejo_I, sdp:Casanellas_M, sdp:Castro_FJ, sdp:Elias_J, sdp:Gimenez_P, sdp:GomezTorrecillas_J, sdp:Ladra_M, sdp:Montes_A, sdp:Rubio_J .
+<http://symbolicdata.org/Data/System/Magma> a sd:CAS ;
+                                            rdfs:label "CAS Magma" ;
+                                            owl:sameAs <http://www.swmath.org/software/540> .
 
-<http://symbolicdata.org/Data/Conference/ESCO-2016> a sd:UpcomingConference ;
-                                                    rdfs:label "5th European Seminar on Computing - Smart Applications of Scientific Computing Minisymposium" ;
-                                                    ical:dtstart "2016-06-05"^^xsd:date ;
-                                                    ical:dtend "2016-06-10"^^xsd:date ;
-                                                    ical:location "Pilsen, Czech Republic" ;
-                                                    ical:description "Nowadays there is a wide variety of mathematical software available: computer algebra systems, technical computing languages, automated deduction systems,... This minisymposium is devoted to practical real-world applications of this software in fields like: transportation engineering, electrical engineering, medicine, knowledge based systems,... (this is not an exhaustive list). The focus will be on advanced and smart applications with a nontrivial mathematical background." ;
-                                                    ical:url <http://www.esco2016.femhub.com/> ;
-                                                    sd:hasOrganizers sdp:GalanGarcia_JL, sdp:RoanesLozano_E .
+<http://symbolicdata.org/Data/System/Maple> a sd:CAS ;
+                                            rdfs:label "CAS Maple" ;
+                                            owl:sameAs <http://www.swmath.org/software/545> .
 
-<http://symbolicdata.org/Data/Conference/ICLP-2016> a sd:UpcomingConference ;
-                                                    rdfs:label "ICLP - 32nd International Conference on Logic Programming" ;
-                                                    ical:dtstart "2016-10-17"^^xsd:date ;
-                                                    ical:dtend "2016-10-21"^^xsd:date ;
-                                                    ical:location "New York City, USA" ;
-                                                    sd:hasPaperDeadline "2016-04-29" ;
-                                                    ical:description "Since the first conference held in Marseilles in 1982, ICLP has been the premier international conference for presenting research  in  logic  programming. Contributions  are sought in all areas of logic programming ... In  addition  to  the  presentations of accepted papers, the technical program will include invited talks, advanced tutorials, the doctoral  consortium,  and several workshops." ;
-                                                    sd:hasProgramChair sdp:Carro_M, sdp:King_A ;
-                                                    sd:hasGeneralChair sdp:Kifer_M, sdp:Zhou_NF ;
-                                                    ical:url <http://software.imdea.org/Conferences/ICLP2016/> ;
-                                                    sd:hasAbstractsDeadline "2016-04-22" ;
-                                                    sd:hasOrganizers sdp:Balduccini_M, sdp:Schueller_P, sdp:DeVos_M, sdp:Saeedloei_N, sdp:Fodor_P, sdp:Arias_J .
+<http://symbolicdata.org/Data/System/Mathematica> a sd:CAS ;
+                                                  rdfs:label "CAS Mathematica" ;
+                                                  owl:sameAs <http://www.swmath.org/software/554> .
 
-<http://symbolicdata.org/Data/Conference/ICMS-2016> a sd:UpcomingConference ;
-                                                    rdfs:label "ICMS - The 5th International Congress on Mathematical Software" ;
-                                                    ical:dtstart "2016-07-11"^^xsd:date ;
-                                                    ical:dtend "2016-07-14"^^xsd:date ;
-                                                    ical:location "Berlin, Germany" ;
-                                                    sd:hasPaperDeadline "2016-04-21" ;
-                                                    ical:description "The ICMS is a satellite conference of the 7th European Congress of Mathematics, July 18-22, 2016, TU Berlin, http://www.7ecm.de/ <br/> The meeting will provide researchers like yourself a forum for sharing challenges, achievements and progress in mathematical software research, design, development and use. <br/> We welcome work on any aspect of mathematical software in any area of mathematics, science and engineering, and applications. Please look for an appropriate session at http://icms2016.zib.de/sessions.html." ;
-                                                    sd:hasProgramChair sdp:Paule_P, sdp:Sommese_A ;
-                                                    sd:hasGeneralChair sdp:Greuel_GM ;
-                                                    ical:url <http://icms2016.zib.de> ;
-                                                    sd:invitedSpeakers sdp:Decker_W, sdp:Watt_S, sdp:Dongarra_J, sdp:Voevodsky_V ;
-                                                    sd:hasAbstractsDeadline "2016-03-31" .
+<http://symbolicdata.org/Data/System/MuPAD> a sd:CAS ;
+                                            rdfs:label "CAS MuPAD - now Matlab symbolic toolbox" ;
+                                            owl:sameAs <http://www.swmath.org/software/606> .
 
-<http://symbolicdata.org/Data/Conference/ISSAC-2016> a sd:UpcomingConference ;
-                                                     rdfs:label "ISSAC 2016 - International Symposium on Symbolic and Algebraic Computation" ;
-                                                     ical:dtstart "2016-07-20"^^xsd:date ;
-                                                     ical:dtend "2016-07-22"^^xsd:date ;
-                                                     ical:location "Wilfrid Laurier University, Waterloo, Ontario, Canada" ;
-                                                     sd:hasPaperDeadline "2016-01-22" ;
-                                                     ical:description "The International Symposium on Symbolic and Algebraic Computation (ISSAC) is the premier conference for research in symbolic computation and computer algebra. ISSAC 2016 will be the 41th meeting in the series, which started in 1966 and has been held annually since 1981. The conference presents a range of invited speakers, tutorials, poster sessions, software demonstrations and vendor exhibits with a center-piece of contributed research papers. " ;
-                                                     sd:hasProgramChair sdp:Gao_XS ;
-                                                     sd:hasGeneralChair sdp:Abramov_S, sdp:Zima_E ;
-                                                     ical:url <http://www.issac-conference.org/2016> ;
-                                                     sd:invitedSpeakers sdp:Abraham_Erika, sdp:Schost_Eric, sdp:Zhi_Lihong ;
-                                                     sd:hasAbstractsDeadline "2016-01-15" ;
-                                                     sd:hasProgramCommittee sdp:Mayr_EW, sdp:Bradford_R, sdp:Mora_T, sdp:Gao_XS, sdp:Yokoyama_K, sdp:Dumas_JC, sdp:Feng_XS, sdp:Sagraloff_M, sdp:Winkler_F, sdp:Bostan_A, sdp:Hauenstein_J, sdp:Kapur_D, sdp:Labahn_G, sdp:Lee_WS, sdp:McCallum_S, sdp:Monagan_M, sdp:Perret_L, sdp:DAndrea_C, sdp:Panario_D, sdp:Hong_H ;
-                                                     sd:hasOrganizers sdp:Carette_J, sdp:Heinle_A, sdp:Rosenkranz_M, sdp:Barkatou_M, sdp:Pearce_R, sdp:Chen_S, sdp:Kotsireas_IS .
+<http://symbolicdata.org/Data/System/Normaliz> a sd:CAS ;
+                                               rdfs:label "Normaliz" ;
+                                               owl:sameAs <http://www.swmath.org/software/630> .
 
-<http://symbolicdata.org/Data/Conference/Normaliz-2016> a sd:UpcomingConference ;
-                                                        rdfs:label "Normaliz workshop" ;
-                                                        ical:dtstart "2016-05-06"^^xsd:date ;
-                                                        ical:dtend "2016-05-07"^^xsd:date ;
-                                                        ical:location "Osnabrück, Germany" ;
-                                                        ical:description "As in 2015, we will have a Normaliz workshop at Osnabrück this year. Rough schedule: talks on May 6, discussion and development on May 7. Please register via https://www.normaliz.uni-osnabrueck.de/normaliz-workshop-2016/" ;
-                                                        ical:url <https://www.normaliz.uni-osnabrueck.de/normaliz-workshop-2016/> ;
-                                                        sd:hasOrganizers sdp:Bruns_W .
+<http://symbolicdata.org/Data/System/Points> a sd:CAS ;
+                                             rdfs:label "Points" ;
+                                             dcterms:creator sdp:Cioffi_F, sdp:Orecchia_F, sdp:Ramella_I ;
+                                             dcterms:description "Points intends to construct algorithms and to implement sofwares concerning problems in Algebraic Geometry which need the computation of the Hilbert Function or of minimal generators or of the resolution of the ideal of a finite set of points." ;
+                                             dcterms:license <http://www.gnu.org/licenses/gpl.html> ;
+                                             sd:hasURL <http://wpage.unina.it/cioffifr/EPoints.html> ;
+                                             sd:lastUpdate "2010-12-29" .
 
-<http://symbolicdata.org/Data/Conference/OpenMath-16> a sd:UpcomingConference ;
-                                                      rdfs:label "27th OpenMath Workshop" ;
-                                                      ical:dtstart "2016-07-25"^^xsd:date ;
-                                                      ical:dtend "2016-07-25"^^xsd:date ;
-                                                      ical:location "Bialystok, Poland" ;
-                                                      sd:hasPaperDeadline "2016-06-07"^^xsd:date ;
-                                                      ical:description "Co-located with CICM 2016. OpenMath is a language for exchanging mathematical formulae across applications (such as computer algebra systems).  From 2010 its importance has increased in that OpenMath Content Dictionaries were adopted as a foundation of the MathML 3 W3C recommendation (http://www.w3.org/TR/MathML), the standard for mathematical formulae on the Web.  <br/> Topics we expect to see at the workshop include <ul> <li> Case Studies of Software using or processing OpenMath</li><li> Feature Requests (Standard Enhancement Proposals) and Discussions for going beyond OpenMath 2</li><li> Further convergence of OpenMath and MathML 3</li><li> Reasoning with OpenMath</li><li> OpenMath on the Semantic Web</li><li> New OpenMath Content Dictionaries.</li></ul>Contributions can be either full research papers, Standard Enhancement Proposals, Case Study reports, or a description of new Content Dictionaries, particularly ones that are suggested for formal adoption by the OpenMath Society." ;
-                                                      ical:url <http://cicm-conference.org/2016/cicm.php?event=openmath> ;
-                                                      sd:hasOrganizers sdp:Davenport_JH, sdp:Kohlhase_M, sdp:Knopper_JW .
+<http://symbolicdata.org/Data/System/QPoints> a sd:CAS ;
+                                              rdfs:label "QPoints" ;
+                                              dcterms:creator sdp:Cioffi_F, sdp:Orecchia_F, sdp:Ramella_I ;
+                                              dcterms:description "A software for computations related to points in projective spaces over the field Q of rational numbers." ;
+                                              dcterms:license <http://www.gnu.org/licenses/gpl.html> ;
+                                              sd:hasURL <http://cds.unina.it/~cioffifr/EPoints.html> ;
+                                              sd:lastUpdate "2001-03-28" .
 
-<http://symbolicdata.org/Data/Conference/PMGO-2016> a sd:UpcomingConference ;
-                                                    rdfs:label "Session on Polyhedral Methods in Geometry and Optimization at ICMS" ;
-                                                    ical:dtstart "2016-07-11"^^xsd:date ;
-                                                    ical:dtend "2016-07-14"^^xsd:date ;
-                                                    ical:location "Berlin, Germany" ;
-                                                    sd:hasPaperDeadline "2016-04-21" ;
-                                                    ical:description "Polyhedra occur in many contexts in geometry and optimization. For example, convex polyhedra occur in optimization as the feasible regions of linear programs.  Moreover, integer linear programming is the same as linear programming over the convex hull of the lattice points in a polyhedron. In algebraic geometry and its applications, piecewise-linear shapes occur in the guise of polyhedral fans. Examples include secondary and Gröbner fans. This session wants to bring together people working on algorithms and software dealing with any of the above.<br/> The Session is part of the 5th International Congress on Mathematical Software" ;
-                                                    ical:url <http://icms2016.zib.de> ;
-                                                    sd:hasAbstractsDeadline "2016-03-31" ;
-                                                    sd:hasOrganizers sdp:Joswig_M, sdp:Pfetsch_M .
+<http://symbolicdata.org/Data/System/Reduce> a sd:CAS ;
+                                             rdfs:label "CAS Reduce" ;
+                                             owl:sameAs <http://www.swmath.org/software/789> .
 
-<http://symbolicdata.org/Data/Conference/SCSS-2016> a sd:UpcomingConference ;
-                                                    rdfs:label "The 7th International Symposium on Symbolic Computation in Software Science" ;
-                                                    ical:dtstart "2016-03-28"^^xsd:date ;
-                                                    ical:dtend "2016-03-31"^^xsd:date ;
-                                                    ical:location "Ochanomizu University, Tokyo, Japan" ;
-                                                    sd:hasPaperDeadline "2015-11-20"^^xsd:date ;
-                                                    ical:description "The purpose of SCSS 2016 is to promote research on theoretical and practical aspects of symbolic computation in software science. The symposium provides a forum for active dialog between researchers from several fields of computer algebra, algebraic geometry, algorithmic combinatorics, computational logic, and software analysis and verification." ;
-                                                    ical:contact sdp:Thomas_RR, sdp:Joswig_M, sdp:Agarwal_S ;
-                                                    sd:hasProgramChair sdp:Davenport_JH ;
-                                                    sd:hasGeneralChair sdp:Ida_T ;
-                                                    ical:url <http://www.i-eos.org/conferences/SCSS2016> ;
-                                                    sd:invitedSpeakers sdp:Fleuriot_J ;
-                                                    sd:hasAbstractsDeadline "2015-11-13"^^xsd:date ;
-                                                    sd:hasProgramCommittee sdp:Chen_C, sdp:Narboux_J, sdp:Wang_D, sdp:Yokoyama_K, sdp:Asai_K, sdp:Bouhoula_A, sdp:Garrigue_J, sdp:Kameyama_Y, sdp:Minamide_Y, sdp:Mizoguchi_Y, sdp:Rioboo_R, sdp:Watt_S, sdp:Kohlhase_M, sdp:Kutsia_T, sdp:England_M, sdp:Kaliszyk_C, sdp:Mahboubi_A, sdp:Sasaki_T ;
-                                                    sd:hasHonoraryChair sdp:Buchberger_B .
+<http://symbolicdata.org/Data/System/Singular> a sd:CAS ;
+                                               rdfs:label "CAS Singular" ;
+                                               owl:sameAs <http://www.swmath.org/software/866> .
 
-<http://symbolicdata.org/Data/Conference/SMRA-2016> a sd:UpcomingConference ;
-                                                    rdfs:label "Session on Software for Mathematical Reasoning and Applications at ICMS" ;
-                                                    ical:dtstart "2016-07-11"^^xsd:date ;
-                                                    ical:dtend "2016-07-14"^^xsd:date ;
-                                                    ical:location "Berlin, Germany" ;
-                                                    sd:hasPaperDeadline "2016-04-21" ;
-                                                    ical:description "In addition to traditional software for numerics and symbolics (in algebra, analysis, combinatorics, etc.), more and more software for automated reasoning based on sophisticated general and special reasoning techniques with nice user interfaces enriches the possibilities of working mathematicians, computer scientists and engineers. <br/> The Session is part of the 5th International Congress on Mathematical Software" ;
-                                                    ical:url <http://www.risc.jku.at/conferences/icms2016/> ;
-                                                    sd:hasAbstractsDeadline "2016-03-31" ;
-                                                    sd:hasOrganizers sdp:Buchberger_B, sdp:Kutsia_T, sdp:Jebelean_T, sdp:Windsteiger_W .
-
-sd:UpcomingConference a owl:Class ;
-                      rdfs:label "Upcoming Conference Event" ;
-                      rdfs:comment """An upcoming scientific conference. 
-
-    An instance of sd:UpcomingConference can later on be transformed into an
-    instance of sd:ConferenceReport """ ;
-                      rdfs:subClassOf ical:Vevent ;
-                      dcterms:subject <http://dbpedia.org/resource/Event> .
+<http://symbolicdata.org/Data/System/polymake> a sd:CAS ;
+                                               rdfs:label "polymake" ;
+                                               owl:sameAs <http://www.swmath.org/software/724> .
 
 <> a owl:Ontology ;
-   rdfs:label "CASN: Upcoming Conferences" ;
+   rdfs:label "SD CA-Software Data" ;
+   rdfs:comment "CA Software Data, mainly links to the swmath database" ;
    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    cc:attributionURL <http://symbolicdata.org> ;
    cc:attributionName "The SymbolicData Project" .
