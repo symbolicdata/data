@@ -1,6 +1,7 @@
 # Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
 
 @base <http://symbolicdata.org/Data/UpcomingConferences/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -19,7 +20,9 @@
                                                  ical:description "The ACA conferences are organized as a series of Special Sessions. All interested researchers can propose a Special Session by sending an e-mail to the Program Chairs (mailto:aca2016chairs@mathematik.uni-kassel.de) by March 31st, 2016. The Scientific Committee (i.e. the ACA Working Group) will then decide on the acceptance of the proposed session. Accepted sessions will be immediately announced on the conference web site." ;
                                                  sd:hasProgramChair sdp:Neun_W, sdp:Regensburger_G, sdp:RoanesLozano_E, sdp:Steinberg_S, sdp:Wester_M ;
                                                  sd:hasGeneralChair sdp:Koepf_W, sdp:Seiler_W ;
-                                                 ical:url <http://www.mathematik.uni-kassel.de/ACA2016/> .
+                                                 ical:url <http://www.mathematik.uni-kassel.de/ACA2016/> ;
+                                                 sd:hasAbstractsDeadline "2016-05-29"^^xsd:date ;
+                                                 sd:hasSessionProposalDeadline "2016-03-31"^^xsd:date .
 
 <http://symbolicdata.org/Data/Conference/ACMES-16> a sd:UpcomingConference ;
                                                    rdfs:label "ACMES-16: Computationally Assisted Mathematical Discovery and Experimental Mathematics" ;
@@ -96,12 +99,8 @@
                                                   ical:url <http://www.cicm-conference.org/2016> ;
                                                   sd:hasAbstractsDeadline "2016-03-09"^^xsd:date .
 
-<http://symbolicdata.org/Data/Conference/DMVGAMM-2016> a sd:UpcomingConference ;
-                                                       rdfs:label "Gemeinsame Jahrestagung von DMV und GAMM" ;
-                                                       ical:dtstart "2016-03-07"^^xsd:date ;
-                                                       ical:dtend "2016-03-11"^^xsd:date ;
-                                                       ical:location "Braunschweig, Germany" ;
-                                                       ical:description "Gemeinsame Jahrestagung von DMV und GAMM" .
+<http://symbolicdata.org/Data/Conference/DMVGAMM-2016> ical:dtstart "2016-03-07"^^xsd:date ;
+                                                       ical:dtend "2016-03-11"^^xsd:date .
 
 <http://symbolicdata.org/Data/Conference/EACA-2016> a sd:UpcomingConference ;
                                                     rdfs:label "EACA-2016: Meeting on Computer Algebra and Applications" ;
@@ -195,21 +194,21 @@
                                                     sd:hasAbstractsDeadline "2016-03-31" ;
                                                     sd:hasOrganizers sdp:Joswig_M, sdp:Pfetsch_M .
 
-<http://symbolicdata.org/Data/Conference/SCSS-2016> a sd:UpcomingConference ;
-                                                    rdfs:label "The 7th International Symposium on Symbolic Computation in Software Science" ;
-                                                    ical:dtstart "2016-03-28"^^xsd:date ;
+<http://symbolicdata.org/Data/Conference/SCSS-2016> ical:dtstart "2016-03-28"^^xsd:date ;
                                                     ical:dtend "2016-03-31"^^xsd:date ;
-                                                    ical:location "Ochanomizu University, Tokyo, Japan" ;
                                                     sd:hasPaperDeadline "2015-11-20"^^xsd:date ;
-                                                    ical:description "The purpose of SCSS 2016 is to promote research on theoretical and practical aspects of symbolic computation in software science. The symposium provides a forum for active dialog between researchers from several fields of computer algebra, algebraic geometry, algorithmic combinatorics, computational logic, and software analysis and verification." ;
-                                                    ical:contact sdp:Thomas_RR, sdp:Joswig_M, sdp:Agarwal_S ;
-                                                    sd:hasProgramChair sdp:Davenport_JH ;
-                                                    sd:hasGeneralChair sdp:Ida_T ;
-                                                    ical:url <http://www.i-eos.org/conferences/SCSS2016> ;
-                                                    sd:invitedSpeakers sdp:Fleuriot_J ;
-                                                    sd:hasAbstractsDeadline "2015-11-13"^^xsd:date ;
-                                                    sd:hasProgramCommittee sdp:Chen_C, sdp:Narboux_J, sdp:Wang_D, sdp:Yokoyama_K, sdp:Asai_K, sdp:Bouhoula_A, sdp:Garrigue_J, sdp:Kameyama_Y, sdp:Minamide_Y, sdp:Mizoguchi_Y, sdp:Rioboo_R, sdp:Watt_S, sdp:Kohlhase_M, sdp:Kutsia_T, sdp:England_M, sdp:Kaliszyk_C, sdp:Mahboubi_A, sdp:Sasaki_T ;
-                                                    sd:hasHonoraryChair sdp:Buchberger_B .
+                                                    sd:hasAbstractsDeadline "2015-11-13"^^xsd:date .
+
+<http://symbolicdata.org/Data/Conference/SMD-16> a sd:UpcomingConference ;
+                                                 rdfs:label "Structured Matrix Days" ;
+                                                 ical:dtstart "2016-05-09"^^xsd:date ;
+                                                 ical:dtend "2016-05-10"^^xsd:date ;
+                                                 ical:location "XLIM, Université de Limoges, France" ;
+                                                 ical:description "The Department of Mathematics and Computer Science at XLIM, Universite de Limoges, organizes a two-day workshop on structured matrices and their applications. <br/> Matrices that arise from symbolic or numerical computational problems (such as polynomial computations or discretization of differential equations) often exhibit a characteristic structure inherited from the underlying problem: for instance, a sparsity pattern, or a Toeplitz/Hankel/Vandermonde-like structure, or a (possibly hierarchical) rank structure. Such properties often allow to design structured algorithms with lower complexity and storage requirements then their general-purpose counterparts.<br/> The aim of the conference is to bring together researchers from different fields to present their results, exchange ideas, develop and improve collaborations. Talks presenting open/new problems or applications, as well as implementations, are also welcome." ;
+                                                 ical:url <https://indico.math.cnrs.fr/event/1185/> ;
+                                                 sd:invitedSpeakers sdp:Pernet_C, sdp:Arrigo_F, sdp:Luce_R, sdp:Robol_L ;
+                                                 sd:hasAbstractsDeadline "2016-04-25" ;
+                                                 sd:hasOrganizers sdp:Barkatou_M, sdp:Boito_P .
 
 <http://symbolicdata.org/Data/Conference/SMRA-2016> a sd:UpcomingConference ;
                                                     rdfs:label "Session on Software for Mathematical Reasoning and Applications at ICMS" ;
@@ -222,6 +221,15 @@
                                                     sd:hasAbstractsDeadline "2016-03-31" ;
                                                     sd:hasOrganizers sdp:Buchberger_B, sdp:Kutsia_T, sdp:Jebelean_T, sdp:Windsteiger_W .
 
+<http://symbolicdata.org/Data/Conference/WWCA-2016> a sd:UpcomingConference ;
+                                                    rdfs:label "Waterloo Workshop on Computer Algebra 2016" ;
+                                                    ical:dtstart "2016-07-23"^^xsd:date ;
+                                                    ical:dtend "2016-07-24"^^xsd:date ;
+                                                    ical:location "Waterloo, Ontario, Canada" ;
+                                                    ical:description "The WWCA workshop is intended to provide a forum for researchers and practitioners in the area of computer algebra. This workshop is devoted to the 70th birthday of Sergei Abramov (CCAS, Moscow, Russia) whose influential contributions to symbolic methods are highly acknowledged and adopted by many Computer Algebra systems. <br/> The purpose of this workshop is to present some recent developments in the area of symbolic summation and symbolic integration, ordinary differential equations, difference equations, partial differential equations  and their applications in combinatorics, number theory, particle physics, etc.  It is also to highlight the current state of the art in both - complexity analysis of summation and integration algorithms, and improvements in the complexity of aforementioned algorithms." ;
+                                                    sd:hasAbstractsDeadline "2016-05-15" ;
+                                                    sd:hasOrganizers sdp:Zima_E, sdp:Schneider_C .
+
 sd:UpcomingConference a owl:Class ;
                       rdfs:label "Upcoming Conference Event" ;
                       rdfs:comment """An upcoming scientific conference. 
@@ -233,6 +241,7 @@ sd:UpcomingConference a owl:Class ;
 
 <> a owl:Ontology ;
    rdfs:label "CASN: Upcoming Conferences" ;
+   owl:imports <http://symbolicdata.org/Data/People/> ;
    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    cc:attributionURL <http://symbolicdata.org> ;
    cc:attributionName "The SymbolicData Project" .

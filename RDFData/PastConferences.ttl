@@ -1,6 +1,7 @@
 # Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
 
 @base <http://symbolicdata.org/Data/PastConferences/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -179,7 +180,6 @@
                                                    ical:dtend "2014-07-12"^^xsd:date ;
                                                    ical:location "Fordham University, New York" ;
                                                    ical:description "This is the twentieth in a series of annual international meetings devoted to promoting the applications and development of Computer Algebra and Symbolic Computation. Topics include computer algebra and symbolic computation in engineering, the sciences, medicine, pure and applied mathematics, education, communication and computer science." ;
-                                                   ical:organizer "Applications of Computer Algebra Working Group" ;
                                                    ical:url <http://faculty.fordham.edu/rlewis/aca2014/> ;
                                                    sd:hasOrganizers sdp:Lewis_R, sdp:Kotsireas_I, sdp:Shaska_T ;
                                                    sd:hasCARReport "CAR 55 (Okt. 2014), p. 36" .
@@ -299,7 +299,8 @@
                                                        ical:location "Bad Boll, Germany" ;
                                                        ical:description "Annual conference of the DFG priority project SPP 1489" ;
                                                        ical:url <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014> ;
-                                                       sd:hasCARReport "CAR 54 (Mrz. 2014), p. 22" .
+                                                       sd:hasCARReport "CAR 54 (Mrz. 2014), p. 22" ;
+                                                       sd:hasDetailedRecord <http://symbolicdata.org/rdf/Conferences/BadBoll-14.rdf> .
 
 <http://symbolicdata.org/Data/Conference/CAFG.1000> a sd:Event ;
                                                     rdfs:label "ÖMG-Kongress und Jahrestagung der DMV" ;
@@ -606,7 +607,8 @@
                                                   ical:dtend "2012-07-13"^^xsd:date ;
                                                   ical:location "Jacobs University Bremen, Germany" ;
                                                   ical:description "As computers and communications technology advance, greater opportunities arise for intelligent mathematical computation. While computer algebra, automated deduction, mathematical publishing and novel user interfaces individually have long and successful histories, we are now seeing increasing opportunities for synergy among these areas. The  Conferences on  Intelligent  Computer Mathematics  (CICM) offer a venue for discussing these areas and their synergy." ;
-                                                  ical:url <http://www.cicm-conference.org/2012> .
+                                                  ical:url <http://www.cicm-conference.org/2012> ;
+                                                  sd:hasDetailedRecord <http://symbolicdata.org/rdf/Conferences/CICM-12.rdf> .
 
 <http://symbolicdata.org/Data/Conference/CICM-13> a sd:Event ;
                                                   rdfs:label "CICM 2013 - Conferences on Intelligent Computer Mathematics" ;
@@ -614,7 +616,8 @@
                                                   ical:dtend "2013-07-12"^^xsd:date ;
                                                   ical:location "University of Bath, UK" ;
                                                   ical:description "As computers and communications technology advance, greater opportunities arise for intelligent mathematical computation. While computer algebra, automated deduction, mathematical publishing and novel user interfaces individually have long and successful histories, we are now seeing increasing opportunities for synergy among these areas. The  Conferences on  Intelligent  Computer Mathematics  (CICM) offer a venue for discussing these areas and their synergy." ;
-                                                  ical:url <http://www.cicm-conference.org/2013> .
+                                                  ical:url <http://www.cicm-conference.org/2013> ;
+                                                  sd:hasDetailedRecord <http://symbolicdata.org/rdf/Conferences/CICM-13.rdf> .
 
 <http://symbolicdata.org/Data/Conference/CICM-14> a sd:Event ;
                                                   rdfs:label "CICM 2014 - Conferences on Intelligent Computer Mathematics" ;
@@ -622,7 +625,8 @@
                                                   ical:dtend "2014-07-11"^^xsd:date ;
                                                   ical:location "University of Coimbra, Portugal" ;
                                                   ical:description "As computers and communications technology advance, greater opportunities arise for intelligent mathematical computation. While computer algebra, automated deduction, mathematical publishing and novel user interfaces individually have long and successful histories, we are now seeing increasing opportunities for synergy among these areas. The  Conferences on  Intelligent  Computer Mathematics  (CICM) offer a venue for discussing these areas and their synergy.<br/> The 2014 conference is organized by Pedro Quaresma, takes place at University of Coimbra and consists of four tracks <ul> <li>    Track A: Calculemus (chair: James Davenport)</li>  <li>Track B: Digital Mathematical Libraries (DML) (chair: Petr Sojka)</li>  <li>Track C: Mathematical Knowledge Management (MKM) (chair: Josef Urban)</li>  <li>Track D: Systems & Projects (chair: Alan Sexton)</li></ul> The overall programme is organized by the General Program Chair Stephen Watt. The publicity chair is Serge Autexier." ;
-                                                  ical:url <http://www.cicm-conference.org/2014> .
+                                                  ical:url <http://www.cicm-conference.org/2014> ;
+                                                  sd:hasDetailedRecord <http://symbolicdata.org/rdf/Conferences/CICM-14.rdf> .
 
 <http://symbolicdata.org/Data/Conference/CICM-2015> a sd:Event ;
                                                     rdfs:label "CICM 2015 - Conference on Intelligent Computer Mathematics" ;
@@ -632,7 +636,8 @@
                                                     ical:description "Digital and computational solutions are becoming the prevalent means for the generation, communication, processing, storage and curation of mathematical information. Separate communities have developed to investigate and build computer based systems for computer algebra, automated deduction, and mathematical publishing as well as novel user interfaces. While all of these systems excel in their own right, their integration can lead to synergies offering significant added value. The Conference on Intelligent Computer Mathematics (CICM) offers a venue for discussing and developing solutions  to the great challenges posed by the integration of these diverse areas. The principal tracks of the conference will be <ul> <li> Calculemus (Symbolic Computation and Mechanised Reasoning) <br/> Chair: Jacques Carette </li> <li> DML (Digital Mathematical Libraries) <br/> Chair: Volker Sorge </li> <li> MKM (Mathematical Knowledge Management) <br/> Chair: Cezary Kaliszyk </li> <li> Systems and Data <br/> Chair: Florian Rabe</li> </ul>" ;
                                                     ical:contact sdp:Autexier_S ;
                                                     ical:url <http://cicm-conference.org/2015/cicm.php> ;
-                                                    sd:hasOrganizers sdp:Carette_J, sdp:Kerber_M, sdp:Miller_BR, sdp:Youssef_A, sdp:Autexier_S, sdp:Kaliszyk_C, sdp:Rabe_F, sdp:Sorge_V .
+                                                    sd:hasOrganizers sdp:Carette_J, sdp:Kerber_M, sdp:Miller_BR, sdp:Youssef_A, sdp:Autexier_S, sdp:Kaliszyk_C, sdp:Rabe_F, sdp:Sorge_V ;
+                                                    sd:hasDetailedRecord <http://symbolicdata.org/rdf/Conferences/CICM-15.rdf> .
 
 <http://symbolicdata.org/Data/Conference/CoCoA-2015> a sd:Event ;
                                                      rdfs:label "Combinatorics and Computer Algebra (CoCoA15)" ;
@@ -676,6 +681,13 @@
                                                    ical:description "The 2015 annual meeting of the Deutschen Mathematiker-Vereinigung (DMV) will be hosted by the Department of Mathematics of the University of Hamburg. The organisers collaborate with the Dansk Matematisk Forening during the composition of the scientific programme; Danish-German research collaboration in mathematics is one of the special themes of this meeting. " ;
                                                    ical:url <http://www.math.uni-hamburg.de/DMV2015/> ;
                                                    sd:hasCARReport "CAR 57 (Okt. 2015), p. 33" .
+
+<http://symbolicdata.org/Data/Conference/DMVGAMM-2016> a sd:Event ;
+                                                       rdfs:label "Gemeinsame Jahrestagung von DMV und GAMM" ;
+                                                       ical:dtstart "2016-03-07"^^xsd:date ;
+                                                       ical:dtend "2016-03-11"^^xsd:date ;
+                                                       ical:location "Braunschweig, Germany" ;
+                                                       ical:description "Gemeinsame Jahrestagung von DMV und GAMM" .
 
 <http://symbolicdata.org/Data/Conference/Dibb2014> a sd:Event ;
                                                    rdfs:label "Workshop in tropical topics and related areas" ;
@@ -783,7 +795,6 @@
                                                    ical:dtend "2014-07-25"^^xsd:date ;
                                                    ical:location "Kobe University, Japan" ;
                                                    ical:description "The International Symposium on Symbolic and Algebraic Computation is the premier conference for research in symbolic computation and computer algebra. ISSAC 2014 is the 39th meeting in the series. The conference traditionally presents a range of invited speakers, tutorials, poster sessions and software demonstrations with a centre-piece of contributed research papers. <br/> ISSAC 2014 is affiliated with \"Kobe Computing Week 2014\", an event of Academic Exchange Weeks, Graduate School of Human Development and Environment, Kobe University.  <br/> ISSAC 2014 is one of satellite conferences of ICM 2014 (International Congress of Mathematicians), Korea." ;
-                                                   ical:organizer "ACM" ;
                                                    ical:url <http://www.issac-conference.org/2014> ;
                                                    sd:hasCARReport "CAR 55 (Okt. 2014), p. 36" .
 
@@ -886,7 +897,6 @@
                                                    sd:hasProgramChair sdp:Wang_D, sdp:Jebelean_T ;
                                                    ical:url <http://pas2015.cc4cm.org/> ;
                                                    sd:hasProgramCommittee sdp:Biere_A, sdp:Kamareddine_F, sdp:Marin_M, sdp:Alves_S, sdp:Armando_A, sdp:Ciobaca_S, sdp:Dramnesc_I, sdp:Erascu_M, sdp:Florido_M, sdp:Giese_M, sdp:Knoop_J, sdp:Konev_B, sdp:Kusper_G, sdp:Letychevskyi_O, sdp:Lucanu_D, sdp:Maletzky_A, sdp:Minea_M, sdp:Peschanenko_V, sdp:Robu_J, sdp:Rusinowitch_M, sdp:Rusu_V, sdp:Seidl_M, sdp:SofronieStokkermans_V, sdp:Su_K, sdp:Zhan_N, sdp:Chen_X, sdp:Luo_J, sdp:Schreiner_W, sdp:Windsteiger_W, sdp:Kovacs_L, sdp:Passmore_G ;
-                                                   sd:hasHonoraryChair sdp:Li_W ;
                                                    sd:hasSteeringCommittee sdp:Wang_D, sdp:Jebelean_T, sdp:Knoop_J, sdp:Letichevsky_A, sdp:Li_W, sdp:Hong_H .
 
 <http://symbolicdata.org/Data/Conference/PASCO-2015> a sd:Event ;
@@ -917,6 +927,20 @@
                                                          ical:url <http://www.polymake.org/doku.php/workshop1214> ;
                                                          sd:invitedSpeakers sdp:Beck_M, sdp:Bremner_D ;
                                                          sd:hasCARReport "CAR 56 (Mrz. 2015), p. 27" .
+
+<http://symbolicdata.org/Data/Conference/SCSS-2016> a sd:Event ;
+                                                    rdfs:label "The 7th International Symposium on Symbolic Computation in Software Science" ;
+                                                    ical:dtstart "2016-03-28"^^xsd:date ;
+                                                    ical:dtend "2016-03-31"^^xsd:date ;
+                                                    ical:location "Ochanomizu University, Tokyo, Japan" ;
+                                                    ical:description "The purpose of SCSS 2016 is to promote research on theoretical and practical aspects of symbolic computation in software science. The symposium provides a forum for active dialog between researchers from several fields of computer algebra, algebraic geometry, algorithmic combinatorics, computational logic, and software analysis and verification." ;
+                                                    sd:hasProgramChair sdp:Davenport_JH ;
+                                                    sd:hasGeneralChair sdp:Ida_T ;
+                                                    ical:url <http://www.i-eos.org/conferences/SCSS2016> ;
+                                                    sd:invitedSpeakers sdp:Fleuriot_J ;
+                                                    sd:hasProgramCommittee sdp:Chen_C, sdp:Narboux_J, sdp:Wang_D, sdp:Yokoyama_K, sdp:Asai_K, sdp:Bouhoula_A, sdp:Garrigue_J, sdp:Kameyama_Y, sdp:Minamide_Y, sdp:Mizoguchi_Y, sdp:Rioboo_R, sdp:Watt_S, sdp:Kohlhase_M, sdp:Kutsia_T, sdp:England_M, sdp:Kaliszyk_C, sdp:Mahboubi_A, sdp:Sasaki_T ;
+                                                    sd:hasOrganizers sdp:Thomas_RR, sdp:Joswig_M, sdp:Agarwal_S ;
+                                                    sd:hasHonoraryChair sdp:Buchberger_B .
 
 <http://symbolicdata.org/Data/Conference/SIAMAG-2015> a sd:Event ;
                                                       rdfs:label "SIAM Conference on Applied Algebraic Geometry (SIAM AG:15)" ;
@@ -1133,6 +1157,7 @@
 
 <> a owl:Ontology ;
    rdfs:label "CASN: Past Conferences" ;
+   owl:imports <http://symbolicdata.org/Data/People/> ;
    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    cc:attributionURL <http://symbolicdata.org> ;
    cc:attributionName "The SymbolicData Project" .

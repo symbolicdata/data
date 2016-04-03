@@ -139,6 +139,10 @@ sdp:Armando_A a foaf:Person ;
 sdp:Arndt_F a foaf:Person ;
             foaf:name "Frauke Arndt" .
 
+sdp:Arrigo_F a foaf:Person ;
+             foaf:name "Francesca Arrigo" ;
+             sd:affiliation "Universita dell’Insubria, Italy" .
+
 sdp:Artal_E a foaf:Person ;
             foaf:name "Enrique Artal" ;
             sd:affiliation "Universidad de Zaragoza, Spain" .
@@ -336,6 +340,10 @@ sdp:Boenisch_S a foaf:Person ;
 sdp:Boerner_M a foaf:Person ;
               foaf:name "Michel Börner" ;
               sd:affiliation "Universität Ulm" .
+
+sdp:Boito_P a foaf:Person ;
+            foaf:name "Paola Boito" ;
+            sd:affiliation "XLIM, Université de Limoges, France" .
 
 sdp:Bolikowski_L a foaf:Person ;
                  foaf:name "Łukasz Bolikowski" ;
@@ -1963,6 +1971,10 @@ sdp:Lucanu_D a foaf:Person ;
              foaf:name "Dorel Lucanu" ;
              sd:affiliation "University A. I. Cuza, Romania" .
 
+sdp:Luce_R a foaf:Person ;
+           foaf:name "Robert Luce" ;
+           sd:affiliation "EPFL, Lausanne, Switzerland" .
+
 sdp:Luebeck_F a foaf:Person ;
               foaf:name "Frank Lübeck" ;
               sd:affiliation "RTWH Aachen, Germany" .
@@ -2746,6 +2758,10 @@ sdp:Robinson_G a foaf:Person ;
 
 sdp:Robinson_S a foaf:Person ;
                foaf:name "Sara Robinson" .
+
+sdp:Robol_L a foaf:Person ;
+            foaf:name "Leonardo Robol" ;
+            sd:affiliation "KU Leuven, The Netherlands" .
 
 sdp:Robu_J a foaf:Person ;
            foaf:name "Judit Robu" ;
