@@ -46,18 +46,8 @@
                                                    ical:url <https://www.risc.jku.at/conferences/aec2016/> ;
                                                    sd:invitedSpeakers sdp:Bostan_A, sdp:Romik_D, sdp:Shallit_J .
 
-<http://symbolicdata.org/Data/Conference/AITP-2016> a sd:UpcomingConference ;
-                                                    rdfs:label "AITP 2016 - 1st Conference on Artificial Intelligence and Theorem Proving" ;
-                                                    ical:dtstart "2016-04-03"^^xsd:date ;
-                                                    ical:dtend "2016-04-06"^^xsd:date ;
-                                                    ical:location "Obergurgl, Austria" ;
-                                                    sd:hasPaperDeadline "2016-02-01" ;
-                                                    ical:description "Large-scale semantic processing and strong computer assistance of mathematics and science is our inevitable future. New combinations of AI and reasoning methods and tools deployed over large mathematical and scientific corpora will be instrumental to this task.  The AITP conference is the forum for discussing how to get there as soon as possible, and the force driving the progress towards that.  <br/> There will be three focused sessions on AI for ATP, ITP and mathematics, a (tutorial) session on modern AI and big-data methods, and several sessions with contributed talks. The focused sessions will be based on invited talks and discussion oriented." ;
-                                                    ical:url <http://aitp-conference.org> ;
-                                                    sd:invitedSpeakers sdp:Vyskocil_J, sdp:Arai_N, sdp:Holden_S, sdp:Matsuzaki_T, sdp:Schulz_S, sdp:Szegedy_C, sdp:Veroff_R, sdp:Ginev_D, sdp:Hales_T ;
-                                                    sd:hasConferenceRegistration <https://easychair.org/conferences/?conf=aitp2016> ;
-                                                    sd:hasAbstractsDeadline "2015-12-12" ;
-                                                    sd:hasProgramCommittee sdp:Urban_J, sdp:Sutcliffe_G, sdp:Cramer_M, sdp:Heskes_T, sdp:Holden_S, sdp:Kumar_R, sdp:Lafferty_J, sdp:Schulz_S, sdp:Paulson_L, sdp:Hales_T, sdp:Kaliszyk_C .
+<http://symbolicdata.org/Data/Conference/AITP-2016> ical:dtstart "2016-04-03"^^xsd:date ;
+                                                    ical:dtend "2016-04-06"^^xsd:date .
 
 <http://symbolicdata.org/Data/Conference/ANTS-2016> a sd:UpcomingConference ;
                                                     rdfs:label "12th Algorithmic Number Theory Symposium" ;
@@ -163,6 +153,28 @@
                                                      sd:hasAbstractsDeadline "2016-01-15" ;
                                                      sd:hasProgramCommittee sdp:Mayr_EW, sdp:Bradford_R, sdp:Mora_T, sdp:Gao_XS, sdp:Yokoyama_K, sdp:Dumas_JC, sdp:Feng_XS, sdp:Sagraloff_M, sdp:Winkler_F, sdp:Bostan_A, sdp:Hauenstein_J, sdp:Kapur_D, sdp:Labahn_G, sdp:Lee_WS, sdp:McCallum_S, sdp:Monagan_M, sdp:Perret_L, sdp:DAndrea_C, sdp:Panario_D, sdp:Hong_H ;
                                                      sd:hasOrganizers sdp:Carette_J, sdp:Heinle_A, sdp:Rosenkranz_M, sdp:Barkatou_M, sdp:Pearce_R, sdp:Chen_S, sdp:Kotsireas_IS .
+
+<http://symbolicdata.org/Data/Conference/MEGA-17> a sd:Event ;
+                                                  rdfs:label "MEGA-2017: Effective Methods in Algebraic Geometry" ;
+                                                  ical:dtstart "2017-06-12"^^xsd:date ;
+                                                  ical:dtend "2017-06-16"^^xsd:date ;
+                                                  ical:location "Sophia Antipolis University, Nice, France" ;
+                                                  ical:description "This series of biennial international conferences, with a tradition dating back to 1990, is devoted to computational and application aspects of Algebraic Geometry and related topics, over any characteristics. <br/> The conference will comprise invited talks, regular contributed talks, presentations of computations, and a poster session; the latter three are subject to a competitive submission process." ;
+                                                  ical:url <http://mega2017.inria.fr/> ;
+                                                  sd:invitedSpeakers sdp:Blanc_J, sdp:Buczynski_J, sdp:Goettsche_L, sdp:Hering_M, sdp:Lairez_P, sdp:Sombra_M, sdp:Huh_J, sdp:Byrne_E ;
+                                                  sd:hasAbstractsDeadline "2016-12-01"^^xsd:date ;
+                                                  sd:hasProgramCommittee sdp:Emiris_IZ, sdp:Markwig_H, sdp:Mourrain_B, sdp:Beltran_C, sdp:Derksen_H, sdp:Draisma_J, sdp:Gorla_E, sdp:Ottaviani_G, sdp:Wisniewski_J ;
+                                                  sd:hasOrganizers sdp:Galligo_A, sdp:Mourrain_B, sdp:Buse_L, sdp:Cortell_A, sdp:deAngelis_I, sdp:Hubert_E .
+
+<http://symbolicdata.org/Data/Conference/MICA-16> a sd:Event ;
+                                                  rdfs:label "MICA 2016: Milestones in Computer Algebra - Celebrating the research of Erich Kaltofen" ;
+                                                  ical:dtstart "2016-07-16"^^xsd:date ;
+                                                  ical:dtend "2016-07-18"^^xsd:date ;
+                                                  ical:location "University of Waterloo, Canada" ;
+                                                  ical:description "Celebrating the research of Erich Kaltofen, the Milestones of Computer Algebra (MICA 2016) surveys some major achievements of computer algebra and its connections to related scientific areas. Key focuses include both classical and emerging sub-disciplines of computer algebra, such as hybrid symbolic-numeric computation, exact linear algebra, algebraic complexity, polynomial factorization, and sparse interpolation. Besides presenting the latest results, MICA 2016 will assess these achievements and their impacts to other subjects, in the hope of identifying promising future research directions. <br/> We invite submissions of abstracts for contributed talks and posters for MICA 2016. We solicit talks on recent research or surveys of the historical development of sub-areas, with a preference to topics connected to Erich Kaltofen's life-long research interests. We also encourage submissions from all areas of computer algebra and related scientific fields." ;
+                                                  ical:url <https://cs.uwaterloo.ca/conferences/mica2016/> ;
+                                                  sd:hasAbstractsDeadline "2016-06-15"^^xsd:date ;
+                                                  sd:hasOrganizers sdp:Zhi_Lihong, sdp:Chen_S, sdp:Lee_WS, sdp:Watt_S, sdp:Lobo_AA, sdp:Storjohann_A, sdp:Yang_ZF, sdp:Giesbrecht_M .
 
 <http://symbolicdata.org/Data/Conference/Normaliz-2016> a sd:UpcomingConference ;
                                                         rdfs:label "Normaliz workshop" ;

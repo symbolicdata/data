@@ -65,3 +65,21 @@
                                                dcterms:publisher sdp:Kauers_M ;
                                                sioc:link <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2016-February/000015.html> ;
                                                sioc:links_to <http://www3.jku.at/mtb/content/e39/e26344/e26346/e26529/index_ger.html#54> .
+
+<http://symbolicdata.org/Data/Post/2016-04-05> a sioc:BlogPost ;
+                                               dcterms:created "2016-04-05"^^xsd:date ;
+                                               rdfs:label "Normaliz 3.1.1 released" ;
+                                               dcterms:subject <http://symbolicdata.org/Data/System/Normaliz> ;
+                                               dcterms:abstract "Normaliz 3.1.1 corrects some minor bugs. We have also added a libnormaliz function that returns the index of the unit group extension from the input monoid to the integral closure (in the nonpointed case). Christof Söger left the Department of Mathematics at the end of March." ;
+                                               dcterms:publisher sdp:Bruns_W ;
+                                               sioc:link <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2016-April/000016.html> ;
+                                               sioc:links_to <http://normaliz.uos.de> .
+
+<http://symbolicdata.org/Data/Post/2016-04-06> a sioc:BlogPost ;
+                                               dcterms:created "2016-04-06"^^xsd:date ;
+                                               rdfs:label "First Call for Papers: Special issue of the JSC" ;
+                                               dcterms:subject <http://www.journals.elsevier.com/journal-of-symbolic-computation/> ;
+                                               dcterms:abstract "First Call for Papers: Special issue of the JOURNAL OF SYMBOLIC COMPUTATION on SYMBOLIC COMPUTATION IN SOFTWARE SCIENCE." ;
+                                               dcterms:publisher sdp:Davenport_JH ;
+                                               sioc:link <http://listserv.acm.org/SCRIPTS/WA-ACMLPX.CGI?A2=ind1604&L=SIGSAM-MEMBERS&F=&S=&P=498> ;
+                                               sioc:links_to <http://www.risc.jku.at/~tkutsia/organization/jsc-scss-2016.html> .
