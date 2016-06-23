@@ -24,16 +24,9 @@
                                                  sd:hasAbstractsDeadline "2016-05-29"^^xsd:date ;
                                                  sd:hasSessionProposalDeadline "2016-03-31"^^xsd:date .
 
-<http://symbolicdata.org/Data/Conference/ACMES-16> a sd:UpcomingConference ;
-                                                   rdfs:label "ACMES-16: Computationally Assisted Mathematical Discovery and Experimental Mathematics" ;
-                                                   ical:dtstart "2016-05-12"^^xsd:date ;
+<http://symbolicdata.org/Data/Conference/ACMES-16> ical:dtstart "2016-05-12"^^xsd:date ;
                                                    ical:dtend "2016-05-15"^^xsd:date ;
-                                                   ical:location "Western University, London, Ontario, Canada" ;
-                                                   ical:description "Computational Discovery, also called Experimental Mathematics, is the use of symbolic and numerical computation to discover patterns, to identify particular numbers and sequences, and to gather evidence in support of specific mathematical assertions that may themselves arise by computational means. In recent decades, computer-assisted mathematical discovery has profoundly transformed the strategies used to expand mathematical knowledge. In addition to symbolic and numerical computation, a new trend that shows tremendous potential is the use of novel visualization techniques. The current situation was well summarized by a recent ICMI study: \"The latest developments in computer and video technology have provided a multiplicity of computational and symbolic tools that have rejuvenated mathematics and mathematics education. Two important examples of this revitalization are experimental mathematics and visual theorems.\" " ;
-                                                   ical:url <https://acmes.org/> ;
-                                                   sd:invitedSpeakers sdp:Borwein_JM, sdp:Sloane_N, sdp:Stoutemeyer_D, sdp:Kari_L, sdp:Brown_J ;
-                                                   sd:hasAbstractsDeadline "2016-03-08"^^xsd:date ;
-                                                   sd:hasProgramCommittee sdp:Corless_R, sdp:Fillion_N, sdp:Smeenk_C, sdp:Borwein_JM, sdp:Kotsireas_IS, sdp:Jeffrey_D .
+                                                   sd:hasAbstractsDeadline "2016-03-08"^^xsd:date .
 
 <http://symbolicdata.org/Data/Conference/AEC-2016> a sd:UpcomingConference ;
                                                    rdfs:label "3rd summer school \"Algorithmic and Enumerative Combinatorics\"" ;
@@ -60,20 +53,15 @@
                                                     sd:invitedSpeakers sdp:Cohen_H, sdp:Hiary_G, sdp:Ho_W, sdp:Viray_B, sdp:Peikert_C ;
                                                     sd:hasProgramCommittee sdp:Fieker_C, sdp:Hess_F, sdp:Hofmann_T, sdp:Wiese_G, sdp:Hart_W, sdp:Balakrishnan_J, sdp:Eisentraeger_K, sdp:Harvey_D, sdp:Holt_D, sdp:KhuriMakdisi_K, sdp:Kohel_D, sdp:Pomerance_C, sdp:Stehle_D, sdp:Tornaria_G, sdp:Voight_J .
 
-<http://symbolicdata.org/Data/Conference/CADCS-2016> a sd:UpcomingConference ;
-                                                     rdfs:label "Research Workshop on Algebraic Representations in Computer-Aided Design for Complex Shapes" ;
-                                                     ical:dtstart "2016-04-25"^^xsd:date ;
-                                                     ical:dtend "2016-04-27"^^xsd:date ;
-                                                     ical:location "Technische Universität Wien, Austria" ;
-                                                     ical:description "Kickoff Workshop of European Network ARCADES, and also a Recruitment event for the Network's 13 PhD positions. MSc students or recent graduates are encouraged to participate and may request funding. ARCADES is a Marie Sklodowska-Curie Innovative Training Network, that started on January 1st, 2016, lasting for 4 years. It includes 8 sites and 5 industrial partners. It offers a comprehensive training program at the crossroads of mathematics, computer-aided design, and software development." ;
-                                                     ical:url <http://arcades-network.eu/index.php/event/arcades-kickoff-event/> .
+<http://symbolicdata.org/Data/Conference/CADCS-2016> ical:dtstart "2016-04-25"^^xsd:date ;
+                                                     ical:dtend "2016-04-27"^^xsd:date .
 
 <http://symbolicdata.org/Data/Conference/CASC-2016> a sd:UpcomingConference ;
                                                     rdfs:label "CASC-2016 - 18th International Workshop in Computer Algebra in Scientific Computing" ;
                                                     ical:dtstart "2016-09-19"^^xsd:date ;
                                                     ical:dtend "2016-09-23"^^xsd:date ;
                                                     ical:location "Bucharest, Romania" ;
-                                                    sd:hasPaperDeadline "2016-04-17" ;
+                                                    sd:hasPaperDeadline "2016-04-22" ;
                                                     ical:description "The methods of Scientific Computing play an important role in the natural sciences and engineering. Significance and impact of computer algebra methods and computer algebra systems for scientific computing has increased considerably over the last decades. <br/> The ongoing development of computer algebra systems, including their integration and adaptation to modern software environments, puts them to the forefront in scientific computing and enables the practical solution of many complex applied problems in the domains of natural sciences and engineering. <br/> The topics addressed in the workshop cover all the basic areas of scientific computing as they benefit from the application of computer algebra methods and software. " ;
                                                     sd:hasProgramChair sdp:Koepf_W ;
                                                     ical:url <http://www.casc.cs.uni-bonn.de/2016/> .
@@ -104,14 +92,8 @@
                                                     sd:invitedSpeakers sdp:Barakat_M, sdp:DAndrea_C, sdp:Artal_E, sdp:Solotar_A, sdp:Paulson_L ;
                                                     sd:hasProgramCommittee sdp:Recio_T, sdp:Sendra_JR, sdp:GonzalezVega_L, sdp:DAndrea_C, sdp:Alonso_ME, sdp:Bermejo_I, sdp:Casanellas_M, sdp:Castro_FJ, sdp:Elias_J, sdp:Gimenez_P, sdp:GomezTorrecillas_J, sdp:Ladra_M, sdp:Montes_A, sdp:Rubio_J .
 
-<http://symbolicdata.org/Data/Conference/ESCO-2016> a sd:UpcomingConference ;
-                                                    rdfs:label "5th European Seminar on Computing - Smart Applications of Scientific Computing Minisymposium" ;
-                                                    ical:dtstart "2016-06-05"^^xsd:date ;
-                                                    ical:dtend "2016-06-10"^^xsd:date ;
-                                                    ical:location "Pilsen, Czech Republic" ;
-                                                    ical:description "Nowadays there is a wide variety of mathematical software available: computer algebra systems, technical computing languages, automated deduction systems,... This minisymposium is devoted to practical real-world applications of this software in fields like: transportation engineering, electrical engineering, medicine, knowledge based systems,... (this is not an exhaustive list). The focus will be on advanced and smart applications with a nontrivial mathematical background." ;
-                                                    ical:url <http://www.esco2016.femhub.com/> ;
-                                                    sd:hasOrganizers sdp:GalanGarcia_JL, sdp:RoanesLozano_E .
+<http://symbolicdata.org/Data/Conference/ESCO-2016> ical:dtstart "2016-06-05"^^xsd:date ;
+                                                    ical:dtend "2016-06-10"^^xsd:date .
 
 <http://symbolicdata.org/Data/Conference/ICLP-2016> a sd:UpcomingConference ;
                                                     rdfs:label "ICLP - 32nd International Conference on Logic Programming" ;
@@ -154,7 +136,7 @@
                                                      sd:hasProgramCommittee sdp:Mayr_EW, sdp:Bradford_R, sdp:Mora_T, sdp:Gao_XS, sdp:Yokoyama_K, sdp:Dumas_JC, sdp:Feng_XS, sdp:Sagraloff_M, sdp:Winkler_F, sdp:Bostan_A, sdp:Hauenstein_J, sdp:Kapur_D, sdp:Labahn_G, sdp:Lee_WS, sdp:McCallum_S, sdp:Monagan_M, sdp:Perret_L, sdp:DAndrea_C, sdp:Panario_D, sdp:Hong_H ;
                                                      sd:hasOrganizers sdp:Carette_J, sdp:Heinle_A, sdp:Rosenkranz_M, sdp:Barkatou_M, sdp:Pearce_R, sdp:Chen_S, sdp:Kotsireas_IS .
 
-<http://symbolicdata.org/Data/Conference/MEGA-17> a sd:Event ;
+<http://symbolicdata.org/Data/Conference/MEGA-17> a sd:UpcomingConference ;
                                                   rdfs:label "MEGA-2017: Effective Methods in Algebraic Geometry" ;
                                                   ical:dtstart "2017-06-12"^^xsd:date ;
                                                   ical:dtend "2017-06-16"^^xsd:date ;
@@ -166,7 +148,7 @@
                                                   sd:hasProgramCommittee sdp:Emiris_IZ, sdp:Markwig_H, sdp:Mourrain_B, sdp:Beltran_C, sdp:Derksen_H, sdp:Draisma_J, sdp:Gorla_E, sdp:Ottaviani_G, sdp:Wisniewski_J ;
                                                   sd:hasOrganizers sdp:Galligo_A, sdp:Mourrain_B, sdp:Buse_L, sdp:Cortell_A, sdp:deAngelis_I, sdp:Hubert_E .
 
-<http://symbolicdata.org/Data/Conference/MICA-16> a sd:Event ;
+<http://symbolicdata.org/Data/Conference/MICA-16> a sd:UpcomingConference ;
                                                   rdfs:label "MICA 2016: Milestones in Computer Algebra - Celebrating the research of Erich Kaltofen" ;
                                                   ical:dtstart "2016-07-16"^^xsd:date ;
                                                   ical:dtend "2016-07-18"^^xsd:date ;
@@ -176,14 +158,8 @@
                                                   sd:hasAbstractsDeadline "2016-06-15"^^xsd:date ;
                                                   sd:hasOrganizers sdp:Zhi_Lihong, sdp:Chen_S, sdp:Lee_WS, sdp:Watt_S, sdp:Lobo_AA, sdp:Storjohann_A, sdp:Yang_ZF, sdp:Giesbrecht_M .
 
-<http://symbolicdata.org/Data/Conference/Normaliz-2016> a sd:UpcomingConference ;
-                                                        rdfs:label "Normaliz workshop" ;
-                                                        ical:dtstart "2016-05-06"^^xsd:date ;
-                                                        ical:dtend "2016-05-07"^^xsd:date ;
-                                                        ical:location "Osnabrück, Germany" ;
-                                                        ical:description "As in 2015, we will have a Normaliz workshop at Osnabrück this year. Rough schedule: talks on May 6, discussion and development on May 7. Please register via https://www.normaliz.uni-osnabrueck.de/normaliz-workshop-2016/" ;
-                                                        ical:url <https://www.normaliz.uni-osnabrueck.de/normaliz-workshop-2016/> ;
-                                                        sd:hasOrganizers sdp:Bruns_W .
+<http://symbolicdata.org/Data/Conference/Normaliz-2016> ical:dtstart "2016-05-06"^^xsd:date ;
+                                                        ical:dtend "2016-05-07"^^xsd:date .
 
 <http://symbolicdata.org/Data/Conference/OpenMath-16> a sd:UpcomingConference ;
                                                       rdfs:label "27th OpenMath Workshop" ;
@@ -210,17 +186,6 @@
                                                     ical:dtend "2016-03-31"^^xsd:date ;
                                                     sd:hasPaperDeadline "2015-11-20"^^xsd:date ;
                                                     sd:hasAbstractsDeadline "2015-11-13"^^xsd:date .
-
-<http://symbolicdata.org/Data/Conference/SMD-16> a sd:UpcomingConference ;
-                                                 rdfs:label "Structured Matrix Days" ;
-                                                 ical:dtstart "2016-05-09"^^xsd:date ;
-                                                 ical:dtend "2016-05-10"^^xsd:date ;
-                                                 ical:location "XLIM, Université de Limoges, France" ;
-                                                 ical:description "The Department of Mathematics and Computer Science at XLIM, Universite de Limoges, organizes a two-day workshop on structured matrices and their applications. <br/> Matrices that arise from symbolic or numerical computational problems (such as polynomial computations or discretization of differential equations) often exhibit a characteristic structure inherited from the underlying problem: for instance, a sparsity pattern, or a Toeplitz/Hankel/Vandermonde-like structure, or a (possibly hierarchical) rank structure. Such properties often allow to design structured algorithms with lower complexity and storage requirements then their general-purpose counterparts.<br/> The aim of the conference is to bring together researchers from different fields to present their results, exchange ideas, develop and improve collaborations. Talks presenting open/new problems or applications, as well as implementations, are also welcome." ;
-                                                 ical:url <https://indico.math.cnrs.fr/event/1185/> ;
-                                                 sd:invitedSpeakers sdp:Pernet_C, sdp:Arrigo_F, sdp:Luce_R, sdp:Robol_L ;
-                                                 sd:hasAbstractsDeadline "2016-04-25" ;
-                                                 sd:hasOrganizers sdp:Barkatou_M, sdp:Boito_P .
 
 <http://symbolicdata.org/Data/Conference/SMRA-2016> a sd:UpcomingConference ;
                                                     rdfs:label "Session on Software for Mathematical Reasoning and Applications at ICMS" ;

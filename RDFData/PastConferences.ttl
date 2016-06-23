@@ -194,6 +194,17 @@
                                                    sd:invitedSpeakers sdp:Gunzburger_M, sdp:SanzSerna_J, sdp:Batterman_R, sdp:Wilson_M, sdp:Martin_U ;
                                                    sd:hasProgramCommittee sdp:Corless_R, sdp:Fillion_N, sdp:Smeenk_C, sdp:Moir_R .
 
+<http://symbolicdata.org/Data/Conference/ACMES-16> a sd:Event ;
+                                                   rdfs:label "ACMES-16: Computationally Assisted Mathematical Discovery and Experimental Mathematics" ;
+                                                   ical:dtstart "2016-05-12"^^xsd:date ;
+                                                   ical:dtend "2016-05-15"^^xsd:date ;
+                                                   ical:location "Western University, London, Ontario, Canada" ;
+                                                   ical:description "Computational Discovery, also called Experimental Mathematics, is the use of symbolic and numerical computation to discover patterns, to identify particular numbers and sequences, and to gather evidence in support of specific mathematical assertions that may themselves arise by computational means. In recent decades, computer-assisted mathematical discovery has profoundly transformed the strategies used to expand mathematical knowledge. In addition to symbolic and numerical computation, a new trend that shows tremendous potential is the use of novel visualization techniques. The current situation was well summarized by a recent ICMI study: \"The latest developments in computer and video technology have provided a multiplicity of computational and symbolic tools that have rejuvenated mathematics and mathematics education. Two important examples of this revitalization are experimental mathematics and visual theorems.\" " ;
+                                                   ical:url <https://acmes.org/> ;
+                                                   sd:invitedSpeakers sdp:Borwein_JM, sdp:Sloane_N, sdp:Stoutemeyer_D, sdp:Kari_L, sdp:Brown_J ;
+                                                   sd:hasAbstractsDeadline "2016-03-08"^^xsd:date ;
+                                                   sd:hasProgramCommittee sdp:Corless_R, sdp:Fillion_N, sdp:Smeenk_C, sdp:Borwein_JM, sdp:Kotsireas_IS, sdp:Jeffrey_D .
+
 <http://symbolicdata.org/Data/Conference/ADG-14> a sd:Event ;
                                                  rdfs:label "10th International Workshop on Automated Deduction in Geometry" ;
                                                  ical:dtstart "2014-07-09"^^xsd:date ;
@@ -742,6 +753,15 @@
                                                     sd:invitedSpeakers sdp:Kemper_G, sdp:Klueners_J, sdp:Malle_G, sdp:Zerz_E, sdp:Seiler_W, sdp:Decker_W, sdp:Boehm_J, sdp:King_S, sdp:Kirschmer_M, sdp:Bley_W, sdp:Abbott_J, sdp:Ellis_G, sdp:deGraaf_W, sdp:Goepfert_F, sdp:Hulpke_A ;
                                                     sd:hasCARReport "CAR 57 (Okt. 2015), p. 29" .
 
+<http://symbolicdata.org/Data/Conference/ESCO-2016> a sd:Event ;
+                                                    rdfs:label "5th European Seminar on Computing - Smart Applications of Scientific Computing Minisymposium" ;
+                                                    ical:dtstart "2016-06-05"^^xsd:date ;
+                                                    ical:dtend "2016-06-10"^^xsd:date ;
+                                                    ical:location "Pilsen, Czech Republic" ;
+                                                    ical:description "Nowadays there is a wide variety of mathematical software available: computer algebra systems, technical computing languages, automated deduction systems,... This minisymposium is devoted to practical real-world applications of this software in fields like: transportation engineering, electrical engineering, medicine, knowledge based systems,... (this is not an exhaustive list). The focus will be on advanced and smart applications with a nontrivial mathematical background." ;
+                                                    ical:url <http://www.esco2016.femhub.com/> ;
+                                                    sd:hasOrganizers sdp:GalanGarcia_JL, sdp:RoanesLozano_E .
+
 <http://symbolicdata.org/Data/Conference/FSMC-2015> a sd:Event ;
                                                     rdfs:label "Workshop Frontiers in Serre's Modularity Conjecture: Torsion and Low Weights" ;
                                                     ical:dtstart "2015-06-15"^^xsd:date ;
@@ -872,6 +892,15 @@
                                                    ical:description "The systematic study of noncrossing partitions goes back to G. Kreweras in the 1970s where he considered set partitions on {1,...,n} with noncrossing blocks when drawn on a circle. Among other beautiful properties, such noncrossing set partitions are counted by the famous Catalan numbers and they form a lattice under the refinement order. <br/> More than 30 years later, D. Bessis and, independently, T. Brady and C. Watt provided an algebraic framework to generalize noncrossing partitions to finite Coxeter groups in a very natural and beautiful way. These developments opened the new combinatorial field of \"Coxeter-Catalan combinatorics\".  The final link to representations of quivers arose shortly after from the connection between noncrossing partitions and cluster algebras and their categorification via cluster categories. <br/>  This workshop is devoted to all aspects of this exciting development with the objective to bring together specialists interested in noncrossing partitions, in particular those from algebraic combinatorics and from quiver representation theory. <br/> Limited funds are available for support of participants. Details for funding application are available on the website." ;
                                                    ical:url <http://www.math.uni-bielefeld.de/birep/meetings/ncp2014> .
 
+<http://symbolicdata.org/Data/Conference/Normaliz-2016> a sd:Event ;
+                                                        rdfs:label "Normaliz workshop" ;
+                                                        ical:dtstart "2016-05-06"^^xsd:date ;
+                                                        ical:dtend "2016-05-07"^^xsd:date ;
+                                                        ical:location "Osnabrück, Germany" ;
+                                                        ical:description "As in 2015, we will have a Normaliz workshop at Osnabrück this year. Rough schedule: talks on May 6, discussion and development on May 7. Please register via https://www.normaliz.uni-osnabrueck.de/normaliz-workshop-2016/" ;
+                                                        ical:url <https://www.normaliz.uni-osnabrueck.de/normaliz-workshop-2016/> ;
+                                                        sd:hasOrganizers sdp:Bruns_W .
+
 <http://symbolicdata.org/Data/Conference/NormalizWorkshop-15> a sd:Event ;
                                                               rdfs:label "Normaliz workshop" ;
                                                               ical:dtstart "2015-05-15"^^xsd:date ;
@@ -959,6 +988,17 @@
                                                       ical:location "Daejeon, South Korea" ;
                                                       ical:description "The purpose of the SIAM Activity Group in Algebraic Geometry is to bring together researchers who use algebraic geometry in industrial and applied mathematics. \"Algebraic geometry\" is interpreted broadly to include at least: algebraic geometry, commutative algebra, noncommutative algebra, symbolic and numeric computation, algebraic and geometric combinatorics, representation theory, and algebraic topology." ;
                                                       ical:url <http://camp.nims.re.kr/activities/eventpages/?id=200&action=overview> .
+
+<http://symbolicdata.org/Data/Conference/SMD-16> a sd:Event ;
+                                                 rdfs:label "Structured Matrix Days" ;
+                                                 ical:dtstart "2016-05-09"^^xsd:date ;
+                                                 ical:dtend "2016-05-10"^^xsd:date ;
+                                                 ical:location "XLIM, Université de Limoges, France" ;
+                                                 ical:description "The Department of Mathematics and Computer Science at XLIM, Universite de Limoges, organizes a two-day workshop on structured matrices and their applications. <br/> Matrices that arise from symbolic or numerical computational problems (such as polynomial computations or discretization of differential equations) often exhibit a characteristic structure inherited from the underlying problem: for instance, a sparsity pattern, or a Toeplitz/Hankel/Vandermonde-like structure, or a (possibly hierarchical) rank structure. Such properties often allow to design structured algorithms with lower complexity and storage requirements then their general-purpose counterparts.<br/> The aim of the conference is to bring together researchers from different fields to present their results, exchange ideas, develop and improve collaborations. Talks presenting open/new problems or applications, as well as implementations, are also welcome." ;
+                                                 ical:url <https://indico.math.cnrs.fr/event/1185/> ;
+                                                 sd:invitedSpeakers sdp:Pernet_C, sdp:Arrigo_F, sdp:Luce_R, sdp:Robol_L ;
+                                                 sd:hasAbstractsDeadline "2016-04-25" ;
+                                                 sd:hasOrganizers sdp:Barkatou_M, sdp:Boito_P .
 
 <http://symbolicdata.org/Data/Conference/SNC-2014> a sd:Event ;
                                                    rdfs:label "SNC-2014: International Workshop on Symbolic-Numeric Computation" ;
