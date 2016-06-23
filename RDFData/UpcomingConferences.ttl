@@ -136,6 +136,15 @@
                                                      sd:hasProgramCommittee sdp:Mayr_EW, sdp:Bradford_R, sdp:Mora_T, sdp:Gao_XS, sdp:Yokoyama_K, sdp:Dumas_JC, sdp:Feng_XS, sdp:Sagraloff_M, sdp:Winkler_F, sdp:Bostan_A, sdp:Hauenstein_J, sdp:Kapur_D, sdp:Labahn_G, sdp:Lee_WS, sdp:McCallum_S, sdp:Monagan_M, sdp:Perret_L, sdp:DAndrea_C, sdp:Panario_D, sdp:Hong_H ;
                                                      sd:hasOrganizers sdp:Carette_J, sdp:Heinle_A, sdp:Rosenkranz_M, sdp:Barkatou_M, sdp:Pearce_R, sdp:Chen_S, sdp:Kotsireas_IS .
 
+<http://symbolicdata.org/Data/Conference/LambertW-2016> a sd:UpcomingConference ;
+                                                        rdfs:label "Celebrating 20 years of the Lambert W Function" ;
+                                                        ical:dtstart "2016-07-25"^^xsd:date ;
+                                                        ical:dtend "2016-07-28"^^xsd:date ;
+                                                        ical:location "Western University, London, Ontario, Canada" ;
+                                                        ical:description "In 1996, the first comprehensive survey of the Lambert W function was published. To celebrate 20 years since that publication, Western University will host a workshop on the Lambert W function and on related special and elementary functions. Talks on applications, including physics, biology, sociology and computational science are welcome. Mathematical applications to areas such as combinatorics, delay-differential equations and so on are also welcome. Generalizations and other nonlinear eigenvalue functions and matrix functions are especially welcome. Graduate students are particularly encouraged to contribute and attend." ;
+                                                        ical:url <http://www.apmaths.uwo.ca/~djeffrey/LambertW/LambertW.html> ;
+                                                        sd:hasOrganizers sdp:Jeffrey_D .
+
 <http://symbolicdata.org/Data/Conference/MEGA-17> a sd:UpcomingConference ;
                                                   rdfs:label "MEGA-2017: Effective Methods in Algebraic Geometry" ;
                                                   ical:dtstart "2017-06-12"^^xsd:date ;
@@ -182,6 +191,18 @@
                                                     sd:hasAbstractsDeadline "2016-03-31" ;
                                                     sd:hasOrganizers sdp:Joswig_M, sdp:Pfetsch_M .
 
+<http://symbolicdata.org/Data/Conference/SC-square-2016> a sd:UpcomingConference ;
+                                                         rdfs:label "First International Workshop on Satisfiability Checking and Symbolic Computation" ;
+                                                         ical:dtstart "2016-09-24"^^xsd:date ;
+                                                         ical:dtend "2016-09-24"^^xsd:date ;
+                                                         ical:location "Department of Computer Science, West University of Timisoara, Romania" ;
+                                                         sd:hasPaperDeadline "2016-07-15"^^xsd:date ;
+                                                         ical:description "Symbolic Computation is concerned with the algorithmic determination of exact solutions to complex mathematical problems; more recent developments in the area of Satisfiability Checking are starting to tackle similar problems but with different algorithmic and technological solutions.  The two communities share many central interests, but researchers from these two communities rarely interact.  Also, the lack of common or compatible interfaces of tools is an obstacle to their fruitful combination. Bridges between the communities in the form of common platforms and road-maps are necessary to initiate an exchange, and to support and direct their interaction. The aim of this workshop, along the SC-square H2020 FETOPEN Coordination and Support Activity project, is to provide a time to discuss, share knowledge and experience across both communities. Affiliated with SYNASC 2016." ;
+                                                         sd:hasProgramChair sdp:Abraham_E, sdp:Fontaine_P ;
+                                                         ical:url <http://www.sc-square.org/CSA/workshop1.html> ;
+                                                         sd:invitedSpeakers sdp:Brown_CW ;
+                                                         sd:hasProgramCommittee sdp:Seiler_W, sdp:Chen_C, sdp:Buchberger_B, sdp:Sturm_T, sdp:Abbott_J, sdp:Bigatti_AM, sdp:Davenport_JH, sdp:Becker_B, sdp:Brain_M, sdp:Forrest_S, sdp:Ganesh_V, sdp:Griggio_A, sdp:Kroening_D, sdp:Tinelli_C, sdp:Tiwari_A, sdp:England_M .
+
 <http://symbolicdata.org/Data/Conference/SCSS-2016> ical:dtstart "2016-03-28"^^xsd:date ;
                                                     ical:dtend "2016-03-31"^^xsd:date ;
                                                     sd:hasPaperDeadline "2015-11-20"^^xsd:date ;
@@ -197,6 +218,29 @@
                                                     ical:url <http://www.risc.jku.at/conferences/icms2016/> ;
                                                     sd:hasAbstractsDeadline "2016-03-31" ;
                                                     sd:hasOrganizers sdp:Buchberger_B, sdp:Kutsia_T, sdp:Jebelean_T, sdp:Windsteiger_W .
+
+<http://symbolicdata.org/Data/Conference/SYNASC-2016> a sd:UpcomingConference ;
+                                                      rdfs:label "SYNASC 2016 - 18th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing" ;
+                                                      ical:dtstart "2016-09-24"^^xsd:date ;
+                                                      ical:dtend "2016-09-27"^^xsd:date ;
+                                                      ical:location "Department of Computer Science, West University of Timisoara, Romania" ;
+                                                      sd:hasPaperDeadline "2016-06-22"^^xsd:date ;
+                                                      ical:description "International Symposium on Symbolic and Numeric Algorithms for Scientific Computing is a international conference that aims to stimulate the interaction between the two scientific communities of symbolic and numeric computing and to exhibit interesting applications of the areas both in theory and in practice. The choice of the topic is motivated by the belief of the organizers that the dialogue between the two communities is very necessary for accelerating the progress in making the computer a truly intelligent aid for mathematicians and engineers." ;
+                                                      ical:url <http://synasc.ro/2016/> ;
+                                                      sd:hasAbstractsDeadline "2016-06-10"^^xsd:date .
+
+<http://symbolicdata.org/Data/Conference/SYNASC-2016-SC> a sd:UpcomingConference ;
+                                                         rdfs:label "SYNASC 2016 - Symbolic Computation Track" ;
+                                                         ical:dtstart "2016-09-24"^^xsd:date ;
+                                                         ical:dtend "2016-09-27"^^xsd:date ;
+                                                         ical:location "Department of Computer Science, West University of Timisoara, Romania" ;
+                                                         sd:hasPaperDeadline "2016-06-22"^^xsd:date ;
+                                                         ical:description "Affiliated with SYNASC 2016." ;
+                                                         sd:hasProgramChair sdp:Bostan_A, sdp:Kauers_M ;
+                                                         sd:hasGeneralChair sdp:Watt_S, sdp:Ida_T ;
+                                                         ical:url <http://synasc.ro/2016/tracks/symbolic-computation-2/> ;
+                                                         sd:hasAbstractsDeadline "2016-06-10"^^xsd:date ;
+                                                         sd:hasProgramCommittee sdp:Yokoyama_K, sdp:Chen_S, sdp:Lee_WS, sdp:Roche_DS, sdp:England_M, sdp:DiazToca_GM, sdp:Joldes_M, sdp:Mezzarobba_M .
 
 <http://symbolicdata.org/Data/Conference/WWCA-2016> a sd:UpcomingConference ;
                                                     rdfs:label "Waterloo Workshop on Computer Algebra 2016" ;
