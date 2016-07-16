@@ -1,0 +1,147 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+
+<http://symbolicdata.org/Data/ConferenceSeries/> a owl:Ontology ;
+   rdfs:label "CASN: Conference Series" ;
+   rdfs:comment "The initial version was extracted from the SIGSAM Conference Series page at http://sigsam.org/Resources/ConferenceSeries.html" ; 
+   cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+   cc:attributionURL <http://symbolicdata.org> ;
+   cc:attributionName "The SymbolicData Project" .
+
+<http://symbolicdata.org/Data/ConferenceSeries/ISSAC> a sd:ConferenceSeries ;
+  rdfs:label "ISSAC: International Symposium on Symbolic and Algebraic Computation";
+  sd:description "ISSAC is the premier annual conference for new research in symbolic mathematical computation.  It is regularly sponsored by SIGSAM. " ; 
+  sd:publicationRules "Full papers are submitted in advance of the meeting for consideration, with the Proceedings published by the ACM. In addition, there are tracks for software demonstrations and posters, both of which are accompanied by extended abstracts published in the SIGSAM Communications of Computer Algebra (CCA). " ; 
+  sd:hasURL <http://www.issac-symposium.org> .
+
+<http://symbolicdata.org/Data/ConferenceSeries/ACA> a sd:ConferenceSeries ;
+  rdfs:label "ACA: Conference on Applications of Computer Algebra";
+  sd:description "ACA meetings are organised as a collection of special sessions on specific topics of interest, which solicit contributions individually." ; 
+  sd:publicationRules "Usually, extended abstracts are prepared before the meeting with an associated journal special issue for full papers afterwards." ; 
+  sd:hasURL <http://www.math.unm.edu/~aca/> .
+
+<http://symbolicdata.org/Data/ConferenceSeries/ADG> a sd:ConferenceSeries ;
+  sd:description "ADG concerns research at the intersection between geometry and automated deduction, including symbolic computation. The workshop is held every two years." ;  
+  sd:publicationRules "Extended abstracts are prepared in advance for consideration, and full papers are submitted afterwards for the post proceedings, published as a volume of Springer Lecture Notes in Computer Science." ; 
+  rdfs:label "ADG: International Workshop on Automated Deduction in Geometry" .
+
+<http://symbolicdata.org/Data/ConferenceSeries/AISC> a sd:ConferenceSeries ;
+  sd:description "This conference series is concerned with AI research that makes use of symbolic computation." ;
+  sd:publicationRules "Papers are submitted in advance of the meeting for consideration, with the Proceedings published as a volume of Springer Lecture Notes in Artificial Intelligence." ; 
+  rdfs:label "AISC: Artificial Intelligence and Symbolic Computation"  .
+
+<http://symbolicdata.org/Data/ConferenceSeries/ASCM> a sd:ConferenceSeries ;
+  sd:description "This series of conferences covers any research on the topic of <i>doing mathematics using computers</i>, including computer algebra." ;
+  rdfs:label "ASCM: Asian Symposium on Computer Mathematics"; 
+  sd:hasURL <http://www.mmrc.iss.ac.cn/ascm/>  .
+
+<http://symbolicdata.org/Data/ConferenceSeries/CASA> a sd:ConferenceSeries ;
+  sd:description "The CASA workshop is usually held within the annual \"International Conference on Computational Science\"." ;
+  rdfs:label "CASA: International Workshop on Computer Algebra Systems and their Applications" .
+
+<http://symbolicdata.org/Data/ConferenceSeries/CASC> a sd:ConferenceSeries ;
+  sd:description "CASC focuses on the impact of computer algebra in the field of scientific computation and its applications in the natural sciences and enginnering." ;
+  sd:publicationRules "Full papers are submitted in advance of the meeting for consideration, with the Proceedings published as a volume of Springer Lecture Notes in Computer Science." ; 
+  rdfs:label "CASC: International Workshop on Computer Algebra in Scientific Computing" ; 
+  sd:hasURL <http://wwwmayr.in.tum.de/leabib/proceedings/JavaWraper.php?cmd=list&proceedings=CASC>.
+
+<http://symbolicdata.org/Data/ConferenceSeries/CICM> a sd:ConferenceSeries ;
+  sd:description "CICM examines the synergies between computer algebra, automated deduction, mathematical publishing and novel user interfaces." ;
+  sd:publicationRules "Full papers are submitted in advance of the meeting for consideration, with the Proceedings published as a volume of Springer Lecture Notes in Artificial Intelligence." ; 
+  rdfs:label "CICM: Conferences on Intelligent Computer Mathematics";
+  sd:hasURL <http://www.cicm-conference.org> .
+
+<http://symbolicdata.org/Data/ConferenceSeries/EACA> a sd:ConferenceSeries ;
+  sd:description "This Spanish series of meetings <i>Encuentros de Algebra Computacional y Aplicaciones</i> covers research in the fields of Computer Algebra and Symbolic Computation.  It is usually held every two years, with extended abstracts submitted before the meetings." ;
+  rdfs:label "EACA: Meetings on Computer Algebra and Applications" .
+
+<http://symbolicdata.org/Data/ConferenceSeries/ECCAD> a sd:ConferenceSeries ;
+  sd:description "This annual event on the East Coast of the USA is a one day meeting for all those interested in computer algebra and symbolic computation. It usually consists of invited speakers and poster presentations." ;
+  rdfs:label "ECCAD: The East Coast Computer Algebra Day";
+  sd:hasURL <http://www.sigsam.org/ECCAD/> .
+
+<http://symbolicdata.org/Data/ConferenceSeries/FELIM> a sd:ConferenceSeries ;
+  sd:description "Functional Equations in Limoges (FELIM 2016) is the ninth in a series of annual international gatherings for researchers in functional equations.";  
+  sd:publicationRules "Participation is by 2-page abstract submitted in advance." ;
+  rdfs:label "FELIM: Functional Equations in LIMoges";
+  sd:hasURL <https://indico.math.cnrs.fr/event/919/page/3> .
+
+<http://symbolicdata.org/Data/ConferenceSeries/FOCM> a sd:ConferenceSeries ;
+  sd:description "FoCM conferences are held every three years and cover the entire spectrum of mathematical computation. They consist of plenary invited lectures and and theme-centered parallel workshops who organise their own speakers. The meetings are run by the FoCM Society.";  
+  rdfs:label "FoCM: Foundations of Computational Mathematics Conference";
+  sd:hasURL <http://focm-society.org/> .
+
+<http://symbolicdata.org/Data/ConferenceSeries/ICMS> a sd:ConferenceSeries ;
+  sd:description "ICMS is dedicated to mathematical software, including computer algebra systems.  It was previously held every 4 years as a satellite conference to the International Congress of Mathematicians (ICM) and now runs every 2 years to be alternately alongside ICM and the European Congress of Mathematics (ECM).";  
+  sd:publicationRules "Participation is by extended abstract prepared in advance of the meeting submitted to themed session organisers." ;
+  rdfs:label "ICMS: International Congress on Mathematical Software" .
+
+<http://symbolicdata.org/Data/ConferenceSeries/MACIS> a sd:ConferenceSeries ;
+  sd:description "MACIS is a series of conferences for foundational research on theoretical and practical problems of mathematics for computing and information processing. ";  
+  sd:publicationRules "Presenters are chosen by submission of papers or extended abstracts in advance.  They are then invited to submit full papers for an associated issues of Mathematics in Computer Science after the meeting." ;
+  rdfs:label "MACIS: Mathematical Aspects of Computer and Information Sciences" .
+
+<http://symbolicdata.org/Data/ConferenceSeries/MEGA> a sd:ConferenceSeries ;
+  sd:description "This conference series is devoted to computational and application aspects of Algebraic Geometry and related topics, over any characteristics.  It is usually held every two years.";  
+  sd:publicationRules "Presenters are chosen by submission of papers or extended abstracts in advance. They are then invited to submit full papers for an associated journal special issue after the meeting." ;
+  rdfs:label "MEGA: Conference on Effective Methods in Algebraic Geometry" .
+
+<http://symbolicdata.org/Data/ConferenceSeries/MMCP> a sd:ConferenceSeries ;
+  sd:description "This meeting alternates between Russia and Slovakia. Since the 2009 edition this conference series has included a session on computer algebra (prior to this computer algebra was represented in separate workshops).";  
+  sd:publicationRules "The meeting consists of invited speakers and contributed short talks, chosen by submission of 1 page abstracts in advance." ;
+  rdfs:label "MMCP: Mathematical Modeling and Computational Physics" .
+
+<http://symbolicdata.org/Data/ConferenceSeries/PCA> a sd:ConferenceSeries ;
+  sd:description "This annual meeting at the The Euler International Mathematical Institute in Saint-Petersburg, Russia is devoted to polynomial algorithms in Computer Algebra.  It consists of plenary talks and contributed talks, chosen by submission of extended abstract in advance.";  
+  rdfs:label "PCA: Polynomial Computer Algebra" .
+
+<http://symbolicdata.org/Data/ConferenceSeries/PASCO> a sd:ConferenceSeries ;
+  sd:description "PASCO is a workshop series dedicated to parallel algorithms and software in symbolic mathematical computation.";  
+  sd:publicationRules "Papers are submitted in advance and the proceedings usually published with the ACM." ;
+  rdfs:label "PASCO: International Workshop on Parallel Symbolic Computation" .
+
+<http://symbolicdata.org/Data/ConferenceSeries/SCSS> a sd:ConferenceSeries ;
+  sd:description "SCSS promotes research on theoretical and practical aspects of symbolic computation in software sciences.  It aims for dialog between researchers in: computer algebra, algebraic geometry, algorithmic combinatorics, computational logic, and software analysis and verification.  ";  
+  sd:publicationRules "Submission is either a Short, Regular and Tool (software) paper, with proceedings distributed at the meeting. Full papers can later be considered for special issues of the Journal of Symbolic Computation." ; 
+  sd:hasURL <http://www.risc.jku.at/conferences/scss/index.html> ; 
+  rdfs:label "SCSS: International Symposium on Symbolic Computation in Software Science" .
+
+<http://symbolicdata.org/Data/ConferenceSeries/SIAM> a sd:ConferenceSeries ;
+  sd:description "SIAM:AG brings together academic and industrial researchers of algebraic geometry, including work in symbolic computation. This conference is held every two years and run by the SIAM Algebraic Geometry Activity Group";  
+  rdfs:label "SIAM AG: SIAM Conference on Applied Algebraic Geometry" .
+
+<http://symbolicdata.org/Data/ConferenceSeries/SNC> a sd:ConferenceSeries ;
+  sd:description "SNC focusses on techniques that combine symbolic and numeric computation, the synergy between the fields and the problems they can tackle together.";  
+  sd:publicationRules "Papers are submitted in advance and proceedings published by the ACM." ;
+  sd:hasURL <http://symbolic-numeric-computation.org/> ; 
+  rdfs:label "SNC: International Workshop on Symbolic-Numeric Computing" .
+
+<http://symbolicdata.org/Data/ConferenceSeries/SYNASC> a sd:ConferenceSeries ;
+  sd:description "SYNASC is an annual conference which aims to stimulate interaction between the communities of symbolic and numeric computing.  It takes place annually in Timisoara, Romania and is jointly organised with the Research Institute for Symbolic Computation (RISC), Austria.";  
+  sd:publicationRules "Papers are submitted in advance and if accepted, a revised edition is published by IEEE in post-proceedings." ;
+  sd:hasURL <http://synasc.ro/> ; 
+  rdfs:label "SYNASC: International Symposium on Symbolic and Numeric Algorithms for Scientific Computing" .
+
+<http://symbolicdata.org/Data/ConferenceSeries/AAECC> a sd:ConferenceSeries ;
+  sd:description "This series brings together researchers in coding theory and computer algebra.";  
+  rdfs:label "AAECC: International Conference on Applied Algebra and Error-Correcting Codes";
+  sd:hasURL <http://www.irit.fr/ACTIVITES/AAECC/conf.htm> .
+
+<http://symbolicdata.org/Data/ConferenceSeries/CaM> a sd:ConferenceSeries ;
+  rdfs:label "Computers and Mathematics" .
+
+<http://symbolicdata.org/Data/ConferenceSeries/MACSYMA> a sd:ConferenceSeries ;
+  rdfs:label "MACSYMA Users' Conference" .
+
+<http://symbolicdata.org/Data/ConferenceSeries/RWCA> a sd:ConferenceSeries ;
+  sd:description "A European series on algorithms to solve algebraic and geometric problems, their complexity, and implementation in computer algebra systems.";  
+  rdfs:label "RWCA: The Rhine Workshop on Computer Algebra" .
+
+<http://symbolicdata.org/Data/ConferenceSeries/Pre-ISSAC> a sd:ConferenceSeries ;
+  sd:description "The regular ISSAC conference was directly proceeded by a series of annual conferences with names SYMSAC, EUROCAL, EUROSAM and EUROCAM.";  
+  rdfs:label "Annual Computer Algebra Conferences pre-ISSAC" .
+
