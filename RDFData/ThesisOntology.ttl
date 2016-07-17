@@ -1,0 +1,27 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix bibo_degrees: <http://purl.org/ontology/bibo/degrees/> .
+
+bibo:degree
+    a owl:ObjectProperty ;
+    rdfs:comment "The thesis degree."@en ;
+    rdfs:domain bibo:Thesis ;
+    rdfs:label "degree"@en ;
+    rdfs:range bibo:ThesisDegree  .
+
+bibo_degrees:phd a bibo:ThesisDegree; rdfs:label "Dissertation"@de, "PhD"@en .
+bibo_degrees:habil a bibo:ThesisDegree; rdfs:label "Habilitation"@de, "Habilitation"@en .
+
+bibo:Thesis a owl:Class ;
+    rdfs:comment "A document created to summarize research findings associated with the completion of an academic degree."@en ;
+    rdfs:label "Thesis"@en .
+
+<http://symbolicdata.org/Data/ThesisOntology/>
+    a owl:Ontology ;
+    rdfs:comment "Our thesis ontology extend the dcterms: and bibo: ontologies" ;
+    rdfs:label "CASN: Thesis Ontology" .
+
