@@ -1,0 +1,445 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://symbolicdata.org/Data/Dissertations/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix bibo_degrees: <http://purl.org/ontology/bibo/degrees/> .
+
+<http://symbolicdata.org/Data/Dissertation/Adam_14> a bibo:Thesis ;
+                                                    dcterms:creator sdp:Adam_M ;
+                                                    dcterms:title "On the distribution of eigenspaces in classical over finite rings and the Cohen-Lenstra heuristic" ;
+                                                    dcterms:date "2014"^^dcterms:W3CDTF ;
+                                                    bibo:degree bibo_degrees:phd ;
+                                                    sd:affiliates "TU Kaiserslautern, Germany" ;
+                                                    sd:hasSupervisor sdp:Malle_G .
+
+<http://symbolicdata.org/Data/Dissertation/Ali_11> a bibo:Thesis ;
+                                                   dcterms:creator sdp:Ali_R ;
+                                                   dcterms:title "Weyl Gröbner Basis Cryptosystems" ;
+                                                   dcterms:date "2011"^^dcterms:W3CDTF ;
+                                                   bibo:degree bibo_degrees:phd ;
+                                                   sd:affiliates "Uni Passau, Germany" ;
+                                                   sd:hasSupervisor sdp:Kreuzer_M ;
+                                                   sd:hasReviewer sdp:Rosenberger_G .
+
+<http://symbolicdata.org/Data/Dissertation/Andres_13> a bibo:Thesis ;
+                                                      dcterms:creator sdp:Andres_D ;
+                                                      dcterms:title "Noncommutative computer algebra with applications in algebraic analysis" ;
+                                                      dcterms:date "2013"^^dcterms:W3CDTF ;
+                                                      bibo:degree bibo_degrees:phd ;
+                                                      sd:affiliates "RWTH Aachen, Germany" ;
+                                                      sd:hasSupervisor sdp:Zerz_E ;
+                                                      sd:hasReviewer sdp:Plesken_W .
+
+<http://symbolicdata.org/Data/Dissertation/Assarf_15> a bibo:Thesis ;
+                                                      dcterms:creator sdp:Assarf_B ;
+                                                      dcterms:title "Fano polytopes - On the classification of smooth Fano polytopes and their triangulations" ;
+                                                      dcterms:date "2015"^^dcterms:W3CDTF ;
+                                                      bibo:degree bibo_degrees:phd ;
+                                                      sd:affiliates "TU Berlin, Germany" ;
+                                                      sd:hasSupervisor sdp:Joswig_M ;
+                                                      sd:hasReviewer sdp:Haase_C .
+
+<http://symbolicdata.org/Data/Dissertation/BermudezTobon_15> a bibo:Thesis ;
+                                                             dcterms:creator sdp:BermudezTobon_Y ;
+                                                             dcterms:title "Torsors and generalized Cox rings for Manin's conjecture" ;
+                                                             dcterms:date "2015"^^dcterms:W3CDTF ;
+                                                             bibo:degree bibo_degrees:phd ;
+                                                             sd:affiliates "Uni Heidelberg, Germany" ;
+                                                             sd:hasSupervisor sdp:Boeckle_G ;
+                                                             sd:hasReviewer sdp:Gekeler_EU .
+
+<http://symbolicdata.org/Data/Dissertation/Boy_12> a bibo:Thesis ;
+                                                   dcterms:creator sdp:Boy_M ;
+                                                   dcterms:title "On the second class group of real quadratic number fields" ;
+                                                   dcterms:date "2012"^^dcterms:W3CDTF ;
+                                                   bibo:degree bibo_degrees:phd ;
+                                                   sd:affiliates "TU Kaiserslautern, Germany" ;
+                                                   sd:hasSupervisor sdp:Malle_G ;
+                                                   sd:hasReviewer sdp:Klueners_J .
+
+<http://symbolicdata.org/Data/Dissertation/Brickenstein_10> a bibo:Thesis ;
+                                                            dcterms:creator sdp:Brickenstein_M ;
+                                                            dcterms:title "Boolean Gröbner bases - theory, algorithms, and applications" ;
+                                                            dcterms:date "2010"^^dcterms:W3CDTF ;
+                                                            bibo:degree bibo_degrees:phd ;
+                                                            sd:affiliates "TU Kaiserslautern, Germany" ;
+                                                            sd:hasSupervisor sdp:Greuel_GM ;
+                                                            sd:hasReviewer sdp:Biere_A .
+
+<http://symbolicdata.org/Data/Dissertation/Chiadjeu_10> a bibo:Thesis ;
+                                                        dcterms:creator sdp:Chiadjeu_ELGN ;
+                                                        dcterms:title "Algorithmic Computation of Formal Fourier Series" ;
+                                                        dcterms:date "2010"^^dcterms:W3CDTF ;
+                                                        bibo:degree bibo_degrees:phd ;
+                                                        sd:affiliates "Uni Kassel, Germany" ;
+                                                        sd:hasSupervisor sdp:Koepf_W ;
+                                                        sd:hasReviewer sdp:Seiler_W .
+
+<http://symbolicdata.org/Data/Dissertation/Delfs_15> a bibo:Thesis ;
+                                                     dcterms:creator sdp:Delfs_C ;
+                                                     dcterms:title "Isogenies and Endomorphism Rings of Abelian Varieties of Low Dimension" ;
+                                                     dcterms:date "2015"^^dcterms:W3CDTF ;
+                                                     bibo:degree bibo_degrees:phd ;
+                                                     sd:affiliates "Uni Oldenburg, Germany" ;
+                                                     sd:hasSupervisor sdp:Stein_A ;
+                                                     sd:hasReviewer sdp:Hess_F .
+
+<http://symbolicdata.org/Data/Dissertation/Devyatov_15> a bibo:Thesis ;
+                                                        dcterms:creator sdp:Devyatov_R ;
+                                                        dcterms:title "Equivariant deformations of algebraic varieties with an action of an algebraic torus of complexity one" ;
+                                                        dcterms:date "2015"^^dcterms:W3CDTF ;
+                                                        bibo:degree bibo_degrees:phd ;
+                                                        sd:affiliates "FU Berlin, Germany" ;
+                                                        sd:hasSupervisor sdp:Altmann_K ;
+                                                        sd:hasReviewer sdp:Christophersen_J .
+
+<http://symbolicdata.org/Data/Dissertation/Dingler_10> a bibo:Thesis ;
+                                                       dcterms:creator sdp:Dingler_C ;
+                                                       dcterms:title "Ein symbolischer Ansatz für finite Differenzenverfahren partieller Differentialgleichungen" ;
+                                                       dcterms:date "2010"^^dcterms:W3CDTF ;
+                                                       bibo:degree bibo_degrees:phd ;
+                                                       sd:affiliates "TU Kaiserslautern, Germany" ;
+                                                       sd:hasSupervisor sdp:Pfister_G .
+
+<http://symbolicdata.org/Data/Dissertation/Eder_12> a bibo:Thesis ;
+                                                    dcterms:creator sdp:Eder_C ;
+                                                    dcterms:title "Signature-based algorithms to compute standard bases" ;
+                                                    dcterms:date "2012"^^dcterms:W3CDTF ;
+                                                    bibo:degree bibo_degrees:phd ;
+                                                    sd:affiliates "TU Kaiserslautern, Germany" ;
+                                                    sd:hasSupervisor sdp:Pfister_G ;
+                                                    sd:hasReviewer sdp:Gerdt_VP .
+
+<http://symbolicdata.org/Data/Dissertation/Feulner_13> a bibo:Thesis ;
+                                                       dcterms:creator sdp:Feulner_T ;
+                                                       dcterms:title "Eine kanonische Form zur Darstellung äquivalenter Codes - Computergestützte Berechnung und ihre Anwendung in der Codierungstheorie, Kryptographie und Geometrie" ;
+                                                       dcterms:date "2013"^^dcterms:W3CDTF ;
+                                                       bibo:degree bibo_degrees:phd ;
+                                                       sd:affiliates "Uni Bayreuth, Germany" ;
+                                                       sd:hasSupervisor sdp:Kerber_A, sdp:Wassermann_A, sdp:Kohnert_A ;
+                                                       sd:hasReviewer sdp:Kerber_A, sdp:Stoll_M .
+
+<http://symbolicdata.org/Data/Dissertation/Gerling_15> a bibo:Thesis ;
+                                                       dcterms:creator sdp:Gerling_M ;
+                                                       dcterms:title "Eigenschaften chromatischer Polynome" ;
+                                                       dcterms:date "2015"^^dcterms:W3CDTF ;
+                                                       bibo:degree bibo_degrees:phd ;
+                                                       sd:affiliates "Uni Kassel, Germany" ;
+                                                       sd:hasSupervisor sdp:Koepf_W ;
+                                                       sd:hasReviewer sdp:Tittmann_P .
+
+<http://symbolicdata.org/Data/Dissertation/Grelak_14> a bibo:Thesis ;
+                                                      dcterms:creator sdp:Grelak_F ;
+                                                      dcterms:title "Affineness of Deligne-Lusztig Varieties" ;
+                                                      dcterms:date "2014"^^dcterms:W3CDTF ;
+                                                      bibo:degree bibo_degrees:phd ;
+                                                      sd:affiliates "Uni Duisburg-Essen, Germany" ;
+                                                      sd:hasSupervisor sdp:Goertz_U ;
+                                                      sd:hasReviewer sdp:Orlik_S .
+
+<http://symbolicdata.org/Data/Dissertation/Greve_10> a bibo:Thesis ;
+                                                     dcterms:creator sdp:Greve_C ;
+                                                     dcterms:title "Galoisgruppen von Eisensteinpolynomen über p-adischen Körpern" ;
+                                                     dcterms:date "2010"^^dcterms:W3CDTF ;
+                                                     bibo:degree bibo_degrees:phd ;
+                                                     sd:affiliates "Uni Paderborn, Germany" ;
+                                                     sd:hasSupervisor sdp:Klueners_J ;
+                                                     sd:hasReviewer sdp:Mueller_P .
+
+<http://symbolicdata.org/Data/Dissertation/Hahn_14> a bibo:Thesis ;
+                                                    dcterms:creator sdp:Hahn_J ;
+                                                    dcterms:title "Gyojas W-Graph-Algebra und zelluläre Struktur von Iwahori-Hecke-Algebren" ;
+                                                    dcterms:date "2014"^^dcterms:W3CDTF ;
+                                                    bibo:degree bibo_degrees:phd ;
+                                                    sd:affiliates "Uni Jena, Germany" ;
+                                                    sd:hasSupervisor sdp:Kuelshammer_B, sdp:Mueller_JM ;
+                                                    sd:hasReviewer sdp:Geck_M, sdp:Mueller_JM .
+
+<http://symbolicdata.org/Data/Dissertation/Hampe_14> a bibo:Thesis ;
+                                                     dcterms:creator sdp:Hampe_S ;
+                                                     dcterms:title "Algorithmic aspects of tropical intersection theory" ;
+                                                     dcterms:date "2014"^^dcterms:W3CDTF ;
+                                                     bibo:degree bibo_degrees:phd ;
+                                                     sd:affiliates "TU Kaiserslautern, Germany" ;
+                                                     sd:hasSupervisor sdp:Gathmann_A ;
+                                                     sd:hasReviewer sdp:Joswig_M .
+
+<http://symbolicdata.org/Data/Dissertation/Horn_08> a bibo:Thesis ;
+                                                    dcterms:creator sdp:Horn_P ;
+                                                    dcterms:title "Faktorisierung in Schief-Polynomringen" ;
+                                                    dcterms:date "2008"^^dcterms:W3CDTF ;
+                                                    bibo:degree bibo_degrees:phd ;
+                                                    sd:affiliates "Uni Kassel, Germany" ;
+                                                    sd:hasSupervisor sdp:Koepf_W ;
+                                                    sd:hasReviewer sdp:Strehl_V .
+
+<http://symbolicdata.org/Data/Dissertation/Jovanovic_15> a bibo:Thesis ;
+                                                         dcterms:creator sdp:Jovanovic_P ;
+                                                         dcterms:title "Analysis and Design of Symmetric Cryptographic Algorithms" ;
+                                                         dcterms:date "2015"^^dcterms:W3CDTF ;
+                                                         bibo:degree bibo_degrees:phd ;
+                                                         sd:affiliates "Uni Passau, Germany" ;
+                                                         sd:hasSupervisor sdp:Kreuzer_M, sdp:Polian_I ;
+                                                         sd:hasReviewer sdp:Bogdanov_A .
+
+<http://symbolicdata.org/Data/Dissertation/Kastner_15> a bibo:Thesis ;
+                                                       dcterms:creator sdp:Kastner_L ;
+                                                       dcterms:title "Ext on affine toric varieties" ;
+                                                       dcterms:date "2015"^^dcterms:W3CDTF ;
+                                                       bibo:degree bibo_degrees:phd ;
+                                                       sd:affiliates "FU Berlin, Germany" ;
+                                                       sd:hasSupervisor sdp:Altmann_K ;
+                                                       sd:hasReviewer sdp:Hille_L .
+
+<http://symbolicdata.org/Data/Dissertation/Kronberg_15> a bibo:Thesis ;
+                                                        dcterms:creator sdp:Kronberg_M ;
+                                                        dcterms:title "Explicit Construction of Rational Torsion Divisors on Jacobians of Curves" ;
+                                                        dcterms:date "2015"^^dcterms:W3CDTF ;
+                                                        bibo:degree bibo_degrees:phd ;
+                                                        sd:affiliates "Uni Oldenburg, Germany" ;
+                                                        sd:hasSupervisor sdp:Stein_A ;
+                                                        sd:hasReviewer sdp:Top_J .
+
+<http://symbolicdata.org/Data/Dissertation/LangeHegermann_14> a bibo:Thesis ;
+                                                              dcterms:creator sdp:LangeHegermann_M ;
+                                                              dcterms:title "Counting solutions of differential equations" ;
+                                                              dcterms:date "2014"^^dcterms:W3CDTF ;
+                                                              bibo:degree bibo_degrees:phd ;
+                                                              sd:affiliates "RWTH Aachen, Germany" ;
+                                                              sd:hasSupervisor sdp:Plesken_W ;
+                                                              sd:hasReviewer sdp:Hartmann_J .
+
+<http://symbolicdata.org/Data/Dissertation/Maas_11> a bibo:Thesis ;
+                                                    dcterms:creator sdp:Maas_L ;
+                                                    dcterms:title "Modular Spin Characters of Symmetric Groups" ;
+                                                    dcterms:date "2011"^^dcterms:W3CDTF ;
+                                                    bibo:degree bibo_degrees:phd ;
+                                                    sd:affiliates "Uni DuisburgEssen, Germany" ;
+                                                    sd:hasSupervisor sdp:Mueller_JM, sdp:Lempken_W ;
+                                                    sd:hasReviewer sdp:Lux_K .
+
+<http://symbolicdata.org/Data/Dissertation/Margolis_15> a bibo:Thesis ;
+                                                        dcterms:creator sdp:Margolis_L ;
+                                                        dcterms:title "Torsionseinheiten in ganzzahligen Gruppenringen nicht auflösbarer Gruppen" ;
+                                                        sd:hasURL <http://dx.doi.org/10.18419/opus-5172> ;
+                                                        dcterms:date "2015"^^dcterms:W3CDTF ;
+                                                        bibo:degree bibo_degrees:phd ;
+                                                        sd:affiliates "Uni Stuttgart, Germany" ;
+                                                        sd:hasSupervisor sdp:Kimmerle_W ;
+                                                        sd:hasReviewer sdp:Geck_M, sdp:delRioMateos_A .
+
+<http://symbolicdata.org/Data/Dissertation/Minzlaff_13> a bibo:Thesis ;
+                                                        dcterms:creator sdp:Minzlaff_M ;
+                                                        dcterms:title "Frobenius-stable lattices in rigid cohomology of curves" ;
+                                                        dcterms:date "2013"^^dcterms:W3CDTF ;
+                                                        bibo:degree bibo_degrees:phd ;
+                                                        sd:affiliates "TU Berlin, Germany" ;
+                                                        sd:hasSupervisor sdp:Hess_F ;
+                                                        sd:hasReviewer sdp:Kloosterman_RN .
+
+<http://symbolicdata.org/Data/Dissertation/Moehlmann_14> a bibo:Thesis ;
+                                                         dcterms:creator sdp:Moehlmann_G ;
+                                                         dcterms:title "Zur Berechnung von Mordell-Weil Basen elliptischer Kurven über globalen Funktionenkörpern" ;
+                                                         dcterms:date "2014"^^dcterms:W3CDTF ;
+                                                         bibo:degree bibo_degrees:phd ;
+                                                         sd:affiliates "Uni Oldenburg, Germany" ;
+                                                         sd:hasSupervisor sdp:Hess_F ;
+                                                         sd:hasReviewer sdp:Pohst_M .
+
+<http://symbolicdata.org/Data/Dissertation/Paffenholz_05> a bibo:Thesis ;
+                                                          dcterms:creator sdp:Paffenholz_A ;
+                                                          dcterms:title "Constructions for posets, lattices, and polytopes" ;
+                                                          sd:hasURL <http://nbn-resolving.de/urn:nbn:de:kobv:83-opus-10417> ;
+                                                          dcterms:date "2005"^^dcterms:W3CDTF ;
+                                                          bibo:degree bibo_degrees:phd ;
+                                                          sd:affiliates "TU Berlin, Germany" ;
+                                                          sd:hasSupervisor sdp:Ziegler_GM .
+
+<http://symbolicdata.org/Data/Dissertation/Paffenholz_14> a bibo:Thesis ;
+                                                          dcterms:creator sdp:Paffenholz_A ;
+                                                          dcterms:title "Lattice Polytopes in Geometry and Algebra" ;
+                                                          dcterms:date "2014"^^dcterms:W3CDTF ;
+                                                          bibo:degree bibo_degrees:habil ;
+                                                          sd:affiliates "TU Darmstadt, Germany" ;
+                                                          sd:hasSupervisor sdp:Joswig_M, sdp:Pfetsch_M ;
+                                                          sd:hasReviewer sdp:Joswig_M, sdp:Sommese_A, sdp:Pfetsch_M, sdp:deLoera_J .
+
+<http://symbolicdata.org/Data/Dissertation/Pieropan_15> a bibo:Thesis ;
+                                                        dcterms:creator sdp:Pieropan_M ;
+                                                        dcterms:title "Torsors and generalized Cox rings for Manin's conjecture" ;
+                                                        sd:hasURL <http://dx.doi.org/10.18419/opus-5172> ;
+                                                        dcterms:date "2015"^^dcterms:W3CDTF ;
+                                                        bibo:degree bibo_degrees:phd ;
+                                                        sd:affiliates "FU Berlin, Germany" ;
+                                                        sd:hasSupervisor sdp:Derenthal_U ;
+                                                        sd:hasReviewer sdp:Hausen_J, sdp:Browning_TD .
+
+<http://symbolicdata.org/Data/Dissertation/Ren_15> a bibo:Thesis ;
+                                                   dcterms:creator sdp:Ren_Y ;
+                                                   dcterms:title "Tropische Geometrie in Singular" ;
+                                                   sd:hasURL <http://nbn-resolving.de/urn/resolver.pl?urn:nbn:de:hbz:386-kluedo-41695> ;
+                                                   dcterms:date "2015"^^dcterms:W3CDTF ;
+                                                   bibo:degree bibo_degrees:phd ;
+                                                   sd:affiliates "TU Kaiserslautern, Germany" ;
+                                                   sd:hasSupervisor sdp:Markwig_T ;
+                                                   sd:hasReviewer sdp:Jensen_A .
+
+<http://symbolicdata.org/Data/Dissertation/Ritscher_12> a bibo:Thesis ;
+                                                        dcterms:creator sdp:Ritscher_S ;
+                                                        dcterms:title "Degree bounds and complexity of Gröbner bases of important classes of polynomial ideals" ;
+                                                        dcterms:date "2012"^^dcterms:W3CDTF ;
+                                                        bibo:degree bibo_degrees:phd ;
+                                                        sd:affiliates "TU Muenchen, Germany" ;
+                                                        sd:hasSupervisor sdp:Mayr_EW ;
+                                                        sd:hasReviewer sdp:Kemper_G, sdp:Yap_C .
+
+<http://symbolicdata.org/Data/Dissertation/Robertz_12> a bibo:Thesis ;
+                                                       dcterms:creator sdp:Robertz_D ;
+                                                       dcterms:title "Formal algorithmic elimination for PDEs" ;
+                                                       dcterms:date "2012"^^dcterms:W3CDTF ;
+                                                       bibo:degree bibo_degrees:habil ;
+                                                       sd:affiliates "RWTH Aachen, Germany" ;
+                                                       sd:hasSupervisor sdp:Plesken_W ;
+                                                       sd:hasReviewer sdp:Grigoriev_D, sdp:Winkler_F .
+
+<http://symbolicdata.org/Data/Dissertation/Schindelar_10> a bibo:Thesis ;
+                                                          dcterms:creator sdp:Schindelar_K ;
+                                                          dcterms:title "Algorithmic aspects of algebraic systems theory" ;
+                                                          dcterms:date "2010"^^dcterms:W3CDTF ;
+                                                          bibo:degree bibo_degrees:phd ;
+                                                          sd:affiliates "RWTH Aachen, Germany" ;
+                                                          sd:hasSupervisor sdp:Zerz_E .
+
+<http://symbolicdata.org/Data/Dissertation/Sprenger_09> a bibo:Thesis ;
+                                                        dcterms:creator sdp:Sprenger_T ;
+                                                        dcterms:title "Algorithmen für q-holonome Funktionen und q-hypergeometrische Reihen" ;
+                                                        dcterms:date "2009"^^dcterms:W3CDTF ;
+                                                        bibo:degree bibo_degrees:phd ;
+                                                        sd:affiliates "Uni Kassel, Germany" ;
+                                                        sd:hasSupervisor sdp:Koepf_W ;
+                                                        sd:hasReviewer sdp:Koornwinder_T .
+
+<http://symbolicdata.org/Data/Dissertation/Stan_10> a bibo:Thesis ;
+                                                    dcterms:creator sdp:Stan_F ;
+                                                    dcterms:title "Algorithms for special functions: computer algebra and analytical aspects" ;
+                                                    dcterms:date "2010"^^dcterms:W3CDTF ;
+                                                    bibo:degree bibo_degrees:phd ;
+                                                    sd:affiliates "RISC Linz, Germany" ;
+                                                    sd:hasSupervisor sdp:Paule_P ;
+                                                    sd:hasReviewer sdp:Moll_V .
+
+<http://symbolicdata.org/Data/Dissertation/Steenpass_14> a bibo:Thesis ;
+                                                         dcterms:creator sdp:Steenpass_A ;
+                                                         dcterms:title "Algorithms in SINGULAR: Parallelization, Syzygies, and Singularities" ;
+                                                         sd:hasURL <http://nbn-resolving.de/urn/resolver.pl?urn:nbn:de:hbz:386-kluedo-38405> ;
+                                                         dcterms:date "2014"^^dcterms:W3CDTF ;
+                                                         bibo:degree bibo_degrees:phd ;
+                                                         sd:affiliates "TU Kaiserslautern, Germany" ;
+                                                         sd:hasSupervisor sdp:Decker_W ;
+                                                         sd:hasReviewer sdp:Popescu_D .
+
+<http://symbolicdata.org/Data/Dissertation/Studzinski_13> a bibo:Thesis ;
+                                                          dcterms:creator sdp:Studzinski_G ;
+                                                          dcterms:title "Implementation and applications of fundamental algorithms relying on Gröbner bases in free associative algebras" ;
+                                                          dcterms:date "2013"^^dcterms:W3CDTF ;
+                                                          bibo:degree bibo_degrees:phd ;
+                                                          sd:affiliates "RWTH Aachen, Germany" ;
+                                                          sd:hasSupervisor sdp:Zerz_E ;
+                                                          sd:hasReviewer sdp:Kreuzer_M .
+
+<http://symbolicdata.org/Data/Dissertation/Stump_15> a bibo:Thesis ;
+                                                     dcterms:creator sdp:Stump_C ;
+                                                     dcterms:title "Coxeter-Catalan structures" ;
+                                                     dcterms:date "2015"^^dcterms:W3CDTF ;
+                                                     bibo:degree bibo_degrees:habil ;
+                                                     sd:affiliates "FU Berlin, Germany" .
+
+<http://symbolicdata.org/Data/Dissertation/Ullah_12> a bibo:Thesis ;
+                                                     dcterms:creator sdp:Ullah_E ;
+                                                     dcterms:title "New techniques for Polynomial Systems solving" ;
+                                                     dcterms:date "2012"^^dcterms:W3CDTF ;
+                                                     bibo:degree bibo_degrees:phd ;
+                                                     sd:affiliates "Uni Passau, Germany" ;
+                                                     sd:hasSupervisor sdp:Kreuzer_M ;
+                                                     sd:hasReviewer sdp:Robbiano_L .
+
+<http://symbolicdata.org/Data/Dissertation/Uzunkol_10> a bibo:Thesis ;
+                                                       dcterms:creator sdp:Uzunkol_O ;
+                                                       dcterms:title "Über die Konstruktion algebraischer Kurven mittels komplexer Multiplikation" ;
+                                                       dcterms:date "2010"^^dcterms:W3CDTF ;
+                                                       bibo:degree bibo_degrees:phd ;
+                                                       sd:affiliates "Uni Oldenburg, Germany" ;
+                                                       sd:hasSupervisor sdp:Pohst_M ;
+                                                       sd:hasReviewer sdp:Leprevost_F .
+
+<http://symbolicdata.org/Data/Dissertation/Vo_11> a bibo:Thesis ;
+                                                  dcterms:creator sdp:Vo_TT ;
+                                                  dcterms:title "The computation of transfer maps, Evens norm maps and Steenrod operations" ;
+                                                  dcterms:date "2011"^^dcterms:W3CDTF ;
+                                                  bibo:degree bibo_degrees:phd ;
+                                                  sd:affiliates "Uni Jena, Germany" ;
+                                                  sd:hasSupervisor sdp:Green_DJ ;
+                                                  sd:hasReviewer sdp:Carlson_JF .
+
+<http://symbolicdata.org/Data/Dissertation/Weber_11> a bibo:Thesis ;
+                                                     dcterms:creator sdp:Weber_C ;
+                                                     dcterms:title "Über Struktur und Kohomologie von Moduln symmetrischer Gruppen" ;
+                                                     dcterms:date "2011"^^dcterms:W3CDTF ;
+                                                     bibo:degree bibo_degrees:phd ;
+                                                     sd:affiliates "RWTH Aachen, Germany" ;
+                                                     sd:hasSupervisor sdp:Hiss_G .
+
+<http://symbolicdata.org/Data/Dissertation/Wibmer_10> a bibo:Thesis ;
+                                                      dcterms:creator sdp:Wibmer_M ;
+                                                      dcterms:title "Geometrische Differenzengaloistheorie" ;
+                                                      sd:hasURL <http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bsz:16-opus-106853> ;
+                                                      dcterms:date "2010"^^dcterms:W3CDTF ;
+                                                      bibo:degree bibo_degrees:phd ;
+                                                      sd:affiliates "Uni Heidelberg, Germany" ;
+                                                      sd:hasSupervisor sdp:Matzat_BH .
+
+<http://symbolicdata.org/Data/Dissertation/Wibmer_15> a bibo:Thesis ;
+                                                      dcterms:creator sdp:Wibmer_M ;
+                                                      dcterms:title "Affine difference algebraic groups" ;
+                                                      sd:hasURL <https://www.math.upenn.edu/~wibmer/habilWibmer.pdf> ;
+                                                      dcterms:date "2015"^^dcterms:W3CDTF ;
+                                                      bibo:degree bibo_degrees:habil ;
+                                                      sd:affiliates "RWTH Aachen, Germany" .
+
+<http://symbolicdata.org/Data/Dissertation/Wienand_11> a bibo:Thesis ;
+                                                       dcterms:creator sdp:Wienand_O ;
+                                                       dcterms:title "Algorithms for symbolic computation and their applications - standard bases over rings and rank tests in statistics" ;
+                                                       dcterms:date "2011"^^dcterms:W3CDTF ;
+                                                       bibo:degree bibo_degrees:phd ;
+                                                       sd:affiliates "TU Kaiserslautern, Germany" ;
+                                                       sd:hasSupervisor sdp:Greuel_GM .
+
+<http://symbolicdata.org/Data/Dissertation/Xiu_12> a bibo:Thesis ;
+                                                   dcterms:creator sdp:Xiu_XQ ;
+                                                   dcterms:title "Non-commutative Gröbner bases and applications" ;
+                                                   dcterms:date "2012"^^dcterms:W3CDTF ;
+                                                   bibo:degree bibo_degrees:phd ;
+                                                   sd:affiliates "Uni Passau, Germany" ;
+                                                   sd:hasSupervisor sdp:Kreuzer_M ;
+                                                   sd:hasReviewer sdp:Rosenberger_G .
+
+<http://symbolicdata.org/Data/Dissertation/Ziegler_15> a bibo:Thesis ;
+                                                       dcterms:creator sdp:Ziegler_K ;
+                                                       dcterms:title "Counting classes of special polynomials" ;
+                                                       sd:hasURL <http://hss.ulb.uni-bonn.de/2015/3981/3981.htm> ;
+                                                       dcterms:date "2015"^^dcterms:W3CDTF ;
+                                                       bibo:degree bibo_degrees:phd ;
+                                                       sd:affiliates "Uni Bonn, Germany" ;
+                                                       sd:hasSupervisor sdp:vonzurGathen_J ;
+                                                       sd:hasReviewer sdp:vonzurGathen_J, sdp:Franke_J .
+
+<> a owl:Ontology ;
+   rdfs:label "CASN: Dissertations" ;
+   rdfs:comment "Data extracted from the CA Rundbrief of the German Fachgruppe" .
