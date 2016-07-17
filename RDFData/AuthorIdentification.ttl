@@ -1,0 +1,714 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://symbolicdata.org/Data/AuthorIdentification/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a owl:Ontology ;
+   rdfs:label "CASN: Author Disambiguation IDs" ;
+   rdfs:comment "Matching with ZBMath provided by Wolfram Sperber; corrected version of 2014-08-08" .
+
+sdp:Abbott_J sd:hasMRAuthorID <http://www.ams.org/mathscinet/MRAuthorID/250432> ;
+             sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:abbott.john> .
+
+sdp:Adams_M sd:hasZBMathAuthorID <https://zbmath.org/authors/noMatch> .
+
+sdp:Ahmed_W sd:hasZBMathAuthorID <https://zbmath.org/authors/noMatch> .
+
+sdp:Aizawa_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:aizawa.akiko-n> .
+
+sdp:Alama_J sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:alama.jesse> .
+
+sdp:Albano_G sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:albano.giuseppina> .
+
+sdp:Ali_R sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:ali.rashid> .
+
+sdp:Altmann_K sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:altmann.klaus> .
+
+sdp:Amrhein_B sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:amrhein.beatrice> .
+
+sdp:Apel_J sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:apel.joachim> .
+
+sdp:Aravantinos_V sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:aravantinos.vincent> .
+
+sdp:Arndt_F sd:hasZBMathAuthorID <https://zbmath.org/authors/noMatch> .
+
+sdp:Arthan_R sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:arthan.rob-d> .
+
+sdp:Aspinall_D sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:aspinall.david> .
+
+sdp:Autexier_S sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:autexier.serge> .
+
+sdp:Baader_F sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:baader.franz> .
+
+sdp:Bachmann_O sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:bachmann.olaf> .
+
+sdp:Bailey_DH sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:bailey.david-h> .
+
+sdp:Barakat_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:barakat.mohamed-a> .
+
+sdp:Bartholdi_L sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:bartholdi.laurent> .
+
+sdp:Baumeister_B sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:baumeister.barbara> .
+
+sdp:Beeson_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:beeson.michael-j> .
+
+sdp:Behrends_R sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:behrends.reimer> .
+
+sdp:Berghammer_R sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:berghammer.rudolf> .
+
+sdp:Berth_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:berth.matthias> .
+
+sdp:Bertot_Y sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:bertot.yves> .
+
+sdp:Bezem_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:bezem.marc> .
+
+sdp:Biere_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:biere.armin> .
+
+sdp:Bigatti_AM sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:bigatti.anna-maria> .
+
+sdp:Bini_D sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:bini.dario-andrea> .
+
+sdp:Bley_W sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:bley.werner> .
+
+sdp:Borwein_JM sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:borwein.jonathan-michael> .
+
+sdp:Bouche_T sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:bouche.thierry> .
+
+sdp:Bouw_I sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:bouw.irene-i> .
+
+sdp:Bradford_R sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:bradford.russell-j> .
+
+sdp:Brickenstein_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:brickenstein.michael> .
+
+sdp:Bridge_J sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:bridges.james> .
+
+sdp:Bruns_W sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:bruns.winfried> .
+
+sdp:Buchmann_J sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:buchmann.johannes-a> .
+
+sdp:Burgeth_B sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:burgeth.bernhard-f> .
+
+sdp:Caminati_MB sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:caminati.marco-bright> .
+
+sdp:Canny_JF sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:canny.john-f> .
+
+sdp:Carette_J sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:carette.jacques> .
+
+sdp:Carlson_JF sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:carlson.jon-f> .
+
+sdp:CarvalhoeSilva_J sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:carvalho-e-silva.jaime> .
+
+sdp:Cater_B sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:cater.bruce> .
+
+sdp:Centeleghe_T sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:centeleghe.tommaso-giorgio> .
+
+sdp:Chen_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:chen.changbo> .
+
+sdp:Chou_SC sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:chou.shang-ching> .
+
+sdp:Christensen_ND sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:christensen.neil-d> .
+
+sdp:Cioffi_F sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:cioffi.francesca> .
+
+sdp:Claessen_K sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:claessen.koen> .
+
+sdp:Cohl_HS sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:cohl.howard-s> .
+
+sdp:Cohn_H sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:cohn.j-h-e> .
+
+sdp:Conca_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:conca.aldo> .
+
+sdp:Corneli_J sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:corneli.joseph> .
+
+sdp:Cuntz_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:cuntz.michael> .
+
+sdp:Czapor_SR sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:czapor.stephen-r> .
+
+sdp:DanCohen_I sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:dan-cohen.ishai> .
+
+sdp:Davenport_JH sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:davenport.james-harold> .
+
+sdp:Decker_W sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:decker.wolfram> .
+
+sdp:Deppe_H sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:deppe.christian> .
+
+sdp:Derenthal_U sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:derenthal.ulrich> .
+
+sdp:Dettweiler_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:dettweiler.michael> .
+
+sdp:Diem_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:diem.claus> .
+
+sdp:Diemer_C sd:hasZBMathAuthorID <https://zbmath.org/authors/noMatch> .
+
+sdp:Distler_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:distler.andreas> .
+
+sdp:Dreyer_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:dreyer.alexander> .
+
+sdp:Duhr_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:duhr.claude> .
+
+sdp:Dumas_JG sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:dumas.jean-guillaume> .
+
+sdp:Duval_D sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:duval.dominique> .
+
+sdp:Echenim_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:echenim.mnacho> .
+
+sdp:Eder_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:eder.christian> .
+
+sdp:Eick_B sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:eick.bettina> .
+
+sdp:Eisenbud_D sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:eisenbud.david> .
+
+sdp:Emiris_IZ sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:emiris.ioannis-z> .
+
+sdp:England_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:england.matthew> .
+
+sdp:Escobar_S sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:escobar.santiago> .
+
+sdp:Farkas_G sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:farkas.gavril> .
+
+sdp:Farmer_WM sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:farmer.william-m> .
+
+sdp:Fernandez_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:fernandez.maribel> .
+
+sdp:Feulner_T sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:feulner.thomas> .
+
+sdp:Fieker_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:fieker.claus> .
+
+sdp:Frei_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:frei.christopher> .
+
+sdp:Freitas_N sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:freitas.nuno> .
+
+sdp:Fronville_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:fronville.alexandra> .
+
+sdp:Fujise_T sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:fujise.tetsuro> .
+
+sdp:Gatermann_K sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:gatermann.karin> .
+
+sdp:Gathmann_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:gathmann.andreas> .
+
+sdp:Gauthier_T sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:gauthier.jean-paul-a> .
+
+sdp:Geck_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:geck.meinolf> .
+
+sdp:Geddes_KO sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:geddes.keith-o> .
+
+sdp:Gerdt_VP sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:gerdt.vladimir-p> .
+
+sdp:Geuvers_H sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:geuvers.herman> .
+
+sdp:Ginev_D sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:ginev.deyan> .
+
+sdp:Giovini_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:giovini.alessandro> .
+
+sdp:Gloor_O sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:gloor.oliver> .
+
+sdp:Grabmeier_J sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:grabmeier.johannes> .
+
+sdp:Graebe_HG sd:hasMRAuthorID <http://www.ams.org/mathscinet/MRAuthorID/198448> ;
+              sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:grabe.hans-gert> .
+
+sdp:Grayson_DR sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:grayson.daniel-r> .
+
+sdp:Greefrath_G sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:greefrath.gilbert> .
+
+sdp:Green_DJ sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:green.david-john> .
+
+sdp:Greuel_GM sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:greuel.gert-martin> .
+
+sdp:Greve_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:greve.christian> .
+
+sdp:Grigoriev_D sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:grigoriev.dima-yu> .
+
+sdp:Gubeladze_J sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:gubeladze.joseph> .
+
+sdp:Haase_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:haase.christian-alexander> .
+
+sdp:Hackl_K sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:hackl.klaus> .
+
+sdp:Hahn_T sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:hahn.thomas> .
+
+sdp:Hales_T sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:hales.thomas-c> .
+
+sdp:Hamdi_MS sd:hasZBMathAuthorID <https://zbmath.org/authors/noMatch> .
+
+sdp:Hantzschmann_Karl sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:hantzschmann.karl> .
+
+sdp:Haralambous_Y sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:haralambous.yannis> .
+
+sdp:Harlander_R sd:hasZBMathAuthorID <https://zbmath.org/authors/noMatch> .
+
+sdp:Hart_WB sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:hart.william-b> .
+
+sdp:Hartl_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:hartl.alexandre-e> .
+
+sdp:Hartmann_J sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:hartmann.julia> .
+
+sdp:Hasan_O sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:hasan.osman> .
+
+sdp:Hearn_AC sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:hearn.anthony-c> .
+
+sdp:Heinle_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:heinle.albert> .
+
+sdp:Heinrich_ED sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:heinrich.elkedagmar> .
+
+sdp:Hemmecke_Ralf sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:hemmecke.ralf> .
+
+sdp:Hemmecke_Raymond sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:hemmecke.raymond> .
+
+sdp:Henn_HW sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:henn.hans-wolfgang> .
+
+sdp:Hibi_T sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:hibiki.takashi> .
+
+sdp:Hinkis_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:hinkis.arie> .
+
+sdp:Hoffkamp_A sd:hasZBMathAuthorID <https://zbmath.org/authors/noMatch> .
+
+sdp:Hoge_T sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:hoge.torsten> .
+
+sdp:Hohenwarter_M sd:hasZBMathAuthorID <https://zbmath.org/authors/noMatch> .
+
+sdp:Hooper_J sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:hooper.jeffrey-j> .
+
+sdp:Horn_P sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:horn.peter-d> .
+
+sdp:Horozal_F sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:horozal.fulya> .
+
+sdp:Hubery_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:hubery.andrew> .
+
+sdp:Iancu_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:iancu.mihnea> .
+
+sdp:Jamnik_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:jamnik.mateja> .
+
+sdp:Jeuring_J sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:jeuring.johan> .
+
+sdp:Jipsen_P sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:jipsen.peter> .
+
+sdp:Johansson_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:johansson.moa> .
+
+sdp:Joswig_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:joswig.michael> .
+
+sdp:Jucovschi_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:jucovschi.constantin> .
+
+sdp:Kahle_R sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kahle.reinhard> .
+
+sdp:Kaliszyk_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kaliszyk.cezary> .
+
+sdp:Kalkbrener_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kalkbrener.michael> .
+
+sdp:Kastner_L sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kastner.lars> .
+
+sdp:Keicher_S sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:keicher.simon> .
+
+sdp:Kemper_G sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kemper.gregor> .
+
+sdp:Kerber_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kerber.adalbert> .
+
+sdp:Kerber_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kerber.manfred> .
+
+sdp:KhanAfshar_S sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:khan-afshar.sanaz> .
+
+sdp:Khutornoy_NV sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:khutornoy.n-v> .
+
+sdp:Kimmerle_W sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kimmerle.wolfgang> .
+
+sdp:King_S sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:king.simon-a> .
+
+sdp:Kinyon_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kinyon.michael-k> .
+
+sdp:Kirschmer_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kirschmer.markus> .
+
+sdp:Klaus_U sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:klaus.uwe> .
+
+sdp:Kleinjung_T sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kleinjung.thorsten> .
+
+sdp:Klinge_S sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:klinge.sandra> .
+
+sdp:Kloosterman_RN sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kloosterman.remke-nanne> .
+
+sdp:Koepf_W sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:koepf.wolfram-a> .
+
+sdp:Kohlhase_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kohlhase.andrea> .
+
+sdp:Kohlhase_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kohlhase.michael> .
+
+sdp:Kohnert_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kohnert.axel> .
+
+sdp:Kokubu_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kokubu.masatoshi> .
+
+sdp:Koornwinder_T sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:koornwinder.tom-h> .
+
+sdp:Kortenkamp_U sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kortenkamp.ulrich-h> .
+
+sdp:Krause_H sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:krause.henning> .
+
+sdp:Kredel_H sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kredel.heinz> .
+
+sdp:Kreps_DM sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kreps.david-m> .
+
+sdp:Kreuzer_M sd:hasMRAuthorID <http://www.ams.org/mathscinet/MRAuthorID/248921> ;
+              sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kreuzer.martin> .
+
+sdp:Kristianto_GY sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kristianto.giovanni-yoko> .
+
+sdp:Kuska_JP sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kuska.jens-peer> .
+
+sdp:Kutsia_T sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kutsia.temur> .
+
+sdp:Kyureghyan_G sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kyureghyan.gohar-m> .
+
+sdp:LangeHegermann_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:lange-hegermann.markus> .
+
+sdp:Lange_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:lange.christoph> .
+
+sdp:Laue_R sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:laue.reinhard> .
+
+sdp:Lazard_D sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:lazard.daniel> .
+
+sdp:Lempken_W sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:lempken.wolfgang> .
+
+sdp:Levandovskyy_V sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:levandovskyy.viktor> .
+
+sdp:Levy_J sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:levy.jordi> .
+
+sdp:Libbrecht_P sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:libbrecht.paul> .
+
+sdp:Liedtke_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:liedtke.christian> .
+
+sdp:Link_F sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:link.frauke> .
+
+sdp:Lisitsa_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:lisitsa.alexei> .
+
+sdp:Little_J sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:little.john-b> .
+
+sdp:Lorenz_B sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:lorenz.benjamin> .
+
+sdp:Luislampe_S sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:luislampe.stefan>, <https://zbmath.org/authors/noMatch> .
+
+sdp:Lux_K sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:lux.klaus-martin> .
+
+sdp:Maas_L sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:maas.lukas-a> .
+
+sdp:Mahboubi_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:mahboubi.assia> .
+
+sdp:Malle_G sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:malle.gunter> .
+
+sdp:Manocha_D sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:manocha.dinesh> .
+
+sdp:Margolis_L sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:margolis.leo> .
+
+sdp:Markwig_H sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:markwig.hannah> .
+
+sdp:Markwig_T sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:markwig.thomas> .
+
+sdp:Martin_U sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:martin.ursula> .
+
+sdp:Matt_AD sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:matt.andreas-daniel> .
+
+sdp:Matzat_BH sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:matzat.bernd-heinrich> .
+
+sdp:Mayr_EW sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:mayr.ernst-w> .
+
+sdp:McClain_MA sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:mcclain.marjorie-a> .
+
+sdp:McKelvey_RD sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:mckelvey.richard-d> .
+
+sdp:McLennan_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:mclennan.andrew> .
+
+sdp:Melenk_H sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:melenk.herbert> .
+
+sdp:Meseguer_J sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:meseguer.jose> .
+
+sdp:Miller_BR sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:miller.bruce-r> .
+
+sdp:Minzlaff_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:minzlaff.moritz> .
+
+sdp:Mohammadi_F sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:mohammadi.fatemeh> .
+
+sdp:Moldenhauer_W sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:moldenhauer.wolfgang> .
+
+sdp:Moll_V sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:moll.victor-h> .
+
+sdp:Mora_T sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:mora.teo> .
+
+sdp:Morawska_B sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:morawska.barbara> .
+
+sdp:MorenoMaza_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:moreno-maza.marc> .
+
+sdp:Morgan_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:morgan.alexander-p> .
+
+sdp:Morton_J sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:morton.j-b> .
+
+sdp:Mourrain_B sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:mourrain.bernard> .
+
+sdp:Narboux_J sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:narboux.julien> .
+
+sdp:Narendran_P sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:narendran.paliath> .
+
+sdp:Naumowicz_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:kornilowicz.artur> .
+
+sdp:Nebe_G sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:nebe.gabriele> .
+
+sdp:Neun_W sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:neun.winfried> .
+
+sdp:Neuper_W sd:hasZBMathAuthorID <https://zbmath.org/authors/noMatch> .
+
+sdp:Nghiem_MQ sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:nghiem.minh-quoc> .
+
+sdp:Noonburg_VW sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:noonburg.v-w> .
+
+sdp:Ohsugi_H sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:ohsugi.hidefumi> .
+
+sdp:Oldenburg_R sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:oldenburg.reinhard> .
+
+sdp:Orecchia_F sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:orecchia.ferruccio> .
+
+sdp:Otop_J sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:otop.jan> .
+
+sdp:Paditz_L sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:paditz.ludwig> .
+
+sdp:Paffenholz_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:paffenholz.andreas> .
+
+sdp:Pagel_R sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:pagello.enrico> .
+
+sdp:Passmore_G sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:passmore.grant-olney> .
+
+sdp:Paule_P sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:paule.peter> .
+
+sdp:Paulson_LC sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:paulson.lawrence-charles> .
+
+sdp:Peeters_K sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:peeters.kasper> .
+
+sdp:Pfister_G sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:pfister.gerhard> .
+
+sdp:Pinkernell_G sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:pinkernell.guido-m> .
+
+sdp:Plesken_W sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:plesken.wilhelm> .
+
+sdp:Pohst_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:pohst.michael-e> .
+
+sdp:Pollanen_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:pollanen.marco> .
+
+sdp:Quaresma_P sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:quaresma.pedro> .
+
+sdp:Quebbemann_HG sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:quebbemann.heinz-georg> .
+
+sdp:Rabe_F sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:rabe.florian> .
+
+sdp:Raman_R sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:raman.rajeev> .
+
+sdp:Ramella_I sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:ramella.isabella> .
+
+sdp:Reynaud_JC sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:reynaud.jean-claude> .
+
+sdp:Ringeissen_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:ringeissen.christophe> .
+
+sdp:Ritscher_S sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:ritscher.stephan> .
+
+sdp:Roast_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:roast.c> .
+
+sdp:Robbiano_L sd:hasMRAuthorID <http://www.ams.org/mathscinet/MRAuthorID/201096> ;
+               sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:robbiano.lorenzo> .
+
+sdp:Robertz_D sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:robertz.daniel> .
+
+sdp:Rosenberger_G sd:hasMRAuthorID <http://www.ams.org/mathscinet/MRAuthorID/150590> ;
+                  sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:rosenberger.gerhard> .
+
+sdp:Rossmann_T sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:rossmann.tobias> .
+
+sdp:Rouillier_F sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:rouillier.fabrice> .
+
+sdp:Rowat_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:rowat.colin> .
+
+sdp:Roy_N sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:roy.nicholas> .
+
+sdp:Ruddy_D sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:ruddy.david> .
+
+sdp:SacerdotiCoen_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:sacerdoti-coen.claudio> .
+
+sdp:Sagraloff_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:sagraloff.michael> .
+
+sdp:Santos_V sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:santos.vanda> .
+
+sdp:Saunders_BV sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:saunders.bonita-v> .
+
+sdp:Schaper_R sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:schaper.ralf> .
+
+sdp:Schindelar_K sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:schindelar.kristina> .
+
+sdp:Schindler_S sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:schindler.sigram> .
+
+sdp:SchmidtSchauss_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:schmidt-schauss.manfred> .
+
+sdp:Schneider_K sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:schneider.kerstin> .
+
+sdp:Schrans_S sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:schrans.stany> .
+
+sdp:Schreyer_F sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:schreyer.frank-olaf> .
+
+sdp:Schulze_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:schulze.mathias> .
+
+sdp:Schwardmann_U sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:schwardmann.ulrich> .
+
+sdp:Seiler_W sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:seiler.werner-m> .
+
+sdp:Sexton_AP sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:sexton.alan-p> .
+
+sdp:Shalile_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:shalile.armin> .
+
+sdp:Siddique_U sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:siddique.umair> .
+
+sdp:Smallbone_N sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:smallbone.nicholas> .
+
+sdp:Smirnova_E sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:smirnova.elena-d> .
+
+sdp:Sojka_P sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:sojka.petr> .
+
+sdp:Sorgatz_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:sorgatz.andreas> .
+
+sdp:Sorge_V sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:sorge.volker> .
+
+sdp:Sperber_W sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:sperber.wolfram> .
+
+sdp:Sprenger_T sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:sprenger.torsten> .
+
+sdp:Stan_F sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:stan.flavia> .
+
+sdp:Stauch_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:stauch.michael> .
+
+sdp:Staudenmaier_HM sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:staudenmaier.h-m> .
+
+sdp:Steidel_S sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:steidel.stefan> .
+
+sdp:Stein_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:stein.andreas> .
+
+sdp:Steinhauser_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:steinhauser.matthias> .
+
+sdp:Stillman_ME sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:stillman.michael-e> .
+
+sdp:Stoll_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:stoll.michael> .
+
+sdp:Strehl_V sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:strehl.volker> .
+
+sdp:Striewe_M sd:hasZBMathAuthorID <https://zbmath.org/authors/noMatch> .
+
+sdp:Stump_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:stump.christian> .
+
+sdp:Sturmfels_B sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:sturmfels.bernd> .
+
+sdp:Sullivant_S sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:sullivant.seth> .
+
+sdp:Tanturri_F sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:tanturri.fabio> .
+
+sdp:Tassi_E sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:tassi.enrico> .
+
+sdp:Tews_H sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:tews.hendrik> .
+
+sdp:Thaller_B sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:thaller.bernd> .
+
+sdp:Theobald_T sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:theobald.thorsten> .
+
+sdp:Thiel_U sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:thiel.ulrich> .
+
+sdp:Tompa_F sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:tompa.frank-wm> .
+
+sdp:Traverso_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:traverso.carlo> .
+
+sdp:Treinen_R sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:treinen.ralf> .
+
+sdp:Troost_W sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:troost.walter> .
+
+sdp:Ullah_E sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:ullah.ehsan> .
+
+sdp:Urban_J sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:urban.josef> .
+
+sdp:Uzunkol_O sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:uzunkol.osmanbey> .
+
+sdp:Vehling_R sd:hasZBMathAuthorID <https://zbmath.org/authors/noMatch> .
+
+sdp:Ventura_D sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:ventura.daniel> .
+
+sdp:Vercauteren_F sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:vercauteren.frederik> .
+
+sdp:Vermaseren_JAM sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:vermaseren.j-a-m> .
+
+sdp:Villaret_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:villaret.mateu> .
+
+sdp:Voll_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:voll.christopher> .
+
+sdp:Walkinshaw_N sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:walkinshaw.neil> .
+
+sdp:Wallack_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:wallack.aaron> .
+
+sdp:Wang_D sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:wang.dongming> .
+
+sdp:Wassermann_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:wassermann.alfred> .
+
+sdp:Watt_S sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:watt.stephen-m.> .
+
+sdp:Weber_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:weber.andreas> .
+
+sdp:Weber_C sd:hasZBMathAuthorID <https://zbmath.org/authors/noMatch> .
+
+sdp:Wegner_B sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:wegner.bernd> .
+
+sdp:Weismantel_R sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:weismantel.robert> .
+
+sdp:Weispfenning_V sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:weispfenning.volker> .
+
+sdp:Weisstein_E sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:weisstein.eric-w> .
+
+sdp:Welker_V sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:welker.volkmar> .
+
+sdp:Weng_A sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:weng.annegret> .
+
+sdp:Wenzel_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:wenzel.makarius> .
+
+sdp:Werner_W sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:werner.wilhelm> .
+
+sdp:Wessler_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:wessler.markus> .
+
+sdp:Wewers_S sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:wewers.stefan> .
+
+sdp:Wichmann_T sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:wichmann.tim> .
+
+sdp:Wicke_G sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:wickel.gabriele> .
+
+sdp:Wiedijk_F sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:wiedijk.freek> .
+
+sdp:Wienand_O sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:wienand.oliver> .
+
+sdp:Wiese_G sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:wiese.gabor> .
+
+sdp:Wilson_D sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:wilson.david-charles> .
+
+sdp:Wilson_R sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:wilson.robert-a> .
+
+sdp:Winkler_F sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:winkler.franz> .
+
+sdp:Witte_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:witte.malte> .
+
+sdp:Yap_C sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:yap.carl> .
+
+sdp:Zanibbi_R sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:zanibbi.richard> .
+
+sdp:Zerz_E sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:zerz.eva> .
+
+sdp:Zhang_Q sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:zhang.qun> .
+
+sdp:Zharkov_AYu sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:zharkov.a-yu> .
+
+sdp:deWolff_T sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:de-wolff.timo> .
+
+sdp:vanLeeuwen_M sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:van-leeuwen.marc> .
+
+sdp:vanStraten_D sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:van-straten.duco> .
+
+sdp:vandeSompel_H sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:van-de-sompel.herbert> .
+
+sdp:vonzurGathen_J sd:hasZBMathAuthorID <https://zbmath.org/authors/?q=ai:von-zur-gathen.joachim> .
