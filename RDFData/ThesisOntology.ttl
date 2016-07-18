@@ -13,6 +13,13 @@ bibo:degree
     rdfs:label "degree"@en ;
     rdfs:range bibo:ThesisDegree  .
 
+bibo:location
+    a owl:ObjectProperty ;
+    rdfs:comment "The location of the thesis defence."@en ;
+    rdfs:domain bibo:Thesis ;
+    rdfs:label "thesis defence location"@en ;
+    rdfs:range rdfs:Literal  .
+
 bibo_degrees:phd a bibo:ThesisDegree; rdfs:label "Dissertation"@de, "PhD"@en .
 bibo_degrees:habil a bibo:ThesisDegree; rdfs:label "Habilitation"@de, "Habilitation"@en .
 

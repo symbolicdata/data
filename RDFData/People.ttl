@@ -185,6 +185,10 @@ sdp:Baechle_A a foaf:Person ;
               foaf:name "Andreas Bächle" ;
               sd:affiliation "Vrije Universiteit Brussel" .
 
+sdp:Baechler_T a foaf:Person ;
+               foaf:name "Thomas Bächler" ;
+               sd:affiliation "RWTH Aachen, Germany" .
+
 sdp:Baeta_N a foaf:Person ;
             foaf:name "Nuno Baeta" .
 
@@ -767,8 +771,8 @@ sdp:Dettweiler_M a foaf:Person ;
                  foaf:name "Michael Dettweiler" .
 
 sdp:Devyatov_R a foaf:Person ;
-               foaf:name "" ;
-               sd:affiliation "" .
+               foaf:name "Rostislav Devyatov" ;
+               sd:affiliation "FU Berlin, Germany" .
 
 sdp:Diamond_F a foaf:Person ;
               foaf:name "Fred Diamond" .
@@ -855,6 +859,10 @@ sdp:Dunchev_C a foaf:Person ;
 
 sdp:Duval_D a foaf:Person ;
             foaf:name "Dominique Duval" .
+
+sdp:DuviolTcheutia_D a foaf:Person ;
+                     foaf:name "Daniel Duviol Tcheutia" ;
+                     sd:affiliation "Yaounde, Cameroon" .
 
 sdp:Dvirnas_A a foaf:Person ;
               foaf:name "Albertas Dvirnas" ;
@@ -960,6 +968,10 @@ sdp:Fiorenza_D a foaf:Person ;
                foaf:name "Domenico Fiorenza" ;
                sd:affiliation "Rome" .
 
+sdp:Fischer_K a foaf:Person ;
+              foaf:name "Kornelia Fischer" ;
+              sd:affilates "Uni Kassel, Germany" .
+
 sdp:Fischlin_M a foaf:Person ;
                foaf:name "Marc Fischlin" ;
                sd:affiliation "TU Darmstadt, Germany" .
@@ -1002,9 +1014,18 @@ sdp:Forrest_S a foaf:Person ;
 sdp:Fortuny_JM a foaf:Person ;
                foaf:name "Josep Maria Fortuny" .
 
+sdp:Foupouagnigni_M a foaf:Person ;
+                    foaf:name "Mama Foupouagnigni" ;
+                    sd:affiliation "Yaounde, Cameroon" .
+
 sdp:Franke_J a foaf:Person ;
              foaf:name "Jens Franke" ;
              sd:affiliation "Uni Bonn, Germany" .
+
+sdp:Franzen_M a foaf:Person ;
+              foaf:name "Martin Franzen" ;
+              foaf:homepage <https://scikon.uni-konstanz.de/personen/martin.franzen/> ;
+              sd:affilates "Uni Konstanz, Germany" .
 
 sdp:Frei_C a foaf:Person ;
            foaf:name "Christopher Frei" .
@@ -2000,6 +2021,10 @@ sdp:Lairez_P a foaf:Person ;
              foaf:name "Pierre Lairez" ;
              sd:affiliation "TU Berlin, Germany" .
 
+sdp:Lakhal_A a foaf:Person ;
+             foaf:name "Anen Lakhal" ;
+             sd:affiliation "Uni Kassel, Germany" .
+
 sdp:Lal_S a foaf:Person ;
           foaf:name "Sourabh Lal" .
 
@@ -2555,6 +2580,10 @@ sdp:Nikolic_M a foaf:Person ;
 sdp:Nipkow_T a foaf:Person ;
              foaf:name "Tobias Nipkow" .
 
+sdp:NjionouSadjang_P a foaf:Person ;
+                     foaf:name "Patrick Njionou Sadjang" ;
+                     sd:affiliation "Yaounde, Cameroon" .
+
 sdp:Noda_M a foaf:Person ;
            foaf:name "Matu-Tarow Noda" .
 
@@ -3004,6 +3033,10 @@ sdp:Rote_G a foaf:Person ;
 sdp:Rouillier_F a foaf:Person ;
                 foaf:name "Fabrice Rouillier" .
 
+sdp:Rouquier_R a foaf:Person ;
+               foaf:name "Raphaël Rouquier" ;
+               sd:affiliation "Los Angeles, USA" .
+
 sdp:Rowat_C a foaf:Person ;
             foaf:name "Colin Rowat" .
 
@@ -3158,7 +3191,8 @@ sdp:Schneider_K a foaf:Person ;
                 foaf:name "Kerstin Schneider" .
 
 sdp:Schnuerer_O a foaf:Person ;
-                foaf:name "Oliver Schnürer" .
+                foaf:name "Oliver C. Schnürer" ;
+                sd:affilates "Uni Konstanz, Germany" .
 
 sdp:Schoeneberg_U a foaf:Person ;
                   foaf:name "Ulf Schöneberg" .
@@ -3205,6 +3239,11 @@ sdp:Schuermann_U a foaf:Person ;
 sdp:Schulz_S a foaf:Person ;
              foaf:name "Stephan Schulz" ;
              sd:affiliation "DHBW Stuttgart, Germany" .
+
+sdp:Schulze_F a foaf:Person ;
+              foaf:name "Felix Schulze" ;
+              foaf:homepage <http://www.felixschulze.eu/> ;
+              sd:affilates "University College London, UK" .
 
 sdp:Schulze_M a foaf:Person ;
               foaf:name "Mathias Schulze" .
