@@ -17,7 +17,7 @@
                                                     dcterms:title "On the distribution of eigenspaces in classical over finite rings and the Cohen-Lenstra heuristic" ;
                                                     dcterms:date "2014"^^dcterms:W3CDTF ;
                                                     bibo:degree bibo_degrees:phd ;
-                                                    bibo:location "TU Kaiserslautern, Germany" ;
+                                                    bibo:institution "TU Kaiserslautern, Germany" ;
                                                     sd:hasSupervisor sdp:Malle_G .
 
 <http://symbolicdata.org/Data/Dissertation/Ali_11> a bibo:Thesis ;
@@ -27,7 +27,7 @@
                                                    sd:hasURL <http://nbn-resolving.de/urn:nbn:de:bvb:739-opus-23195> ;
                                                    dcterms:date "2011"^^dcterms:W3CDTF ;
                                                    bibo:degree bibo_degrees:phd ;
-                                                   bibo:location "Uni Passau, Germany" ;
+                                                   bibo:institution "Uni Passau, Germany" ;
                                                    sd:hasSupervisor sdp:Kreuzer_M ;
                                                    sd:hasReviewer sdp:Rosenberger_G .
 
@@ -38,7 +38,7 @@
                                                       sd:hasURL <http://nbn-resolving.de/urn:nbn:de:hbz:82-opus-49285>, <http://darwin.bth.rwth-aachen.de/opus3/volltexte/2014/4928/> ;
                                                       dcterms:date "2013"^^dcterms:W3CDTF ;
                                                       bibo:degree bibo_degrees:phd ;
-                                                      bibo:location "RWTH Aachen, Germany" ;
+                                                      bibo:institution "RWTH Aachen, Germany" ;
                                                       sd:hasSupervisor sdp:Zerz_E ;
                                                       sd:hasReviewer sdp:Plesken_W .
 
@@ -48,7 +48,7 @@
                                                       dcterms:title "Fano polytopes - On the classification of smooth Fano polytopes and their triangulations" ;
                                                       dcterms:date "2015"^^dcterms:W3CDTF ;
                                                       bibo:degree bibo_degrees:phd ;
-                                                      bibo:location "TU Berlin, Germany" ;
+                                                      bibo:institution "TU Berlin, Germany" ;
                                                       sd:hasSupervisor sdp:Joswig_M ;
                                                       sd:hasReviewer sdp:Haase_C .
 
@@ -59,7 +59,7 @@
                                                         sd:hasURL <http://nbn-resolving.de/urn:nbn:de:hbz:82-opus-51041>, <http://darwin.bth.rwth-aachen.de/opus3/volltexte/2014/5104/> ;
                                                         dcterms:date "2014"^^dcterms:W3CDTF ;
                                                         bibo:degree bibo_degrees:phd ;
-                                                        bibo:location "RWTH Aachen, Germany" ;
+                                                        bibo:institution "RWTH Aachen, Germany" ;
                                                         sd:hasSupervisor sdp:Plesken_W ;
                                                         sd:hasReviewer sdp:Zerz_E .
 
@@ -69,7 +69,7 @@
                                                              dcterms:title "Torsors and generalized Cox rings for Manin's conjecture" ;
                                                              dcterms:date "2015"^^dcterms:W3CDTF ;
                                                              bibo:degree bibo_degrees:phd ;
-                                                             bibo:location "Uni Heidelberg, Germany" ;
+                                                             bibo:institution "Uni Heidelberg, Germany" ;
                                                              sd:hasSupervisor sdp:Boeckle_G ;
                                                              sd:hasReviewer sdp:Gekeler_EU .
 
@@ -80,7 +80,7 @@
                                                    sd:hasURL <http://nbn-resolving.de/urn:nbn:de:hbz:386-kluedo-28856> ;
                                                    dcterms:date "2012"^^dcterms:W3CDTF ;
                                                    bibo:degree bibo_degrees:phd ;
-                                                   bibo:location "TU Kaiserslautern, Germany" ;
+                                                   bibo:institution "TU Kaiserslautern, Germany" ;
                                                    sd:hasSupervisor sdp:Malle_G ;
                                                    sd:hasReviewer sdp:Klueners_J .
 
@@ -90,7 +90,7 @@
                                                             dcterms:title "Boolean Gröbner bases - theory, algorithms, and applications" ;
                                                             dcterms:date "2010"^^dcterms:W3CDTF ;
                                                             bibo:degree bibo_degrees:phd ;
-                                                            bibo:location "TU Kaiserslautern, Germany" ;
+                                                            bibo:institution "TU Kaiserslautern, Germany" ;
                                                             sd:hasSupervisor sdp:Greuel_GM ;
                                                             sd:hasReviewer sdp:Biere_A .
 
@@ -101,7 +101,7 @@
                                                         sd:hasURL <http://nbn-resolving.de/urn:nbn:de:hebis:34-2010021132007> ;
                                                         dcterms:date "2010"^^dcterms:W3CDTF ;
                                                         bibo:degree bibo_degrees:phd ;
-                                                        bibo:location "Uni Kassel, Germany" ;
+                                                        bibo:institution "Uni Kassel, Germany" ;
                                                         sd:hasSupervisor sdp:Koepf_W ;
                                                         sd:hasReviewer sdp:Seiler_W .
 
@@ -111,7 +111,7 @@
                                                      dcterms:title "Isogenies and Endomorphism Rings of Abelian Varieties of Low Dimension" ;
                                                      dcterms:date "2015"^^dcterms:W3CDTF ;
                                                      bibo:degree bibo_degrees:phd ;
-                                                     bibo:location "Uni Oldenburg, Germany" ;
+                                                     bibo:institution "Uni Oldenburg, Germany" ;
                                                      sd:hasSupervisor sdp:Stein_A ;
                                                      sd:hasReviewer sdp:Hess_F .
 
@@ -121,7 +121,7 @@
                                                         dcterms:title "Equivariant deformations of algebraic varieties with an action of an algebraic torus of complexity one" ;
                                                         dcterms:date "2015"^^dcterms:W3CDTF ;
                                                         bibo:degree bibo_degrees:phd ;
-                                                        bibo:location "FU Berlin, Germany" ;
+                                                        bibo:institution "FU Berlin, Germany" ;
                                                         sd:hasSupervisor sdp:Altmann_K ;
                                                         sd:hasReviewer sdp:Christophersen_J .
 
@@ -130,7 +130,7 @@
                                                        dcterms:title "Ein symbolischer Ansatz für finite Differenzenverfahren partieller Differentialgleichungen" ;
                                                        dcterms:date "2010"^^dcterms:W3CDTF ;
                                                        bibo:degree bibo_degrees:phd ;
-                                                       bibo:location "TU Kaiserslautern, Germany" ;
+                                                       bibo:institution "TU Kaiserslautern, Germany" ;
                                                        sd:hasSupervisor sdp:Pfister_G .
 
 <http://symbolicdata.org/Data/Dissertation/DuviolTcheutia_14> a bibo:Thesis ;
@@ -140,7 +140,7 @@
                                                               sd:hasURL <http://nbn-resolving.de/urn:nbn:de:hebis:34-2014071645714> ;
                                                               dcterms:date "2014"^^dcterms:W3CDTF ;
                                                               bibo:degree bibo_degrees:phd ;
-                                                              bibo:location "Uni Kassel, Germany" ;
+                                                              bibo:institution "Uni Kassel, Germany" ;
                                                               sd:hasSupervisor sdp:Koepf_W ;
                                                               sd:hasReviewer sdp:Foupouagnigni_M .
 
@@ -151,7 +151,7 @@
                                                     sd:hasURL <http://www.mathematik.uni-kl.de/~ederc/download/thesis.pdf> ;
                                                     dcterms:date "2012"^^dcterms:W3CDTF ;
                                                     bibo:degree bibo_degrees:phd ;
-                                                    bibo:location "TU Kaiserslautern, Germany" ;
+                                                    bibo:institution "TU Kaiserslautern, Germany" ;
                                                     sd:hasSupervisor sdp:Pfister_G ;
                                                     sd:hasReviewer sdp:Gerdt_VP .
 
@@ -161,7 +161,7 @@
                                                        dcterms:title "Eine kanonische Form zur Darstellung äquivalenter Codes - Computergestützte Berechnung und ihre Anwendung in der Codierungstheorie, Kryptographie und Geometrie" ;
                                                        dcterms:date "2013"^^dcterms:W3CDTF ;
                                                        bibo:degree bibo_degrees:phd ;
-                                                       bibo:location "Uni Bayreuth, Germany" ;
+                                                       bibo:institution "Uni Bayreuth, Germany" ;
                                                        sd:hasSupervisor sdp:Kerber_A, sdp:Wassermann_A, sdp:Kohnert_A ;
                                                        sd:hasReviewer sdp:Kerber_A, sdp:Stoll_M .
 
@@ -169,7 +169,7 @@
                                                        dcterms:abstract "Published in CA-Rundbrief 58 (2016)" ;
                                                        dcterms:creator sdp:Fischer_K ;
                                                        dcterms:title "Identifikation spezieller Funktionen, die durch Rodriguesformeln gegeben sind" ;
-                                                       bibo:location "Uni Kassel, Germany" ;
+                                                       bibo:institution "Uni Kassel, Germany" ;
                                                        dcterms:date "2016"^^dcterms:W3CDTF ;
                                                        bibo:degree bibo_degrees:phd ;
                                                        sd:hasSupervisor sdp:Koepf_W ;
@@ -179,7 +179,7 @@
                                                        dcterms:abstract "Published in CA-Rundbrief 58 (2016)" ;
                                                        dcterms:creator sdp:Franzen_M ;
                                                        dcterms:title "Existenz und Nicht-Existenz monotoner Größen für geometrische Flüsse" ;
-                                                       bibo:location "Uni Konstanz, Germany" ;
+                                                       bibo:institution "Uni Konstanz, Germany" ;
                                                        sd:hasURL <http://nbn-resolving.de/urn:nbn:de:bsz:352-0-298036> ;
                                                        dcterms:date "2015"^^dcterms:W3CDTF ;
                                                        bibo:degree bibo_degrees:phd ;
@@ -192,7 +192,7 @@
                                                        dcterms:title "Eigenschaften chromatischer Polynome" ;
                                                        dcterms:date "2015"^^dcterms:W3CDTF ;
                                                        bibo:degree bibo_degrees:phd ;
-                                                       bibo:location "Uni Kassel, Germany" ;
+                                                       bibo:institution "Uni Kassel, Germany" ;
                                                        sd:hasSupervisor sdp:Koepf_W ;
                                                        sd:hasReviewer sdp:Tittmann_P .
 
@@ -202,7 +202,7 @@
                                                       dcterms:title "Affineness of Deligne-Lusztig Varieties" ;
                                                       dcterms:date "2014"^^dcterms:W3CDTF ;
                                                       bibo:degree bibo_degrees:phd ;
-                                                      bibo:location "Uni Duisburg-Essen, Germany" ;
+                                                      bibo:institution "Uni Duisburg-Essen, Germany" ;
                                                       sd:hasSupervisor sdp:Goertz_U ;
                                                       sd:hasReviewer sdp:Orlik_S .
 
@@ -213,7 +213,7 @@
                                                      sd:hasURL <http://nbn-resolving.de/urn:nbn:de:hbz:466-20110104015> ;
                                                      dcterms:date "2010"^^dcterms:W3CDTF ;
                                                      bibo:degree bibo_degrees:phd ;
-                                                     bibo:location "Uni Paderborn, Germany" ;
+                                                     bibo:institution "Uni Paderborn, Germany" ;
                                                      sd:hasSupervisor sdp:Klueners_J ;
                                                      sd:hasReviewer sdp:Mueller_P .
 
@@ -223,7 +223,7 @@
                                                     dcterms:title "Gyojas W-Graph-Algebra und zelluläre Struktur von Iwahori-Hecke-Algebren" ;
                                                     dcterms:date "2014"^^dcterms:W3CDTF ;
                                                     bibo:degree bibo_degrees:phd ;
-                                                    bibo:location "Uni Jena, Germany" ;
+                                                    bibo:institution "Uni Jena, Germany" ;
                                                     sd:hasSupervisor sdp:Kuelshammer_B, sdp:Mueller_JM ;
                                                     sd:hasReviewer sdp:Geck_M, sdp:Mueller_JM .
 
@@ -233,7 +233,7 @@
                                                      dcterms:title "Algorithmic aspects of tropical intersection theory" ;
                                                      dcterms:date "2014"^^dcterms:W3CDTF ;
                                                      bibo:degree bibo_degrees:phd ;
-                                                     bibo:location "TU Kaiserslautern, Germany" ;
+                                                     bibo:institution "TU Kaiserslautern, Germany" ;
                                                      sd:hasSupervisor sdp:Gathmann_A ;
                                                      sd:hasReviewer sdp:Joswig_M .
 
@@ -244,7 +244,7 @@
                                                     sd:hasURL <http://nbn-resolving.de/urn:nbn:de:hebis:34-2009030226513> ;
                                                     dcterms:date "2008"^^dcterms:W3CDTF ;
                                                     bibo:degree bibo_degrees:phd ;
-                                                    bibo:location "Uni Kassel, Germany" ;
+                                                    bibo:institution "Uni Kassel, Germany" ;
                                                     sd:hasSupervisor sdp:Koepf_W ;
                                                     sd:hasReviewer sdp:Strehl_V .
 
@@ -254,7 +254,7 @@
                                                          dcterms:title "Analysis and Design of Symmetric Cryptographic Algorithms" ;
                                                          dcterms:date "2015"^^dcterms:W3CDTF ;
                                                          bibo:degree bibo_degrees:phd ;
-                                                         bibo:location "Uni Passau, Germany" ;
+                                                         bibo:institution "Uni Passau, Germany" ;
                                                          sd:hasSupervisor sdp:Kreuzer_M, sdp:Polian_I ;
                                                          sd:hasReviewer sdp:Bogdanov_A .
 
@@ -264,7 +264,7 @@
                                                        dcterms:title "Ext on affine toric varieties" ;
                                                        dcterms:date "2015"^^dcterms:W3CDTF ;
                                                        bibo:degree bibo_degrees:phd ;
-                                                       bibo:location "FU Berlin, Germany" ;
+                                                       bibo:institution "FU Berlin, Germany" ;
                                                        sd:hasSupervisor sdp:Altmann_K ;
                                                        sd:hasReviewer sdp:Hille_L .
 
@@ -274,7 +274,7 @@
                                                         dcterms:title "Explicit Construction of Rational Torsion Divisors on Jacobians of Curves" ;
                                                         dcterms:date "2015"^^dcterms:W3CDTF ;
                                                         bibo:degree bibo_degrees:phd ;
-                                                        bibo:location "Uni Oldenburg, Germany" ;
+                                                        bibo:institution "Uni Oldenburg, Germany" ;
                                                         sd:hasSupervisor sdp:Stein_A ;
                                                         sd:hasReviewer sdp:Top_J .
 
@@ -285,7 +285,7 @@
                                                       sd:hasURL <http://nbn-resolving.de/urn:nbn:de:hebis:34-2014080845851> ;
                                                       dcterms:date "2014"^^dcterms:W3CDTF ;
                                                       bibo:degree bibo_degrees:phd ;
-                                                      bibo:location "Uni Kassel, Germany" ;
+                                                      bibo:institution "Uni Kassel, Germany" ;
                                                       sd:hasSupervisor sdp:Koepf_W ;
                                                       sd:hasReviewer sdp:Seiler_W .
 
@@ -296,7 +296,7 @@
                                                               sd:hasURL <http://nbn-resolving.de/urn:nbn:de:hbz:82-opus-49933> ;
                                                               dcterms:date "2014"^^dcterms:W3CDTF ;
                                                               bibo:degree bibo_degrees:phd ;
-                                                              bibo:location "RWTH Aachen, Germany" ;
+                                                              bibo:institution "RWTH Aachen, Germany" ;
                                                               sd:hasSupervisor sdp:Plesken_W ;
                                                               sd:hasReviewer sdp:Hartmann_J .
 
@@ -307,7 +307,7 @@
                                                     sd:hasURL <https://www.uni-due.de/~s400304/thesis.pdf> ;
                                                     dcterms:date "2011"^^dcterms:W3CDTF ;
                                                     bibo:degree bibo_degrees:phd ;
-                                                    bibo:location "Uni DuisburgEssen, Germany" ;
+                                                    bibo:institution "Uni DuisburgEssen, Germany" ;
                                                     sd:hasSupervisor sdp:Mueller_JM, sdp:Lempken_W ;
                                                     sd:hasReviewer sdp:Lux_K .
 
@@ -318,7 +318,7 @@
                                                         sd:hasURL <http://dx.doi.org/10.18419/opus-5172> ;
                                                         dcterms:date "2015"^^dcterms:W3CDTF ;
                                                         bibo:degree bibo_degrees:phd ;
-                                                        bibo:location "Uni Stuttgart, Germany" ;
+                                                        bibo:institution "Uni Stuttgart, Germany" ;
                                                         sd:hasSupervisor sdp:Kimmerle_W ;
                                                         sd:hasReviewer sdp:Geck_M, sdp:delRioMateos_A .
 
@@ -329,7 +329,7 @@
                                                         sd:hasURL <http://opus.kobv.de/tuberlin/volltexte/2013/3934/pdf/minzlaff_moritz.pdf> ;
                                                         dcterms:date "2013"^^dcterms:W3CDTF ;
                                                         bibo:degree bibo_degrees:phd ;
-                                                        bibo:location "TU Berlin, Germany" ;
+                                                        bibo:institution "TU Berlin, Germany" ;
                                                         sd:hasSupervisor sdp:Hess_F ;
                                                         sd:hasReviewer sdp:Kloosterman_RN .
 
@@ -339,7 +339,7 @@
                                                          dcterms:title "Zur Berechnung von Mordell-Weil Basen elliptischer Kurven über globalen Funktionenkörpern" ;
                                                          dcterms:date "2014"^^dcterms:W3CDTF ;
                                                          bibo:degree bibo_degrees:phd ;
-                                                         bibo:location "Uni Oldenburg, Germany" ;
+                                                         bibo:institution "Uni Oldenburg, Germany" ;
                                                          sd:hasSupervisor sdp:Hess_F ;
                                                          sd:hasReviewer sdp:Pohst_M .
 
@@ -350,7 +350,7 @@
                                                               sd:hasURL <http://nbn-resolving.de/urn:nbn:de:hebis:34-2013102244291> ;
                                                               dcterms:date "2013"^^dcterms:W3CDTF ;
                                                               bibo:degree bibo_degrees:phd ;
-                                                              bibo:location "Uni Kassel, Germany" ;
+                                                              bibo:institution "Uni Kassel, Germany" ;
                                                               sd:hasSupervisor sdp:Koepf_W ;
                                                               sd:hasReviewer sdp:Foupouagnigni_M .
 
@@ -360,7 +360,7 @@
                                                           sd:hasURL <http://nbn-resolving.de/urn:nbn:de:kobv:83-opus-10417> ;
                                                           dcterms:date "2005"^^dcterms:W3CDTF ;
                                                           bibo:degree bibo_degrees:phd ;
-                                                          bibo:location "TU Berlin, Germany" ;
+                                                          bibo:institution "TU Berlin, Germany" ;
                                                           sd:hasSupervisor sdp:Ziegler_GM .
 
 <http://symbolicdata.org/Data/Dissertation/Paffenholz_14> a bibo:Thesis ;
@@ -369,7 +369,7 @@
                                                           dcterms:title "Lattice Polytopes in Geometry and Algebra" ;
                                                           dcterms:date "2014"^^dcterms:W3CDTF ;
                                                           bibo:degree bibo_degrees:habil ;
-                                                          bibo:location "TU Darmstadt, Germany" ;
+                                                          bibo:institution "TU Darmstadt, Germany" ;
                                                           sd:hasSupervisor sdp:Joswig_M, sdp:Pfetsch_M ;
                                                           sd:hasReviewer sdp:Joswig_M, sdp:Sommese_A, sdp:Pfetsch_M, sdp:deLoera_J .
 
@@ -380,7 +380,7 @@
                                                         sd:hasURL <http://dx.doi.org/10.18419/opus-5172> ;
                                                         dcterms:date "2015"^^dcterms:W3CDTF ;
                                                         bibo:degree bibo_degrees:phd ;
-                                                        bibo:location "FU Berlin, Germany" ;
+                                                        bibo:institution "FU Berlin, Germany" ;
                                                         sd:hasSupervisor sdp:Derenthal_U ;
                                                         sd:hasReviewer sdp:Hausen_J, sdp:Browning_TD .
 
@@ -391,7 +391,7 @@
                                                    sd:hasURL <http://nbn-resolving.de/urn/resolver.pl?urn:nbn:de:hbz:386-kluedo-41695> ;
                                                    dcterms:date "2015"^^dcterms:W3CDTF ;
                                                    bibo:degree bibo_degrees:phd ;
-                                                   bibo:location "TU Kaiserslautern, Germany" ;
+                                                   bibo:institution "TU Kaiserslautern, Germany" ;
                                                    sd:hasSupervisor sdp:Markwig_T ;
                                                    sd:hasReviewer sdp:Jensen_A .
 
@@ -402,7 +402,7 @@
                                                         sd:hasURL <http://mediatum.ub.tum.de/doc/1006213/1006213.pdf> ;
                                                         dcterms:date "2012"^^dcterms:W3CDTF ;
                                                         bibo:degree bibo_degrees:phd ;
-                                                        bibo:location "TU Muenchen, Germany" ;
+                                                        bibo:institution "TU Muenchen, Germany" ;
                                                         sd:hasSupervisor sdp:Mayr_EW ;
                                                         sd:hasReviewer sdp:Kemper_G, sdp:Yap_C .
 
@@ -412,7 +412,7 @@
                                                        dcterms:title "Formal algorithmic elimination for PDEs" ;
                                                        dcterms:date "2012"^^dcterms:W3CDTF ;
                                                        bibo:degree bibo_degrees:habil ;
-                                                       bibo:location "RWTH Aachen, Germany" ;
+                                                       bibo:institution "RWTH Aachen, Germany" ;
                                                        sd:hasSupervisor sdp:Plesken_W ;
                                                        sd:hasReviewer sdp:Grigoriev_D, sdp:Winkler_F .
 
@@ -421,7 +421,7 @@
                                                           dcterms:title "Algorithmic aspects of algebraic systems theory" ;
                                                           dcterms:date "2010"^^dcterms:W3CDTF ;
                                                           bibo:degree bibo_degrees:phd ;
-                                                          bibo:location "RWTH Aachen, Germany" ;
+                                                          bibo:institution "RWTH Aachen, Germany" ;
                                                           sd:hasSupervisor sdp:Zerz_E .
 
 <http://symbolicdata.org/Data/Dissertation/Sprenger_09> a bibo:Thesis ;
@@ -431,7 +431,7 @@
                                                         sd:hasURL <http://nbn-resolving.de/urn:nbn:de:hebis:34-2009072129130> ;
                                                         dcterms:date "2009"^^dcterms:W3CDTF ;
                                                         bibo:degree bibo_degrees:phd ;
-                                                        bibo:location "Uni Kassel, Germany" ;
+                                                        bibo:institution "Uni Kassel, Germany" ;
                                                         sd:hasSupervisor sdp:Koepf_W ;
                                                         sd:hasReviewer sdp:Koornwinder_T .
 
@@ -442,7 +442,7 @@
                                                     sd:hasURL <http://www.risc.jku.at/publications/download/risc_3918/fstan-paper-Rama.pdf> ;
                                                     dcterms:date "2010"^^dcterms:W3CDTF ;
                                                     bibo:degree bibo_degrees:phd ;
-                                                    bibo:location "RISC Linz, Germany" ;
+                                                    bibo:institution "RISC Linz, Germany" ;
                                                     sd:hasSupervisor sdp:Paule_P ;
                                                     sd:hasReviewer sdp:Moll_V .
 
@@ -453,7 +453,7 @@
                                                          sd:hasURL <http://nbn-resolving.de/urn/resolver.pl?urn:nbn:de:hbz:386-kluedo-38405> ;
                                                          dcterms:date "2014"^^dcterms:W3CDTF ;
                                                          bibo:degree bibo_degrees:phd ;
-                                                         bibo:location "TU Kaiserslautern, Germany" ;
+                                                         bibo:institution "TU Kaiserslautern, Germany" ;
                                                          sd:hasSupervisor sdp:Decker_W ;
                                                          sd:hasReviewer sdp:Popescu_D .
 
@@ -464,7 +464,7 @@
                                                           sd:hasURL <http://darwin.bth.rwth-aachen.de/opus3/volltexte/2014/4860/>, <http://nbn-resolving.de/urn:nbn:de:hbz:82-opus-48603> ;
                                                           dcterms:date "2013"^^dcterms:W3CDTF ;
                                                           bibo:degree bibo_degrees:phd ;
-                                                          bibo:location "RWTH Aachen, Germany" ;
+                                                          bibo:institution "RWTH Aachen, Germany" ;
                                                           sd:hasSupervisor sdp:Zerz_E ;
                                                           sd:hasReviewer sdp:Kreuzer_M .
 
@@ -474,7 +474,7 @@
                                                      dcterms:title "Coxeter-Catalan structures" ;
                                                      dcterms:date "2015"^^dcterms:W3CDTF ;
                                                      bibo:degree bibo_degrees:habil ;
-                                                     bibo:location "FU Berlin, Germany" .
+                                                     bibo:institution "FU Berlin, Germany" .
 
 <http://symbolicdata.org/Data/Dissertation/Thiel_14> a bibo:Thesis ;
                                                      dcterms:abstract "Published in CA-Rundbrief 55 (2014)" ;
@@ -483,7 +483,7 @@
                                                      sd:hasURL <http://nbn-resolving.de/urn:nbn:de:hebis:34-2014080845851>, <http://www.dr.hut-verlag.de/978-3-8439-1674-5.html> ;
                                                      dcterms:date "2014"^^dcterms:W3CDTF ;
                                                      bibo:degree bibo_degrees:phd ;
-                                                     bibo:location "TU Kaiserslautern, Germany" ;
+                                                     bibo:institution "TU Kaiserslautern, Germany" ;
                                                      sd:hasSupervisor sdp:Malle_G ;
                                                      sd:hasReviewer sdp:Rouquier_R .
 
@@ -494,7 +494,7 @@
                                                      sd:hasURL <http://nbn-resolving.de/urn:nbn:de:bvb:739-opus-26815> ;
                                                      dcterms:date "2012"^^dcterms:W3CDTF ;
                                                      bibo:degree bibo_degrees:phd ;
-                                                     bibo:location "Uni Passau, Germany" ;
+                                                     bibo:institution "Uni Passau, Germany" ;
                                                      sd:hasSupervisor sdp:Kreuzer_M ;
                                                      sd:hasReviewer sdp:Robbiano_L .
 
@@ -505,7 +505,7 @@
                                                        sd:hasURL <http://www.staff.uni-oldenburg.de/osmanbey.uzunkol/publications/diss.pdf> ;
                                                        dcterms:date "2010"^^dcterms:W3CDTF ;
                                                        bibo:degree bibo_degrees:phd ;
-                                                       bibo:location "Uni Oldenburg, Germany" ;
+                                                       bibo:institution "Uni Oldenburg, Germany" ;
                                                        sd:hasSupervisor sdp:Pohst_M ;
                                                        sd:hasReviewer sdp:Leprevost_F .
 
@@ -515,7 +515,7 @@
                                                   dcterms:title "The computation of transfer maps, Evens norm maps and Steenrod operations" ;
                                                   dcterms:date "2011"^^dcterms:W3CDTF ;
                                                   bibo:degree bibo_degrees:phd ;
-                                                  bibo:location "Uni Jena, Germany" ;
+                                                  bibo:institution "Uni Jena, Germany" ;
                                                   sd:hasSupervisor sdp:Green_DJ ;
                                                   sd:hasReviewer sdp:Carlson_JF .
 
@@ -524,7 +524,7 @@
                                                      dcterms:title "Über Struktur und Kohomologie von Moduln symmetrischer Gruppen" ;
                                                      dcterms:date "2011"^^dcterms:W3CDTF ;
                                                      bibo:degree bibo_degrees:phd ;
-                                                     bibo:location "RWTH Aachen, Germany" ;
+                                                     bibo:institution "RWTH Aachen, Germany" ;
                                                      sd:hasSupervisor sdp:Hiss_G .
 
 <http://symbolicdata.org/Data/Dissertation/Wibmer_10> a bibo:Thesis ;
@@ -533,7 +533,7 @@
                                                       sd:hasURL <http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bsz:16-opus-106853> ;
                                                       dcterms:date "2010"^^dcterms:W3CDTF ;
                                                       bibo:degree bibo_degrees:phd ;
-                                                      bibo:location "Uni Heidelberg, Germany" ;
+                                                      bibo:institution "Uni Heidelberg, Germany" ;
                                                       sd:hasSupervisor sdp:Matzat_BH .
 
 <http://symbolicdata.org/Data/Dissertation/Wibmer_15> a bibo:Thesis ;
@@ -543,14 +543,14 @@
                                                       sd:hasURL <https://www.math.upenn.edu/~wibmer/habilWibmer.pdf> ;
                                                       dcterms:date "2015"^^dcterms:W3CDTF ;
                                                       bibo:degree bibo_degrees:habil ;
-                                                      bibo:location "RWTH Aachen, Germany" .
+                                                      bibo:institution "RWTH Aachen, Germany" .
 
 <http://symbolicdata.org/Data/Dissertation/Wienand_11> a bibo:Thesis ;
                                                        dcterms:creator sdp:Wienand_O ;
                                                        dcterms:title "Algorithms for symbolic computation and their applications - standard bases over rings and rank tests in statistics" ;
                                                        dcterms:date "2011"^^dcterms:W3CDTF ;
                                                        bibo:degree bibo_degrees:phd ;
-                                                       bibo:location "TU Kaiserslautern, Germany" ;
+                                                       bibo:institution "TU Kaiserslautern, Germany" ;
                                                        sd:hasSupervisor sdp:Greuel_GM .
 
 <http://symbolicdata.org/Data/Dissertation/Xiu_12> a bibo:Thesis ;
@@ -560,7 +560,7 @@
                                                    sd:hasURL <http://nbn-resolving.de/urn:nbn:de:bvb:739-opus-26827> ;
                                                    dcterms:date "2012"^^dcterms:W3CDTF ;
                                                    bibo:degree bibo_degrees:phd ;
-                                                   bibo:location "Uni Passau, Germany" ;
+                                                   bibo:institution "Uni Passau, Germany" ;
                                                    sd:hasSupervisor sdp:Kreuzer_M ;
                                                    sd:hasReviewer sdp:Rosenberger_G .
 
@@ -571,7 +571,7 @@
                                                        sd:hasURL <http://hss.ulb.uni-bonn.de/2015/3981/3981.htm> ;
                                                        dcterms:date "2015"^^dcterms:W3CDTF ;
                                                        bibo:degree bibo_degrees:phd ;
-                                                       bibo:location "Uni Bonn, Germany" ;
+                                                       bibo:institution "Uni Bonn, Germany" ;
                                                        sd:hasSupervisor sdp:vonzurGathen_J ;
                                                        sd:hasReviewer sdp:vonzurGathen_J, sdp:Franke_J .
 
