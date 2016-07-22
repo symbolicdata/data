@@ -8,8 +8,8 @@
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
 @prefix sdp: <http://symbolicdata.org/Data/Person/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix cc: <http://creativecommons.org/ns#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 
 <> a owl:Ontology ;
@@ -19,67 +19,67 @@
    cc:attributionName "The SymbolicData Project" .
 
 <http://symbolicdata.org/Data/Post/2015-10-09> a sioc:BlogPost ;
-                                               dcterms:created "2015-10-09"^^xsd:date ;
+                                               dct:created "2015-10-09"^^xsd:date ;
                                                rdfs:label "ACM Communications in Computer Algebra Issue 193" ;
-                                               dcterms:abstract "We are pleased to announce that Issue 193 of ACM Communications in Computer Algebra (CCA) is now available electronically. " ;
-                                               dcterms:publisher sdp:England_M ;
+                                               dct:abstract "We are pleased to announce that Issue 193 of ACM Communications in Computer Algebra (CCA) is now available electronically. " ;
+                                               dct:publisher sdp:England_M ;
                                                sioc:link <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2016-February/000012.html> ;
                                                sioc:links_to <http://www.sigsam.org/cca/> .
 
 <http://symbolicdata.org/Data/Post/2015-11-30> a sioc:BlogPost ;
-                                               dcterms:created "2015-12-03"^^xsd:date ;
+                                               dct:created "2015-12-03"^^xsd:date ;
                                                rdfs:label "13 open PhD positions  within the European Network ARCADES" ;
-                                               dcterms:abstract "We are pleased to announce 13 open PhD positions within the European Network ARCADES: Algebraic Representations in Computer-Aided Design for complEx Shapes. ARCADES is a Marie Sklodowska-Curie Innovative Training Network in the framework of Horizon 2020, starting on January 1st, 2016, and lasts for 4 years. It includes 8 sites offering 13 PhD's, 5 industrial partners, and is coordinated by ATHENA Research & Innovation Center, Greece." ;
-                                               dcterms:publisher sdp:Emiris_IZ ;
+                                               dct:abstract "We are pleased to announce 13 open PhD positions within the European Network ARCADES: Algebraic Representations in Computer-Aided Design for complEx Shapes. ARCADES is a Marie Sklodowska-Curie Innovative Training Network in the framework of Horizon 2020, starting on January 1st, 2016, and lasts for 4 years. It includes 8 sites offering 13 PhD's, 5 industrial partners, and is coordinated by ATHENA Research & Innovation Center, Greece." ;
+                                               dct:publisher sdp:Emiris_IZ ;
                                                sioc:link <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2016-February/000013.html> ;
                                                sioc:links_to <http://arcades-network.eu/> .
 
 <http://symbolicdata.org/Data/Post/2015-12-03> a sioc:BlogPost ;
-                                               dcterms:created "2015-12-03"^^xsd:date ;
+                                               dct:created "2015-12-03"^^xsd:date ;
                                                rdfs:label "Postdoc Position at the University of Luxembourg" ;
-                                               dcterms:abstract "In the Number Theory group at the University of Luxembourg, we're looking for a postdoc, starting March 2016 or later. The position is that of a `scientific assistant'." ;
-                                               dcterms:publisher sdp:Wiese_G ;
+                                               dct:abstract "In the Number Theory group at the University of Luxembourg, we're looking for a postdoc, starting March 2016 or later. The position is that of a `scientific assistant'." ;
+                                               dct:publisher sdp:Wiese_G ;
                                                sioc:link <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2016-February/000010.html> .
 
 <http://symbolicdata.org/Data/Post/2016-01-09> a sioc:BlogPost ;
-                                               dcterms:created "2016-01-09"^^xsd:date ;
+                                               dct:created "2016-01-09"^^xsd:date ;
                                                rdfs:label "ACM Communications in Computer Algebra Issue 194" ;
-                                               dcterms:abstract "We are pleased to announce that Issue 194 of ACM Communications in Computer Algebra (CCA) is now available electronically. " ;
-                                               dcterms:publisher sdp:England_M ;
+                                               dct:abstract "We are pleased to announce that Issue 194 of ACM Communications in Computer Algebra (CCA) is now available electronically. " ;
+                                               dct:publisher sdp:England_M ;
                                                sioc:link <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2016-February/000014.html> ;
                                                sioc:links_to <http://www.sigsam.org/cca/> .
 
 <http://symbolicdata.org/Data/Post/2016-02-08> a sioc:BlogPost ;
-                                               dcterms:created "2016-02-08"^^xsd:date ;
+                                               dct:created "2016-02-08"^^xsd:date ;
                                                rdfs:label "Normaliz 3.1 released" ;
-                                               dcterms:subject <http://symbolicdata.org/Data/System/Normaliz> ;
-                                               dcterms:abstract "Announces Normaliz 3.1 2.11 with new features and several improvements in the algorithms. The manual now has an appendix documenting libnormaliz." ;
-                                               dcterms:publisher sdp:Bruns_W ;
+                                               dct:subject <http://symbolicdata.org/Data/System/normaliz> ;
+                                               dct:abstract "Announces Normaliz 3.1 2.11 with new features and several improvements in the algorithms. The manual now has an appendix documenting libnormaliz." ;
+                                               dct:publisher sdp:Bruns_W ;
                                                sioc:link <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2016-February/000011.html> ;
                                                sioc:links_to <http://www.normaliz.uni-osnabrueck.de> .
 
 <http://symbolicdata.org/Data/Post/2016-02-10> a sioc:BlogPost ;
-                                               dcterms:created "2016-02-10"^^xsd:date ;
+                                               dct:created "2016-02-10"^^xsd:date ;
                                                rdfs:label "6-year faculty position as University Assistant at the Institute for Algebra of the Johannes Kepler University Linz" ;
-                                               dcterms:abstract "At the Institute for Algebra of the Johannes Kepler University Linz, Austria, we offer a 6-year faculty position as University Assistant (senior postdoc)." ;
-                                               dcterms:publisher sdp:Kauers_M ;
+                                               dct:abstract "At the Institute for Algebra of the Johannes Kepler University Linz, Austria, we offer a 6-year faculty position as University Assistant (senior postdoc)." ;
+                                               dct:publisher sdp:Kauers_M ;
                                                sioc:link <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2016-February/000015.html> ;
                                                sioc:links_to <http://www3.jku.at/mtb/content/e39/e26344/e26346/e26529/index_ger.html#54> .
 
 <http://symbolicdata.org/Data/Post/2016-04-05> a sioc:BlogPost ;
-                                               dcterms:created "2016-04-05"^^xsd:date ;
+                                               dct:created "2016-04-05"^^xsd:date ;
                                                rdfs:label "Normaliz 3.1.1 released" ;
-                                               dcterms:subject <http://symbolicdata.org/Data/System/Normaliz> ;
-                                               dcterms:abstract "Normaliz 3.1.1 corrects some minor bugs. We have also added a libnormaliz function that returns the index of the unit group extension from the input monoid to the integral closure (in the nonpointed case). Christof Söger left the Department of Mathematics at the end of March." ;
-                                               dcterms:publisher sdp:Bruns_W ;
+                                               dct:subject <http://symbolicdata.org/Data/System/normaliz> ;
+                                               dct:abstract "Normaliz 3.1.1 corrects some minor bugs. We have also added a libnormaliz function that returns the index of the unit group extension from the input monoid to the integral closure (in the nonpointed case). Christof Söger left the Department of Mathematics at the end of March." ;
+                                               dct:publisher sdp:Bruns_W ;
                                                sioc:link <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2016-April/000016.html> ;
                                                sioc:links_to <http://normaliz.uos.de> .
 
 <http://symbolicdata.org/Data/Post/2016-04-06> a sioc:BlogPost ;
-                                               dcterms:created "2016-04-06"^^xsd:date ;
+                                               dct:created "2016-04-06"^^xsd:date ;
                                                rdfs:label "First Call for Papers: Special issue of the JSC" ;
-                                               dcterms:subject <http://www.journals.elsevier.com/journal-of-symbolic-computation/> ;
-                                               dcterms:abstract "First Call for Papers: Special issue of the JOURNAL OF SYMBOLIC COMPUTATION on SYMBOLIC COMPUTATION IN SOFTWARE SCIENCE." ;
-                                               dcterms:publisher sdp:Davenport_JH ;
+                                               dct:subject <http://www.journals.elsevier.com/journal-of-symbolic-computation/> ;
+                                               dct:abstract "First Call for Papers: Special issue of the JOURNAL OF SYMBOLIC COMPUTATION on SYMBOLIC COMPUTATION IN SOFTWARE SCIENCE." ;
+                                               dct:publisher sdp:Davenport_JH ;
                                                sioc:link <http://listserv.acm.org/SCRIPTS/WA-ACMLPX.CGI?A2=ind1604&L=SIGSAM-MEMBERS&F=&S=&P=498> ;
                                                sioc:links_to <http://www.risc.jku.at/~tkutsia/organization/jsc-scss-2016.html> .
