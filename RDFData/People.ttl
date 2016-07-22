@@ -690,7 +690,7 @@ sdp:Claessen_K a foaf:Person ;
                foaf:name "Koen Claessen" .
 
 sdp:Cohen_AM a foaf:Person ;
-             foaf:name "A.M. Cohen" .
+             foaf:name "Arjeh M. Cohen" .
 
 sdp:Cohen_H a foaf:Person ;
             foaf:name "Henri Cohen" ;
@@ -776,6 +776,9 @@ sdp:DAndrea_C a foaf:Person ;
 
 sdp:Daberkow_M a foaf:Person ;
                foaf:name "Mario Daberkow" .
+
+sdp:Daly_T a foaf:Person ;
+           foaf:name "Tim Daly" .
 
 sdp:DanCohen_I a foaf:Person ;
                foaf:name "Ishai Dan-Cohen" ;
@@ -1311,9 +1314,6 @@ sdp:Grelak_F a foaf:Person ;
              foaf:name "Felix Grelak" ;
              sd:affiliation "Universität Duisburg-Essen" .
 
-sdp:Greuel_G a foaf:Person ;
-             foaf:name "Gert-Martin Greuel" .
-
 sdp:Greuel_GM a foaf:Person ;
               foaf:name "Gert-Martin Greuel" ;
               sd:affiliation "TU Kaiserslautern" .
@@ -1334,7 +1334,8 @@ sdp:Groetschel_M a foaf:Person ;
                  foaf:name "Martin Grötschel" .
 
 sdp:Grothmann_R a foaf:Person ;
-                foaf:name "Rene Grothmann" .
+                foaf:name "Rene Grothmann" ;
+                sd:affiliation "Uni Eichstätt" .
 
 sdp:Grov_G a foaf:Person ;
            foaf:name "Gudmund Grov" ;
@@ -4277,11 +4278,8 @@ sdp:vanHoeij_M a foaf:Person ;
                sd:affiliation "Florida State University, USA" .
 
 sdp:vanLeeuwen_M a foaf:Person ;
-                 foaf:name "Marc van Leeuwen" ;
+                 foaf:name "Marc A.A. van Leeuwen" ;
                  sd:affiliation "Université de Poitiers" .
-
-sdp:vanLeeuwen_MAA a foaf:Person ;
-                   foaf:name "M.A.A. van Leeuwen" .
 
 sdp:vanStraten_D a foaf:Person ;
                  foaf:name "Duco van Straten" .
