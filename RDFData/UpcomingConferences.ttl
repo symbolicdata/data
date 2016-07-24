@@ -13,16 +13,16 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
 <http://symbolicdata.org/Data/Conference/ACA-2016> a sd:UpcomingConference ;
-                                                 rdfs:label "ACA 2016 - 22th Conference on Applications of Computer Algebra" ;
-                                                 ical:dtstart "2016-08-01"^^xsd:date ;
-                                                 ical:dtend "2016-08-04"^^xsd:date ;
-                                                 ical:location "Kassel, Germany" ;
-                                                 ical:description "The ACA conferences are organized as a series of Special Sessions. All interested researchers can propose a Special Session by sending an e-mail to the Program Chairs (mailto:aca2016chairs@mathematik.uni-kassel.de) by March 31st, 2016. The Scientific Committee (i.e. the ACA Working Group) will then decide on the acceptance of the proposed session. Accepted sessions will be immediately announced on the conference web site." ;
-                                                 sd:hasProgramChair sdp:Neun_W, sdp:Regensburger_G, sdp:RoanesLozano_E, sdp:Steinberg_S, sdp:Wester_M ;
-                                                 sd:hasGeneralChair sdp:Koepf_W, sdp:Seiler_W ;
-                                                 ical:url <http://www.mathematik.uni-kassel.de/ACA2016/> ;
-                                                 sd:hasAbstractsDeadline "2016-05-29"^^xsd:date ;
-                                                 sd:hasSessionProposalDeadline "2016-03-31"^^xsd:date .
+                                                   rdfs:label "ACA 2016 - 22th Conference on Applications of Computer Algebra" ;
+                                                   ical:dtstart "2016-08-01"^^xsd:date ;
+                                                   ical:dtend "2016-08-04"^^xsd:date ;
+                                                   ical:location "Kassel, Germany" ;
+                                                   ical:description "The ACA conferences are organized as a series of Special Sessions. All interested researchers can propose a Special Session by sending an e-mail to the Program Chairs (mailto:aca2016chairs@mathematik.uni-kassel.de) by March 31st, 2016. The Scientific Committee (i.e. the ACA Working Group) will then decide on the acceptance of the proposed session. Accepted sessions will be immediately announced on the conference web site." ;
+                                                   sd:hasProgramChair sdp:Neun_W, sdp:Regensburger_G, sdp:RoanesLozano_E, sdp:Steinberg_S, sdp:Wester_M ;
+                                                   sd:hasGeneralChair sdp:Koepf_W, sdp:Seiler_W ;
+                                                   ical:url <http://www.mathematik.uni-kassel.de/ACA2016/> ;
+                                                   sd:hasAbstractsDeadline "2016-05-29"^^xsd:date ;
+                                                   sd:hasSessionProposalDeadline "2016-03-31"^^xsd:date .
 
 <http://symbolicdata.org/Data/Conference/AEC-2016> a sd:UpcomingConference ;
                                                    rdfs:label "3rd summer school \"Algorithmic and Enumerative Combinatorics\"" ;
@@ -83,21 +83,6 @@
                                                     sd:hasAbstractsDeadline "2016-04-22" ;
                                                     sd:hasOrganizers sdp:Balduccini_M, sdp:Schueller_P, sdp:DeVos_M, sdp:Saeedloei_N, sdp:Fodor_P, sdp:Arias_J .
 
-<http://symbolicdata.org/Data/Conference/ISSAC-2016> a sd:UpcomingConference ;
-                                                     rdfs:label "ISSAC 2016 - International Symposium on Symbolic and Algebraic Computation" ;
-                                                     ical:dtstart "2016-07-20"^^xsd:date ;
-                                                     ical:dtend "2016-07-22"^^xsd:date ;
-                                                     ical:location "Wilfrid Laurier University, Waterloo, Ontario, Canada" ;
-                                                     sd:hasPaperDeadline "2016-01-22" ;
-                                                     ical:description "The International Symposium on Symbolic and Algebraic Computation (ISSAC) is the premier conference for research in symbolic computation and computer algebra. ISSAC 2016 will be the 41th meeting in the series, which started in 1966 and has been held annually since 1981. The conference presents a range of invited speakers, tutorials, poster sessions, software demonstrations and vendor exhibits with a center-piece of contributed research papers. " ;
-                                                     sd:hasProgramChair sdp:Gao_XS ;
-                                                     sd:hasGeneralChair sdp:Abramov_S, sdp:Zima_E ;
-                                                     ical:url <http://www.issac-conference.org/2016> ;
-                                                     sd:invitedSpeakers sdp:Abraham_Erika, sdp:Schost_Eric, sdp:Zhi_Lihong ;
-                                                     sd:hasAbstractsDeadline "2016-01-15" ;
-                                                     sd:hasProgramCommittee sdp:Mayr_EW, sdp:Bradford_R, sdp:Mora_T, sdp:Gao_XS, sdp:Yokoyama_K, sdp:Dumas_JC, sdp:Feng_XS, sdp:Sagraloff_M, sdp:Winkler_F, sdp:Bostan_A, sdp:Hauenstein_J, sdp:Kapur_D, sdp:Labahn_G, sdp:Lee_WS, sdp:McCallum_S, sdp:Monagan_M, sdp:Perret_L, sdp:DAndrea_C, sdp:Panario_D, sdp:Hong_H ;
-                                                     sd:hasOrganizers sdp:Carette_J, sdp:Heinle_A, sdp:Rosenkranz_M, sdp:Barkatou_M, sdp:Pearce_R, sdp:Chen_S, sdp:Kotsireas_IS .
-
 <http://symbolicdata.org/Data/Conference/LambertW-2016> a sd:UpcomingConference ;
                                                         rdfs:label "Celebrating 20 years of the Lambert W Function" ;
                                                         ical:dtstart "2016-07-25"^^xsd:date ;
@@ -119,16 +104,6 @@
                                                   sd:hasProgramCommittee sdp:Emiris_IZ, sdp:Markwig_H, sdp:Mourrain_B, sdp:Beltran_C, sdp:Derksen_H, sdp:Draisma_J, sdp:Gorla_E, sdp:Ottaviani_G, sdp:Wisniewski_J ;
                                                   sd:hasOrganizers sdp:Galligo_A, sdp:Mourrain_B, sdp:Buse_L, sdp:Cortell_A, sdp:deAngelis_I, sdp:Hubert_E .
 
-<http://symbolicdata.org/Data/Conference/MICA-16> a sd:UpcomingConference ;
-                                                  rdfs:label "MICA 2016: Milestones in Computer Algebra - Celebrating the research of Erich Kaltofen" ;
-                                                  ical:dtstart "2016-07-16"^^xsd:date ;
-                                                  ical:dtend "2016-07-18"^^xsd:date ;
-                                                  ical:location "University of Waterloo, Canada" ;
-                                                  ical:description "Celebrating the research of Erich Kaltofen, the Milestones of Computer Algebra (MICA 2016) surveys some major achievements of computer algebra and its connections to related scientific areas. Key focuses include both classical and emerging sub-disciplines of computer algebra, such as hybrid symbolic-numeric computation, exact linear algebra, algebraic complexity, polynomial factorization, and sparse interpolation. Besides presenting the latest results, MICA 2016 will assess these achievements and their impacts to other subjects, in the hope of identifying promising future research directions. <br/> We invite submissions of abstracts for contributed talks and posters for MICA 2016. We solicit talks on recent research or surveys of the historical development of sub-areas, with a preference to topics connected to Erich Kaltofen's life-long research interests. We also encourage submissions from all areas of computer algebra and related scientific fields." ;
-                                                  ical:url <https://cs.uwaterloo.ca/conferences/mica2016/> ;
-                                                  sd:hasAbstractsDeadline "2016-06-15"^^xsd:date ;
-                                                  sd:hasOrganizers sdp:Zhi_Lihong, sdp:Chen_S, sdp:Lee_WS, sdp:Watt_S, sdp:Lobo_AA, sdp:Storjohann_A, sdp:Yang_ZF, sdp:Giesbrecht_M .
-
 <http://symbolicdata.org/Data/Conference/OpenMath-16> a sd:UpcomingConference ;
                                                       rdfs:label "27th OpenMath Workshop" ;
                                                       ical:dtstart "2016-07-25"^^xsd:date ;
@@ -149,7 +124,7 @@
                                                          sd:hasProgramChair sdp:Abraham_E, sdp:Fontaine_P ;
                                                          ical:url <http://www.sc-square.org/CSA/workshop1.html> ;
                                                          sd:invitedSpeakers sdp:Brown_CW ;
-                                                         sd:hasProgramCommittee sdp:Seiler_W, sdp:Chen_C, sdp:Buchberger_B, sdp:Sturm_T, sdp:Abbott_J, sdp:Bigatti_AM, sdp:Davenport_JH, sdp:Becker_B, sdp:Brain_M, sdp:Forrest_S, sdp:Ganesh_V, sdp:Griggio_A, sdp:Kroening_D, sdp:Tinelli_C, sdp:Tiwari_A, sdp:England_M .
+                                                         sd:hasProgramCommittee sdp:Seiler_W, sdp:Chen_C, sdp:Buchberger_B, sdp:Sturm_T, sdp:Abbott_J, sdp:Davenport_JH, sdp:Becker_B, sdp:Brain_M, sdp:Forrest_S, sdp:Ganesh_V, sdp:Griggio_A, sdp:Kroening_D, sdp:Tinelli_C, sdp:Tiwari_A, sdp:England_M, sdp:Bigatti_A .
 
 <http://symbolicdata.org/Data/Conference/SYNASC-2016> a sd:UpcomingConference ;
                                                       rdfs:label "SYNASC 2016 - 18th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing" ;
@@ -174,18 +149,9 @@
                                                          sd:hasAbstractsDeadline "2016-06-10"^^xsd:date ;
                                                          sd:hasProgramCommittee sdp:Yokoyama_K, sdp:Chen_S, sdp:Lee_WS, sdp:Roche_DS, sdp:England_M, sdp:DiazToca_GM, sdp:Joldes_M, sdp:Mezzarobba_M .
 
-<http://symbolicdata.org/Data/Conference/WWCA-2016> a sd:UpcomingConference ;
-                                                    rdfs:label "Waterloo Workshop on Computer Algebra 2016" ;
-                                                    ical:dtstart "2016-07-23"^^xsd:date ;
-                                                    ical:dtend "2016-07-24"^^xsd:date ;
-                                                    ical:location "Waterloo, Ontario, Canada" ;
-                                                    ical:description "The WWCA workshop is intended to provide a forum for researchers and practitioners in the area of computer algebra. This workshop is devoted to the 70th birthday of Sergei Abramov (CCAS, Moscow, Russia) whose influential contributions to symbolic methods are highly acknowledged and adopted by many Computer Algebra systems. <br/> The purpose of this workshop is to present some recent developments in the area of symbolic summation and symbolic integration, ordinary differential equations, difference equations, partial differential equations  and their applications in combinatorics, number theory, particle physics, etc.  It is also to highlight the current state of the art in both - complexity analysis of summation and integration algorithms, and improvements in the complexity of aforementioned algorithms." ;
-                                                    sd:hasAbstractsDeadline "2016-05-15" ;
-                                                    sd:hasOrganizers sdp:Zima_E, sdp:Schneider_C .
-
 sd:UpcomingConference a owl:Class ;
                       rdfs:label "Upcoming Conference Event" ;
-                      rdfs:comment """An upcoming scientific conference. An instance of sd:UpcomingConference is later on  transformed into an instance of sd:Conference and stored in the PastConferences database.""" ;
+                      rdfs:comment "An upcoming scientific conference. An instance of sd:UpcomingConference is later on  transformed into an instance of sd:Conference and stored in the PastConferences database." ;
                       rdfs:subClassOf ical:Vevent ;
                       dcterms:subject <http://dbpedia.org/resource/Event> .
 

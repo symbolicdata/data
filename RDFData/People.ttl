@@ -109,6 +109,10 @@ sdp:Amend_N a foaf:Person ;
 sdp:Amrhein_B a foaf:Person ;
               foaf:name "Beatrice Amrhein" .
 
+sdp:Anai_H a foaf:Person ;
+           foaf:name "Hirokazu Anai" ;
+           sd:affiliation "Kyushu University, Japan" .
+
 sdp:Andreatta_F a foaf:Person ;
                 foaf:name "Fabrizio Andreatta" .
 
@@ -134,7 +138,7 @@ sdp:Aravantinos_V a foaf:Person ;
                   foaf:name "Vincent Aravantinos" .
 
 sdp:Arias_J a foaf:Person ;
-            foaf:name "Joaquin Arias " ;
+            foaf:name "Joaquin Arias" ;
             sd:affiliation "IMDEA Software Institute, Spain" .
 
 sdp:AriasdeReynaDominguez_S a foaf:Person ;
@@ -350,12 +354,9 @@ sdp:Biere_A a foaf:Person ;
             sd:affiliation "Johannes Kepler University, Austria" .
 
 sdp:Bigatti_A a foaf:Person ;
-              foaf:name "Anna Bigatti" .
-
-sdp:Bigatti_AM a foaf:Person ;
-               foaf:name "Anna M. Bigatti" ;
-               foaf:homepage <http://www.dima.unige.it/~bigatti/> ;
-               sd:affiliation "Universita degli studi di Genova, Italy" .
+              foaf:name "Anna M. Bigatti" ;
+              foaf:homepage <http://www.dima.unige.it/~bigatti/> ;
+              sd:affiliation "Universita degli studi di Genova, Italy" .
 
 sdp:Bini_D a foaf:Person ;
            foaf:name "D. Bini" .
@@ -658,6 +659,10 @@ sdp:Chen_X a foaf:Person ;
            foaf:name "Xiaoyu Chen" ;
            sd:affiliation "Beihang University, China" .
 
+sdp:Cheng_J a foaf:Person ;
+            foaf:name "Jin-San Cheng" ;
+            sd:affiliation "Chinese Academy of Sciences, Beijing, China" .
+
 sdp:Chiadjeu_ELGN a foaf:Person ;
                   foaf:name "Etienne Le Grand Nana Chiadjeu" .
 
@@ -923,10 +928,6 @@ sdp:Dunchev_C a foaf:Person ;
 sdp:Duval_D a foaf:Person ;
             foaf:name "Dominique Duval" .
 
-sdp:DuviolTcheutia_D a foaf:Person ;
-                     foaf:name "Daniel Duviol Tcheutia" ;
-                     sd:affiliation "Yaounde, Cameroon" .
-
 sdp:Dvirnas_A a foaf:Person ;
               foaf:name "Albertas Dvirnas" ;
               sd:affiliation "Kaunas University" .
@@ -1094,7 +1095,7 @@ sdp:Fortuny_JM a foaf:Person ;
 
 sdp:Foupouagnigni_M a foaf:Person ;
                     foaf:name "Mama Foupouagnigni" ;
-                    sd:affiliation "Yaounde, Cameroon" .
+                    sd:affiliation "African Institute for Mathematical Sciences, Limbé, Cameroon" .
 
 sdp:Fraatz_R a foaf:Person ;
              foaf:name "Robert Fraatz" .
@@ -1333,6 +1334,9 @@ sdp:Grigoriev_D a foaf:Person ;
 sdp:Groetschel_M a foaf:Person ;
                  foaf:name "Martin Grötschel" .
 
+sdp:Gross_A a foaf:Person ;
+            foaf:name "Andreas Gross" .
+
 sdp:Grothmann_R a foaf:Person ;
                 foaf:name "Rene Grothmann" ;
                 sd:affiliation "Uni Eichstätt" .
@@ -1497,7 +1501,8 @@ sdp:Hemmecke_Ralf a foaf:Person ;
                   foaf:homepage <https://portal.risc.jku.at/Members/hemmecke> .
 
 sdp:Hemmecke_Raymond a foaf:Person ;
-                     foaf:name "Raymond Hemmecke" .
+                     foaf:name "Raymond Hemmecke" ;
+                     sd:affiliation "TU München, Germany" .
 
 sdp:Henk_M a foaf:Person ;
            foaf:name "M. Henk" .
@@ -1617,7 +1622,8 @@ sdp:Honold_T a foaf:Person ;
              sd:affiliation "Hangzhou" .
 
 sdp:Hooper_J a foaf:Person ;
-             foaf:name "Jeff Hooper" .
+             foaf:name "Jeff Hooper" ;
+             sd:affiliation "Acadia University, USA" .
 
 sdp:Hoppe_A a foaf:Person ;
             foaf:name "Andreas Hoppe" .
@@ -1686,6 +1692,10 @@ sdp:Ida_T a foaf:Person ;
           foaf:name "Tetsuo Ida" ;
           sd:affiliation "University of Tsukuba, Japan" .
 
+sdp:Iglesias_A a foaf:Person ;
+               foaf:name "Andres Iglesias" ;
+               sd:affiliation "University of Cantabria, Santander, Spain" .
+
 sdp:Iliopoulous_C a foaf:Person ;
                   foaf:name "Costas Iliopoulous" ;
                   sd:affiliation "Kings College, London, UK" .
@@ -1709,6 +1719,10 @@ sdp:Ionescu_C a foaf:Person ;
 sdp:Istrate_G a foaf:Person ;
               foaf:name "Gabriel Istrate" ;
               sd:affiliation "Research Institute e-Austria Timisoara, Romania" .
+
+sdp:Iwane_H a foaf:Person ;
+            foaf:name "Hidenao Iwane" ;
+            sd:affiliation "Fujitsu Laboratories, Japan" .
 
 sdp:Izaak_A a foaf:Person ;
             foaf:name "Alexandr Izaak" .
@@ -1892,6 +1906,10 @@ sdp:Kerber_M a foaf:Person ;
              foaf:homepage <http://www.cs.bham.ac.uk/~mmk> ;
              sd:affiliation "University of Birmingham, UK" .
 
+sdp:Kerber_Michael a foaf:Person ;
+                   foaf:name "Michael Kerber" ;
+                   sd:affiliation "Max Planck Institute, Saarbrücken, Germany" .
+
 sdp:Kern_F a foaf:Person ;
            foaf:name "F. Kern" .
 
@@ -1927,12 +1945,16 @@ sdp:Kifer_M a foaf:Person ;
             foaf:name "Michael Kifer" ;
             sd:affiliation "Stony Brook University, USA" .
 
+sdp:Kim_JL a foaf:Person ;
+           foaf:name "Jon-Lark Kim" ;
+           sd:affiliation "Sogang University" .
+
 sdp:Kimmerle_W a foaf:Person ;
                foaf:name "Wolfgang Kimmerle" ;
                sd:affiliation "Universität Stuttgart" .
 
 sdp:King_A a foaf:Person ;
-           foaf:name "Andy King " ;
+           foaf:name "Andy King" ;
            sd:affiliation "University of Kent, UK" .
 
 sdp:King_S a foaf:Person ;
@@ -2589,6 +2611,10 @@ sdp:Monks_K a foaf:Person ;
             foaf:name "Ken Monks" ;
             foaf:homepage <http://mathweb.scranton.edu/monks/> .
 
+sdp:Monniaux_D a foaf:Person ;
+               foaf:name "David Monniaux" ;
+               sd:affiliation "VERIMAG" .
+
 sdp:Montes_A a foaf:Person ;
              foaf:name "Antonio Montes" ;
              sd:affiliation "U. Politècnica de Catalunya, Spain" .
@@ -2708,6 +2734,10 @@ sdp:Negru_V a foaf:Person ;
 sdp:Neumaier_A a foaf:Person ;
                foaf:name "Arnold Neumaier" ;
                foaf:homepage <http://www.univie.ac.at/~neum> .
+
+sdp:Neumann_S a foaf:Person ;
+              foaf:name "Severin Neumann" ;
+              sd:affiliation "Uni Passau, Germany" .
 
 sdp:Neun_W a foaf:Person ;
            foaf:name "Winfried Neun" ;
@@ -2854,6 +2884,10 @@ sdp:Passmore_G a foaf:Person ;
                foaf:name "Grant Passmore" ;
                foaf:homepage <http://www.cl.cam.ac.uk/~gp351/> ;
                sd:affiliation "University of Cambridge, UK" .
+
+sdp:Patil_D a foaf:Person ;
+            foaf:name "Dilip Patil" ;
+            sd:affiliation "IISC, Bangalore, India" .
 
 sdp:Paule_P a foaf:Person ;
             foaf:name "Peter Paule" ;
@@ -3143,7 +3177,8 @@ sdp:Robbiano_L a foaf:Person ;
                foaf:name "Lorenzo Robbiano" .
 
 sdp:Robertz_D a foaf:Person ;
-              foaf:name "Daniel Robertz" .
+              foaf:name "Daniel Robertz" ;
+              sd:affiliation "Uni Plymouth, UK" .
 
 sdp:Robinson_G a foaf:Person ;
                foaf:name "Geoffrey Robinson" ;
@@ -3161,7 +3196,7 @@ sdp:Robu_J a foaf:Person ;
            sd:affiliation "Babes-Bolyai University, Romania" .
 
 sdp:Roche_DS a foaf:Person ;
-             foaf:name "Daniel S. Roche " ;
+             foaf:name "Daniel S. Roche" ;
              sd:affiliation "U.S. Naval Academy, USA" .
 
 sdp:RodriguezCielos_P a foaf:Person ;
@@ -3322,7 +3357,8 @@ sdp:Sasaki_T a foaf:Person ;
              sd:affiliation "University of Tsukuba, Japan" .
 
 sdp:Sato_Y a foaf:Person ;
-           foaf:name "Yosuke Sato" .
+           foaf:name "Yosuke Sato" ;
+           sd:affiliation "Tokyo University of Science, Japan" .
 
 sdp:Saunders_B a foaf:Person ;
                foaf:name "Bonita Saunders" .
@@ -3342,6 +3378,10 @@ sdp:Schaper_R a foaf:Person ;
 
 sdp:Schefter_J a foaf:Person ;
                foaf:name "Jürgen Schefter" .
+
+sdp:Scheicher_M a foaf:Person ;
+                foaf:name "Martin Scheicher" ;
+                sd:affiliation "Uni Innsbruck, Austria" .
 
 sdp:Schenzel_P a foaf:Person ;
                foaf:name "Peter Schenzel" ;
@@ -3736,6 +3776,10 @@ sdp:Takacs_S a foaf:Person ;
              foaf:name "Stefan Takacs" ;
              sd:affiliation "Johannes Kepler University Linz, Austria" .
 
+sdp:Takato_S a foaf:Person ;
+             foaf:name "Setsuo Takato" ;
+             sd:affiliation "Toho University, Japan" .
+
 sdp:Takayama_N a foaf:Person ;
                foaf:name "Nobuki Takayama" ;
                sd:affiliation "Kobe University, Japan" .
@@ -3754,6 +3798,10 @@ sdp:Tarau_P a foaf:Person ;
 sdp:Tassi_E a foaf:Person ;
             foaf:name "Enrico Tassi" ;
             sd:affiliation "INRIA, France" .
+
+sdp:Tcheutia_D a foaf:Person ;
+               foaf:name "Daniel Duviol Tcheutia" ;
+               sd:affiliation "African Institute for Mathematical Sciences, Limbé, Cameroon" .
 
 sdp:Temkin_M a foaf:Person ;
              foaf:name "Michael Temkin" ;
@@ -3975,9 +4023,17 @@ sdp:Walkinshaw_N a foaf:Person ;
 sdp:Wallack_A a foaf:Person ;
               foaf:name "A. Wallack" .
 
+sdp:Wan_J a foaf:Person ;
+          foaf:name "James Wan" ;
+          sd:affiliation "Singapore University, Singapore" .
+
 sdp:Wang_D a foaf:Person ;
            foaf:name "Dongming Wang" ;
            sd:affiliation "Beihang University, China and CNRS, France" .
+
+sdp:Wang_DK a foaf:Person ;
+            foaf:name "Dingkang Wang" ;
+            sd:affiliation "Chinese Academy of Sciences, Beijing, China" .
 
 sdp:Wang_F a foaf:Person ;
            foaf:name "Frédéric Wang" .
@@ -4167,7 +4223,7 @@ sdp:Youssef_A a foaf:Person ;
 
 sdp:Zaharie_D a foaf:Person ;
               foaf:name "Daniela Zaharie" ;
-              sd:affiliation " West University of Timisoara, Romania" .
+              sd:affiliation "West University of Timisoara, Romania" .
 
 sdp:Zalesski_A a foaf:Person ;
                foaf:name "Alex Zalesski" ;
@@ -4191,15 +4247,18 @@ sdp:Zhang_Q a foaf:Person ;
 sdp:Zharkov_AYu a foaf:Person ;
                 foaf:name "A.Yu. Zharkov" .
 
-sdp:Zhi_Lihong a foaf:Person ;
-               foaf:name "Lihong Zhi" ;
-               sd:affiliation "Chinese Academy of Sciences, China" .
+sdp:Zharkov_I a foaf:Person ;
+              foaf:name "Ilia Zharkov" .
+
+sdp:Zhi_L a foaf:Person ;
+          foaf:name "Lihong Zhi" ;
+          sd:affiliation "Chinese Academy of Sciences, China" .
 
 sdp:Zhizhchenko_A a foaf:Person ;
                   foaf:name "Alexey Zhizhchenko" .
 
 sdp:Zhou_NF a foaf:Person ;
-            foaf:name "Neng-Fa Zhou " ;
+            foaf:name "Neng-Fa Zhou" ;
             sd:affiliation "City University of New York, USA" .
 
 sdp:Zhupa_E a foaf:Person ;
@@ -4229,7 +4288,8 @@ sdp:Zou_CY a foaf:Person ;
            foaf:name "Cherry Y. Zou" .
 
 sdp:Zumbraegel_J a foaf:Person ;
-                 foaf:name "Jens Zumbrägel" .
+                 foaf:name "Jens Zumbrägel" ;
+                 sd:affiliation "TU Dresden, Germany" .
 
 sdp:deAngelis_I a foaf:Person ;
                 foaf:name "Isabelle de Angelis" .
