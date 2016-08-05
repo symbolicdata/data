@@ -12,29 +12,6 @@
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
-<http://symbolicdata.org/Data/Conference/ACA-2016> a sd:UpcomingConference ;
-                                                   rdfs:label "ACA 2016 - 22th Conference on Applications of Computer Algebra" ;
-                                                   ical:dtstart "2016-08-01"^^xsd:date ;
-                                                   ical:dtend "2016-08-04"^^xsd:date ;
-                                                   ical:location "Kassel, Germany" ;
-                                                   ical:description "The ACA conferences are organized as a series of Special Sessions. All interested researchers can propose a Special Session by sending an e-mail to the Program Chairs (mailto:aca2016chairs@mathematik.uni-kassel.de) by March 31st, 2016. The Scientific Committee (i.e. the ACA Working Group) will then decide on the acceptance of the proposed session. Accepted sessions will be immediately announced on the conference web site." ;
-                                                   sd:hasProgramChair sdp:Neun_W, sdp:Regensburger_G, sdp:RoanesLozano_E, sdp:Steinberg_S, sdp:Wester_M ;
-                                                   sd:hasGeneralChair sdp:Koepf_W, sdp:Seiler_W ;
-                                                   ical:url <http://www.mathematik.uni-kassel.de/ACA2016/> ;
-                                                   sd:hasAbstractsDeadline "2016-05-29"^^xsd:date ;
-                                                   sd:hasSessionProposalDeadline "2016-03-31"^^xsd:date .
-
-<http://symbolicdata.org/Data/Conference/AEC-2016> a sd:UpcomingConference ;
-                                                   rdfs:label "3rd summer school \"Algorithmic and Enumerative Combinatorics\"" ;
-                                                   ical:dtstart "2016-08-01"^^xsd:date ;
-                                                   ical:dtend "2016-08-05"^^xsd:date ;
-                                                   ical:location "RISC, J. Kepler University Linz, Austria" ;
-                                                   sd:hasPaperDeadline "2016-06-01" ;
-                                                   ical:description "The goal of this summer school is to put forward the interplay between the fields of Enumerative Combinatorics, Analytic Combinatorics, and Algorithmics. This is a very active research area, which, aside from the three fields fueling each other mutually, receives as well constant impetus from outside, by its interaction with algebra, probability, statistical physics, and computer science. The summer school is jointly organized with the algebra group at the Johannes Kepler University and the combinatorics groups at the University of Vienna and the Vienna University of Technology." ;
-                                                   sd:hasRegistrationDeadline "2016-06-10" ;
-                                                   ical:url <https://www.risc.jku.at/conferences/aec2016/> ;
-                                                   sd:invitedSpeakers sdp:Bostan_A, sdp:Romik_D, sdp:Shallit_J .
-
 <http://symbolicdata.org/Data/Conference/ANTS-2016> a sd:UpcomingConference ;
                                                     rdfs:label "12th Algorithmic Number Theory Symposium" ;
                                                     ical:dtstart "2016-08-29"^^xsd:date ;
@@ -59,17 +36,6 @@
                                                     sd:hasProgramChair sdp:Koepf_W ;
                                                     ical:url <http://www.casc.cs.uni-bonn.de/2016/> .
 
-<http://symbolicdata.org/Data/Conference/CICM-16> a sd:UpcomingConference ;
-                                                  rdfs:label "CICM 2016 - Conferences on Intelligent Computer Mathematics" ;
-                                                  ical:dtstart "2016-07-25"^^xsd:date ;
-                                                  ical:dtend "2016-07-29"^^xsd:date ;
-                                                  ical:location "University of Bialystok, Poland" ;
-                                                  sd:hasPaperDeadline "2016-03-16"^^xsd:date ;
-                                                  ical:description "Digital and  computational solutions are becoming  the prevalent means for the generation, communication, processing, storage and curation of mathematical  information.  Separate  communities  have  developed  to investigate  and build  computer based  systems for  computer algebra, automated deduction, and mathematical publishing as well as novel user interfaces. While all of these systems excel in their own right, their integration  can   lead  to   synergies  offering   significant  added value.  The  Conference  on Intelligent  Computer  Mathematics  (CICM) offers a  venue for discussing  and developing solutions to  the great challenges posed by the integration of these diverse areas." ;
-                                                  sd:hasProgramChair sdp:Johansson_M, sdp:Miller_BR, sdp:deMoura_L, sdp:Autexier_S, sdp:Kohlhase_M, sdp:Tompa_F ;
-                                                  ical:url <http://www.cicm-conference.org/2016> ;
-                                                  sd:hasAbstractsDeadline "2016-03-09"^^xsd:date .
-
 <http://symbolicdata.org/Data/Conference/ICLP-2016> a sd:UpcomingConference ;
                                                     rdfs:label "ICLP - 32nd International Conference on Logic Programming" ;
                                                     ical:dtstart "2016-10-17"^^xsd:date ;
@@ -83,15 +49,6 @@
                                                     sd:hasAbstractsDeadline "2016-04-22" ;
                                                     sd:hasOrganizers sdp:Balduccini_M, sdp:Schueller_P, sdp:DeVos_M, sdp:Saeedloei_N, sdp:Fodor_P, sdp:Arias_J .
 
-<http://symbolicdata.org/Data/Conference/LambertW-2016> a sd:UpcomingConference ;
-                                                        rdfs:label "Celebrating 20 years of the Lambert W Function" ;
-                                                        ical:dtstart "2016-07-25"^^xsd:date ;
-                                                        ical:dtend "2016-07-28"^^xsd:date ;
-                                                        ical:location "Western University, London, Ontario, Canada" ;
-                                                        ical:description "In 1996, the first comprehensive survey of the Lambert W function was published. To celebrate 20 years since that publication, Western University will host a workshop on the Lambert W function and on related special and elementary functions. Talks on applications, including physics, biology, sociology and computational science are welcome. Mathematical applications to areas such as combinatorics, delay-differential equations and so on are also welcome. Generalizations and other nonlinear eigenvalue functions and matrix functions are especially welcome. Graduate students are particularly encouraged to contribute and attend." ;
-                                                        ical:url <http://www.apmaths.uwo.ca/~djeffrey/LambertW/LambertW.html> ;
-                                                        sd:hasOrganizers sdp:Jeffrey_D .
-
 <http://symbolicdata.org/Data/Conference/MEGA-17> a sd:UpcomingConference ;
                                                   rdfs:label "MEGA-2017: Effective Methods in Algebraic Geometry" ;
                                                   ical:dtstart "2017-06-12"^^xsd:date ;
@@ -103,16 +60,6 @@
                                                   sd:hasAbstractsDeadline "2016-12-01"^^xsd:date ;
                                                   sd:hasProgramCommittee sdp:Emiris_IZ, sdp:Markwig_H, sdp:Mourrain_B, sdp:Beltran_C, sdp:Derksen_H, sdp:Draisma_J, sdp:Gorla_E, sdp:Ottaviani_G, sdp:Wisniewski_J ;
                                                   sd:hasOrganizers sdp:Galligo_A, sdp:Mourrain_B, sdp:Buse_L, sdp:Cortell_A, sdp:deAngelis_I, sdp:Hubert_E .
-
-<http://symbolicdata.org/Data/Conference/OpenMath-16> a sd:UpcomingConference ;
-                                                      rdfs:label "27th OpenMath Workshop" ;
-                                                      ical:dtstart "2016-07-25"^^xsd:date ;
-                                                      ical:dtend "2016-07-25"^^xsd:date ;
-                                                      ical:location "Bialystok, Poland" ;
-                                                      sd:hasPaperDeadline "2016-06-07"^^xsd:date ;
-                                                      ical:description "Co-located with CICM 2016. OpenMath is a language for exchanging mathematical formulae across applications (such as computer algebra systems).  From 2010 its importance has increased in that OpenMath Content Dictionaries were adopted as a foundation of the MathML 3 W3C recommendation (http://www.w3.org/TR/MathML), the standard for mathematical formulae on the Web.  <br/> Topics we expect to see at the workshop include <ul> <li> Case Studies of Software using or processing OpenMath</li><li> Feature Requests (Standard Enhancement Proposals) and Discussions for going beyond OpenMath 2</li><li> Further convergence of OpenMath and MathML 3</li><li> Reasoning with OpenMath</li><li> OpenMath on the Semantic Web</li><li> New OpenMath Content Dictionaries.</li></ul>Contributions can be either full research papers, Standard Enhancement Proposals, Case Study reports, or a description of new Content Dictionaries, particularly ones that are suggested for formal adoption by the OpenMath Society." ;
-                                                      ical:url <http://cicm-conference.org/2016/cicm.php?event=openmath> ;
-                                                      sd:hasOrganizers sdp:Davenport_JH, sdp:Kohlhase_M, sdp:Knopper_JW .
 
 <http://symbolicdata.org/Data/Conference/SC-square-2016> a sd:UpcomingConference ;
                                                          rdfs:label "First International Workshop on Satisfiability Checking and Symbolic Computation" ;
