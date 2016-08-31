@@ -360,16 +360,6 @@
                                                                          sd:invitedSpeakers sdp:Wilson_R, sdp:Malle_G, sdp:Carlson_JF, sdp:Broue_M, sdp:Dudas_O, sdp:Fong_P, sdp:Kessar_R, sdp:Magaard_K, sdp:Robinson_G, sdp:Srinivasan_B, sdp:Szczepanski_A, sdp:Zalesski_A ;
                                                                          sd:hasOrganizers sdp:Geck_M, sdp:Lux_K, sdp:Luebeck_F .
 
-<http://symbolicdata.org/Data/Conference/BadBoll-2014> a sd:Conference ;
-                                                       rdfs:label "BadBoll-2014: Annual conference of the DFG priority project SPP 1489" ;
-                                                       ical:dtstart "2014-03-03"^^xsd:date ;
-                                                       ical:dtend "2014-03-07"^^xsd:date ;
-                                                       ical:location "Bad Boll, Germany" ;
-                                                       ical:description "Annual conference of the DFG priority project SPP 1489" ;
-                                                       ical:url <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014> ;
-                                                       sd:hasCARReport "CAR 54 (Mrz. 2014), p. 22" ;
-                                                       sd:hasDetailedRecord <http://symbolicdata.org/rdf/Conferences/BadBoll-14.rdf> .
-
 <http://symbolicdata.org/Data/Conference/CAFG-2014> a sd:Conference ;
                                                     rdfs:label "Computeralgebra-Tagung der Fachgruppe" ;
                                                     ical:dtstart "2014-05-15"^^xsd:date ;
@@ -1241,6 +1231,16 @@ Mathematical software systems rely on a cooperation of mathematicians, designers
                                                  sd:invitedSpeakers sdp:Linton_S, sdp:Mueller_JS, sdp:Varbaro_M ;
                                                  sd:hasOrganizers sdp:Fieker_C, sdp:Decker_W, sdp:Bruns_W, sdp:Sieg_R ;
                                                  sd:hasCARReport "CAR 57 (Okt. 2015), p. 33" .
+
+<http://symbolicdata.org/Data/Conference/SPP1489-2014> a sd:Conference ;
+                                                       rdfs:label "SPP1489-2014: Annual conference of the DFG priority project SPP 1489" ;
+                                                       ical:dtstart "2014-03-03"^^xsd:date ;
+                                                       ical:dtend "2014-03-07"^^xsd:date ;
+                                                       ical:location "Bad Boll, Germany" ;
+                                                       ical:description "Annual conference of the DFG priority project SPP 1489" ;
+                                                       ical:url <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014> ;
+                                                       sd:hasCARReport "CAR 54 (Mrz. 2014), p. 22" ;
+                                                       sd:hasDetailedRecord <http://symbolicdata.org/rdf/Conferences/BadBoll-14.rdf> .
 
 <http://symbolicdata.org/Data/Conference/SPPEvent-1001> a sd:Conference ;
                                                         rdfs:label "Software Workshop: Geometry and Combinatorics I" ;

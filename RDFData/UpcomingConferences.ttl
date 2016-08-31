@@ -73,6 +73,14 @@
                                                          sd:invitedSpeakers sdp:Brown_CW ;
                                                          sd:hasProgramCommittee sdp:Seiler_W, sdp:Chen_C, sdp:Buchberger_B, sdp:Sturm_T, sdp:Abbott_J, sdp:Davenport_JH, sdp:Becker_B, sdp:Brain_M, sdp:Forrest_S, sdp:Ganesh_V, sdp:Griggio_A, sdp:Kroening_D, sdp:Tinelli_C, sdp:Tiwari_A, sdp:England_M, sdp:Bigatti_A .
 
+<http://symbolicdata.org/Data/Conference/SPP1489-2016> a sd:UpcomingConference ;
+                                                       rdfs:label "SPP1489-2016: Final conference of the DFG priority project SPP 1489" ;
+                                                       ical:dtstart "2016-10-10"^^xsd:date ;
+                                                       ical:dtend "2016-10-14"^^xsd:date ;
+                                                       ical:location "Kaiserslautern, Germany" ;
+                                                       ical:description "Final conference of the DFG priority project SPP 1489" ;
+                                                       ical:url <http://www.computeralgebra.de/index.php?option=com_content&view=article&id=99&Itemid=62> .
+
 <http://symbolicdata.org/Data/Conference/SYNASC-2016> a sd:UpcomingConference ;
                                                       rdfs:label "SYNASC 2016 - 18th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing" ;
                                                       ical:dtstart "2016-09-24"^^xsd:date ;
