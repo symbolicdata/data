@@ -230,8 +230,7 @@ sdp:Bancerek_G a foaf:Person ;
 
 sdp:Barakat_M a foaf:Person ;
               foaf:name "Mohamed Barakat" ;
-              foaf:homepage <http://www.mathematik.uni-kl.de/~barakat/> ;
-              sd:affiliation "TU Kaiserslautern" .
+              sd:affiliation "Universität Siegen, Germany" .
 
 sdp:Barberousse_A a foaf:Person ;
                   foaf:name "Anouk Barberousse" ;
@@ -760,7 +759,7 @@ sdp:CruzFilipe_L a foaf:Person ;
 
 sdp:Cuntz_M a foaf:Person ;
             foaf:name "Michael Cuntz" ;
-            sd:affiliation "Leibniz Universität Hannover" .
+            sd:affiliation "Leibniz Universität Hannover, Germany" .
 
 sdp:Cuypers_H a foaf:Person ;
               foaf:name "Hans Cuypers" .
@@ -1667,7 +1666,7 @@ sdp:Hui_CY a foaf:Person ;
 
 sdp:Hulpke_A a foaf:Person ;
              foaf:name "Alexander Hulpke" ;
-             sd:affiliation "Fort Collins, USA" .
+             sd:affiliation "Colorado State University, Fort Collins, USA" .
 
 sdp:Hupel_L a foaf:Person ;
             foaf:name "Lars Hupel" .
@@ -1985,7 +1984,8 @@ sdp:Kleinjung_T a foaf:Person ;
                 foaf:name "Thorsten Kleinjung" .
 
 sdp:Klinge_S a foaf:Person ;
-             foaf:name "Sandra Klinge" .
+             foaf:name "Sandra Klinge" ;
+             sd:affiliation "TU Dortmund, Germany" .
 
 sdp:Klioner_SA a foaf:Person ;
                foaf:name "S.A. Klioner" .
@@ -2421,7 +2421,8 @@ sdp:Marks_F a foaf:Person ;
             sd:affiliation "Universität Stuttgart" .
 
 sdp:Markwig_H a foaf:Person ;
-              foaf:name "Hannah Markwig" .
+              foaf:name "Hannah Markwig" ;
+              sd:affiliation "Universität Tübingen, Germany" .
 
 sdp:Markwig_T a foaf:Person ;
               foaf:name "Thomas Markwig" ;
@@ -2763,6 +2764,10 @@ sdp:Nghiem_MQ a foaf:Person ;
 
 sdp:Nicaud_JF a foaf:Person ;
               foaf:name "Jean-François Nicaud" .
+
+sdp:Niemeyer_A a foaf:Person ;
+               foaf:name "Alice Niemeyer" ;
+               sd:affiliation "RWTH Aachen, Germany" .
 
 sdp:Niesi_G a foaf:Person ;
             foaf:name "G. Niesi" .
@@ -3664,7 +3669,8 @@ sdp:Stasheff_J a foaf:Person ;
                sd:affiliation "North Carolina" .
 
 sdp:Stauch_C a foaf:Person ;
-             foaf:name "C. Stauch" .
+             foaf:name "Carsten Stauch" ;
+             sd:affiliation "Gymnasium Coswig, Germany" .
 
 sdp:Staudenmaier_HM a foaf:Person ;
                     foaf:name "H.-M. Staudenmaier" .
@@ -4243,6 +4249,10 @@ sdp:Zhan_N a foaf:Person ;
 
 sdp:Zhang_Q a foaf:Person ;
             foaf:name "Qun Zhang" .
+
+sdp:Zhang_Y a foaf:Person ;
+            foaf:name "Yang Zhang" ;
+            sd:affiliation "ETH Zürich, Switzerland" .
 
 sdp:Zharkov_AYu a foaf:Person ;
                 foaf:name "A.Yu. Zharkov" .
