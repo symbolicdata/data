@@ -314,6 +314,16 @@
                                                      ical:url <http://www.iazd.uni-hannover.de/diophantine> ;
                                                      sd:hasOrganizers sdp:Frei_C, sdp:Derenthal_U, sdp:Loughran_D .
 
+<http://symbolicdata.org/Data/Conference/ANTS-2016> a sd:Conference ;
+                                                    rdfs:label "12th Algorithmic Number Theory Symposium" ;
+                                                    ical:dtstart "2016-08-29"^^xsd:date ;
+                                                    ical:dtend "2016-09-02"^^xsd:date ;
+                                                    ical:location "University Kaiserslautern, Germany" ;
+                                                    ical:description "Since their inception in 1994, the bi-annual ANTS meetings have become the premier international forum for the presentation of new research in computational number theory. They are devoted to algorithmic aspects of number theory, including elementary number theory, algebraic number theory, analytic number theory, geometry of numbers, algebraic geometry, finite fields, and cryptography. " ;
+                                                    ical:url <http://www.mathematik.uni-kl.de/~thofmann/ants/> ;
+                                                    sd:invitedSpeakers sdp:Cohen_H, sdp:Hiary_G, sdp:Ho_W, sdp:Viray_B, sdp:Peikert_C ;
+                                                    sd:hasProgramCommittee sdp:Fieker_C, sdp:Hess_F, sdp:Hofmann_T, sdp:Wiese_G, sdp:Hart_W, sdp:Balakrishnan_J, sdp:Eisentraeger_K, sdp:Harvey_D, sdp:Holt_D, sdp:KhuriMakdisi_K, sdp:Kohel_D, sdp:Pomerance_C, sdp:Stehle_D, sdp:Tornaria_G, sdp:Voight_J .
+
 <http://symbolicdata.org/Data/Conference/ANTS-XI> a sd:Conference ;
                                                   rdfs:label "Eleventh Algorithmic Number Theory Symposium ANTS-XI" ;
                                                   ical:dtstart "2014-08-07"^^xsd:date ;
@@ -612,6 +622,15 @@
                                                     ical:url <http://www.casc.cs.uni-bonn.de> ;
                                                     sd:hasCARReport "CAR 57 (Okt. 2015), p. 31" ;
                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/CASC> .
+
+<http://symbolicdata.org/Data/Conference/CASC-2016> a sd:Conference ;
+                                                    rdfs:label "CASC-2016 - 18th International Workshop in Computer Algebra in Scientific Computing" ;
+                                                    ical:dtstart "2016-09-19"^^xsd:date ;
+                                                    ical:dtend "2016-09-23"^^xsd:date ;
+                                                    ical:location "Bucharest, Romania" ;
+                                                    ical:description "The methods of Scientific Computing play an important role in the natural sciences and engineering. Significance and impact of computer algebra methods and computer algebra systems for scientific computing has increased considerably over the last decades. <br/> The ongoing development of computer algebra systems, including their integration and adaptation to modern software environments, puts them to the forefront in scientific computing and enables the practical solution of many complex applied problems in the domains of natural sciences and engineering. <br/> The topics addressed in the workshop cover all the basic areas of scientific computing as they benefit from the application of computer algebra methods and software. " ;
+                                                    sd:hasProgramChair sdp:Koepf_W ;
+                                                    ical:url <http://www.casc.cs.uni-bonn.de/2016/> .
 
 <http://symbolicdata.org/Data/Conference/CCA-14> a sd:Conference ;
                                                  rdfs:label "CCA'14: Workshop on Compact Computer Algebra" ;
@@ -1173,6 +1192,17 @@ Mathematical software systems rely on a cooperation of mathematicians, designers
                                                         sd:invitedSpeakers sdp:Beck_M, sdp:Bremner_D ;
                                                         sd:hasCARReport "CAR 56 (Mrz. 2015), p. 27" .
 
+<http://symbolicdata.org/Data/Conference/SC-square-2016> a sd:Conference ;
+                                                         rdfs:label "SC-square 2016: First International Workshop on Satisfiability Checking and Symbolic Computation" ;
+                                                         ical:dtstart "2016-09-24"^^xsd:date ;
+                                                         ical:dtend "2016-09-24"^^xsd:date ;
+                                                         ical:location "Department of Computer Science, West University of Timisoara, Romania" ;
+                                                         ical:description "Symbolic Computation is concerned with the algorithmic determination of exact solutions to complex mathematical problems; more recent developments in the area of Satisfiability Checking are starting to tackle similar problems but with different algorithmic and technological solutions.  The two communities share many central interests, but researchers from these two communities rarely interact.  Also, the lack of common or compatible interfaces of tools is an obstacle to their fruitful combination. Bridges between the communities in the form of common platforms and road-maps are necessary to initiate an exchange, and to support and direct their interaction. The aim of this workshop, along the SC-square H2020 FETOPEN Coordination and Support Activity project, is to provide a time to discuss, share knowledge and experience across both communities. Affiliated with SYNASC 2016." ;
+                                                         sd:hasProgramChair sdp:Abraham_E, sdp:Fontaine_P ;
+                                                         ical:url <http://www.sc-square.org/CSA/workshop1.html> ;
+                                                         sd:invitedSpeakers sdp:Brown_CW ;
+                                                         sd:hasProgramCommittee sdp:Seiler_W, sdp:Chen_C, sdp:Buchberger_B, sdp:Sturm_T, sdp:Abbott_J, sdp:Davenport_JH, sdp:Becker_B, sdp:Brain_M, sdp:Forrest_S, sdp:Ganesh_V, sdp:Griggio_A, sdp:Kroening_D, sdp:Tinelli_C, sdp:Tiwari_A, sdp:England_M, sdp:Bigatti_A .
+
 <http://symbolicdata.org/Data/Conference/SCSS-2016> a sd:Conference ;
                                                     rdfs:label "The 7th International Symposium on Symbolic Computation in Software Science" ;
                                                     ical:dtstart "2016-03-28"^^xsd:date ;
@@ -1401,6 +1431,25 @@ Mathematical software systems rely on a cooperation of mathematicians, designers
                                                       sd:invitedSpeakers sdp:Watt_S, sdp:Bentley_P, sdp:Kauers_M, sdp:Ida_T, sdp:Piskac_R, sdp:Sands_D, sdp:Voronkov_A, sdp:Woltran_S, sdp:Hedin_D, sdp:Gurfinkel_A ;
                                                       sd:hasProgramCommittee sdp:Buchberger_B, sdp:Watt_S, sdp:Davenport_JH, sdp:Marin_M, sdp:Maruster_S, sdp:Jebelean_T, sdp:Negru_V, sdp:Petcu_D, sdp:Zaharie_D, sdp:Takacs_S, sdp:Bjorner_N, sdp:Petrovski_A, sdp:Frincu_M, sdp:Bosa_K, sdp:Istrate_G, sdp:Pop_D, sdp:Ida_T, sdp:Kovacs_L ;
                                                       sd:hasOrganizers sdp:Markwig_T .
+
+<http://symbolicdata.org/Data/Conference/SYNASC-2016> a sd:Conference ;
+                                                      rdfs:label "SYNASC 2016 - 18th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing" ;
+                                                      ical:dtstart "2016-09-24"^^xsd:date ;
+                                                      ical:dtend "2016-09-27"^^xsd:date ;
+                                                      ical:location "Department of Computer Science, West University of Timisoara, Romania" ;
+                                                      ical:description "International Symposium on Symbolic and Numeric Algorithms for Scientific Computing is a international conference that aims to stimulate the interaction between the two scientific communities of symbolic and numeric computing and to exhibit interesting applications of the areas both in theory and in practice. The choice of the topic is motivated by the belief of the organizers that the dialogue between the two communities is very necessary for accelerating the progress in making the computer a truly intelligent aid for mathematicians and engineers." ;
+                                                      ical:url <http://synasc.ro/2016/> .
+
+<http://symbolicdata.org/Data/Conference/SYNASC-2016-SC> a sd:Conference ;
+                                                         rdfs:label "SYNASC 2016 - Symbolic Computation Track" ;
+                                                         ical:dtstart "2016-09-24"^^xsd:date ;
+                                                         ical:dtend "2016-09-27"^^xsd:date ;
+                                                         ical:location "Department of Computer Science, West University of Timisoara, Romania" ;
+                                                         ical:description "Affiliated with SYNASC 2016." ;
+                                                         sd:hasProgramChair sdp:Bostan_A, sdp:Kauers_M ;
+                                                         sd:hasGeneralChair sdp:Watt_S, sdp:Ida_T ;
+                                                         ical:url <http://synasc.ro/2016/tracks/symbolic-computation-2/> ;
+                                                         sd:hasProgramCommittee sdp:Yokoyama_K, sdp:Chen_S, sdp:Lee_WS, sdp:Roche_DS, sdp:England_M, sdp:DiazToca_GM, sdp:Joldes_M, sdp:Mezzarobba_M .
 
 <http://symbolicdata.org/Data/Conference/TAS-2015> a sd:Conference ;
                                                    rdfs:label "Theory and applications of syzygies" ;

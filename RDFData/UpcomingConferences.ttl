@@ -12,29 +12,8 @@
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
-<http://symbolicdata.org/Data/Conference/ANTS-2016> a sd:UpcomingConference ;
-                                                    rdfs:label "12th Algorithmic Number Theory Symposium" ;
-                                                    ical:dtstart "2016-08-29"^^xsd:date ;
-                                                    ical:dtend "2016-09-02"^^xsd:date ;
-                                                    ical:location "University Kaiserslautern, Germany" ;
-                                                    sd:hasPaperDeadline "2016-02-22"^^xsd:date ;
-                                                    ical:description "Since their inception in 1994, the bi-annual ANTS meetings have become the premier international forum for the presentation of new research in computational number theory. They are devoted to algorithmic aspects of number theory, including elementary number theory, algebraic number theory, analytic number theory, geometry of numbers, algebraic geometry, finite fields, and cryptography. " ;
-                                                    ical:url <http://www.mathematik.uni-kl.de/~thofmann/ants/> ;
-                                                    sd:invitedSpeakers sdp:Cohen_H, sdp:Hiary_G, sdp:Ho_W, sdp:Viray_B, sdp:Peikert_C ;
-                                                    sd:hasProgramCommittee sdp:Fieker_C, sdp:Hess_F, sdp:Hofmann_T, sdp:Wiese_G, sdp:Hart_W, sdp:Balakrishnan_J, sdp:Eisentraeger_K, sdp:Harvey_D, sdp:Holt_D, sdp:KhuriMakdisi_K, sdp:Kohel_D, sdp:Pomerance_C, sdp:Stehle_D, sdp:Tornaria_G, sdp:Voight_J .
-
 <http://symbolicdata.org/Data/Conference/CADCS-2016> ical:dtstart "2016-04-25"^^xsd:date ;
                                                      ical:dtend "2016-04-27"^^xsd:date .
-
-<http://symbolicdata.org/Data/Conference/CASC-2016> a sd:UpcomingConference ;
-                                                    rdfs:label "CASC-2016 - 18th International Workshop in Computer Algebra in Scientific Computing" ;
-                                                    ical:dtstart "2016-09-19"^^xsd:date ;
-                                                    ical:dtend "2016-09-23"^^xsd:date ;
-                                                    ical:location "Bucharest, Romania" ;
-                                                    sd:hasPaperDeadline "2016-04-22" ;
-                                                    ical:description "The methods of Scientific Computing play an important role in the natural sciences and engineering. Significance and impact of computer algebra methods and computer algebra systems for scientific computing has increased considerably over the last decades. <br/> The ongoing development of computer algebra systems, including their integration and adaptation to modern software environments, puts them to the forefront in scientific computing and enables the practical solution of many complex applied problems in the domains of natural sciences and engineering. <br/> The topics addressed in the workshop cover all the basic areas of scientific computing as they benefit from the application of computer algebra methods and software. " ;
-                                                    sd:hasProgramChair sdp:Koepf_W ;
-                                                    ical:url <http://www.casc.cs.uni-bonn.de/2016/> .
 
 <http://symbolicdata.org/Data/Conference/ICLP-2016> a sd:UpcomingConference ;
                                                     rdfs:label "ICLP - 32nd International Conference on Logic Programming" ;
@@ -49,6 +28,20 @@
                                                     sd:hasAbstractsDeadline "2016-04-22" ;
                                                     sd:hasOrganizers sdp:Balduccini_M, sdp:Schueller_P, sdp:DeVos_M, sdp:Saeedloei_N, sdp:Fodor_P, sdp:Arias_J .
 
+<http://symbolicdata.org/Data/Conference/ISSAC-2017> a sd:UpcomingConference ;
+                                                     rdfs:label "ISSAC 2017 - International Symposium on Symbolic and Algebraic Computation" ;
+                                                     ical:dtstart "2017-07-25"^^xsd:date ;
+                                                     ical:dtend "2017-07-28"^^xsd:date ;
+                                                     ical:location "University of Kaiserslautern, Germany" ;
+                                                     ical:description "The International Symposium on Symbolic and Algebraic Computation is the premier conference for research in symbolic computation and computer algebra. ISSAC 2017 will be the 42nd meeting in the series, which started in 1966 and has been held annually since 1981. The conference presents a range of invited speakers, tutorials, poster sessions, software demonstrations and vendor exhibits with a centerpiece of contributed research papers." ;
+                                                     sd:hasProgramChair sdp:SafeyElDin_M ;
+                                                     sd:hasGeneralChair sdp:Yap_C ;
+                                                     ical:url <http://www.issac-conference.org/2017> ;
+                                                     sd:hasProgramCommittee sdp:Kemper_G, sdp:Emiris_IZ, sdp:Eder_C, sdp:Gao_XS, sdp:Lairez_P, sdp:Gutierrez_J, sdp:Roche_DS, sdp:Zhi_L, sdp:Schost_E, sdp:SafeyElDin_M, sdp:Giesbrecht_M, sdp:Sharma_V, sdp:Kaltofen_E, sdp:Joldes_M, sdp:Leykin_A, sdp:Koutschan_C, sdp:Spaenlehauer_PJ, sdp:Strzebonski_A, sdp:Uhler_C ;
+                                                     sd:hasOrganizers sdp:Fieker_C, sdp:Decker_W ;
+                                                     sd:hasPublicityChair sdp:Sagraloff_M ;
+                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/ISSAC> .
+
 <http://symbolicdata.org/Data/Conference/MEGA-17> a sd:UpcomingConference ;
                                                   rdfs:label "MEGA-2017: Effective Methods in Algebraic Geometry" ;
                                                   ical:dtstart "2017-06-12"^^xsd:date ;
@@ -61,17 +54,15 @@
                                                   sd:hasProgramCommittee sdp:Emiris_IZ, sdp:Markwig_H, sdp:Mourrain_B, sdp:Beltran_C, sdp:Derksen_H, sdp:Draisma_J, sdp:Gorla_E, sdp:Ottaviani_G, sdp:Wisniewski_J ;
                                                   sd:hasOrganizers sdp:Galligo_A, sdp:Mourrain_B, sdp:Buse_L, sdp:Cortell_A, sdp:deAngelis_I, sdp:Hubert_E .
 
-<http://symbolicdata.org/Data/Conference/SC-square-2016> a sd:UpcomingConference ;
-                                                         rdfs:label "First International Workshop on Satisfiability Checking and Symbolic Computation" ;
-                                                         ical:dtstart "2016-09-24"^^xsd:date ;
-                                                         ical:dtend "2016-09-24"^^xsd:date ;
-                                                         ical:location "Department of Computer Science, West University of Timisoara, Romania" ;
-                                                         sd:hasPaperDeadline "2016-07-15"^^xsd:date ;
-                                                         ical:description "Symbolic Computation is concerned with the algorithmic determination of exact solutions to complex mathematical problems; more recent developments in the area of Satisfiability Checking are starting to tackle similar problems but with different algorithmic and technological solutions.  The two communities share many central interests, but researchers from these two communities rarely interact.  Also, the lack of common or compatible interfaces of tools is an obstacle to their fruitful combination. Bridges between the communities in the form of common platforms and road-maps are necessary to initiate an exchange, and to support and direct their interaction. The aim of this workshop, along the SC-square H2020 FETOPEN Coordination and Support Activity project, is to provide a time to discuss, share knowledge and experience across both communities. Affiliated with SYNASC 2016." ;
-                                                         sd:hasProgramChair sdp:Abraham_E, sdp:Fontaine_P ;
-                                                         ical:url <http://www.sc-square.org/CSA/workshop1.html> ;
-                                                         sd:invitedSpeakers sdp:Brown_CW ;
-                                                         sd:hasProgramCommittee sdp:Seiler_W, sdp:Chen_C, sdp:Buchberger_B, sdp:Sturm_T, sdp:Abbott_J, sdp:Davenport_JH, sdp:Becker_B, sdp:Brain_M, sdp:Forrest_S, sdp:Ganesh_V, sdp:Griggio_A, sdp:Kroening_D, sdp:Tinelli_C, sdp:Tiwari_A, sdp:England_M, sdp:Bigatti_A .
+<http://symbolicdata.org/Data/Conference/PASCO-2017> a sd:UpcomingConference ;
+                                                     rdfs:label "PASCO 2017: 8th International Workshop on Parallel Symbolic Computation" ;
+                                                     ical:dtstart "2017-07-23"^^xsd:date ;
+                                                     ical:dtend "2017-07-24"^^xsd:date ;
+                                                     ical:location "Technical University of Kaiserslautern, Germany" ;
+                                                     sd:hasPaperDeadline "2017-04-10"^^xsd:date ;
+                                                     ical:description "PASCO is a series of workshops dedicated to the promotion and advancement of parallel algorithms and software in all areas of symbolic mathematical computation. " ;
+                                                     ical:url <http://sigsam.org/PASCO/2017/> ;
+                                                     sd:hasAbstractsDeadline "2017-04-03"^^xsd:date .
 
 <http://symbolicdata.org/Data/Conference/SPP1489-2016> a sd:UpcomingConference ;
                                                        rdfs:label "SPP1489-2016: Final conference of the DFG priority project SPP 1489" ;
@@ -80,29 +71,6 @@
                                                        ical:location "Kaiserslautern, Germany" ;
                                                        ical:description "Final conference of the DFG priority project SPP 1489" ;
                                                        ical:url <http://www.computeralgebra.de/index.php?option=com_content&view=article&id=99&Itemid=62> .
-
-<http://symbolicdata.org/Data/Conference/SYNASC-2016> a sd:UpcomingConference ;
-                                                      rdfs:label "SYNASC 2016 - 18th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing" ;
-                                                      ical:dtstart "2016-09-24"^^xsd:date ;
-                                                      ical:dtend "2016-09-27"^^xsd:date ;
-                                                      ical:location "Department of Computer Science, West University of Timisoara, Romania" ;
-                                                      sd:hasPaperDeadline "2016-06-22"^^xsd:date ;
-                                                      ical:description "International Symposium on Symbolic and Numeric Algorithms for Scientific Computing is a international conference that aims to stimulate the interaction between the two scientific communities of symbolic and numeric computing and to exhibit interesting applications of the areas both in theory and in practice. The choice of the topic is motivated by the belief of the organizers that the dialogue between the two communities is very necessary for accelerating the progress in making the computer a truly intelligent aid for mathematicians and engineers." ;
-                                                      ical:url <http://synasc.ro/2016/> ;
-                                                      sd:hasAbstractsDeadline "2016-06-10"^^xsd:date .
-
-<http://symbolicdata.org/Data/Conference/SYNASC-2016-SC> a sd:UpcomingConference ;
-                                                         rdfs:label "SYNASC 2016 - Symbolic Computation Track" ;
-                                                         ical:dtstart "2016-09-24"^^xsd:date ;
-                                                         ical:dtend "2016-09-27"^^xsd:date ;
-                                                         ical:location "Department of Computer Science, West University of Timisoara, Romania" ;
-                                                         sd:hasPaperDeadline "2016-06-22"^^xsd:date ;
-                                                         ical:description "Affiliated with SYNASC 2016." ;
-                                                         sd:hasProgramChair sdp:Bostan_A, sdp:Kauers_M ;
-                                                         sd:hasGeneralChair sdp:Watt_S, sdp:Ida_T ;
-                                                         ical:url <http://synasc.ro/2016/tracks/symbolic-computation-2/> ;
-                                                         sd:hasAbstractsDeadline "2016-06-10"^^xsd:date ;
-                                                         sd:hasProgramCommittee sdp:Yokoyama_K, sdp:Chen_S, sdp:Lee_WS, sdp:Roche_DS, sdp:England_M, sdp:DiazToca_GM, sdp:Joldes_M, sdp:Mezzarobba_M .
 
 sd:UpcomingConference a owl:Class ;
                       rdfs:label "Upcoming Conference Event" ;
