@@ -94,6 +94,11 @@ ns1:FOCM a sd:ConferenceSeries ;
          sd:hasURL <http://focm-society.org/> ;
          sd:description "FoCM conferences are held every three years and cover the entire spectrum of mathematical computation. They consist of plenary invited lectures and and theme-centered parallel workshops who organise their own speakers. The meetings are run by the FoCM Society." .
 
+ns1:FoCM a sd:ConferenceSeries ;
+         rdfs:label "Foundations of Computational Mathematics" ;
+         sd:hasURL <http://focm-society.org/> ;
+         sd:description "The computer has profoundly changed the relationship between mathematics and computation.  Besides its invaluable role in numeric, symbolic, and experimental applications, computation is an important object of mathematical study in its own right and a fundamental theoretical tool. It is a source of new and exciting problems for mathematics. The FoCM conference, held every three years, covers the entire spectrum of mathematical computation. " .
+
 ns1:ICMS a sd:ConferenceSeries ;
          rdfs:label "ICMS: International Congress on Mathematical Software" ;
          rdfs:seeAlso <http://sigsam.org/Resources/ConferenceSeries.html#navICMS> ;
@@ -141,9 +146,10 @@ ns1:PASCO a sd:ConferenceSeries ;
           sd:publicationRules "Papers are submitted in advance and the proceedings usually published with the ACM." .
 
 ns1:PCA a sd:ConferenceSeries ;
-        rdfs:label "PCA: Polynomial Computer Algebra" ;
+        rdfs:label "PCA: Polynomial Computer Algebra", "Polynomial Computer Algebra" ;
         rdfs:seeAlso <http://sigsam.org/Resources/ConferenceSeries.html#navPCA> ;
-        sd:description "This annual meeting at the The Euler International Mathematical Institute in Saint-Petersburg, Russia is devoted to polynomial algorithms in Computer Algebra.  It consists of plenary talks and contributed talks, chosen by submission of extended abstract in advance." .
+        sd:hasURL <http://pca.pdmi.ras.ru> ;
+        sd:description "This annual meeting at the The Euler International Mathematical Institute in Saint-Petersburg, Russia is devoted to polynomial algorithms in Computer Algebra.  It consists of plenary talks and contributed talks, chosen by submission of extended abstract in advance.", "The annual conference Polynomial Computer Algebra at the Euler International Mathematical Institute, St. Petersburg, Russia, is devoted to polynomial algorithms in Computer Algebra. This field has a lot of applications both in theoretical and applied mathematics as well as in Computer Science. " .
 
 ns1:Pre-ISSAC a sd:ConferenceSeries ;
               rdfs:label "Annual Computer Algebra Conferences pre-ISSAC" ;

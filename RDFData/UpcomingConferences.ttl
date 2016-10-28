@@ -12,21 +12,40 @@
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
+<http://symbolicdata.org/Data/Conference/ACA-2017> a sd:UpcomingConference ;
+                                                   rdfs:label "ACA 2017 - 23th Conference on Applications of Computer Algebra" ;
+                                                   ical:dtstart "2017-07-17"^^xsd:date ;
+                                                   ical:dtend "2017-07-21"^^xsd:date ;
+                                                   ical:location "Jerusalem, Israel" ;
+                                                   ical:description "The ACA - Applications of Computer Algebra - conference series is devoted to promoting all kinds of computer algebra applications, and encouraging the interaction of developers of computer algebra systems and packages with researchers and users (including scientists, engineers, educators, and mathematicians). Topics include, but are not limited to, computer algebra in the sciences, engineering, communication, medicine, pure and applied mathematics, education and computer science.  " ;
+                                                   ical:url <http://www.aca2017.jct.ac.il/> ;
+                                                   sd:hasAbstractsDeadline "2017-04-30"^^xsd:date ;
+                                                   sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/ACA> ;
+                                                   sd:hasSesseionProposalDeadline "2017-03-01"^^xsd:date .
+
 <http://symbolicdata.org/Data/Conference/CADCS-2016> ical:dtstart "2016-04-25"^^xsd:date ;
                                                      ical:dtend "2016-04-27"^^xsd:date .
 
-<http://symbolicdata.org/Data/Conference/ICLP-2016> a sd:UpcomingConference ;
-                                                    rdfs:label "ICLP - 32nd International Conference on Logic Programming" ;
-                                                    ical:dtstart "2016-10-17"^^xsd:date ;
-                                                    ical:dtend "2016-10-21"^^xsd:date ;
-                                                    ical:location "New York City, USA" ;
-                                                    sd:hasPaperDeadline "2016-04-29" ;
-                                                    ical:description "Since the first conference held in Marseilles in 1982, ICLP has been the premier international conference for presenting research  in  logic  programming. Contributions  are sought in all areas of logic programming ... In  addition  to  the  presentations of accepted papers, the technical program will include invited talks, advanced tutorials, the doctoral  consortium,  and several workshops." ;
-                                                    sd:hasProgramChair sdp:Carro_M, sdp:King_A ;
-                                                    sd:hasGeneralChair sdp:Kifer_M, sdp:Zhou_NF ;
-                                                    ical:url <http://software.imdea.org/Conferences/ICLP2016/> ;
-                                                    sd:hasAbstractsDeadline "2016-04-22" ;
-                                                    sd:hasOrganizers sdp:Balduccini_M, sdp:Schueller_P, sdp:DeVos_M, sdp:Saeedloei_N, sdp:Fodor_P, sdp:Arias_J .
+<http://symbolicdata.org/Data/Conference/CAFG-2017> a sd:UpcomingConference ;
+                                                    rdfs:label "Computeralgebra-Tagung der Fachgruppe" ;
+                                                    ical:dtstart "2017-05-04"^^xsd:date ;
+                                                    ical:dtend "2017-05-06"^^xsd:date ;
+                                                    ical:location "Kassel, Germany" ;
+                                                    ical:description "In Fortsetzung der erfolgreichen Tagungen 2003, 2005, 2009, 2012, 2014 in Kassel und 2007 in Kaiserslautern führt die Fachgruppe im Mai 2017 wieder eine derartige Tagung in Kassel durch. Ziel ist es, ein Forum zu bieten, das es erstens Nachwuchswissenschaftlern ermöglicht, ihre Ergebnisse vorzustellen, andererseits aber auch einige Hauptvortragende zu gewinnen, die übersichtsvorträge über wichtige Gebiete der Computeralgebra und über Computeralgebra-Software geben sollen." ;
+                                                    sd:hasRegistrationDeadline "2017-04-15"^^xsd:date ;
+                                                    ical:url <http://www.fachgruppe-computeralgebra.de/tagung-kassel-2017/> ;
+                                                    sd:invitedSpeakers sdp:Eder_C, sdp:Geck_M, sdp:Robertz_D, sdp:Niemeyer_A, sdp:Elsenhans_S ;
+                                                    sd:hasAbstractsDeadline "2017-03-01"^^xsd:date ;
+                                                    sd:hasOrganizers sdp:Koepf_W .
+
+<http://symbolicdata.org/Data/Conference/FoCM-2017> a sd:UpcomingConference ;
+                                                    rdfs:label "Foundations of Computational Mathematics (FoCM) 2017" ;
+                                                    ical:dtstart "2017-07-10"^^xsd:date ;
+                                                    ical:dtend "2017-07-19"^^xsd:date ;
+                                                    ical:location "University of Barcelona, Spain" ;
+                                                    ical:description "The computer has profoundly changed the relationship between mathematics and computation.  Besides its invaluable role in numeric, symbolic, and experimental applications, computation is an important object of mathematical study in its own right and a fundamental theoretical tool. It is a source of new and exciting problems for mathematics. The FoCM conference, held every three years, covers the entire spectrum of mathematical computation." ;
+                                                    ical:url <http://www.ub.edu/focm2017> ;
+                                                    sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/FoCM> .
 
 <http://symbolicdata.org/Data/Conference/ISSAC-2017> a sd:UpcomingConference ;
                                                      rdfs:label "ISSAC 2017 - International Symposium on Symbolic and Algebraic Computation" ;
@@ -60,17 +79,25 @@
                                                      ical:dtend "2017-07-24"^^xsd:date ;
                                                      ical:location "Technical University of Kaiserslautern, Germany" ;
                                                      sd:hasPaperDeadline "2017-04-10"^^xsd:date ;
-                                                     ical:description "PASCO is a series of workshops dedicated to the promotion and advancement of parallel algorithms and software in all areas of symbolic mathematical computation. " ;
+                                                     ical:description "PASCO is a series of workshops dedicated to the promotion and advancement of parallel algorithms and software in all areas of symbolic mathematical computation. The 8th International Workshop on Parallel Symbolic Computation (PASCO) is the latest instance in a series of workshops dedicated to the promotion and advancement of parallel algorithms and software in all areas of symbolic mathematical computation. " ;
+                                                     sd:hasProgramChair sdp:Faugere_JC, sdp:Monagan_M ;
+                                                     sd:hasGeneralChair sdp:Loidl_HW ;
                                                      ical:url <http://sigsam.org/PASCO/2017/> ;
-                                                     sd:hasAbstractsDeadline "2017-04-03"^^xsd:date .
+                                                     sd:hasAbstractsDeadline "2017-04-03"^^xsd:date ;
+                                                     sd:hasOrganizers sdp:Fieker_C, sdp:Decker_W ;
+                                                     sd:hasPublicityChair sdp:Konovalov_A ;
+                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/PASCO> .
 
-<http://symbolicdata.org/Data/Conference/SPP1489-2016> a sd:UpcomingConference ;
-                                                       rdfs:label "SPP1489-2016: Final conference of the DFG priority project SPP 1489" ;
-                                                       ical:dtstart "2016-10-10"^^xsd:date ;
-                                                       ical:dtend "2016-10-14"^^xsd:date ;
-                                                       ical:location "Kaiserslautern, Germany" ;
-                                                       ical:description "Final conference of the DFG priority project SPP 1489" ;
-                                                       ical:url <http://www.computeralgebra.de/index.php?option=com_content&view=article&id=99&Itemid=62> .
+<http://symbolicdata.org/Data/Conference/PCA-2017> a sd:UpcomingConference ;
+                                                   rdfs:label "Polynomial Computer Algebra 2017" ;
+                                                   ical:dtstart "2017-04-17"^^xsd:date ;
+                                                   ical:dtend "2017-04-22"^^xsd:date ;
+                                                   ical:location "Euler International Mathematical Institute, St. Petersburg, Russia" ;
+                                                   ical:description "The annual conference Polynomial Computer Algebra is devoted to polynomial algorithms in Computer Algebra. This field has a lot of applications both in theoretical and applied mathematics as well as in Computer Science. The conference PCA'2017 is the eighth in the series . The first one PCA'2008 commemorated Eugene Pankratiev who was a brilliant specialist in the field of Computer Algebra and Differential Algebra" ;
+                                                   ical:url <http://pca.pdmi.ras.ru/2017> ;
+                                                   sd:hasAbstractsDeadline "2017-03-31"^^xsd:date ;
+                                                   sd:hasProgramCommittee sdp:Buchberger_B, sdp:Gerdt_VP, sdp:Robbiano_L, sdp:Grigoriev_D, sdp:Gianni_P, sdp:Khovansky_A, sdp:Myllari_A, sdp:Pan_V, sdp:Stefanescu_D, sdp:Vershik_A, sdp:Vavilov_N, sdp:Watt_S, sdp:Kotsireas_IS, sdp:Edneral_V, sdp:Vasiliev_N ;
+                                                   sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/PCA> .
 
 sd:UpcomingConference a owl:Class ;
                       rdfs:label "Upcoming Conference Event" ;

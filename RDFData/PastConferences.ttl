@@ -212,7 +212,8 @@
                                                    ical:location "Kassel, Germany" ;
                                                    ical:description "The ACA conferences are organized as a series of Special Sessions. All interested researchers can propose a Special Session by sending an e-mail to the Program Chairs (mailto:aca2016chairs@mathematik.uni-kassel.de) by March 31st, 2016. The Scientific Committee (i.e. the ACA Working Group) will then decide on the acceptance of the proposed session. Accepted sessions will be immediately announced on the conference web site." ;
                                                    ical:url <http://www.mathematik.uni-kassel.de/ACA2016/> ;
-                                                   sd:hasProgramCommittee sdp:Koepf_W, sdp:Seiler_W, sdp:Neun_W, sdp:Regensburger_G, sdp:RoanesLozano_E, sdp:Steinberg_S, sdp:Wester_M .
+                                                   sd:hasProgramCommittee sdp:Koepf_W, sdp:Seiler_W, sdp:Neun_W, sdp:Regensburger_G, sdp:RoanesLozano_E, sdp:Steinberg_S, sdp:Wester_M ;
+                                                   sd:hasCARReport "CAR 59 (Okt. 2016), p. 37-38" .
 
 <http://symbolicdata.org/Data/Conference/ACAT-2016> a sd:Conference ;
                                                     rdfs:label "ACAT-2016 - 17th International Workshop on Advanced Computing and Analysis Techniques in Physics Research" ;
@@ -322,7 +323,8 @@
                                                     ical:description "Since their inception in 1994, the bi-annual ANTS meetings have become the premier international forum for the presentation of new research in computational number theory. They are devoted to algorithmic aspects of number theory, including elementary number theory, algebraic number theory, analytic number theory, geometry of numbers, algebraic geometry, finite fields, and cryptography. " ;
                                                     ical:url <http://www.mathematik.uni-kl.de/~thofmann/ants/> ;
                                                     sd:invitedSpeakers sdp:Cohen_H, sdp:Hiary_G, sdp:Ho_W, sdp:Viray_B, sdp:Peikert_C ;
-                                                    sd:hasProgramCommittee sdp:Fieker_C, sdp:Hess_F, sdp:Hofmann_T, sdp:Wiese_G, sdp:Hart_W, sdp:Balakrishnan_J, sdp:Eisentraeger_K, sdp:Harvey_D, sdp:Holt_D, sdp:KhuriMakdisi_K, sdp:Kohel_D, sdp:Pomerance_C, sdp:Stehle_D, sdp:Tornaria_G, sdp:Voight_J .
+                                                    sd:hasProgramCommittee sdp:Fieker_C, sdp:Hess_F, sdp:Hofmann_T, sdp:Wiese_G, sdp:Hart_W, sdp:Balakrishnan_J, sdp:Eisentraeger_K, sdp:Harvey_D, sdp:Holt_D, sdp:KhuriMakdisi_K, sdp:Kohel_D, sdp:Pomerance_C, sdp:Stehle_D, sdp:Tornaria_G, sdp:Voight_J ;
+                                                    sd:hasCARReport "CAR 59 (Okt. 2016), p. 38-39" .
 
 <http://symbolicdata.org/Data/Conference/ANTS-XI> a sd:Conference ;
                                                   rdfs:label "Eleventh Algorithmic Number Theory Symposium ANTS-XI" ;
@@ -630,7 +632,8 @@
                                                     ical:location "Bucharest, Romania" ;
                                                     ical:description "The methods of Scientific Computing play an important role in the natural sciences and engineering. Significance and impact of computer algebra methods and computer algebra systems for scientific computing has increased considerably over the last decades. <br/> The ongoing development of computer algebra systems, including their integration and adaptation to modern software environments, puts them to the forefront in scientific computing and enables the practical solution of many complex applied problems in the domains of natural sciences and engineering. <br/> The topics addressed in the workshop cover all the basic areas of scientific computing as they benefit from the application of computer algebra methods and software. " ;
                                                     sd:hasProgramChair sdp:Koepf_W ;
-                                                    ical:url <http://www.casc.cs.uni-bonn.de/2016/> .
+                                                    ical:url <http://www.casc.cs.uni-bonn.de/2016/> ;
+                                                    sd:hasCARReport "CAR 59 (Okt. 2016), p. 39-40" .
 
 <http://symbolicdata.org/Data/Conference/CCA-14> a sd:Conference ;
                                                  rdfs:label "CCA'14: Workshop on Compact Computer Algebra" ;
@@ -818,7 +821,8 @@
                                                    ical:dtend "2016-07-22"^^xsd:date ;
                                                    ical:location "TU Berlin, Germany" ;
                                                    ical:description "Several minisymposia address aspects of computer algebra, e.g., <ul><li>Combinatorial algebraic geometry</li> <li>Toric, tropical and combinatorial geometry - a panorama</li> <li>Combinatorics of Polynomial Systems</li> <li>Computer Algebra and Applications</li></ul>." ;
-                                                   ical:url <http://www.7ecm.de> .
+                                                   ical:url <http://www.7ecm.de> ;
+                                                   sd:hasCARReport "CAR 59 (Okt. 2016), p. 36" .
 
 <http://symbolicdata.org/Data/Conference/EMCA-2014> a sd:Conference ;
                                                     rdfs:label "Workhshop on Experimental Methods in Computational Algebra" ;
@@ -907,6 +911,17 @@
                                                  ical:url <http://hamilton.nuigalway.ie/HPT/> ;
                                                  sd:invitedSpeakers sdp:Brown_R, sdp:Dotsenko_V, sdp:Engstroem_A, sdp:Fiorenza_D, sdp:Huettemann_T, sdp:Kadeshvili_T, sdp:Markl_M, sdp:Murillo_A, sdp:Pilarczyk_P, sdp:Quadrat_A, sdp:Rahm_A, sdp:Sergeraert_F, sdp:Stasheff_J, sdp:Tonks_A, sdp:Vokrinek_L, sdp:Romero_A, sdp:Heras_J .
 
+<http://symbolicdata.org/Data/Conference/ICLP-2016> a sd:Conference ;
+                                                    rdfs:label "ICLP - 32nd International Conference on Logic Programming" ;
+                                                    ical:dtstart "2016-10-17"^^xsd:date ;
+                                                    ical:dtend "2016-10-21"^^xsd:date ;
+                                                    ical:location "New York City, USA" ;
+                                                    ical:description "Since the first conference held in Marseilles in 1982, ICLP has been the premier international conference for presenting research  in  logic  programming. Contributions  are sought in all areas of logic programming ... In  addition  to  the  presentations of accepted papers, the technical program will include invited talks, advanced tutorials, the doctoral  consortium,  and several workshops." ;
+                                                    sd:hasProgramChair sdp:Carro_M, sdp:King_A ;
+                                                    sd:hasGeneralChair sdp:Kifer_M, sdp:Zhou_NF ;
+                                                    ical:url <http://software.imdea.org/Conferences/ICLP2016/> ;
+                                                    sd:hasOrganizers sdp:Balduccini_M, sdp:Schueller_P, sdp:DeVos_M, sdp:Saeedloei_N, sdp:Fodor_P, sdp:Arias_J .
+
 <http://symbolicdata.org/Data/Conference/ICMS-2002> a sd:Conference ;
                                                     rdfs:label "ICMS-2002 - International Congress on Mathematical Software" ;
                                                     ical:dtstart "2002-08-17"^^xsd:date ;
@@ -945,6 +960,7 @@ Mathematical software systems rely on a cooperation of mathematicians, designers
                                                     ical:description "The ICMS is a satellite conference of the 7th European Congress of Mathematics, July 18-22, 2016, TU Berlin, http://www.7ecm.de/ <br/> The meeting will provide researchers like yourself a forum for sharing challenges, achievements and progress in mathematical software research, design, development and use. <br/> We welcome work on any aspect of mathematical software in any area of mathematics, science and engineering, and applications. Please look for an appropriate session at http://icms2016.zib.de/sessions.html." ;
                                                     ical:url <http://icms2016.zib.de> ;
                                                     sd:invitedSpeakers sdp:Decker_W, sdp:Watt_S, sdp:Dongarra_J, sdp:Voevodsky_V ;
+                                                    sd:hasCARReport "CAR 59 (Okt. 2016), p. 36" ;
                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/ICMS> .
 
 <http://symbolicdata.org/Data/Conference/ISSAC-2008> a sd:Conference ;
@@ -1028,6 +1044,7 @@ Mathematical software systems rely on a cooperation of mathematicians, designers
                                                      sd:invitedSpeakers sdp:Zhi_L, sdp:Abraham_E, sdp:Schost_E ;
                                                      sd:hasProgramCommittee sdp:Mayr_EW, sdp:Bradford_R, sdp:Dumas_JG, sdp:Mora_T, sdp:Gao_XS, sdp:Yokoyama_K, sdp:Sagraloff_M, sdp:Winkler_F, sdp:Abramov_S, sdp:Zima_E, sdp:Bostan_A, sdp:Feng_R, sdp:Hauenstein_J, sdp:Kapur_D, sdp:Labahn_G, sdp:Lee_WS, sdp:McCallum_S, sdp:Monagan_M, sdp:Perret_L, sdp:DAndrea_C, sdp:Panario_D, sdp:Hong_H ;
                                                      sd:hasOrganizers sdp:Carette_J, sdp:Heinle_A, sdp:Rosenkranz_M, sdp:Barkatou_M, sdp:Pearce_R, sdp:Chen_S, sdp:Kotsireas_IS ;
+                                                     sd:hasCARReport "CAR 59 (Okt. 2016), p. 36-37" ;
                                                      sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/ISSAC> .
 
 <http://symbolicdata.org/Data/Conference/KLNT-14> a sd:Conference ;
@@ -1271,6 +1288,14 @@ Mathematical software systems rely on a cooperation of mathematicians, designers
                                                        ical:url <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014> ;
                                                        sd:hasCARReport "CAR 54 (Mrz. 2014), p. 22" ;
                                                        sd:hasDetailedRecord <http://symbolicdata.org/rdf/Conferences/BadBoll-14.rdf> .
+
+<http://symbolicdata.org/Data/Conference/SPP1489-2016> a sd:Conference ;
+                                                       rdfs:label "SPP1489-2016: Final conference of the DFG priority project SPP 1489" ;
+                                                       ical:dtstart "2016-10-10"^^xsd:date ;
+                                                       ical:dtend "2016-10-14"^^xsd:date ;
+                                                       ical:location "Kaiserslautern, Germany" ;
+                                                       ical:description "Final conference of the DFG priority project SPP 1489" ;
+                                                       ical:url <http://www.computeralgebra.de/index.php?option=com_content&view=article&id=99&Itemid=62> .
 
 <http://symbolicdata.org/Data/Conference/SPPEvent-1001> a sd:Conference ;
                                                         rdfs:label "Software Workshop: Geometry and Combinatorics I" ;
