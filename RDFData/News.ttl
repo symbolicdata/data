@@ -83,3 +83,21 @@
                                                dct:publisher sdp:Davenport_JH ;
                                                sioc:link <http://listserv.acm.org/SCRIPTS/WA-ACMLPX.CGI?A2=ind1604&L=SIGSAM-MEMBERS&F=&S=&P=498> ;
                                                sioc:links_to <http://www.risc.jku.at/~tkutsia/organization/jsc-scss-2016.html> .
+
+<http://symbolicdata.org/Data/Post/2016-09-19> a sioc:BlogPost ;
+# has to be fixed - Mailserver war nicht erreichbar. 
+                                               dct:created "2016-09-19"^^xsd:date ;
+                                               rdfs:label "Normaliz 3.1.2  on Github" ;
+                                               dct:subject <http://symbolicdata.org/Data/System/normaliz> ;
+                                               dct:abstract "Some weeks ago we informed you that  Normaliz 3.1.2 had been uploaded to our GitHub repository. Unfortunately it has a bug that can appear in large computations. The bug shows up in form of an \"assert\". This bug does NOT affect version 3.1.1. A bugfix has been published as version 3.1.3." ;
+                                               dct:publisher sdp:Bruns_W ;
+                                               sioc:links_to <http://www.normaliz.uni-osnabrueck.de> .
+
+<http://symbolicdata.org/Data/Post/2016-10-25> a sioc:BlogPost ;
+                                               dct:created "2016-10-25"^^xsd:date ;
+                                               rdfs:label "Normaliz 3.1.3 on Github" ;
+                                               dct:subject <http://symbolicdata.org/Data/System/normaliz> ;
+                                               dct:abstract "Some weeks ago we informed you that  Normaliz 3.1.2 had been uploaded to our GitHub repository. Unfortunately it has a bug that can appear in large computations. The bug shows up in form of an \"assert\". This bug does NOT affect version 3.1.1. A bugfix has been published as version 3.1.3." ;
+                                               dct:publisher sdp:Bruns_W ;
+                                               sioc:links_to <http://www.normaliz.uni-osnabrueck.de> .
+
