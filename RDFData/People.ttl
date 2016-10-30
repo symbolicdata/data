@@ -485,6 +485,10 @@ sdp:Bratsas_C a foaf:Person ;
               foaf:name "Charalampos Bratsas" ;
               foaf:homepage <http://webscience.auth.gr/?q=content/bratsas-charalampos> .
 
+sdp:Braun_J a foaf:Person ;
+            foaf:name "Johannes Braun" ;
+            sd:affiliation "TU Darmstadt, Germany" .
+
 sdp:Braun_M a foaf:Person ;
             foaf:name "Michael Braun" ;
             sd:affiliation "Darmstadt" .
@@ -535,7 +539,8 @@ sdp:Buchberger_B a foaf:Person ;
                  sd:affiliation "Johannes Kepler University, Austria" .
 
 sdp:Buchmann_J a foaf:Person ;
-               foaf:name "Johannes Buchmann" .
+               foaf:name "Johannes Buchmann" ;
+               sd:affiliation "TU Darmstadt, Germany" .
 
 sdp:Buczynski_J a foaf:Person ;
                 foaf:name "Jarek Buczynski" ;
@@ -609,6 +614,10 @@ sdp:Carneiro_M a foaf:Person ;
 sdp:Carro_M a foaf:Person ;
             foaf:name "Manuel Carro" ;
             sd:affiliation "UPM and IMDEA Software Institute, Spain" .
+
+sdp:Cartani_A a foaf:Person ;
+              foaf:name "Andrea Caranti" ;
+              sd:affiliation "Trento, Italy" .
 
 sdp:Carter_N a foaf:Person ;
              foaf:name "Nathan Carter" ;
@@ -760,6 +769,10 @@ sdp:CruzFilipe_L a foaf:Person ;
 sdp:Cuntz_M a foaf:Person ;
             foaf:name "Michael Cuntz" ;
             sd:affiliation "Leibniz Universität Hannover, Germany" .
+
+sdp:Custodio_R a foaf:Person ;
+               foaf:name "Ricardo Custódio" ;
+               sd:affiliation "Santa Catarina" .
 
 sdp:Cuypers_H a foaf:Person ;
               foaf:name "Hans Cuypers" .
@@ -964,6 +977,9 @@ sdp:Eisentraeger_K a foaf:Person ;
 
 sdp:Ekici_B a foaf:Person ;
             foaf:name "Burak Ekici" .
+
+sdp:ElBansarkhani_R a foaf:Person ;
+                    foaf:name "Rachid El Bansarkhani" .
 
 sdp:Elias_J a foaf:Person ;
             foaf:name "Joan Elías" ;
@@ -1363,6 +1379,10 @@ sdp:Grund_R a foaf:Person ;
 
 sdp:Gubeladze_J a foaf:Person ;
                 foaf:name "J. Gubeladze" .
+
+sdp:Gueneysu_T a foaf:Person ;
+               foaf:name "Tim Güneysu" ;
+               sd:affiliation "Uni Bremen, Germany" .
 
 sdp:Gugisch_R a foaf:Person ;
               foaf:name "Ralf Gugisch" .
@@ -1958,6 +1978,9 @@ sdp:Kiermaier_M a foaf:Person ;
 sdp:Kifer_M a foaf:Person ;
             foaf:name "Michael Kifer" ;
             sd:affiliation "Stony Brook University, USA" .
+
+sdp:KifleBoku_D a foaf:Person ;
+                foaf:name "Dereje Kifle Boku" .
 
 sdp:Kim_JL a foaf:Person ;
            foaf:name "Jon-Lark Kim" ;
@@ -2686,6 +2709,10 @@ sdp:Motsak_O a foaf:Person ;
 
 sdp:Mourrain_B a foaf:Person ;
                foaf:name "Bernard Mourrain" .
+
+sdp:Muehlhaeuser_M a foaf:Person ;
+                   foaf:name "Max Mühlhäuser" ;
+                   sd:affiliation "TU Darmstadt, Germany" .
 
 sdp:Mueller_D a foaf:Person ;
               foaf:name "Dennis Müller" .
@@ -3529,6 +3556,10 @@ sdp:Schulze_M a foaf:Person ;
 sdp:Schwardmann_U a foaf:Person ;
                   foaf:name "Ulrich Schwardmann" .
 
+sdp:Schweinfurter_M a foaf:Person ;
+                    foaf:name "Michael Schweinfurter" ;
+                    sd:affiliation "Uni Kassel, Germany" .
+
 sdp:Schwinning_N a foaf:Person ;
                  foaf:name "Nils Schwinning" .
 
@@ -3704,6 +3735,10 @@ sdp:Sprenger_T a foaf:Person ;
 sdp:Srinivasan_B a foaf:Person ;
                  foaf:name "Bhama Srinivasan" ;
                  sd:affiliation "University of Illinois at Chicago, USA" .
+
+sdp:Stadler_T a foaf:Person ;
+              foaf:name "Thomas Stadler" ;
+              sd:affiliation "Uni Passau, Germany" .
 
 sdp:Stan_F a foaf:Person ;
            foaf:name "Flavia Stan" .
@@ -4034,6 +4069,10 @@ sdp:Vershik_A a foaf:Person ;
 sdp:Vidal_R a foaf:Person ;
             foaf:name "Rene Vidal" ;
             sd:affiliation "Johns Hopkins University, Baltimore, USA" .
+
+sdp:Vigil_M a foaf:Person ;
+            foaf:name "Martin Vigil" ;
+            sd:affiliation "TU Darmstadt, Germany" .
 
 sdp:Villard_G a foaf:Person ;
               foaf:name "Gilles Villard" ;
