@@ -4,6 +4,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 
@@ -82,13 +83,13 @@
 
 <http://symbolicdata.org/Data/Dissertation/Braun_15> a bibo:Thesis ;
                                                      dct:abstract "Published in CA-Rundbrief 59 (2016)" ;
-                                                     dct:creator sd:Braun_J ;
+                                                     dct:creator sdp:Braun_J ;
                                                      dct:title "Maintaining Security and Trust in large scale Public Key Infrastructures" ;
                                                      sd:hasURL <http://tuprints.ulb.tu-darmstadt.de/4566/> ;
-                                                     dct:date "20151121222"^^dct:W3CDTF ;
+                                                     dct:date "2015"^^dct:W3CDTF ;
                                                      bibo:degree <http://purl.org/ontology/bibo/degrees/phd> ;
-                                                     sd:hasSupervisor sd:Buchmann_J ;
-                                                     sd:hasReviewer sd:Muehlhaeuser_M ;
+                                                     sd:hasSupervisor sdp:Buchmann_J ;
+                                                     sd:hasReviewer sdp:Muehlhaeuser_M ;
                                                      bibo:institution "TU Darmstadt, Germany" .
 
 <http://symbolicdata.org/Data/Dissertation/Brickenstein_10> a bibo:Thesis ;
@@ -164,13 +165,13 @@
 
 <http://symbolicdata.org/Data/Dissertation/ElBansarkhani_15> a bibo:Thesis ;
                                                              dct:abstract "Published in CA-Rundbrief 59 (2016)" ;
-                                                             dct:creator sd:ElBansarkhani_R ;
+                                                             dct:creator sdp:ElBansarkhani_R ;
                                                              dct:title "On the Design and Improvement of Lattice-based Cryptosystems" ;
                                                              sd:hasURL <http://tuprints.ulb.tu-darmstadt.de/4969/> ;
                                                              dct:date "2015"^^dct:W3CDTF ;
                                                              bibo:degree <http://purl.org/ontology/bibo/degrees/phd> ;
-                                                             sd:hasSupervisor sd:Buchmann_J ;
-                                                             sd:hasReviewer sd:Gueneysu_T ;
+                                                             sd:hasSupervisor sdp:Buchmann_J ;
+                                                             sd:hasReviewer sdp:Gueneysu_T ;
                                                              bibo:institution "TU Darmstadt, Germany" .
 
 <http://symbolicdata.org/Data/Dissertation/Feulner_13> a bibo:Thesis ;
@@ -257,12 +258,12 @@
 
 <http://symbolicdata.org/Data/Dissertation/Hofmann_16> a bibo:Thesis ;
                                                        dct:abstract "Published in CA-Rundbrief 59 (2016)" ;
-                                                       dct:creator sd:Hofmann_T ;
+                                                       dct:creator sdp:Hofmann_T ;
                                                        dct:title "Integrality of representations of finite groups" ;
                                                        dct:date "2016"^^dct:W3CDTF ;
                                                        bibo:degree <http://purl.org/ontology/bibo/degrees/phd> ;
-                                                       sd:hasSupervisor sd:Fieker_C ;
-                                                       sd:hasReviewer sd:Bley_W ;
+                                                       sd:hasSupervisor sdp:Fieker_C ;
+                                                       sd:hasReviewer sdp:Bley_W ;
                                                        bibo:institution "TU Kaiserslautern, Germany" .
 
 <http://symbolicdata.org/Data/Dissertation/Horn_08> a bibo:Thesis ;
@@ -298,12 +299,12 @@
 
 <http://symbolicdata.org/Data/Dissertation/KifleBoku_16> a bibo:Thesis ;
                                                          dct:abstract "Published in CA-Rundbrief 59 (2016)" ;
-                                                         dct:creator sd:KifleBoku_D ;
+                                                         dct:creator sdp:KifleBoku_D ;
                                                          dct:title "Gröbner Bases over Extension Fields of Q" ;
                                                          dct:date "2016"^^dct:W3CDTF ;
                                                          bibo:degree <http://purl.org/ontology/bibo/degrees/phd> ;
-                                                         sd:hasSupervisor sd:Decker_W ;
-                                                         sd:hasReviewer sd:FruehbisKrueger_A ;
+                                                         sd:hasSupervisor sdp:Decker_W ;
+                                                         sd:hasReviewer sdp:FruehbisKrueger_A ;
                                                          bibo:institution "TU Kaiserslautern, Germany" .
 
 <http://symbolicdata.org/Data/Dissertation/Kronberg_15> a bibo:Thesis ;
@@ -373,12 +374,12 @@
 
 <http://symbolicdata.org/Data/Dissertation/Moede_16> a bibo:Thesis ;
                                                      dct:abstract "Published in CA-Rundbrief 59 (2016)" ;
-                                                     dct:creator sd:Moede_T ;
+                                                     dct:creator sdp:Moede_T ;
                                                      dct:title "Coclass theory for nilpotent associative algebras" ;
                                                      dct:date "2016"^^dct:W3CDTF ;
                                                      bibo:degree <http://purl.org/ontology/bibo/degrees/phd> ;
-                                                     sd:hasSupervisor sd:Eick_B ;
-                                                     sd:hasReviewer sd:Cartani_A ;
+                                                     sd:hasSupervisor sdp:Eick_B ;
+                                                     sd:hasReviewer sdp:Cartani_A ;
                                                      bibo:institution "TU Braunschweig, Germany" .
 
 <http://symbolicdata.org/Data/Dissertation/Moehlmann_14> a bibo:Thesis ;
@@ -474,12 +475,12 @@
 
 <http://symbolicdata.org/Data/Dissertation/Schweinfurter_16> a bibo:Thesis ;
                                                              dct:abstract "Published in CA-Rundbrief 59 (2016)" ;
-                                                             dct:creator sd:Schweinfurter_M ;
+                                                             dct:creator sdp:Schweinfurter_M ;
                                                              dct:title "Deterministic Genericity and the Computation of Homological Invariants" ;
                                                              dct:date "2016"^^dct:W3CDTF ;
                                                              bibo:degree <http://purl.org/ontology/bibo/degrees/phd> ;
-                                                             sd:hasSupervisor sd:Seiler_W ;
-                                                             sd:hasReviewer sd:Koepf_W ;
+                                                             sd:hasSupervisor sdp:Seiler_W ;
+                                                             sd:hasReviewer sdp:Koepf_W ;
                                                              bibo:institution "Uni Kassel, Germany" .
 
 <http://symbolicdata.org/Data/Dissertation/Sprenger_09> a bibo:Thesis ;
@@ -495,12 +496,12 @@
 
 <http://symbolicdata.org/Data/Dissertation/Stadler_16> a bibo:Thesis ;
                                                        dct:abstract "Published in CA-Rundbrief 59 (2016)" ;
-                                                       dct:creator sd:Stadler_T ;
+                                                       dct:creator sdp:Stadler_T ;
                                                        dct:title "Eine Anwendung der Invariantentheorie auf das Korrespondenzproblem lokaler Bildmerkmale" ;
                                                        dct:date "2016"^^dct:W3CDTF ;
                                                        bibo:degree <http://purl.org/ontology/bibo/degrees/phd> ;
-                                                       sd:hasSupervisor sd:Kreuzer_M ;
-                                                       sd:hasReviewer sd:Kemper_G ;
+                                                       sd:hasSupervisor sdp:Kreuzer_M ;
+                                                       sd:hasReviewer sdp:Kemper_G ;
                                                        bibo:institution "Uni Passau, Germany" .
 
 <http://symbolicdata.org/Data/Dissertation/Stan_10> a bibo:Thesis ;
@@ -579,13 +580,13 @@
 
 <http://symbolicdata.org/Data/Dissertation/Vigil_15> a bibo:Thesis ;
                                                      dct:abstract "Published in CA-Rundbrief 59 (2016)" ;
-                                                     dct:creator sd:Vigil_M ;
+                                                     dct:creator sdp:Vigil_M ;
                                                      dct:title "Trustworthy and Efficient Protection Schemes for Digital Archiving" ;
                                                      sd:hasURL <http://tuprints.ulb.tu-darmstadt.de/4669/> ;
                                                      dct:date "2015"^^dct:W3CDTF ;
                                                      bibo:degree <http://purl.org/ontology/bibo/degrees/phd> ;
-                                                     sd:hasSupervisor sd:Buchmann_J ;
-                                                     sd:hasReviewer sd:Custodio_R ;
+                                                     sd:hasSupervisor sdp:Buchmann_J ;
+                                                     sd:hasReviewer sdp:Custodio_R ;
                                                      bibo:institution "TU Darmstadt, Germany" .
 
 <http://symbolicdata.org/Data/Dissertation/Vo_11> a bibo:Thesis ;
