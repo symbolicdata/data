@@ -18,16 +18,23 @@
    cc:attributionURL <http://symbolicdata.org> ;
    cc:attributionName "The SymbolicData Project" .
 
+<http://symbolicdata.org/Data/Topic/CCA-Issue> a sd:Tag; rdfs:label "New ACM Communications in Computer Algebra Issue" . 
+<http://symbolicdata.org/Data/Topic/Position> a sd:Tag; rdfs:label "Announcement of open position" . 
+<http://symbolicdata.org/Data/Topic/Software> a sd:Tag; rdfs:label "Announcement of a new version of a software" . 
+<http://symbolicdata.org/Data/Topic/SpecialIssue> a sd:Tag; rdfs:label "Call for contribution to a special issue" . 
+
 <http://symbolicdata.org/Data/Post/2015-10-09> a sioc:BlogPost ;
                                                dct:created "2015-10-09"^^xsd:date ;
                                                rdfs:label "ACM Communications in Computer Algebra Issue 193" ;
                                                dct:abstract "We are pleased to announce that Issue 193 of ACM Communications in Computer Algebra (CCA) is now available electronically. " ;
                                                dct:publisher sdp:England_M ;
+					       dct:subject <http://symbolicdata.org/Data/Topic/CCA-Issue> ; 
                                                sioc:link <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2016-February/000012.html> ;
                                                sioc:links_to <http://www.sigsam.org/cca/> .
 
 <http://symbolicdata.org/Data/Post/2015-11-30> a sioc:BlogPost ;
                                                dct:created "2015-12-03"^^xsd:date ;
+					       dct:subject <http://symbolicdata.org/Data/Topic/Position> ; 
                                                rdfs:label "13 open PhD positions  within the European Network ARCADES" ;
                                                dct:abstract "We are pleased to announce 13 open PhD positions within the European Network ARCADES: Algebraic Representations in Computer-Aided Design for complEx Shapes. ARCADES is a Marie Sklodowska-Curie Innovative Training Network in the framework of Horizon 2020, starting on January 1st, 2016, and lasts for 4 years. It includes 8 sites offering 13 PhD's, 5 industrial partners, and is coordinated by ATHENA Research & Innovation Center, Greece." ;
                                                dct:publisher sdp:Emiris_IZ ;
@@ -36,6 +43,7 @@
 
 <http://symbolicdata.org/Data/Post/2015-12-03> a sioc:BlogPost ;
                                                dct:created "2015-12-03"^^xsd:date ;
+					       dct:subject <http://symbolicdata.org/Data/Topic/Position> ; 
                                                rdfs:label "Postdoc Position at the University of Luxembourg" ;
                                                dct:abstract "In the Number Theory group at the University of Luxembourg, we're looking for a postdoc, starting March 2016 or later. The position is that of a `scientific assistant'." ;
                                                dct:publisher sdp:Wiese_G ;
@@ -43,6 +51,7 @@
 
 <http://symbolicdata.org/Data/Post/2016-01-09> a sioc:BlogPost ;
                                                dct:created "2016-01-09"^^xsd:date ;
+					       dct:subject <http://symbolicdata.org/Data/Topic/CCA-Issue> ; 
                                                rdfs:label "ACM Communications in Computer Algebra Issue 194" ;
                                                dct:abstract "We are pleased to announce that Issue 194 of ACM Communications in Computer Algebra (CCA) is now available electronically. " ;
                                                dct:publisher sdp:England_M ;
@@ -52,14 +61,16 @@
 <http://symbolicdata.org/Data/Post/2016-02-08> a sioc:BlogPost ;
                                                dct:created "2016-02-08"^^xsd:date ;
                                                rdfs:label "Normaliz 3.1 released" ;
+					       dct:subject <http://symbolicdata.org/Data/Topic/Software> ; 
                                                dct:subject <http://symbolicdata.org/Data/System/normaliz> ;
-                                               dct:abstract "Announces Normaliz 3.1 2.11 with new features and several improvements in the algorithms. The manual now has an appendix documenting libnormaliz." ;
+                                               dct:abstract "Announces Normaliz 3.1 with new features and several improvements in the algorithms. The manual now has an appendix documenting libnormaliz." ;
                                                dct:publisher sdp:Bruns_W ;
                                                sioc:link <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2016-February/000011.html> ;
                                                sioc:links_to <http://www.normaliz.uni-osnabrueck.de> .
 
 <http://symbolicdata.org/Data/Post/2016-02-10> a sioc:BlogPost ;
                                                dct:created "2016-02-10"^^xsd:date ;
+					       dct:subject <http://symbolicdata.org/Data/Topic/Position> ; 
                                                rdfs:label "6-year faculty position as University Assistant at the Institute for Algebra of the Johannes Kepler University Linz" ;
                                                dct:abstract "At the Institute for Algebra of the Johannes Kepler University Linz, Austria, we offer a 6-year faculty position as University Assistant (senior postdoc)." ;
                                                dct:publisher sdp:Kauers_M ;
@@ -69,6 +80,7 @@
 <http://symbolicdata.org/Data/Post/2016-04-05> a sioc:BlogPost ;
                                                dct:created "2016-04-05"^^xsd:date ;
                                                rdfs:label "Normaliz 3.1.1 released" ;
+					       dct:subject <http://symbolicdata.org/Data/Topic/Software> ; 
                                                dct:subject <http://symbolicdata.org/Data/System/normaliz> ;
                                                dct:abstract "Normaliz 3.1.1 corrects some minor bugs. We have also added a libnormaliz function that returns the index of the unit group extension from the input monoid to the integral closure (in the nonpointed case). Christof Söger left the Department of Mathematics at the end of March." ;
                                                dct:publisher sdp:Bruns_W ;
@@ -78,6 +90,7 @@
 <http://symbolicdata.org/Data/Post/2016-04-06> a sioc:BlogPost ;
                                                dct:created "2016-04-06"^^xsd:date ;
                                                rdfs:label "First Call for Papers: Special issue of the JSC" ;
+					       dct:subject <http://symbolicdata.org/Data/Topic/SpecialIssue> ; 
                                                dct:subject <http://www.journals.elsevier.com/journal-of-symbolic-computation/> ;
                                                dct:abstract "First Call for Papers: Special issue of the JOURNAL OF SYMBOLIC COMPUTATION on SYMBOLIC COMPUTATION IN SOFTWARE SCIENCE." ;
                                                dct:publisher sdp:Davenport_JH ;
@@ -85,19 +98,65 @@
                                                sioc:links_to <http://www.risc.jku.at/~tkutsia/organization/jsc-scss-2016.html> .
 
 <http://symbolicdata.org/Data/Post/2016-09-19> a sioc:BlogPost ;
-# has to be fixed - Mailserver war nicht erreichbar. 
                                                dct:created "2016-09-19"^^xsd:date ;
                                                rdfs:label "Normaliz 3.1.2  on Github" ;
+					       dct:subject <http://symbolicdata.org/Data/Topic/Software> ; 
                                                dct:subject <http://symbolicdata.org/Data/System/normaliz> ;
-                                               dct:abstract "Some weeks ago we informed you that  Normaliz 3.1.2 had been uploaded to our GitHub repository. Unfortunately it has a bug that can appear in large computations. The bug shows up in form of an \"assert\". This bug does NOT affect version 3.1.1. A bugfix has been published as version 3.1.3." ;
+                                               dct:abstract "Normaliz 3.1.2 was uploaded to GitHub. At this stage it is meant for those among you that build Normaliz themselves. You can download it from https://github.com/Normaliz/Normaliz, branch master. " ;
                                                dct:publisher sdp:Bruns_W ;
-                                               sioc:links_to <http://www.normaliz.uni-osnabrueck.de> .
+                                               sioc:links_to <http://www.normaliz.uni-osnabrueck.de>, <https://github.com/Normaliz/Normaliz> .
 
 <http://symbolicdata.org/Data/Post/2016-10-25> a sioc:BlogPost ;
                                                dct:created "2016-10-25"^^xsd:date ;
                                                rdfs:label "Normaliz 3.1.3 on Github" ;
+					       dct:subject <http://symbolicdata.org/Data/Topic/Software> ; 
                                                dct:subject <http://symbolicdata.org/Data/System/normaliz> ;
                                                dct:abstract "Some weeks ago we informed you that  Normaliz 3.1.2 had been uploaded to our GitHub repository. Unfortunately it has a bug that can appear in large computations. The bug shows up in form of an \"assert\". This bug does NOT affect version 3.1.1. A bugfix has been published as version 3.1.3." ;
                                                dct:publisher sdp:Bruns_W ;
-                                               sioc:links_to <http://www.normaliz.uni-osnabrueck.de> .
+                                               sioc:links_to <http://www.normaliz.uni-osnabrueck.de>, <https://github.com/Normaliz/Normaliz>  .
 
+<http://symbolicdata.org/Data/Post/2016-10-11> a sioc:BlogPost ;
+                                               dct:created "2016-10-11"^^xsd:date ;
+					       dct:subject <http://symbolicdata.org/Data/Topic/Position> ; 
+                                               rdfs:label "PhD opportunities in Symbolic Computation and Computer Algebra at the University of Waterloo" ;
+                                               dct:abstract "The Symbolic Computation Group (SCG) in the Cheriton School of Computer Science is one of the world’s leading groups in symbolic computation and computer algebra.  Research interests includes such topics as sparse interpolation, polynomial and differential systems, exact linear algebra, hybrid symbolic-numeric computation, algebraic complexity, and pen-based math systems. The SCG group was the original home of the Maple Computer Algebra system. <br/> Information on requirements, funding, deadlines and instructions for applying for the PhD program in Computer Science at the University of Waterloo can be found at https://www.cs.uwaterloo.ca/future-graduate-students. " ;
+                                               dct:publisher sdp:Labahn_G ;
+                                               sioc:link <http://listserv.acm.org/SCRIPTS/WA-ACMLPX.CGI?A2=ind1610&L=SIGSAM-MEMBERS&F=&S=&P=1730> ;
+                                               sioc:links_to <https://www.cs.uwaterloo.ca/future-graduate-students> .
+
+<http://symbolicdata.org/Data/Post/2016-09-26> a sioc:BlogPost ;
+                                               dct:created "2016-09-26"^^xsd:date ;
+					       dct:subject <http://symbolicdata.org/Data/Topic/Position> ; 
+                                               rdfs:label "Postdoc Position in Berlin founded by Einstein Foundation" ;
+					       dct:abstract "The Technical University of Berlin has an opening for a three year postdoc position in mathematics (salary grade E13) starting in 2017. The successful candidate will be part of Berlin Mathematical School and conduct independent research in the Berlin based team of Prof. Felipe Cucker (CityU Hong Kong) and Prof. Peter Burgisser (TU Berlin). The postdoc position is funded by Professor Cucker's Einstein Visiting Fellowship ``Complexity and accuracy of numerical algorithms in algebra and geometry'' and does not involve teaching duties. <br/> We are seeking a postdoc who has already done successful research in one of the areas of complexity theory, applied algebraic geometry, complexity and accuracy of numerical algorithms, and ideally wishes to continue to work in the intersection of these subjects. "; 
+                                               dct:publisher sdp:Szanto_A ;
+                                               sioc:link <http://listserv.acm.org/SCRIPTS/WA-ACMLPX.CGI?A2=ind1609&L=SIGSAM-MEMBERS&F=&S=&P=4559> ;
+                                               sioc:links_to <http://www.math-berlin.de/media-press/news/fellowships-offered-by-new-einstein-visiting-fellow> .
+
+<http://symbolicdata.org/Data/Post/2016-09-22> a sioc:BlogPost ;
+                                               dct:created "2016-09-22"^^xsd:date ;
+					       dct:subject <http://symbolicdata.org/Data/Topic/Position> ; 
+                                               rdfs:label "Tenure track polition in applied algebra and geometry in Eindhoven" ;
+					       dct:abstract "The Department of Mathematics and Computer Science at Eindhoven University of Technology (TU/e) invites applications for a Tenure-track Assistant Professorship in Applied Algebra and Geometry (V32.2705). Depending on the candidate’s experience, a higher-level entry (e.g. as Associate Professor with tenure) may be taken into consideration. "; 
+                                               dct:publisher sdp:Szanto_A ;
+                                               sioc:link <http://listserv.acm.org/SCRIPTS/WA-ACMLPX.CGI?A2=ind1609&L=SIGSAM-MEMBERS&F=&S=&P=3535> ;
+                                               sioc:links_to <http://jobs.tue.nl/nl/vacature/tenuretrack-assistant-professorship-in-applied-algebra-and-geometry-280129.html> .
+
+
+<http://symbolicdata.org/Data/Post/2015-08-27> a sioc:BlogPost ;
+                                               dct:created "2015-08-27"^^xsd:date ;
+                                               rdfs:label "ACM Communications in Computer Algebra Issue 196" ;
+                                               dct:abstract "We are pleased to announce that Issue 196 of ACM Communications in Computer Algebra (CCA) is now available electronically. " ;
+                                               dct:publisher sdp:England_M ;
+					       dct:subject <http://symbolicdata.org/Data/Topic/CCA-Issue> ; 
+                                               sioc:link <http://listserv.acm.org/SCRIPTS/WA-ACMLPX.CGI?A2=ind1608&L=SIGSAM-MEMBERS&F=&S=&P=3105> ;
+                                               sioc:links_to <http://www.sigsam.org/cca/> .
+
+<http://symbolicdata.org/Data/Post/2015-04-29> a sioc:BlogPost ;
+                                               dct:created "2015-04-29"^^xsd:date ;
+                                               rdfs:label "ACM Communications in Computer Algebra Issue 195" ;
+                                               dct:abstract "We are pleased to announce that Issue 195 of ACM Communications in Computer Algebra (CCA) is now available electronically. " ;
+                                               dct:publisher sdp:England_M ;
+					       dct:subject <http://symbolicdata.org/Data/Topic/CCA-Issue> ; 
+                                               sioc:link <http://listserv.acm.org/SCRIPTS/WA-ACMLPX.CGI?A2=ind1604&L=SIGSAM-MEMBERS&F=&S=&P=4306> ;
+                                               sioc:links_to <http://www.sigsam.org/cca/> .

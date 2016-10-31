@@ -21,7 +21,7 @@
                                                    ical:url <http://www.aca2017.jct.ac.il/> ;
                                                    sd:hasAbstractsDeadline "2017-04-30"^^xsd:date ;
                                                    sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/ACA> ;
-                                                   sd:hasSesseionProposalDeadline "2017-03-01"^^xsd:date .
+                                                   sd:hasSessionProposalDeadline "2017-03-01"^^xsd:date .
 
 <http://symbolicdata.org/Data/Conference/CADCS-2016> ical:dtstart "2016-04-25"^^xsd:date ;
                                                      ical:dtend "2016-04-27"^^xsd:date .
