@@ -20,8 +20,9 @@
                                                    ical:description "The ACA - Applications of Computer Algebra - conference series is devoted to promoting all kinds of computer algebra applications, and encouraging the interaction of developers of computer algebra systems and packages with researchers and users (including scientists, engineers, educators, and mathematicians). Topics include, but are not limited to, computer algebra in the sciences, engineering, communication, medicine, pure and applied mathematics, education and computer science.  " ;
                                                    ical:url <http://www.aca2017.jct.ac.il/> ;
                                                    sd:hasAbstractsDeadline "2017-04-30"^^xsd:date ;
+                                                   sd:hasSessionProposalDeadline "2017-03-01"^^xsd:date ;
                                                    sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/ACA> ;
-                                                   sd:hasSessionProposalDeadline "2017-03-01"^^xsd:date .
+                                                   sd:hasSesseionProposalDeadline "2017-03-01"^^xsd:date .
 
 <http://symbolicdata.org/Data/Conference/CADCS-2016> ical:dtstart "2016-04-25"^^xsd:date ;
                                                      ical:dtend "2016-04-27"^^xsd:date .
@@ -37,6 +38,28 @@
                                                     sd:invitedSpeakers sdp:Eder_C, sdp:Geck_M, sdp:Robertz_D, sdp:Niemeyer_A, sdp:Elsenhans_S ;
                                                     sd:hasAbstractsDeadline "2017-03-01"^^xsd:date ;
                                                     sd:hasOrganizers sdp:Koepf_W .
+
+<http://symbolicdata.org/Data/Conference/CAI-2017> a sd:UpcomingConference ;
+                                                   rdfs:label "CAI 2017 - 7th International Conference on Algebraic Informatics" ;
+                                                   ical:dtstart "2017-07-25"^^xsd:date ;
+                                                   ical:dtend "2017-07-28"^^xsd:date ;
+                                                   ical:location "Kalamata, Greece" ;
+                                                   ical:description """CAI is the biennial conference serving the community interested in the 
+intersection of theoretical computer science, algebra, and related areas. """ ;
+                                                   sd:hasEarlyRegistrationDeadline "2017-05-15"^^xsd:date ;
+                                                   sd:hasGeneralChair sdp:Kotsireas_IS ;
+                                                   ical:url <http://www.cargo.wlu.ca/CAI2017/> ;
+                                                   sd:hasAbstractsDeadline "2017-03-01"^^xsd:date ;
+                                                   sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/CAI> .
+
+<http://symbolicdata.org/Data/Conference/CIAC-2017> a sd:UpcomingConference ;
+                                                    rdfs:label "CIAC 2017 - 10th International Conference on Algorithms" ;
+                                                    ical:dtstart "2017-05-26"^^xsd:date ;
+                                                    ical:dtend "2017-05-28"^^xsd:date ;
+                                                    ical:location "Athens, Greece" ;
+                                                    ical:description "The 10th International Conference on Algorithms and Complexity is intended to provide a forum for researchers working in all aspects of computational complexity and the use, design, analysis and experimentation of efficient algorithms and data structures." ;
+                                                    ical:url <http://www.corelab.ntua.gr/ciac2017> ;
+                                                    sd:hasAbstractsDeadline "2016-11-04"^^xsd:date .
 
 <http://symbolicdata.org/Data/Conference/FoCM-2017> a sd:UpcomingConference ;
                                                     rdfs:label "Foundations of Computational Mathematics (FoCM) 2017" ;

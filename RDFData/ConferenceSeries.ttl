@@ -47,6 +47,10 @@ ns1:ASCM a sd:ConferenceSeries ;
          sd:hasURL <http://www.mmrc.iss.ac.cn/ascm/> ;
          sd:description "This series of conferences covers any research on the topic of <i>doing mathematics using computers</i>, including computer algebra." .
 
+ns1:CAI rdfs:label "CAI: International Conference on Algebraic Informatics" ;
+        sd:description """CAI is the biennial conference serving the community interested in the 
+intersection of theoretical computer science, algebra, and related areas.""" .
+
 ns1:CASA a sd:ConferenceSeries ;
          rdfs:label "CASA: International Workshop on Computer Algebra Systems and their Applications" ;
          rdfs:seeAlso <http://sigsam.org/Resources/ConferenceSeries.html#navCASA> ;
