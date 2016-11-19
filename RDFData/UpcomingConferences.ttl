@@ -19,13 +19,9 @@
                                                    ical:location "Jerusalem, Israel" ;
                                                    ical:description "The ACA - Applications of Computer Algebra - conference series is devoted to promoting all kinds of computer algebra applications, and encouraging the interaction of developers of computer algebra systems and packages with researchers and users (including scientists, engineers, educators, and mathematicians). Topics include, but are not limited to, computer algebra in the sciences, engineering, communication, medicine, pure and applied mathematics, education and computer science.  " ;
                                                    ical:url <http://www.aca2017.jct.ac.il/> ;
-                                                   sd:hasAbstractsDeadline "2017-04-30"^^xsd:date ;
+                                                   sd:hasAbstractsDeadline "2017-04-30"^^xsd:date, "2017-04-30"^^xsd:date ;
                                                    sd:hasSessionProposalDeadline "2017-03-01"^^xsd:date ;
-                                                   sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/ACA> ;
-                                                   sd:hasSesseionProposalDeadline "2017-03-01"^^xsd:date .
-
-<http://symbolicdata.org/Data/Conference/CADCS-2016> ical:dtstart "2016-04-25"^^xsd:date ;
-                                                     ical:dtend "2016-04-27"^^xsd:date .
+                                                   sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/ACA> .
 
 <http://symbolicdata.org/Data/Conference/CAFG-2017> a sd:UpcomingConference ;
                                                     rdfs:label "Computeralgebra-Tagung der Fachgruppe" ;
@@ -40,16 +36,18 @@
                                                     sd:hasOrganizers sdp:Koepf_W .
 
 <http://symbolicdata.org/Data/Conference/CAI-2017> a sd:UpcomingConference ;
-                                                   rdfs:label "CAI 2017 - 7th International Conference on Algebraic Informatics" ;
-                                                   ical:dtstart "2017-07-25"^^xsd:date ;
-                                                   ical:dtend "2017-07-28"^^xsd:date ;
+                                                   rdfs:label "CAI 2017 - 7th International Conference on Algebraic Informatics", "CAI 2017 - 7th International Conference on Algebraic Informatics, Track 3 - Computer Algebra" ;
+                                                   ical:dtstart "2017-06-25"^^xsd:date ;
+                                                   ical:dtend "2017-06-28"^^xsd:date ;
                                                    ical:location "Kalamata, Greece" ;
-                                                   ical:description """CAI is the biennial conference serving the community interested in the 
-intersection of theoretical computer science, algebra, and related areas. """ ;
+                                                   sd:hasPaperDeadline "2017-03-01"^^xsd:date ;
+                                                   ical:description "CAI 2017 will feature invited presentations and a selective five-track program of contributed papers describing original and unpublished research." ;
                                                    sd:hasEarlyRegistrationDeadline "2017-05-15"^^xsd:date ;
                                                    sd:hasGeneralChair sdp:Kotsireas_IS ;
                                                    ical:url <http://www.cargo.wlu.ca/CAI2017/> ;
+                                                   sd:invitedSpeakers sdp:Wibmer_M ;
                                                    sd:hasAbstractsDeadline "2017-03-01"^^xsd:date ;
+                                                   sd:hasProgramCommittee sdp:Sendra_JR, sdp:Winkler_F ;
                                                    sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/CAI> .
 
 <http://symbolicdata.org/Data/Conference/CIAC-2017> a sd:UpcomingConference ;
@@ -121,6 +119,20 @@ intersection of theoretical computer science, algebra, and related areas. """ ;
                                                    sd:hasAbstractsDeadline "2017-03-31"^^xsd:date ;
                                                    sd:hasProgramCommittee sdp:Buchberger_B, sdp:Gerdt_VP, sdp:Robbiano_L, sdp:Grigoriev_D, sdp:Gianni_P, sdp:Khovansky_A, sdp:Myllari_A, sdp:Pan_V, sdp:Stefanescu_D, sdp:Vershik_A, sdp:Vavilov_N, sdp:Watt_S, sdp:Kotsireas_IS, sdp:Edneral_V, sdp:Vasiliev_N ;
                                                    sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/PCA> .
+
+<http://symbolicdata.org/Data/Conference/SCSS-2017> a sd:UpcomingConference ;
+                                                    rdfs:label "SCSS-2017 - The 8th International Symposium on Symbolic Computation in Software Science" ;
+                                                    ical:dtstart "2017-04-06"^^xsd:date ;
+                                                    ical:dtend "2017-04-09"^^xsd:date ;
+                                                    ical:location "Gammarth, Tunisia" ;
+                                                    sd:hasPaperDeadline "2016-11-27"^^xsd:date ;
+                                                    ical:description "The purpose of SCSS 2017 is to promote research on theoretical and practical aspects of symbolic computation in software science. The symposium provides a forum for active dialog between researchers from several fields of computer algebra, algebraic geometry, algorithmic combinatorics, computational logic, and software analysis and verification. SCSS 2017 solicits regular papers on all aspects of symbolic computation and their applications in software science." ;
+                                                    sd:hasRegistrationDeadline "2017-02-20"^^xsd:date ;
+                                                    sd:hasProgramChair sdp:Mosbah_M, sdp:Rusinowitch_M ;
+                                                    sd:hasGeneralChair sdp:Bouhoula_A, sdp:Ida_T ;
+                                                    ical:url <http://ghourabi.net/SCSS2017> ;
+                                                    sd:invitedSpeakers sdp:Huet_G ;
+                                                    sd:hasAbstractsDeadline "2016-11-20"^^xsd:date .
 
 sd:UpcomingConference a owl:Class ;
                       rdfs:label "Upcoming Conference Event" ;

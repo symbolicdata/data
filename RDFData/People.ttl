@@ -1684,6 +1684,10 @@ sdp:Hubery_A a foaf:Person ;
 sdp:Huesca_LDCG a foaf:Person ;
                 foaf:name "Lourdes Del Carmen González Huesca" .
 
+sdp:Huet_G a foaf:Person ;
+           foaf:name "Gérard Huet" ;
+           sd:affiliation "INRIA, Paris, France" .
+
 sdp:Huettemann_T a foaf:Person ;
                  foaf:name "Thomas Hüttemann" ;
                  sd:affiliation "Belfast" .
@@ -2119,7 +2123,7 @@ sdp:Kotelnikov_E a foaf:Person ;
 
 sdp:Kotsireas_IS a foaf:Person ;
                  foaf:name "Ilias S. Kotsireas" ;
-                 sd:affiliation "Univ. Western Ontario, Waterloo, Canada" .
+                 sd:affiliation "Wilfrid Laurier University, Waterloo, Canada" .
 
 sdp:Koutschan_C a foaf:Person ;
                 foaf:name "Christoph Koutschan" ;
@@ -2698,6 +2702,10 @@ sdp:Morgan_A a foaf:Person ;
 
 sdp:Morton_J a foaf:Person ;
              foaf:name "J. Morton" .
+
+sdp:Mosbah_M a foaf:Person ;
+             foaf:name "Mohamed Mosbah" ;
+             sd:affiliation "LaBRi Bordeaux, France" .
 
 sdp:Mossakowski_T a foaf:Person ;
                   foaf:name "Till Mossakowski" ;
