@@ -19,7 +19,7 @@
                                                    ical:location "Jerusalem, Israel" ;
                                                    ical:description "The ACA - Applications of Computer Algebra - conference series is devoted to promoting all kinds of computer algebra applications, and encouraging the interaction of developers of computer algebra systems and packages with researchers and users (including scientists, engineers, educators, and mathematicians). Topics include, but are not limited to, computer algebra in the sciences, engineering, communication, medicine, pure and applied mathematics, education and computer science.  " ;
                                                    ical:url <http://www.aca2017.jct.ac.il/> ;
-                                                   sd:hasAbstractsDeadline "2017-04-30"^^xsd:date, "2017-04-30"^^xsd:date ;
+                                                   sd:hasAbstractsDeadline "2017-04-30"^^xsd:date ;
                                                    sd:hasSessionProposalDeadline "2017-03-01"^^xsd:date ;
                                                    sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/ACA> .
 
@@ -49,6 +49,16 @@
                                                    sd:hasAbstractsDeadline "2017-03-01"^^xsd:date ;
                                                    sd:hasProgramCommittee sdp:Sendra_JR, sdp:Winkler_F ;
                                                    sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/CAI> .
+
+<http://symbolicdata.org/Data/Conference/CASC-2017> a sd:UpcomingConference ;
+                                                    rdfs:label "CASC-2017 - 19th International Workshop in Computer Algebra in Scientific Computing" ;
+                                                    ical:dtstart "2017-09-18"^^xsd:date ;
+                                                    ical:dtend "2017-09-22"^^xsd:date ;
+                                                    ical:location "Beijing, China" ;
+                                                    sd:hasPaperDeadline "2017-04-16"^^xsd:date ;
+                                                    ical:description "The methods of Scientific Computing play an important role in the natural sciences and engineering. Significance and impact of computer algebra methods and computer algebra systems for scientific computing has increased considerably over the last decades. <br/> The ongoing development of computer algebra systems, including their integration and adaptation to modern software environments, puts them to the forefront in scientific computing and enables the practical solution of many complex applied problems in the domains of natural sciences and engineering. <br/> The topics addressed in the workshop cover all the basic areas of scientific computing as they benefit from the application of computer algebra methods and software. " ;
+                                                    ical:url <http://www.casc.cs.uni-bonn.de/2017/> ;
+                                                    sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/CASC> .
 
 <http://symbolicdata.org/Data/Conference/CIAC-2017> a sd:UpcomingConference ;
                                                     rdfs:label "CIAC 2017 - 10th International Conference on Algorithms" ;
@@ -105,6 +115,7 @@
                                                      sd:hasGeneralChair sdp:Loidl_HW ;
                                                      ical:url <http://sigsam.org/PASCO/2017/> ;
                                                      sd:hasAbstractsDeadline "2017-04-03"^^xsd:date ;
+                                                     sd:hasProgramCommittee sdp:vonzurGathen_J, sdp:Bradford_R, sdp:Dumas_JG, sdp:MorenoMaza_M, sdp:Faugere_JC, sdp:Monagan_M, sdp:Pernet_C, sdp:Giorgi_P, sdp:Roche_DS, sdp:Johnson_J, sdp:Kuchen_H, sdp:Thome_E, sdp:Schreiner_W, sdp:Kaltofen_E, sdp:Steel_A ;
                                                      sd:hasOrganizers sdp:Fieker_C, sdp:Decker_W ;
                                                      sd:hasPublicityChair sdp:Konovalov_A ;
                                                      sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/PASCO> .
