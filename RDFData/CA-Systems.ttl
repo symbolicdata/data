@@ -10,263 +10,6 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix cc: <http://creativecommons.org/ns#> .
 
-<http://fachgruppe-computeralgebra.de/CA-System/Axiom> a sd:CASDescription ;
-                                                       rdfs:label "Axiom" ;
-                                                       dct:description "The Scientific Computation System" ;
-                                                       dct:license "open source" ;
-                                                       sd:hasURL <http://axiom-developer.org/> ;
-                                                       sd:headOf sdp:Daly_T .
-
-<http://fachgruppe-computeralgebra.de/CA-System/CARAT> a sd:CASDescription ;
-                                                       rdfs:label "CARAT" ;
-                                                       dct:creator sdp:Plesken_W ;
-                                                       dct:description "Crystallographic AlgoRithms And Tables" ;
-                                                       dct:license "open source" ;
-                                                       sd:hasURL <http://wwwb.math.rwth-aachen.de/carat> ;
-                                                       dct:creatorAsLiteral "Wilhelm Plesken" .
-
-<http://fachgruppe-computeralgebra.de/CA-System/CHEVIE> a sd:CASDescription ;
-                                                        rdfs:label "CHEVIE" ;
-                                                        dct:creator sdp:Hiss_G, sdp:Malle_G, sdp:Geck_M, sdp:Michel_J, sdp:Luebeck_F, sdp:Pfeiffer_G ;
-                                                        dct:description "Generic character tables of groups of Lie type" ;
-                                                        dct:license "open source" ;
-                                                        sd:hasURL <http://www.math.rwth-aachen.de/homes/CHEVIE> ;
-                                                        dct:creatorAsLiteral "Frank Lübeck", "Götz Pfeiffer", "Meinolf Geck", "Gerhard Hiß", "Gunter Malle", "Jean Michel" .
-
-<http://fachgruppe-computeralgebra.de/CA-System/Cabri> a sd:DGSDescription ;
-                                                       rdfs:label "Cabri" ;
-                                                       dct:description "A simple and comprehensive software to understand 3D geometry in the classroom" ;
-                                                       dct:license "kommerziell" ;
-                                                       sd:hasURL <http://www.cabri.com/> .
-
-<http://fachgruppe-computeralgebra.de/CA-System/Cinderella> a sd:DGSDescription ;
-                                                            rdfs:label "Cinderella" ;
-                                                            dct:creator sdp:Kortenkamp_U, sdp:RichterGebert_J ;
-                                                            dct:description "Die interaktive Geometrie-Software" ;
-                                                            dct:license "kommerziell" ;
-                                                            sd:hasURL <http://cinderella.de> ;
-                                                            dct:creatorAsLiteral "Ulrich Kortenkamp", "Jürgen Richter-Gebert" .
-
-<http://fachgruppe-computeralgebra.de/CA-System/CoCoA> a sd:CASDescription ;
-                                                       rdfs:label "CoCoA" ;
-                                                       dct:creator sdp:Kreuzer_M, sdp:Robbiano_L, sdp:Abbott_J, sdp:Bigatti_A, sdp:Caboara_M ;
-                                                       dct:description "Computations in Commutative Algebra" ;
-                                                       dct:license "open source" ;
-                                                       sd:hasURL <http://cocoa.dima.unige.it> ;
-                                                       dct:creatorAsLiteral "John Abbott", "Martin Kreuzer", "Lorenzo Robbiano", "Anna Bigatti", "Massimo Caboara" .
-
-<http://fachgruppe-computeralgebra.de/CA-System/DISCRETA> a sd:CASDescription ;
-                                                          rdfs:label "DISCRETA" ;
-                                                          dct:creator sdp:Laue_R, sdp:Wassermann_A, sdp:Betten_A, sdp:Haberberger_E ;
-                                                          dct:description "A program to construct t-designs with prescribed automorphism group" ;
-                                                          dct:license "open source" ;
-                                                          sd:hasURL <http://www.mathe2.uni-bayreuth.de/discreta> ;
-                                                          dct:creatorAsLiteral "Reinhard Laue", "Alfred Wassermann", "Anton Betten", "Evi Haberberger" ;
-                                                          dct:institution "Uni Bayreuth" .
-
-<http://fachgruppe-computeralgebra.de/CA-System/Derive> a sd:CASDescription ;
-                                                        rdfs:label "Derive" ;
-                                                        dct:description "Weiterentwicklung wurde 2007 eingestellt" ;
-                                                        dct:license "kommerziell" ;
-                                                        dct:rightsHolder "Texas Instruments" .
-
-<http://fachgruppe-computeralgebra.de/CA-System/EUCLIDDynaGeo> a sd:DGSDescription ;
-                                                               rdfs:label "EUCLID DynaGeo" ;
-                                                               dct:creator sdp:Mechling_R ;
-                                                               dct:description "Ein Computerprogramm zur beweglichen Geometrie" ;
-                                                               dct:license "kommerziell" ;
-                                                               sd:hasURL <http://www.dynageo.de> ;
-                                                               dct:creatorAsLiteral "Roland Mechling" .
-
-<http://fachgruppe-computeralgebra.de/CA-System/GAP> a sd:CASDescription ;
-                                                     rdfs:label "GAP" ;
-                                                     dct:description "Groups, Algorithms, Programming - a System for Computational Discrete Algebra" ;
-                                                     dct:license "open source" ;
-                                                     sd:hasURL <http://www.gap-system.org> ;
-                                                     sd:developerURL <http://www.gap-system.org/Contacts/People/authors.html> .
-
-<http://fachgruppe-computeralgebra.de/CA-System/GEONEXT> a sd:DGSDescription ;
-                                                         rdfs:label "GEONEXT" ;
-                                                         dct:description "Neue Wege des Lehrens und Lernens im Mathematikunterricht" ;
-                                                         dct:license "GPL" ;
-                                                         sd:hasURL <http://www.geonext.de> ;
-                                                         dct:institution "Lehrstuhl für Mathematik und ihre Didaktik, Uni Bayreuth" .
-
-<http://fachgruppe-computeralgebra.de/CA-System/GeoGebra> a sd:DGSDescription ;
-                                                          rdfs:label "GeoGebra" ;
-                                                          dct:description "Kostenlose Mathematik-Software für Schule, Uni und daheim" ;
-                                                          dct:license "GPL" ;
-                                                          sd:hasURL <http://www.geogebra.at> ;
-                                                          sd:developerURL <http://www.geogebra.org/cms/de/team> .
-
-<http://fachgruppe-computeralgebra.de/CA-System/JAS> a sd:CASDescription ;
-                                                     rdfs:label "JAS" ;
-                                                     dct:creator sdp:Kredel_H ;
-                                                     dct:description "Java based version of MAS, an experimental computer algebra system" ;
-                                                     dct:license "open source" ;
-                                                     sd:hasURL <http://krum.rz.uni-mannheim.de/jas> ;
-                                                     dct:creatorAsLiteral "Heinz Kredel" .
-
-<http://fachgruppe-computeralgebra.de/CA-System/Kant_Kash> a sd:CASDescription ;
-                                                           rdfs:label "Kant/Kash" ;
-                                                           dct:description "Computational Algebraic Number Theory" ;
-                                                           dct:license "open source" ;
-                                                           sd:hasURL <http://page.math.tu-berlin.de/~kant/kash.html> ;
-                                                           sd:developerURL <http://page.math.tu-berlin.de/~kant/members.html> .
-
-<http://fachgruppe-computeralgebra.de/CA-System/LiDIA> a sd:CASDescription ;
-                                                       rdfs:label "LiDIA" ;
-                                                       dct:description "Library For Computational Number Theory" ;
-                                                       dct:license "open source" ;
-                                                       sd:hasURL <http://cadadr.org/fm/package/lidia.html> .
-
-<http://fachgruppe-computeralgebra.de/CA-System/MAGMA> a sd:CASDescription ;
-                                                       rdfs:label "MAGMA" ;
-                                                       dct:description "Computational Algebra System" ;
-                                                       dct:license "kommerziell (Gebühren für Service und Updates)" ;
-                                                       sd:hasURL <http://magma.maths.usyd.edu.au/magma> ;
-                                                       dct:rightsHolder "The Computational Algebra Group, University of Sydney" ;
-                                                       sd:headOfTeam sdp:Steel_A, sdp:Cannon_J .
-
-<http://fachgruppe-computeralgebra.de/CA-System/MAS> a sd:CASDescription ;
-                                                     rdfs:label "MAS" ;
-                                                     dct:creator sdp:Kredel_H ;
-                                                     dct:description "Modula-2 Algebra System, an experimental computer algebra system" ;
-                                                     dct:license "open source" ;
-                                                     sd:hasURL <http://krum.rz.uni-mannheim.de/mas> ;
-                                                     dct:creatorAsLiteral "Heinz Kredel" .
-
-<http://fachgruppe-computeralgebra.de/CA-System/MATLAB> a sd:CASDescription ;
-                                                        rdfs:label "MATLAB" ;
-                                                        dct:description "The Language Of Technical Computing. Seit Herbst 2008 durch Übernahme von MuPAD auch mit einer Symbolic Math Toolbox." ;
-                                                        dct:license "kommerziell" ;
-                                                        sd:hasURL <http://www.mathworks.com/products/matlab> ;
-                                                        dct:rightsHolder "The MathWorks GmbH" .
-
-<http://fachgruppe-computeralgebra.de/CA-System/MOLGEN> a sd:CASDescription ;
-                                                        rdfs:label "MOLGEN" ;
-                                                        dct:creator sdp:Laue_R, sdp:Kerber_A, sdp:Wassermann_A, sdp:Kohnert_A, sdp:Ruecker_C, sdp:Meringer_M, sdp:Gugisch_R ;
-                                                        dct:description "Molecular Structure Generation" ;
-                                                        sd:hasURL <http://www.molgen.de> ;
-                                                        dct:creatorAsLiteral "Adalbert Kerber", "Axel Kohnert", "Reinhard Laue", "Alfred Wassermann", "Markus Meringer", "Ralf Gugisch", "Christoph Rücker" ;
-                                                        dct:institution "Universität Bayreuth" .
-
-<http://fachgruppe-computeralgebra.de/CA-System/Maple> a sd:CASDescription ;
-                                                       rdfs:label "Maple" ;
-                                                       dct:description "Mathematics, Modeling, Simulation" ;
-                                                       dct:license "kommerziell" ;
-                                                       sd:hasURL <http://www.maplesoft.com> ;
-                                                       dct:rightsHolder "Maplesoft Inc." .
-
-<http://fachgruppe-computeralgebra.de/CA-System/MathCad> a sd:CASDescription ;
-                                                         rdfs:label "MathCad" ;
-                                                         dct:description "Der globale Standard für Konstruktionsberechnungen" ;
-                                                         dct:license "kommerziell" ;
-                                                         sd:hasURL <http://www.mathcad.com> .
-
-<http://fachgruppe-computeralgebra.de/CA-System/Mathematica> a sd:CASDescription ;
-                                                             rdfs:label "Mathematica" ;
-                                                             dct:description "Compute, Develop, Deploy" ;
-                                                             dct:license "kommerziell" ;
-                                                             sd:hasURL <http://www.wolfram.com> ;
-                                                             dct:rightsHolder "Wolfram Research Inc." .
-
-<http://fachgruppe-computeralgebra.de/CA-System/Maxima> a sd:CASDescription ;
-                                                        rdfs:label "Maxima" ;
-                                                        dct:description "Manipulation of symbolic and numerical expressions. Vorgängersystem: Macsyma" ;
-                                                        dct:license "GPL" ;
-                                                        sd:hasURL <http://maxima.sourceforge.net/> .
-
-<http://fachgruppe-computeralgebra.de/CA-System/MuPAD> a sd:CASDescription ;
-                                                       rdfs:label "MuPAD" ;
-                                                       dct:description "Seit Herbst 2008 wird MuPAD nicht mehr als eigenständiges Produkt vertrieben. Die MuPAD Technologie ist nun Bestandteil der Symbolic Math Toolbox in MATLAB." ;
-                                                       dct:license "kommerziell" ;
-                                                       sd:hasURL <http://www.mathworks.com/products/symbolic> .
-
-<http://fachgruppe-computeralgebra.de/CA-System/PARI_GP> a sd:CASDescription ;
-                                                         rdfs:label "PARI/GP" ;
-                                                         dct:description "Schnelle Berechnungen aus der Zahlentheorie" ;
-                                                         dct:license "GPL" ;
-                                                         sd:hasURL <http://pari.math.u-bordeaux.fr/> ;
-                                                         sd:headOfTeam sdp:Cohen_H, sdp:Belabas_K .
-
-<http://fachgruppe-computeralgebra.de/CA-System/PLURAL> a sd:CASDescription ;
-                                                        rdfs:label "PLURAL" ;
-                                                        dct:creator sdp:Heinle_A, sdp:Levandovskyy_V ;
-                                                        dct:description "A Computer Algebra Subsystem for Noncommutative Polynomial Algebras" ;
-                                                        dct:license "kostenlos (GPL)" ;
-                                                        sd:hasURL <http://www.singular.uni-kl.de/Manual/3-0-4/sing_355.htm> ;
-                                                        dct:creatorAsLiteral "Albert Heinle", "Viktor Levandovskyy" .
-
-<http://fachgruppe-computeralgebra.de/CA-System/POLYMAKE> a sd:CASDescription ;
-                                                          rdfs:label "POLYMAKE" ;
-                                                          dct:description "A tool to study the combinatorics and the geometry of convex polytopes and polyhedra" ;
-                                                          dct:license "GPL" ;
-                                                          sd:hasURL <http://www.polymake.org/> ;
-                                                          sd:developerURL <http://www.polymake.org> .
-
-<http://fachgruppe-computeralgebra.de/CA-System/Reduce> a sd:CASDescription ;
-                                                        rdfs:label "Reduce" ;
-                                                        dct:creator sdp:Hearn_AC ;
-                                                        dct:description "An interactive system for general algebraic computations" ;
-                                                        dct:license "open source" ;
-                                                        sd:hasURL <http://www.reduce-algebra.com> ;
-                                                        dct:rightsHolder "Anthony C. Hearn" .
-
-<http://fachgruppe-computeralgebra.de/CA-System/SINGULAR> a sd:CASDescription ;
-                                                          rdfs:label "SINGULAR" ;
-                                                          dct:description "A Computer Algebra System for polynomial computations with special emphasis on the needs of commutative algebra, algebraic geometry, and singularity theory" ;
-                                                          dct:license "GPL" ;
-                                                          sd:hasURL <http://www.singular.uni-kl.de/> ;
-                                                          sd:developerURL <http://www.singular.uni-kl.de/index.php/singular-devteams.html> ;
-                                                          sd:headOfTeam sdp:Greuel_GM, sdp:Pfister_G .
-
-<http://fachgruppe-computeralgebra.de/CA-System/SYMMETRICA> a sd:CASDescription ;
-                                                            rdfs:label "SYMMETRICA" ;
-                                                            dct:description "Representation theory of symmetric and classical groups" ;
-                                                            dct:license "public domain" ;
-                                                            sd:hasURL <http://www.algorithm.uni-bayreuth.de/en/research/SYMMETRICA> ;
-                                                            sd:developerURL <http://www.algorithm.uni-bayreuth.de/en/team/index.html> .
-
-<http://fachgruppe-computeralgebra.de/CA-System/Sage> a sd:CASDescription ;
-                                                      rdfs:label "Sage" ;
-                                                      dct:description "A free mathematics software system that combines the power of many existing open-source packages into a common Python-based interface" ;
-                                                      dct:license "GPL" ;
-                                                      sd:hasURL <http://www.sagemath.org> .
-
-<http://fachgruppe-computeralgebra.de/CA-System/TheGeometersSketchpad> a sd:DGSDescription ;
-                                                                       rdfs:label "The Geometer's Sketchpad" ;
-                                                                       dct:description "Dynamic Geometry mathematics visualization software" ;
-                                                                       dct:license "kommerziell" ;
-                                                                       sd:hasURL <http://www.dynamicgeometry.com> .
-
-<http://fachgruppe-computeralgebra.de/CA-System/TheSCIEnceProject> a sd:CASDescription ;
-                                                                   rdfs:label "The SCIEnce Project" ;
-                                                                   dct:description "Brings together the developers of four powerful symbolic computation software packages (GAP, KANT, Maple and MuPAD)." ;
-                                                                   sd:hasURL <http://www.symbolic-computation.org/The_SCIEnce_Project> .
-
-<http://fachgruppe-computeralgebra.de/CA-System/WIRIS> a sd:CASDescription ;
-                                                       rdfs:label "WIRIS" ;
-                                                       dct:description "Lern-Computeralgebrasystem für den PC" ;
-                                                       dct:license "kommerziell" ;
-                                                       sd:hasURL <http://www.wiris.com> .
-
-<http://fachgruppe-computeralgebra.de/CA-System/ZirkelundLineal> a sd:DGSDescription ;
-                                                                 rdfs:label "Zirkel und Lineal" ;
-                                                                 dct:creator sdp:Grothmann_R ;
-                                                                 dct:description "Programm zur dynamischen Geometrie" ;
-                                                                 dct:license "GPL" ;
-                                                                 sd:hasURL <http://car.rene-grothmann.de/doc_de/> ;
-                                                                 dct:creatorAsLiteral "Rene Grothmann, Uni Eichstätt" .
-
-<http://fachgruppe-computeralgebra.de/CA-System/com.perisic.ring> a sd:CASDescription ;
-                                                                  rdfs:label "com.perisic.ring" ;
-                                                                  dct:creator sdp:Conrad_M ;
-                                                                  dct:description "A package of Java classes for multivariate and univariate polynomials" ;
-                                                                  dct:license "LGPL" ;
-                                                                  sd:hasURL <http://ring.perisic.com> ;
-                                                                  dct:creatorAsLiteral "Marc Conrad" .
-
 <> a owl:Ontology ;
    rdfs:label "SD CA-Software Data - extended" ;
    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
@@ -284,262 +27,269 @@ sd:DGSDescription a owl:Class ;
 
 <http://symbolicdata.org/Data/System/ace> a sd:CAS ;
                                           rdfs:label "ACE" ;
-                                          rdfs:seeAlso <http://www.swmath.org/software/15066> ;
-                                          sd:basedOn <http://symbolicdata.org/Data/System/maple> ;
+                                          sd:hasSWMathEntry <http://www.swmath.org/software/15066> ;
+                                          sd:isPackageOf <http://symbolicdata.org/Data/System/maple> ;
                                           dct:summary "a Maple library providing tools useful in algebraic combinatorics." ;
-                                          sd:hasSIGSAMURL <http://www.sigsam.org/software/ace.html> .
+                                          sd:hasSIGSAMEntry <http://www.sigsam.org/software/ace.html> .
 
 <http://symbolicdata.org/Data/System/albert> a sd:CAS ;
                                              rdfs:label "Albert" ;
-                                             rdfs:seeAlso <http://www.swmath.org/software/15065> ;
+                                             sd:hasSWMathEntry <http://www.swmath.org/software/15065> ;
                                              dct:summary "An interactive program to assist the specialist in the study of nonassociative algebras." ;
-                                             sd:hasSIGSAMURL <http://www.sigsam.org/software/albert.html> .
+                                             sd:hasSIGSAMEntry <http://www.sigsam.org/software/albert.html> .
 
 <http://symbolicdata.org/Data/System/alpi> a sd:CAS ;
                                            rdfs:label "AlPI" ;
-                                           owl:sameAs <http://www.swmath.org/software/34> .
+                                           sd:hasSWMathEntry <http://www.swmath.org/software/34> .
 
 <http://symbolicdata.org/Data/System/anunq> a sd:CAS ;
                                             rdfs:label "ANUNQ" ;
-                                            sd:basedOn <http://symbolicdata.org/Data/System/gap> ;
+                                            sd:isPackageOf <http://symbolicdata.org/Data/System/gap> ;
                                             dct:summary "A GAP package for the computation of nilpotent factor groups of finitely presented groups." ;
-                                            sd:hasSIGSAMURL <http://www.sigsam.org/software/anunq.html> .
+                                            sd:hasSIGSAMEntry <http://www.sigsam.org/software/anunq.html> .
 
 <http://symbolicdata.org/Data/System/anupq> a sd:CAS ;
                                             rdfs:label "ANUPQ" ;
-                                            rdfs:seeAlso <http://www.swmath.org/software/6682> ;
-                                            sd:basedOn <http://symbolicdata.org/Data/System/gap> ;
+                                            sd:hasSWMathEntry <http://www.swmath.org/software/6682> ;
+                                            sd:isPackageOf <http://symbolicdata.org/Data/System/gap> ;
                                             dct:summary "An interactive interface to the p-quotient, p-group generation and standard presentation algorithms of the ANU pq C program." ;
-                                            sd:hasSIGSAMURL <http://www.sigsam.org/software/anupq.html> .
+                                            sd:hasSIGSAMEntry <http://www.sigsam.org/software/anupq.html> .
 
 <http://symbolicdata.org/Data/System/asys> a sd:CAS ;
                                            rdfs:label "Reduce package ASYS" ;
                                            rdfs:comment "no idea about the status of the project" ;
                                            dct:creator sdp:Gerdt_VP, sdp:Khutornoy_NV, sdp:Zharkov_AYu ;
-                                           sd:basedOn <http://symbolicdata.org/Data/System/reduce> ;
+                                           sd:isPackageOf <http://symbolicdata.org/Data/System/reduce> ;
                                            dct:description "A package for the CAS Reduce to explore different algorithmic aspects of Groebner and involutive bases" ;
                                            sd:lastUpdate "2013-09-14" .
 
 <http://symbolicdata.org/Data/System/axiom> a sd:CAS ;
                                             rdfs:label "Axiom" ;
-                                            rdfs:seeAlso <http://www.swmath.org/software/63>, <http://fachgruppe-computeralgebra.de/CA-System/Axiom> ;
-                                            owl:sameAs <http://www.swmath.org/software/63> ;
+                                            rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#Axiom> ;
+                                            sd:hasSWMathEntry <http://www.swmath.org/software/63> ;
                                             dct:summary "A general-purpose, strongly typed, computer algebra system." ;
-                                            sd:hasSIGSAMURL <http://www.sigsam.org/software/axiom.html> .
+                                            sd:hasSIGSAMEntry <http://www.sigsam.org/software/axiom.html> .
 
 <http://symbolicdata.org/Data/System/cabri> a sd:CAS ;
                                             rdfs:label "Cabri" ;
-                                            rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/Cabri> .
+                                            rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#Cabri> .
 
 <http://symbolicdata.org/Data/System/cali> a sd:CAS ;
                                            rdfs:label "CALI" ;
-                                           rdfs:seeAlso <http://www.swmath.org/software/7761> ;
-                                           sd:basedOn <http://symbolicdata.org/Data/System/reduce> ;
+                                           sd:hasSWMathEntry <http://www.swmath.org/software/7761> ;
+                                           sd:isPackageOf <http://symbolicdata.org/Data/System/reduce> ;
                                            dct:summary "A REDUCE package for computational commutative algebra." ;
-                                           sd:hasSIGSAMURL <http://www.sigsam.org/software/cali.html> .
+                                           sd:hasSIGSAMEntry <http://www.sigsam.org/software/cali.html> .
 
 <http://symbolicdata.org/Data/System/carat> a sd:CAS ;
                                             rdfs:label "CARAT" ;
-                                            rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/CARAT> .
+                                            rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#CARAT> .
 
 <http://symbolicdata.org/Data/System/casa> a sd:CAS ;
                                            rdfs:label "CASA" ;
                                            dct:summary "A Computer Algebra System for Algebraic Geometry." ;
-                                           sd:hasSIGSAMURL <http://www.sigsam.org/software/casa.html> .
+                                           sd:hasSIGSAMEntry <http://www.sigsam.org/software/casa.html> .
 
 <http://symbolicdata.org/Data/System/chevie> a sd:CAS ;
                                              rdfs:label "CHEVIE" ;
-                                             rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/CHEVIE>, <http://www.swmath.org/software/4235> ;
-                                             sd:basedOn <http://symbolicdata.org/Data/System/maple>, <http://symbolicdata.org/Data/System/gap> ;
+                                             rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#CHEVIE> ; 
+					     sd:hasSWMathEntry <http://www.swmath.org/software/4235> ;
+                                             sd:isPackageOf <http://symbolicdata.org/Data/System/maple>, <http://symbolicdata.org/Data/System/gap> ;
                                              dct:summary "A computer algebra system for symbolic calculations with generic character tables of groups." ;
-                                             sd:hasSIGSAMURL <http://www.sigsam.org/software/chevie.html> .
+                                             sd:hasSIGSAMEntry <http://www.sigsam.org/software/chevie.html> .
 
 <http://symbolicdata.org/Data/System/cinderella> a sd:CAS ;
                                                  rdfs:label "Cinderella" ;
-                                                 rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/Cinderella> .
+                                                 rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#Cinderella> .
 
 <http://symbolicdata.org/Data/System/cocoa> a sd:CAS ;
                                             rdfs:label "CoCoA", "CoCoa" ;
-                                            rdfs:seeAlso <http://www.swmath.org/software/143>, <http://fachgruppe-computeralgebra.de/CA-System/CoCoA> ;
-                                            owl:sameAs <http://www.swmath.org/software/143> ;
+                                            rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#CoCoA> ;
+                                            sd:hasSWMathEntry <http://www.swmath.org/software/143> ;
                                             dct:summary "A computer algebra system for doing computations in Commutative Algebra." ;
-                                            sd:hasSIGSAMURL <http://www.sigsam.org/software/cocoa.html> .
+                                            sd:hasSIGSAMEntry <http://www.sigsam.org/software/cocoa.html> .
 
 <http://symbolicdata.org/Data/System/comperisicring> a sd:CAS ;
                                                      rdfs:label "com.perisic.ring" ;
-                                                     rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/com.perisic.ring> .
+                                                     rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#com.perisic.ring> .
 
 <http://symbolicdata.org/Data/System/derive> a sd:CAS ;
                                              rdfs:label "Derive" ;
-                                             rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/Derive> .
+                                             rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#Derive> .
 
 <http://symbolicdata.org/Data/System/discreta> a sd:CAS ;
                                                rdfs:label "DISCRETA" ;
-                                               rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/DISCRETA> .
+                                               rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#DISCRETA> .
 
 <http://symbolicdata.org/Data/System/eins> a sd:CAS ;
                                            rdfs:label "EinS" ;
-                                           rdfs:seeAlso <http://www.swmath.org/software/9354> ;
-                                           sd:basedOn <http://symbolicdata.org/Data/System/mathematica> ;
+                                           sd:hasSWMathEntry <http://www.swmath.org/software/9354> ;
+                                           sd:isPackageOf <http://symbolicdata.org/Data/System/mathematica> ;
                                            dct:summary "A Mathematica package allowing one to perform symbolic calculations with indexed objects." ;
-                                           sd:hasSIGSAMURL <http://www.sigsam.org/software/eins.html> .
+                                           sd:hasSIGSAMEntry <http://www.sigsam.org/software/eins.html> .
 
 <http://symbolicdata.org/Data/System/eucliddynageo> a sd:CAS ;
                                                     rdfs:label "EUCLID DynaGeo" ;
-                                                    rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/EUCLIDDynaGeo> .
+                                                    rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#EUCLIDDynaGeo> .
 
 <http://symbolicdata.org/Data/System/felix> a sd:CAS ;
                                             rdfs:label "Felix" ;
                                             rdfs:comment "no more under development" ;
-                                            rdfs:seeAlso <http://www.swmath.org/software/1048> ;
-                                            owl:sameAs <http://www.swmath.org/software/1048> ;
+                                            sd:hasSWMathEntry <http://www.swmath.org/software/1048> ;
+                                            sd:hasSWMathEntry <http://www.swmath.org/software/1048> ;
                                             dct:summary "A special computer algebra system for the computation in commutative and non-commutative rings and modules." ;
-                                            sd:hasSIGSAMURL <http://www.sigsam.org/software/felix.html> .
+                                            sd:hasSIGSAMEntry <http://www.sigsam.org/software/felix.html> .
 
 <http://symbolicdata.org/Data/System/fermat> a sd:CAS ;
                                              rdfs:label "Fermat" ;
-                                             rdfs:seeAlso <http://www.swmath.org/software/277> ;
+                                             sd:hasSWMathEntry <http://www.swmath.org/software/277> ;
                                              dct:summary "A computer algebra system oriented towards polynomial and matrix algebra over the rationals and finite fields." ;
-                                             sd:hasSIGSAMURL <http://www.sigsam.org/software/fermat.html> .
+                                             sd:hasSIGSAMEntry <http://www.sigsam.org/software/fermat.html> .
 
 <http://symbolicdata.org/Data/System/feynarts> a sd:CAS ;
                                                rdfs:label "FeynArts" ;
-                                               rdfs:seeAlso <http://www.swmath.org/software/6474> ;
-                                               sd:basedOn <http://symbolicdata.org/Data/System/mathematica> ;
+                                               sd:hasSWMathEntry <http://www.swmath.org/software/6474> ;
+                                               sd:isPackageOf <http://symbolicdata.org/Data/System/mathematica> ;
                                                dct:summary "A Mathematica package for the generation and visualization of Feynman diagrams and amplitudes." ;
-                                               sd:hasSIGSAMURL <http://www.sigsam.org/software/feynarts.html> .
+                                               sd:hasSIGSAMEntry <http://www.sigsam.org/software/feynarts.html> .
 
 <http://symbolicdata.org/Data/System/fricas> a sd:CAS ;
                                              rdfs:label "FriCAS" ;
-                                             owl:sameAs <http://www.swmath.org/software/5860> .
+                                             sd:hasSWMathEntry <http://www.swmath.org/software/5860> .
 
 <http://symbolicdata.org/Data/System/gap> a sd:CAS ;
                                           rdfs:label "GAP" ;
-                                          rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/GAP>, <http://www.swmath.org/software/320> ;
+                                          rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#GAP> ;
+					  sd:hasSWMathEntry <http://www.swmath.org/software/320> ;
                                           dct:summary "A System for Computational Discrete Algebra." ;
-                                          sd:hasSIGSAMURL <http://www.sigsam.org/software/gap.html> .
+                                          sd:hasSIGSAMEntry <http://www.sigsam.org/software/gap.html> .
 
 <http://symbolicdata.org/Data/System/gb> a sd:CAS ;
                                          rdfs:label "GB" ;
-                                         owl:sameAs <http://www.swmath.org/software/324> .
+                                         sd:hasSWMathEntry <http://www.swmath.org/software/324> .
 
 <http://symbolicdata.org/Data/System/geogebra> a sd:CAS ;
                                                rdfs:label "GeoGebra" ;
-                                               rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/GeoGebra> .
+                                               rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#GeoGebra> .
 
 <http://symbolicdata.org/Data/System/geonext> a sd:CAS ;
                                               rdfs:label "GEONEXT" ;
-                                              rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/GEONEXT> .
+                                              rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#GEONEXT> .
 
 <http://symbolicdata.org/Data/System/ginac> a sd:CAS ;
                                             rdfs:label "GiNaC" ;
-                                            rdfs:seeAlso <http://www.swmath.org/software/1609> ;
+                                            sd:hasSWMathEntry <http://www.swmath.org/software/1609> ;
                                             dct:summary "A system to allow the creation of integrated systems that embed symbolic manipulations together with more established areas of computer science." ;
-                                            sd:hasSIGSAMURL <http://www.sigsam.org/software/ginac.html> .
+                                            sd:hasSIGSAMEntry <http://www.sigsam.org/software/ginac.html> .
 
 <http://symbolicdata.org/Data/System/grape> a sd:CAS ;
                                             rdfs:label "GRAPE" ;
-                                            rdfs:seeAlso <http://www.swmath.org/software/7516> ;
-                                            sd:basedOn <http://symbolicdata.org/Data/System/gap> ;
+                                            sd:hasSWMathEntry <http://www.swmath.org/software/7516> ;
+                                            sd:isPackageOf <http://symbolicdata.org/Data/System/gap> ;
                                             dct:summary "A GAP package for constructing and analysing graphs related to groups, finite geometries, and designs." ;
-                                            sd:hasSIGSAMURL <http://www.sigsam.org/software/grape.html> .
+                                            sd:hasSIGSAMEntry <http://www.sigsam.org/software/grape.html> .
 
 <http://symbolicdata.org/Data/System/guava> a sd:CAS ;
                                             rdfs:label "GUAVA" ;
-                                            rdfs:seeAlso <http://www.swmath.org/software/7729> ;
-                                            sd:basedOn <http://symbolicdata.org/Data/System/gap> ;
+                                            sd:hasSWMathEntry <http://www.swmath.org/software/7729> ;
+                                            sd:isPackageOf <http://symbolicdata.org/Data/System/gap> ;
                                             dct:summary "A GAP package for computing with error-correcting codes." ;
-                                            sd:hasSIGSAMURL <http://www.sigsam.org/software/guava.html> .
+                                            sd:hasSIGSAMEntry <http://www.sigsam.org/software/guava.html> .
 
 <http://symbolicdata.org/Data/System/jas> a sd:CAS ;
                                           rdfs:label "JAS" ;
-                                          rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/JAS> .
+                                          rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#JAS> .
 
 <http://symbolicdata.org/Data/System/kant> a sd:CAS ;
                                            rdfs:label "Kant/Kash" ;
-                                           rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/Kant_Kash>, <http://www.swmath.org/software/481> ;
+                                           rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#Kant_Kash> ;
+					   sd:hasSWMathEntry <http://www.swmath.org/software/481> ;
                                            dct:summary "A computer algebra system for sophisticated computations in algebraic number fields and global function fields." ;
-                                           sd:hasSIGSAMURL <http://www.sigsam.org/software/kant.html> .
+                                           sd:hasSIGSAMEntry <http://www.sigsam.org/software/kant.html> .
 
 <http://symbolicdata.org/Data/System/lidia> a sd:CAS ;
                                             rdfs:label "LiDIA" ;
-                                            rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/LiDIA>, <http://www.swmath.org/software/518> ;
+                                            rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#LiDIA> ;
+					    sd:hasSWMathEntry <http://www.swmath.org/software/518> ;
                                             dct:summary "A C++ Library For Computational Number Theory." ;
-                                            sd:hasSIGSAMURL <http://www.sigsam.org/software/lidia.html> .
+                                            sd:hasSIGSAMEntry <http://www.sigsam.org/software/lidia.html> .
 
 <http://symbolicdata.org/Data/System/lie> a sd:CAS ;
                                           rdfs:label "LiE" ;
-                                          rdfs:seeAlso <http://www.swmath.org/software/1075> ;
+                                          sd:hasSWMathEntry <http://www.swmath.org/software/1075> ;
                                           dct:summary "A Computer algebra package for Lie group computations." ;
-                                          sd:hasSIGSAMURL <http://www.sigsam.org/software/lie.html> .
+                                          sd:hasSIGSAMEntry <http://www.sigsam.org/software/lie.html> .
 
 <http://symbolicdata.org/Data/System/macaulay2> a sd:CAS ;
                                                 rdfs:label "Macaulay 2", "Macaulay2" ;
-                                                rdfs:seeAlso <http://www.swmath.org/software/537> ;
-                                                owl:sameAs <http://www.swmath.org/software/537> ;
+                                                sd:hasSWMathEntry <http://www.swmath.org/software/537> ;
+                                                sd:hasSWMathEntry <http://www.swmath.org/software/537> ;
                                                 dct:summary "a system for research in algebraic geometry and commutative algebra." ;
-                                                sd:hasSIGSAMURL <http://www.sigsam.org/software/macaulay2.html> .
+                                                sd:hasSIGSAMEntry <http://www.sigsam.org/software/macaulay2.html> .
 
 <http://symbolicdata.org/Data/System/magma> a sd:CAS ;
                                             rdfs:label "Magma" ;
-                                            rdfs:seeAlso <http://www.swmath.org/software/540>, <http://fachgruppe-computeralgebra.de/CA-System/MAGMA> ;
-                                            owl:sameAs <http://www.swmath.org/software/540> .
+                                            rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#MAGMA> ;
+                                            sd:hasSWMathEntry <http://www.swmath.org/software/540> .
 
 <http://symbolicdata.org/Data/System/maple> a sd:CAS ;
                                             rdfs:label "Maple" ;
-                                            rdfs:seeAlso <http://www.swmath.org/software/545>, <http://fachgruppe-computeralgebra.de/CA-System/Maple> ;
-                                            owl:sameAs <http://www.swmath.org/software/545> .
+                                            rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#Maple> ;
+                                            sd:hasSWMathEntry <http://www.swmath.org/software/545> .
 
 <http://symbolicdata.org/Data/System/mas> a sd:CAS ;
                                           rdfs:label "MAS" ;
-                                          rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/MAS> .
+                                          rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#MAS> .
 
 <http://symbolicdata.org/Data/System/mathcad> a sd:CAS ;
                                               rdfs:label "MathCad" ;
-                                              rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/MathCad> .
+                                              rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#MathCad> .
 
 <http://symbolicdata.org/Data/System/mathematica> a sd:CAS ;
                                                   rdfs:label "Mathematica" ;
-                                                  rdfs:seeAlso <http://www.swmath.org/software/554>, <http://fachgruppe-computeralgebra.de/CA-System/Mathematica> .
+						  sd:hasSWMathEntry <http://www.swmath.org/software/554> ; 
+                                                  rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#Mathematica> .
 
 <http://symbolicdata.org/Data/System/matlab> a sd:CAS ;
                                              rdfs:label "MATLAB" ;
-                                             rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/MATLAB> .
+                                             rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#MATLAB> .
 
 <http://symbolicdata.org/Data/System/maxima> a sd:CAS ;
                                              rdfs:label "Maxima" ;
-                                             rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/Maxima> .
+                                             rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#Maxima> .
 
 <http://symbolicdata.org/Data/System/molgen> a sd:CAS ;
                                              rdfs:label "MOLGEN" ;
-                                             rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/MOLGEN>, <http://www.swmath.org/software/586> ;
+                                             rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#MOLGEN> ; 
+					     sd:hasSWMathEntry <http://www.swmath.org/software/586> ;
                                              dct:summary "A system for the computation of all structural formulae that correspond to a given molecular formula." ;
-                                             sd:hasSIGSAMURL <http://www.sigsam.org/software/molgen.html> .
+                                             sd:hasSIGSAMEntry <http://www.sigsam.org/software/molgen.html> .
 
 <http://symbolicdata.org/Data/System/mupad> a sd:CAS ;
                                             rdfs:label "MuPAD", "MuPAD - now Matlab symbolic toolbox" ;
-                                            rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/MuPAD> ;
-                                            owl:sameAs <http://www.swmath.org/software/606> .
+                                            rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#MuPAD> ;
+                                            sd:hasSWMathEntry <http://www.swmath.org/software/606> .
 
 <http://symbolicdata.org/Data/System/normaliz> a sd:CAS ;
                                                rdfs:label "Normaliz" ;
-                                               owl:sameAs <http://www.swmath.org/software/630> .
+                                               sd:hasSWMathEntry <http://www.swmath.org/software/630> .
 
 <http://symbolicdata.org/Data/System/orme> a sd:CAS ;
                                            rdfs:label "ORME" ;
-                                           rdfs:seeAlso <http://www.swmath.org/software/15064> ;
+                                           sd:hasSWMathEntry <http://www.swmath.org/software/15064> ;
                                            dct:summary "A package for equational theories." ;
-                                           sd:hasSIGSAMURL <http://www.sigsam.org/software/orme.html> .
+                                           sd:hasSIGSAMEntry <http://www.sigsam.org/software/orme.html> .
 
 <http://symbolicdata.org/Data/System/pari> a sd:CAS ;
                                            rdfs:label "PARI/GP" ;
-                                           rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/PARI_GP>, <http://www.swmath.org/software/680> ;
+                                           rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#PARI_GP> ;
+					   sd:hasSWMathEntry <http://www.swmath.org/software/680> ;
                                            dct:summary "A computer algebra system designed for for fast computations in number theory." ;
-                                           sd:hasSIGSAMURL <http://www.sigsam.org/software/pari.html> .
+                                           sd:hasSIGSAMEntry <http://www.sigsam.org/software/pari.html> .
 
 <http://symbolicdata.org/Data/System/plural> a sd:CAS ;
                                              rdfs:label "PLURAL" ;
-                                             rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/PLURAL> .
+                                             rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#PLURAL> .
 
 <http://symbolicdata.org/Data/System/points> a sd:CAS ;
                                              rdfs:label "Points" ;
@@ -551,8 +301,8 @@ sd:DGSDescription a owl:Class ;
 
 <http://symbolicdata.org/Data/System/polymake> a sd:CAS ;
                                                rdfs:label "Polymake", "POLYMAKE" ;
-                                               rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/POLYMAKE> ;
-                                               owl:sameAs <http://www.swmath.org/software/724> .
+                                               rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#POLYMAKE> ;
+                                               sd:hasSWMathEntry <http://www.swmath.org/software/724> .
 
 <http://symbolicdata.org/Data/System/qpoints> a sd:CAS ;
                                               rdfs:label "QPoints" ;
@@ -564,53 +314,54 @@ sd:DGSDescription a owl:Class ;
 
 <http://symbolicdata.org/Data/System/reduce> a sd:CAS ;
                                              rdfs:label "Reduce" ;
-                                             rdfs:seeAlso <http://www.swmath.org/software/789>, <http://fachgruppe-computeralgebra.de/CA-System/Reduce> ;
-                                             owl:sameAs <http://www.swmath.org/software/789> ;
+                                             rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#Reduce> ;
+                                             sd:hasSWMathEntry <http://www.swmath.org/software/789> ;
                                              dct:summary "An interactive system for general algebraic computations of interest to mathematicians, scientists and engineers." ;
-                                             sd:hasSIGSAMURL <http://www.sigsam.org/software/reduce.html> .
+                                             sd:hasSIGSAMEntry <http://www.sigsam.org/software/reduce.html> .
 
 <http://symbolicdata.org/Data/System/sagemath> a sd:CAS ;
                                                rdfs:label "SageMath" ;
-                                               rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/Sage>, <http://www.swmath.org/software/825> ;
+                                               rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#Sage> ;
+					       sd:hasSWMathEntry <http://www.swmath.org/software/825> ;
                                                dct:summary "An open-source general purpose computer algebra system." ;
-                                               sd:hasSIGSAMURL <http://www.sigsam.org/software/sage.html> .
+                                               sd:hasSIGSAMEntry <http://www.sigsam.org/software/sage.html> .
 
 <http://symbolicdata.org/Data/System/singular> a sd:CAS ;
                                                rdfs:label "Singular", "SINGULAR" ;
-                                               rdfs:seeAlso <http://www.swmath.org/software/866>, <http://fachgruppe-computeralgebra.de/CA-System/SINGULAR> ;
-                                               owl:sameAs <http://www.swmath.org/software/866> ;
+                                               rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#SINGULAR> ;
+                                               sd:hasSWMathEntry <http://www.swmath.org/software/866> ;
                                                dct:summary "A Computer Algebra System for polynomial computations with special emphasis on the needs of commutative algebra, algebraic geometry, and singularity theory." ;
-                                               sd:hasSIGSAMURL <http://www.sigsam.org/software/singular.html> .
+                                               sd:hasSIGSAMEntry <http://www.sigsam.org/software/singular.html> .
 
 <http://symbolicdata.org/Data/System/sketchpad> a sd:CAS ;
                                                 rdfs:label "The Geometer's Sketchpad" ;
-                                                rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/TheGeometersSketchpad> .
+                                                rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#TheGeometersSketchpad> .
 
 <http://symbolicdata.org/Data/System/sonata> a sd:CAS ;
                                              rdfs:label "SONATA" ;
-                                             rdfs:seeAlso <http://www.swmath.org/software/4904> ;
+                                             sd:hasSWMathEntry <http://www.swmath.org/software/4904> ;
                                              dct:summary "A system for the construction and the analysis of finite nearrings." ;
-                                             sd:hasSIGSAMURL <http://www.sigsam.org/software/sonata.html> .
+                                             sd:hasSIGSAMEntry <http://www.sigsam.org/software/sonata.html> .
 
 <http://symbolicdata.org/Data/System/symmetrica> a sd:CAS ;
                                                  rdfs:label "SYMMETRICA" ;
-                                                 rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/SYMMETRICA> .
+                                                 rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#SYMMETRICA> .
 
 <http://symbolicdata.org/Data/System/thescienceproject> a sd:CAS ;
                                                         rdfs:label "The SCIEnce Project" ;
-                                                        rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/TheSCIEnceProject> .
+                                                        rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#TheSCIEnceProject> .
 
 <http://symbolicdata.org/Data/System/wiris> a sd:CAS ;
                                             rdfs:label "WIRIS" ;
-                                            rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/WIRIS> .
+                                            rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#WIRIS> .
 
 <http://symbolicdata.org/Data/System/zirkelundlineal> a sd:CAS ;
                                                       rdfs:label "Zirkel und Lineal" ;
-                                                      rdfs:seeAlso <http://fachgruppe-computeralgebra.de/CA-System/ZirkelundLineal> .
+                                                      rdfs:seeAlso <http://fachgruppe-computeralgebra.de/systeme#ZirkelundLineal> .
 
-<http://symbolicdata.org/data/System/mathematica> a sd:CAS ;
+<http://symbolicdata.org/Data/System/mathematica> a sd:CAS ;
                                                   rdfs:label "Mathematica" ;
-                                                  owl:sameAs <http://www.swmath.org/software/554> .
+                                                  sd:hasSWMathEntry <http://www.swmath.org/software/554> .
 
 <http://www.swmath.org/software/1048> a sd:CASDescription ;
                                       rdfs:label "Felix" ;
@@ -650,7 +401,7 @@ sd:DGSDescription a owl:Class ;
 <http://www.swmath.org/software/15066> a sd:CASDescription ;
                                        rdfs:label "ACE" ;
                                        dct:creator sdp:Veigneau_S ;
-                                       sd:basedOn <http://www.swmath.org/software/545> ;
+                                       sd:isPackageOf <http://www.swmath.org/software/545> ;
                                        dct:description "ACE (Algebraic Combinatorics Environment). ACE is a Maple library which includes packages providing combinatorial tools useful in algebraic combinatorics. Functions are mostly related to the symmetric group and handle such objects as partitions, compositions, permutations, words, Young tableaux, divided differences, (non-commutative) symmetric functions and Schubert polynomials. " ;
                                        sd:hasURL <http://phalanstere.univ-mlv.fr/~ace/> ;
                                        dct:creatorAsLiteral "S. Veigneau" .
@@ -677,7 +428,7 @@ sd:DGSDescription a owl:Class ;
 <http://www.swmath.org/software/4235> a sd:CASDescription ;
                                       rdfs:label "CHEVIE" ;
                                       dct:creator sdp:Malle_G, sdp:Geck_M, sdp:Luebeck_F, sdp:Pfeiffer_G ;
-                                      sd:basedOn <http://www.swmath.org/software/545>, <http://www.swmath.org/software/320> ;
+                                      sd:isPackageOf <http://www.swmath.org/software/545>, <http://www.swmath.org/software/320> ;
                                       dct:description "CHEVIE is a computer algebra project for symbolic calculations with generic character tables of groups of Lie type, Coxeter groups, Iwahori-Hecke algebras and other related structures. It is based on the computer algebra systems GAP, and  MAPLE. " ;
                                       sd:hasURL <http://www.math.rwth-aachen.de/~CHEVIE/> ;
                                       dct:creatorAsLiteral "Frank Lübeck", "Götz Pfeiffer", "Meinolf Geck", "Gunter Malle", "Gerhard Hiss" .
@@ -748,7 +499,7 @@ sd:DGSDescription a owl:Class ;
 <http://www.swmath.org/software/6474> a sd:CASDescription ;
                                       rdfs:label "FeynArts" ;
                                       dct:creator sdp:Eck_H, sdp:Kueblbeck_S ;
-                                      sd:basedOn <http://www.swmath.org/software/554> ;
+                                      sd:isPackageOf <http://www.swmath.org/software/554> ;
                                       dct:description "FeynArts is a Mathematica package for the generation and visualization of Feynman diagrams and amplitudes. It started out in 1990 as a Macsyma code written by Hagen Eck and Sepp Küblbeck which could produce tree-level and one-loop diagrams in the Standard Model [Kü90], but soon got ported to the Mathematica platform. In 1995, Hagen Eck designed the second version to be a fully general diagram generator. To achieve this, he implemented some decisive new ideas [Eck95], the most important one being the generation of diagrams in three levels. The program was taken up again in 1998 by Thomas Hahn who developed version 2.2. The well-designed conceptual framework was kept, but the actual code was reprogrammed almost entirely to make it more efﬁcient and a user-friendly topology editor was added. The current version 3 features a completely new rendering engine for PostScript and LATEX, together with full support of the Mathematica Frontend’s graphical capabilities. It is also no longer dependent on the X platform for topology editing. " ;
                                       sd:hasURL <http://www.feynarts.de/> ;
                                       dct:creatorAsLiteral "Sepp Küblbeck", "Hagen Eck" .
@@ -756,7 +507,7 @@ sd:DGSDescription a owl:Class ;
 <http://www.swmath.org/software/6682> a sd:CASDescription ;
                                       rdfs:label "ANUPQ" ;
                                       dct:creator sdp:OBrien_E, sdp:Newman_MF ;
-                                      sd:basedOn <http://www.swmath.org/software/320> ;
+                                      sd:isPackageOf <http://www.swmath.org/software/320> ;
                                       dct:description "ANUPQ: A GAP 4 package. The ANUPQ package provides an interactive interface to the p-quotient, p-group generation and standard presentation algorithms of the ANU pq C program. It has been tested on Linux, Mac OS X and Windows (using Cygwin), and more generally should work on any Unix compatible operating system. " ;
                                       sd:hasURL <http://www.gap-system.org/Packages/anupq.html> ;
                                       dct:creatorAsLiteral "E.A. O'Brien", "M.F. Newman" .
@@ -772,7 +523,7 @@ sd:DGSDescription a owl:Class ;
 <http://www.swmath.org/software/7516> a sd:CASDescription ;
                                       rdfs:label "GRAPE" ;
                                       dct:creator sdp:Soicher_LH ;
-                                      sd:basedOn <http://www.swmath.org/software/320> ;
+                                      sd:isPackageOf <http://www.swmath.org/software/320> ;
                                       dct:description "GRAPE is a GAP package for computing with graphs and groups, and is primarily designed for constructing and analysing graphs related to groups, finite geometries, and designs. The vast majority of GRAPE functions are written entirely in the GAP language, except for the automorphism group and isomorphism testing functions, which use Brendan McKay's nauty package. " ;
                                       sd:hasURL <http://www.maths.qmul.ac.uk/~leonard/grape/> ;
                                       dct:creatorAsLiteral "Leonard H. Soicher" .
@@ -780,7 +531,7 @@ sd:DGSDescription a owl:Class ;
 <http://www.swmath.org/software/7729> a sd:CASDescription ;
                                       rdfs:label "GUAVA" ;
                                       dct:creator sdp:Tjhai_C, sdp:Joyner_D, sdp:Minkes_E, sdp:Roijackers_E, sdp:Cramwinckel_J, sdp:Fields_J, sdp:Ruscio_L, sdp:Baart_R, sdp:Miller_R, sdp:Boothby_T ;
-                                      sd:basedOn <http://www.swmath.org/software/320> ;
+                                      sd:isPackageOf <http://www.swmath.org/software/320> ;
                                       dct:description "GUAVA is a GAP package for computing with codes. GUAVA can construct unrestricted (non-linear), linear and cyclic codes; transform one code into another (for example by puncturing); construct a new code from two other codes (using direct sums for example); perform decoding/error-correction; and can calculate important data of codes (such as the minumim distance or covering radius) quickly. Limited ability to compute algebraic geometric codes. " ;
                                       sd:hasURL <http://www.gap-system.org/Packages/guava.html> ;
                                       dct:creatorAsLiteral "David Joyner", "Lea Ruscio", "Eric Minkes", "Erik Roijackers", "Cen Tjhai", "Reinald Baart", "Joe Fields", "Robert Miller", "Jasper Cramwinckel", "Tom Boothby" .
@@ -788,7 +539,7 @@ sd:DGSDescription a owl:Class ;
 <http://www.swmath.org/software/7761> a sd:CASDescription ;
                                       rdfs:label "CALI" ;
                                       dct:creator sdp:Graebe_HG ;
-                                      sd:basedOn <http://www.swmath.org/software/789> ;
+                                      sd:isPackageOf <http://www.swmath.org/software/789> ;
                                       dct:description "CALI - a REDUCE package for commutative algebra. This package contains algorithms for computations in commutative algebra closely related to the Gröbner algorithm for ideals and modules. Its heart is a new implementation of the Gröbner algorithm that allows the computation of syzygies, too. This implementation is also applicable to submodules of free modules with generators represented as rows of a matrix. " ;
                                       sd:hasURL <http://reduce-algebra.com/docs/cali.pdf> ;
                                       dct:creatorAsLiteral "Hans-Gert Gräbe" .
@@ -817,7 +568,7 @@ sd:DGSDescription a owl:Class ;
 <http://www.swmath.org/software/9354> a sd:CASDescription ;
                                       rdfs:label "EinS" ;
                                       dct:creator sdp:Klioner_SA ;
-                                      sd:basedOn <http://www.swmath.org/software/554> ;
+                                      sd:isPackageOf <http://www.swmath.org/software/554> ;
                                       dct:description "EinS is a Mathematica package allowing one to perform operations with indexed objects, which may or may not be tensors. The main application field of EinS is computations with indexed objects involving implicit (Einstein) summations (EinS stands for \"Einstein Summation handler\"). The idea of the package was to create a simple (EinS is a relatively small package consisting of approximately 3000 lines of code), flexible package which would be easy to alter for solving any problem involving indexed objects and which would not waste time for doing anything we do not ask it to do (the latter is usual fate of the users of too general software). On the other hand, package works under Mathematica which is one of the most advanced and flexible computer algebra systems. This allows the user to employ all the power of Mathematica for solving his problem. In order to work with EinS user should have basic knowledge of the Mathematica's control structures and language. " ;
                                       sd:hasURL <http://rcswww.urz.tu-dresden.de/~klioner/eins.html> ;
                                       dct:creatorAsLiteral "S.A. Klioner" .

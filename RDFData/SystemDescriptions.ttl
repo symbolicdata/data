@@ -1,0 +1,841 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://symbolicdata.org/Data/SystemDescriptions/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
+@prefix sdsys: <http://symbolicdata.org/Data/System/> .
+
+<> a <http://www.w3.org/2002/07/owl#Ontology> ;
+   rdfs:label "SD CA-Software Descriptions" ;
+   cc:attributionURL <http://symbolicdata.org> ;
+   cc:attributionName "The SymbolicData Project" ;
+   cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+   owl:imports <http://symbolicdata.org/Data/Systems/>.
+
+sd:CASDescription a <http://www.w3.org/2002/07/owl#Class> ;
+                   rdfs:label "CA Software Description" .
+
+<http://symbolicdata.org/Data/SystemDescription/ace/swMath> a sd:CASDescription ;
+                                                     rdfs:label "ACE" ;
+                                                     dct:description "ACE (Algebraic Combinatorics Environment). ACE is a Maple library which includes packages providing combinatorial tools useful in algebraic combinatorics. Functions are mostly related to the symmetric group and handle such objects as partitions, compositions, permutations, words, Young tableaux, divided differences, (non-commutative) symmetric functions and Schubert polynomials. " ;
+                                                     sd:hasURL <http://phalanstere.univ-mlv.fr/~ace/> ;
+                                                     dct:creator sdp:Veigneau_S ;
+                                                     dct:creatorAsLiteral "S. Veigneau" ;
+                                                     sd:describes sdsys:ace ;
+                                                     dct:source <http://www.swmath.org/software/15066> .
+
+<http://symbolicdata.org/Data/SystemDescription/albert/swMath> a sd:CASDescription ;
+                                                        rdfs:label "Albert" ;
+                                                        dct:description "The Albert nonassociative algebra system: A progress report. After four years of experience with the nonassociative algebra program Albert, we highlight its successes and drawbacks. Among its successes are the discovery of several new results in nonassociative algebra. Each of these results has been independently verified - either with a traditional mathematical proof or with an independent computation. " ;
+                                                        sd:hasURL <http://dl.acm.org/citation.cfm?id=190358> ;
+                                                        dct:creator sdp:Jacobs_DP ;
+                                                        dct:creatorAsLiteral "David P. Jacobs" ;
+                                                        sd:describes sdsys:albert ;
+                                                        dct:source <http://www.swmath.org/software/15065> .
+
+<http://symbolicdata.org/Data/SystemDescription/anupq/swMath> a sd:CASDescription ;
+                                                       rdfs:label "ANUPQ" ;
+                                                       dct:description "ANUPQ: A GAP 4 package. The ANUPQ package provides an interactive interface to the p-quotient, p-group generation and standard presentation algorithms of the ANU pq C program. It has been tested on Linux, Mac OS X and Windows (using Cygwin), and more generally should work on any Unix compatible operating system. " ;
+                                                       sd:hasURL <http://www.gap-system.org/Packages/anupq.html> ;
+                                                       dct:creator sdp:OBrien_E, sdp:Newman_MF ;
+                                                       dct:creatorAsLiteral "M.F. Newman", "E.A. O'Brien" ;
+                                                       sd:describes sdsys:anupq ;
+                                                       dct:source <http://www.swmath.org/software/6682> .
+
+<http://symbolicdata.org/Data/SystemDescription/axiom/swMath> a sd:CASDescription ;
+                                                       rdfs:label "AXIOM" ;
+                                                       dct:description "Axiom is a general purpose Computer Algebra system (CAS). It is useful for research and development of mathematical algorithms. It defines a strongly typed, mathematically correct type hierarchy. It has a programming language and a built-in compiler" ;
+                                                       sd:hasURL <http://axiom-developer.org/> ;
+                                                       sd:developerURL <http://wiki.axiom-developer.org/axiom-website/community.html> ;
+                                                       sd:headOfTeam sdp:Daly_T ;
+                                                       sd:describes sdsys:axiom ;
+                                                       dct:source <http://www.swmath.org/software/63> .
+
+<http://symbolicdata.org/Data/SystemDescription/cali/swMath> a sd:CASDescription ;
+                                                      rdfs:label "CALI" ;
+                                                      dct:description "CALI - a REDUCE package for commutative algebra. This package contains algorithms for computations in commutative algebra closely related to the Gröbner algorithm for ideals and modules. Its heart is a new implementation of the Gröbner algorithm that allows the computation of syzygies, too. This implementation is also applicable to submodules of free modules with generators represented as rows of a matrix. " ;
+                                                      sd:hasURL <http://reduce-algebra.com/docs/cali.pdf> ;
+                                                      dct:creator sdp:Graebe_HG ;
+                                                      dct:creatorAsLiteral "Hans-Gert Gräbe" ;
+                                                      sd:describes sdsys:cali ;
+                                                      dct:source <http://www.swmath.org/software/7761> .
+
+<http://symbolicdata.org/Data/SystemDescription/chevie/swMath> a sd:CASDescription ;
+                                                        rdfs:label "CHEVIE" ;
+                                                        dct:description "CHEVIE is a computer algebra project for symbolic calculations with generic character tables of groups of Lie type, Coxeter groups, Iwahori-Hecke algebras and other related structures. It is based on the computer algebra systems GAP, and  MAPLE. " ;
+                                                        sd:hasURL <http://www.math.rwth-aachen.de/~CHEVIE/> ;
+                                                        dct:creator sdp:Malle_G, sdp:Geck_M, sdp:Luebeck_F, sdp:Pfeiffer_G ;
+                                                        dct:creatorAsLiteral "Gunter Malle", "Gerhard Hiss", "Meinolf Geck", "Götz Pfeiffer", "Frank Lübeck" ;
+                                                        sd:describes sdsys:chevie ;
+                                                        dct:source <http://www.swmath.org/software/4235> .
+
+<http://symbolicdata.org/Data/SystemDescription/cocoa/swMath> a sd:CASDescription ;
+                                                       rdfs:label "CoCoA" ;
+                                                       dct:description "CoCoA is a system for Computations in Commutative Algebra.  It is able to perform simple and sophisticated operations on multivaraiate polynomials and on various data related to them (ideals, modules, matrices, rational functions). For example, it can readily compute Grobner bases, syzygies and minimal free resolution, intersection, division, the radical of an ideal, the ideal of zero-dimensional schemes, Poincare' series and Hilbert functions, factorization of polynomials, toric ideals.  The capabilities of CoCoA and the flexibility of its use are further enhanced by the dedicated high-level programming language. For convenience, the system offers a textual interface, an Emacs mode, and a graphical user interface common to most platforms. " ;
+                                                       sd:hasURL <http://cocoa.dima.unige.it> ;
+                                                       dct:rightsHolder "CoCoa-Team" ;
+                                                       sd:headOfTeam sdp:Robbiano_L ;
+                                                       sd:describes sdsys:cocoa ;
+                                                       dct:source <http://www.swmath.org/software/143> .
+
+<http://symbolicdata.org/Data/SystemDescription/eins/swMath> a sd:CASDescription ;
+                                                      rdfs:label "EinS" ;
+                                                      dct:description "EinS is a Mathematica package allowing one to perform operations with indexed objects, which may or may not be tensors. The main application field of EinS is computations with indexed objects involving implicit (Einstein) summations (EinS stands for \"Einstein Summation handler\"). The idea of the package was to create a simple (EinS is a relatively small package consisting of approximately 3000 lines of code), flexible package which would be easy to alter for solving any problem involving indexed objects and which would not waste time for doing anything we do not ask it to do (the latter is usual fate of the users of too general software). On the other hand, package works under Mathematica which is one of the most advanced and flexible computer algebra systems. This allows the user to employ all the power of Mathematica for solving his problem. In order to work with EinS user should have basic knowledge of the Mathematica's control structures and language. " ;
+                                                      sd:hasURL <http://rcswww.urz.tu-dresden.de/~klioner/eins.html> ;
+                                                      dct:creator sdp:Klioner_SA ;
+                                                      dct:creatorAsLiteral "S.A. Klioner" ;
+                                                      sd:describes sdsys:eins ;
+                                                      dct:source <http://www.swmath.org/software/9354> .
+
+<http://symbolicdata.org/Data/SystemDescription/felix/swMath> a sd:CASDescription ;
+                                                       rdfs:label "Felix" ;
+                                                       dct:description "Special computer algebra system (CAS) for the computation in commutative and non-commutative rings and modules. The central method is Buchberger's algorithm and its generalizations to non-commutative rings, in particular to free k-algebras and algebras of solvable type. Among the implemented applications there are syzygy computations and basic ideal operations. Felix provides a complete programming language which in standard mode is interpreted but also on-line compiler and linker are included. " ;
+                                                       sd:hasURL <http://felix.hgb-leipzig.de/> ;
+                                                       dct:creator sdp:Apel_J, sdp:Klaus_U ;
+                                                       dct:creatorAsLiteral "Uwe Klaus", "Joachim Apel" ;
+                                                       sd:describes sdsys:felix ;
+                                                       dct:source <http://www.swmath.org/software/1048> .
+
+<http://symbolicdata.org/Data/SystemDescription/fermat/swMath> a sd:CASDescription ;
+                                                        rdfs:label "Fermat" ;
+                                                        dct:description "Fermat is a computer algebra system (CAS) for Macintosh, Windows, Linux, and Unix by me, Robert H. Lewis of Fordham University, that does arithmetic of arbitrarily long integers and fractions, multivariate polynomials, symbolic calculations, matrices over polynomial rings, graphics, and other numerical calculations. It is extremely fast and extremely economical of space. The main version that I care most about is oriented toward polynomial and matrix algebra over the rationals Q and finite fields. On the Mac side, there are versions for OS X and old versions for OS 9. There are 64 bit versions. There is an old \"float\" version for graphics (no longer usable) and some new float versions (no graphics). All versions are available here." ;
+                                                        sd:hasURL <http://www.bway.net/~lewis/> ;
+                                                        dct:creator sdp:Lewis_RH ;
+                                                        dct:creatorAsLiteral "Robert H. Lewis" ;
+                                                        sd:describes sdsys:fermat ;
+                                                        dct:source <http://www.swmath.org/software/277> .
+
+<http://symbolicdata.org/Data/SystemDescription/feynarts/swMath> a sd:CASDescription ;
+                                                          rdfs:label "FeynArts" ;
+                                                          dct:description "FeynArts is a Mathematica package for the generation and visualization of Feynman diagrams and amplitudes. It started out in 1990 as a Macsyma code written by Hagen Eck and Sepp Küblbeck which could produce tree-level and one-loop diagrams in the Standard Model [Kü90], but soon got ported to the Mathematica platform. In 1995, Hagen Eck designed the second version to be a fully general diagram generator. To achieve this, he implemented some decisive new ideas [Eck95], the most important one being the generation of diagrams in three levels. The program was taken up again in 1998 by Thomas Hahn who developed version 2.2. The well-designed conceptual framework was kept, but the actual code was reprogrammed almost entirely to make it more efﬁcient and a user-friendly topology editor was added. The current version 3 features a completely new rendering engine for PostScript and LATEX, together with full support of the Mathematica Frontend’s graphical capabilities. It is also no longer dependent on the X platform for topology editing. " ;
+                                                          sd:hasURL <http://www.feynarts.de/> ;
+                                                          dct:creator sdp:Eck_H, sdp:Kueblbeck_S ;
+                                                          dct:creatorAsLiteral "Hagen Eck", "Sepp Küblbeck" ;
+                                                          sd:describes sdsys:feynarts ;
+                                                          dct:source <http://www.swmath.org/software/6474> .
+
+<http://symbolicdata.org/Data/SystemDescription/gap/swMath> a sd:CASDescription ;
+                                                     rdfs:label "GAP" ;
+                                                     dct:description "GAP is a system for computational discrete algebra, with particular emphasis on Computational Group Theory. GAP provides a programming language, a library of thousands of functions implementing algebraic algorithms written in the GAP language as well as large data libraries of algebraic objects. See also the overview and the description of the mathematical capabilities. GAP is used in research and teaching for studying groups and their representations, rings, vector spaces, algebras, combinatorial structures, and more. The system, including source, is distributed freely. You can study and easily modify or extend it for your special use. " ;
+                                                     sd:hasURL <http://www.gap-system.org/> ;
+                                                     dct:rightsHolder "GAP Group" ;
+                                                     sd:describes sdsys:gap ;
+                                                     dct:source <http://www.swmath.org/software/320> .
+
+<http://symbolicdata.org/Data/SystemDescription/ginac/swMath> a sd:CASDescription ;
+                                                       rdfs:label "GiNaC" ;
+                                                       dct:description "GiNaC is a C++ library. It is designed to allow the creation of integrated systems that embed symbolic manipulations together with more established areas of computer science (like computation- intense numeric applications, graphical interfaces, etc.) under one roof. It is distributed under the terms and conditions of the GNU general public license (GPL). GiNaC is an iterated and recursive acronym for GiNaC is Not a CAS, where CAS stands for Computer Algebra System.  It has been specifically developed to become a replacement engine for xloops which is up to now powered by the Maple CAS. However, it is not restricted to high energy physics applications. Its design is revolutionary in a sense that contrary to other CAS it does not try to provide extensive algebraic capabilities and a simple programming language but instead accepts a given language (C++) and extends it by a set of algebraic capabilities.  Perplexed? Feel free to read this paper which describes the philosophy behind GiNaC in more detail. It also addresses some design principles and questions of efficiency, although some implementation details have changed since it was written." ;
+                                                       sd:hasURL <http://www.ginac.de/> ;
+                                                       dct:rightsHolder "European Patent Office (EPO)" ;
+                                                       sd:describes sdsys:ginac ;
+                                                       dct:source <http://www.swmath.org/software/1609> .
+
+<http://symbolicdata.org/Data/SystemDescription/grape/swMath> a sd:CASDescription ;
+                                                       rdfs:label "GRAPE" ;
+                                                       dct:description "GRAPE is a GAP package for computing with graphs and groups, and is primarily designed for constructing and analysing graphs related to groups, finite geometries, and designs. The vast majority of GRAPE functions are written entirely in the GAP language, except for the automorphism group and isomorphism testing functions, which use Brendan McKay's nauty package. " ;
+                                                       sd:hasURL <http://www.maths.qmul.ac.uk/~leonard/grape/> ;
+                                                       dct:creator sdp:Soicher_LH ;
+                                                       dct:creatorAsLiteral "Leonard H. Soicher" ;
+                                                       sd:describes sdsys:grape ;
+                                                       dct:source <http://www.swmath.org/software/7516> .
+
+<http://symbolicdata.org/Data/SystemDescription/guava/swMath> a sd:CASDescription ;
+                                                       rdfs:label "GUAVA" ;
+                                                       dct:description "GUAVA is a GAP package for computing with codes. GUAVA can construct unrestricted (non-linear), linear and cyclic codes; transform one code into another (for example by puncturing); construct a new code from two other codes (using direct sums for example); perform decoding/error-correction; and can calculate important data of codes (such as the minumim distance or covering radius) quickly. Limited ability to compute algebraic geometric codes. " ;
+                                                       sd:hasURL <http://www.gap-system.org/Packages/guava.html> ;
+                                                       dct:creator sdp:Tjhai_C, sdp:Joyner_D, sdp:Minkes_E, sdp:Roijackers_E, sdp:Cramwinckel_J, sdp:Fields_J, sdp:Ruscio_L, sdp:Baart_R, sdp:Miller_R, sdp:Boothby_T ;
+                                                       dct:creatorAsLiteral "Cen Tjhai", "Reinald Baart", "Joe Fields", "Eric Minkes", "Lea Ruscio", "Erik Roijackers", "Jasper Cramwinckel", "Tom Boothby", "David Joyner", "Robert Miller" ;
+                                                       sd:describes sdsys:guava ;
+                                                       dct:source <http://www.swmath.org/software/7729> .
+
+<http://symbolicdata.org/Data/SystemDescription/kant/swMath> a sd:CASDescription ;
+                                                      rdfs:label "KANT" ;
+                                                      dct:description "KASH/KANT is a computer algebra system (CAS) for sophisticated computations in algebraic number fields and global function fields. It has been developed under the project leadership of Prof. Dr. M. Pohst at Technische Universität Berlin." ;
+                                                      sd:hasURL <http://www.math.tu-berlin.de/~kant/> ;
+                                                      dct:creator sdp:Fieker_C, sdp:Hess_F, sdp:Klueners_J, sdp:Pohst_M, sdp:Hoppe_A, sdp:Krahmann_A, sdp:Just_C, sdp:Friedrichs_C, sdp:Bartel_H, sdp:Bauer_H, sdp:Mendez_J, sdp:Geissler_K, sdp:Wildanger_K, sdp:Henningsen_M, sdp:Wagner_M, sdp:Daberkow_M, sdp:Schoernig_M, sdp:Juentgen_M, sdp:Voigt_O, sdp:Fraatz_R, sdp:Freundt_S, sdp:Pauli_S ;
+                                                      dct:creatorAsLiteral "Hartmut Bauer", "Klaus Wildanger", "Jose Mendez", "Andreas Hoppe", "Michael Pohst", "Johannes Graf v. Schmettow", "Mario Daberkow", "Jürgen Klüners", "Robert Fraatz", "Oliver Voigt", "Sebastian Freundt", "Martin Schörnig", "Maike Henningsen", "Anita Krahmann", "Max Jüntgen", "Claus Fieker", "Harald Bartel", "Carsten Friedrichs", "Marcus Wagner", "Florian Heß", "Georg Baier ", "Carolin Just", "Sebastian Pauli", "Katharina Geißler" ;
+                                                      dct:institution "Institut für Mathematik, Technische Universität Berlin" ;
+                                                      dct:rightsHolder "KANT group" ;
+                                                      sd:describes sdsys:kant ;
+                                                      dct:source <http://www.swmath.org/software/481> .
+
+<http://symbolicdata.org/Data/SystemDescription/lidia/swMath> a sd:CASDescription ;
+                                                       rdfs:label "LiDIA" ;
+                                                       dct:description "LiDIA: A library for computational number theory. LiDIA is a C++ library for number theory. The present version only contains tools for rational integers and some floating point arithmetic, however. Emphasis is put on easy usability, modularity (e.g. it can be used with different multi-precision packages) and speed. In this report the authors present several illustrative examples. In particular, they compare their running times with those of the software packages Pari, Maple and Mathematica." ;
+                                                       sd:hasURL <http://www.informatik.tu-darmstadt.de/TI/LiDIA/> ;
+                                                       dct:creator sdp:Buchmann_J, sdp:Biehl_I, sdp:Papanikolaou_T ;
+                                                       dct:creatorAsLiteral "Thomas Papanikolaou", "Ingrid Biehl", "Johannes Buchmann" ;
+                                                       sd:describes sdsys:lidia ;
+                                                       dct:source <http://www.swmath.org/software/518> .
+
+<http://symbolicdata.org/Data/SystemDescription/lie/swMath> a sd:CASDescription ;
+                                                     rdfs:label "LiE" ;
+                                                     dct:description "LiE is the name of a software package that enables mathematicians and physicists to perform computations of a Lie group theoretic nature. It focuses on the representation theory of complex semisimple (reductive) Lie groups and algebras, and on the structure of their Weyl groups and root systems.  LiE does not compute directly with elements of the Lie groups and algebras themselves; it rather computes with weights, roots, characters and similar objects. Some specialities of LiE are: tensor product decompositions, branching to subgroups, Weyl group orbits, reduced elements in Weyl groups, distinguished coset representatives and much more. These operations have been compiled into the program which results in fast execution: typically one or two orders of magnitude faster than similar programs written in a general purpose program.  The LiE programming language makes it possible to customise and extend the package with more mathematical functions. A user manual is provided containing many examples.  LiE establishes an interactive environment from which commands can be given that involve basic programming primitives and powerful built-in functions. These commands are read by an interpreter built into the package and passed to the core of the system. This core consists of programs representing some 100 mathematical functions. The interpreter offers on-line facilities which explain operations and functions, and which give background information about Lie group theoretical concepts and about currently valid definitions and values. " ;
+                                                     sd:hasURL <http://wwwmathlabo.univ-poitiers.fr/~maavl/LiE/> ;
+                                                     dct:creator sdp:vanLeeuwen_M, sdp:Cohen_AM, sdp:Lisser_B ;
+                                                     dct:creatorAsLiteral "B. Lisser", "M.A.A. van Leeuwen", "A.M. Cohen" ;
+                                                     sd:describes sdsys:lie ;
+                                                     dct:source <http://www.swmath.org/software/1075> .
+
+<http://symbolicdata.org/Data/SystemDescription/macaulay2/swMath> a sd:CASDescription ;
+                                                           rdfs:label "Macaulay2" ;
+                                                           dct:description "Macaulay2 is a software system devoted to supporting research in algebraic geometry and commutative algebra, whose creation has been funded by the National Science Foundation since 1992. Macaulay2 includes core algorithms for computing Gröbner bases and graded or multi-graded free resolutions of modules over quotient rings of graded or multi-graded polynomial rings with a monomial ordering. The core algorithms are accessible through a versatile high level interpreted user language with a powerful debugger supporting the creation of new classes of mathematical objects and the installation of methods for computing specifically with them. Macaulay2 can compute Betti numbers, Ext, cohomology of coherent sheaves on projective varieties, primary decomposition of ideals, integral closure of rings, and more. " ;
+                                                           sd:hasURL <http://www.math.uiuc.edu/Macaulay2/> ;
+                                                           sd:developerURL <http://www.math.uiuc.edu/Macaulay2/Contributors/> ;
+                                                           sd:headOfTeam sdp:Eisenbud_D, sdp:Grayson_DR, sdp:Stillman_ME ;
+                                                           sd:describes sdsys:macaulay2 ;
+                                                           dct:source <http://www.swmath.org/software/537> .
+
+<http://symbolicdata.org/Data/SystemDescription/magma/swMath> a sd:CASDescription ;
+                                                       rdfs:label "Magma" ;
+                                                       dct:description "Magma is a large, well-supported software package designed for computations in algebra, number theory, algebraic geometry and algebraic combinatorics. It provides a mathematically rigorous environment for defining and working with structures such as groups, rings, fields, modules, algebras, schemes, curves, graphs, designs, codes and many others. Magma also supports a number of databases designed to aid computational research in those areas of mathematics which are algebraic in nature. The overview provides a summary of Magma's main features.  One of the aims whilst developing Magma is to maintain extensive documentation describing the features of the system. This handbook is available online. The documentation section should help introduce new users to the Magma language.  Magma is distributed by the Computational Algebra Group at the University of Sydney. Its development has benefited enormously from contributions made by many members of the mathematical community. We encourage all users to report any bugs they find; regular patch fixes are available from the downloads section." ;
+                                                       sd:hasURL <http://magma.maths.usyd.edu.au/magma/> ;
+                                                       dct:creator sdp:Smith_B, sdp:Fisher_D, sdp:Matthews_G, sdp:Contini_S ;
+                                                       dct:creatorAsLiteral "G. Matthews", "J. Cannon", "D. Fisher", "B. Smith", "W. Bosma", "S. Contini", "A. Steel" ;
+                                                       sd:describes sdsys:magma ;
+                                                       dct:source <http://www.swmath.org/software/540> .
+
+<http://symbolicdata.org/Data/SystemDescription/maple/swMath> a sd:CASDescription ;
+                                                       rdfs:label "Maple" ;
+                                                       dct:description "The result of over 30 years of cutting-edge research and development, Maple helps you analyze, explore, visualize, and solve mathematical problems. With over 5000 functions, Maple offers the breadth, depth, and performance to handle every type of mathematics. Maple’s intuitive interface supports multiple styles of interaction, from Clickable Math™ tools to a sophisticated programming language. Using the smart document environment provided by Maple, you can automatically capture all of your technical knowledge in an electronic form that combines calculations, explanatory text and math, graphics, images, sound, and diagrams. " ;
+                                                       sd:hasURL <http://www.maplesoft.com/> ;
+                                                       dct:rightsHolder "Waterloo Maple Inc." ;
+                                                       sd:describes sdsys:maple ;
+                                                       dct:source <http://www.swmath.org/software/545> .
+
+<http://symbolicdata.org/Data/SystemDescription/mathematica/swMath> a sd:CASDescription ;
+                                                             rdfs:label "Mathematica" ;
+                                                             dct:description "Almost any workflow involves computing results, and that's what Mathematica does—from building a hedge-fund trading website or publishing interactive engineering textbooks, to developing embedded image-recognition algorithms or teaching calculus. Mathematica is renowned as the world's ultimate application for computations. But it's much more — it's the only development platform fully integrating computation into complete workflows, moving you seamlessly from initial ideas all the way to deployed individual or enterprise solutions." ;
+                                                             sd:hasURL <http://www.wolfram.com/products/mathematica> ;
+                                                             dct:rightsHolder "Wolfram Research" ;
+                                                             sd:describes sdsys:mathematica ;
+                                                             dct:source <http://www.swmath.org/software/554> .
+
+<http://symbolicdata.org/Data/SystemDescription/molgen/swMath> a sd:CASDescription ;
+                                                        rdfs:label "MOLGEN" ;
+                                                        dct:description "Due to a detailed description of the underlying mathematical concepts and many illustrating examples the paper is well understandable, also for a non-expert. Following the traditional lines of considering homomorphic images of groups and double cosets of groups operating on sets, new methods for colouring orbits and determining automorphism groups are presented in order to construct all connected multigraphs with given degrees of vertices and forbidden or prescribed sets of subgraphs (algorithm MOLGEN).par The algorithm relies on algebraic methods rather than combinatorial considerations and allows to construct molecular graphs with given properties of considerable size and complexity, as the numerical results presented in the paper show. Thus, with MOLGEN, there is available a new successful expert system for the structural analysis of chemical compounds. " ;
+                                                        sd:hasURL <http://molgen.de/?src=documents/molgen3.html> ;
+                                                        dct:creator sdp:Grund_R ;
+                                                        dct:creatorAsLiteral "A. Kerber", "R. Laue", "R. Grund" ;
+                                                        sd:describes sdsys:molgen ;
+                                                        dct:source <http://www.swmath.org/software/586> .
+
+<http://symbolicdata.org/Data/SystemDescription/orme/swMath> a sd:CASDescription ;
+                                                      rdfs:label "ORME" ;
+                                                      dct:description "ORME is both a rewrite rule laboratory and a toolbox for building theorem provers and software related to equational theories." ;
+                                                      sd:hasURL <http://www.sigsam.org/software/orme.html> ;
+                                                      dct:creator sdp:Lescanne_P ;
+                                                      dct:creatorAsLiteral "P. Lescanne" ;
+                                                      sd:describes sdsys:orme ;
+                                                      dct:source <http://www.swmath.org/software/15064> .
+
+<http://symbolicdata.org/Data/SystemDescription/pari/swMath> a sd:CASDescription ;
+                                                      rdfs:label "PARI/GP" ;
+                                                      dct:description "PARI/GP is a widely used Computer Algebra System (CAS) designed for fast computations in number theory, but also contains a large number of other useful functions to compute with mathematical entities such as matrices, power series, algebraic or p-adic numbers, etc., and a lot of transcendental functions. PARI is also available as a C library to allow for faster computations.  " ;
+                                                      sd:hasURL <http://pari.math.u-bordeaux.fr/> ;
+                                                      dct:creator sdp:Cohen_H, sdp:Belabas_K ;
+                                                      dct:creatorAsLiteral "Henri Cohen", "Karim Belabas" ;
+                                                      dct:rightsHolder "PARI group" ;
+                                                      sd:describes sdsys:pari ;
+                                                      dct:source <http://www.swmath.org/software/680> .
+
+<http://symbolicdata.org/Data/SystemDescription/reduce/swMath> a sd:CASDescription ;
+                                                        rdfs:label "REDUCE" ;
+                                                        dct:description "REDUCE is an interactive system for general algebraic computations of interest to mathematicians, scientists and engineers. It has been produced by a collaborative effort involving many contributors. Its capabilities include: expansion and ordering of polynomials and rational functions; substitutions and pattern matching in a wide variety of forms; automatic and user controlled simplification of expressions; calculations with symbolic matrices; arbitrary precision integer and real arithmetic; facilities for defining new functions and extending program syntax; analytic differentiation and integration; factorization of polynomials; facilities for the solution of a variety of algebraic equations; facilities for the output of expressions in a variety of formats; facilities for generating optimized numerical programs from symbolic input; calculations with a wide variety of special functions; Dirac matrix calculations of interest to high energy physicists." ;
+                                                        sd:hasURL <http://reduce-algebra.sourceforge.net/> ;
+                                                        dct:creator sdp:Hearn_AC, sdp:Sturm_T, sdp:Rayna_G, sdp:Schoepf_R ;
+                                                        dct:creatorAsLiteral "Anthony C. Hearn", "Rainer Schöpf", "Thomas Sturm", "Gerhard Rayna" ;
+                                                        sd:describes sdsys:reduce ;
+                                                        dct:source <http://www.swmath.org/software/789> .
+
+<http://symbolicdata.org/Data/SystemDescription/sagemath/swMath> a sd:CASDescription ;
+                                                          rdfs:label "Sage" ;
+                                                          dct:description "Sage is free, open-source math software that supports research and teaching in algebra, geometry, number theory, cryptography, numerical computation, and related areas. Both the Sage development model and the technology in Sage itself are distinguished by an extremely strong emphasis on openness, community, cooperation, and collaboration: we are building the car, not reinventing the wheel. The overall goal of Sage is to create a viable, free, open-source alternative to Maple, Mathematica, Magma, and MATLAB. " ;
+                                                          sd:hasURL <http://www.sagemath.org> ;
+                                                          dct:creator sdp:Joyner_D, sdp:Eroecal_B, sdp:Cremona_J, sdp:Stein_W, sdp:Kohel_D ;
+                                                          dct:creatorAsLiteral "David Kohel", "John Cremona", "David Joyner", "William Stein", "Burçin Eröcal" ;
+                                                          sd:describes sdsys:sagemath ;
+                                                          dct:source <http://www.swmath.org/software/825> .
+
+<http://symbolicdata.org/Data/SystemDescription/singular/swMath> a sd:CASDescription ;
+                                                          rdfs:label "SINGULAR" ;
+                                                          dct:description "SINGULAR is a Computer Algebra system (CAS) for polynomial computations in commutative algebra, algebraic geometry, and singularity theory. SINGULAR's main computational objects are ideals and modules over a large variety of baserings. The baserings are polynomial rings over a field (e.g., finite fields, the rationals, floats, algebraic extensions, transcendental extensions), or localizations thereof, or quotient rings with respect to an ideal. SINGULAR features fast and general implementations for computing Groebner and standard bases, including e.g. Buchberger's algorithm and Mora's Tangent Cone algorithm. Furthermore, it provides polynomial factorizations, resultant, characteristic set and gcd computations, syzygy and free-resolution computations, and many more related functionalities. Based on an easy-to-use interactive shell and a C-like programming language, SINGULAR's internal functionality is augmented and user-extendible by libraries written in the SINGULAR programming language. A general and efficient implementation of communication links allows SINGULAR to make its functionality available to other programs." ;
+                                                          sd:hasURL <http://www.singular.uni-kl.de> ;
+                                                          dct:creator sdp:Pfister_G, sdp:Decker_W, sdp:Schoenemann_H, sdp:Greuel_G ;
+                                                          dct:creatorAsLiteral "Gert-Martin Greuel", "Wolfram Decker", "Gerhard Pfister", "Hans Schönemann" ;
+                                                          sd:describes sdsys:singular ;
+                                                          dct:source <http://www.swmath.org/software/866> .
+
+<http://symbolicdata.org/Data/SystemDescription/sonata/swMath> a sd:CASDescription ;
+                                                        rdfs:label "SONATA" ;
+                                                        dct:description "The use of computers in near-ring theory This paper describes the facilities available in a computer system developed by the authors at the University of Linz, Austria, for investigating near-rings. The use of computers to investigate near-rings goes back a long way to the mid 1960s and J. R. Clay. This report opens up a new era in this field by providing a system SONATA (System Of Near-rings And Their Applications) based on GAP, the well known powerful program for groups. A description of the methods used is given. The amount of information that can be obtained is very substantial and can deal with very large near-rings, in some cases up to 10^50 elements in size. Several examples of possible use are described. This is a very useful major achievement. " ;
+                                                        sd:hasURL <http://www.algebra.uni-linz.ac.at/Sonata/> ;
+                                                        dct:creator sdp:Noebauer_C, sdp:Aichinger_E, sdp:Ecker_J ;
+                                                        dct:creatorAsLiteral "Jürgen Ecker", "Christof Nöbauer", "Erhard Aichinger" ;
+                                                        sd:describes sdsys:sonata ;
+                                                        dct:source <http://www.swmath.org/software/4904> .
+
+<http://symbolicdata.org/Data/SystemDescription/axiom/CAFG>
+    dct:description "The Scientific Computation System" ;
+    dct:license "open source" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#Axiom> ;
+    sd:describes <http://symbolicdata.org/Data/System/axiom> ;
+    sd:hasURL <http://axiom-developer.org/> ;
+    sd:headOf sdp:Daly_T ;
+    a sd:CASDescription ;
+    rdfs:label "Axiom" .
+
+<http://symbolicdata.org/Data/SystemDescription/carat/CAFG>
+    dct:creator sdp:Plesken_W ;
+    dct:creatorAsLiteral "Wilhelm Plesken" ;
+    dct:description "Crystallographic AlgoRithms And Tables" ;
+    dct:license "open source" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#CARAT> ;
+    sd:describes <http://symbolicdata.org/Data/System/carat> ;
+    sd:hasURL <http://wwwb.math.rwth-aachen.de/carat> ;
+    a sd:CASDescription ;
+    rdfs:label "CARAT" .
+
+<http://symbolicdata.org/Data/SystemDescription/chevie/CAFG>
+    dct:creator sdp:Geck_M, sdp:Hiss_G, sdp:Luebeck_F, sdp:Malle_G, sdp:Michel_J, sdp:Pfeiffer_G ;
+    dct:creatorAsLiteral "Frank Lübeck", "Gerhard Hiß", "Gunter Malle", "Götz Pfeiffer", "Jean Michel", "Meinolf Geck" ;
+    dct:description "Generic character tables of groups of Lie type" ;
+    dct:license "open source" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#CHEVIE> ;
+    sd:describes <http://symbolicdata.org/Data/System/chevie> ;
+    sd:hasURL <http://www.math.rwth-aachen.de/homes/CHEVIE> ;
+    a sd:CASDescription ;
+    rdfs:label "CHEVIE" .
+
+<http://symbolicdata.org/Data/SystemDescription/cocoa/CAFG>
+    dct:creator sdp:Abbott_J, sdp:Bigatti_A, sdp:Caboara_M, sdp:Kreuzer_M, sdp:Robbiano_L ;
+    dct:creatorAsLiteral "Anna Bigatti", "John Abbott", "Lorenzo Robbiano", "Martin Kreuzer", "Massimo Caboara" ;
+    dct:description "Computations in Commutative Algebra" ;
+    dct:license "open source" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#CoCoA> ;
+    sd:describes <http://symbolicdata.org/Data/System/cocoa> ;
+    sd:hasURL <http://cocoa.dima.unige.it> ;
+    a sd:CASDescription ;
+    rdfs:label "CoCoA" .
+
+<http://symbolicdata.org/Data/SystemDescription/comperisicring/CAFG>
+    dct:creator sdp:Conrad_M ;
+    dct:creatorAsLiteral "Marc Conrad" ;
+    dct:description "A package of Java classes for multivariate and univariate polynomials" ;
+    dct:license "LGPL" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#com.perisic.ring> ;
+    sd:describes <http://symbolicdata.org/Data/System/comperisicring> ;
+    sd:hasURL <http://ring.perisic.com> ;
+    a sd:CASDescription ;
+    rdfs:label "com.perisic.ring" .
+
+<http://symbolicdata.org/Data/SystemDescription/derive/CAFG>
+    dct:description "Weiterentwicklung wurde 2007 eingestellt" ;
+    dct:license "kommerziell" ;
+    dct:rightsHolder "Texas Instruments" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#Derive> ;
+    sd:describes <http://symbolicdata.org/Data/System/derive> ;
+    a sd:CASDescription ;
+    rdfs:label "Derive" .
+
+<http://symbolicdata.org/Data/SystemDescription/discreta/CAFG>
+    dct:creator sdp:Betten_A, sdp:Haberberger_E, sdp:Laue_R, sdp:Wassermann_A ;
+    dct:creatorAsLiteral "Alfred Wassermann", "Anton Betten", "Evi Haberberger", "Reinhard Laue" ;
+    dct:description "A program to construct t-designs with prescribed automorphism group" ;
+    dct:institution "Uni Bayreuth" ;
+    dct:license "open source" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#DISCRETA> ;
+    sd:describes <http://symbolicdata.org/Data/System/discreta> ;
+    sd:hasURL <http://www.mathe2.uni-bayreuth.de/discreta> ;
+    a sd:CASDescription ;
+    rdfs:label "DISCRETA" .
+
+<http://symbolicdata.org/Data/SystemDescription/gap/CAFG>
+    dct:description "Groups, Algorithms, Programming - a System for Computational Discrete Algebra" ;
+    dct:license "open source" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#GAP> ;
+    sd:describes <http://symbolicdata.org/Data/System/gap> ;
+    sd:developerURL <http://www.gap-system.org/Contacts/People/authors.html> ;
+    sd:hasURL <http://www.gap-system.org> ;
+    a sd:CASDescription ;
+    rdfs:label "GAP" .
+
+<http://symbolicdata.org/Data/SystemDescription/jas/CAFG>
+    dct:creator sdp:Kredel_H ;
+    dct:creatorAsLiteral "Heinz Kredel" ;
+    dct:description "Java based version of MAS, an experimental computer algebra system" ;
+    dct:license "open source" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#JAS> ;
+    sd:describes <http://symbolicdata.org/Data/System/jas> ;
+    sd:hasURL <http://krum.rz.uni-mannheim.de/jas> ;
+    a sd:CASDescription ;
+    rdfs:label "JAS" .
+
+<http://symbolicdata.org/Data/SystemDescription/kant/CAFG>
+    dct:description "Computational Algebraic Number Theory" ;
+    dct:license "open source" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#Kant_Kash> ;
+    sd:describes <http://symbolicdata.org/Data/System/kant> ;
+    sd:developerURL <http://page.math.tu-berlin.de/~kant/members.html> ;
+    sd:hasURL <http://page.math.tu-berlin.de/~kant/kash.html> ;
+    a sd:CASDescription ;
+    rdfs:label "Kant/Kash" .
+
+<http://symbolicdata.org/Data/SystemDescription/lidia/CAFG>
+    dct:description "Library For Computational Number Theory" ;
+    dct:license "open source" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#LiDIA> ;
+    sd:describes <http://symbolicdata.org/Data/System/lidia> ;
+    sd:hasURL <http://cadadr.org/fm/package/lidia.html> ;
+    a sd:CASDescription ;
+    rdfs:label "LiDIA" .
+
+<http://symbolicdata.org/Data/SystemDescription/magma/CAFG>
+    dct:description "Computational Algebra System" ;
+    dct:license "kommerziell (Gebühren für Service und Updates)" ;
+    dct:rightsHolder "The Computational Algebra Group, University of Sydney" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#MAGMA> ;
+    sd:describes <http://symbolicdata.org/Data/System/magma> ;
+    sd:hasURL <http://magma.maths.usyd.edu.au/magma> ;
+    sd:headOfTeam sdp:Cannon_J, sdp:Steel_A ;
+    a sd:CASDescription ;
+    rdfs:label "MAGMA" .
+
+<http://symbolicdata.org/Data/SystemDescription/maple/CAFG>
+    dct:description "Mathematics, Modeling, Simulation" ;
+    dct:license "kommerziell" ;
+    dct:rightsHolder "Maplesoft Inc." ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#Maple> ;
+    sd:describes <http://symbolicdata.org/Data/System/maple> ;
+    sd:hasURL <http://www.maplesoft.com> ;
+    a sd:CASDescription ;
+    rdfs:label "Maple" .
+
+<http://symbolicdata.org/Data/SystemDescription/mas/CAFG>
+    dct:creator sdp:Kredel_H ;
+    dct:creatorAsLiteral "Heinz Kredel" ;
+    dct:description "Modula-2 Algebra System, an experimental computer algebra system" ;
+    dct:license "open source" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#MAS> ;
+    sd:describes <http://symbolicdata.org/Data/System/mas> ;
+    sd:hasURL <http://krum.rz.uni-mannheim.de/mas> ;
+    a sd:CASDescription ;
+    rdfs:label "MAS" .
+
+<http://symbolicdata.org/Data/SystemDescription/mathcad/CAFG>
+    dct:description "Der globale Standard für Konstruktionsberechnungen" ;
+    dct:license "kommerziell" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#MathCad> ;
+    sd:describes <http://symbolicdata.org/Data/System/mathcad> ;
+    sd:hasURL <http://www.mathcad.com> ;
+    a sd:CASDescription ;
+    rdfs:label "MathCad" .
+
+<http://symbolicdata.org/Data/SystemDescription/mathematica/CAFG>
+    dct:description "Compute, Develop, Deploy" ;
+    dct:license "kommerziell" ;
+    dct:rightsHolder "Wolfram Research Inc." ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#Mathematica> ;
+    sd:describes <http://symbolicdata.org/Data/System/mathematica> ;
+    sd:hasURL <http://www.wolfram.com> ;
+    a sd:CASDescription ;
+    rdfs:label "Mathematica" .
+
+<http://symbolicdata.org/Data/SystemDescription/matlab/CAFG>
+    dct:description "The Language Of Technical Computing. Seit Herbst 2008 durch Übernahme von MuPAD auch mit einer Symbolic Math Toolbox." ;
+    dct:license "kommerziell" ;
+    dct:rightsHolder "The MathWorks GmbH" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#MATLAB> ;
+    sd:describes <http://symbolicdata.org/Data/System/matlab> ;
+    sd:hasURL <http://www.mathworks.com/products/matlab> ;
+    a sd:CASDescription ;
+    rdfs:label "MATLAB" .
+
+<http://symbolicdata.org/Data/SystemDescription/maxima/CAFG>
+    dct:description "Manipulation of symbolic and numerical expressions. Vorgängersystem: Macsyma" ;
+    dct:license "GPL" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#Maxima> ;
+    sd:describes <http://symbolicdata.org/Data/System/maxima> ;
+    sd:hasURL <http://maxima.sourceforge.net/> ;
+    a sd:CASDescription ;
+    rdfs:label "Maxima" .
+
+<http://symbolicdata.org/Data/SystemDescription/molgen/CAFG>
+    dct:creator sdp:Gugisch_R, sdp:Kerber_A, sdp:Kohnert_A, sdp:Laue_R, sdp:Meringer_M, sdp:Ruecker_C, sdp:Wassermann_A ;
+    dct:creatorAsLiteral "Adalbert Kerber", "Alfred Wassermann", "Axel Kohnert", "Christoph Rücker", "Markus Meringer", "Ralf Gugisch", "Reinhard Laue" ;
+    dct:description "Molecular Structure Generation" ;
+    dct:institution "Universität Bayreuth" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#MOLGEN> ;
+    sd:describes <http://symbolicdata.org/Data/System/molgen> ;
+    sd:hasURL <http://www.molgen.de> ;
+    a sd:CASDescription ;
+    rdfs:label "MOLGEN" .
+
+<http://symbolicdata.org/Data/SystemDescription/mupad/CAFG>
+    dct:description "Seit Herbst 2008 wird MuPAD nicht mehr als eigenständiges Produkt vertrieben. Die MuPAD Technologie ist nun Bestandteil der Symbolic Math Toolbox in MATLAB." ;
+    dct:license "kommerziell" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#MuPAD> ;
+    sd:describes <http://symbolicdata.org/Data/System/mupad> ;
+    sd:hasURL <http://www.mathworks.com/products/symbolic> ;
+    a sd:CASDescription ;
+    rdfs:label "MuPAD" .
+
+<http://symbolicdata.org/Data/SystemDescription/pari/CAFG>
+    dct:description "Schnelle Berechnungen aus der Zahlentheorie" ;
+    dct:license "GPL" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#PARI_GP> ;
+    sd:describes <http://symbolicdata.org/Data/System/pari> ;
+    sd:hasURL <http://pari.math.u-bordeaux.fr/> ;
+    sd:headOfTeam sdp:Belabas_K, sdp:Cohen_H ;
+    a sd:CASDescription ;
+    rdfs:label "PARI/GP" .
+
+<http://symbolicdata.org/Data/SystemDescription/plural/CAFG>
+    dct:creator sdp:Heinle_A, sdp:Levandovskyy_V ;
+    dct:creatorAsLiteral "Albert Heinle", "Viktor Levandovskyy" ;
+    dct:description "A Computer Algebra Subsystem for Noncommutative Polynomial Algebras" ;
+    dct:license "kostenlos (GPL)" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#PLURAL> ;
+    sd:describes <http://symbolicdata.org/Data/System/plural> ;
+    sd:hasURL <http://www.singular.uni-kl.de/Manual/3-0-4/sing_355.htm> ;
+    a sd:CASDescription ;
+    rdfs:label "PLURAL" .
+
+<http://symbolicdata.org/Data/SystemDescription/polymake/CAFG>
+    dct:description "A tool to study the combinatorics and the geometry of convex polytopes and polyhedra" ;
+    dct:license "GPL" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#POLYMAKE> ;
+    sd:describes <http://symbolicdata.org/Data/System/polymake> ;
+    sd:developerURL <http://www.polymake.org> ;
+    sd:hasURL <http://www.polymake.org/> ;
+    a sd:CASDescription ;
+    rdfs:label "POLYMAKE" .
+
+<http://symbolicdata.org/Data/SystemDescription/reduce/CAFG>
+    dct:creator sdp:Hearn_AC ;
+    dct:description "An interactive system for general algebraic computations" ;
+    dct:license "open source" ;
+    dct:rightsHolder "Anthony C. Hearn" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#Reduce> ;
+    sd:describes <http://symbolicdata.org/Data/System/reduce> ;
+    sd:hasURL <http://www.reduce-algebra.com> ;
+    a sd:CASDescription ;
+    rdfs:label "Reduce" .
+
+<http://symbolicdata.org/Data/SystemDescription/singular/CAFG>
+    dct:description "A Computer Algebra System for polynomial computations with special emphasis on the needs of commutative algebra, algebraic geometry, and singularity theory" ;
+    dct:license "GPL" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#SINGULAR> ;
+    sd:describes <http://symbolicdata.org/Data/System/singular> ;
+    sd:developerURL <http://www.singular.uni-kl.de/index.php/singular-devteams.html> ;
+    sd:hasURL <http://www.singular.uni-kl.de/> ;
+    sd:headOfTeam sdp:Greuel_GM, sdp:Pfister_G ;
+    a sd:CASDescription ;
+    rdfs:label "SINGULAR" .
+
+<http://symbolicdata.org/Data/SystemDescription/symmetrica/CAFG>
+    dct:description "Representation theory of symmetric and classical groups" ;
+    dct:license "public domain" ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#SYMMETRICA> ;
+    sd:describes <http://symbolicdata.org/Data/System/symmetrica> ;
+    sd:developerURL <http://www.algorithm.uni-bayreuth.de/en/team/index.html> ;
+    sd:hasURL <http://www.algorithm.uni-bayreuth.de/en/research/SYMMETRICA> ;
+    a sd:CASDescription ;
+    rdfs:label "SYMMETRICA" .
+
+<http://symbolicdata.org/Data/SystemDescription/thescienceproject/CAFG>
+    dct:description "Brings together the developers of four powerful symbolic computation software packages (GAP, KANT, Maple and MuPAD)." ;
+    dct:source <http://fachgruppe-computeralgebra.de/systeme#TheSCIEnceProject> ;
+    sd:describes <http://symbolicdata.org/Data/System/thescienceproject> ;
+    sd:hasURL <http://www.symbolic-computation.org/The_SCIEnce_Project> ;
+    a sd:CASDescription ;
+    rdfs:label "The SCIEnce Project" .
+
+<http://symbolicdata.org/Data/SystemDescription/ace/sigsam_29>
+    dct:creator sdp:Veigneau_S ;
+    dct:creatorAsLiteral "S. Veigneau" ;
+    dct:description "ACE (Algebraic Combinatorics Environment). ACE is a Maple library which includes packages providing combinatorial tools useful in algebraic combinatorics. Functions are mostly related to the symmetric group and handle such objects as partitions, compositions, permutations, words, Young tableaux, divided differences, (non-commutative) symmetric functions and Schubert polynomials. Computer algebra system (CAS)." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:ace ;
+    sd:hasURL <http://phalanstere.univ-mlv.fr/~ace/> ;
+    a sd:CASDescription ;
+    rdfs:label "ACE" .
+
+<http://symbolicdata.org/Data/SystemDescription/albert/sigsam_29>
+    dct:creator sdp:Jacobs_DP ;
+    dct:creatorAsLiteral "David P. Jacobs" ;
+    dct:description "The Albert nonassociative algebra system: A progress report. After four years of experience with the nonassociative algebra program Albert, we highlight its successes and drawbacks. Among its successes are the discovery of several new results in nonassociative algebra. Each of these results has been independently verified - either with a traditional mathematical proof or with an independent computation. Computer algebra system (CAS)." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:albert ;
+    sd:hasURL <http://dl.acm.org/citation.cfm?id=190358> ;
+    a sd:CASDescription ;
+    rdfs:label "Albert" .
+
+<http://symbolicdata.org/Data/SystemDescription/anupq/sigsam_29>
+    dct:creator sdp:Newman_MF, sdp:OBrien_E ;
+    dct:creatorAsLiteral "E.A. O'Brien", "M.F. Newman" ;
+    dct:description "ANUPQ: A GAP 4 package. The ANUPQ package provides an interactive interface to the p-quotient, p-group generation and standard presentation algorithms of the ANU pq C program. It has been tested on Linux, Mac OS X and Windows (using Cygwin), and more generally should work on any Unix compatible operating system. Computer algebra system (CAS)." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:anupq ;
+    sd:hasURL <http://www.gap-system.org/Packages/anupq.html> ;
+    a sd:CASDescription ;
+    rdfs:label "ANUPQ" .
+
+<http://symbolicdata.org/Data/SystemDescription/axiom/sigsam_29>
+    dct:description "Axiom is a general purpose Computer Algebra system (CAS). It is useful for research and development of mathematical algorithms. It defines a strongly typed, mathematically correct type hierarchy. It has a programming language and a built-in compiler" ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:axiom ;
+    sd:developerURL <http://wiki.axiom-developer.org/axiom-website/community.html> ;
+    sd:hasURL <http://axiom-developer.org/> ;
+    sd:headOfTeam sdp:Daly_T ;
+    a sd:CASDescription ;
+    rdfs:label "AXIOM" .
+
+<http://symbolicdata.org/Data/SystemDescription/cali/sigsam_29>
+    dct:creatorAsLiteral "H.-G. Gräbe" ;
+    dct:creator sdp:Graebe_HG ; 
+    dct:description "CALI - a REDUCE package for commutative algebra. This package contains algorithms for computations in commutative algebra closely related to the Gröbner algorithm for ideals and modules. Its heart is a new implementation of the Gröbner algorithm that allows the computation of syzygies, too. This implementation is also applicable to submodules of free modules with generators represented as rows of a matrix. Computer algebra system (CAS)." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:cali ;
+    sd:hasURL <http://reduce-algebra.com/docs/cali.pdf> ;
+    a sd:CASDescription ;
+    rdfs:label "CALI" .
+
+<http://symbolicdata.org/Data/SystemDescription/chevie/sigsam_29>
+    dct:creator sdp:Geck_M, sdp:Luebeck_F, sdp:Malle_G, sdp:Pfeiffer_G, sdp:Hiss_G ;
+    dct:creatorAsLiteral "Frank Lübeck", "Gerhard Hiss", "Gunter Malle", "Götz Pfeiffer", "Meinolf Geck" ;
+    dct:description "CHEVIE is a computer algebra project for symbolic calculations with generic character tables of groups of Lie type, Coxeter groups, Iwahori-Hecke algebras and other related structures. It is based on the computer algebra systems GAP, and  MAPLE. Computer algebra system (CAS)." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:chevie ;
+    sd:hasURL <http://www.math.rwth-aachen.de/~CHEVIE/> ;
+    a sd:CASDescription ;
+    rdfs:label "CHEVIE" .
+
+<http://symbolicdata.org/Data/SystemDescription/cocoa/sigsam_29>
+    dct:description "CoCoA is a system for Computations in Commutative Algebra.  It is able to perform simple and sophisticated operations on multivaraiate polynomials and on various data related to them (ideals, modules, matrices, rational functions). For example, it can readily compute Grobner bases, syzygies and minimal free resolution, intersection, division, the radical of an ideal, the ideal of zero-dimensional schemes, Poincare' series and Hilbert functions, factorization of polynomials, toric ideals.  The capabilities of CoCoA and the flexibility of its use are further enhanced by the dedicated high-level programming language. For convenience, the system offers a textual interface, an Emacs mode, and a graphical user interface common to most platforms. Computer algebra system (CAS).  " ;
+    dct:institution "CoCoa-Team" ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:cocoa ;
+    sd:hasURL <http://cocoa.dima.unige.it> ;
+    sd:headOfTeam sdp:Robbiano_L ;
+    a sd:CASDescription ;
+    rdfs:label "CoCoA" .
+
+<http://symbolicdata.org/Data/SystemDescription/eins/sigsam_29>
+    dct:creator sdp:Klioner_SA ;
+    dct:creatorAsLiteral "S.A. Klioner" ;
+    dct:description "EinS is a Mathematica package allowing one to perform operations with indexed objects, which may or may not be tensors. The main application field of EinS is computations with indexed objects involving implicit (Einstein) summations (EinS stands for \"Einstein Summation handler\"). The idea of the package was to create a simple (EinS is a relatively small package consisting of approximately 3000 lines of code), flexible package which would be easy to alter for solving any problem involving indexed objects and which would not waste time for doing anything we do not ask it to do (the latter is usual fate of the users of too general software). On the other hand, package works under Mathematica which is one of the most advanced and flexible computer algebra systems. This allows the user to employ all the power of Mathematica for solving his problem. In order to work with EinS user should have basic knowledge of the Mathematica's control structures and language. Computer algebra system (CAS)." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:eins ;
+    sd:hasURL <http://rcswww.urz.tu-dresden.de/~klioner/eins.html> ;
+    a sd:CASDescription ;
+    rdfs:label "EinS" .
+
+<http://symbolicdata.org/Data/SystemDescription/felix/sigsam_29>
+    dct:creator sdp:Apel_J, sdp:Klaus_U ;
+    dct:creatorAsLiteral "Joachim Apel", "Uwe Klaus" ;
+    dct:description "Special computer algebra system (CAS) for the computation in commutative and non-commutative rings and modules. The central method is Buchberger's algorithm and its generalizations to non-commutative rings, in particular to free k-algebras and algebras of solvable type. Among the implemented applications there are syzygy computations and basic ideal operations. Felix provides a complete programming language which in standard mode is interpreted but also on-line compiler and linker are included. Computer algebra system (CAS)." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:felix ;
+    sd:hasURL <http://felix.hgb-leipzig.de/> ;
+    a sd:CASDescription ;
+    rdfs:label "Felix" .
+
+<http://symbolicdata.org/Data/SystemDescription/fermat/sigsam_29>
+    dct:creator sdp:Lewis_RH ;
+    dct:creatorAsLiteral "Robert H. Lewis" ;
+    dct:description "Fermat is a computer algebra system (CAS) for Macintosh, Windows, Linux, and Unix by me, Robert H. Lewis of Fordham University, that does arithmetic of arbitrarily long integers and fractions, multivariate polynomials, symbolic calculations, matrices over polynomial rings, graphics, and other numerical calculations. It is extremely fast and extremely economical of space. The main version that I care most about is oriented toward polynomial and matrix algebra over the rationals Q and finite fields. On the Mac side, there are versions for OS X and old versions for OS 9. There are 64 bit versions. There is an old \"float\" version for graphics (no longer usable) and some new float versions (no graphics). All versions are available here." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:fermat ;
+    sd:hasURL <http://www.bway.net/~lewis/> ;
+    a sd:CASDescription ;
+    rdfs:label "Fermat" .
+
+<http://symbolicdata.org/Data/SystemDescription/feynarts/sigsam_29>
+    dct:creator sdp:Eck_H, sdp:Kueblbeck_S ;
+    dct:creatorAsLiteral "Hagen Eck", "Sepp Küblbeck" ;
+    dct:description "FeynArts is a Mathematica package for the generation and visualization of Feynman diagrams and amplitudes. It started out in 1990 as a Macsyma code written by Hagen Eck and Sepp Küblbeck which could produce tree-level and one-loop diagrams in the Standard Model [Kü90], but soon got ported to the Mathematica platform. In 1995, Hagen Eck designed the second version to be a fully general diagram generator. To achieve this, he implemented some decisive new ideas [Eck95], the most important one being the generation of diagrams in three levels. The program was taken up again in 1998 by Thomas Hahn who developed version 2.2. The well-designed conceptual framework was kept, but the actual code was reprogrammed almost entirely to make it more efﬁcient and a user-friendly topology editor was added. The current version 3 features a completely new rendering engine for PostScript and LATEX, together with full support of the Mathematica Frontend’s graphical capabilities. It is also no longer dependent on the X platform for topology editing. Computer algebra system (CAS)." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:feynarts ;
+    sd:hasURL <http://www.feynarts.de/> ;
+    a sd:CASDescription ;
+    rdfs:label "FeynArts" .
+
+<http://symbolicdata.org/Data/SystemDescription/gap/sigsam_29>
+    dct:description "GAP is a system for computational discrete algebra, with particular emphasis on Computational Group Theory. GAP provides a programming language, a library of thousands of functions implementing algebraic algorithms written in the GAP language as well as large data libraries of algebraic objects. See also the overview and the description of the mathematical capabilities. GAP is used in research and teaching for studying groups and their representations, rings, vector spaces, algebras, combinatorial structures, and more. The system, including source, is distributed freely. You can study and easily modify or extend it for your special use. Computer algebra system (CAS)." ;
+    dct:institution "GAP Group" ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:gap ;
+    sd:hasURL <http://www.gap-system.org/> ;
+    a sd:CASDescription ;
+    rdfs:label "GAP" .
+
+<http://symbolicdata.org/Data/SystemDescription/ginac/sigsam_29>
+    dct:description "GiNaC is a C++ library. It is designed to allow the creation of integrated systems that embed symbolic manipulations together with more established areas of computer science (like computation- intense numeric applications, graphical interfaces, etc.) under one roof. It is distributed under the terms and conditions of the GNU general public license (GPL). GiNaC is an iterated and recursive acronym for GiNaC is Not a CAS, where CAS stands for Computer Algebra System.  It has been specifically developed to become a replacement engine for xloops which is up to now powered by the Maple CAS. However, it is not restricted to high energy physics applications. Its design is revolutionary in a sense that contrary to other CAS it does not try to provide extensive algebraic capabilities and a simple programming language but instead accepts a given language (C++) and extends it by a set of algebraic capabilities.  Perplexed? Feel free to read this paper which describes the philosophy behind GiNaC in more detail. It also addresses some design principles and questions of efficiency, although some implementation details have changed since it was written." ;
+    dct:institution "European Patent Office (EPO)" ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:ginac ;
+    sd:hasURL <http://www.ginac.de/> ;
+    a sd:CASDescription ;
+    rdfs:label "GiNaC" .
+
+<http://symbolicdata.org/Data/SystemDescription/grape/sigsam_29>
+    dct:creator sdp:Soicher_LH ;
+    dct:creatorAsLiteral "Leonard H. Soicher" ;
+    dct:description "GRAPE is a GAP package for computing with graphs and groups, and is primarily designed for constructing and analysing graphs related to groups, finite geometries, and designs. The vast majority of GRAPE functions are written entirely in the GAP language, except for the automorphism group and isomorphism testing functions, which use Brendan McKay's nauty package. Computer algebra system (CAS)." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:grape ;
+    sd:hasURL <http://www.maths.qmul.ac.uk/~leonard/grape/> ;
+    a sd:CASDescription ;
+    rdfs:label "GRAPE" .
+
+<http://symbolicdata.org/Data/SystemDescription/guava/sigsam_29>
+    dct:creator sdp:Baart_R, sdp:Boothby_T, sdp:Cramwinckel_J, sdp:Fields_J, sdp:Joyner_D, sdp:Miller_R, sdp:Minkes_E, sdp:Roijackers_E, sdp:Ruscio_L, sdp:Tjhai_C ;
+    dct:creatorAsLiteral "Cen Tjhai", "David Joyner", "Eric Minkes", "Erik Roijackers", "Jasper Cramwinckel", "Joe Fields", "Lea Ruscio", "Reinald Baart", "Robert Miller", "Tom Boothby" ;
+    dct:description "GUAVA is a GAP package for computing with codes. GUAVA can construct unrestricted (non-linear), linear and cyclic codes; transform one code into another (for example by puncturing); construct a new code from two other codes (using direct sums for example); perform decoding/error-correction; and can calculate important data of codes (such as the minumim distance or covering radius) quickly. Limited ability to compute algebraic geometric codes. Computer algebra system (CAS)." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:guava ;
+    sd:hasURL <http://www.gap-system.org/Packages/guava.html> ;
+    a sd:CASDescription ;
+    rdfs:label "GUAVA" .
+
+<http://symbolicdata.org/Data/SystemDescription/kant/sigsam_29>
+    dct:creator sdp:Baier_G, sdp:Bartel_H, sdp:Bauer_H, sdp:Daberkow_M, sdp:Fieker_C, sdp:Fraatz_R, sdp:Freundt_S, sdp:Friedrichs_C, sdp:Geissler_K, sdp:Henningsen_M, sdp:Hess_F, sdp:Hoppe_A, sdp:Juentgen_M, sdp:Just_C, sdp:Klueners_J, sdp:Krahmann_A, sdp:Mendez_J, sdp:Pauli_S, sdp:Pohst_M, sdp:Schoernig_M, sdp:Voigt_O, sdp:Wagner_M, sdp:GrafvonSchmettow_J , sdp:Wildanger_K ;
+    dct:creatorAsLiteral "Andreas Hoppe", "Anita Krahmann", "Carolin Just", "Carsten Friedrichs", "Claus Fieker", "Florian Heß", "Georg Baier", "Harald Bartel", "Hartmut Bauer", "Johannes Graf v. Schmettow", "Jose Mendez", "Jürgen Klüners", "Katharina Geißler", "Klaus Wildanger", "Maike Henningsen", "Marcus Wagner", "Mario Daberkow", "Martin Schörnig", "Max Jüntgen", "Michael Pohst", "Oliver Voigt", "Robert Fraatz", "Sebastian Freundt", "Sebastian Pauli" ;
+    dct:description "KASH/KANT is a computer algebra system (CAS) for sophisticated computations in algebraic number fields and global function fields. It has been developed under the project leadership of Prof. Dr. M. Pohst at Technische Universität Berlin." ;
+    dct:institution "KANT group", "Technische Universität Berlin, Institut für Mathematik" ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:kant ;
+    sd:hasURL <http://www.math.tu-berlin.de/~kant/> ;
+    a sd:CASDescription ;
+    rdfs:label "KANT" .
+
+<http://symbolicdata.org/Data/SystemDescription/lidia/sigsam_29>
+    dct:creator sdp:Biehl_I, sdp:Buchmann_J, sdp:Papanikolaou_T ;
+    dct:creatorAsLiteral "Ingrid Biehl", "Johannes Buchmann", "Thomas Papanikolaou" ;
+    dct:description "LiDIA: A library for computational number theory. LiDIA is a C++ library for number theory. The present version only contains tools for rational integers and some floating point arithmetic, however. Emphasis is put on easy usability, modularity (e.g. it can be used with different multi-precision packages) and speed. In this report the authors present several illustrative examples. In particular, they compare their running times with those of the software packages Pari, Maple and Mathematica. Computer algebra system (CAS)." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:lidia ;
+    sd:hasURL <http://www.informatik.tu-darmstadt.de/TI/LiDIA/> ;
+    a sd:CASDescription ;
+    rdfs:label "LiDIA" .
+
+<http://symbolicdata.org/Data/SystemDescription/lie/sigsam_29>
+    dct:creator sdp:Lisser_B, sdp:Cohen_AM, sdp:vanLeeuwen_M ;
+    dct:creatorAsLiteral "A.M. Cohen", "B. Lisser", "M.A.A. van Leeuwen" ;
+    dct:description "LiE is the name of a software package that enables mathematicians and physicists to perform computations of a Lie group theoretic nature. It focuses on the representation theory of complex semisimple (reductive) Lie groups and algebras, and on the structure of their Weyl groups and root systems.  LiE does not compute directly with elements of the Lie groups and algebras themselves; it rather computes with weights, roots, characters and similar objects. Some specialities of LiE are: tensor product decompositions, branching to subgroups, Weyl group orbits, reduced elements in Weyl groups, distinguished coset representatives and much more. These operations have been compiled into the program which results in fast execution: typically one or two orders of magnitude faster than similar programs written in a general purpose program.  The LiE programming language makes it possible to customise and extend the package with more mathematical functions. A user manual is provided containing many examples.  LiE establishes an interactive environment from which commands can be given that involve basic programming primitives and powerful built-in functions. These commands are read by an interpreter built into the package and passed to the core of the system. This core consists of programs representing some 100 mathematical functions. The interpreter offers on-line facilities which explain operations and functions, and which give background information about Lie group theoretical concepts and about currently valid definitions and values. Computer algebra system (CAS)." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:lie ;
+    sd:hasURL <http://wwwmathlabo.univ-poitiers.fr/~maavl/LiE/> ;
+    a sd:CASDescription ;
+    rdfs:label "LiE" .
+
+<http://symbolicdata.org/Data/SystemDescription/macaulay2/sigsam_29>
+    dct:description "Macaulay2 is a software system devoted to supporting research in algebraic geometry and commutative algebra, whose creation has been funded by the National Science Foundation since 1992.  Macaulay2 includes core algorithms for computing Gröbner bases and graded or multi-graded free resolutions of modules over quotient rings of graded or multi-graded polynomial rings with a monomial ordering. The core algorithms are accessible through a versatile high level interpreted user language with a powerful debugger supporting the creation of new classes of mathematical objects and the installation of methods for computing specifically with them. Macaulay2 can compute Betti numbers, Ext, cohomology of coherent sheaves on projective varieties, primary decomposition of ideals, integral closure of rings, and more. Computer algebra system (CAS)." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:macaulay2 ;
+    sd:developerURL <http://www.math.uiuc.edu/Macaulay2/Contributors/> ;
+    sd:hasURL <http://www.math.uiuc.edu/Macaulay2/> ;
+    sd:headOf sdp:Eisenbud_D, sdp:Grayson_DR, sdp:Stillman_ME ;
+    a sd:CASDescription ;
+    rdfs:label "Macaulay 2" .
+
+<http://symbolicdata.org/Data/SystemDescription/magma/sigsam_29>
+    dct:creator sdp:Contini_S, sdp:Fisher_D, sdp:Matthews_G, sdp:Smith_B, sdp:Cannon_J, sdp:Bosma_W, sdp:Steel_A ;
+    dct:creatorAsLiteral "A. Steel", "B. Smith", "D. Fisher", "G. Matthews", "J. Cannon", "S. Contini", "W. Bosma" ;
+    dct:description "Computer algebra system (CAS). Magma is a large, well-supported software package designed for computations in algebra, number theory, algebraic geometry and algebraic combinatorics. It provides a mathematically rigorous environment for defining and working with structures such as groups, rings, fields, modules, algebras, schemes, curves, graphs, designs, codes and many others. Magma also supports a number of databases designed to aid computational research in those areas of mathematics which are algebraic in nature. The overview provides a summary of Magma's main features.  One of the aims whilst developing Magma is to maintain extensive documentation describing the features of the system. This handbook is available online. The documentation section should help introduce new users to the Magma language.  Magma is distributed by the Computational Algebra Group at the University of Sydney. Its development has benefited enormously from contributions made by many members of the mathematical community. We encourage all users to report any bugs they find; regular patch fixes are available from the downloads section." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:magma ;
+    sd:hasURL <http://magma.maths.usyd.edu.au/magma/> ;
+    a sd:CASDescription ;
+    rdfs:label "Magma" .
+
+<http://symbolicdata.org/Data/SystemDescription/maple/sigsam_29>
+    dct:description "The result of over 30 years of cutting-edge research and development, Maple helps you analyze, explore, visualize, and solve mathematical problems. With over 5000 functions, Maple offers the breadth, depth, and performance to handle every type of mathematics. Maple’s intuitive interface supports multiple styles of interaction, from Clickable Math™ tools to a sophisticated programming language. Using the smart document environment provided by Maple, you can automatically capture all of your technical knowledge in an electronic form that combines calculations, explanatory text and math, graphics, images, sound, and diagrams. " ;
+    dct:rightsHolder "Waterloo Maple, Inc." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:maple ;
+    sd:hasURL <http://www.maplesoft.com/> ;
+    a sd:CASDescription ;
+    rdfs:label "Maple" .
+
+<http://symbolicdata.org/Data/SystemDescription/mathematica/sigsam_29>
+    dct:description "Almost any workflow involves computing results, and that's what Mathematica does — from building a hedge-fund trading website or publishing interactive engineering textbooks, to developing embedded image-recognition algorithms or teaching calculus. Mathematica is renowned as the world's ultimate application for computations. But it's much more — it's the only development platform fully integrating computation into complete workflows, moving you seamlessly from initial ideas all the way to deployed individual or enterprise solutions." ;
+    dct:rightsHolder "Wolfram Research, Inc." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:mathematica ;
+    sd:hasURL <http://www.wolfram.com/products/mathematica> ;
+    a sd:CASDescription ;
+    rdfs:label "Mathematica" .
+
+<http://symbolicdata.org/Data/SystemDescription/molgen/sigsam_29>
+    dct:creator sdp:Grund_R, sdp:Kerber_A, sdp:Laue_R ;
+    dct:creatorAsLiteral "A. Kerber", "R. Grund", "R. Laue" ;
+    dct:description "Due to a detailed description of the underlying mathematical concepts and many illustrating examples the paper is well understandable, also for a non-expert. Following the traditional lines of considering homomorphic images of groups and double cosets of groups operating on sets, new methods for colouring orbits and determining automorphism groups are presented in order to construct all connected multigraphs with given degrees of vertices and forbidden or prescribed sets of subgraphs (algorithm MOLGEN).par The algorithm relies on algebraic methods rather than combinatorial considerations and allows to construct molecular graphs with given properties of considerable size and complexity, as the numerical results presented in the paper show. Thus, with MOLGEN, there is available a new successful expert system for the structural analysis of chemical compounds. Computer algebra system (CAS)." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:molgen ;
+    sd:hasURL <http://molgen.de/?src=documents/molgen3.html> ;
+    a sd:CASDescription ;
+    rdfs:label "MOLGEN" .
+
+<http://symbolicdata.org/Data/SystemDescription/orme/sigsam_29>
+    dct:creator sdp:Lescanne_P ;
+    dct:creatorAsLiteral "P. Lescanne" ;
+    dct:description "ORME is both a rewrite rule laboratory and a toolbox for building theorem provers and software related to equational theories. Computer algebra system (CAS)." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:orme ;
+    sd:hasURL <http://www.sigsam.org/software/orme.html> ;
+    a sd:CASDescription ;
+    rdfs:label "ORME" .
+
+<http://symbolicdata.org/Data/SystemDescription/pari/sigsam_29>
+    dct:description "PARI/GP is a widely used Computer Algebra System (CAS) designed for fast computations in number theory, but also contains a large number of other useful functions to compute with mathematical entities such as matrices, power series, algebraic or p-adic numbers, etc., and a lot of transcendental functions. PARI is also available as a C library to allow for faster computations.  " ;
+    dct:institution "PARI group" ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:pari ;
+    sd:hasURL <http://pari.math.u-bordeaux.fr/> ;
+    sd:headOfTeam sdp:Belabas_K, sdp:Cohen_H ;
+    a sd:CASDescription ;
+    rdfs:label "PARI/GP" .
+
+<http://symbolicdata.org/Data/SystemDescription/reduce/sigsam_29>
+    dct:description "REDUCE is an interactive system for general algebraic computations of interest to mathematicians, scientists and engineers. Computer algebra system (CAS). It has been produced by a collaborative effort involving many contributors. Its capabilities include: expansion and ordering of polynomials and rational functions; substitutions and pattern matching in a wide variety of forms; automatic and user controlled simplification of expressions; calculations with symbolic matrices; arbitrary precision integer and real arithmetic; facilities for defining new functions and extending program syntax; analytic differentiation and integration; factorization of polynomials; facilities for the solution of a variety of algebraic equations; facilities for the output of expressions in a variety of formats; facilities for generating optimized numerical programs from symbolic input; calculations with a wide variety of special functions; Dirac matrix calculations of interest to high energy physicists." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:reduce ;
+    sd:hasURL <http://reduce-algebra.sourceforge.net/> ;
+    sd:headOfTeam sdp:Hearn_AC, sdp:Rayna_G, sdp:Schoepf_R, sdp:Sturm_T ;
+    a sd:CASDescription ;
+    rdfs:label "REDUCE" .
+
+<http://symbolicdata.org/Data/SystemDescription/sagemath/sigsam_29>
+    dct:description "Sage is free, open-source math software that supports research and teaching in algebra, geometry, number theory, cryptography, numerical computation, and related areas. Both the Sage development model and the technology in Sage itself are distinguished by an extremely strong emphasis on openness, community, cooperation, and collaboration: we are building the car, not reinventing the wheel. The overall goal of Sage is to create a viable, free, open-source alternative to Maple, Mathematica, Magma, and MATLAB. Computer algebra system (CAS)." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:sagemath ;
+    sd:hasURL <http://www.sagemath.org> ;
+    sd:headOfTeam sdp:Cremona_J, sdp:Eroecal_B, sdp:Joyner_D, sdp:Kohel_D, sdp:Stein_W ;
+    a sd:CASDescription ;
+    rdfs:label "Sage" .
+
+<http://symbolicdata.org/Data/SystemDescription/singular/sigsam_29>
+    dct:description "SINGULAR is a Computer Algebra system (CAS) for polynomial computations in commutative algebra, algebraic geometry, and singularity theory. SINGULAR's main computational objects are ideals and modules over a large variety of baserings. The baserings are polynomial rings over a field (e.g., finite fields, the rationals, floats, algebraic extensions, transcendental extensions), or localizations thereof, or quotient rings with respect to an ideal. SINGULAR features fast and general implementations for computing Groebner and standard bases, including e.g. Buchberger's algorithm and Mora's Tangent Cone algorithm. Furthermore, it provides polynomial factorizations, resultant, characteristic set and gcd computations, syzygy and free-resolution computations, and many more related functionalities. Based on an easy-to-use interactive shell and a C-like programming language, SINGULAR's internal functionality is augmented and user-extendible by libraries written in the SINGULAR programming language. A general and efficient implementation of communication links allows SINGULAR to make its functionality available to other programs." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:singular ;
+    sd:hasURL <http://www.singular.uni-kl.de> ;
+    sd:headOfTeam sdp:Decker_W, sdp:Greuel_GM, sdp:Pfister_G, sdp:Schoenemann_H ;
+    a sd:CASDescription ;
+    rdfs:label "Singular" .
+
+<http://symbolicdata.org/Data/SystemDescription/sonata/sigsam_29>
+    dct:creator sdp:Aichinger_E, sdp:Ecker_J, sdp:Noebauer_C ;
+    dct:creatorAsLiteral "Christof Nöbauer", "Erhard Aichinger", "Jürgen Ecker" ;
+    dct:description "The use of computers in near-ring theory This paper describes the facilities available in a computer system developed by the authors at the University of Linz, Austria, for investigating near-rings. The use of computers to investigate near-rings goes back a long way to the mid 1960s and J. R. Clay. This report opens up a new era in this field by providing a system SONATA (System Of Near-rings And Their Applications) based on GAP, the well known powerful program for groups. A description of the methods used is given. The amount of information that can be obtained is very substantial and can deal with very large near-rings, in some cases up to 10^50 elements in size. Several examples of possible use are described. This is a very useful major achievement. Computer algebra system (CAS)." ;
+    dct:source "sigsam_29.csv from SIGSAM" ;
+    sd:describes sdsys:sonata ;
+    sd:hasURL <http://www.algebra.uni-linz.ac.at/Sonata/> ;
+    a sd:CASDescription ;
+    rdfs:label "SONATA" .
