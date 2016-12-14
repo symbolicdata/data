@@ -1807,6 +1807,10 @@ sdp:Johanning_S a foaf:Person ;
 sdp:Johansson_M a foaf:Person ;
                 foaf:name "Moa Johansson" .
 
+sdp:Johnson_J a foaf:Person ;
+              foaf:name "Jeremy Johnson" ;
+              sd:affiliation "Drexel University, USA" .
+
 sdp:Joldes_M a foaf:Person ;
              foaf:name "Mioara Joldes" ;
              sd:affiliation "LAAS CNRS, Toulouse, France" .
@@ -1892,6 +1896,10 @@ sdp:Kamp_ET a foaf:Person ;
 
 sdp:Kang_S a foaf:Person ;
            foaf:name "Sohee Kang" .
+
+sdp:Kanwal_F a foaf:Person ;
+             foaf:name "Faira Kanwal" ;
+             sd:affiliation "TU Kaiserslautern, Germany" .
 
 sdp:Kapur_D a foaf:Person ;
             foaf:name "Deepak Kapur" ;
@@ -2170,6 +2178,10 @@ sdp:Kroening_D a foaf:Person ;
 sdp:Kronberg_M a foaf:Person ;
                foaf:name "Max Kronberg" ;
                sd:affiliation "Uni Oldenburg, Germany" .
+
+sdp:Kuchen_H a foaf:Person ;
+             foaf:name "Herbert Kuchen" ;
+             sd:affiliation "University of Münster, Germany" .
 
 sdp:Kueblbeck_S a foaf:Person ;
                 foaf:name "Sepp Küblbeck" .
@@ -3763,7 +3775,8 @@ sdp:Staudenmaier_HM a foaf:Person ;
                     foaf:name "H.-M. Staudenmaier" .
 
 sdp:Steel_A a foaf:Person ;
-            foaf:name "Alan Steel" .
+            foaf:name "Alan Steel" ;
+            sd:affiliation "University of Sydney, Australia" .
 
 sdp:Steen_A a foaf:Person ;
             foaf:name "Alexander Steen" .
@@ -3928,6 +3941,10 @@ sdp:Thiel_U a foaf:Person ;
 sdp:Thomas_RR a foaf:Person ;
               foaf:name "Rekha R. Thomas" ;
               sd:affiliation "University of Washington, Seattle, USA" .
+
+sdp:Thome_E a foaf:Person ;
+            foaf:name "Emmanuel Thome" ;
+            sd:affiliation "INRIA Nancy, France" .
 
 sdp:Tilouine_J a foaf:Person ;
                foaf:name "Jacques Tilouine" .

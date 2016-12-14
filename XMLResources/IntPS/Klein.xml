@@ -1,0 +1,14 @@
+<INTPS createdAt="2016-12-13" createdBy="kanwal">
+<vars>x,y,z,t,u</vars>
+<basis>
+<poly>
+x^6+522*x^5*y-10005*x^4*y^2-10005*x^2*y^4-522*x*y^5+y^6-z
+</poly>
+<poly>
+-x^4+228*x^3*y-494*x^2*y^2-228*x*y^3-y^4-1
+</poly>
+<poly>
+55*x^2*y^2-5*x*y^3+10*x^2*y-u
+</poly>
+</basis>
+</INTPS>

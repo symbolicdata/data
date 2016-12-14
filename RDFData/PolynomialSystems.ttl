@@ -3724,6 +3724,15 @@
                                                      sd:homogenizedWith "hv" ;
                                                      sd:homogenize <http://symbolicdata.org/Data/Ideal/Katsura_8> .
 
+<http://symbolicdata.org/Data/Ideal/Klein> a sd:Ideal ;
+                                           rdfs:comment "Klein" ;
+                                           sd:createdAt "2016-12-13" ;
+                                           sd:createdBy <http://symbolicdata.org/Data/Person/Kanwal_F> ;
+                                           sd:hasVariables "x,y,z,t,u" ;
+                                           sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Klein> ;
+                                           sd:hasDegreeList "4,4,6" ;
+                                           sd:hasLengthsList "4,6,7" .
+
 <http://symbolicdata.org/Data/Ideal/Krider> a sd:Ideal ;
                                             sd:createdAt "1999-03-26" ;
                                             sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
@@ -3743,6 +3752,15 @@
                                                   sd:hasLengthsList "18,23,28,39,48,107" ;
                                                   sd:homogenizedWith "hv" ;
                                                   sd:homogenize <http://symbolicdata.org/Data/Ideal/Krider> .
+
+<http://symbolicdata.org/Data/Ideal/Milnor1> a sd:Ideal ;
+                                             rdfs:comment "Milnor1" ;
+                                             sd:createdAt "2016-12-13" ;
+                                             sd:createdBy <http://symbolicdata.org/Data/Person/Kanwal_F> ;
+                                             sd:hasVariables "x,y,z" ;
+                                             sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Milnor1> ;
+                                             sd:hasDegreeList "41,59,59" ;
+                                             sd:hasLengthsList "2,6,6" .
 
 <http://symbolicdata.org/Data/Ideal/Neff-89> a sd:Ideal ;
                                              sd:createdAt "1999-03-26" ;
@@ -4118,6 +4136,24 @@
                                                                sd:hasLengthsList "2,3,7,7" ;
                                                                sd:homogenizedWith "hw" ;
                                                                sd:homogenize <http://symbolicdata.org/Data/Ideal/Raksanyi.Homog.Flat> .
+
+<http://symbolicdata.org/Data/Ideal/Random1> a sd:Ideal ;
+                                             rdfs:comment "Random1" ;
+                                             sd:createdAt "2016-12-13" ;
+                                             sd:createdBy <http://symbolicdata.org/Data/Person/Pfister_G> ;
+                                             sd:hasVariables "x,y,z" ;
+                                             sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Random1> ;
+                                             sd:hasDegreeList "15,18,19,21,25" ;
+                                             sd:hasLengthsList "4,4,4,4,4" .
+
+<http://symbolicdata.org/Data/Ideal/Random2> a sd:Ideal ;
+                                             rdfs:comment "Random2" ;
+                                             sd:createdAt "2016-12-13" ;
+                                             sd:createdBy <http://symbolicdata.org/Data/Person/Kanwal_F> ;
+                                             sd:hasVariables "x,y,z" ;
+                                             sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Random2> ;
+                                             sd:hasDegreeList "18,18,21,25" ;
+                                             sd:hasLengthsList "5,5,5,5" .
 
 <http://symbolicdata.org/Data/Ideal/Reimer_5> a sd:Ideal ;
                                               rdfs:comment "Example Reimer 5 from the Frisco Test Suite" ;
@@ -5098,6 +5134,15 @@
                                                  sd:hasLengthsList "2,2,4" ;
                                                  sd:homogenizedWith "hv" ;
                                                  sd:homogenize <http://symbolicdata.org/Data/Ideal/TD-89> .
+
+<http://symbolicdata.org/Data/Ideal/Tjurina1> a sd:Ideal ;
+                                              rdfs:comment "Tjurina1" ;
+                                              sd:createdAt "2016-12-13" ;
+                                              sd:createdBy <http://symbolicdata.org/Data/Person/Pfister_G> ;
+                                              sd:hasVariables "x,y,z" ;
+                                              sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Tjurina1> ;
+                                              sd:hasDegreeList "29,29,29,30" ;
+                                              sd:hasLengthsList "13,13,13,19" .
 
 <http://symbolicdata.org/Data/Ideal/Trinks> a sd:Ideal ;
                                             rdfs:comment "diff = easy" ;
@@ -7209,10 +7254,20 @@ Origin (maxima code):
                                                sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Katsura_8.xml> .
 
+<http://symbolicdata.org/Data/IntPS/Klein> a sd:IntegerPolynomialSystem ;
+                                           sd:createdAt "2016-12-13" ;
+                                           sd:createdBy <http://symbolicdata.org/Data/Person/Kanwal_F> ;
+                                           sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Klein.xml> .
+
 <http://symbolicdata.org/Data/IntPS/Krider> a sd:IntegerPolynomialSystem ;
                                             sd:createdAt "1999-03-26" ;
                                             sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
                                             sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Krider.xml> .
+
+<http://symbolicdata.org/Data/IntPS/Milnor1> a sd:IntegerPolynomialSystem ;
+                                             sd:createdAt "2016-12-13" ;
+                                             sd:createdBy <http://symbolicdata.org/Data/Person/Kanwal_F> ;
+                                             sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Milnor1.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Neff-89> a sd:IntegerPolynomialSystem ;
                                              sd:createdAt "1999-03-26" ;
@@ -7314,6 +7369,16 @@ Origin (maxima code):
                                               sd:createdAt "1999-03-26" ;
                                               sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
                                               sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Raksanyi.xml> .
+
+<http://symbolicdata.org/Data/IntPS/Random1> a sd:IntegerPolynomialSystem ;
+                                             sd:createdAt "2016-12-13" ;
+                                             sd:createdBy <http://symbolicdata.org/Data/Person/Pfister_G> ;
+                                             sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Random1.xml> .
+
+<http://symbolicdata.org/Data/IntPS/Random2> a sd:IntegerPolynomialSystem ;
+                                             sd:createdAt "2016-12-13" ;
+                                             sd:createdBy <http://symbolicdata.org/Data/Person/Kanwal_F> ;
+                                             sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Random2.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Reimer_5> a sd:IntegerPolynomialSystem ;
                                               sd:createdAt "2010-05-11" ;
@@ -7623,6 +7688,11 @@ Origin (maxima code):
                                            sd:createdAt "1999-03-26" ;
                                            sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
                                            sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/TD-89.xml> .
+
+<http://symbolicdata.org/Data/IntPS/Tjurina1> a sd:IntegerPolynomialSystem ;
+                                              sd:createdAt "2016-12-13" ;
+                                              sd:createdBy <http://symbolicdata.org/Data/Person/Pfister_G> ;
+                                              sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Tjurina1.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Trinks> a sd:IntegerPolynomialSystem ;
                                             sd:createdAt "1999-03-26" ;

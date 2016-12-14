@@ -1,0 +1,20 @@
+<INTPS createdAt="2016-12-13" createdBy="pfister">
+<vars>x,y,z</vars>
+<basis>
+<poly>
+47*x^7*y^8*z^3+91*x^7*y^4*z^7+28*x^3*y^6*z^8+63*x^2*y
+</poly>
+<poly>
+21*x^3*y^2*z^10+57*x*y^7*z+15*x^3*y*z^5+51*x*y^3*z^3
+ </poly>
+<poly>
+ 32*x^7*y^4*z^8+53*x^6*y^6*z^2+17*x^3*y^7*z^2+74*x*y^5*z
+</poly>
+<poly>
+ 32*x^10*y^9*z^6+23*x^5*y^8*z^8+21*x^2*y^3*z^7+27*y^5*z
+</poly>
+<poly>
+ 81*x^10*y^10*z+19*x^3*y^5*z^5+79*x^5*z^7+36*x*y^2*z^3
+</poly>
+</basis>
+</INTPS>
