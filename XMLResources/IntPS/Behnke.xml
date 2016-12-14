@@ -1,0 +1,21 @@
+
+<INTPS createdAt="2016-12-13" createdBy="pfister">
+<vars>a,b,c,d,e</vars>
+<basis>
+<poly>
+a^7-b^7
+</poly>
+<poly>
+b^7-c^7
+</poly>
+<poly>
+c^7-d^7
+</poly>
+<poly>
+d^7-e^7
+</poly>
+<poly>
+a^6*b+b^6*c+c^6*d+d^6*e+a*e^6
+</poly>
+</basis>
+</INTPS>

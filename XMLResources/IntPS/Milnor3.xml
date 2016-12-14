@@ -1,0 +1,15 @@
+
+<INTPS createdAt="2016-12-13" createdBy="kanwal">
+<vars>x,y,z</vars>
+<basis>
+<poly>
+10*x^9*y^10+12*x^11*y^9+18*x^8*y^12+9*x^8*y^9*z^3+8*x^7*y^14+33*x^32
+</poly>
+<poly>
+10*x^10*y^9+9*x^12*y^8+24*x^9*y^11+9*x^9*y^8*z^3+14*x^8*y^13+30*y^29
+</poly>
+<poly>
+3*x^9*y^9*z^2+30*z^29
+</poly>
+</basis>
+</INTPS>

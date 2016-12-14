@@ -1897,8 +1897,8 @@ sdp:Kamp_ET a foaf:Person ;
 sdp:Kang_S a foaf:Person ;
            foaf:name "Sohee Kang" .
 
-sdp:Kanwal_F a foaf:Person ;
-             foaf:name "Faira Kanwal" ;
+sdp:Kanwal_S a foaf:Person ;
+             foaf:name "Shamsa Kanwal" ;
              sd:affiliation "TU Kaiserslautern, Germany" .
 
 sdp:Kapur_D a foaf:Person ;
