@@ -120,6 +120,14 @@
                                                      sd:hasPublicityChair sdp:Konovalov_A ;
                                                      sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/PASCO> .
 
+<http://symbolicdata.org/Data/Conference/PC-17> a sd:UpcomingConference ;
+                                                rdfs:label "8th polymake conference" ;
+                                                ical:dtstart "2017-02-03"^^xsd:date ;
+                                                ical:dtend "2017-02-03"^^xsd:date ;
+                                                ical:location "TU Berlin, Germany" ;
+                                                ical:description "There will be two plenary talks on Normaliz and tropical homology (precise details to be announced). In addition, we will provide demos and tutorials on various aspects of our new release 3.1 (which will appear before the workshop), such as the reworked polymake database extension. The workshop also includes our regular help desk where you can discuss your individual ideas/suggestions/questions/complaints." ;
+                                                ical:url <https://polymake.org/doku.php/workshop0217> .
+
 <http://symbolicdata.org/Data/Conference/PCA-2017> a sd:UpcomingConference ;
                                                    rdfs:label "Polynomial Computer Algebra 2017" ;
                                                    ical:dtstart "2017-04-17"^^xsd:date ;
