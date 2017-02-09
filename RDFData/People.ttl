@@ -1467,13 +1467,15 @@ sdp:Hartl_A a foaf:Person ;
             foaf:name "Alexander Hartl" .
 
 sdp:Hartmann_J a foaf:Person ;
-               foaf:name "Julia Hartman" .
+               foaf:name "Julia Hartmann" .
 
 sdp:Harvey_D a foaf:Person ;
              foaf:name "David Harvey" .
 
 sdp:Hasan_O a foaf:Person ;
-            foaf:name "Osman Hasan" .
+            foaf:name "Osman Hasan" ;
+            foaf:homepage <http://ohasan.seecs.nust.edu.pk/> ;
+            sd:affiliation "NUST Islamabad, Pakistan" .
 
 sdp:Hasek_R a foaf:Person ;
             foaf:name "Roman Hašek" ;
@@ -3923,6 +3925,10 @@ sdp:Temkin_M a foaf:Person ;
 
 sdp:Tentukov_M a foaf:Person ;
                foaf:name "M. Tentukov" .
+
+sdp:Teschke_O a foaf:Person ;
+              foaf:name "Olaf Teschke" ;
+              sd:affiliation "HU Berlin, Germany" .
 
 sdp:Tews_H a foaf:Person ;
            foaf:name "Hendrik Tews" ;

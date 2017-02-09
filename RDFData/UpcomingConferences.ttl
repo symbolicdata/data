@@ -69,6 +69,18 @@
                                                     ical:url <http://www.corelab.ntua.gr/ciac2017> ;
                                                     sd:hasAbstractsDeadline "2016-11-04"^^xsd:date .
 
+<http://symbolicdata.org/Data/Conference/CICM-2017> a sd:UpcomingConference ;
+                                                    rdfs:label "CICM 2017 - Conferences on Intelligent Computer Mathematics" ;
+                                                    ical:dtstart "2017-07-17"^^xsd:date ;
+                                                    ical:dtend "2017-07-21"^^xsd:date ;
+                                                    ical:location "University of Edinbourgh, Scotland" ;
+                                                    sd:hasPaperDeadline "2017-03-22"^^xsd:date ;
+                                                    ical:description "Digital and  computational solutions are becoming  the prevalent means for the generation, communication, processing, storage and curation of mathematical  information.  Separate  communities  have  developed  to investigate  and build  computer based  systems for  computer algebra, automated deduction, and mathematical publishing as well as novel user interfaces. While all of these systems excel in their own right, their integration  can   lead  to   synergies  offering   significant  added value.  The  Conference  on Intelligent  Computer  Mathematics  (CICM) offers a  venue for discussing  and developing solutions to  the great challenges posed by the integration of these diverse areas." ;
+                                                    ical:url <http://www.cicm-conference.org/2017> ;
+                                                    sd:hasAbstractsDeadline "2017-03-15"^^xsd:date ;
+                                                    sd:hasProgramCommittee sdp:Geuvers_H, sdp:Hasan_O, sdp:Autexier_S, sdp:Teschke_O, sdp:Fleuriot_J, sdp:England_M, sdp:Rabe_F ;
+                                                    sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/CICM> .
+
 <http://symbolicdata.org/Data/Conference/FoCM-2017> a sd:UpcomingConference ;
                                                     rdfs:label "Foundations of Computational Mathematics (FoCM) 2017" ;
                                                     ical:dtstart "2017-07-10"^^xsd:date ;
