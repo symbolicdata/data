@@ -633,7 +633,8 @@
                                                     ical:description "The methods of Scientific Computing play an important role in the natural sciences and engineering. Significance and impact of computer algebra methods and computer algebra systems for scientific computing has increased considerably over the last decades. <br/> The ongoing development of computer algebra systems, including their integration and adaptation to modern software environments, puts them to the forefront in scientific computing and enables the practical solution of many complex applied problems in the domains of natural sciences and engineering. <br/> The topics addressed in the workshop cover all the basic areas of scientific computing as they benefit from the application of computer algebra methods and software. " ;
                                                     sd:hasProgramChair sdp:Koepf_W ;
                                                     ical:url <http://www.casc.cs.uni-bonn.de/2016/> ;
-                                                    sd:hasCARReport "CAR 59 (Okt. 2016), p. 39-40" .
+                                                    sd:hasCARReport "CAR 59 (Okt. 2016), p. 39-40" ;
+                                                    sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/CASC> .
 
 <http://symbolicdata.org/Data/Conference/CCA-14> a sd:Conference ;
                                                  rdfs:label "CCA'14: Workshop on Compact Computer Algebra" ;
@@ -1189,6 +1190,14 @@ Mathematical software systems rely on a cooperation of mathematicians, designers
                                                 ical:url <https://polymake.org/doku.php/workshop0116> ;
                                                 sd:invitedSpeakers sdp:Boehm_J ;
                                                 sd:hasOrganizers sdp:Joswig_M .
+
+<http://symbolicdata.org/Data/Conference/PC-17> a sd:Conference ;
+                                                rdfs:label "8th polymake conference" ;
+                                                ical:dtstart "2017-02-03"^^xsd:date ;
+                                                ical:dtend "2017-02-03"^^xsd:date ;
+                                                ical:location "TU Berlin, Germany" ;
+                                                ical:description "There will be two plenary talks on Normaliz and tropical homology (precise details to be announced). In addition, we will provide demos and tutorials on various aspects of our new release 3.1 (which will appear before the workshop), such as the reworked polymake database extension. The workshop also includes our regular help desk where you can discuss your individual ideas/suggestions/questions/complaints." ;
+                                                ical:url <https://polymake.org/doku.php/workshop0217> .
 
 <http://symbolicdata.org/Data/Conference/PMGO-2016> a sd:Conference ;
                                                     rdfs:label "Session on Polyhedral Methods in Geometry and Optimization at ICMS" ;

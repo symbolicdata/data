@@ -23,6 +23,16 @@
                                                    sd:hasSessionProposalDeadline "2017-03-01"^^xsd:date ;
                                                    sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/ACA> .
 
+<http://symbolicdata.org/Data/Conference/AMMCS-2017> a sd:UpcomingConference ;
+                                                     rdfs:label "AMMCS-2017 - Applied Mathematics, Modeling and Computational Science" ;
+                                                     ical:dtstart "2017-08-20"^^xsd:date ;
+                                                     ical:dtend "2017-08-25"^^xsd:date ;
+                                                     ical:location "Waterloo, Ontario, Canada" ;
+                                                     ical:description "Minisymposium: Symbolic Methods in Code Generation and Programming Languages. Symbolic methods are increasingly finding a wide variety of applications in and around programming languages. Starting from their immensely successful use in generation of numerical codes, their applicability is widening to both code analysis (often through abstract interpretation) and even in certain phases of compilers themselves, as exemplified in recent probabilistic programming languages. <br/> This session will bring together experts in symbolic computation along with programming languages experts to exchange ideas on the state of the art in this domain. " ;
+                                                     ical:url <http://www.ammcs2017.wlu.ca/special-sessions/smcgpl/> ;
+                                                     sd:hasOrganizers sdp:Carette_J, sdp:Zima_E ;
+                                                     sd:hasSubmissionDeadline "2017-03-15"^^xsd:date .
+
 <http://symbolicdata.org/Data/Conference/CAFG-2017> a sd:UpcomingConference ;
                                                     rdfs:label "Computeralgebra-Tagung der Fachgruppe" ;
                                                     ical:dtstart "2017-05-04"^^xsd:date ;
@@ -81,6 +91,16 @@
                                                     sd:hasProgramCommittee sdp:Geuvers_H, sdp:Hasan_O, sdp:Autexier_S, sdp:Teschke_O, sdp:Fleuriot_J, sdp:England_M, sdp:Rabe_F ;
                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/CICM> .
 
+<http://symbolicdata.org/Data/Conference/DART-2017> a sd:UpcomingConference ;
+                                                    rdfs:label "DART VIII - Differential Algebra and Related Topics" ;
+                                                    ical:dtstart "2017-09-11"^^xsd:date ;
+                                                    ical:dtend "2017-09-14"^^xsd:date ;
+                                                    ical:location "Johannes Kepler University, Linz, Austria" ;
+                                                    ical:description "The workshop series Differential Algebra and Related Topics brings together researchers in differential algebra, computer algebra, model theory, hamiltonian systems etc. interested in approaching problems about differential (as well as difference and integral) equations using algebraic methods. The 8th workshop in this series is organized by the Institute for Algebra at the Johannes Kepler University, Linz, Austria. The workshop program includes invited talks and a poster session." ;
+                                                    ical:url <http://www.algebra.uni-linz.ac.at/dart8/> ;
+                                                    sd:hasProgramCommittee sdp:Koutschan_C, sdp:Hardouin_C, sdp:Ovchinnikov_A, sdp:Scanlon_T ;
+                                                    sd:hasPosterDeadline "2017-04-30"^^xsd:date .
+
 <http://symbolicdata.org/Data/Conference/FoCM-2017> a sd:UpcomingConference ;
                                                     rdfs:label "Foundations of Computational Mathematics (FoCM) 2017" ;
                                                     ical:dtstart "2017-07-10"^^xsd:date ;
@@ -132,14 +152,6 @@
                                                      sd:hasPublicityChair sdp:Konovalov_A ;
                                                      sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/PASCO> .
 
-<http://symbolicdata.org/Data/Conference/PC-17> a sd:UpcomingConference ;
-                                                rdfs:label "8th polymake conference" ;
-                                                ical:dtstart "2017-02-03"^^xsd:date ;
-                                                ical:dtend "2017-02-03"^^xsd:date ;
-                                                ical:location "TU Berlin, Germany" ;
-                                                ical:description "There will be two plenary talks on Normaliz and tropical homology (precise details to be announced). In addition, we will provide demos and tutorials on various aspects of our new release 3.1 (which will appear before the workshop), such as the reworked polymake database extension. The workshop also includes our regular help desk where you can discuss your individual ideas/suggestions/questions/complaints." ;
-                                                ical:url <https://polymake.org/doku.php/workshop0217> .
-
 <http://symbolicdata.org/Data/Conference/PCA-2017> a sd:UpcomingConference ;
                                                    rdfs:label "Polynomial Computer Algebra 2017" ;
                                                    ical:dtstart "2017-04-17"^^xsd:date ;
@@ -164,6 +176,15 @@
                                                     ical:url <http://ghourabi.net/SCSS2017> ;
                                                     sd:invitedSpeakers sdp:Huet_G ;
                                                     sd:hasAbstractsDeadline "2016-11-20"^^xsd:date .
+
+<http://symbolicdata.org/Data/Conference/SIAM-AG-2017> a sd:UpcomingConference ;
+                                                       rdfs:label "SIAM AG17 - SIAM Conference on Applied Algebraic Geometry" ;
+                                                       ical:dtstart "2017-07-31"^^xsd:date ;
+                                                       ical:dtend "2017-08-04"^^xsd:date ;
+                                                       ical:location "Georgia Institute of Technology, Atlanta, Georgia, USA" ;
+                                                       ical:description "The purpose of the SIAM Activity Group in Algebraic Geometry is to bring together researchers who use algebraic geometry in industrial and applied mathematics. \"Algebraic geometry\" is interpreted broadly to include at least: algebraic geometry, commutative algebra, noncommutative algebra, symbolic and numeric computation, algebraic and geometric combinatorics, representation theory, and algebraic topology. These methods have already seen applications in: biology, coding theory, cryptography, combustion, computational geometry, computer graphics, quantum computing, control theory, geometric design, complexity theory, machine learning, nonlinear partial differential equations, optimization, robotics, and statistics. <br/> We welcome participation from both theoretical mathematical areas and application areas not on this list which fall under this broadly interpreted notion of algebraic geometry and its applications." ;
+                                                       ical:url <https://www.siam.org/meetings/ag17/submissions.php> ;
+                                                       sd:hasAbstractsDeadline "2017-02-21"^^xsd:date .
 
 sd:UpcomingConference a owl:Class ;
                       rdfs:label "Upcoming Conference Event" ;

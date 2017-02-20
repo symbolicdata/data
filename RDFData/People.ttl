@@ -1448,6 +1448,10 @@ sdp:Haralambous_Y a foaf:Person ;
                   foaf:homepage <http://omega.enstb.org/yannis/> ;
                   sd:affiliation "Inst Mines-Télécom - Télécom Bretagne, France" .
 
+sdp:Hardouin_C a foaf:Person ;
+               foaf:name "Charlotte Hardouin" ;
+               sd:affiliation "Institut de mathematiques de Toulouse, Toulouse, France" .
+
 sdp:Harlander_R a foaf:Person ;
                 foaf:name "R. Harlander" .
 
@@ -2932,6 +2936,10 @@ sdp:Ounis_I a foaf:Person ;
             foaf:name "Iadh Ounis" ;
             sd:affiliation "University of Glasgow, UK" .
 
+sdp:Ovchinnikov_A a foaf:Person ;
+                  foaf:name "Alexey Ovchinnikov" ;
+                  sd:affiliation "CUNY Queens College, New York, USA" .
+
 sdp:Paditz_L a foaf:Person ;
              foaf:name "Ludwig Paditz" .
 
@@ -3463,6 +3471,10 @@ sdp:Saunders_BV a foaf:Person ;
 sdp:Saunders_D a foaf:Person ;
                foaf:name "David Saunders" ;
                sd:affiliation "University of Delaware, USA" .
+
+sdp:Scanlon_T a foaf:Person ;
+              foaf:name "Thomas Scanlon" ;
+              sd:affiliation "University of California, Berkeley, USA" .
 
 sdp:Schaeffer_G a foaf:Person ;
                 foaf:name "George Schaeffer" .
