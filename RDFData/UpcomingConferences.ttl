@@ -12,6 +12,14 @@
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
+<http://symbolicdata.org/Data/Conference/3CG-2017> a sd:UpcomingConference ;
+                                                   rdfs:label "3C in G Workshop on Computational Algebra" ;
+                                                   ical:dtstart "2017-04-18"^^xsd:date ;
+                                                   ical:dtend "2017-04-21"^^xsd:date ;
+                                                   ical:location "King's College, Cambridge, UK" ;
+                                                   ical:description "This workshop forms part of the Cambridge-Imperial-Warwick EPSRC-funded 5-year programme grant Classification, Computation, and Construction: New Methods in Geometry (3C in G). The aim of the meeting is to discuss current and future applications of computational algebra in mathematics, with a particular focus on geometry. The first day (Tuesday 18th) will be geared more towards young researchers, with a series of expository lectures, hands-on practical sessions, and short talks by graduate students. The main workshop will then run from Wednesday 19th to Friday 21st April." ;
+                                                   ical:url <http://homepages.warwick.ac.uk/staff/A.Thompson.8/3CinGApril17.html> .
+
 <http://symbolicdata.org/Data/Conference/ACA-2017> a sd:UpcomingConference ;
                                                    rdfs:label "ACA 2017 - 23th Conference on Applications of Computer Algebra" ;
                                                    ical:dtstart "2017-07-17"^^xsd:date ;
@@ -60,6 +68,14 @@
                                                    sd:hasProgramCommittee sdp:Sendra_JR, sdp:Winkler_F ;
                                                    sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/CAI> .
 
+<http://symbolicdata.org/Data/Conference/CAPP-2017> a sd:UpcomingConference ;
+                                                    rdfs:label "CAPP 2017" ;
+                                                    ical:dtstart "2017-03-20"^^xsd:date ;
+                                                    ical:dtend "2017-03-24"^^xsd:date ;
+                                                    ical:location "Hamburg, Germany" ;
+                                                    ical:description "Applications of computer algebra are an essential and established calculational tool in elementary particle physics and methods and algorithms of computer algebra are an important area of research itself. The CAPP school combines theory and practice in an advanced environment. It provides education and training of about 40 students and young researchers at graduate and Ph.D. level on central topics at the interface of modern computer algebra and particle physics. The courses include exercises and practical hands-on training with modern software." ;
+                                                    ical:url <http://indico.desy.de/conferenceDisplay.py?confId=16305> .
+
 <http://symbolicdata.org/Data/Conference/CASC-2017> a sd:UpcomingConference ;
                                                     rdfs:label "CASC-2017 - 19th International Workshop in Computer Algebra in Scientific Computing" ;
                                                     ical:dtstart "2017-09-18"^^xsd:date ;
@@ -90,6 +106,15 @@
                                                     sd:hasAbstractsDeadline "2017-03-15"^^xsd:date ;
                                                     sd:hasProgramCommittee sdp:Geuvers_H, sdp:Hasan_O, sdp:Autexier_S, sdp:Teschke_O, sdp:Fleuriot_J, sdp:England_M, sdp:Rabe_F ;
                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/CICM> .
+
+<http://symbolicdata.org/Data/Conference/CTG-2017> a sd:UpcomingConference ;
+                                                   rdfs:label "Computing in Tropical Geometry" ;
+                                                   ical:dtstart "2017-05-11"^^xsd:date ;
+                                                   ical:dtend "2017-05-12"^^xsd:date ;
+                                                   ical:location "Zuse Institut Berlin, Germany" ;
+                                                   ical:description "The workshop aims at bringing together researchers working on computational tropical geometry and its applications, giving account on recent progress made in topics like tropical optimization, tropical combinatorics and applications of tropical geometry in algebraic geometry. " ;
+                                                   ical:url <https://www.math.bgu.ac.il/~reny/ComputingInTropicalGeometry.html> ;
+                                                   sd:hasOrganizers sdp:Sturmfels_B, sdp:Joswig_M, sdp:Panizzut_M, sdp:Ren_Y .
 
 <http://symbolicdata.org/Data/Conference/DART-2017> a sd:UpcomingConference ;
                                                     rdfs:label "DART VIII - Differential Algebra and Related Topics" ;
@@ -185,6 +210,14 @@
                                                        ical:description "The purpose of the SIAM Activity Group in Algebraic Geometry is to bring together researchers who use algebraic geometry in industrial and applied mathematics. \"Algebraic geometry\" is interpreted broadly to include at least: algebraic geometry, commutative algebra, noncommutative algebra, symbolic and numeric computation, algebraic and geometric combinatorics, representation theory, and algebraic topology. These methods have already seen applications in: biology, coding theory, cryptography, combustion, computational geometry, computer graphics, quantum computing, control theory, geometric design, complexity theory, machine learning, nonlinear partial differential equations, optimization, robotics, and statistics. <br/> We welcome participation from both theoretical mathematical areas and application areas not on this list which fall under this broadly interpreted notion of algebraic geometry and its applications." ;
                                                        ical:url <https://www.siam.org/meetings/ag17/submissions.php> ;
                                                        sd:hasAbstractsDeadline "2017-02-21"^^xsd:date .
+
+<http://symbolicdata.org/Data/Conference/WAGCA-2017> a sd:UpcomingConference ;
+                                                     rdfs:label "Workshop Arithmetic Geometry and Computer Algebra" ;
+                                                     ical:dtstart "2017-06-29"^^xsd:date ;
+                                                     ical:dtend "2017-07-01"^^xsd:date ;
+                                                     ical:location "University Oldenburg, Germany" ;
+                                                     ical:description "The idea of the workshop is to bring together arithmetic geometers who use computer algebra in their research and experts in computer algebra who work on algorithms motivated by or used in arithmetic geometry. Besides talks about new and improved algorithms and their applications in arithmetic geometry, we will also have presentations by developers of some of the major computer algebra systems and libraries used in arithmetic geometry about recent functionality and future plans. There will be ample time for discussions and collaboration and for trying out and developing new functionality." ;
+                                                     ical:url <http://www.uol.de/math/wagca> .
 
 sd:UpcomingConference a owl:Class ;
                       rdfs:label "Upcoming Conference Event" ;
