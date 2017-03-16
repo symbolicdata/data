@@ -1656,6 +1656,10 @@ sdp:Himstedt_F a foaf:Person ;
                foaf:name "Frank Himstedt" ;
                sd:affiliation "München, Germany" .
 
+sdp:Hinkelmann_F a foaf:Person ;
+                 foaf:name "Franziska Hinkelmann" ;
+                 sd:affiliation "Google, München, Germany" .
+
 sdp:Hinkis_A a foaf:Person ;
              foaf:name "Arie Hinkis" .
 
@@ -1923,6 +1927,10 @@ sdp:Kaliszyk_C a foaf:Person ;
 
 sdp:Kalkbrener_M a foaf:Person ;
                  foaf:name "Michael Kalkbrener" .
+
+sdp:Kallweit_M a foaf:Person ;
+               foaf:name "Michael Kallweit" ;
+               sd:affiliation "Uni Bochum, Germany" .
 
 sdp:Kaltofen_E a foaf:Person ;
                foaf:name "Erich Kaltofen" ;
@@ -4539,6 +4547,10 @@ sdp:Zima_E a foaf:Person ;
 
 sdp:Zimmermann_T a foaf:Person ;
                  foaf:name "Théo Zimmermann" .
+
+sdp:Zitterbart_A a foaf:Person ;
+                 foaf:name "Arnold Zitterbart" ;
+                 sd:affiliation "Schwarzwaldgymnsium Triberg" .
 
 sdp:Zivkovic_M a foaf:Person ;
                foaf:name "Miodrag Zivkovic" ;
