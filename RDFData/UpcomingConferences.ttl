@@ -68,13 +68,8 @@
                                                    sd:hasProgramCommittee sdp:Sendra_JR, sdp:Winkler_F ;
                                                    sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/CAI> .
 
-<http://symbolicdata.org/Data/Conference/CAPP-2017> a sd:UpcomingConference ;
-                                                    rdfs:label "CAPP 2017" ;
-                                                    ical:dtstart "2017-03-20"^^xsd:date ;
-                                                    ical:dtend "2017-03-24"^^xsd:date ;
-                                                    ical:location "Hamburg, Germany" ;
-                                                    ical:description "Applications of computer algebra are an essential and established calculational tool in elementary particle physics and methods and algorithms of computer algebra are an important area of research itself. The CAPP school combines theory and practice in an advanced environment. It provides education and training of about 40 students and young researchers at graduate and Ph.D. level on central topics at the interface of modern computer algebra and particle physics. The courses include exercises and practical hands-on training with modern software." ;
-                                                    ical:url <http://indico.desy.de/conferenceDisplay.py?confId=16305> .
+<http://symbolicdata.org/Data/Conference/CAPP-2017> ical:dtstart "2017-03-20"^^xsd:date ;
+                                                    ical:dtend "2017-03-24"^^xsd:date .
 
 <http://symbolicdata.org/Data/Conference/CASC-2017> a sd:UpcomingConference ;
                                                     rdfs:label "CASC-2017 - 19th International Workshop in Computer Algebra in Scientific Computing" ;
@@ -126,6 +121,15 @@
                                                     sd:hasProgramCommittee sdp:Koutschan_C, sdp:Hardouin_C, sdp:Ovchinnikov_A, sdp:Scanlon_T ;
                                                     sd:hasPosterDeadline "2017-04-30"^^xsd:date .
 
+<http://symbolicdata.org/Data/Conference/ECCAD-2017> a sd:UpcomingConference ;
+                                                     rdfs:label "East Coast Computer Algebra Day 2017" ;
+                                                     ical:dtstart "2017-04-29"^^xsd:date ;
+                                                     ical:dtend "2017-04-29"^^xsd:date ;
+                                                     ical:location "Wolfram Research in Champaign, Illinois, USA" ;
+                                                     ical:description "The East Coast Computer Algebra Day (ECCAD) is an annual one-day meeting for those interested in computer algebra and symbolic mathematical computation. It provides opportunities to learn and to share new results and current work in progress. The schedule includes prominent invited speakers along with contributed posters and software demonstrations. Plenty of time is allowed for unstructured interaction among the participants. Researchers, teachers, students, and users of computer algebra are all welcome! ECCAD-2017 will be hosted by Wolfram Research on Saturday, April 29, 2017 " ;
+                                                     ical:url <https://www.sigsam.org/ECCAD/2017/> ;
+                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/ECCAD> .
+
 <http://symbolicdata.org/Data/Conference/FoCM-2017> a sd:UpcomingConference ;
                                                     rdfs:label "Foundations of Computational Mathematics (FoCM) 2017" ;
                                                     ical:dtstart "2017-07-10"^^xsd:date ;
@@ -134,6 +138,16 @@
                                                     ical:description "The computer has profoundly changed the relationship between mathematics and computation.  Besides its invaluable role in numeric, symbolic, and experimental applications, computation is an important object of mathematical study in its own right and a fundamental theoretical tool. It is a source of new and exciting problems for mathematics. The FoCM conference, held every three years, covers the entire spectrum of mathematical computation." ;
                                                     ical:url <http://www.ub.edu/focm2017> ;
                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/FoCM> .
+
+<http://symbolicdata.org/Data/Conference/ILP-2017> a sd:UpcomingConference ;
+                                                   rdfs:label "Workshop \"Interactions with Lattice Polytopes\"" ;
+                                                   ical:dtstart "2017-09-14"^^xsd:date ;
+                                                   ical:dtend "2017-09-16"^^xsd:date ;
+                                                   ical:location "Otto-von-Guericke-Universität Magdeburg, Germany" ;
+                                                   ical:description "This 3-day workshop will focus on the interactions of lattice polytopes with toric geometry, Mirror Symmetry, integer optimisation, commutative algebra, etc. Further details may be found on the conference website." ;
+                                                   ical:url <https://www.math.ovgu.de/Forschung/IAG/Diskrete_+Konvexe+und+Torische+Geometrie/ILP.html> ;
+                                                   sd:invitedSpeakers sdp:Katthaen_L, sdp:Michalek_M, sdp:Averkov_G, sdp:Coates_T, sdp:DiRocco_S, sdp:Higashitani_A, sdp:Kiritchenko_V, sdp:Suess_H, sdp:Tveiten_K, sdp:Batyrev_V ;
+                                                   sd:hasOrganizers sdp:Kasprzyk_AM, sdp:Hofscheier_J, sdp:Nill_B .
 
 <http://symbolicdata.org/Data/Conference/ISSAC-2017> a sd:UpcomingConference ;
                                                      rdfs:label "ISSAC 2017 - International Symposium on Symbolic and Algebraic Computation" ;
@@ -188,18 +202,30 @@
                                                    sd:hasProgramCommittee sdp:Buchberger_B, sdp:Gerdt_VP, sdp:Robbiano_L, sdp:Grigoriev_D, sdp:Gianni_P, sdp:Khovansky_A, sdp:Myllari_A, sdp:Pan_V, sdp:Stefanescu_D, sdp:Vershik_A, sdp:Vavilov_N, sdp:Watt_S, sdp:Kotsireas_IS, sdp:Edneral_V, sdp:Vasiliev_N ;
                                                    sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/PCA> .
 
-<http://symbolicdata.org/Data/Conference/SCSS-2017> a sd:UpcomingConference ;
-                                                    rdfs:label "SCSS-2017 - The 8th International Symposium on Symbolic Computation in Software Science" ;
-                                                    ical:dtstart "2017-04-06"^^xsd:date ;
+<http://symbolicdata.org/Data/Conference/SC2-SummerSchool-2017> a sd:UpcomingConference ;
+                                                                rdfs:label "SC^2 2017 - Summer School 2017" ;
+                                                                ical:dtstart "2017-07-31"^^xsd:date ;
+                                                                ical:dtend "2017-08-04"^^xsd:date ;
+                                                                ical:location "MPI Informatics, Saarbrücken, Germany" ;
+                                                                ical:description "The school introduces graduate students and researchers from academia and industry into research and methodology in both Satisfiability Checking (SAT/SMT) and Symbolic Computation with one focus on their interconnections. It combines a thorough introduction into the theory of both fields with lectures on state-of-the-art software systems and their implementation. This is supplemented with presentations by lecturers from industry discussing the practical relevance of the topics of the school. " ;
+                                                                ical:url <http://www.sc-square.org/CSA/school/> ;
+                                                                sd:hasOrganizers sdp:Sturm_T, sdp:Mueller_Jennifer, sdp:Barbosa_H, sdp:Abraham_E .
+
+<http://symbolicdata.org/Data/Conference/SC2-Workshop-2017> a sd:UpcomingConference ;
+                                                            rdfs:label "SC^2 2017 - Second International Workshop on Satisfiability Checking and Symbolic Computation" ;
+                                                            ical:dtstart "2017-07-29"^^xsd:date ;
+                                                            ical:dtend "2017-07-29"^^xsd:date ;
+                                                            ical:location "University of Kaiserslautern, Kaiserslautern, Germany" ;
+                                                            ical:description "Symbolic Computation is concerned with the algorithmic determination of exact solutions to complex mathematical problems; more recent developments in the area of Satisfiability Checking are starting to tackle similar problems but with different algorithmic and technological solutions.  The two communities share many central interests, but researchers from these two communities rarely interact.  Also, the lack of common or compatible interfaces of tools is an obstacle to their fruitful combination.  Bridges between the communities in the form of common platforms and road-maps are necessary to initiate an exchange, and to support and direct their interaction. The aim of this workshop, along the SC-square H2020 FETOPEN Coordination and Support Activity project, is to provide a time to discuss, share knowledge and experience across both communities. <br/> The workshop is open for submission and participation to everyone interested in the topics, whether they are members or associates of the SC-square H2020 FETOPEN CSA project or not." ;
+                                                            ical:url <http://www.sc-square.org/CSA/workshop2.html> ;
+                                                            sd:invitedSpeakers sdp:Avigad_J ;
+                                                            sd:hasAbstractsDeadline "2017-05-27"^^xsd:date ;
+                                                            sd:hasProgramCommittee sdp:Seiler_W, sdp:Sturm_T, sdp:Avigad_J, sdp:Neubauer_F, sdp:Abraham_E, sdp:Davenport_JH, sdp:Kotsireas_IS, sdp:Giesbrecht_M, sdp:Fontaine_P, sdp:Forrest_S, sdp:Ganesh_V, sdp:Griggio_A, sdp:Kroening_D, sdp:Windsteiger_W, sdp:England_M, sdp:Jovanovic_D, sdp:Passmore_G, sdp:Bigatti_A .
+
+<http://symbolicdata.org/Data/Conference/SCSS-2017> ical:dtstart "2017-04-06"^^xsd:date ;
                                                     ical:dtend "2017-04-09"^^xsd:date ;
-                                                    ical:location "Gammarth, Tunisia" ;
                                                     sd:hasPaperDeadline "2016-11-27"^^xsd:date ;
-                                                    ical:description "The purpose of SCSS 2017 is to promote research on theoretical and practical aspects of symbolic computation in software science. The symposium provides a forum for active dialog between researchers from several fields of computer algebra, algebraic geometry, algorithmic combinatorics, computational logic, and software analysis and verification. SCSS 2017 solicits regular papers on all aspects of symbolic computation and their applications in software science." ;
                                                     sd:hasRegistrationDeadline "2017-02-20"^^xsd:date ;
-                                                    sd:hasProgramChair sdp:Mosbah_M, sdp:Rusinowitch_M ;
-                                                    sd:hasGeneralChair sdp:Bouhoula_A, sdp:Ida_T ;
-                                                    ical:url <http://ghourabi.net/SCSS2017> ;
-                                                    sd:invitedSpeakers sdp:Huet_G ;
                                                     sd:hasAbstractsDeadline "2016-11-20"^^xsd:date .
 
 <http://symbolicdata.org/Data/Conference/SIAM-AG-2017> a sd:UpcomingConference ;
@@ -210,6 +236,15 @@
                                                        ical:description "The purpose of the SIAM Activity Group in Algebraic Geometry is to bring together researchers who use algebraic geometry in industrial and applied mathematics. \"Algebraic geometry\" is interpreted broadly to include at least: algebraic geometry, commutative algebra, noncommutative algebra, symbolic and numeric computation, algebraic and geometric combinatorics, representation theory, and algebraic topology. These methods have already seen applications in: biology, coding theory, cryptography, combustion, computational geometry, computer graphics, quantum computing, control theory, geometric design, complexity theory, machine learning, nonlinear partial differential equations, optimization, robotics, and statistics. <br/> We welcome participation from both theoretical mathematical areas and application areas not on this list which fall under this broadly interpreted notion of algebraic geometry and its applications." ;
                                                        ical:url <https://www.siam.org/meetings/ag17/submissions.php> ;
                                                        sd:hasAbstractsDeadline "2017-02-21"^^xsd:date .
+
+<http://symbolicdata.org/Data/Conference/SYNASC-2017> a sd:UpcomingConference ;
+                                                      rdfs:label "SYNASC 2017 - 19th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing" ;
+                                                      ical:dtstart "2017-09-21"^^xsd:date ;
+                                                      ical:dtend "2017-09-24"^^xsd:date ;
+                                                      ical:location "West University of Timisoara, Romania" ;
+                                                      ical:description "International Symposium on Symbolic and Numeric Algorithms for Scientific Computing is a international conference that aims to stimulate the interaction between the two scientific communities of symbolic and numeric computing and to exhibit interesting applications of the areas both in theory and in practice. The choice of the topic is motivated by the belief of the organizers that the dialogue between the two communities is very necessary for accelerating the progress in making the computer a truly intelligent aid for mathematicians and engineers." ;
+                                                      ical:url <http://synasc.ro/2017/> ;
+                                                      sd:hasAbstractsDeadline "2017-04-15"^^xsd:date .
 
 <http://symbolicdata.org/Data/Conference/WAGCA-2017> a sd:UpcomingConference ;
                                                      rdfs:label "Workshop Arithmetic Geometry and Computer Algebra" ;

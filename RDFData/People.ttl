@@ -184,6 +184,14 @@ sdp:Autexier_S a foaf:Person ;
                foaf:name "Serge Autexier" ;
                sd:affiliation "DFKI, Bremen, Germany" .
 
+sdp:Averkov_G a foaf:Person ;
+              foaf:name "Gennadiy Averkov" ;
+              sd:affiliation "Univ. Magdeburg, Germany" .
+
+sdp:Avigad_J a foaf:Person ;
+             foaf:name "Jeremy Avigad" ;
+             sd:affiliation "Carnegie Mellon University, USA" .
+
 sdp:Baader_F a foaf:Person ;
              foaf:name "Franz Baader" ;
              sd:affiliation "TU Dresden, Germany" .
@@ -235,6 +243,10 @@ sdp:Barakat_M a foaf:Person ;
 sdp:Barberousse_A a foaf:Person ;
                   foaf:name "Anouk Barberousse" ;
                   sd:affiliation "Université Lille 1, France" .
+
+sdp:Barbosa_H a foaf:Person ;
+              foaf:name "Haniel Barbosa" ;
+              sd:affiliation "Inria Nancy and Université de Lorraine, France" .
 
 sdp:Barkatou_M a foaf:Person ;
                foaf:name "Moulay Barkatou" ;
@@ -713,6 +725,9 @@ sdp:Cioffi_F a foaf:Person ;
 sdp:Claessen_K a foaf:Person ;
                foaf:name "Koen Claessen" .
 
+sdp:Coates_T a foaf:Person ;
+             foaf:name "Tom Coates" .
+
 sdp:Cohen_AM a foaf:Person ;
              foaf:name "Arjeh M. Cohen" .
 
@@ -868,6 +883,10 @@ sdp:Dettweiler_M a foaf:Person ;
 sdp:Devyatov_R a foaf:Person ;
                foaf:name "Rostislav Devyatov" ;
                sd:affiliation "FU Berlin, Germany" .
+
+sdp:DiRocco_S a foaf:Person ;
+              foaf:name "Sandra Di Rocco" ;
+              sd:affiliation "KTH Stockholm, Sweden" .
 
 sdp:Diamond_F a foaf:Person ;
               foaf:name "Fred Diamond" .
@@ -1648,6 +1667,10 @@ sdp:Hibi_T a foaf:Person ;
            foaf:name "Takayuki Hibi" ;
            sd:affiliation "Osaka University, Japan" .
 
+sdp:Higashitani_A a foaf:Person ;
+                  foaf:name "Akihiro Higashitani" ;
+                  sd:affiliation "Kyoto Sangyo University, Japan" .
+
 sdp:Hille_L a foaf:Person ;
             foaf:name "Lutz Hille" ;
             sd:affiliation "Uni Münster, Germany" .
@@ -1677,6 +1700,10 @@ sdp:Hoffkamp_A a foaf:Person ;
 sdp:Hofmann_T a foaf:Person ;
               foaf:name "Tommy Hofmann" ;
               sd:affiliation "TU Kaiserslautern" .
+
+sdp:Hofscheier_J a foaf:Person ;
+                 foaf:name "Johannes Hofscheier" ;
+                 sd:affiliation "Univ. Magdeburg, Germany" .
 
 sdp:Hoge_T a foaf:Person ;
            foaf:name "Torsten Hoge" ;
@@ -1966,6 +1993,10 @@ sdp:Kari_L a foaf:Person ;
            foaf:name "Lila Kari" ;
            sd:affiliation "University of Waterloo, Canada" .
 
+sdp:Kasprzyk_AM a foaf:Person ;
+                foaf:name "Alexander M. Kasprzyk" ;
+                sd:affiliation "University of Nottingham, UK" .
+
 sdp:Kastner_L a foaf:Person ;
               foaf:name "Lars Kastner" ;
               sd:affiliation "FU Berlin" .
@@ -1975,7 +2006,7 @@ sdp:Katsura_W a foaf:Person ;
 
 sdp:Katthaen_L a foaf:Person ;
                foaf:name "Lukas Katthän" ;
-               sd:affiliation "Universität Osnabrück" .
+               sd:affiliation "Minnesota, USA" .
 
 sdp:Kauers_M a foaf:Person ;
              foaf:name "Manuel Kauers" ;
@@ -2073,6 +2104,10 @@ sdp:Kinyon_M a foaf:Person ;
 sdp:Kiraly_FJ a foaf:Person ;
               foaf:name "Franz J. Király" ;
               sd:affiliation "University College London, UK" .
+
+sdp:Kiritchenko_V a foaf:Person ;
+                  foaf:name "Valentina Kiritchenko" ;
+                  sd:affiliation "Moscow Higher School of Economics, Russia" .
 
 sdp:Kirschmer_M a foaf:Person ;
                 foaf:name "Markus Kirschmer" ;
@@ -2670,8 +2705,8 @@ sdp:Mezzarobba_M a foaf:Person ;
                  sd:affiliation "Pierre et Marie Curie University, Paris, France" .
 
 sdp:Michalek_M a foaf:Person ;
-               foaf:name "Mateusz Michalek" ;
-               sd:affiliation "Polish Academy of Sciences, Poland" .
+               foaf:name "Mateusz Michałek" ;
+               sd:affiliation "MPI MIS Leipzig, Germany" .
 
 sdp:Michel_J a foaf:Person ;
              foaf:name "Jean Michel" ;
@@ -2821,6 +2856,10 @@ sdp:Mueller_JS a foaf:Person ;
                foaf:name "Jan Steffen Müller" ;
                sd:affiliation "Carl von Ossietzky Universität Oldenburg, Germany" .
 
+sdp:Mueller_Jennifer a foaf:Person ;
+                     foaf:name "Jennifer Müller" ;
+                     sd:affiliation "MPI Informatics, Saarbrücken, Germany" .
+
 sdp:Mueller_P a foaf:Person ;
               foaf:name "Peter Müller" .
 
@@ -2883,6 +2922,10 @@ sdp:Negru_V a foaf:Person ;
             foaf:name "Viorel Negru" ;
             sd:affiliation "West University of Timisoara, Romania" .
 
+sdp:Neubauer_F a foaf:Person ;
+               foaf:name "Felix Neubauer" ;
+               sd:affiliation "University of Freiburg, Germany" .
+
 sdp:Neumaier_A a foaf:Person ;
                foaf:name "Arnold Neumaier" ;
                foaf:homepage <http://www.univie.ac.at/~neum> .
@@ -2925,6 +2968,10 @@ sdp:Niesi_G a foaf:Person ;
 
 sdp:Nikolic_M a foaf:Person ;
               foaf:name "Mladen Nikolic" .
+
+sdp:Nill_B a foaf:Person ;
+           foaf:name "Benjamin Nill" ;
+           sd:affiliation "Univ. Magdeburg, Germany" .
 
 sdp:Nipkow_T a foaf:Person ;
              foaf:name "Tobias Nipkow" .
@@ -3176,9 +3223,8 @@ sdp:Pitman_J a foaf:Person ;
              foaf:name "Jim Pitman" .
 
 sdp:Plesken_W a foaf:Person ;
-              foaf:name "Wilhelm Plesken" .
-
-sdp:Plesken_w sd:affiliation "RWTH Aachen, Germany" .
+              foaf:name "Wilhelm Plesken" ;
+              sd:affiliation "RWTH Aachen, Germany" .
 
 sdp:Pletsch_B a foaf:Person ;
               foaf:name "Bill Pletsch" .
@@ -3974,6 +4020,10 @@ sdp:Su_K a foaf:Person ;
          foaf:name "Kaile Su" ;
          sd:affiliation "Griffith University, Australia" .
 
+sdp:Suess_H a foaf:Person ;
+            foaf:name "Hendrik Süß" ;
+            sd:affiliation "Manchester, UK" .
+
 sdp:Sullivant_S a foaf:Person ;
                 foaf:name "S. Sullivant" .
 
@@ -4144,6 +4194,10 @@ sdp:Trott_M a foaf:Person ;
 
 sdp:Tscheulin_F a foaf:Person ;
                 foaf:name "Felix Tscheulin" .
+
+sdp:Tveiten_K a foaf:Person ;
+              foaf:name "Ketil Tveiten" ;
+              sd:affiliation "Uppsala, Sweden" .
 
 sdp:Tyomkin_I a foaf:Person ;
               foaf:name "Ilya Tyomkin" ;

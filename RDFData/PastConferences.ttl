@@ -573,6 +573,14 @@
                                                     ical:url <http://indico.desy.de/conferenceDisplay.py?confId=10282> ;
                                                     sd:hasCARReport "CAR 57 (Okt. 2015), p. 29" .
 
+<http://symbolicdata.org/Data/Conference/CAPP-2017> a sd:Conference ;
+                                                    rdfs:label "CAPP 2017" ;
+                                                    ical:dtstart "2017-03-20"^^xsd:date ;
+                                                    ical:dtend "2017-03-24"^^xsd:date ;
+                                                    ical:location "Hamburg, Germany" ;
+                                                    ical:description "Applications of computer algebra are an essential and established calculational tool in elementary particle physics and methods and algorithms of computer algebra are an important area of research itself. The CAPP school combines theory and practice in an advanced environment. It provides education and training of about 40 students and young researchers at graduate and Ph.D. level on central topics at the interface of modern computer algebra and particle physics. The courses include exercises and practical hands-on training with modern software." ;
+                                                    ical:url <http://indico.desy.de/conferenceDisplay.py?confId=16305> .
+
 <http://symbolicdata.org/Data/Conference/CASC-2010> a sd:Conference ;
                                                     rdfs:label "CASC 2010" ;
                                                     ical:dtstart "2010-09-05"^^xsd:date ;
@@ -806,7 +814,8 @@
                                                      ical:dtstart "2014-04-16"^^xsd:date ;
                                                      ical:location "Duke University, Durham, NC, USA" ;
                                                      ical:description "This year marks the 20th anniversary of the first ECCAD conference at Drexel University. The East Coast Computer Algebra Day (ECCAD) is an annual one-day meeting for those interested in computer algebra and symbolic mathematical computation." ;
-                                                     ical:url <http://www.cs.duke.edu/eccad2014> .
+                                                     ical:url <http://www.cs.duke.edu/eccad2014> ;
+                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/ECCAD> .
 
 <http://symbolicdata.org/Data/Conference/ECCAD-2015> a sd:Conference ;
                                                      rdfs:label "East Coast Computer Algebra Day (ECCAD 2015)" ;
@@ -814,7 +823,8 @@
                                                      ical:dtend "2015-10-03"^^xsd:date ;
                                                      ical:location "Toronto, Ontario, Canada" ;
                                                      ical:description "The East Coast Computer Algebra Day (ECCAD) is an annual one-day meeting for those interested in computer algebra and symbolic mathematical computation. It provides opportunities to learn and to share new results and current work in progress. The schedule includes prominent invited speakers along with contributed posters and software demonstrations. Plenty of time is allowed for unstructured interaction among the participants. Researchers, teachers, students, and users of computer algebra are all welcome! " ;
-                                                     ical:url <http://www.linalg.org/eccadconference/> .
+                                                     ical:url <http://www.linalg.org/eccadconference/> ;
+                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/ECCAD> .
 
 <http://symbolicdata.org/Data/Conference/ECM-2016> a sd:Conference ;
                                                    rdfs:label "ECM-2016 - 7th European Congress of Mathematics" ;
@@ -1240,6 +1250,17 @@ Mathematical software systems rely on a cooperation of mathematicians, designers
                                                     sd:hasProgramCommittee sdp:Chen_C, sdp:Narboux_J, sdp:Buchberger_B, sdp:Wang_D, sdp:Yokoyama_K, sdp:Asai_K, sdp:Bouhoula_A, sdp:Garrigue_J, sdp:Kameyama_Y, sdp:Minamide_Y, sdp:Mizoguchi_Y, sdp:Rioboo_R, sdp:Watt_S, sdp:Davenport_JH, sdp:Kohlhase_M, sdp:Kutsia_T, sdp:Ida_T, sdp:England_M, sdp:Kaliszyk_C, sdp:Mahboubi_A, sdp:Sasaki_T ;
                                                     sd:hasOrganizers sdp:Thomas_RR, sdp:Joswig_M, sdp:Agarwal_S ;
                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/SCSS> .
+
+<http://symbolicdata.org/Data/Conference/SCSS-2017> a sd:Conference ;
+                                                    rdfs:label "SCSS-2017 - The 8th International Symposium on Symbolic Computation in Software Science" ;
+                                                    ical:dtstart "2017-04-06"^^xsd:date ;
+                                                    ical:dtend "2017-04-09"^^xsd:date ;
+                                                    ical:location "Gammarth, Tunisia" ;
+                                                    ical:description "The purpose of SCSS 2017 is to promote research on theoretical and practical aspects of symbolic computation in software science. The symposium provides a forum for active dialog between researchers from several fields of computer algebra, algebraic geometry, algorithmic combinatorics, computational logic, and software analysis and verification. SCSS 2017 solicits regular papers on all aspects of symbolic computation and their applications in software science." ;
+                                                    sd:hasProgramChair sdp:Mosbah_M, sdp:Rusinowitch_M ;
+                                                    sd:hasGeneralChair sdp:Bouhoula_A, sdp:Ida_T ;
+                                                    ical:url <http://ghourabi.net/SCSS2017> ;
+                                                    sd:invitedSpeakers sdp:Huet_G .
 
 <http://symbolicdata.org/Data/Conference/SIAMAG-2015> a sd:Conference ;
                                                       rdfs:label "SIAM Conference on Applied Algebraic Geometry (SIAM AG:15)" ;
