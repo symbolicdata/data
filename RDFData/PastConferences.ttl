@@ -12,6 +12,14 @@
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
+<http://symbolicdata.org/Data/Conference/3CG-2017> a sd:Conference ;
+                                                   rdfs:label "3C in G Workshop on Computational Algebra" ;
+                                                   ical:dtstart "2017-04-18"^^xsd:date ;
+                                                   ical:dtend "2017-04-21"^^xsd:date ;
+                                                   ical:location "King's College, Cambridge, UK" ;
+                                                   ical:description "This workshop forms part of the Cambridge-Imperial-Warwick EPSRC-funded 5-year programme grant Classification, Computation, and Construction: New Methods in Geometry (3C in G). The aim of the meeting is to discuss current and future applications of computational algebra in mathematics, with a particular focus on geometry. The first day (Tuesday 18th) will be geared more towards young researchers, with a series of expository lectures, hands-on practical sessions, and short talks by graduate students. The main workshop will then run from Wednesday 19th to Friday 21st April." ;
+                                                   ical:url <http://homepages.warwick.ac.uk/staff/A.Thompson.8/3CinGApril17.html> .
+
 <http://symbolicdata.org/Data/Conference/ACA-1995> a sd:Conference ;
                                                    rdfs:label "IMACS-ACA 1995" ;
                                                    ical:dtstart "1995-05-16"^^xsd:date ;
@@ -382,6 +390,16 @@
                                                     sd:invitedSpeakers sdp:Eick_B, sdp:Hemmecke_Raymond, sdp:Zumbraegel_J, sdp:Neumann_S, sdp:Mueller_JS ;
                                                     ical:hasOrganizers sdp:Koepf_W .
 
+<http://symbolicdata.org/Data/Conference/CAFG-2017> a sd:Conference ;
+                                                    rdfs:label "Computeralgebra-Tagung der Fachgruppe" ;
+                                                    ical:dtstart "2017-05-04"^^xsd:date ;
+                                                    ical:dtend "2017-05-06"^^xsd:date ;
+                                                    ical:location "Kassel, Germany" ;
+                                                    ical:description "In Fortsetzung der erfolgreichen Tagungen 2003, 2005, 2009, 2012, 2014 in Kassel und 2007 in Kaiserslautern führt die Fachgruppe im Mai 2017 wieder eine derartige Tagung in Kassel durch. Ziel ist es, ein Forum zu bieten, das es erstens Nachwuchswissenschaftlern ermöglicht, ihre Ergebnisse vorzustellen, andererseits aber auch einige Hauptvortragende zu gewinnen, die übersichtsvorträge über wichtige Gebiete der Computeralgebra und über Computeralgebra-Software geben sollen." ;
+                                                    ical:url <http://www.fachgruppe-computeralgebra.de/tagung-kassel-2017/> ;
+                                                    sd:invitedSpeakers sdp:Eder_C, sdp:Geck_M, sdp:Robertz_D, sdp:Niemeyer_A, sdp:Elsenhans_S ;
+                                                    sd:hasOrganizers sdp:Koepf_W .
+
 <http://symbolicdata.org/Data/Conference/CAFG.1000> a sd:Conference ;
                                                     rdfs:label "ÖMG-Kongress und Jahrestagung der DMV" ;
                                                     ical:dtstart "2013-09-22"^^xsd:date ;
@@ -572,6 +590,14 @@
                                                     ical:location "DESY, Hamburg, Germany" ;
                                                     ical:url <http://indico.desy.de/conferenceDisplay.py?confId=10282> ;
                                                     sd:hasCARReport "CAR 57 (Okt. 2015), p. 29" .
+
+<http://symbolicdata.org/Data/Conference/CAPP-2017> a sd:Conference ;
+                                                    rdfs:label "CAPP 2017" ;
+                                                    ical:dtstart "2017-03-20"^^xsd:date ;
+                                                    ical:dtend "2017-03-24"^^xsd:date ;
+                                                    ical:location "Hamburg, Germany" ;
+                                                    ical:description "Applications of computer algebra are an essential and established calculational tool in elementary particle physics and methods and algorithms of computer algebra are an important area of research itself. The CAPP school combines theory and practice in an advanced environment. It provides education and training of about 40 students and young researchers at graduate and Ph.D. level on central topics at the interface of modern computer algebra and particle physics. The courses include exercises and practical hands-on training with modern software." ;
+                                                    ical:url <http://indico.desy.de/conferenceDisplay.py?confId=16305> .
 
 <http://symbolicdata.org/Data/Conference/CASC-2010> a sd:Conference ;
                                                     rdfs:label "CASC 2010" ;
@@ -806,7 +832,8 @@
                                                      ical:dtstart "2014-04-16"^^xsd:date ;
                                                      ical:location "Duke University, Durham, NC, USA" ;
                                                      ical:description "This year marks the 20th anniversary of the first ECCAD conference at Drexel University. The East Coast Computer Algebra Day (ECCAD) is an annual one-day meeting for those interested in computer algebra and symbolic mathematical computation." ;
-                                                     ical:url <http://www.cs.duke.edu/eccad2014> .
+                                                     ical:url <http://www.cs.duke.edu/eccad2014> ;
+                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/ECCAD> .
 
 <http://symbolicdata.org/Data/Conference/ECCAD-2015> a sd:Conference ;
                                                      rdfs:label "East Coast Computer Algebra Day (ECCAD 2015)" ;
@@ -814,7 +841,17 @@
                                                      ical:dtend "2015-10-03"^^xsd:date ;
                                                      ical:location "Toronto, Ontario, Canada" ;
                                                      ical:description "The East Coast Computer Algebra Day (ECCAD) is an annual one-day meeting for those interested in computer algebra and symbolic mathematical computation. It provides opportunities to learn and to share new results and current work in progress. The schedule includes prominent invited speakers along with contributed posters and software demonstrations. Plenty of time is allowed for unstructured interaction among the participants. Researchers, teachers, students, and users of computer algebra are all welcome! " ;
-                                                     ical:url <http://www.linalg.org/eccadconference/> .
+                                                     ical:url <http://www.linalg.org/eccadconference/> ;
+                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/ECCAD> .
+
+<http://symbolicdata.org/Data/Conference/ECCAD-2017> a sd:Conference ;
+                                                     rdfs:label "East Coast Computer Algebra Day 2017" ;
+                                                     ical:dtstart "2017-04-29"^^xsd:date ;
+                                                     ical:dtend "2017-04-29"^^xsd:date ;
+                                                     ical:location "Wolfram Research in Champaign, Illinois, USA" ;
+                                                     ical:description "The East Coast Computer Algebra Day (ECCAD) is an annual one-day meeting for those interested in computer algebra and symbolic mathematical computation. It provides opportunities to learn and to share new results and current work in progress. The schedule includes prominent invited speakers along with contributed posters and software demonstrations. Plenty of time is allowed for unstructured interaction among the participants. Researchers, teachers, students, and users of computer algebra are all welcome! ECCAD-2017 will be hosted by Wolfram Research on Saturday, April 29, 2017 " ;
+                                                     ical:url <https://www.sigsam.org/ECCAD/2017/> ;
+                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/ECCAD> .
 
 <http://symbolicdata.org/Data/Conference/ECM-2016> a sd:Conference ;
                                                    rdfs:label "ECM-2016 - 7th European Congress of Mathematics" ;
@@ -872,7 +909,8 @@
                                                      ical:location "RWTH Aachen, Germany" ;
                                                      ical:contact sdp:Barakat_M, sdp:Horn_M, sdp:Luebeck_F ;
                                                      ical:url <http://gapdays2014.coxeter.de/> ;
-                                                     sd:hasCARReport "CAR 55 (Okt. 2014), p. 37" .
+                                                     sd:hasCARReport "CAR 55 (Okt. 2014), p. 37" ;
+                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/GAPDays> .
 
 <http://symbolicdata.org/Data/Conference/GAV-2015> a sd:Conference ;
                                                    rdfs:label "Geometry of algebraic varieties" ;
@@ -890,7 +928,18 @@
                                                        ical:location "NTNU Trondheim, Norway" ;
                                                        ical:description "The first week of the 3rd GAP Days is a school on representation theory of algebras and homological algebra in GAP. The talks will provide a general introduction to programming in GAP and an introduction to parallel programming in GAP, and introductions to the GAP-packages homalg/CAP (homological algebra and category theory in GAP) and QPA (Quivers and Path Algebras). <br/> The school will be followed by a coding sprint to mutally integrate the GAP-packages homalg/CAP and QPA. It will end on Wednesday the 23rd at 13:00." ;
                                                        ical:url <http://gapdays.coxeter.de/gapdays2015-fall/> ;
-                                                       sd:hasOrganizers sdp:Barakat_M, sdp:Horn_M, sdp:Solberg_O .
+                                                       sd:hasOrganizers sdp:Barakat_M, sdp:Horn_M, sdp:Solberg_O ;
+                                                       sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/GAPDays> .
+
+<http://symbolicdata.org/Data/Conference/GapDays-2016> a sd:Conference ;
+                                                       rdfs:label "First Joint GAP-SageMath Days" ;
+                                                       ical:dtstart "2016-01-18"^^xsd:date ;
+                                                       ical:dtend "2016-01-22"^^xsd:date ;
+                                                       ical:location "University of St. Andrews, UK" ;
+                                                       ical:description "For the 1st Joint GAP-Sage Days, the focus of the workshop will be on improving GAP-SageMath integration and interaction between our systems and their developers. The focus of the GAP Coding Sprint will be on converging GAP and HPC-GAP development branches." ;
+                                                       ical:url <http://gapdays.de/gap-sage-days2016/> ;
+                                                       sd:hasOrganizers sdp:Horn_M, sdp:Konovalov_A, sdp:Pasechnik_D, sdp:Pfeiffer_M ;
+                                                       sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/GAPDays> .
 
 <http://symbolicdata.org/Data/Conference/HARG-2015> a sd:Conference ;
                                                     rdfs:label "Hyperplane Arrangements and Reflection Groups" ;
@@ -1199,6 +1248,16 @@ Mathematical software systems rely on a cooperation of mathematicians, designers
                                                 ical:description "There will be two plenary talks on Normaliz and tropical homology (precise details to be announced). In addition, we will provide demos and tutorials on various aspects of our new release 3.1 (which will appear before the workshop), such as the reworked polymake database extension. The workshop also includes our regular help desk where you can discuss your individual ideas/suggestions/questions/complaints." ;
                                                 ical:url <https://polymake.org/doku.php/workshop0217> .
 
+<http://symbolicdata.org/Data/Conference/PCA-2017> a sd:Conference ;
+                                                   rdfs:label "Polynomial Computer Algebra 2017" ;
+                                                   ical:dtstart "2017-04-17"^^xsd:date ;
+                                                   ical:dtend "2017-04-22"^^xsd:date ;
+                                                   ical:location "Euler International Mathematical Institute, St. Petersburg, Russia" ;
+                                                   ical:description "The annual conference Polynomial Computer Algebra is devoted to polynomial algorithms in Computer Algebra. This field has a lot of applications both in theoretical and applied mathematics as well as in Computer Science. The conference PCA'2017 is the eighth in the series . The first one PCA'2008 commemorated Eugene Pankratiev who was a brilliant specialist in the field of Computer Algebra and Differential Algebra" ;
+                                                   ical:url <http://pca.pdmi.ras.ru/2017> ;
+                                                   sd:hasProgramCommittee sdp:Buchberger_B, sdp:Gerdt_VP, sdp:Robbiano_L, sdp:Grigoriev_D, sdp:Gianni_P, sdp:Khovansky_A, sdp:Myllari_A, sdp:Pan_V, sdp:Stefanescu_D, sdp:Vershik_A, sdp:Vavilov_N, sdp:Watt_S, sdp:Kotsireas_IS, sdp:Edneral_V, sdp:Vasiliev_N ;
+                                                   sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/PCA> .
+
 <http://symbolicdata.org/Data/Conference/PMGO-2016> a sd:Conference ;
                                                     rdfs:label "Session on Polyhedral Methods in Geometry and Optimization at ICMS" ;
                                                     ical:dtstart "2016-07-11"^^xsd:date ;
@@ -1240,6 +1299,17 @@ Mathematical software systems rely on a cooperation of mathematicians, designers
                                                     sd:hasProgramCommittee sdp:Chen_C, sdp:Narboux_J, sdp:Buchberger_B, sdp:Wang_D, sdp:Yokoyama_K, sdp:Asai_K, sdp:Bouhoula_A, sdp:Garrigue_J, sdp:Kameyama_Y, sdp:Minamide_Y, sdp:Mizoguchi_Y, sdp:Rioboo_R, sdp:Watt_S, sdp:Davenport_JH, sdp:Kohlhase_M, sdp:Kutsia_T, sdp:Ida_T, sdp:England_M, sdp:Kaliszyk_C, sdp:Mahboubi_A, sdp:Sasaki_T ;
                                                     sd:hasOrganizers sdp:Thomas_RR, sdp:Joswig_M, sdp:Agarwal_S ;
                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/SCSS> .
+
+<http://symbolicdata.org/Data/Conference/SCSS-2017> a sd:Conference ;
+                                                    rdfs:label "SCSS-2017 - The 8th International Symposium on Symbolic Computation in Software Science" ;
+                                                    ical:dtstart "2017-04-06"^^xsd:date ;
+                                                    ical:dtend "2017-04-09"^^xsd:date ;
+                                                    ical:location "Gammarth, Tunisia" ;
+                                                    ical:description "The purpose of SCSS 2017 is to promote research on theoretical and practical aspects of symbolic computation in software science. The symposium provides a forum for active dialog between researchers from several fields of computer algebra, algebraic geometry, algorithmic combinatorics, computational logic, and software analysis and verification. SCSS 2017 solicits regular papers on all aspects of symbolic computation and their applications in software science." ;
+                                                    sd:hasProgramChair sdp:Mosbah_M, sdp:Rusinowitch_M ;
+                                                    sd:hasGeneralChair sdp:Bouhoula_A, sdp:Ida_T ;
+                                                    ical:url <http://ghourabi.net/SCSS2017> ;
+                                                    sd:invitedSpeakers sdp:Huet_G .
 
 <http://symbolicdata.org/Data/Conference/SIAMAG-2015> a sd:Conference ;
                                                       rdfs:label "SIAM Conference on Applied Algebraic Geometry (SIAM AG:15)" ;
