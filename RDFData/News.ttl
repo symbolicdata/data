@@ -151,6 +151,15 @@
                                                sioc:link <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2016-November/000019.html> ;
                                                sioc:links_to <https://github.com/Normaliz/Normaliz>, <http://www.normaliz.uni-osnabrueck.de> .
 
+<http://symbolicdata.org/Data/Post/2016-11-06> a sioc:BlogPost ;
+                                               dct:created "2016-02-27"^^xsd:date ;
+                                               rdfs:label "ACM Communications in Computer Algebra Issue 197" ;
+                                               dct:subject <http://symbolicdata.org/Data/Topic/CCA-Issue> ;
+                                               dct:abstract "We are pleased to announce that Issue 197 of ACM Communications in Computer Algebra (CCA) is now available electronically. " ;
+                                               dct:publisher sdp:England_M ;
+                                               sioc:link <https://listserv.acm.org/SCRIPTS/WA-ACMLPX.CGI?A2=ind1611&L=SIGSAM-MEMBERS&P=74> ;
+                                               sioc:links_to <http://www.sigsam.org/cca/> .
+
 <http://symbolicdata.org/Data/Post/2016-11-18> a sioc:BlogPost ;
                                                dct:created "2016-11-18"^^xsd:date ;
                                                rdfs:label "Announcement of Singular 4.1.0" ;
@@ -159,6 +168,15 @@
                                                dct:publisher sdp:Schoenemann_H ;
                                                sioc:link <http://lists.informatik.uni-leipzig.de/pipermail/sd-announce/2016-November/000020.html> ;
                                                sioc:links_to <http://www.singular.uni-kl.de/Manual/4-1-0> .
+
+<http://symbolicdata.org/Data/Post/2017-02-27> a sioc:BlogPost ;
+                                               dct:created "2017-02-27"^^xsd:date ;
+                                               rdfs:label "ACM Communications in Computer Algebra Issue 198" ;
+                                               dct:subject <http://symbolicdata.org/Data/Topic/CCA-Issue> ;
+                                               dct:abstract "We are pleased to announce that Issue 198 of ACM Communications in Computer Algebra (CCA) is now available electronically. " ;
+                                               dct:publisher sdp:England_M ;
+                                               sioc:link <https://listserv.acm.org/SCRIPTS/WA-ACMLPX.CGI?A2=ind1702&L=SIGSAM-MEMBERS&P=5199> ;
+                                               sioc:links_to <http://www.sigsam.org/cca/> .
 
 <http://symbolicdata.org/Data/Topic/CCA-Issue> a sd:Tag ;
                                                rdfs:label "New ACM Communications in Computer Algebra Issue" .
