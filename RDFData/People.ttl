@@ -2185,7 +2185,7 @@ sdp:Kohlhase_L a foaf:Person ;
 sdp:Kohlhase_M a foaf:Person ;
                foaf:name "Michael Kohlhase" ;
                foaf:homepage <http://kwarc.info/kohlhase/> ;
-               sd:affiliation "Jacobs University Bremen, Germany" .
+               sd:affiliation "FAU Erlangen, Germany" .
 
 sdp:Kohnert_A a foaf:Person ;
               foaf:name "Axel Kohnert" .

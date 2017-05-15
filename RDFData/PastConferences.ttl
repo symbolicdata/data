@@ -728,6 +728,15 @@
                                                     sd:hasProgramCommittee sdp:Johansson_M, sdp:Miller_BR, sdp:deMoura_L, sdp:Autexier_S, sdp:Kohlhase_M, sdp:Tompa_F ;
                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/CICM> .
 
+<http://symbolicdata.org/Data/Conference/CTG-2017> a sd:Conference ;
+                                                   rdfs:label "Computing in Tropical Geometry" ;
+                                                   ical:dtstart "2017-05-11"^^xsd:date ;
+                                                   ical:dtend "2017-05-12"^^xsd:date ;
+                                                   ical:location "Zuse Institut Berlin, Germany" ;
+                                                   ical:description "The workshop aims at bringing together researchers working on computational tropical geometry and its applications, giving account on recent progress made in topics like tropical optimization, tropical combinatorics and applications of tropical geometry in algebraic geometry. " ;
+                                                   ical:url <https://www.math.bgu.ac.il/~reny/ComputingInTropicalGeometry.html> ;
+                                                   sd:hasOrganizers sdp:Sturmfels_B, sdp:Joswig_M, sdp:Panizzut_M, sdp:Ren_Y .
+
 <http://symbolicdata.org/Data/Conference/CoCoA-2015> a sd:Conference ;
                                                      rdfs:label "Combinatorics and Computer Algebra (CoCoA15)" ;
                                                      ical:dtstart "2015-07-19"^^xsd:date ;
@@ -1124,7 +1133,8 @@ Mathematical software systems rely on a cooperation of mathematicians, designers
                                                      ical:description "MACIS is a series of biennial conferences focusing on research in mathematical and computational aspects of computing and information science.<br/> It is broadly concerned with algorithmic issues arising from the rich interplay across the Numerical/Algebraic/Geometric/Topological axes. These issues often in scientific and engineering computation where we need experimental studies to validate or complement the theory.  MACIS is interested in outstanding and emerging problems in all these areas. <br/> MACIS 2015 aims to span two conference cultures, that of computer science and of mathematics:  mathematical conferences allow informal presentations in order to allow rapid dissemination of ideas and feedback from the community.  Computer science conferences expect close to final papers to appear in conference proceedings." ;
                                                      ical:url <http://macis2015.zib.de/> ;
                                                      sd:invitedSpeakers sdp:Li_H, sdp:Ratschan_S, sdp:Rote_G, sdp:Sommese_A ;
-                                                     sd:hasProgramCommittee sdp:Sturm_T, sdp:Sagraloff_M, sdp:SafeyElDin_M, sdp:Bloemer_J, sdp:Hauernstein_J, sdp:Giesbrecht_M, sdp:Iliopoulous_C, sdp:Ogita_T, sdp:Sharma_V .
+                                                     sd:hasProgramCommittee sdp:Sturm_T, sdp:Sagraloff_M, sdp:SafeyElDin_M, sdp:Bloemer_J, sdp:Hauernstein_J, sdp:Giesbrecht_M, sdp:Iliopoulous_C, sdp:Ogita_T, sdp:Sharma_V ;
+                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/MACIS> .
 
 <http://symbolicdata.org/Data/Conference/MAP-2014> a sd:Conference ;
                                                    rdfs:label "MAP-2014: Mathematics, Algorithms and Proofs" ;
