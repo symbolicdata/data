@@ -2490,6 +2490,9 @@ sdp:Loughran_D a foaf:Person ;
                foaf:name "Daniel Loughran" ;
                sd:affiliation "Hannover, Germany" .
 
+sdp:Luca_F a foaf:Person ;
+           foaf:name "Florian Luca" .
+
 sdp:Lucanu_D a foaf:Person ;
              foaf:name "Dorel Lucanu" ;
              sd:affiliation "University A. I. Cuza, Romania" .
@@ -2909,6 +2912,9 @@ sdp:Nareike_A a foaf:Person ;
 sdp:Narendran_P a foaf:Person ;
                 foaf:name "Paliath Narendran" ;
                 sd:affiliation "University at Albany - SUNY, USA" .
+
+sdp:Naskrecki_B a foaf:Person ;
+                foaf:name "Bartosz Naskrecki" .
 
 sdp:Naumowicz_A a foaf:Person ;
                 foaf:name "Adam Naumowicz" ;
@@ -4562,6 +4568,9 @@ sdp:Zanibbi_R a foaf:Person ;
 sdp:Zerz_E a foaf:Person ;
            foaf:name "Eva Zerz" ;
            sd:affiliation "RWTH Aachen, Germany" .
+
+sdp:Zeytin_A a foaf:Person ;
+             foaf:name "Ayberk Zeytin" .
 
 sdp:Zhan_N a foaf:Person ;
            foaf:name "Naijun Zhan" ;

@@ -223,6 +223,15 @@
                                                    sd:hasProgramCommittee sdp:Koepf_W, sdp:Seiler_W, sdp:Neun_W, sdp:Regensburger_G, sdp:RoanesLozano_E, sdp:Steinberg_S, sdp:Wester_M ;
                                                    sd:hasCARReport "CAR 59 (Okt. 2016), p. 37-38" .
 
+<http://symbolicdata.org/Data/Conference/ACA-2017> a sd:Conference ;
+                                                   rdfs:label "ACA 2017 - 23th Conference on Applications of Computer Algebra" ;
+                                                   ical:dtstart "2017-07-17"^^xsd:date ;
+                                                   ical:dtend "2017-07-21"^^xsd:date ;
+                                                   ical:location "Jerusalem, Israel" ;
+                                                   ical:description "The ACA - Applications of Computer Algebra - conference series is devoted to promoting all kinds of computer algebra applications, and encouraging the interaction of developers of computer algebra systems and packages with researchers and users (including scientists, engineers, educators, and mathematicians). Topics include, but are not limited to, computer algebra in the sciences, engineering, communication, medicine, pure and applied mathematics, education and computer science.  " ;
+                                                   ical:url <http://www.aca2017.jct.ac.il/> ;
+                                                   sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/ACA> .
+
 <http://symbolicdata.org/Data/Conference/ACAT-2016> a sd:Conference ;
                                                     rdfs:label "ACAT-2016 - 17th International Workshop on Advanced Computing and Analysis Techniques in Physics Research" ;
                                                     ical:dtstart "2016-01-18"^^xsd:date ;
@@ -583,6 +592,18 @@
                                                     ical:location "Erlangen" ;
                                                     ical:url <http://www.dmv2008.uni-erlangen.de> .
 
+<http://symbolicdata.org/Data/Conference/CAI-2017> a sd:Conference ;
+                                                   rdfs:label "CAI 2017 - 7th International Conference on Algebraic Informatics", "CAI 2017 - 7th International Conference on Algebraic Informatics, Track 3 - Computer Algebra" ;
+                                                   ical:dtstart "2017-06-25"^^xsd:date ;
+                                                   ical:dtend "2017-06-28"^^xsd:date ;
+                                                   ical:location "Kalamata, Greece" ;
+                                                   ical:description "CAI 2017 will feature invited presentations and a selective five-track program of contributed papers describing original and unpublished research." ;
+                                                   sd:hasGeneralChair sdp:Kotsireas_IS ;
+                                                   ical:url <http://www.cargo.wlu.ca/CAI2017/> ;
+                                                   sd:invitedSpeakers sdp:Wibmer_M ;
+                                                   sd:hasProgramCommittee sdp:Sendra_JR, sdp:Winkler_F ;
+                                                   sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/CAI> .
+
 <http://symbolicdata.org/Data/Conference/CAPP-2015> a sd:Conference ;
                                                     rdfs:label "CAPP - Computer Algebra and Particle Physics" ;
                                                     ical:dtstart "2015-03-23"^^xsd:date ;
@@ -680,6 +701,14 @@
                                                        sd:invitedSpeakers sdp:Katthaen_L, sdp:Caminata_A, sdp:Constantinescu_A, sdp:DAli_A, sdp:DeNegri_E, sdp:Floystad_G, sdp:Huh_J, sdp:JuhnkeKubitzke_M, sdp:Kahle_T, sdp:Lason_M, sdp:Macchia_A, sdp:Michalek_M, sdp:Murai_S, sdp:Nagel_U, sdp:SaeediMadani_S, sdp:Varbaro_M, sdp:Hibi_T, sdp:Welker_V ;
                                                        sd:hasOrganizers sdp:Bruns_W, sdp:Conca_A, sdp:Sieg_R, sdp:Herzog_J, sdp:Caminata_A, sdp:Roemer_T .
 
+<http://symbolicdata.org/Data/Conference/CIAC-2017> a sd:Conference ;
+                                                    rdfs:label "CIAC 2017 - 10th International Conference on Algorithms" ;
+                                                    ical:dtstart "2017-05-26"^^xsd:date ;
+                                                    ical:dtend "2017-05-28"^^xsd:date ;
+                                                    ical:location "Athens, Greece" ;
+                                                    ical:description "The 10th International Conference on Algorithms and Complexity is intended to provide a forum for researchers working in all aspects of computational complexity and the use, design, analysis and experimentation of efficient algorithms and data structures." ;
+                                                    ical:url <http://www.corelab.ntua.gr/ciac2017> .
+
 <http://symbolicdata.org/Data/Conference/CICM-12> a sd:Conference ;
                                                   rdfs:label "CICM 2012 - Conferences on Intelligent Computer Mathematics" ;
                                                   ical:dtstart "2012-07-08"^^xsd:date ;
@@ -726,6 +755,16 @@
                                                     ical:description "Digital and  computational solutions are becoming  the prevalent means for the generation, communication, processing, storage and curation of mathematical  information.  Separate  communities  have  developed  to investigate  and build  computer based  systems for  computer algebra, automated deduction, and mathematical publishing as well as novel user interfaces. While all of these systems excel in their own right, their integration  can   lead  to   synergies  offering   significant  added value.  The  Conference  on Intelligent  Computer  Mathematics  (CICM) offers a  venue for discussing  and developing solutions to  the great challenges posed by the integration of these diverse areas." ;
                                                     ical:url <http://www.cicm-conference.org/2016> ;
                                                     sd:hasProgramCommittee sdp:Johansson_M, sdp:Miller_BR, sdp:deMoura_L, sdp:Autexier_S, sdp:Kohlhase_M, sdp:Tompa_F ;
+                                                    sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/CICM> .
+
+<http://symbolicdata.org/Data/Conference/CICM-2017> a sd:Conference ;
+                                                    rdfs:label "CICM 2017 - Conferences on Intelligent Computer Mathematics" ;
+                                                    ical:dtstart "2017-07-17"^^xsd:date ;
+                                                    ical:dtend "2017-07-21"^^xsd:date ;
+                                                    ical:location "University of Edinburgh, Scotland" ;
+                                                    ical:description "Digital and  computational solutions are becoming  the prevalent means for the generation, communication, processing, storage and curation of mathematical  information.  Separate  communities  have  developed  to investigate  and build  computer based  systems for  computer algebra, automated deduction, and mathematical publishing as well as novel user interfaces. While all of these systems excel in their own right, their integration  can   lead  to   synergies  offering   significant  added value.  The  Conference  on Intelligent  Computer  Mathematics  (CICM) offers a  venue for discussing  and developing solutions to  the great challenges posed by the integration of these diverse areas." ;
+                                                    ical:url <http://www.cicm-conference.org/2017> ;
+                                                    sd:hasProgramCommittee sdp:Geuvers_H, sdp:Hasan_O, sdp:Autexier_S, sdp:Teschke_O, sdp:Fleuriot_J, sdp:England_M, sdp:Rabe_F ;
                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/CICM> .
 
 <http://symbolicdata.org/Data/Conference/CTG-2017> a sd:Conference ;
@@ -911,6 +950,15 @@
                                                     sd:invitedSpeakers sdp:Andreatta_F, sdp:Berger_T, sdp:Diamond_F, sdp:Edixhoven_B, sdp:Herzig_F, sdp:Lan_KW, sdp:Sasaki_S, sdp:Schaeffer_G, sdp:Shin_SW, sdp:Tilouine_J, sdp:Wintenberger_JP ;
                                                     sd:hasOrganizers sdp:Wiese_G, sdp:Dimitrov_M, sdp:Senguen_H, sdp:Yoo_H .
 
+<http://symbolicdata.org/Data/Conference/FoCM-2017> a sd:Conference ;
+                                                    rdfs:label "Foundations of Computational Mathematics (FoCM) 2017" ;
+                                                    ical:dtstart "2017-07-10"^^xsd:date ;
+                                                    ical:dtend "2017-07-19"^^xsd:date ;
+                                                    ical:location "University of Barcelona, Spain" ;
+                                                    ical:description "The computer has profoundly changed the relationship between mathematics and computation.  Besides its invaluable role in numeric, symbolic, and experimental applications, computation is an important object of mathematical study in its own right and a fundamental theoretical tool. It is a source of new and exciting problems for mathematics. The FoCM conference, held every three years, covers the entire spectrum of mathematical computation." ;
+                                                    ical:url <http://www.ub.edu/focm2017> ;
+                                                    sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/FoCM> .
+
 <http://symbolicdata.org/Data/Conference/GAPDays-14> a sd:Conference ;
                                                      rdfs:label "GAP Days 2014" ;
                                                      ical:dtstart "2014-08-25"^^xsd:date ;
@@ -949,6 +997,16 @@
                                                        ical:url <http://gapdays.de/gap-sage-days2016/> ;
                                                        sd:hasOrganizers sdp:Horn_M, sdp:Konovalov_A, sdp:Pasechnik_D, sdp:Pfeiffer_M ;
                                                        sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/GAPDays> .
+
+<http://symbolicdata.org/Data/Conference/GapDays-Spring2017> a sd:Conference ;
+                                                             rdfs:label "GAP Days Spring 2017" ;
+                                                             ical:dtstart "2017-05-29"^^xsd:date ;
+                                                             ical:dtend "2017-06-02"^^xsd:date ;
+                                                             ical:location "RWTH Aachen, Germany" ;
+                                                             ical:description "During these GAP Days we want to concentrate on a somewhat technical topic in the core part of GAP: matrix objects. " ;
+                                                             ical:url <http://gapdays.de/gapdays2017-spring/> ;
+                                                             sd:hasOrganizers sdp:Luebeck_F, <http://symbolicdata.org/Data/Person/Niemeyer_A.> ;
+                                                             sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/GAPDays> .
 
 <http://symbolicdata.org/Data/Conference/HARG-2015> a sd:Conference ;
                                                     rdfs:label "Hyperplane Arrangements and Reflection Groups" ;
@@ -1106,6 +1164,20 @@ Mathematical software systems rely on a cooperation of mathematicians, designers
                                                      sd:hasCARReport "CAR 59 (Okt. 2016), p. 36-37" ;
                                                      sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/ISSAC> .
 
+<http://symbolicdata.org/Data/Conference/ISSAC-2017> a sd:Conference ;
+                                                     rdfs:label "ISSAC 2017 - International Symposium on Symbolic and Algebraic Computation" ;
+                                                     ical:dtstart "2017-07-25"^^xsd:date ;
+                                                     ical:dtend "2017-07-28"^^xsd:date ;
+                                                     ical:location "University of Kaiserslautern, Germany" ;
+                                                     ical:description "The International Symposium on Symbolic and Algebraic Computation is the premier conference for research in symbolic computation and computer algebra. ISSAC 2017 will be the 42nd meeting in the series, which started in 1966 and has been held annually since 1981. The conference presents a range of invited speakers, tutorials, poster sessions, software demonstrations and vendor exhibits with a centerpiece of contributed research papers." ;
+                                                     sd:hasProgramChair sdp:SafeyElDin_M ;
+                                                     sd:hasGeneralChair sdp:Yap_C ;
+                                                     ical:url <http://www.issac-conference.org/2017> ;
+                                                     sd:hasProgramCommittee sdp:Kemper_G, sdp:Emiris_IZ, sdp:Eder_C, sdp:Gao_XS, sdp:Lairez_P, sdp:Gutierrez_J, sdp:Roche_DS, sdp:Zhi_L, sdp:Schost_E, sdp:SafeyElDin_M, sdp:Giesbrecht_M, sdp:Sharma_V, sdp:Kaltofen_E, sdp:Joldes_M, sdp:Leykin_A, sdp:Koutschan_C, sdp:Spaenlehauer_PJ, sdp:Strzebonski_A, sdp:Uhler_C ;
+                                                     sd:hasOrganizers sdp:Fieker_C, sdp:Decker_W ;
+                                                     sd:hasPublicityChair sdp:Sagraloff_M ;
+                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/ISSAC> .
+
 <http://symbolicdata.org/Data/Conference/KLNT-14> a sd:Conference ;
                                                   rdfs:label "Number Theory in Kaiserslautern 2014: Number Theory meets Geometry" ;
                                                   ical:dtstart "2014-11-24"^^xsd:date ;
@@ -1143,6 +1215,17 @@ Mathematical software systems rely on a cooperation of mathematicians, designers
                                                    ical:location "Institut Henri Poincaré, Paris, France" ;
                                                    ical:description "The conference brings together people from the communities of formal proofs, constructive mathematics, computer algebra and effective algebraic geometry (in a broad sense). It is a continuation of previous meetings since 2003. In 2014, the conference will take place at Institut Henri Poincare, in the center of Paris, France. It will be part of a special trimester on \"Semantics of proofs and certified mathematics\" at the IHP in Paris." ;
                                                    ical:url <http://map.disi.unige.it/>, <http://www.ihp.fr/en/ceb/trimester/proofs> .
+
+<http://symbolicdata.org/Data/Conference/MEGA-17> a sd:Conference ;
+                                                  rdfs:label "MEGA-2017: Effective Methods in Algebraic Geometry" ;
+                                                  ical:dtstart "2017-06-12"^^xsd:date ;
+                                                  ical:dtend "2017-06-16"^^xsd:date ;
+                                                  ical:location "Sophia Antipolis University, Nice, France" ;
+                                                  ical:description "This series of biennial international conferences, with a tradition dating back to 1990, is devoted to computational and application aspects of Algebraic Geometry and related topics, over any characteristics. <br/> The conference will comprise invited talks, regular contributed talks, presentations of computations, and a poster session; the latter three are subject to a competitive submission process." ;
+                                                  ical:url <http://mega2017.inria.fr/> ;
+                                                  sd:invitedSpeakers sdp:Blanc_J, sdp:Buczynski_J, sdp:Goettsche_L, sdp:Hering_M, sdp:Lairez_P, sdp:Sombra_M, sdp:Huh_J, sdp:Byrne_E ;
+                                                  sd:hasProgramCommittee sdp:Emiris_IZ, sdp:Markwig_H, sdp:Mourrain_B, sdp:Beltran_C, sdp:Derksen_H, sdp:Draisma_J, sdp:Gorla_E, sdp:Ottaviani_G, sdp:Wisniewski_J ;
+                                                  sd:hasOrganizers sdp:Galligo_A, sdp:Mourrain_B, sdp:Buse_L, sdp:Cortell_A, sdp:deAngelis_I, sdp:Hubert_E .
 
 <http://symbolicdata.org/Data/Conference/MEGA-2015> a sd:Conference ;
                                                     rdfs:label "MEGA-2015: Effective Methods in Algebraic Geometry" ;
@@ -1214,6 +1297,16 @@ Mathematical software systems rely on a cooperation of mathematicians, designers
                                                         sd:hasOrganizers sdp:Davenport_JH, sdp:Kohlhase_M, sdp:Knopper_JW ;
                                                         sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/OpenMath> .
 
+<http://symbolicdata.org/Data/Conference/OpenMath-2017> a sd:Conference ;
+                                                        rdfs:label "28th OpenMath Workshop" ;
+                                                        ical:dtstart "2017-07-17"^^xsd:date ;
+                                                        ical:dtend "2017-07-21"^^xsd:date ;
+                                                        ical:location "Edinburgh, UK" ;
+                                                        ical:description "Co-located with CICM 2017. OpenMath is a language for exchanging mathematical formulae across applications (such as computer algebra systems).  From 2010 its importance has increased in that OpenMath Content Dictionaries were adopted as a foundation of the MathML 3 W3C recommendation (http://www.w3.org/TR/MathML), the standard for mathematical formulae on the Web.  <br/> Topics we expect to see at the workshop include <ul> <li> Case Studies of Software using or processing OpenMath</li><li> Feature Requests (Standard Enhancement Proposals) and Discussions for going beyond OpenMath 2</li><li> Further convergence of OpenMath and MathML 3</li><li> Reasoning with OpenMath</li><li> OpenMath on the Semantic Web</li><li> New OpenMath Content Dictionaries.</li></ul>Contributions can be either full research papers, Standard Enhancement Proposals, Case Study reports, or a description of new Content Dictionaries, particularly ones that are suggested for formal adoption by the OpenMath Society." ;
+                                                        ical:url <http://cicm-conference.org/2017/cicm.php?event=openmath> ;
+                                                        sd:hasOrganizers sdp:Davenport_JH, sdp:Kohlhase_M ;
+                                                        sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/OpenMath> .
+
 <http://symbolicdata.org/Data/Conference/PAS-2014> a sd:Conference ;
                                                    rdfs:label "PAS-2014: Program Verification, Automated Debugging and Symbolic Computation" ;
                                                    ical:dtstart "2014-07-17"^^xsd:date ;
@@ -1239,6 +1332,20 @@ Mathematical software systems rely on a cooperation of mathematicians, designers
                                                      ical:description "PASCO is a series of workshops dedicated to the promotion and advancement of parallel algorithms and software in all areas of symbolic mathematical computation. " ;
                                                      ical:url <http://pasco2015.imag.fr/> ;
                                                      sd:hasOrganizers sdp:Bradford_R, sdp:Dumas_JG, sdp:Pernet_C, sdp:Villard_G, sdp:Giorgi_P, sdp:Roche_DS, sdp:Davenport_JH, sdp:Kaltofen_E .
+
+<http://symbolicdata.org/Data/Conference/PASCO-2017> a sd:Conference ;
+                                                     rdfs:label "PASCO 2017: 8th International Workshop on Parallel Symbolic Computation" ;
+                                                     ical:dtstart "2017-07-23"^^xsd:date ;
+                                                     ical:dtend "2017-07-24"^^xsd:date ;
+                                                     ical:location "Technical University of Kaiserslautern, Germany" ;
+                                                     ical:description "PASCO is a series of workshops dedicated to the promotion and advancement of parallel algorithms and software in all areas of symbolic mathematical computation. The 8th International Workshop on Parallel Symbolic Computation (PASCO) is the latest instance in a series of workshops dedicated to the promotion and advancement of parallel algorithms and software in all areas of symbolic mathematical computation. " ;
+                                                     sd:hasProgramChair sdp:Faugere_JC, sdp:Monagan_M ;
+                                                     sd:hasGeneralChair sdp:Loidl_HW ;
+                                                     ical:url <http://sigsam.org/PASCO/2017/> ;
+                                                     sd:hasProgramCommittee sdp:vonzurGathen_J, sdp:Bradford_R, sdp:Dumas_JG, sdp:MorenoMaza_M, sdp:Faugere_JC, sdp:Monagan_M, sdp:Pernet_C, sdp:Giorgi_P, sdp:Roche_DS, sdp:Johnson_J, sdp:Kuchen_H, sdp:Thome_E, sdp:Schreiner_W, sdp:Kaltofen_E, sdp:Steel_A ;
+                                                     sd:hasOrganizers sdp:Fieker_C, sdp:Decker_W ;
+                                                     sd:hasPublicityChair sdp:Konovalov_A ;
+                                                     sd:toConferenceSeries <http://symbolicdata.org/Data/ConferenceSeries/PASCO> .
 
 <http://symbolicdata.org/Data/Conference/PC-15> a sd:Conference ;
                                                 rdfs:label "7th polymake conference" ;
@@ -1298,6 +1405,25 @@ Mathematical software systems rely on a cooperation of mathematicians, designers
                                                          sd:invitedSpeakers sdp:Brown_CW ;
                                                          sd:hasProgramCommittee sdp:Seiler_W, sdp:Chen_C, sdp:Buchberger_B, sdp:Sturm_T, sdp:Abbott_J, sdp:Davenport_JH, sdp:Becker_B, sdp:Brain_M, sdp:Forrest_S, sdp:Ganesh_V, sdp:Griggio_A, sdp:Kroening_D, sdp:Tinelli_C, sdp:Tiwari_A, sdp:England_M, sdp:Bigatti_A .
 
+<http://symbolicdata.org/Data/Conference/SC2-SummerSchool-2017> a sd:Conference ;
+                                                                rdfs:label "SC^2 2017 - Summer School 2017" ;
+                                                                ical:dtstart "2017-07-31"^^xsd:date ;
+                                                                ical:dtend "2017-08-04"^^xsd:date ;
+                                                                ical:location "MPI Informatics, Saarbrücken, Germany" ;
+                                                                ical:description "The school introduces graduate students and researchers from academia and industry into research and methodology in both Satisfiability Checking (SAT/SMT) and Symbolic Computation with one focus on their interconnections. It combines a thorough introduction into the theory of both fields with lectures on state-of-the-art software systems and their implementation. This is supplemented with presentations by lecturers from industry discussing the practical relevance of the topics of the school. " ;
+                                                                ical:url <http://www.sc-square.org/CSA/school/> ;
+                                                                sd:hasOrganizers sdp:Sturm_T, sdp:Mueller_Jennifer, sdp:Barbosa_H, sdp:Abraham_E .
+
+<http://symbolicdata.org/Data/Conference/SC2-Workshop-2017> a sd:Conference ;
+                                                            rdfs:label "SC^2 2017 - Second International Workshop on Satisfiability Checking and Symbolic Computation" ;
+                                                            ical:dtstart "2017-07-29"^^xsd:date ;
+                                                            ical:dtend "2017-07-29"^^xsd:date ;
+                                                            ical:location "University of Kaiserslautern, Kaiserslautern, Germany" ;
+                                                            ical:description "Symbolic Computation is concerned with the algorithmic determination of exact solutions to complex mathematical problems; more recent developments in the area of Satisfiability Checking are starting to tackle similar problems but with different algorithmic and technological solutions.  The two communities share many central interests, but researchers from these two communities rarely interact.  Also, the lack of common or compatible interfaces of tools is an obstacle to their fruitful combination.  Bridges between the communities in the form of common platforms and road-maps are necessary to initiate an exchange, and to support and direct their interaction. The aim of this workshop, along the SC-square H2020 FETOPEN Coordination and Support Activity project, is to provide a time to discuss, share knowledge and experience across both communities. <br/> The workshop is open for submission and participation to everyone interested in the topics, whether they are members or associates of the SC-square H2020 FETOPEN CSA project or not." ;
+                                                            ical:url <http://www.sc-square.org/CSA/workshop2.html> ;
+                                                            sd:invitedSpeakers sdp:Avigad_J ;
+                                                            sd:hasProgramCommittee sdp:Seiler_W, sdp:Sturm_T, sdp:Avigad_J, sdp:Neubauer_F, sdp:Abraham_E, sdp:Davenport_JH, sdp:Kotsireas_IS, sdp:Giesbrecht_M, sdp:Fontaine_P, sdp:Forrest_S, sdp:Ganesh_V, sdp:Griggio_A, sdp:Kroening_D, sdp:Windsteiger_W, sdp:England_M, sdp:Jovanovic_D, sdp:Passmore_G, sdp:Bigatti_A .
+
 <http://symbolicdata.org/Data/Conference/SCSS-2016> a sd:Conference ;
                                                     rdfs:label "The 7th International Symposium on Symbolic Computation in Software Science" ;
                                                     ical:dtstart "2016-03-28"^^xsd:date ;
@@ -1320,6 +1446,14 @@ Mathematical software systems rely on a cooperation of mathematicians, designers
                                                     sd:hasGeneralChair sdp:Bouhoula_A, sdp:Ida_T ;
                                                     ical:url <http://ghourabi.net/SCSS2017> ;
                                                     sd:invitedSpeakers sdp:Huet_G .
+
+<http://symbolicdata.org/Data/Conference/SIAM-AG-2017> a sd:Conference ;
+                                                       rdfs:label "SIAM AG17 - SIAM Conference on Applied Algebraic Geometry" ;
+                                                       ical:dtstart "2017-07-31"^^xsd:date ;
+                                                       ical:dtend "2017-08-04"^^xsd:date ;
+                                                       ical:location "Georgia Institute of Technology, Atlanta, Georgia, USA" ;
+                                                       ical:description "The purpose of the SIAM Activity Group in Algebraic Geometry is to bring together researchers who use algebraic geometry in industrial and applied mathematics. \"Algebraic geometry\" is interpreted broadly to include at least: algebraic geometry, commutative algebra, noncommutative algebra, symbolic and numeric computation, algebraic and geometric combinatorics, representation theory, and algebraic topology. These methods have already seen applications in: biology, coding theory, cryptography, combustion, computational geometry, computer graphics, quantum computing, control theory, geometric design, complexity theory, machine learning, nonlinear partial differential equations, optimization, robotics, and statistics. <br/> We welcome participation from both theoretical mathematical areas and application areas not on this list which fall under this broadly interpreted notion of algebraic geometry and its applications." ;
+                                                       ical:url <https://www.siam.org/meetings/ag17/submissions.php> .
 
 <http://symbolicdata.org/Data/Conference/SIAMAG-2015> a sd:Conference ;
                                                       rdfs:label "SIAM Conference on Applied Algebraic Geometry (SIAM AG:15)" ;
@@ -1573,6 +1707,14 @@ Mathematical software systems rely on a cooperation of mathematicians, designers
                                                    ical:description "we would like to announce this conference on the occassion of Frank-Olaf Schreyer's birthday." ;
                                                    ical:contact sdp:Markwig_H, sdp:Bopp_C, sdp:Hahn_M, sdp:Tanturri_F ;
                                                    ical:url <http://www.math.uni-sb.de/ag-schreyer/conference/> .
+
+<http://symbolicdata.org/Data/Conference/WAGCA-2017> a sd:Conference ;
+                                                     rdfs:label "Workshop Arithmetic Geometry and Computer Algebra" ;
+                                                     ical:dtstart "2017-06-29"^^xsd:date ;
+                                                     ical:dtend "2017-07-01"^^xsd:date ;
+                                                     ical:location "University Oldenburg, Germany" ;
+                                                     ical:description "The idea of the workshop is to bring together arithmetic geometers who use computer algebra in their research and experts in computer algebra who work on algorithms motivated by or used in arithmetic geometry. Besides talks about new and improved algorithms and their applications in arithmetic geometry, we will also have presentations by developers of some of the major computer algebra systems and libraries used in arithmetic geometry about recent functionality and future plans. There will be ample time for discussions and collaboration and for trying out and developing new functionality." ;
+                                                     ical:url <http://www.uol.de/math/wagca> .
 
 <http://symbolicdata.org/Data/Conference/WGR-14> a sd:Conference ;
                                                  rdfs:label "Workshop on Galois representations" ;
