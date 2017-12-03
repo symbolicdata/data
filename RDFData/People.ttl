@@ -40,6 +40,9 @@ sdp:Abramov_S a foaf:Person ;
 sdp:Acevedo_C a foaf:Person ;
               foaf:name "Carmela Acevedo" .
 
+sdp:Achilles_R a foaf:Person ;
+               foaf:name "Rüdiger Achilles" .
+
 sdp:Adam_M a foaf:Person ;
            foaf:name "Michael Adam" .
 
@@ -474,6 +477,10 @@ sdp:Bouhoula_A a foaf:Person ;
                foaf:name "Adel Bouhoula" ;
                sd:affiliation "Carthage University, Tunisia" .
 
+sdp:Boulier_F a foaf:Person ;
+              foaf:name "François Boulier" ;
+              sd:affiliation "Lille, France" .
+
 sdp:Bourke_T a foaf:Person ;
              foaf:name "Timothy Bourke" .
 
@@ -523,6 +530,9 @@ sdp:Brickenstein_M a foaf:Person ;
 
 sdp:Bridge_J a foaf:Person ;
              foaf:name "James Bridge" .
+
+sdp:Brodmann_M a foaf:Person ;
+               foaf:name "Markus Brodmann" .
 
 sdp:Broue_M a foaf:Person ;
             foaf:name "Michel Broué" ;
@@ -2001,6 +2011,9 @@ sdp:Kastner_L a foaf:Person ;
               foaf:name "Lars Kastner" ;
               sd:affiliation "FU Berlin" .
 
+sdp:Katsabekis_A a foaf:Person ;
+                 foaf:name "Anargyros Katsabekis" .
+
 sdp:Katsura_W a foaf:Person ;
               foaf:name "W. Katsura" .
 
@@ -2683,6 +2696,9 @@ sdp:Mechling_R a foaf:Person ;
 sdp:Melenk_H a foaf:Person ;
              foaf:name "Herbert Melenk" .
 
+sdp:Melkersson_L a foaf:Person ;
+                 foaf:name "Leif Melkersson" .
+
 sdp:Mendez_J a foaf:Person ;
              foaf:name "Jose Mendez" .
 
@@ -2792,6 +2808,9 @@ sdp:Monks_K a foaf:Person ;
 sdp:Monniaux_D a foaf:Person ;
                foaf:name "David Monniaux" ;
                sd:affiliation "VERIMAG" .
+
+sdp:Montaner_JA a foaf:Person ;
+                foaf:name "Josep Alvarez Montaner" .
 
 sdp:Montes_A a foaf:Person ;
              foaf:name "Antonio Montes" ;
@@ -2962,6 +2981,9 @@ sdp:Newman_MF a foaf:Person ;
 sdp:Nghiem_MQ a foaf:Person ;
               foaf:name "Minh-Quoc Nghiem" .
 
+sdp:Nguyen_DH a foaf:Person ;
+              foaf:name "Dang Hop Nguyen" .
+
 sdp:Nicaud_JF a foaf:Person ;
               foaf:name "Jean-François Nicaud" .
 
@@ -3100,6 +3122,9 @@ sdp:Panzer_E a foaf:Person ;
 
 sdp:Papanikolaou_T a foaf:Person ;
                    foaf:name "Thomas Papanikolaou" .
+
+sdp:Park_E a foaf:Person ;
+           foaf:name "Euisung Park" .
 
 sdp:Parrilo_P a foaf:Person ;
               foaf:name "Pablo Parrilo" ;
@@ -3798,6 +3823,10 @@ sdp:Shallit_J a foaf:Person ;
               foaf:name "Jeffrey Shallit" ;
               sd:affiliation "University of Waterloo, Canada" .
 
+sdp:Sharir_M a foaf:Person ;
+             foaf:name "Micha Sharir" ;
+             sd:affiliation "Tel Aviv University, Israel" .
+
 sdp:Sharma_V a foaf:Person ;
              foaf:name "Vikram Sharma" ;
              sd:affiliation "Institute of Math Sciences, Chennai, India" .
@@ -3835,6 +3864,13 @@ sdp:Siersma_D a foaf:Person ;
 
 sdp:Silva_R a foaf:Person ;
             foaf:name "Raniere Silva" .
+
+sdp:Simon_AM a foaf:Person ;
+             foaf:name "Anne-Marie Simon" .
+
+sdp:Simos_DE a foaf:Person ;
+             foaf:name "Dimitris E. Simos" ;
+             sd:affiliation "SBA Research, Austria" .
 
 sdp:Skomra_M a foaf:Person ;
              foaf:name "Mateusz Skomra" ;
@@ -4206,6 +4242,9 @@ sdp:Trott_M a foaf:Person ;
             foaf:name "Michael Trott" ;
             foaf:homepage <http://www.mathematicaguidebooks.org/aboutauthor.shtml> .
 
+sdp:Trung_NV a foaf:Person ;
+             foaf:name "Ngo Viet Trung" .
+
 sdp:Tscheulin_F a foaf:Person ;
                 foaf:name "Felix Tscheulin" .
 
@@ -4326,6 +4365,10 @@ sdp:Voll_C a foaf:Person ;
 sdp:Voronkov_A a foaf:Person ;
                foaf:name "Andrei Voronkov" ;
                sd:affiliation "The University of Manchester, UK" .
+
+sdp:Vorozhtsov_EV a foaf:Person ;
+                  foaf:name "Evgenii V. Vorozhtsov" ;
+                  sd:affiliation "Novosibirsk, Russia" .
 
 sdp:Vuckovic_B a foaf:Person ;
                foaf:name "Bojan Vuckovic" .
@@ -4521,6 +4564,10 @@ sdp:WoltzenlogelPaleo_B a foaf:Person ;
 
 sdp:Wosch_EAT a foaf:Person ;
               foaf:name "Erwin A.T. Wosch" .
+
+sdp:Wu_J a foaf:Person ;
+         foaf:name "Jinzhao Wu" ;
+         sd:affiliation "Guangxi University for Nationalities, China" .
 
 sdp:Wu_WT a foaf:Person ;
           foaf:name "W.-T. Wu" .
