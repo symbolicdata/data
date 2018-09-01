@@ -118,7 +118,3 @@
     rdfs:comment "SD Transitive Groups, extracted from http://galoisdb.math.uni-paderborn.de, AN May 2013", "blank nodes removed, classes sd:DirectProduct and sd:WreathProduct added, HGG 2016-02-21, 2016-03-01" ;
     dct:title "SD Transitive Groups" .
 
-<http://symbolicdata.org/Data/UpcomingConferences/>
-    a dcat:Dataset ;
-    dct:title "CASN: Upcoming Conferences"  .
-
