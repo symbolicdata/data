@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<FREEALGEBRA createdAt="2017-12-08" createdBy="abouzeid">
+  <vars>a,b,c,d</vars>
+  <uptoDeg>7</uptoDeg>
+  <basis>
+    <ncpoly>a*a-a</ncpoly>
+    <ncpoly>b*b-b</ncpoly>
+    <ncpoly>c*c-c</ncpoly>
+    <ncpoly>d*d-d</ncpoly>
+    <ncpoly>a*b*a-a*b</ncpoly>
+    <ncpoly>b*a*b-a*b</ncpoly>
+    <ncpoly>a*c*a-a*c</ncpoly>
+    <ncpoly>c*a*c-a*c</ncpoly>
+    <ncpoly>a*d*a-a*d</ncpoly>
+    <ncpoly>d*a*d-a*d</ncpoly>
+    <ncpoly>b*c*b-b*c</ncpoly>
+    <ncpoly>c*b*c-b*c</ncpoly>
+    <ncpoly>b*d*b-b*d</ncpoly>
+    <ncpoly>d*b*d-b*d</ncpoly>
+    <ncpoly>c*d*c-c*d</ncpoly>
+    <ncpoly>d*c*d-c*d</ncpoly>
+  </basis>
+</FREEALGEBRA>

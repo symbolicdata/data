@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<FREEALGEBRA createdAt="2018-07-13" createdBy="levandov">
+  <vars>h,f,e,H</vars>
+  <uptoDeg>5</uptoDeg>
+  <basis>
+  <ncpoly>f*e-e*f+h*H</ncpoly>
+  <ncpoly>h*e-e*h-2*e*H</ncpoly>
+  <ncpoly>h*f-f*h+2*f*H</ncpoly>
+  <ncpoly>f*H-H*f</ncpoly>
+  <ncpoly>e*H-H*e</ncpoly>
+  <ncpoly>h*H-H*h</ncpoly>
+  <ncpoly>4*e*f+h*h-2*H*h</ncpoly>
+  </basis>
+  <Comment>Semiautomatrically generated; H is the homog variable; last gen is central</Comment>
+</FREEALGEBRA>

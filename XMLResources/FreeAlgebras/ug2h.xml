@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <FREEALGEBRA createdAt="2014-01-02" createdBy="levandov">
-  <vars>h,H2,H1,y6,y5,y4,y3,y2,y1,x6,x5,x4,x3,x2,x1</vars>
+  <vars>x1,x2,x3,x4,x5,x6,y1,y2,y3,y4,y5,y6,H1,H2,h</vars>
   <uptoDeg>4</uptoDeg>
   <basis>
 		<ncpoly>x2*x1-x1*x2-x3*h</ncpoly>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<FREEALGEBRA createdAt="2018-02-02" createdBy="abouzeid">
+  <vars>x,y,z</vars>
+  <uptoDeg>20</uptoDeg>
+  <basis>
+    <ncpoly>y*x*y-z*y*z</ncpoly>
+    <ncpoly>x*y*x-z*x*y</ncpoly>
+    <ncpoly>z*x*z-y*z*x</ncpoly>
+    <ncpoly>x*x*x+y*y*y+z*z*z+x*y*z</ncpoly>
+  </basis>
+</FREEALGEBRA>

@@ -7,9 +7,9 @@
     <ncpoly>y*z*x*y-x*y*z*x</ncpoly>
     <ncpoly>z*x*y*z-x*y*z*x</ncpoly>
     <ncpoly>z*x*y*z-y*z*x*y</ncpoly>
-    <ncpoly>x*x-(a1+a2)*x*h+a1*a2*h*h</ncpoly>
-    <ncpoly>y*y-(a1+a2)*y*h+a1*a2*h*h</ncpoly>
-    <ncpoly>z*z-(a1+a2)*z*h+a1*a2*h*h</ncpoly>
+    <ncpoly>x*x-a1*x*h-a2*x*h+a1*a2*h*h</ncpoly>
+    <ncpoly>y*y-a1*y*h-a2*y*h+a1*a2*h*h</ncpoly>
+    <ncpoly>z*z-a1*z*h-a2*z*h+a1*a2*h*h</ncpoly>
     <ncpoly>x*h-h*x</ncpoly>
     <ncpoly>y*h-h*y</ncpoly>
     <ncpoly>z*h-h*z</ncpoly>
