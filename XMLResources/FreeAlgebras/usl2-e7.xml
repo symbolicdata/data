@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <FREEALGEBRA createdAt="2014-01-02" createdBy="levandov">
   <vars>h,f,e</vars>
-  <uptoDeg>9</uptoDeg>
+  <uptoDeg>14</uptoDeg>
   <basis>
   <ncpoly>f*e-e*f+h</ncpoly>
   <ncpoly>h*e-e*h-2*e</ncpoly>
