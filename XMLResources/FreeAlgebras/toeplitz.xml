@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<FREEALGEBRA createdAt="2017-11-17" createdBy="abouzeid">
+  <vars>y,x</vars>
+  <uptoDeg>4</uptoDeg>
+  <basis>
+    <ncpoly>y*x-1</ncpoly>
+  </basis>
+</FREEALGEBRA>
