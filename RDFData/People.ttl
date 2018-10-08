@@ -1602,7 +1602,7 @@ sdp:Helminck_P a foaf:Person ;
 
 sdp:Hemmecke_Ralf a foaf:Person ;
                   foaf:name "Ralf Hemmecke" ;
-                  foaf:homepage <https://portal.risc.jku.at/Members/hemmecke> .
+                  foaf:homepage <http://hemmecke.org> .
 
 sdp:Hemmecke_Raymond a foaf:Person ;
                      foaf:name "Raymond Hemmecke" ;
